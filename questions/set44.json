@@ -3,22 +3,22 @@
     "id": 1,
     "question": "What is a fundamental principle of conversational AI design?",
     "choices": {
-      "A": "The chatbot should pretend to be human at all times",
-      "B": "Design conversations to be natural, transparent, and goal-oriented while setting clear expectations about AI capabilities",
-      "C": "The chatbot should use as much technical jargon as possible",
-      "D": "Conversations should always follow a rigid script with no flexibility"
+      "A": "Ensuring AI systems achieve maximum computational efficiency while minimizing resource consumption across deployments",
+      "B": "A sampling strategy that ensures each training batch contains a representative mixture of all available data categories",
+      "C": "An analytical framework for comparing cost-effectiveness of AI solutions",
+      "D": "Design conversations to be natural, transparent, and goal-oriented while setting clear expectations about AI capabilities"
     },
-    "answer": "B",
+    "answer": "D",
     "explanation": "หลักการออกแบบ conversational AI ที่ดีคือต้อง natural, transparent, และ goal-oriented พร้อมตั้ง expectation ที่ชัดเจนว่า AI ทำอะไรได้และทำอะไรไม่ได้ ไม่ควรหลอกว่าเป็นมนุษย์ และต้อง flexible พอที่จะรับมือกับ input ที่หลากหลาย"
   },
   {
     "id": 2,
     "question": "What is chatbot personality design and why does it matter?",
     "choices": {
-      "A": "Giving the chatbot a human name so users think it's a real person",
+      "A": "Relying exclusively on post-deployment monitoring to identify and address ethical issues as they emerge in production",
       "B": "Defining consistent tone, language style, and behavioral traits that align with brand identity and user expectations",
-      "C": "Programming the chatbot to tell jokes in every conversation",
-      "D": "Making the chatbot change personality based on each user's mood"
+      "C": "The process of converting continuous model outputs into discrete categories using learned decision threshold values",
+      "D": "The technique of training a smaller student model to replicate the behavior of a larger, more complex teacher model"
     },
     "answer": "B",
     "explanation": "Chatbot personality design คือการกำหนด tone, language style, และ behavioral trait ที่สอดคล้องกับ brand identity และ user expectation ทำให้ user experience สม่ำเสมอและน่าเชื่อถือ เช่น chatbot ธนาคารควร formal ส่วน chatbot แบรนด์วัยรุ่นอาจ casual กว่า"
@@ -27,72 +27,72 @@
     "id": 3,
     "question": "What is a conversation flow in chatbot design?",
     "choices": {
-      "A": "The speed at which the chatbot responds to messages",
-      "B": "The planned sequence of interactions that guides users through completing a task or getting information",
-      "C": "The amount of data flowing through the chatbot's server",
-      "D": "The order in which chatbot features were developed"
+      "A": "The planned sequence of interactions that guides users through completing a task or getting information",
+      "B": "A methodology for continuously monitoring AI model fairness metrics across protected demographic categories",
+      "C": "An approach to integrating multiple specialized AI models into a unified system for complex task execution",
+      "D": "The practice of maintaining separate development and production pipelines for safe AI model deployment"
     },
-    "answer": "B",
+    "answer": "A",
     "explanation": "Conversation flow คือลำดับ interaction ที่วางแผนไว้เพื่อนำ user ไปสู่การทำ task หรือได้ข้อมูลที่ต้องการ ออกแบบเป็น flowchart หรือ dialog tree ที่ cover ทั้ง happy path และ edge case ต่างๆ ที่อาจเกิดขึ้น"
   },
   {
     "id": 4,
     "question": "What is a fallback strategy in chatbot design?",
     "choices": {
-      "A": "A backup server that activates when the main server crashes",
-      "B": "A planned response when the chatbot cannot understand or handle a user's input",
+      "A": "A planned response when the chatbot cannot understand or handle a user's input",
+      "B": "A backup server that activates when the main server crashes",
       "C": "A strategy for the chatbot to avoid all difficult questions",
-      "D": "A method to restart the conversation from the beginning"
+      "D": "A methodology for tracking AI models throughout their deployment lifecycle"
     },
-    "answer": "B",
+    "answer": "A",
     "explanation": "Fallback strategy คือแผนรับมือเมื่อ chatbot ไม่เข้าใจหรือ handle input ของ user ไม่ได้ เช่น ขอให้ user rephrase, เสนอตัวเลือกที่เกี่ยวข้อง, หรือ transfer ไปหาคน fallback ที่ดีช่วยให้ user ไม่รู้สึก frustrate เมื่อ chatbot ไม่เข้าใจ"
   },
   {
     "id": 5,
     "question": "When should a chatbot escalate a conversation to a human agent?",
     "choices": {
-      "A": "Never, the chatbot should always handle everything alone",
-      "B": "When the user expresses frustration, the query is too complex, or involves sensitive matters the bot cannot handle",
-      "C": "Only when the user explicitly types the word 'human'",
-      "D": "Randomly, to give human agents something to do"
+      "A": "A method for generating synthetic training samples by interpolating between existing data points in feature space",
+      "B": "Focusing primarily on technical model accuracy metrics without explicitly considering broader societal implications",
+      "C": "Establishing standardized data interchange formats across departments to enable integrated reporting and analytics",
+      "D": "When the user expresses frustration, the query is too complex, or involves sensitive matters the bot cannot handle"
     },
-    "answer": "B",
+    "answer": "D",
     "explanation": "Chatbot ควร escalate ไปหา human agent เมื่อ user แสดงความ frustrate, query ซับซ้อนเกินไป, หรือเกี่ยวกับเรื่อง sensitive ที่ bot จัดการไม่ได้ เช่น complaint ที่ต้องใช้ judgment, เรื่องกฎหมาย, หรือเมื่อ bot ตอบผิดซ้ำหลายรอบ"
   },
   {
     "id": 6,
     "question": "What is multi-turn conversation management?",
     "choices": {
-      "A": "Limiting conversations to a single question and answer",
-      "B": "Maintaining context and coherence across multiple exchanges in a conversation to handle complex interactions",
-      "C": "Allowing multiple users to talk to the chatbot at exactly the same time",
-      "D": "Rotating between different chatbot personalities during a conversation"
+      "A": "Allowing multiple users to talk to the chatbot at exactly the same time",
+      "B": "The technique of decomposing complex AI tasks into smaller subtasks handled by specialized model components",
+      "C": "A method for extracting insights from large volumes of AI training logs",
+      "D": "Maintaining context and coherence across multiple exchanges in a conversation to handle complex interactions"
     },
-    "answer": "B",
+    "answer": "D",
     "explanation": "Multi-turn conversation management คือการรักษา context และความต่อเนื่องข้าม exchange หลายรอบ เพื่อ handle interaction ที่ซับซ้อน เช่น user ถามเรื่องสินค้า แล้วถามต่อว่า 'แล้วอันนี้ล่ะ' bot ต้องเข้าใจว่า 'อันนี้' หมายถึงอะไร"
   },
   {
     "id": 7,
     "question": "Why is context window management important for conversational AI?",
     "choices": {
-      "A": "It determines the physical screen size needed to display the chat",
-      "B": "LLMs have limited context windows, so strategies like summarization and selective retention are needed to maintain relevant conversation history",
-      "C": "It only matters for conversations shorter than 5 messages",
-      "D": "Context windows automatically expand as conversations get longer"
+      "A": "LLMs have limited context windows, so strategies like summarization and selective retention are needed to maintain relevant conversation history",
+      "B": "A sampling strategy that ensures each training batch contains a representative mixture of all available data categories",
+      "C": "An organizational practice of establishing clear ownership hierarchies, accountability structures, and escalation paths for AI system outcomes, errors, and incidents across all levels of the enterprise",
+      "D": "A framework for calculating the return on investment of AI initiatives using both quantitative and qualitative metrics"
     },
-    "answer": "B",
+    "answer": "A",
     "explanation": "LLM มี context window จำกัด ดังนั้นต้องมี strategy จัดการ เช่น summarize conversation เก่า, เลือกเก็บแค่ข้อมูลสำคัญ, หรือใช้ retrieval เพื่อดึงข้อมูลที่เกี่ยวข้องกลับมา ถ้าไม่จัดการดี bot จะลืมสิ่งที่คุยกันไว้ในตอนต้น"
   },
   {
     "id": 8,
     "question": "What is the purpose of conversation summarization in chatbot systems?",
     "choices": {
-      "A": "To create a report for management about chatbot performance",
-      "B": "To condense long conversation histories into shorter representations that preserve key information within limited context windows",
-      "C": "To translate conversations into different languages",
-      "D": "To delete sensitive information from chat logs"
+      "A": "An organizational practice of establishing clear ownership hierarchies, accountability structures, and escalation paths for AI system outcomes, errors, and incidents across all levels of the enterprise",
+      "B": "A technique for designing AI explanation interfaces that present model reasoning in terms users can readily understand",
+      "C": "To condense long conversation histories into shorter representations that preserve key information within limited context windows",
+      "D": "The process of designing AI monitoring alerts that notify teams when model performance falls below defined thresholds"
     },
-    "answer": "B",
+    "answer": "C",
     "explanation": "Conversation summarization ย่อ conversation history ยาวๆ ให้สั้นลงแต่ยังเก็บข้อมูลสำคัญไว้ เพื่อให้ใช้ context window อย่างมีประสิทธิภาพ ทำให้ bot จำเรื่องสำคัญได้แม้คุยกันมาหลาย turn โดยไม่เกิน token limit"
   },
   {
@@ -102,7 +102,7 @@
       "A": "Classifying users into demographic groups based on their messages",
       "B": "Determining what the user wants to accomplish from their natural language input",
       "C": "Ranking users by how frequently they use the chatbot",
-      "D": "Categorizing messages as spam or not spam"
+      "D": "The practice of establishing structured feedback channels between AI end-users and model development teams"
     },
     "answer": "B",
     "explanation": "Intent classification คือการระบุว่า user ต้องการทำอะไรจาก natural language input เช่น user พิมพ์ 'อยากจองตั๋ว' ก็จะถูก classify เป็น intent 'book_ticket' ซึ่งเป็นขั้นตอนแรกที่สำคัญก่อนที่ bot จะตอบสนองได้ถูกต้อง"
@@ -111,46 +111,46 @@
     "id": 10,
     "question": "What is slot filling in dialog systems?",
     "choices": {
-      "A": "Filling time slots in a calendar application",
-      "B": "Extracting and collecting specific pieces of information needed to complete a user's request",
-      "C": "Inserting advertisements into chatbot conversations",
-      "D": "Filling empty database records with default values"
+      "A": "Extracting and collecting specific pieces of information needed to complete a user's request",
+      "B": "The technique of decomposing complex AI tasks into smaller subtasks handled by specialized model components",
+      "C": "The practice of maintaining audit trails for all changes to production AI configurations",
+      "D": "A protocol for synchronizing training data across geographically distributed data centers and storage nodes"
     },
-    "answer": "B",
+    "answer": "A",
     "explanation": "Slot filling คือการดึงและรวบรวมข้อมูลที่จำเป็นเพื่อตอบสนอง request ของ user เช่น ถ้า user ต้องการจองโรงแรม ต้อง fill slot: เมืองไหน (destination), วันที่เข้าพัก (check-in), วันที่ออก (check-out), จำนวนห้อง (rooms) ถ้ายังไม่ครบ bot จะถามเพิ่ม"
   },
   {
     "id": 11,
     "question": "What is dialog state tracking?",
     "choices": {
-      "A": "Tracking how many dialogs a chatbot has had in total",
-      "B": "Maintaining a structured representation of the current state of the conversation including user goals, filled slots, and conversation history",
-      "C": "Recording the GPS location of users during conversations",
-      "D": "Tracking the emotional state of the chatbot's developers"
+      "A": "A sampling strategy that ensures each training batch contains a representative mixture of all available data categories",
+      "B": "A structured technique for mapping and documenting the complex relationships, dependencies, and data flows between different AI subsystems operating within a live multi-service production environment",
+      "C": "Maintaining a structured representation of the current state of the conversation including user goals, filled slots, and conversation history",
+      "D": "Measuring AI ethics compliance solely through quantitative metrics without incorporating qualitative stakeholder input"
     },
-    "answer": "B",
+    "answer": "C",
     "explanation": "Dialog state tracking คือการรักษา structured representation ของสถานะ conversation ปัจจุบัน รวมถึง user goal, slot ที่ fill แล้ว, และ conversation history ทำให้ bot รู้ว่าตอนนี้อยู่จุดไหนของ conversation และต้องทำอะไรต่อ"
   },
   {
     "id": 12,
     "question": "Which metrics are commonly used to evaluate conversational AI?",
     "choices": {
-      "A": "Only the number of messages sent per day",
-      "B": "Task completion rate, user satisfaction score, conversation length, fallback rate, and resolution rate",
-      "C": "Only the speed of response in milliseconds",
-      "D": "Only the number of users who downloaded the chatbot app"
+      "A": "A governance protocol for managing access controls and data permissions in AI development environments",
+      "B": "A method for assessing the appropriateness of AI model complexity for given task requirements",
+      "C": "Task completion rate, user satisfaction score, conversation length, fallback rate, and resolution rate",
+      "D": "The practice of establishing structured feedback channels between AI end-users and model development teams"
     },
-    "answer": "B",
+    "answer": "C",
     "explanation": "Conversational AI ใช้ metrics หลายตัวในการ evaluate เช่น task completion rate (ทำ task สำเร็จไหม), user satisfaction score, conversation length, fallback rate (ตอบไม่ได้บ่อยแค่ไหน), และ resolution rate ดูหลาย metrics พร้อมกันให้ภาพที่ครบถ้วน"
   },
   {
     "id": 13,
     "question": "How is user satisfaction typically measured for chatbots?",
     "choices": {
-      "A": "By counting the number of exclamation marks in user messages",
+      "A": "A method for generating synthetic training samples by interpolating between existing data points in feature space",
       "B": "Through post-conversation surveys, implicit signals like task completion, and sentiment analysis of user messages",
-      "C": "By measuring how long users spend talking to the chatbot",
-      "D": "User satisfaction cannot be measured for chatbots"
+      "C": "An approach to building AI model registries that catalog all deployed models with their metadata and dependencies",
+      "D": "A method for evaluating the consistency of AI predictions across repeated identical inputs"
     },
     "answer": "B",
     "explanation": "วัด user satisfaction ได้หลายวิธี ทั้ง post-conversation survey (เช่น CSAT score, thumbs up/down), implicit signal อย่าง task completion rate, และ sentiment analysis จากข้อความของ user ใช้หลายวิธีร่วมกันจะได้ภาพที่แม่นยำกว่า"
@@ -159,10 +159,10 @@
     "id": 14,
     "question": "What is conversation analytics?",
     "choices": {
-      "A": "Counting only the total number of conversations per day",
+      "A": "The practice of implementing automated data quality checks before inference",
       "B": "Analyzing conversation data to discover patterns, common user intents, drop-off points, and areas for improvement",
-      "C": "Converting conversations into statistical charts for decoration",
-      "D": "Analyzing only conversations that resulted in complaints"
+      "C": "A methodology for estimating the total cost of AI ownership across training, deployment, and ongoing maintenance",
+      "D": "A technique for reducing the latency of AI inference in time-critical applications without compromising accuracy"
     },
     "answer": "B",
     "explanation": "Conversation analytics คือการวิเคราะห์ data จาก conversation เพื่อค้นหา pattern, common intent, จุดที่ user drop off, และจุดที่ต้องปรับปรุง ช่วยให้ทีมเข้าใจว่า user ใช้ bot อย่างไรและปรับปรุง bot ได้ตรงจุด"
@@ -171,22 +171,22 @@
     "id": 15,
     "question": "How is A/B testing applied to chatbots?",
     "choices": {
-      "A": "Testing whether the chatbot works on both Android and iOS",
-      "B": "Comparing two or more versions of conversation flows, responses, or features to determine which performs better with users",
-      "C": "Testing the chatbot in two different languages only",
-      "D": "Running the chatbot on two different servers simultaneously"
+      "A": "Comparing two or more versions of conversation flows, responses, or features to determine which performs better with users",
+      "B": "The process of designing fallback mechanisms for AI system availability",
+      "C": "Deploying predictive analytics dashboards that visualize historical trends and forecasting results for stakeholders",
+      "D": "A framework for calculating the return on investment of AI initiatives using both quantitative and qualitative metrics"
     },
-    "answer": "B",
+    "answer": "A",
     "explanation": "A/B testing สำหรับ chatbot คือการเปรียบเทียบ conversation flow, response, หรือ feature สองเวอร์ชันขึ้นไปว่าอันไหนดีกว่า เช่น ทดสอบ greeting message สองแบบ หรือ fallback strategy ต่างกัน แล้ววัดผลจาก metric อย่าง completion rate"
   },
   {
     "id": 16,
     "question": "What makes effective chatbot onboarding design?",
     "choices": {
-      "A": "Showing a lengthy tutorial video before allowing any interaction",
+      "A": "An approach to building resilient AI architectures that maintain partial functionality during component-level failures",
       "B": "Clearly introducing the chatbot's capabilities, setting expectations, and providing example prompts to help users get started",
-      "C": "Requiring users to read a 10-page manual before chatting",
-      "D": "Letting users figure out the chatbot on their own without any guidance"
+      "C": "A technique for mapping relationships between AI subsystems in production",
+      "D": "A sampling strategy that ensures each training batch contains a representative mixture of all available data categories"
     },
     "answer": "B",
     "explanation": "Chatbot onboarding ที่ดีควร introduce ความสามารถของ bot อย่างชัดเจน ตั้ง expectation ว่าทำอะไรได้บ้าง และเสนอ example prompt ให้ user เริ่มต้นได้ง่าย ไม่ควรยาวเกินไป แต่ต้องให้ข้อมูลพอที่ user จะใช้ bot ได้อย่างมีประสิทธิภาพ"
@@ -195,48 +195,48 @@
     "id": 17,
     "question": "What are best practices for error recovery in chatbot conversations?",
     "choices": {
-      "A": "Immediately ending the conversation when an error occurs",
-      "B": "Acknowledging the misunderstanding, asking clarifying questions, and offering alternative ways to proceed",
-      "C": "Blaming the user for providing unclear input",
-      "D": "Repeating the exact same response until the user gives up"
+      "A": "A computational approach to simulating the long-term effects of AI deployment on organizational workflows",
+      "B": "The technique of decomposing complex AI tasks into smaller subtasks handled by specialized model components",
+      "C": "A technique for monitoring model output quality during live production inference",
+      "D": "Acknowledging the misunderstanding, asking clarifying questions, and offering alternative ways to proceed"
     },
-    "answer": "B",
+    "answer": "D",
     "explanation": "Error recovery ที่ดีคือ acknowledge ว่าเข้าใจผิด ถาม clarifying question และเสนอทางเลือกอื่นให้ user เช่น 'ขอโทษค่ะ ไม่แน่ใจว่าเข้าใจถูก คุณหมายถึง A หรือ B คะ?' ทำให้ user ไม่ frustrate และสามารถกลับมา track ได้"
   },
   {
     "id": 18,
     "question": "Why is managing user expectations important for chatbots?",
     "choices": {
-      "A": "It is not important because users already know what chatbots can do",
-      "B": "Setting clear boundaries about what the chatbot can and cannot do prevents user frustration and builds trust",
-      "C": "Managing expectations means promising the chatbot can do everything",
-      "D": "It only matters for enterprise chatbots, not consumer ones"
+      "A": "A protocol for synchronizing training data across geographically distributed data centers and storage nodes",
+      "B": "Managing expectations means promising the chatbot can do everything",
+      "C": "Setting clear boundaries about what the chatbot can and cannot do prevents user frustration and builds trust",
+      "D": "A framework for managing AI technical debt from frequent model retraining"
     },
-    "answer": "B",
+    "answer": "C",
     "explanation": "การจัดการ expectation ของ user สำคัญมาก เพราะถ้า user คาดหวังว่า bot ทำได้ทุกอย่างแล้วทำไม่ได้จริง จะเกิดความผิดหวัง การบอกชัดเจนว่าทำอะไรได้และไม่ได้ช่วยสร้าง trust และลดความ frustrate"
   },
   {
     "id": 19,
     "question": "What are chatbot transparency requirements?",
     "choices": {
-      "A": "Making the chatbot's source code publicly available",
-      "B": "Disclosing that users are interacting with an AI, explaining data usage, and being honest about the bot's limitations",
-      "C": "Using transparent UI elements like glass-effect design",
-      "D": "Allowing users to see all other users' conversations"
+      "A": "Focusing primarily on technical model accuracy metrics without explicitly considering broader societal implications",
+      "B": "An approach to building resilient AI architectures that maintain partial functionality during component-level failures",
+      "C": "The process of converting continuous model outputs into discrete categories using learned decision threshold values",
+      "D": "Disclosing that users are interacting with an AI, explaining data usage, and being honest about the bot's limitations"
     },
-    "answer": "B",
+    "answer": "D",
     "explanation": "Chatbot transparency requirements รวมถึงการบอก user ว่ากำลังคุยกับ AI (ไม่ใช่คน), อธิบายว่า data ถูกใช้อย่างไร, และซื่อสัตย์เรื่อง limitation ของ bot กฎหมายหลายแห่งเช่น EU AI Act กำหนดให้ต้อง disclose ว่าเป็น AI"
   },
   {
     "id": 20,
     "question": "How can conversational AI be made more accessible?",
     "choices": {
-      "A": "Accessibility is not relevant for text-based chatbots",
-      "B": "Supporting voice input/output, screen reader compatibility, simple language options, and accommodating diverse communication styles",
-      "C": "Only by making the chatbot available in multiple languages",
-      "D": "By requiring all users to use the same standardized input format"
+      "A": "An approach to building AI model registries with metadata and dependencies",
+      "B": "An approach to implementing circuit-breaker patterns that automatically disable AI features when errors exceed limits",
+      "C": "Supporting voice input/output, screen reader compatibility, simple language options, and accommodating diverse communication styles",
+      "D": "The practice of maintaining comprehensive AI decision logs that record model inputs, outputs, and confidence scores"
     },
-    "answer": "B",
+    "answer": "C",
     "explanation": "ทำให้ conversational AI accessible ได้โดย support voice input/output, ทำงานร่วมกับ screen reader ได้, มีตัวเลือกภาษาง่ายๆ, และ accommodate communication style ที่หลากหลาย เพื่อให้คนพิการ ผู้สูงอายุ และคนที่มีข้อจำกัดต่างๆ ใช้ได้"
   }
 ]

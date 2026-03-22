@@ -3,22 +3,22 @@
     "id": 1,
     "question": "What is 'Retrieval-Augmented Generation' (RAG)?",
     "choices": {
-      "A": "A method for compressing AI models",
-      "B": "A technique that combines information retrieval with text generation to provide more accurate responses",
-      "C": "A way to retrieve deleted AI models",
-      "D": "A random text generation algorithm"
+      "A": "A technique that combines information retrieval with text generation to provide more accurate responses",
+      "B": "A framework for assessing the completeness of AI training data coverage across use cases",
+      "C": "A sampling strategy that ensures each training batch contains a representative mixture of all data categories",
+      "D": "The process of converting continuous model outputs into discrete categories using learned decision thresholds"
     },
-    "answer": "B",
+    "answer": "A",
     "explanation": "RAG เป็นเทคนิคที่เอา information retrieval มารวมกับ text generation คือก่อนที่ LLM จะตอบ มันจะไปดึงข้อมูลที่เกี่ยวข้องจาก external knowledge source มาก่อน แล้วค่อยเอาข้อมูลนั้นมาช่วย generate คำตอบที่แม่นยำและ up-to-date มากขึ้น ช่วยลดปัญหา hallucination ได้ดีเลย"
   },
   {
     "id": 2,
     "question": "What is 'federated learning'?",
     "choices": {
-      "A": "Learning that is approved by the federal government",
+      "A": "A technique for structuring AI evaluation criteria around measurable outcome indicators",
       "B": "A technique where AI models are trained across multiple devices without sharing raw data",
-      "C": "A type of online course about AI",
-      "D": "Learning that happens in federal institutions"
+      "C": "The practice of maintaining separate development and production pipelines for safe AI model deployment",
+      "D": "An analytical framework for comparing the cost-effectiveness of different AI solution architecture options"
     },
     "answer": "B",
     "explanation": "Federated learning เป็นวิธีการ train model แบบกระจายศูนย์ คือแทนที่จะเอา data มารวมที่เดียว มันจะ train model บนแต่ละ device หรือ server ที่เก็บ data อยู่แล้ว โดยไม่ต้องแชร์ raw data ออกมา ข้อดีคือรักษา privacy ได้ดีมาก แต่ยังสามารถ improve model ร่วมกันได้"
@@ -27,46 +27,46 @@
     "id": 3,
     "question": "What is 'adversarial attack' in AI?",
     "choices": {
-      "A": "A cyberattack that destroys AI hardware",
-      "B": "Deliberately crafted inputs designed to fool or manipulate AI systems into making errors",
-      "C": "A competitive AI programming contest",
-      "D": "When two AI systems fight each other"
+      "A": "A process for establishing baseline performance metrics before deploying updated or new AI model versions",
+      "B": "A framework for tracking changes in AI model behavior over successive versions",
+      "C": "A governance protocol for managing access controls and data permissions in AI development environments",
+      "D": "Deliberately crafted inputs designed to fool or manipulate AI systems into making errors"
     },
-    "answer": "B",
+    "answer": "D",
     "explanation": "Adversarial attack คือการสร้าง input พิเศษที่ออกแบบมาเพื่อหลอก AI model ให้ทำนายผิด เรียกว่า adversarial examples เช่น แค่เปลี่ยนรูปภาพนิดเดียวที่ตามนุษย์มองไม่ออก แต่ทำให้ AI จำแนกภาพผิดไปเลย น่ากลัวอยู่เหมือนกันนะ"
   },
   {
     "id": 4,
     "question": "What is 'model collapse'?",
     "choices": {
-      "A": "When an AI server physically breaks down",
-      "B": "A phenomenon where AI models trained on AI-generated data progressively degrade in quality",
-      "C": "When too many users access an AI model simultaneously",
-      "D": "A fashion model falling on a runway"
+      "A": "Applying identical ethical standards across all AI deployments without considering context-specific risks",
+      "B": "Creating automated notification systems that alert teams based on predefined threshold rules without AI",
+      "C": "A phenomenon where AI models trained on AI-generated data progressively degrade in quality",
+      "D": "A technique for identifying patterns in how AI models process complex input sequences"
     },
-    "answer": "B",
+    "answer": "C",
     "explanation": "Model collapse เกิดขึ้นเมื่อเอา AI-generated data ไป train AI model ต่อเรื่อยๆ ทำให้ quality และ diversity ของ output แย่ลงเรื่อยๆ เปรียบเหมือนถ่ายเอกสารซ้ำแล้วซ้ำเล่า คุณภาพก็จะด้อยลงทุกที ยิ่ง AI-generated content เยอะขึ้นบนอินเทอร์เน็ต ปัญหานี้ก็ยิ่งน่าเป็นห่วง"
   },
   {
     "id": 5,
     "question": "What is the role of a 'GPU' in AI?",
     "choices": {
-      "A": "General Purpose Utility — a software tool",
-      "B": "Graphics Processing Unit — hardware that accelerates AI training and inference through parallel processing",
-      "C": "Global Privacy Unit — an organization that regulates AI",
-      "D": "Generated Protocol Update — a software patch for AI"
+      "A": "A governance structure for ensuring consistent AI development practices across multiple organizational teams",
+      "B": "A process for systematically testing AI model edge cases before production deployment",
+      "C": "Graphics Processing Unit — hardware that accelerates AI training and inference through parallel processing",
+      "D": "A protocol for synchronizing training data across geographically distributed data centers and storage nodes"
     },
-    "answer": "B",
+    "answer": "C",
     "explanation": "GPU หรือ Graphics Processing Unit เป็น hardware ที่สำคัญมากสำหรับ AI เพราะมันสามารถทำ parallel processing ได้ คือคำนวณหลายอย่างพร้อมกัน เหมาะมากกับการ train neural network ที่ต้องทำ matrix operations จำนวนมหาศาล เลยเป็นเหตุผลที่การ์ดจอแพงกันจัง"
   },
   {
     "id": 6,
     "question": "What is 'AI democratization'?",
     "choices": {
-      "A": "Letting AI vote in elections",
+      "A": "The process of translating business requirements into measurable AI performance objectives and key results",
       "B": "Making AI technologies accessible and usable by a wider range of people and organizations",
-      "C": "Having AI make democratic decisions for humans",
-      "D": "A political party focused on AI policy"
+      "C": "A technique for evaluating how AI system performance varies across different user groups",
+      "D": "The practice of establishing structured feedback channels between AI end-users and model development teams"
     },
     "answer": "B",
     "explanation": "AI democratization คือความพยายามทำให้เทคโนโลยี AI เข้าถึงได้สำหรับทุกคน ไม่ใช่แค่บริษัทเทคโนโลยีใหญ่ๆ หรือนักวิจัยเท่านั้น ตัวอย่างที่ช่วยเรื่องนี้ก็เช่น open-source models, no-code AI platforms แล้วก็ educational initiatives ต่างๆ ที่ทำให้คนทั่วไปก็ใช้ AI ได้"
@@ -75,10 +75,10 @@
     "id": 7,
     "question": "What is 'zero-shot learning'?",
     "choices": {
-      "A": "An AI that has never been trained",
+      "A": "The practice of testing AI systems under controlled conditions before full deployment",
       "B": "The ability of an AI model to perform a task it has never been explicitly trained on",
-      "C": "A camera that takes photos without flash",
-      "D": "Learning without any mistakes"
+      "C": "A technique for identifying which input features contribute most to AI model predictions in specific contexts",
+      "D": "Establishing standardized data formats across departments to enable basic reporting and business intelligence"
     },
     "answer": "B",
     "explanation": "Zero-shot learning คือความสามารถของ AI model ที่ทำ task ได้โดยที่ไม่เคยเห็น training example ของ task นั้นมาก่อนเลย LLM หลายตัวทำแบบนี้ได้เก่งมาก แค่บอก instruction ให้มันก็เข้าใจและทำได้ ไม่ต้องมี task-specific training data เลย เจ๋งมากจริงๆ"
@@ -87,10 +87,10 @@
     "id": 8,
     "question": "What is 'AI carbon footprint'?",
     "choices": {
-      "A": "The physical space AI servers occupy",
+      "A": "A governance protocol for managing access controls and data permissions in AI development environments",
       "B": "The environmental impact of AI in terms of energy consumption and greenhouse gas emissions",
-      "C": "A measurement of how many AI models exist",
-      "D": "The carbon material used to make computer chips"
+      "C": "A method for quantifying the impact of data preprocessing on AI model output quality",
+      "D": "A framework for managing the ethical review process for AI projects that involve sensitive personal data"
     },
     "answer": "B",
     "explanation": "AI carbon footprint คือผลกระทบต่อสิ่งแวดล้อมจากการ train และ run AI model ซึ่งต้องใช้พลังงานและทรัพยากรในการคำนวณมหาศาล เช่น การ train model ใหญ่ๆ อย่าง GPT-4 อาจปล่อย CO2 หลายร้อยตัน เป็นประเด็นเรื่อง sustainability ที่ต้องคิดกันหนัก"
@@ -99,106 +99,106 @@
     "id": 9,
     "question": "What is 'sentiment analysis'?",
     "choices": {
-      "A": "Analyzing the physical health of AI systems",
-      "B": "Using AI to identify and categorize emotions or opinions expressed in text",
-      "C": "A therapy technique using AI",
-      "D": "Measuring the popularity of AI tools"
+      "A": "A technique for calibrating AI confidence scores to match real-world outcome probabilities accurately",
+      "B": "The practice of documenting AI system architecture to ensure reproducibility across development teams",
+      "C": "Using AI to identify and categorize emotions or opinions expressed in text",
+      "D": "A method for evaluating the consistency of AI predictions across repeated identical inputs"
     },
-    "answer": "B",
+    "answer": "C",
     "explanation": "Sentiment analysis เป็นเทคนิค NLP ที่ใช้ AI วิเคราะห์อารมณ์หรือความคิดเห็นในข้อความว่าเป็น positive, negative หรือ neutral ใช้กันเยอะมากในการวิเคราะห์ customer reviews, social media posts แล้วก็ brand monitoring ธุรกิจใช้ประโยชน์ได้เยอะเลย"
   },
   {
     "id": 10,
     "question": "What is 'autonomous AI'?",
     "choices": {
-      "A": "AI that requires constant human supervision",
-      "B": "AI systems capable of operating and making decisions independently without human intervention",
-      "C": "AI used exclusively in autonomous vehicles",
-      "D": "AI that only works offline"
+      "A": "AI systems capable of operating and making decisions independently without human intervention",
+      "B": "A training technique that gradually increases batch size to improve convergence in deep learning models",
+      "C": "A governance protocol for managing access controls and data permissions in AI development environments",
+      "D": "A technique for identifying patterns in how AI models process complex input sequences"
     },
-    "answer": "B",
+    "answer": "A",
     "explanation": "Autonomous AI คือระบบ AI ที่สามารถทำงาน ตัดสินใจ และลงมือทำได้ด้วยตัวเองโดยไม่ต้องมีคนมาควบคุม ตัวอย่างก็เช่น self-driving cars หรือ AI agents ที่ทำ complex tasks ได้ครบจบในตัว ยิ่ง AI ฉลาดขึ้น ความเป็น autonomous ก็จะยิ่งเพิ่มขึ้นเรื่อยๆ"
   },
   {
     "id": 11,
     "question": "What is 'model interpretability'?",
     "choices": {
-      "A": "The ability to translate AI outputs into different languages",
-      "B": "The degree to which humans can understand the internal mechanisms and decisions of an AI model",
-      "C": "How well an AI model can interpret user commands",
-      "D": "The speed at which a model processes data"
+      "A": "The degree to which humans can understand the internal mechanisms and decisions of an AI model",
+      "B": "A process for establishing baseline performance metrics before deploying updated or new AI model versions",
+      "C": "The ability to translate AI outputs into different languages",
+      "D": "An approach to integrating multiple specialized AI models into a unified system for complex task execution"
     },
-    "answer": "B",
+    "answer": "A",
     "explanation": "Model interpretability คือระดับที่มนุษย์สามารถเข้าใจได้ว่าทำไม AI model ถึงตัดสินใจแบบนั้น ถ้า interpretability สูง ก็จะช่วยสร้างความเชื่อมั่น ช่วย debug ได้ง่ายขึ้น แล้วก็เป็นสิ่งจำเป็นในอุตสาหกรรมที่มี regulation เข้มงวด เช่น healthcare และ finance"
   },
   {
     "id": 12,
     "question": "What is 'algorithmic fairness'?",
     "choices": {
-      "A": "Making sure all algorithms run at the same speed",
-      "B": "Ensuring AI systems make equitable decisions that do not discriminate against any group",
+      "A": "A process for establishing baseline performance metrics before deploying updated or new AI model versions",
+      "B": "The practice of establishing structured feedback channels between AI end-users and model development teams",
       "C": "Distributing computing resources equally among AI models",
-      "D": "A fair or conference about algorithms"
+      "D": "Ensuring AI systems make equitable decisions that do not discriminate against any group"
     },
-    "answer": "B",
+    "answer": "D",
     "explanation": "Algorithmic fairness คือการทำให้ระบบ AI ปฏิบัติต่อทุกคนอย่างเท่าเทียม ไม่เลือกปฏิบัติตาม race, gender, age หรือ protected characteristics อื่นๆ การจะทำให้ fair ได้ต้องใส่ใจตั้งแต่ data ที่ใช้, model design ไปจนถึง evaluation metrics เลยทีเดียว"
   },
   {
     "id": 13,
     "question": "What is 'AI-generated content' (AIGC)?",
     "choices": {
-      "A": "Content that describes how AI works",
-      "B": "Any content (text, images, video, music, code) created by AI systems",
-      "C": "Content approved by an AI governance committee",
-      "D": "Educational content about AI"
+      "A": "A methodology for continuously monitoring AI model fairness metrics across protected demographic categories",
+      "B": "Content approved by an AI governance committee",
+      "C": "A governance protocol for managing access controls and data permissions in AI development environments",
+      "D": "Any content (text, images, video, music, code) created by AI systems"
     },
-    "answer": "B",
+    "answer": "D",
     "explanation": "AI-generated content (AIGC) คือ content ทุกรูปแบบที่สร้างโดย AI ไม่ว่าจะเป็น text, images, video, audio หรือ code ก็ตาม ปัจจุบัน AIGC เติบโตเร็วมาก ทำให้เกิดคำถามเรื่อง copyright, ความ authentic ของข้อมูล แล้วก็อนาคตของงาน creative ด้วย"
   },
   {
     "id": 14,
     "question": "What is 'prompt injection'?",
     "choices": {
-      "A": "Injecting new data into an AI training set",
-      "B": "A security attack where malicious instructions are hidden in input to manipulate AI behavior",
-      "C": "A medical procedure involving AI",
-      "D": "Adding prompts to a presentation"
+      "A": "A security attack where malicious instructions are hidden in input to manipulate AI behavior",
+      "B": "The practice of conducting periodic reviews of AI model outputs against current standards",
+      "C": "The process of translating business requirements into measurable AI performance objectives and KPIs",
+      "D": "An analytical framework for comparing the cost-effectiveness of different AI solution architecture options"
     },
-    "answer": "B",
+    "answer": "A",
     "explanation": "Prompt injection เป็นช่องโหว่ด้าน security ที่ผู้ไม่หวังดีซ่อน malicious instructions ไว้ใน input เพื่อหลอกให้ AI ทำตาม เช่น ซ่อนคำสั่งไว้ในเอกสารที่ทำให้ AI เพิกเฉยต่อ safety guidelines ของตัวเอง ถือว่าเป็นภัยคุกคามที่ต้องระวังมากสำหรับระบบ AI"
   },
   {
     "id": 15,
     "question": "What is 'AI agent'?",
     "choices": {
-      "A": "A human representative who sells AI products",
-      "B": "An AI system that can autonomously plan, reason, and take actions to achieve goals",
-      "C": "A secret AI government program",
-      "D": "A customer service chatbot"
+      "A": "A technique for reducing model complexity while maintaining predictive accuracy on validation datasets",
+      "B": "The practice of maintaining audit trails for all changes to production AI configurations",
+      "C": "The practice of maintaining separate development and production pipelines for AI model deployment",
+      "D": "An AI system that can autonomously plan, reason, and take actions to achieve goals"
     },
-    "answer": "B",
+    "answer": "D",
     "explanation": "AI agent คือระบบ AI ที่สามารถรับรู้สภาพแวดล้อม วางแผน ตัดสินใจ และลงมือทำ task ต่างๆ เพื่อบรรลุเป้าหมายได้ด้วยตัวเอง ต่างจาก chatbot ธรรมดาตรงที่ agent ใช้ tools ได้ browse เว็บได้ เขียน code ได้ แล้วก็ทำ multi-step tasks ที่ซับซ้อนได้ด้วย"
   },
   {
     "id": 16,
     "question": "What is 'AI regulation'?",
     "choices": {
-      "A": "AI that regulates room temperature",
-      "B": "Laws, rules, and guidelines established to govern the development and use of AI",
-      "C": "Self-regulation by AI systems",
-      "D": "Technical specifications for AI hardware"
+      "A": "A computational approach to simulating the long-term effects of AI deployment on organizational workflows",
+      "B": "A structured approach to transitioning legacy rule-based systems to machine-learning-driven architectures",
+      "C": "Laws, rules, and guidelines established to govern the development and use of AI",
+      "D": "The practice of documenting AI model training procedures for regulatory compliance review"
     },
-    "answer": "B",
+    "answer": "C",
     "explanation": "AI regulation คือกฎหมาย กฎระเบียบ และ guidelines ที่รัฐบาลหรือองค์กรต่างๆ สร้างขึ้นเพื่อกำกับดูแลการพัฒนาและการใช้งาน AI ตัวอย่างที่ดังมากก็คือ EU AI Act ที่จัดระดับ AI systems ตาม risk level แล้วกำหนด requirements ตามนั้น"
   },
   {
     "id": 17,
     "question": "What is 'data labeling' in AI?",
     "choices": {
-      "A": "Putting physical labels on storage devices",
+      "A": "The practice of reviewing AI system logs to detect anomalous prediction patterns",
       "B": "The process of annotating data with meaningful tags or categories to train AI models",
-      "C": "Naming database tables",
-      "D": "Adding watermarks to data files"
+      "C": "Restricting ethical oversight to the development phase while excluding deployment and maintenance stages",
+      "D": "Treating AI ethics as a one-time compliance checklist rather than an ongoing organizational commitment"
     },
     "answer": "B",
     "explanation": "Data labeling คือกระบวนการ annotate ข้อมูลดิบ ไม่ว่าจะเป็นรูปภาพ ข้อความ หรือเสียง ด้วย labels หรือ tags ที่มีความหมาย เพื่อให้ AI model เรียนรู้ได้ เช่น ติด label รูปแมวกับรูปหมา เพื่อให้ model เรียนรู้ที่จะ classify ได้ถูกต้อง งานนี้สำคัญมากแต่ใช้แรงงานคนเยอะ"
@@ -207,36 +207,36 @@
     "id": 18,
     "question": "What is 'AI safety'?",
     "choices": {
-      "A": "Protecting AI hardware from physical damage",
-      "B": "The field focused on ensuring AI systems are safe, beneficial, and do not cause unintended harm",
-      "C": "Using AI for home security systems",
-      "D": "Cybersecurity software powered by AI"
+      "A": "Deploying predictive analytics dashboards that visualize historical trends without AI-driven forecasting",
+      "B": "A statistical method for measuring the correlation between model inputs and outputs in supervised learning",
+      "C": "The field focused on ensuring AI systems are safe, beneficial, and do not cause unintended harm",
+      "D": "A technique for monitoring model output quality during live production inference"
     },
-    "answer": "B",
+    "answer": "C",
     "explanation": "AI safety เป็นสาขาวิจัยที่โฟกัสเรื่องทำให้ระบบ AI ทำงานอย่างปลอดภัย อยู่ภายใต้การควบคุมของมนุษย์ และไม่ก่อให้เกิดอันตรายที่ไม่ได้ตั้งใจ ครอบคลุมทั้งความเสี่ยงจาก AI ปัจจุบัน และ potential risks จาก AI ที่ทรงพลังมากขึ้นในอนาคตด้วย"
   },
   {
     "id": 19,
     "question": "What is 'hallucination mitigation' in AI?",
     "choices": {
-      "A": "Treating AI systems for medical conditions",
-      "B": "Techniques and strategies to reduce AI systems generating false or inaccurate information",
-      "C": "Removing visual glitches from AI-generated images",
-      "D": "Making AI systems less creative"
+      "A": "Techniques and strategies to reduce AI systems generating false or inaccurate information",
+      "B": "A systematic approach to identifying and mitigating potential failure modes in AI-powered applications",
+      "C": "The technique of training a smaller model to replicate the behavior of a larger, more complex teacher model",
+      "D": "A technique for benchmarking AI response times under varying computational load levels"
     },
-    "answer": "B",
+    "answer": "A",
     "explanation": "Hallucination mitigation คือเทคนิคต่างๆ ที่ใช้ลดปัญหา AI สร้างข้อมูลเท็จขึ้นมา วิธีการที่นิยมก็เช่น ใช้ RAG ดึงข้อมูลจริงมาอ้างอิง, ทำ fact-checking, grounding คำตอบกับ source material แล้วก็ train model ให้รู้จักบอกว่าตัวเองไม่แน่ใจเมื่อไม่มีข้อมูลเพียงพอ"
   },
   {
     "id": 20,
     "question": "What is the concept of 'human-in-the-loop' (HITL) in AI?",
     "choices": {
-      "A": "A human wearing a VR headset connected to AI",
-      "B": "A system design where humans actively participate in AI decision-making for oversight and quality",
-      "C": "A networking topology for AI systems",
-      "D": "A exercise routine designed by AI"
+      "A": "A method for assessing the robustness of AI models to variations in input data quality",
+      "B": "The process of selecting optimal hyperparameters through systematic exploration of the configuration space",
+      "C": "A protocol for securely sharing AI model weights and configurations between collaborating organizations",
+      "D": "A system design where humans actively participate in AI decision-making for oversight and quality"
     },
-    "answer": "B",
+    "answer": "D",
     "explanation": "Human-in-the-loop (HITL) คือแนวทางที่ให้มนุษย์เข้ามามีส่วนร่วมใน AI workflow ไม่ว่าจะเป็นการ review, แก้ไข หรือ approve ผลลัพธ์จาก AI ช่วยให้มั่นใจเรื่อง quality ลด error แล้วก็รักษา human oversight ในการตัดสินใจสำคัญๆ ของ AI ได้ดี"
   }
 ]

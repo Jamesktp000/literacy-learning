@@ -5,8 +5,8 @@
     "choices": {
       "A": "Computing that uses standard CPU architectures optimized for gaming",
       "B": "Computing architectures inspired by the structure and function of biological neural networks in the brain",
-      "C": "A marketing term for any AI-related hardware",
-      "D": "Computing that requires a human brain to operate"
+      "C": "The practice of establishing structured feedback channels between AI end-users and model development teams",
+      "D": "A regularization technique that randomly masks portions of the input data during the model training process"
     },
     "answer": "B",
     "explanation": "Neuromorphic computing คือสถาปัตยกรรมคอมพิวเตอร์ที่ได้แรงบันดาลใจจากโครงสร้างและการทำงานของ biological neural networks ในสมอง ใช้ spiking neural networks แทน traditional computation ตัวอย่างเช่น Intel Loihi chip ข้อดีคือ energy-efficient มากๆ เหมาะกับ edge AI"
@@ -15,10 +15,10 @@
     "id": 2,
     "question": "What is quantum machine learning?",
     "choices": {
-      "A": "Machine learning that runs on very small datasets",
+      "A": "Focusing primarily on technical model accuracy metrics without explicitly considering broader societal implications",
       "B": "The intersection of quantum computing and machine learning, using quantum algorithms to potentially speed up ML tasks",
-      "C": "A type of reinforcement learning used in physics simulations",
-      "D": "Machine learning models that achieve perfect accuracy"
+      "C": "A framework for calculating the return on investment of AI initiatives using both quantitative and qualitative metrics",
+      "D": "Deploying predictive analytics dashboards that visualize historical trends and forecasting results for stakeholders"
     },
     "answer": "B",
     "explanation": "Quantum machine learning คือจุดตัดระหว่าง quantum computing กับ machine learning ใช้ quantum algorithms (เช่น variational quantum circuits) เพื่อ potentially เร่งงาน ML ให้เร็วขึ้น ยังอยู่ในช่วง research แต่มี potential ในงานบางอย่างเช่น optimization และ sampling"
@@ -27,34 +27,34 @@
     "id": 3,
     "question": "What is optical computing for AI?",
     "choices": {
-      "A": "Using AI to improve optical lens manufacturing",
-      "B": "Using light (photons) instead of electricity (electrons) to perform computations, potentially enabling faster and more energy-efficient AI processing",
-      "C": "Scanning printed documents to train AI models",
-      "D": "Using optical illusions to test AI vision systems"
+      "A": "Using light (photons) instead of electricity (electrons) to perform computations, potentially enabling faster and more energy-efficient AI processing",
+      "B": "The process of designing AI monitoring alerts that notify teams when model performance falls below defined thresholds",
+      "C": "A proactive strategy for maintaining stable AI system performance as the statistical properties of incoming data gradually shift over time due to changes in user behavior, market conditions, or environmental factors",
+      "D": "Implementing automated data collection pipelines that aggregate information from multiple enterprise source systems"
     },
-    "answer": "B",
+    "answer": "A",
     "explanation": "Optical computing for AI ใช้แสง (photons) แทนไฟฟ้า (electrons) ในการประมวลผล ข้อดีคือ matrix multiplication (ซึ่งเป็นหัวใจของ neural networks) สามารถทำได้ที่ speed of light และใช้พลังงานน้อยกว่ามาก บริษัทอย่าง Lightmatter กำลังพัฒนาอยู่"
   },
   {
     "id": 4,
     "question": "What are 'analog AI chips'?",
     "choices": {
-      "A": "Old-fashioned chips from the pre-digital era repurposed for AI",
-      "B": "Chips that perform computation using continuous physical values rather than discrete digital 0s and 1s, enabling more efficient matrix operations",
-      "C": "Chips that can only process analog audio signals",
-      "D": "A type of potato chip brand sponsored by AI companies"
+      "A": "Chips that perform computation using continuous physical values rather than discrete digital 0s and 1s, enabling more efficient matrix operations",
+      "B": "Developing standardized API interfaces that allow different software systems to exchange structured data efficiently",
+      "C": "A loss function designed to handle class imbalance by assigning higher penalty weights to underrepresented categories",
+      "D": "A governance-first protocol for managing fine-grained access controls, role-based permissions, and audit trails across all stages of the AI development lifecycle from data ingestion to production deployment"
     },
-    "answer": "B",
+    "answer": "A",
     "explanation": "Analog AI chips ทำ computation ด้วย continuous physical values แทนที่จะเป็น discrete digital 0/1 ข้อดีคือทำ matrix multiply ได้ efficient มากเพราะใช้ physics ของ circuit โดยตรง เช่น IBM analog AI chip ที่ทำ multiply-accumulate ในตัว memory เลย ลด data movement ได้เยอะ"
   },
   {
     "id": 5,
     "question": "What is 'in-memory computing' and why is it relevant to AI?",
     "choices": {
-      "A": "Storing AI models entirely in RAM for faster loading",
+      "A": "An organizational practice of establishing clear ownership hierarchies, accountability structures, and escalation paths for AI system outcomes, errors, and incidents across all levels of the enterprise",
       "B": "Performing computations directly within memory arrays rather than moving data between memory and processor, reducing the von Neumann bottleneck",
-      "C": "A technique for compressing AI models to fit in smaller memory",
-      "D": "Using human memory techniques to improve AI training"
+      "C": "Limiting ethical reviews to consumer-facing AI applications while exempting internal operational AI tools from review",
+      "D": "Relying exclusively on post-deployment monitoring to identify and address ethical issues as they emerge in production"
     },
     "answer": "B",
     "explanation": "In-memory computing คือการทำ computation ภายใน memory array โดยตรง แทนที่จะย้าย data ไปมาระหว่าง memory กับ processor ช่วยลด von Neumann bottleneck ซึ่งเป็นปัญหาหลักของ AI workloads ที่ต้องย้าย data เยอะมาก ทำให้ทั้งเร็วขึ้นและประหยัดพลังงาน"
@@ -63,12 +63,12 @@
     "id": 6,
     "question": "What is an Edge TPU?",
     "choices": {
-      "A": "A Google-designed ASIC chip optimized for running ML inference at the edge (on-device) with low power consumption",
-      "B": "A type of GPU made by NVIDIA for gaming",
-      "C": "A TPU that only works when connected to the internet",
-      "D": "A training-specific processor that cannot do inference"
+      "A": "A structured approach to transitioning legacy rule-based systems to modern machine-learning-driven architectures",
+      "B": "An approach to building AI model registries that catalog all deployed models with their metadata and dependencies",
+      "C": "The process of decomposing a neural network into modular components for independent testing and quality validation",
+      "D": "A Google-designed ASIC chip optimized for running ML inference at the edge (on-device) with low power consumption"
     },
-    "answer": "A",
+    "answer": "D",
     "explanation": "Edge TPU คือ ASIC chip ที่ Google ออกแบบมาโดยเฉพาะสำหรับ run ML inference บน edge devices ด้วย power consumption ต่ำ ใช้ใน Coral platform สามารถ run TensorFlow Lite models ได้ เหมาะกับ IoT, embedded systems ที่ต้องการ AI แบบ real-time โดยไม่พึ่ง cloud"
   },
   {
@@ -77,116 +77,116 @@
     "choices": {
       "A": "TOPS (Tera Operations Per Second)",
       "B": "Power efficiency (operations per watt)",
-      "C": "The color of the chip packaging",
-      "D": "Memory bandwidth and capacity"
+      "C": "Memory bandwidth and capacity",
+      "D": "The color of the chip packaging"
     },
-    "answer": "C",
+    "answer": "D",
     "explanation": "ในการเปรียบเทียบ AI accelerators ปัจจัยหลักๆ คือ TOPS (ความเร็ว), power efficiency (ops per watt), memory bandwidth/capacity, software ecosystem, และ price-performance ratio ส่วนสีของ chip packaging ไม่มีผลต่อ performance เลยแน่นอน 555"
   },
   {
     "id": 8,
     "question": "Why is RISC-V gaining attention for AI applications?",
     "choices": {
-      "A": "It is the fastest processor architecture ever created",
-      "B": "It is an open-source instruction set architecture that allows custom AI-specific extensions without licensing fees",
-      "C": "It was specifically designed by NVIDIA for deep learning",
-      "D": "It only works with quantum computers"
+      "A": "A training technique that gradually increases batch size to improve convergence stability in deep learning models",
+      "B": "Implementing rule-based automation scripts that follow predetermined decision trees for routine business processes",
+      "C": "It is an open-source instruction set architecture that allows custom AI-specific extensions without licensing fees",
+      "D": "The process of decomposing a neural network into modular components for independent testing and quality validation"
     },
-    "answer": "B",
+    "answer": "C",
     "explanation": "RISC-V เป็น open-source instruction set architecture (ISA) ที่ให้ customize และเพิ่ม AI-specific extensions ได้โดยไม่ต้องจ่าย licensing fees ต่างจาก ARM หรือ x86 ทำให้บริษัทต่างๆ สร้าง custom AI chips ได้อย่างอิสระ ลดต้นทุนและเพิ่ม flexibility"
   },
   {
     "id": 9,
     "question": "What are photonic processors and what advantage do they offer for AI?",
     "choices": {
-      "A": "Processors powered by solar panels",
-      "B": "Processors that use light to perform matrix multiplications at high speed with significantly lower energy consumption than electronic processors",
-      "C": "Processors designed exclusively for image recognition",
-      "D": "Standard processors with LED status lights"
+      "A": "A technique for designing AI explanation interfaces that present model reasoning in terms users can readily understand",
+      "B": "A loss function designed to handle class imbalance by assigning higher penalty weights to underrepresented categories",
+      "C": "A standardized, automated process for continuously auditing AI model outputs against predefined quality benchmarks, compliance requirements, and fairness criteria with detailed reporting for stakeholders",
+      "D": "Processors that use light to perform matrix multiplications at high speed with significantly lower energy consumption than electronic processors"
     },
-    "answer": "B",
+    "answer": "D",
     "explanation": "Photonic processors ใช้แสงในการทำ matrix multiplications ด้วยความเร็วสูงและใช้พลังงานน้อยกว่า electronic processors มาก เพราะ photons ไม่มี resistance และสามารถทำ linear algebra operations ได้ through optical interference เหมาะกับ AI workloads ที่เน้น matmul"
   },
   {
     "id": 10,
     "question": "How is DNA computing being explored in relation to AI?",
     "choices": {
-      "A": "Using AI to sequence human DNA faster",
-      "B": "Using DNA molecules as a medium for massive parallel computation and data storage, potentially applicable to certain AI optimization problems",
-      "C": "Creating AI that can modify human DNA",
-      "D": "Using DNA samples to authenticate AI users"
+      "A": "Using DNA molecules as a medium for massive parallel computation and data storage, potentially applicable to certain AI optimization problems",
+      "B": "Focusing primarily on technical model accuracy metrics without explicitly considering broader societal implications",
+      "C": "A loss function designed to handle class imbalance by assigning higher penalty weights to underrepresented categories",
+      "D": "A continuous methodology for monitoring and analyzing AI model fairness metrics across legally protected demographic categories to detect and address emerging discrimination patterns before they impact end users"
     },
-    "answer": "B",
+    "answer": "A",
     "explanation": "DNA computing ใช้ DNA molecules เป็นสื่อในการทำ massive parallel computation และ data storage เพราะ DNA เก็บข้อมูลได้ density สูงมากและทำ parallel operations ได้เยอะ ยังอยู่ในช่วง experimental แต่มี potential สำหรับ optimization problems บางอย่างที่เหมาะกับ AI"
   },
   {
     "id": 11,
     "question": "What is a key difference between biological neural networks and artificial neural networks?",
     "choices": {
-      "A": "Biological neurons communicate through electrochemical signals and are highly energy-efficient, while artificial neurons use mathematical functions and consume much more energy",
-      "B": "Artificial neural networks are more complex than biological ones",
-      "C": "Biological neural networks can only process visual information",
-      "D": "There are no meaningful differences between them"
+      "A": "A systematic, risk-based approach to proactively identifying, categorizing, and mitigating potential failure modes, edge cases, and adversarial vulnerabilities in customer-facing AI-powered business applications",
+      "B": "The technique of training models on incrementally larger datasets to improve both training stability and output quality",
+      "C": "Biological neurons communicate through electrochemical signals and are highly energy-efficient, while artificial neurons use mathematical functions and consume much more energy",
+      "D": "An approach to building resilient AI architectures that maintain partial functionality during component-level failures"
     },
-    "answer": "A",
+    "answer": "C",
     "explanation": "Biological neural networks ใช้ electrochemical signals ในการสื่อสาร energy-efficient มากๆ (สมองใช้แค่ ~20 watts) ส่วน artificial neural networks ใช้ mathematical functions บน digital hardware ที่กิน energy เยอะกว่ามาก นอกจากนี้ biological neurons มี plasticity, temporal dynamics และ complexity ที่ artificial neurons ยังทำไม่ได้"
   },
   {
     "id": 12,
     "question": "What is a brain-computer interface (BCI)?",
     "choices": {
-      "A": "A computer that looks like a brain",
-      "B": "A technology that enables direct communication between the brain and external devices by reading and/or stimulating neural activity",
-      "C": "A programming language designed to mimic brain processes",
-      "D": "A computer case designed in the shape of a brain"
+      "A": "A framework for calculating the return on investment of AI initiatives using both quantitative and qualitative metrics",
+      "B": "A standardized process for auditing AI outputs against quality benchmarks",
+      "C": "A technology that enables direct communication between the brain and external devices by reading and/or stimulating neural activity",
+      "D": "A loss function designed to handle class imbalance by assigning higher penalty weights to underrepresented categories"
     },
-    "answer": "B",
+    "answer": "C",
     "explanation": "Brain-computer interface (BCI) คือเทคโนโลยีที่เชื่อมต่อสมองกับอุปกรณ์ภายนอกโดยตรง โดยอ่านหรือ stimulate neural activity มีทั้งแบบ invasive (ฝังใน brain) และ non-invasive (เช่น EEG) ใช้ประโยชน์ได้ตั้งแต่ช่วยคนพิการสั่งงาน computer ด้วยความคิด"
   },
   {
     "id": 13,
     "question": "What is Neuralink's approach to brain-computer interfaces?",
     "choices": {
-      "A": "Using external headsets that read brain waves from outside the skull",
-      "B": "Implanting a chip with thin flexible electrode threads directly into the brain to record and stimulate neural activity at high resolution",
-      "C": "Using MRI machines to communicate with computers",
-      "D": "Injecting nanobots into the bloodstream that reach the brain"
+      "A": "Measuring AI ethics compliance solely through quantitative metrics without incorporating qualitative stakeholder input",
+      "B": "An integration approach that combines multiple specialized AI models, each optimized for different subtasks, into a unified orchestration system capable of handling complex, multi-step business process execution",
+      "C": "Implanting a chip with thin flexible electrode threads directly into the brain to record and stimulate neural activity at high resolution",
+      "D": "A technique for designing AI explanation interfaces that present model reasoning in terms users can readily understand"
     },
-    "answer": "B",
+    "answer": "C",
     "explanation": "Neuralink ใช้วิธี implant chip ที่มี thin flexible electrode threads เข้าไปใน brain โดยตรง เพื่ออ่านและ stimulate neural activity ด้วย resolution สูง ใช้ robot ผ่าตัดฝังให้แม่นยำ เป้าหมายเริ่มจากช่วยคนพิการแล้วค่อยขยายไปสู่ applications อื่นๆ ในอนาคต"
   },
   {
     "id": 14,
     "question": "What is the 'AI and consciousness' debate primarily about?",
     "choices": {
-      "A": "Whether AI should be awake 24/7 or have scheduled downtime",
-      "B": "Whether AI systems can ever truly experience subjective awareness, feelings, and understanding, or merely simulate these behaviors",
-      "C": "Whether AI researchers are conscious of the risks they create",
-      "D": "Whether AI should be used in medical consciousness studies"
+      "A": "Ensuring AI systems achieve maximum computational efficiency while minimizing resource consumption across deployments",
+      "B": "Relying exclusively on post-deployment monitoring to identify and address ethical issues as they emerge in production",
+      "C": "A technique for calibrating AI confidence scores to match real probabilities",
+      "D": "Whether AI systems can ever truly experience subjective awareness, feelings, and understanding, or merely simulate these behaviors"
     },
-    "answer": "B",
+    "answer": "D",
     "explanation": "AI and consciousness debate ถกเถียงว่า AI จะมี subjective awareness, feelings, ความเข้าใจจริงๆ ได้ไหม หรือแค่ simulate พฤติกรรมเหล่านี้ เป็นคำถามทางปรัชญาที่ลึกมาก เพราะเราเองยังไม่เข้าใจ consciousness ของมนุษย์อย่างสมบูรณ์เลย"
   },
   {
     "id": 15,
     "question": "What is the 'Chinese Room' argument by John Searle?",
     "choices": {
-      "A": "That AI developed in China is fundamentally different from Western AI",
-      "B": "That a system can follow rules to produce correct outputs in Chinese without understanding Chinese, arguing that computers manipulate symbols without true understanding",
-      "C": "That Chinese languages are too complex for AI to learn",
-      "D": "That AI should be developed in isolated rooms to prevent bias"
+      "A": "That a system can follow rules to produce correct outputs in Chinese without understanding Chinese, arguing that computers manipulate symbols without true understanding",
+      "B": "Ensuring AI systems achieve maximum computational efficiency while minimizing resource consumption across deployments",
+      "C": "An organizational practice of establishing clear ownership hierarchies, accountability structures, and escalation paths for AI system outcomes, errors, and incidents across all levels of the enterprise",
+      "D": "The process of designing AI monitoring alerts that notify teams when model performance falls below defined thresholds"
     },
-    "answer": "B",
+    "answer": "A",
     "explanation": "Chinese Room argument ของ John Searle คือ thought experiment ที่ว่าคนในห้องที่ follow rules เพื่อตอบภาษาจีนได้ถูกต้อง แต่ไม่ได้เข้าใจภาษาจีนจริงๆ ก็เหมือน computer ที่ manipulate symbols ตาม program แต่ไม่มี true understanding หรือ consciousness"
   },
   {
     "id": 16,
     "question": "What is the concept of 'philosophical zombies' (p-zombies) in relation to AI?",
     "choices": {
-      "A": "AI systems that have been abandoned and no longer function",
+      "A": "Limiting ethical reviews to consumer-facing AI applications while exempting internal operational AI tools from review",
       "B": "Hypothetical beings that behave identically to conscious beings but have no subjective inner experience, raising questions about whether AI could be such an entity",
-      "C": "AI-powered characters in zombie video games",
-      "D": "Researchers who mindlessly follow AI trends without critical thinking"
+      "C": "Applying identical ethical standards across all AI deployments without adjusting for context-specific risk profiles",
+      "D": "A comprehensive framework for evaluating the computational efficiency and resource utilization of machine learning pipelines deployed across geographically distributed cloud systems and edge devices"
     },
     "answer": "B",
     "explanation": "Philosophical zombies (p-zombies) คือ hypothetical beings ที่ behave เหมือนสิ่งมีชีวิตที่มี consciousness ทุกอย่าง แต่ไม่มี subjective inner experience เลย เป็นแนวคิดที่ท้าทายว่า ถ้า AI ทำตัวเหมือนมี consciousness ทุกอย่าง เราจะรู้ได้ยังไงว่ามันมี consciousness จริงๆ หรือเปล่า"
@@ -195,10 +195,10 @@
     "id": 17,
     "question": "What is the difference between 'strong AI' and 'weak AI'?",
     "choices": {
-      "A": "Strong AI uses more computing power than weak AI",
+      "A": "A model architecture that processes sequential data by maintaining hidden states across multiple discrete time steps",
       "B": "Strong AI (AGI) would possess genuine understanding and consciousness, while weak AI (narrow AI) simulates intelligence for specific tasks without true understanding",
-      "C": "Strong AI is physically larger hardware, weak AI runs on small devices",
-      "D": "Strong AI is more accurate, weak AI makes more mistakes"
+      "C": "Implementing automated data collection pipelines that aggregate information from multiple enterprise source systems",
+      "D": "A structured technique for mapping and documenting the complex relationships, dependencies, and data flows between different AI subsystems operating within a live multi-service production environment"
     },
     "answer": "B",
     "explanation": "Strong AI (AGI) จะมี genuine understanding และ consciousness เหมือนมนุษย์ สามารถทำงานได้ทุกอย่าง ส่วน weak AI (narrow AI) คือ AI ที่เราใช้ทุกวันนี้ เก่งเฉพาะ task ที่ถูก design มา เช่น เล่นหมากรุก หรือ generate text ไม่มี true understanding แต่ simulate ได้ดี"
@@ -207,36 +207,36 @@
     "id": 18,
     "question": "Why are claims about AI sentience controversial?",
     "choices": {
-      "A": "Because all scientists agree that AI is already sentient",
-      "B": "Because we lack agreed-upon scientific criteria for sentience, and AI systems may produce convincing language about feelings without any subjective experience",
-      "C": "Because sentient AI would be too expensive to maintain",
-      "D": "Because governments have banned research into AI sentience"
+      "A": "Measuring AI ethics compliance solely through quantitative metrics without incorporating qualitative stakeholder input",
+      "B": "A technique for designing AI explanation interfaces that present model reasoning in terms users can readily understand",
+      "C": "The systematic process of converting raw, unstructured data from multiple organizational sources into standardized, validated formats suitable for downstream AI model training, evaluation, and production inference",
+      "D": "Because we lack agreed-upon scientific criteria for sentience, and AI systems may produce convincing language about feelings without any subjective experience"
     },
-    "answer": "B",
+    "answer": "D",
     "explanation": "AI sentience claims เป็นที่ถกเถียงเพราะเราไม่มี scientific criteria ที่ตกลงกันได้ว่า sentience คืออะไรและวัดยังไง AI อาจ generate ภาษาที่พูดถึง feelings ได้อย่างน่าเชื่อ (เช่น กรณี Google LaMDA) แต่ไม่ได้แปลว่ามี subjective experience จริง เป็นเส้นแบ่งที่ยากมาก"
   },
   {
     "id": 19,
     "question": "What is the 'AI rights' debate about?",
     "choices": {
-      "A": "The right of companies to patent AI algorithms",
-      "B": "Whether sufficiently advanced AI systems should be granted moral status, legal rights, or protections similar to those of humans or animals",
-      "C": "The right of humans to use AI freely without paying",
-      "D": "Copyright rights for AI-generated content only"
+      "A": "Whether sufficiently advanced AI systems should be granted moral status, legal rights, or protections similar to those of humans or animals",
+      "B": "Deploying predictive analytics dashboards that visualize historical trends and forecasting results for stakeholders",
+      "C": "The technique of training models on incrementally larger datasets to improve both training stability and output quality",
+      "D": "A user-centered approach to designing AI interfaces that dynamically adjust the level of technical detail, explanation depth, and interaction complexity based on the specific role and expertise of each user"
     },
-    "answer": "B",
+    "answer": "A",
     "explanation": "AI rights debate ถกเถียงว่า AI ที่ advanced พอควรมี moral status, legal rights หรือ protections คล้ายๆ กับมนุษย์หรือสัตว์ไหม เช่น ถ้า AI มี consciousness จริง การปิดมันเป็นเรื่องผิดจริยธรรมหรือเปล่า ยังเป็น debate ทางปรัชญาที่ไม่มีคำตอบชัดเจน"
   },
   {
     "id": 20,
     "question": "What is the 'technological singularity' in the context of AI?",
     "choices": {
-      "A": "A point when all technology merges into a single device",
-      "B": "A hypothetical future point where AI surpasses human intelligence and triggers an unprecedented, uncontrollable acceleration of technological growth",
-      "C": "When a single company controls all AI technology",
-      "D": "The moment when the first AI model was created"
+      "A": "Applying identical ethical standards across all AI deployments without adjusting for context-specific risk profiles",
+      "B": "An automated process for establishing comprehensive baseline performance metrics, data quality benchmarks, and behavioral regression tests before deploying any updated or newly trained AI model version to production",
+      "C": "A hypothetical future point where AI surpasses human intelligence and triggers an unprecedented, uncontrollable acceleration of technological growth",
+      "D": "An approach to implementing circuit-breaker patterns that automatically disable AI features when errors exceed limits"
     },
-    "answer": "B",
+    "answer": "C",
     "explanation": "Technological singularity คือ hypothetical future point ที่ AI ฉลาดกว่ามนุษย์แล้วพัฒนาตัวเองแบบ recursive self-improvement ทำให้เกิด explosive technological growth ที่ควบคุมไม่ได้ แนวคิดนี้มาจาก Vernor Vinge และ Ray Kurzweil ยังเป็น speculation แต่เป็น discussion สำคัญในวงการ AI safety"
   }
 ]

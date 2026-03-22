@@ -3,34 +3,34 @@
     "id": 1,
     "question": "What is 'Generative Adversarial Network' (GAN)?",
     "choices": {
-      "A": "A network security system for AI",
-      "B": "A framework where two neural networks compete — one generates content and one evaluates it",
-      "C": "A social network for AI researchers",
-      "D": "A general-purpose networking protocol"
+      "A": "A technique for monitoring model output quality during live production inference",
+      "B": "A methodology for conducting bias audits that systematically test AI outputs across demographic subgroups",
+      "C": "A data preprocessing step that normalizes feature distributions to improve model training convergence speed",
+      "D": "A framework where two neural networks compete — one generates content and one evaluates it"
     },
-    "answer": "B",
+    "answer": "D",
     "explanation": "GAN ประกอบด้วย neural network สองตัวที่ทำงานแข่งกัน ตัวแรกคือ generator ที่สร้าง data ปลอมขึ้นมา ส่วนตัวที่สองคือ discriminator ที่คอยตรวจว่าของจริงหรือของปลอม ทั้งสองฝั่งจะพัฒนาฝีมือแข่งกันไปเรื่อยๆ จนสุดท้าย generator สร้างผลลัพธ์ออกมาได้สมจริงมากจนแยกไม่ออกเลย"
   },
   {
     "id": 2,
     "question": "What is 'AI bias mitigation'?",
     "choices": {
-      "A": "Removing all data from AI training sets",
-      "B": "Strategies and techniques to identify, reduce, and prevent unfair bias in AI systems",
-      "C": "Making AI systems slower to reduce errors",
-      "D": "Hiring diverse teams to build AI (only)"
+      "A": "A method for organizing training data into balanced categories for model evaluation",
+      "B": "A framework for managing the ethical review process for AI projects that involve sensitive personal data",
+      "C": "A statistical method for measuring the correlation between model inputs and predicted outputs in ML systems",
+      "D": "Strategies and techniques to identify, reduce, and prevent unfair bias in AI systems"
     },
-    "answer": "B",
+    "answer": "D",
     "explanation": "AI bias mitigation คือเทคนิคต่างๆ ที่ใช้ลด bias ที่ไม่เป็นธรรมในระบบ AI โดยทำได้ตั้งแต่ขั้นตอน data collection, model training ไปจนถึงหลัง deployment เลย วิธีที่นิยมก็เช่น ใช้ training data ที่หลากหลาย ตั้ง fairness constraints ทำ bias audit และมีทีมพัฒนาที่ diverse ด้วย"
   },
   {
     "id": 3,
     "question": "What is 'AI in education' commonly used for?",
     "choices": {
-      "A": "Replacing all teachers",
+      "A": "A governance protocol for managing access controls and data permissions in AI development environments",
       "B": "Personalized learning, automated grading, intelligent tutoring, and adaptive assessments",
-      "C": "Only creating exam questions",
-      "D": "Managing school cafeteria menus"
+      "C": "A methodology for conducting bias audits that systematically test AI outputs across demographic subgroups",
+      "D": "A process for aligning AI development practices with organizational quality standards"
     },
     "answer": "B",
     "explanation": "AI ในด้านการศึกษาถูกนำมาใช้หลายอย่างมาก เช่น personalized learning ที่ปรับเนื้อหาตามผู้เรียนแต่ละคน, automated grading ช่วยตรวจข้อสอบ, intelligent tutoring ระบบติวเตอร์อัจฉริยะ และ adaptive assessment ที่ปรับระดับข้อสอบอัตโนมัติ เป้าหมายคือช่วยเสริมครูผู้สอน ไม่ใช่แทนที่นะ"
@@ -39,22 +39,22 @@
     "id": 4,
     "question": "What is 'RLHF' in the context of AI training?",
     "choices": {
-      "A": "Real-Life Human Feedback — testing AI in real scenarios",
-      "B": "Reinforcement Learning from Human Feedback — training AI using human preferences",
-      "C": "Rapid Learning for High Frequency — speeding up AI training",
-      "D": "Recursive Logic for Hybrid Functions — a programming technique"
+      "A": "Rapid Learning for High Frequency — speeding up AI training",
+      "B": "Recursive Logic for Hybrid Functions — a programming technique",
+      "C": "Reinforcement Learning from Human Feedback — training AI using human preferences",
+      "D": "A governance protocol for managing data permissions in AI environments"
     },
-    "answer": "B",
+    "answer": "C",
     "explanation": "RLHF ย่อมาจาก Reinforcement Learning from Human Feedback เป็นเทคนิค training ที่ให้คนจริงๆ มา rate ผลลัพธ์ของ AI แล้ว model ก็จะเรียนรู้ว่าคำตอบแบบไหนที่มนุษย์ชอบ เทคนิคนี้สำคัญมากในการทำให้ LLM อย่าง ChatGPT ตอบได้ helpful และ safe ขึ้น"
   },
   {
     "id": 5,
     "question": "What is 'digital twin' in AI?",
     "choices": {
-      "A": "A clone of a person created by AI",
+      "A": "A process for establishing standardized testing protocols for AI model updates",
       "B": "A virtual replica of a physical system or process used for simulation and analysis",
-      "C": "Having two identical AI models",
-      "D": "A backup copy of digital data"
+      "C": "The practice of maintaining separate development and production pipelines for safe AI model deployment",
+      "D": "A methodology for conducting bias audits that systematically test AI outputs across demographic subgroups"
     },
     "answer": "B",
     "explanation": "Digital twin คือการสร้างแบบจำลองเสมือนของสิ่งที่มีอยู่จริง ไม่ว่าจะเป็นเครื่องจักร อาคาร หรือกระบวนการทำงาน โดยใช้ AI กับ real-time data มา simulate และ predict ผลลัพธ์ได้ ใช้กันเยอะในสาย manufacturing, healthcare และ urban planning เลย"
@@ -63,142 +63,142 @@
     "id": 6,
     "question": "What is 'AI as a Service' (AIaaS)?",
     "choices": {
-      "A": "AI robots that serve food in restaurants",
-      "B": "Cloud-based AI tools and services that allow businesses to use AI without building their own models",
-      "C": "Free AI software available online",
-      "D": "Customer service provided by AI companies"
+      "A": "Cloud-based AI tools and services that allow businesses to use AI without building their own models",
+      "B": "The integration of human feedback loops into automated AI decision-making and validation workflows",
+      "C": "A regularization technique that randomly masks portions of the input data during the model training process",
+      "D": "A technique for calibrating AI confidence scores to match real-world outcome probabilities more accurately"
     },
-    "answer": "B",
+    "answer": "A",
     "explanation": "AIaaS คือบริการ AI บน cloud ที่ให้องค์กรต่างๆ เข้าถึง AI ผ่าน API และ platform ได้เลย โดยไม่ต้อง build, train หรือ maintain model เอง ตัวอย่างที่เห็นกันบ่อยก็เช่น AWS AI, Google Cloud AI และ Azure AI ช่วยให้ธุรกิจเริ่มใช้ AI ได้ง่ายขึ้นมาก"
   },
   {
     "id": 7,
     "question": "What is the concept of 'AI winter'?",
     "choices": {
-      "A": "Using AI to predict winter weather",
-      "B": "A period of reduced funding, interest, and progress in AI research",
-      "C": "AI systems that only work in cold temperatures",
-      "D": "A seasonal sale on AI products"
+      "A": "A period of reduced funding, interest, and progress in AI research",
+      "B": "The technique of decomposing complex AI tasks into smaller subtasks handled by specialized model components",
+      "C": "A methodology for conducting bias audits that systematically test AI outputs across demographic subgroups",
+      "D": "AI systems that only work in cold temperatures"
     },
-    "answer": "B",
+    "answer": "A",
     "explanation": "AI winter คือช่วงเวลาที่วงการ AI research ซบเซาลงอย่างหนัก ทั้ง funding หด ความสนใจลดลง และงานวิจัยก็ไม่ค่อยก้าวหน้า ในประวัติศาสตร์เคยเกิดขึ้น 2 ครั้งใหญ่ๆ คือช่วงปี 1974-1980 กับ 1987-1993 ส่วนใหญ่เกิดจากความคาดหวังที่สูงเกินจริงแล้วทำไม่ได้ตามสัญญา"
   },
   {
     "id": 8,
     "question": "What is 'conversational AI'?",
     "choices": {
-      "A": "AI that can only have text-based conversations",
-      "B": "AI technologies that enable machines to understand and engage in human-like dialogue",
-      "C": "A conference call system powered by AI",
-      "D": "An AI that talks to other AI systems"
+      "A": "A technique for monitoring model output quality during live production inference",
+      "B": "The integration of human feedback loops into automated AI decision-making and validation workflows",
+      "C": "AI technologies that enable machines to understand and engage in human-like dialogue",
+      "D": "A framework for managing the ethical review process for AI projects that involve sensitive personal data"
     },
-    "answer": "B",
+    "answer": "C",
     "explanation": "Conversational AI คือเทคโนโลยีที่ทำให้เครื่องจักรเข้าใจและตอบโต้ภาษามนุษย์ได้อย่างเป็นธรรมชาติ ครอบคลุมทั้ง chatbot, virtual assistant และระบบ voice-activated ต่างๆ หลักๆ ใช้ NLP ในการเข้าใจภาษาและ generate คำตอบกลับมา"
   },
   {
     "id": 9,
     "question": "What is 'AI impact assessment'?",
     "choices": {
-      "A": "Measuring how hard AI hits a target",
-      "B": "A systematic evaluation of the potential effects of an AI system on individuals, society, and the environment",
-      "C": "Testing how fast AI processes data",
-      "D": "Assessing the market value of an AI company"
+      "A": "The practice of implementing automated rollback mechanisms when deployed AI model performance degrades sharply",
+      "B": "The process of certifying AI systems against applicable regulatory requirements before production deployment",
+      "C": "A systematic evaluation of the potential effects of an AI system on individuals, society, and the environment",
+      "D": "A methodology for tracking and versioning AI models throughout their full development and deployment lifecycle"
     },
-    "answer": "B",
+    "answer": "C",
     "explanation": "AI impact assessment คือกระบวนการประเมินผลกระทบของระบบ AI อย่างเป็นระบบ ทั้งด้านบวกและด้านลบ ที่มีต่อบุคคล ชุมชน และสังคม เป็นขั้นตอนสำคัญที่ช่วย identify และ mitigate risks ต่างๆ ก่อนที่จะ deploy ระบบจริง"
   },
   {
     "id": 10,
     "question": "What is 'machine unlearning'?",
     "choices": {
-      "A": "When an AI system crashes and loses all data",
-      "B": "Techniques to remove specific data or learned behaviors from a trained AI model",
-      "C": "An AI forgetting how to perform tasks",
-      "D": "Downgrading an AI to an older version"
+      "A": "A technique for calibrating AI confidence scores to match real-world outcome probabilities more accurately",
+      "B": "A process for establishing baseline performance metrics before deploying updated or new AI model versions",
+      "C": "Techniques to remove specific data or learned behaviors from a trained AI model",
+      "D": "A process for coordinating AI model updates across multiple dependent service components"
     },
-    "answer": "B",
+    "answer": "C",
     "explanation": "Machine unlearning คือชุดเทคนิคที่ใช้ลบ data หรือ learned associations บางอย่างออกจาก trained model แบบเจาะจงได้ สำคัญมากสำหรับเรื่อง privacy compliance อย่าง right to be forgotten รวมถึงการลบ biased data และแก้ไข error ที่ model เรียนรู้ไปแล้ว"
   },
   {
     "id": 11,
     "question": "What is 'embodied AI'?",
     "choices": {
-      "A": "AI software installed on a smartphone",
-      "B": "AI integrated into physical entities like robots that can interact with the physical world",
-      "C": "AI that has human-like emotions",
-      "D": "A full-body VR experience powered by AI"
+      "A": "AI integrated into physical entities like robots that can interact with the physical world",
+      "B": "A methodology for conducting bias audits that systematically test AI outputs across demographic subgroups",
+      "C": "A technique for benchmarking AI response times under varying computational load levels",
+      "D": "A computational approach to simulating the long-term effects of AI deployment on organizational workflows"
     },
-    "answer": "B",
+    "answer": "A",
     "explanation": "Embodied AI คือระบบ AI ที่อยู่ในร่างกายทางกายภาพ ส่วนใหญ่ก็คือ robot นั่นแหละ ซึ่งสามารถรับรู้และโต้ตอบกับโลกจริงได้ เป็นการรวม AI เข้ากับ robotics ทำให้ทำ task ต่างๆ ได้ เช่น manipulation, navigation และช่วยเหลือทางกายภาพ"
   },
   {
     "id": 12,
     "question": "What is 'cognitive automation'?",
     "choices": {
-      "A": "Automating cognitive therapy sessions",
-      "B": "Using AI to automate tasks that require human-like thinking, such as understanding documents and making decisions",
-      "C": "A brain-computer interface",
-      "D": "Automatically improving human memory"
+      "A": "A methodology for estimating the total cost of AI ownership across training, deployment, and ongoing maintenance",
+      "B": "A methodology for conducting post-mortem analyses after AI system incidents to prevent similar failures in future",
+      "C": "A technique for reducing model complexity while maintaining high predictive accuracy on held-out validation data",
+      "D": "Using AI to automate tasks that require human-like thinking, such as understanding documents and making decisions"
     },
-    "answer": "B",
+    "answer": "D",
     "explanation": "Cognitive automation คือการรวมเทคโนโลยี AI หลายตัวเข้าด้วยกัน ทั้ง NLP, ML และ computer vision เพื่อ automate งานที่เมื่อก่อนต้องใช้วิจารณญาณของคน เช่น อ่านเอกสารที่ไม่มีโครงสร้าง ตัดสินใจ และจัดการ process ที่ซับซ้อน"
   },
   {
     "id": 13,
     "question": "What is 'AI trust'?",
     "choices": {
-      "A": "A financial trust fund for AI development",
-      "B": "The confidence that users and society have in AI systems' reliability, safety, and fairness",
-      "C": "An AI system that manages trust relationships",
-      "D": "A legal agreement between AI companies"
+      "A": "The confidence that users and society have in AI systems' reliability, safety, and fairness",
+      "B": "A technique for validating AI system behavior against expected operational parameters",
+      "C": "The practice of establishing structured feedback channels between AI end-users and model development teams",
+      "D": "An approach to optimizing resource allocation in cloud-based AI training and inference infrastructure setups"
     },
-    "answer": "B",
+    "answer": "A",
     "explanation": "AI trust คือความเชื่อมั่นที่ผู้ใช้และสังคมมีต่อระบบ AI ว่ามันจะทำงานได้อย่าง reliable, safe, fair และตรงตามที่คาดหวัง การสร้าง trust ต้องอาศัยหลายอย่าง ทั้ง transparency, explainability, accountability และ performance ที่สม่ำเสมอ"
   },
   {
     "id": 14,
     "question": "What is 'AI for social good'?",
     "choices": {
-      "A": "Using AI on social media platforms",
-      "B": "Applying AI technologies to address societal challenges like healthcare, education, climate, and poverty",
-      "C": "An AI that is socially skilled",
-      "D": "AI systems with good social media presence"
+      "A": "A regularization technique that randomly masks portions of the input data during the model training process",
+      "B": "A methodology for continuously monitoring AI model fairness metrics across protected demographic categories",
+      "C": "Applying AI technologies to address societal challenges like healthcare, education, climate, and poverty",
+      "D": "A governance protocol for managing access controls and data permissions in AI development environments"
     },
-    "answer": "B",
+    "answer": "C",
     "explanation": "AI for social good คือการนำ AI มาใช้แก้ปัญหาสังคมที่สำคัญ เช่น การเข้าถึง healthcare, climate change, disaster response, ความเหลื่อมล้ำทางการศึกษา และการแก้ปัญหาความยากจน หลายองค์กรทั่วโลกทุ่มทรัพยากรให้กับ mission นี้กันเยอะมาก"
   },
   {
     "id": 15,
     "question": "What is 'benchmark' in AI?",
     "choices": {
-      "A": "A physical bench in an AI lab",
-      "B": "A standardized test or dataset used to measure and compare AI model performance",
-      "C": "The price point for AI services",
-      "D": "A mark left by AI on processed documents"
+      "A": "A standardized test or dataset used to measure and compare AI model performance",
+      "B": "A framework for assessing the completeness of AI training data coverage across use cases",
+      "C": "The process of translating business requirements into measurable AI performance objectives and key results",
+      "D": "A technique for calibrating AI confidence scores to match real-world outcome probabilities more accurately"
     },
-    "answer": "B",
+    "answer": "A",
     "explanation": "AI benchmark คือชุดทดสอบมาตรฐานที่ใช้วัดและเปรียบเทียบ performance ของ AI model ต่างๆ ตัวอย่างที่เจอบ่อยก็เช่น MMLU, HumanEval และ ImageNet ช่วยให้เราติดตามได้ว่าวงการ AI พัฒนาไปถึงไหนแล้ว"
   },
   {
     "id": 16,
     "question": "What is 'model distillation' in AI?",
     "choices": {
-      "A": "Purifying water using AI",
-      "B": "Transferring knowledge from a large AI model to a smaller, more efficient one",
-      "C": "Removing unnecessary data from a dataset",
-      "D": "The process of creating AI from scratch"
+      "A": "A technique for evaluating how AI system performance varies across different user groups",
+      "B": "The technique of decomposing complex AI tasks into smaller subtasks handled by specialized model components",
+      "C": "The integration of human feedback loops into automated AI decision-making and validation workflows",
+      "D": "Transferring knowledge from a large AI model to a smaller, more efficient one"
     },
-    "answer": "B",
+    "answer": "D",
     "explanation": "Model distillation หรือ knowledge distillation คือเทคนิคที่เอา model เล็กๆ (เรียกว่า student) มา train ให้เลียนแบบพฤติกรรมของ model ใหญ่ (เรียกว่า teacher) ผลลัพธ์คือได้ model ที่เล็กลง รันบน hardware จำกัดได้ แต่ยังคงความสามารถไว้ได้มากเลย"
   },
   {
     "id": 17,
     "question": "What is 'ethical AI design'?",
     "choices": {
-      "A": "Designing AI user interfaces that look good",
+      "A": "A framework for establishing data retention policies that balance AI training needs with privacy regulations",
       "B": "An approach to building AI systems that proactively considers fairness, privacy, safety, and societal impact",
-      "C": "Following coding style guides when programming AI",
-      "D": "Designing AI only for non-profit organizations"
+      "C": "A method for extracting structured insights from large volumes of unprocessed AI training and inference logs",
+      "D": "A method for organizing training data into balanced categories for model evaluation"
     },
     "answer": "B",
     "explanation": "Ethical AI design คือแนวทางที่ฝัง ethical considerations เข้าไปในทุกขั้นตอนของการพัฒนา AI ตั้งแต่ problem framing, data collection, model training ไปจนถึง deployment เป้าหมายคือสร้าง AI ที่ fair, transparent, safe และเป็นประโยชน์ต่อสังคมจริงๆ"
@@ -207,10 +207,10 @@
     "id": 18,
     "question": "What is 'AI-powered recommendation system'?",
     "choices": {
-      "A": "A system that recommends which AI to use",
+      "A": "A process for measuring the reliability of AI predictions across different conditions",
       "B": "An AI system that suggests relevant content or products based on user behavior and preferences",
-      "C": "A peer review system for AI research papers",
-      "D": "An HR system that recommends job candidates"
+      "C": "A governance protocol for managing access controls and data permissions in AI development environments",
+      "D": "The technique of decomposing complex AI tasks into smaller subtasks handled by specialized model components"
     },
     "answer": "B",
     "explanation": "AI-powered recommendation system คือระบบที่วิเคราะห์ user behavior, preferences และ patterns เพื่อแนะนำ content, สินค้า หรือบริการที่เกี่ยวข้อง ตัวอย่างที่เราเจอกันทุกวันก็เช่น Netflix แนะนำหนัง, Spotify แนะนำเพลง และ Amazon แนะนำสินค้า"
@@ -219,10 +219,10 @@
     "id": 19,
     "question": "What is 'catastrophic forgetting' in AI?",
     "choices": {
-      "A": "When an AI backup system fails completely",
+      "A": "A framework for categorizing AI system errors by severity and frequency of occurrence",
       "B": "When a neural network forgets previously learned information upon learning new tasks",
-      "C": "A devastating AI system crash",
-      "D": "When users forget how to use AI tools"
+      "C": "A governance protocol for managing access controls and data permissions in AI development environments",
+      "D": "The practice of establishing structured feedback channels between AI end-users and model development teams"
     },
     "answer": "B",
     "explanation": "Catastrophic forgetting เกิดขึ้นเมื่อ neural network ถูก train ด้วย data หรือ task ใหม่ แล้วดันลืมความรู้เก่าที่เคยเรียนไป เป็นปัญหาใหญ่ในสาย continual learning เลย วิธีแก้ที่นิยมก็เช่น elastic weight consolidation ที่ช่วยรักษาความรู้เดิมไว้ได้"
@@ -231,12 +231,12 @@
     "id": 20,
     "question": "What is the importance of 'diverse training data' in AI?",
     "choices": {
-      "A": "It makes the training process faster",
-      "B": "It helps ensure AI models work fairly and accurately across different populations and scenarios",
-      "C": "It reduces the cost of AI development",
-      "D": "It is only important for image recognition models"
+      "A": "A methodology for conducting bias audits that systematically test AI outputs across demographic subgroups",
+      "B": "A framework for categorizing AI system errors by severity and frequency of occurrence",
+      "C": "The practice of maintaining separate development and production pipelines for safe AI model deployment",
+      "D": "It helps ensure AI models work fairly and accurately across different populations and scenarios"
     },
-    "answer": "B",
+    "answer": "D",
     "explanation": "Diverse training data สำคัญมากในการสร้าง AI model ที่ทำงานได้อย่าง fair และ accurate กับคนทุกกลุ่ม ทุก demographic และทุกสถานการณ์ ถ้า data ไม่ diverse พอ model อาจเกิด bias และทำงานผิดพลาดกับกลุ่มที่มี representation น้อยใน training data ได้"
   }
 ]

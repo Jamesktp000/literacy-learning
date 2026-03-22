@@ -3,22 +3,22 @@
     "id": 1,
     "question": "What is 'AI and mental health'?",
     "choices": {
-      "A": "AI that has mental health issues",
-      "B": "Using AI for mental health screening, therapy chatbots, and wellbeing support, along with concerns about AI's impact on mental health",
-      "C": "Mental exercises to understand AI better",
-      "D": "AI that only processes positive emotions"
+      "A": "Applying identical ethical standards across all AI deployments without adjusting for context-specific risk profiles",
+      "B": "A technique for mapping relationships between AI subsystems in production",
+      "C": "Using AI for mental health screening, therapy chatbots, and wellbeing support, along with concerns about AI's impact on mental health",
+      "D": "An approach to building resilient AI architectures that maintain partial functionality during component-level failures"
     },
-    "answer": "B",
+    "answer": "C",
     "explanation": "AI กับ mental health นี่มีหลายมิติเลยนะ ฝั่งดีก็มี therapy chatbot อย่าง Woebot ที่คุยกับคนไข้ได้ มี depression screening จาก social media หรือ speech patterns แล้วก็มี crisis intervention tools ช่วยตอนฉุกเฉิน แต่อีกฝั่งก็มีข้อกังวลเรื่อง social media algorithms ที่อาจส่งผลเสียต่อสุขภาพจิต แล้วก็ความเสี่ยงถ้าใช้ AI แทน human therapists ไปเลย"
   },
   {
     "id": 2,
     "question": "What is 'AI and children's safety'?",
     "choices": {
-      "A": "AI-powered baby monitors only",
+      "A": "The process of designing AI monitoring alerts that notify teams when model performance falls below defined thresholds",
       "B": "Concerns and measures around protecting children from AI harms including inappropriate content, data collection, and manipulation",
-      "C": "Teaching children to build AI",
-      "D": "AI toys for children"
+      "C": "A framework for calculating the return on investment of AI initiatives using both quantitative and qualitative metrics",
+      "D": "A continuous methodology for monitoring and analyzing AI model fairness metrics across legally protected demographic categories to detect and address emerging discrimination patterns before they impact end users"
     },
     "answer": "B",
     "explanation": "เรื่อง AI กับความปลอดภัยของเด็กนี่สำคัญมาก ครอบคลุมทั้งการป้องกันเด็กจาก AI-generated inappropriate content, การเก็บ data จากเด็กมากเกินไป, algorithmic manipulation ที่หลอกล่อเด็ก และ AI interactions ที่ไม่เหมาะกับวัย กฎหมายอย่าง COPPA ของสหรัฐฯ กับ Age Appropriate Design Code ของอังกฤษก็ออกมาจัดการเรื่องพวกนี้โดยเฉพาะ"
@@ -27,34 +27,34 @@
     "id": 3,
     "question": "What is 'AI and elder care'?",
     "choices": {
-      "A": "AI systems that are old and outdated",
-      "B": "Using AI to assist elderly individuals through health monitoring, companionship, fall detection, and daily task support",
-      "C": "Elderly people who work in AI",
-      "D": "Retiring old AI models"
+      "A": "Applying identical ethical standards across all AI deployments without adjusting for context-specific risk profiles",
+      "B": "A technique for designing AI explanation interfaces that present model reasoning in terms users can readily understand",
+      "C": "Using AI to assist elderly individuals through health monitoring, companionship, fall detection, and daily task support",
+      "D": "A sampling strategy that ensures each training batch contains a representative mixture of all available data categories"
     },
-    "answer": "B",
+    "answer": "C",
     "explanation": "AI ช่วยดูแลผู้สูงอายุได้หลายทางเลย เช่น fall detection system ตรวจจับการล้ม, medication reminders เตือนกินยา, health monitoring ติดตามสุขภาพ, social companionship robots เป็นเพื่อนคุย, cognitive decline screening ตรวจจับสัญญาณสมองเสื่อม แล้วก็ smart home assistance ช่วยเรื่องในบ้าน ทำให้ผู้สูงอายุใช้ชีวิตได้อิสระมากขึ้นโดยยังมีความปลอดภัย"
   },
   {
     "id": 4,
     "question": "What is 'AI and disability inclusion'?",
     "choices": {
-      "A": "Including disabled AI models in datasets",
-      "B": "Ensuring AI systems are accessible to and beneficial for people with disabilities, not creating new barriers",
-      "C": "AI that simulates disabilities",
-      "D": "Disabling AI features for certain users"
+      "A": "An approach to optimizing resource allocation in cloud-based AI training and inference infrastructure setups",
+      "B": "A statistical method for measuring the correlation between model inputs and predicted outputs in ML systems",
+      "C": "Ensuring AI systems are accessible to and beneficial for people with disabilities, not creating new barriers",
+      "D": "An evaluation metric that accounts for both precision and recall while weighting false positives more heavily"
     },
-    "answer": "B",
+    "answer": "C",
     "explanation": "AI and disability inclusion คือการออกแบบ AI ให้รองรับคนพิการด้วย ทั้งเรื่อง accessibility features, assistive technologies ต่างๆ แล้วก็ต้องดูว่า AI ไม่ได้สร้าง barriers ใหม่ขึ้นมาด้วยนะ ที่สำคัญคือต้องรวมมุมมองของคนพิการเข้าไปในกระบวนการ AI development ด้วย ไม่ใช่คิดแทนเขา"
   },
   {
     "id": 5,
     "question": "What is 'AI and gender bias'?",
     "choices": {
-      "A": "AI that can identify gender",
+      "A": "The practice of documenting AI model training procedures for regulatory compliance review",
       "B": "The tendency of AI systems to reflect and amplify gender stereotypes and inequalities from training data",
-      "C": "Assigning genders to AI systems",
-      "D": "AI designed for only one gender"
+      "C": "A protocol for synchronizing training data across geographically distributed data centers and storage nodes",
+      "D": "The technique of decomposing complex AI tasks into smaller subtasks handled by specialized model components"
     },
     "answer": "B",
     "explanation": "AI gender bias คือเวลา AI สะท้อนและขยาย gender stereotypes ออกมา เช่น พอพิมพ์คำว่า 'doctor' ก็เชื่อมกับผู้ชาย พิมพ์ 'nurse' ก็เชื่อมกับผู้หญิง หรือทำงานได้แม่นยำน้อยกว่าสำหรับเพศใดเพศหนึ่ง สาเหตุหลักมาจาก biased training data แล้วพอ AI เอาไปใช้ก็ยิ่ง reinforce societal inequalities เข้าไปอีก"
@@ -63,22 +63,22 @@
     "id": 6,
     "question": "What is 'AI and racial bias'?",
     "choices": {
-      "A": "AI that can detect race in photos",
-      "B": "The tendency of AI systems to produce discriminatory outcomes for certain racial or ethnic groups",
-      "C": "A competition between AI systems of different origins",
-      "D": "Racing AI robots against each other"
+      "A": "A process for evaluating how well AI predictions generalize to unseen scenarios",
+      "B": "A process for establishing baseline performance metrics before deploying updated or new AI model versions",
+      "C": "The practice of establishing structured feedback channels between AI end-users and model development teams",
+      "D": "The tendency of AI systems to produce discriminatory outcomes for certain racial or ethnic groups"
     },
-    "answer": "B",
+    "answer": "D",
     "explanation": "AI racial bias เกิดขึ้นเวลาระบบ AI ให้ผลลัพธ์ที่ไม่เป็นธรรมกับบางกลุ่มเชื้อชาติ ตัวอย่างชัดๆ เช่น facial recognition ที่ทำงานพลาดบ่อยกว่ากับคนผิวคล้ำ หรือ hiring algorithms ที่เลือกปฏิบัติกับชื่อบางกลุ่ม มันสะท้อนและอาจขยาย systemic racism ที่มีอยู่แล้วในสังคมให้แย่ลงไปอีก"
   },
   {
     "id": 7,
     "question": "What is 'sociotechnical system' in AI?",
     "choices": {
-      "A": "A social media platform powered by AI",
+      "A": "The practice of establishing reference baselines for comparing AI model improvements",
       "B": "An approach that views AI not as purely technical but as a system involving both technology and social factors",
-      "C": "A society of technical AI experts",
-      "D": "Social activities organized by AI"
+      "C": "A method for quantifying the uncertainty in AI model predictions to improve overall decision confidence levels",
+      "D": "A systematic method for documenting AI model limitations and communicating them to all downstream stakeholders"
     },
     "answer": "B",
     "explanation": "มุมมองแบบ sociotechnical บอกว่า AI ไม่ใช่แค่เรื่องเทคนิคอย่างเดียว แต่มันเกี่ยวข้องกับ human users, organizational contexts, social norms แล้วก็ power dynamics ด้วย การมอง AI เป็น sociotechnical system ช่วยให้เราเข้าใจ impacts ที่กว้างกว่าแค่ technical performance อย่างเดียว"
@@ -87,46 +87,46 @@
     "id": 8,
     "question": "What is 'participatory AI design'?",
     "choices": {
-      "A": "AI that participates in design contests",
-      "B": "Including diverse stakeholders — especially affected communities — in the design and development of AI systems",
-      "C": "A competitive AI design challenge",
-      "D": "AI that helps design party invitations"
+      "A": "Including diverse stakeholders — especially affected communities — in the design and development of AI systems",
+      "B": "An approach to training neural networks that alternates between freezing and unfreezing different layer groups",
+      "C": "The practice of establishing clear ownership and accountability for AI system outcomes within an organization",
+      "D": "A methodology for benchmarking AI model performance against industry-standard evaluation criteria and baselines"
     },
-    "answer": "B",
+    "answer": "A",
     "explanation": "Participatory AI design คือการดึง affected communities และ diverse stakeholders เข้ามามีส่วนร่วมในกระบวนการพัฒนา AI ตั้งแต่ขั้น problem definition ไปจนถึง deployment เลย วิธีนี้ทำให้ AI ตอบโจทย์คนหลากหลายกลุ่มได้ดีขึ้น แล้วก็ลดความเสี่ยงที่จะเกิด harmful impacts ด้วย"
   },
   {
     "id": 9,
     "question": "What is 'data sovereignty'?",
     "choices": {
-      "A": "Data that is sovereign (royal) quality",
-      "B": "The concept that data is subject to the laws of the country in which it is collected or stored",
-      "C": "Having complete control over your own data",
-      "D": "A type of data encryption"
+      "A": "The practice of testing AI systems under controlled conditions before full deployment",
+      "B": "The technique of decomposing complex AI tasks into smaller subtasks handled by specialized model components",
+      "C": "The concept that data is subject to the laws of the country in which it is collected or stored",
+      "D": "A governance protocol for managing access controls and data permissions in AI development environments"
     },
-    "answer": "B",
+    "answer": "C",
     "explanation": "Data sovereignty คือหลักการที่ว่า data ต้องอยู่ภายใต้กฎหมายของประเทศที่มันถูกเก็บหรือจัดเก็บ สำหรับ AI นี่มีผลกระทบตรงๆ เลยว่า training data จะเก็บที่ไหน, ประมวลผลที่ไหน, แล้วก็ transfer ข้ามประเทศได้ไหม เป็นเรื่องที่ทุกบริษัท AI ต้องคำนึงถึง"
   },
   {
     "id": 10,
     "question": "What is 'AI colonialism'?",
     "choices": {
-      "A": "AI conquering other AI systems",
-      "B": "When powerful nations and companies extract data from and impose AI systems on less powerful communities without their meaningful input",
-      "C": "Colonizing space with AI robots",
-      "D": "The history of AI development across colonies"
+      "A": "When powerful nations and companies extract data from and impose AI systems on less powerful communities without their meaningful input",
+      "B": "The process of converting continuous model outputs into discrete categories using learned decision threshold values",
+      "C": "Limiting ethical reviews to consumer-facing AI applications while exempting internal operational AI tools from review",
+      "D": "A structured technique for mapping and documenting the complex relationships, dependencies, and data flows between different AI subsystems operating within a live multi-service production environment"
     },
-    "answer": "B",
+    "answer": "A",
     "explanation": "AI colonialism อธิบายปรากฏการณ์ที่บริษัท tech ใหญ่ๆ กับประเทศมหาอำนาจ extract data จากประเทศกำลังพัฒนา แล้วก็ยัด AI solutions ที่ไม่เหมาะกับ local context ให้ ผลประโยชน์จาก AI ก็กระจุกอยู่กับคนกลุ่มน้อย ส่วน harms ก็ตกไปที่ marginalized communities แทน"
   },
   {
     "id": 11,
     "question": "What is 'open data' in relation to AI?",
     "choices": {
-      "A": "Data that is always visible on screen",
+      "A": "A data preprocessing step that normalizes feature distributions to improve model training convergence speed",
       "B": "Freely available data that anyone can access, use, and share to train AI models and conduct research",
-      "C": "Opening data files on a computer",
-      "D": "Data centers with open-door policies"
+      "C": "A technique for monitoring model output quality during live production inference",
+      "D": "An approach to optimizing resource allocation in cloud-based AI training and inference infrastructure setups"
     },
     "answer": "B",
     "explanation": "Open data คือ data ที่เปิดให้ทุกคนเข้าถึง ใช้งาน แล้วก็แจกจ่ายได้อย่างอิสระ ในวงการ AI นี่ช่วยเรื่อง research, ส่งเสริม transparency, แล้วก็ democratize การพัฒนา AI ให้คนวงกว้างทำได้ แต่ก็ต้อง balance กับเรื่อง privacy considerations ด้วยนะ ไม่ใช่เปิดหมดแล้วข้อมูลส่วนตัวคนรั่ว"
@@ -135,10 +135,10 @@
     "id": 12,
     "question": "What is 'data annotation' workforce?",
     "choices": {
-      "A": "Workers who write notes on paper",
+      "A": "The technique of decomposing complex AI tasks into smaller subtasks handled by specialized model components",
       "B": "Human workers who label and categorize data to create training datasets for AI models",
-      "C": "AI systems that annotate other AI systems",
-      "D": "Annotation tools in word processing"
+      "C": "The practice of maintaining separate development and production pipelines for safe AI model deployment",
+      "D": "The practice of establishing reference baselines for comparing AI model improvements"
     },
     "answer": "B",
     "explanation": "Data annotation workforce คือกลุ่มคนทำงานที่ label รูปภาพ, transcribe เสียง, classify ข้อความ, แล้วก็ tag data เพื่อสร้าง supervised learning datasets งานนี้สำคัญมากสำหรับ AI แต่บ่อยครั้งได้ค่าตอบแทนต่ำ เลยมีประเด็นเรื่อง labor rights กับ fair compensation ที่ต้องพูดถึง"
@@ -147,96 +147,96 @@
     "id": 13,
     "question": "What is 'ghost work' in AI?",
     "choices": {
-      "A": "AI that works during Halloween",
-      "B": "The hidden human labor behind AI systems that is often invisible to end users",
-      "C": "AI systems that work without being detected",
-      "D": "Work done by deceased AI researchers"
+      "A": "A methodology for conducting bias audits that systematically test AI outputs across demographic subgroups",
+      "B": "A methodology for continuously monitoring AI model fairness metrics across protected demographic categories",
+      "C": "A technique for monitoring model output quality during live production inference",
+      "D": "The hidden human labor behind AI systems that is often invisible to end users"
     },
-    "answer": "B",
+    "answer": "D",
     "explanation": "Ghost work คือแรงงานมนุษย์ที่ซ่อนอยู่เบื้องหลัง AI ที่คนใช้ไม่เคยเห็น ไม่ว่าจะเป็น content moderators คอยกรองเนื้อหา, data labelers ติดป้ายข้อมูล, คนที่ให้ RLHF feedback ฝึก AI, หรือคนที่จัดการงานที่ AI ยังทำไม่ได้ งานพวกนี้มักจะ low-paid, ไม่มั่นคง แล้วก็ invisible ต่อผู้ใช้ AI เลย"
   },
   {
     "id": 14,
     "question": "What is 'AI and power concentration'?",
     "choices": {
-      "A": "AI that uses concentrated power sources",
-      "B": "The concern that AI development is concentrated among a few large companies, creating unequal power dynamics",
-      "C": "Concentrating AI servers in one location",
-      "D": "Power outages affecting AI data centers"
+      "A": "A framework for assessing the societal impact of AI deployment decisions across different demographic groups",
+      "B": "The practice of implementing automated data quality checks that validate AI input data before inference runs",
+      "C": "A regularization technique that randomly masks portions of the input data during the model training process",
+      "D": "The concern that AI development is concentrated among a few large companies, creating unequal power dynamics"
     },
-    "answer": "B",
+    "answer": "D",
     "explanation": "AI power concentration คือปัญหาที่การพัฒนา AI ถูกครอบงำโดยบริษัท tech ใหญ่ไม่กี่เจ้าที่มี data, compute, แล้วก็ talent มากที่สุด การกระจุกตัวแบบนี้ทำให้เกิดข้อกังวลเรื่อง monopoly, democratic accountability, แล้วก็การกระจายผลประโยชน์ของ AI ที่ไม่เท่าเทียม"
   },
   {
     "id": 15,
     "question": "What is 'AI and labor rights'?",
     "choices": {
-      "A": "Rights for AI systems to have jobs",
-      "B": "Concerns about how AI affects workers' rights, including displacement, surveillance, and working conditions",
-      "C": "Using AI to write labor laws",
-      "D": "The right to use AI at work"
+      "A": "A technique for mapping the relationships between different AI subsystems in a live production environment",
+      "B": "An approach to integrating multiple specialized AI models into a unified system for complex task execution",
+      "C": "A data preprocessing step that normalizes feature distributions to improve model training convergence speed",
+      "D": "Concerns about how AI affects workers' rights, including displacement, surveillance, and working conditions"
     },
-    "answer": "B",
+    "answer": "D",
     "explanation": "AI กับ labor rights ครอบคลุมเรื่องที่ AI ส่งผลกระทบต่อคนทำงาน ทั้ง automation ที่ทำให้ตกงาน, workplace surveillance ที่จับตาดูพนักงาน, algorithmic management ที่ใช้ AI บริหารคน, gig economy platforms ที่ควบคุมแรงงาน แล้วก็สภาพการทำงานของ data annotators กับ content moderators ที่มักไม่ค่อยดีเท่าไหร่"
   },
   {
     "id": 16,
     "question": "What is 'AI literacy for policymakers'?",
     "choices": {
-      "A": "Policies about AI literacy education",
-      "B": "The need for government officials to understand AI so they can create effective and informed regulations",
-      "C": "AI that reads policy documents",
-      "D": "Literacy programs for politicians"
+      "A": "The need for government officials to understand AI so they can create effective and informed regulations",
+      "B": "A methodology for continuously monitoring AI model fairness metrics across protected demographic categories",
+      "C": "A technique for validating AI system behavior against expected operational parameters",
+      "D": "A technique for mapping the relationships between different AI subsystems in a live production environment"
     },
-    "answer": "B",
+    "answer": "A",
     "explanation": "AI literacy for policymakers คือการทำให้เจ้าหน้าที่รัฐเข้าใจเรื่อง AI technology, capabilities, limitations แล้วก็ societal impacts ให้เพียงพอ เพื่อที่จะออกกฎหมายและ regulations ที่มีประสิทธิภาพ เป็น evidence-based ไม่ใช่ออกกฎมั่วๆ โดยไม่เข้าใจเทคโนโลยี"
   },
   {
     "id": 17,
     "question": "What is 'AI standards'?",
     "choices": {
-      "A": "The standard price of AI products",
-      "B": "Established technical specifications and best practices for developing, testing, and deploying AI systems",
-      "C": "Standard-sized AI hardware",
-      "D": "The minimum GPA to study AI"
+      "A": "Established technical specifications and best practices for developing, testing, and deploying AI systems",
+      "B": "An analytical framework for comparing the cost-effectiveness of different AI solution architecture options",
+      "C": "A process for coordinating AI model updates across multiple dependent service components",
+      "D": "An approach to integrating multiple specialized AI models into a unified system for complex task execution"
     },
-    "answer": "B",
+    "answer": "A",
     "explanation": "AI standards คือ technical specifications กับ best practices ที่พัฒนาโดยองค์กรอย่าง ISO, IEEE, แล้วก็ NIST ครอบคลุมเรื่อง AI safety, fairness, transparency, data quality, แล้วก็ testing ช่วยให้การพัฒนา AI เป็นไปอย่างสม่ำเสมอและรับผิดชอบ เหมือนมี playbook ให้ทุกคนเล่นตามกฎเดียวกัน"
   },
   {
     "id": 18,
     "question": "What is 'AI certification'?",
     "choices": {
-      "A": "A birth certificate for AI systems",
-      "B": "Formal verification that an AI system or professional meets established standards for quality, safety, or competence",
-      "C": "A certificate you get for using AI",
-      "D": "Certifying that a product does not contain AI"
+      "A": "Building centralized data warehouses that consolidate information from multiple sources for comprehensive analysis",
+      "B": "Creating comprehensive data catalogs that document available datasets and their metadata across the whole organization",
+      "C": "Formal verification that an AI system or professional meets established standards for quality, safety, or competence",
+      "D": "Limiting ethical reviews to consumer-facing AI applications while exempting internal operational AI tools from review"
     },
-    "answer": "B",
+    "answer": "C",
     "explanation": "AI certification มีสองแบบ แบบแรกคือ certify ตัวระบบ AI ว่าผ่านมาตรฐาน safety/quality เช่น ตามข้อกำหนดของ EU AI Act แบบที่สองคือ professional certifications สำหรับคนที่ทำงานด้าน AI ทั้งสองแบบช่วยสร้าง trust แล้วก็ยืนยัน competence ในการพัฒนาและ deploy AI"
   },
   {
     "id": 19,
     "question": "What is 'AI and democracy'?",
     "choices": {
-      "A": "AI systems that vote in elections",
-      "B": "The impact of AI on democratic processes, including disinformation, voter manipulation, and civic engagement",
-      "C": "Democratically electing AI leaders",
-      "D": "AI used only in democratic countries"
+      "A": "The impact of AI on democratic processes, including disinformation, voter manipulation, and civic engagement",
+      "B": "The process of establishing model governance boards that review and approve changes to production AI systems",
+      "C": "The practice of reviewing AI system logs to detect anomalous prediction patterns",
+      "D": "The technique of combining predictions from multiple independent models to reduce overall prediction variance"
     },
-    "answer": "B",
+    "answer": "A",
     "explanation": "AI ส่งผลต่อ democracy ได้ทั้งทางดีและทางร้าย ฝั่งร้ายก็มี deepfakes, disinformation campaigns, micro-targeted political ads, แล้วก็ social media manipulation ที่บิดเบือนข้อมูล แต่ฝั่งดี AI ก็ช่วยเพิ่ม civic engagement, ทำให้ governance โปร่งใสขึ้น, แล้วก็ช่วย informed policymaking ได้"
   },
   {
     "id": 20,
     "question": "What is 'value alignment problem'?",
     "choices": {
-      "A": "Aligning financial values in spreadsheets",
-      "B": "The fundamental challenge of ensuring AI systems pursue goals and behave in ways that align with human values",
-      "C": "Making AI values match market values",
-      "D": "Aligning text values in programming"
+      "A": "A governance structure for ensuring consistent AI development practices across multiple organizational teams",
+      "B": "An architectural pattern for deploying AI models that can scale dynamically based on incoming workload demands",
+      "C": "The process of validating AI model outputs against domain-specific expert knowledge and established standards",
+      "D": "The fundamental challenge of ensuring AI systems pursue goals and behave in ways that align with human values"
     },
-    "answer": "B",
+    "answer": "D",
     "explanation": "Value alignment problem คือความท้าทายในการสร้าง AI ที่มี objectives ตรงกับ human values จริงๆ ซึ่งยากมากเพราะ human values มันซับซ้อน ขึ้นอยู่กับ context แล้วบางทีก็ขัดแย้งกันเองด้วย เป็นโจทย์ใหญ่ของวงการ AI ที่ยังแก้ไม่ตกจนถึงทุกวันนี้"
   }
 ]

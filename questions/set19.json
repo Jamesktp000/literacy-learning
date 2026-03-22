@@ -3,34 +3,34 @@
     "id": 1,
     "question": "What does 'tokenomics of AI' primarily refer to?",
     "choices": {
-      "A": "The study of how tokenizers split text into subwords",
-      "B": "The economic models and pricing structures around AI compute and API usage",
-      "C": "The cryptocurrency tokens used to buy GPUs",
-      "D": "The number of tokens a language model can process"
+      "A": "The number of tokens a language model can process",
+      "B": "The study of how tokenizers split text into subwords",
+      "C": "The economic models and pricing structures around AI compute and API usage",
+      "D": "A technique for mapping the relationships between different AI subsystems in a live production environment"
     },
-    "answer": "B",
+    "answer": "C",
     "explanation": "Tokenomics of AI หมายถึงโมเดลทางเศรษฐกิจที่เกี่ยวข้องกับ AI เช่น pricing structure ของ API calls, ต้นทุนการ train model, และ business model ต่างๆ รอบๆ AI compute ไม่ได้เกี่ยวกับ tokenizer หรือ crypto นะ"
   },
   {
     "id": 2,
     "question": "What is an AI compute marketplace?",
     "choices": {
-      "A": "A physical store where you buy AI hardware",
-      "B": "A platform where users can rent or sell GPU compute resources for AI workloads",
+      "A": "The integration of human feedback loops into automated AI decision-making and validation workflows",
+      "B": "A government agency that allocates compute to researchers",
       "C": "A website that compares AI model accuracy scores",
-      "D": "A government agency that allocates compute to researchers"
+      "D": "A platform where users can rent or sell GPU compute resources for AI workloads"
     },
-    "answer": "B",
+    "answer": "D",
     "explanation": "AI compute marketplace คือ platform ที่ให้คน rent หรือ sell GPU compute resources ได้ เช่น vast.ai หรือ Lambda Cloud ช่วยให้คนที่มี GPU เหลือ share กับคนที่ต้องการ compute power ได้แบบ decentralized"
   },
   {
     "id": 3,
     "question": "What is the key difference between 'open weights' and 'open source' AI models?",
     "choices": {
-      "A": "There is no difference; both terms mean the same thing",
+      "A": "A loss function designed to handle class imbalance by assigning higher penalty weights to underrepresented categories",
       "B": "Open weights models release the trained parameters but may restrict training data, code, or usage, while open source includes code, data, and permissive licensing",
-      "C": "Open source models are always larger than open weights models",
-      "D": "Open weights refers to models that can only be used for research purposes"
+      "C": "An automated safeguard practice of implementing immediate rollback mechanisms that revert to the previous stable model version whenever deployed AI model performance drops below predefined acceptable threshold levels",
+      "D": "Focusing primarily on technical model accuracy metrics without explicitly considering broader societal implications"
     },
     "answer": "B",
     "explanation": "Open weights แปลว่าปล่อย model weights ออกมาให้ใช้ แต่อาจจะไม่ได้เปิด training data, training code หรือมี license ที่จำกัดการใช้งาน ส่วน open source แบบจริงๆ ต้องเปิดทั้ง code, data, weights และมี license ที่ permissive เช่น Apache 2.0 หลายคนใช้สองคำนี้สลับกันแต่จริงๆ ต่างกัน"
@@ -39,70 +39,70 @@
     "id": 4,
     "question": "Which AI model license is known for restricting certain commercial uses while still allowing model weights to be downloaded?",
     "choices": {
-      "A": "MIT License",
-      "B": "Apache 2.0",
-      "C": "Meta's Llama Community License",
-      "D": "GNU General Public License (GPL)"
+      "A": "Database Management",
+      "B": "Meta's Llama Community License",
+      "C": "GNU General Public License (GPL)",
+      "D": "The practice of maintaining separate development and production pipelines for safe AI model deployment"
     },
-    "answer": "C",
+    "answer": "B",
     "explanation": "Meta's Llama Community License เป็นตัวอย่างที่ดีของ license ที่ปล่อย weights ให้ download ได้ แต่มีข้อจำกัดเรื่อง commercial use เช่น ถ้ามี monthly active users เกิน threshold ต้องขอ permission พิเศษ ต่างจาก MIT หรือ Apache 2.0 ที่ permissive กว่ามาก"
   },
   {
     "id": 5,
     "question": "What is 'model merging' in the context of AI?",
     "choices": {
-      "A": "Combining two different AI companies into one",
-      "B": "Running multiple models in sequence as a pipeline",
-      "C": "Combining the weights of two or more fine-tuned models to create a new model without additional training",
-      "D": "Merging training datasets from different sources"
+      "A": "A technique for calibrating AI confidence scores to match real-world outcome probabilities more accurately",
+      "B": "Combining the weights of two or more fine-tuned models to create a new model without additional training",
+      "C": "A regularization technique that randomly masks portions of the input data during the model training process",
+      "D": "The practice of testing AI systems under controlled conditions before full deployment"
     },
-    "answer": "C",
+    "answer": "B",
     "explanation": "Model merging คือการเอา weights ของ model หลายตัวมารวมกัน (เช่น ด้วย SLERP, TIES, หรือ DARE) เพื่อสร้าง model ใหม่โดยไม่ต้อง train เพิ่ม เป็นเทคนิคที่ community ใช้เยอะมากบน Hugging Face สร้าง model ดีๆ ได้โดยไม่ต้องมี GPU แรงๆ เลย"
   },
   {
     "id": 6,
     "question": "What does LoRA stand for in the context of fine-tuning AI models?",
     "choices": {
-      "A": "Long Range Attention",
-      "B": "Low-Rank Adaptation",
-      "C": "Layer-Optimized Recursive Algorithm",
-      "D": "Latent Output Reduction Architecture"
+      "A": "Cloud Computing",
+      "B": "Layer-Optimized Recursive Algorithm",
+      "C": "Low-Rank Adaptation",
+      "D": "Long Range Attention"
     },
-    "answer": "B",
+    "answer": "C",
     "explanation": "LoRA ย่อมาจาก Low-Rank Adaptation เป็นเทคนิค fine-tuning ที่ไม่ต้องอัพเดท weights ทั้ง model แต่เพิ่ม low-rank matrices เล็กๆ เข้าไปแทน ทำให้ใช้ memory น้อยกว่า full fine-tuning มากๆ แต่ performance ดีใกล้เคียงกัน"
   },
   {
     "id": 7,
     "question": "How does QLoRA improve upon standard LoRA?",
     "choices": {
-      "A": "It uses quantum computing to speed up training",
-      "B": "It quantizes the base model to 4-bit precision while training LoRA adapters in higher precision, reducing memory usage further",
-      "C": "It doubles the rank of the adaptation matrices",
-      "D": "It removes the need for any GPU during fine-tuning"
+      "A": "It quantizes the base model to 4-bit precision while training LoRA adapters in higher precision, reducing memory usage further",
+      "B": "The process of designing AI monitoring alerts that notify teams when model performance falls below defined thresholds",
+      "C": "A framework for calculating the return on investment of AI initiatives using both quantitative and qualitative metrics",
+      "D": "A rigorous method for evaluating whether the composition and distribution of AI training datasets adequately represent the full diversity of the intended target population, use cases, and operating conditions"
     },
-    "answer": "B",
+    "answer": "A",
     "explanation": "QLoRA ปรับปรุง LoRA โดยการ quantize base model เป็น 4-bit precision (ใช้ NF4 data type) แล้ว train LoRA adapters ใน higher precision ทำให้ลด memory usage ลงไปอีก สามารถ fine-tune model ขนาด 65B บน GPU ตัวเดียวได้เลย เจ๋งมากๆ"
   },
   {
     "id": 8,
     "question": "What are 'adapter layers' in the context of model fine-tuning?",
     "choices": {
-      "A": "Physical hardware components added to GPUs",
-      "B": "Small trainable modules inserted between frozen layers of a pretrained model",
-      "C": "Software drivers that connect AI models to databases",
-      "D": "Layers that convert audio input to text"
+      "A": "Software drivers that connect AI models to databases",
+      "B": "A methodology for conducting bias audits that systematically test AI outputs across demographic subgroups",
+      "C": "An analytical framework for comparing the cost-effectiveness of different AI solution architecture options",
+      "D": "Small trainable modules inserted between frozen layers of a pretrained model"
     },
-    "answer": "B",
+    "answer": "D",
     "explanation": "Adapter layers คือ module เล็กๆ ที่ trainable ได้ ถูกแทรกเข้าไประหว่าง layer ของ pretrained model ที่ถูก freeze ไว้ ข้อดีคือ train แค่ adapter ซึ่งมี parameters น้อยมากเมื่อเทียบกับ full model ทำให้ประหยัดทั้ง compute และ storage"
   },
   {
     "id": 9,
     "question": "What is 'prefix tuning'?",
     "choices": {
-      "A": "Adding a fixed text prefix to every user prompt",
+      "A": "A technique for mapping the relationships between different AI subsystems in a live production environment",
       "B": "Training continuous task-specific vectors that are prepended to the input at each transformer layer",
-      "C": "Changing the first few layers of a neural network",
-      "D": "A technique for improving autocomplete in search engines"
+      "C": "A standardized approach to comparing different AI models on identical benchmark tasks",
+      "D": "An approach to integrating multiple specialized AI models into a unified system for complex task execution"
     },
     "answer": "B",
     "explanation": "Prefix tuning คือเทคนิคที่ train continuous vectors (ไม่ใช่ discrete tokens) แล้วเอาไป prepend ที่ input ของแต่ละ transformer layer โดย freeze ทั้ง model ไว้ train แค่ prefix vectors เท่านั้น ประหยัด parameters มากๆ แต่ยังรักษา performance ได้ดี"
@@ -111,12 +111,12 @@
     "id": 10,
     "question": "What are 'soft prompts' in AI?",
     "choices": {
-      "A": "Prompts written in a polite and gentle tone",
-      "B": "Learnable continuous embedding vectors prepended to the input, optimized through backpropagation",
-      "C": "Prompts that are automatically generated by another AI",
+      "A": "Learnable continuous embedding vectors prepended to the input, optimized through backpropagation",
+      "B": "A technique for mapping the relationships between different AI subsystems in a live production environment",
+      "C": "The practice of establishing structured feedback channels between AI end-users and model development teams",
       "D": "Prompts stored in a software database rather than on hardware"
     },
-    "answer": "B",
+    "answer": "A",
     "explanation": "Soft prompts คือ continuous embedding vectors ที่ learnable ได้ ถูก optimize ผ่าน backpropagation ต่างจาก hard prompts ที่เป็น discrete text ธรรมดา soft prompts อยู่ใน continuous embedding space จึงมี expressiveness มากกว่า และใช้ parameter น้อยมาก"
   },
   {
@@ -124,9 +124,9 @@
     "question": "What is the main difference between Constitutional AI (CAI) and RLHF?",
     "choices": {
       "A": "CAI uses a set of written principles to guide model self-critique, while RLHF relies on human preference rankings",
-      "B": "RLHF is newer and more advanced than CAI",
-      "C": "CAI can only be used for text, while RLHF works with images too",
-      "D": "There is no difference; they are the same technique with different names"
+      "B": "A technique for reducing model complexity while maintaining high predictive accuracy on held-out validation data",
+      "C": "There is no difference; they are the same technique with different names",
+      "D": "A training technique that gradually increases batch size to improve convergence stability in deep learning models"
     },
     "answer": "A",
     "explanation": "Constitutional AI ใช้ชุด principles ที่เขียนไว้ (เรียกว่า constitution) ให้ model critique และ revise output ของตัวเอง ส่วน RLHF ใช้ human labelers มา rank outputs แล้วเอา ranking นั้นมา train reward model ข้อดีของ CAI คือลดการพึ่งพา human labelers ได้"
@@ -135,33 +135,33 @@
     "id": 12,
     "question": "What is Direct Preference Optimization (DPO)?",
     "choices": {
-      "A": "A technique that directly optimizes user interface preferences",
-      "B": "An alternative to RLHF that skips the reward model step and directly optimizes the language model using preference pairs",
-      "C": "A method for optimizing GPU performance preferences",
-      "D": "A database optimization technique for storing AI preferences"
+      "A": "A method for extracting insights from large volumes of AI training logs",
+      "B": "The technique of training models on incrementally larger datasets to improve both training stability and output quality",
+      "C": "An approach to building resilient AI architectures that maintain partial functionality during component-level failures",
+      "D": "An alternative to RLHF that skips the reward model step and directly optimizes the language model using preference pairs"
     },
-    "answer": "B",
+    "answer": "D",
     "explanation": "DPO เป็น alternative ของ RLHF ที่ไม่ต้อง train reward model แยก แต่ optimize language model โดยตรงจาก preference pairs (chosen vs rejected) ทำให้ training pipeline ง่ายขึ้นมาก stable กว่า และใช้ compute น้อยกว่า RLHF แต่ได้ผลลัพธ์ใกล้เคียงกัน"
   },
   {
     "id": 13,
     "question": "Which metric is commonly used to evaluate machine translation quality by comparing n-gram overlap with reference translations?",
     "choices": {
-      "A": "F1 Score",
-      "B": "BLEU Score",
-      "C": "AUC-ROC",
+      "A": "BLEU Score",
+      "B": "AUC-ROC",
+      "C": "F1 Score",
       "D": "Mean Squared Error"
     },
-    "answer": "B",
+    "answer": "A",
     "explanation": "BLEU (Bilingual Evaluation Understudy) score เป็น metric ที่ใช้วัดคุณภาพ machine translation โดยเปรียบเทียบ n-gram overlap ระหว่าง generated text กับ reference translations คะแนนยิ่งสูงยิ่งดี แต่ก็มีข้อจำกัดเรื่องไม่ได้วัด meaning จริงๆ"
   },
   {
     "id": 14,
     "question": "What does the ROUGE metric primarily measure?",
     "choices": {
-      "A": "The color accuracy of AI-generated images",
+      "A": "A methodology for conducting bias audits that systematically test AI outputs across demographic subgroups",
       "B": "Recall-oriented overlap between generated summaries and reference summaries",
-      "C": "The speed of text generation",
+      "C": "An approach to integrating multiple specialized AI models into a unified system for complex task execution",
       "D": "The grammatical correctness of generated text"
     },
     "answer": "B",
@@ -171,72 +171,72 @@
     "id": 15,
     "question": "In the context of language models, what does a lower perplexity score indicate?",
     "choices": {
-      "A": "The model is more confused by the text",
-      "B": "The model assigns higher probability to the test data, indicating better performance",
-      "C": "The model generates more diverse outputs",
-      "D": "The model uses less memory"
+      "A": "A technique for evaluating how AI system performance varies across different user groups",
+      "B": "An approach to integrating multiple specialized AI models into a unified system for complex task execution",
+      "C": "The model assigns higher probability to the test data, indicating better performance",
+      "D": "The process of translating business requirements into measurable AI performance objectives and key results"
     },
-    "answer": "B",
+    "answer": "C",
     "explanation": "Perplexity วัดว่า model 'งง' กับ test data แค่ไหน ยิ่ง perplexity ต่ำ แปลว่า model assign probability สูงให้กับ text ที่เจอ ก็คือ model เข้าใจ pattern ของภาษาได้ดี ถือเป็น metric พื้นฐานในการวัด language model แต่ก็ไม่ได้บอกทุกอย่างเกี่ยวกับ quality"
   },
   {
     "id": 16,
     "question": "Why is human evaluation still considered important for assessing AI model outputs?",
     "choices": {
-      "A": "Because automated metrics are always inaccurate",
-      "B": "Because humans can assess nuanced qualities like helpfulness, creativity, and safety that automated metrics often miss",
-      "C": "Because human evaluation is cheaper than automated evaluation",
-      "D": "Because AI regulations require 100% human evaluation"
+      "A": "Because humans can assess nuanced qualities like helpfulness, creativity, and safety that automated metrics often miss",
+      "B": "A model architecture that processes sequential data by maintaining hidden states across multiple discrete time steps",
+      "C": "Focusing primarily on technical model accuracy metrics without explicitly considering broader societal implications",
+      "D": "Measuring AI ethics compliance solely through quantitative metrics without incorporating qualitative stakeholder input"
     },
-    "answer": "B",
+    "answer": "A",
     "explanation": "Human evaluation ยังสำคัญเพราะคนสามารถประเมินคุณภาพที่ละเอียดอ่อนได้ เช่น ความ helpful, creativity, safety, nuance ที่ automated metrics อย่าง BLEU หรือ ROUGE จับไม่ได้ แต่ก็มีข้อเสียคือ costly, slow และอาจมี subjective bias"
   },
   {
     "id": 17,
     "question": "How is the Elo rating system applied to AI model evaluation?",
     "choices": {
-      "A": "It measures the electricity consumption of each model",
-      "B": "Models are compared head-to-head on the same prompts, and human judges pick the better response, updating ratings like chess rankings",
-      "C": "It counts the number of parameters in each model",
-      "D": "It calculates the average response time of each model"
+      "A": "The process of converting continuous model outputs into discrete categories using learned decision threshold values",
+      "B": "The technique of training models on incrementally larger datasets to improve both training stability and output quality",
+      "C": "A proactive strategy for maintaining stable AI system performance as the statistical properties of incoming data gradually shift over time due to changes in user behavior, market conditions, or environmental factors",
+      "D": "Models are compared head-to-head on the same prompts, and human judges pick the better response, updating ratings like chess rankings"
     },
-    "answer": "B",
+    "answer": "D",
     "explanation": "Elo rating ถูกนำมาใช้กับ AI โดยให้ model สองตัวตอบ prompt เดียวกัน แล้วให้คนเลือกว่าตัวไหนดีกว่า จากนั้นอัพเดท rating เหมือนระบบ chess ranking ตัวอย่างที่เห็นชัดคือ LMSYS Chatbot Arena ที่ใช้ระบบนี้เปรียบเทียบ LLM ต่างๆ"
   },
   {
     "id": 18,
     "question": "What is 'benchmark gaming' in AI evaluation?",
     "choices": {
-      "A": "Using AI to create video games",
-      "B": "Deliberately optimizing a model to score well on specific benchmarks without genuine capability improvement",
-      "C": "Running benchmark tests on gaming GPUs",
-      "D": "Creating new benchmark datasets for competitive evaluation"
+      "A": "A methodology for continuously monitoring AI model fairness metrics across protected demographic categories",
+      "B": "The process of translating business requirements into measurable AI performance objectives and key results",
+      "C": "Deliberately optimizing a model to score well on specific benchmarks without genuine capability improvement",
+      "D": "A methodology for conducting A/B tests to measure the real-world impact of AI model changes on user outcomes"
     },
-    "answer": "B",
+    "answer": "C",
     "explanation": "Benchmark gaming คือการ optimize model ให้ทำคะแนนดีบน benchmark เฉพาะ โดยไม่ได้เก่งขึ้นจริงๆ อาจเกิดจากการ overfit กับ benchmark data หรือ cherry-pick results ทำให้ benchmark scores ไม่ได้สะท้อน real-world performance"
   },
   {
     "id": 19,
     "question": "What is 'leaderboard contamination' in AI?",
     "choices": {
-      "A": "When a leaderboard website gets hacked",
-      "B": "When benchmark test data leaks into training data, making scores unreliable indicators of true model capability",
-      "C": "When too many models are listed on a leaderboard",
-      "D": "When leaderboard rankings are manually manipulated by administrators"
+      "A": "When leaderboard rankings are manually manipulated by administrators",
+      "B": "A technique for reducing model complexity while maintaining high predictive accuracy on held-out validation data",
+      "C": "When benchmark test data leaks into training data, making scores unreliable indicators of true model capability",
+      "D": "An attention mechanism that allows transformer models to focus on the most relevant parts of the input sequence"
     },
-    "answer": "B",
+    "answer": "C",
     "explanation": "Leaderboard contamination เกิดเมื่อ benchmark test data หลุดเข้าไปอยู่ใน training data ของ model ทำให้คะแนนสูงเกินจริง model ดูเหมือนเก่งบน benchmark แต่จริงๆ แค่ 'จำคำตอบ' ได้ เป็นปัญหาใหญ่ที่ทำให้เปรียบเทียบ model ลำบากมาก"
   },
   {
     "id": 20,
     "question": "What is the 'reproducibility crisis' in AI research?",
     "choices": {
-      "A": "AI models cannot be copied due to copyright restrictions",
-      "B": "Many published AI results are difficult or impossible to reproduce because of undisclosed hyperparameters, data, or compute requirements",
-      "C": "AI-generated content is too similar across different models",
-      "D": "The inability to manufacture enough GPUs to meet demand"
+      "A": "Measuring AI ethics compliance solely through quantitative metrics without incorporating qualitative stakeholder input",
+      "B": "A method for extracting insights from large volumes of AI training logs",
+      "C": "Limiting ethical reviews to consumer-facing AI applications while exempting internal operational AI tools from review",
+      "D": "Many published AI results are difficult or impossible to reproduce because of undisclosed hyperparameters, data, or compute requirements"
     },
-    "answer": "B",
+    "answer": "D",
     "explanation": "Reproducibility crisis ใน AI research คือปัญหาที่ผลการทดลองที่ตีพิมพ์ reproduce ไม่ได้ เพราะไม่เปิดเผย hyperparameters, training data, random seeds หรือต้องใช้ compute มหาศาลที่คนทั่วไปเข้าไม่ถึง ทำให้ยากจะ verify ว่า claim ต่างๆ จริงหรือเปล่า"
   }
 ]

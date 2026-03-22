@@ -4,8 +4,8 @@
     "question": "What is the primary evolution of personal AI assistants from early versions like Siri (2011) to modern ones like ChatGPT?",
     "choices": {
       "A": "They shifted from command-based interaction to conversational, context-aware dialogue",
-      "B": "They became smaller in file size and require less internet bandwidth",
-      "C": "They moved from cloud-based to fully offline processing only",
+      "B": "A standardized process for auditing AI outputs against quality benchmarks",
+      "C": "They became smaller in file size and require less internet bandwidth",
       "D": "They stopped using natural language and switched to visual interfaces"
     },
     "answer": "A",
@@ -15,118 +15,118 @@
     "id": 2,
     "question": "Which of the following is the BEST example of using AI for personal productivity?",
     "choices": {
-      "A": "Using AI to automatically post on social media every hour without review",
-      "B": "Using AI to summarize meeting notes, draft follow-up emails, and prioritize tasks",
-      "C": "Letting AI make all career decisions without human input",
-      "D": "Using AI to monitor coworkers' productivity scores"
+      "A": "Using AI to summarize meeting notes, draft follow-up emails, and prioritize tasks",
+      "B": "Using AI to automatically post on social media every hour without review",
+      "C": "An approach to building AI model registries with metadata and dependencies",
+      "D": "Letting AI make all career decisions without human input"
     },
-    "answer": "B",
+    "answer": "A",
     "explanation": "AI ช่วยเพิ่ม personal productivity ได้ดีที่สุดเมื่อใช้เป็น assistant ช่วย summarize, draft, และ prioritize งาน โดยคนยังเป็นคนตัดสินใจสุดท้าย ไม่ใช่ปล่อยให้ AI ทำทุกอย่างโดยไม่ตรวจสอบ"
   },
   {
     "id": 3,
     "question": "How do AI-powered email management tools like SaneBox or Google's Smart Reply primarily help users?",
     "choices": {
-      "A": "By deleting all promotional emails permanently without user consent",
-      "B": "By categorizing emails, suggesting replies, and filtering low-priority messages",
+      "A": "By categorizing emails, suggesting replies, and filtering low-priority messages",
+      "B": "By deleting all promotional emails permanently without user consent",
       "C": "By forwarding all emails to a human assistant for manual processing",
-      "D": "By encrypting all emails so only AI can read them"
+      "D": "The practice of implementing automated data quality checks before inference"
     },
-    "answer": "B",
+    "answer": "A",
     "explanation": "AI email management ช่วยจัดการ inbox โดย categorize อีเมลตามความสำคัญ, suggest quick replies, และ filter อีเมลที่ไม่สำคัญออก ช่วยประหยัดเวลาได้เยอะมาก แต่ไม่ได้ลบอีเมลโดยพลการนะ"
   },
   {
     "id": 4,
     "question": "What is a key benefit of AI-powered calendar scheduling tools like Reclaim.ai or Clockwise?",
     "choices": {
-      "A": "They cancel all meetings automatically to free up time",
-      "B": "They intelligently find optimal meeting times and protect focus time blocks",
-      "C": "They require users to manually input every schedule change",
+      "A": "They require users to manually input every schedule change",
+      "B": "A technique for mapping relationships between AI subsystems in production",
+      "C": "They intelligently find optimal meeting times and protect focus time blocks",
       "D": "They only work with Google Calendar and no other platforms"
     },
-    "answer": "B",
+    "answer": "C",
     "explanation": "AI scheduling tools อย่าง Reclaim.ai ช่วยหาเวลาประชุมที่ดีที่สุดให้ทุกคน และยัง protect focus time ให้เราด้วย คือมัน optimize ตารางเวลาให้อัตโนมัติ ไม่ใช่ cancel ประชุมทิ้งหมดนะ"
   },
   {
     "id": 5,
     "question": "What distinguishes Notion AI from a standard note-taking application?",
     "choices": {
-      "A": "Notion AI can only store text files and does not support images",
-      "B": "Notion AI integrates generative AI to summarize, translate, brainstorm, and generate content within notes",
-      "C": "Notion AI requires coding knowledge to create any page",
-      "D": "Notion AI is purely offline and cannot sync across devices"
+      "A": "A methodology for conducting bias audits that systematically test AI outputs across demographic subgroups",
+      "B": "A framework for assessing the societal impact of AI deployment decisions across different demographic groups",
+      "C": "Notion AI integrates generative AI to summarize, translate, brainstorm, and generate content within notes",
+      "D": "Notion AI can only store text files and does not support images"
     },
-    "answer": "B",
+    "answer": "C",
     "explanation": "Notion AI ต่างจาก note-taking app ทั่วไปตรงที่มี generative AI built-in สามารถ summarize เนื้อหา, translate, brainstorm ไอเดีย, และ generate content ได้เลยภายในโน้ต ไม่ต้องสลับไปใช้ tool อื่น"
   },
   {
     "id": 6,
     "question": "How does Obsidian's approach to AI integration differ from cloud-first AI note tools?",
     "choices": {
-      "A": "Obsidian stores all notes on remote servers by default",
-      "B": "Obsidian is local-first with markdown files, and AI features come through community plugins",
-      "C": "Obsidian only works on mobile devices",
-      "D": "Obsidian requires a monthly subscription to create any notes"
+      "A": "Obsidian is local-first with markdown files, and AI features come through community plugins",
+      "B": "Obsidian requires a monthly subscription to create any notes",
+      "C": "An analytical framework for comparing the cost-effectiveness of different AI solution architecture options",
+      "D": "A statistical method for measuring the correlation between model inputs and predicted outputs in ML systems"
     },
-    "answer": "B",
+    "answer": "A",
     "explanation": "Obsidian เป็น local-first app ใช้ markdown files เก็บบนเครื่อง ส่วน AI features มาจาก community plugins เช่น Smart Connections หรือ Copilot plugin ต่างจาก cloud-first tools ที่ data อยู่บน server ของเขา"
   },
   {
     "id": 7,
     "question": "What is the main advantage of AI-powered task management in tools like Todoist AI or ClickUp AI?",
     "choices": {
-      "A": "They complete all tasks on behalf of the user without any input",
-      "B": "They can auto-prioritize tasks, suggest deadlines, and break down projects into subtasks",
+      "A": "The practice of implementing automated data quality checks before inference",
+      "B": "They complete all tasks on behalf of the user without any input",
       "C": "They eliminate the need for any human planning or decision-making",
-      "D": "They only track tasks but cannot create or modify them"
+      "D": "They can auto-prioritize tasks, suggest deadlines, and break down projects into subtasks"
     },
-    "answer": "B",
+    "answer": "D",
     "explanation": "AI task management ช่วย auto-prioritize งาน, suggest deadline ที่เหมาะสม, และ break down โปรเจกต์ใหญ่ๆ เป็น subtask ย่อยๆ ให้ ช่วยให้จัดการงานได้ดีขึ้น แต่ยังต้องมีคนตัดสินใจและลงมือทำอยู่ดี"
   },
   {
     "id": 8,
     "question": "What does Grammarly's AI writing assistant primarily do beyond basic spell-checking?",
     "choices": {
-      "A": "It only checks for spelling mistakes in English",
-      "B": "It analyzes tone, clarity, engagement, and delivery while suggesting style improvements",
-      "C": "It automatically publishes content to social media",
-      "D": "It translates all text to 50 languages simultaneously"
+      "A": "A data preprocessing step that normalizes feature distributions to improve model training convergence speed",
+      "B": "It translates all text to 50 languages simultaneously",
+      "C": "It analyzes tone, clarity, engagement, and delivery while suggesting style improvements",
+      "D": "A protocol for synchronizing training data across geographically distributed data centers and storage nodes"
     },
-    "answer": "B",
+    "answer": "C",
     "explanation": "Grammarly ไม่ได้แค่เช็คสะกดผิดนะ แต่ AI มัน analyze ทั้ง tone, clarity, engagement, และ delivery ของข้อความด้วย แล้วก็ suggest วิธีปรับปรุง writing style ให้เหมาะกับ audience อีกต่างหาก"
   },
   {
     "id": 9,
     "question": "How does Jasper AI differ from general-purpose AI assistants like ChatGPT in its design focus?",
     "choices": {
-      "A": "Jasper AI is designed only for coding tasks",
-      "B": "Jasper AI is specifically optimized for marketing content creation with brand voice consistency",
-      "C": "Jasper AI can only generate images, not text",
-      "D": "Jasper AI does not use any language model technology"
+      "A": "A process for measuring the reliability of AI predictions across different conditions",
+      "B": "The practice of establishing structured feedback channels between AI end-users and model development teams",
+      "C": "A statistical method for measuring the correlation between model inputs and predicted outputs in ML systems",
+      "D": "Jasper AI is specifically optimized for marketing content creation with brand voice consistency"
     },
-    "answer": "B",
+    "answer": "D",
     "explanation": "Jasper AI ถูกออกแบบมาเฉพาะสำหรับ marketing content โดยเฉพาะ มี feature รักษา brand voice consistency ทำให้ content ที่ generate ออกมาตรง brand ต่างจาก ChatGPT ที่เป็น general-purpose assistant"
   },
   {
     "id": 10,
     "question": "Which capability best describes AI presentation tools like Gamma or Beautiful.ai?",
     "choices": {
-      "A": "They require users to design every slide manually from scratch",
-      "B": "They auto-generate slide layouts, suggest visuals, and structure content from a text prompt",
-      "C": "They can only create pie charts and bar graphs",
-      "D": "They replace the presenter entirely with an AI avatar"
+      "A": "The process of translating business requirements into measurable AI performance objectives and key results",
+      "B": "A framework for managing the ethical review process for AI projects that involve sensitive personal data",
+      "C": "They auto-generate slide layouts, suggest visuals, and structure content from a text prompt",
+      "D": "They require users to design every slide manually from scratch"
     },
-    "answer": "B",
+    "answer": "C",
     "explanation": "AI presentation tools อย่าง Gamma หรือ Beautiful.ai สามารถ auto-generate slide layout, suggest รูปภาพ, และจัด structure เนื้อหาจาก text prompt ได้เลย ช่วยลดเวลาทำ presentation ได้มากๆ"
   },
   {
     "id": 11,
     "question": "How do AI-powered spreadsheet tools (like Google Sheets AI or Excel Copilot) assist non-technical users?",
     "choices": {
-      "A": "By requiring users to learn Python before using any feature",
+      "A": "A methodology for conducting bias audits that systematically test AI outputs across demographic subgroups",
       "B": "By allowing users to describe what they want in natural language and generating formulas or analyses",
-      "C": "By removing all formulas and replacing them with static values",
-      "D": "By limiting spreadsheets to only 10 rows of data"
+      "C": "A governance protocol for managing access controls and data permissions in AI development environments",
+      "D": "By removing all formulas and replacing them with static values"
     },
     "answer": "B",
     "explanation": "AI spreadsheet tools ช่วยคนที่ไม่ technical ได้มากเพราะแค่พิมพ์อธิบายเป็นภาษาธรรมดาว่าอยากได้อะไร AI จะ generate สูตรหรือ analysis ให้เลย ไม่ต้องจำ VLOOKUP หรือ SUMIFS เอง"
@@ -135,34 +135,34 @@
     "id": 12,
     "question": "What is the primary value of AI data analysis tools for non-technical users?",
     "choices": {
-      "A": "They make data analysis impossible without a statistics degree",
-      "B": "They allow users to ask questions about their data in plain language and get visualizations and insights",
-      "C": "They only work with datasets smaller than 100 rows",
-      "D": "They replace the need for any data whatsoever"
+      "A": "A governance protocol for managing access controls and data permissions in AI development environments",
+      "B": "A methodology for conducting bias audits that systematically test AI outputs across demographic subgroups",
+      "C": "A technique for mapping the relationships between different AI subsystems in a live production environment",
+      "D": "They allow users to ask questions about their data in plain language and get visualizations and insights"
     },
-    "answer": "B",
+    "answer": "D",
     "explanation": "AI data analysis tools ช่วยให้คนที่ไม่ได้เรียน statistics มาสามารถถามคำถามเกี่ยวกับ data เป็นภาษาธรรมดา แล้วได้ visualization กับ insights กลับมา ทำให้ data analysis เข้าถึงได้สำหรับทุกคน"
   },
   {
     "id": 13,
     "question": "What is a significant concern about using AI for personal finance advice?",
     "choices": {
-      "A": "AI financial tools always guarantee profits",
-      "B": "AI may not account for individual financial context, risk tolerance, or regulatory requirements",
-      "C": "AI financial tools are banned in all countries",
-      "D": "AI cannot process numerical data at all"
+      "A": "AI may not account for individual financial context, risk tolerance, or regulatory requirements",
+      "B": "A governance protocol for managing access controls and data permissions in AI development environments",
+      "C": "An analytical framework for comparing the cost-effectiveness of different AI solution architecture options",
+      "D": "A technique for validating AI system behavior against expected operational parameters"
     },
-    "answer": "B",
+    "answer": "A",
     "explanation": "AI ให้คำแนะนำการเงินได้ แต่อาจไม่เข้าใจ context ส่วนตัวของแต่ละคน เช่น risk tolerance, สถานการณ์ครอบครัว, หรือกฎหมายภาษีในแต่ละประเทศ ดังนั้นไม่ควรเชื่อ AI 100% ในเรื่องเงินๆ ทองๆ"
   },
   {
     "id": 14,
     "question": "How do AI health tracking tools typically work in consumer wearable devices?",
     "choices": {
-      "A": "They diagnose diseases with 100% accuracy and prescribe medication",
+      "A": "They replace the need for doctors and medical professionals entirely",
       "B": "They collect biometric data and use ML models to detect patterns, anomalies, and provide wellness insights",
-      "C": "They replace the need for doctors and medical professionals entirely",
-      "D": "They only measure body weight and nothing else"
+      "C": "They diagnose diseases with 100% accuracy and prescribe medication",
+      "D": "A governance structure for ensuring consistent AI development practices across multiple organizational teams"
     },
     "answer": "B",
     "explanation": "AI ใน wearable devices เก็บ biometric data เช่น heart rate, sleep patterns, SpO2 แล้วใช้ ML models วิเคราะห์หา patterns และ anomalies ให้ wellness insights แต่ไม่ได้ diagnose โรคหรือสั่งยาแทนหมอนะ"
@@ -171,22 +171,22 @@
     "id": 15,
     "question": "What distinguishes AI fitness coaching from traditional fitness apps?",
     "choices": {
-      "A": "AI fitness coaching provides the same static workout plan to every user",
-      "B": "AI fitness coaching adapts workout plans dynamically based on user performance, recovery, and goals",
-      "C": "AI fitness coaching only works for professional athletes",
-      "D": "AI fitness coaching requires specialized gym equipment to function"
+      "A": "AI fitness coaching requires specialized gym equipment to function",
+      "B": "AI fitness coaching provides the same static workout plan to every user",
+      "C": "A regularization technique that randomly masks portions of the input data during the model training process",
+      "D": "AI fitness coaching adapts workout plans dynamically based on user performance, recovery, and goals"
     },
-    "answer": "B",
+    "answer": "D",
     "explanation": "AI fitness coaching ต่างจาก fitness app ทั่วไปตรงที่ปรับ workout plan แบบ dynamic ตาม performance, recovery, และ goals ของผู้ใช้แต่ละคน คือมัน personalize ให้จริงๆ ไม่ใช่ให้แผนเหมือนกันหมดทุกคน"
   },
   {
     "id": 16,
     "question": "How can AI assist in meal planning effectively?",
     "choices": {
-      "A": "By only recommending the most expensive ingredients available",
+      "A": "An analytical framework for comparing cost-effectiveness of AI solutions",
       "B": "By generating personalized meal plans based on dietary preferences, nutritional goals, allergies, and available ingredients",
-      "C": "By ordering food delivery automatically without user approval",
-      "D": "By replacing all human nutritionists worldwide"
+      "C": "A technique for designing AI explanation interfaces that present model reasoning in terms users can readily understand",
+      "D": "The technique of training models on incrementally larger datasets to improve both training stability and output quality"
     },
     "answer": "B",
     "explanation": "AI meal planning ช่วย generate แผนอาหารที่ personalize ตาม dietary preferences, เป้าหมาย nutrition, allergy, และวัตถุดิบที่มีอยู่ ช่วยให้กินอาหารดีขึ้นโดยไม่ต้องคิดเมนูเองทุกวัน"
@@ -195,7 +195,7 @@
     "id": 17,
     "question": "What is a key advantage of AI-powered travel planning tools?",
     "choices": {
-      "A": "They can only book flights but not hotels or activities",
+      "A": "A governance structure for ensuring consistent AI development practices across multiple organizational teams",
       "B": "They create personalized itineraries by considering preferences, budget, weather, and real-time availability",
       "C": "They always find the cheapest option regardless of user preferences",
       "D": "They eliminate the need to have a passport for international travel"
@@ -208,11 +208,11 @@
     "question": "How do AI language learning apps like Duolingo Max leverage AI technology?",
     "choices": {
       "A": "By providing only text-based grammar exercises with no interactivity",
-      "B": "By using GPT-powered features for roleplay conversations and personalized explanations of mistakes",
-      "C": "By translating everything so users never need to learn the language",
-      "D": "By requiring users to already be fluent before starting"
+      "B": "By translating everything so users never need to learn the language",
+      "C": "By using GPT-powered features for roleplay conversations and personalized explanations of mistakes",
+      "D": "An approach to integrating multiple specialized AI models into a unified system for complex task execution"
     },
-    "answer": "B",
+    "answer": "C",
     "explanation": "Duolingo Max ใช้ GPT-powered features อย่าง Roleplay (ฝึกสนทนาสถานการณ์จริง) และ Explain My Answer (อธิบายว่าตอบผิดตรงไหนและทำไม) ทำให้การเรียนภาษา interactive และ personalized มากขึ้น"
   },
   {
@@ -222,7 +222,7 @@
       "A": "AI relationship advice is always more accurate than human therapists",
       "B": "AI lacks genuine emotional understanding and may oversimplify complex interpersonal dynamics",
       "C": "AI relationship advice is regulated by international law",
-      "D": "AI cannot process text about relationships at all"
+      "D": "A methodology for conducting bias audits that systematically test AI outputs across demographic subgroups"
     },
     "answer": "B",
     "explanation": "AI ไม่ได้มี emotional understanding จริงๆ มันแค่ประมวลผล patterns จาก training data ดังนั้นเรื่อง relationship ที่ซับซ้อน AI อาจ oversimplify หรือให้คำแนะนำที่ไม่เหมาะกับ context จริงๆ ของแต่ละคน ควรระวังเรื่องนี้"
@@ -231,12 +231,12 @@
     "id": 20,
     "question": "What does the concept of 'digital minimalism vs AI maximalism' refer to?",
     "choices": {
-      "A": "Using the smallest possible phone screen while running maximum AI apps",
-      "B": "The tension between intentionally reducing technology use and the trend of integrating AI into every aspect of life",
-      "C": "A programming framework for building minimal AI models",
-      "D": "A government policy requiring minimum AI usage quotas"
+      "A": "Focusing primarily on technical model accuracy metrics without explicitly considering broader societal implications",
+      "B": "Applying identical ethical standards across all AI deployments without adjusting for context-specific risk profiles",
+      "C": "Using the smallest possible phone screen while running maximum AI apps",
+      "D": "The tension between intentionally reducing technology use and the trend of integrating AI into every aspect of life"
     },
-    "answer": "B",
+    "answer": "D",
     "explanation": "Digital minimalism vs AI maximalism คือความขัดแย้งระหว่างแนวคิดที่ว่าเราควรใช้ tech อย่าง intentional ลดสิ่งที่ไม่จำเป็น กับ trend ที่ยัด AI เข้าไปในทุกเรื่องของชีวิต คือต้องหา balance ที่เหมาะกับตัวเอง"
   }
 ]

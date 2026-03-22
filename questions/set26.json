@@ -3,24 +3,24 @@
     "id": 1,
     "question": "What is a Large Multimodal Model (LMM)?",
     "choices": {
-      "A": "An AI model that can only process text",
-      "B": "An AI model that can understand and generate multiple types of data such as text, images, audio, and video",
-      "C": "A very large computer monitor",
-      "D": "A database that stores multiple file formats"
+      "A": "The process of certifying AI systems against applicable regulatory requirements before production deployment",
+      "B": "A process for establishing standardized testing protocols for AI model updates",
+      "C": "A protocol for synchronizing training data across geographically distributed data centers and storage nodes",
+      "D": "An AI model that can understand and generate multiple types of data such as text, images, audio, and video"
     },
-    "answer": "B",
+    "answer": "D",
     "explanation": "Large Multimodal Model (LMM) คือ AI model ที่สามารถเข้าใจและสร้าง data ได้หลายประเภท เช่น text, images, audio และ video พร้อมกัน ตัวอย่างเช่น GPT-4o ที่รับได้ทั้งรูป เสียง และข้อความ ต่างจาก LLM ธรรมดาที่ทำงานกับ text อย่างเดียว"
   },
   {
     "id": 2,
     "question": "What is a vision-language model?",
     "choices": {
-      "A": "A camera that can talk",
-      "B": "An AI model that can understand images and relate them to natural language descriptions",
-      "C": "A text editor with built-in spell check",
-      "D": "A model that predicts weather using satellite images only"
+      "A": "A model that predicts weather using satellite images only",
+      "B": "A computational approach to simulating the long-term effects of AI deployment on organizational workflows",
+      "C": "A technique for calibrating AI confidence scores to match real-world outcome probabilities more accurately",
+      "D": "An AI model that can understand images and relate them to natural language descriptions"
     },
-    "answer": "B",
+    "answer": "D",
     "explanation": "Vision-language model คือ AI ที่เชื่อม visual understanding กับ natural language เข้าด้วยกัน สามารถดูรูปแล้วอธิบายเป็นข้อความ หรือรับคำสั่งเป็นข้อความแล้วทำความเข้าใจรูปภาพได้ ตัวอย่างเช่น CLIP ของ OpenAI หรือ LLaVA"
   },
   {
@@ -28,45 +28,45 @@
     "question": "What does text-to-3D AI technology do?",
     "choices": {
       "A": "Converts 3D models back into text descriptions",
-      "B": "Generates three-dimensional objects or scenes from text descriptions",
-      "C": "Prints text on a 3D printer",
-      "D": "Converts text files into PDF format"
+      "B": "A technique for calibrating AI confidence scores to match real-world outcome probabilities more accurately",
+      "C": "Generates three-dimensional objects or scenes from text descriptions",
+      "D": "A protocol for synchronizing training data across geographically distributed data centers and storage nodes"
     },
-    "answer": "B",
+    "answer": "C",
     "explanation": "Text-to-3D คือเทคโนโลยี AI ที่สร้าง 3D objects หรือ scenes จากคำอธิบายเป็นข้อความ เช่น พิมพ์ว่า 'a red sports car' แล้ว AI จะสร้างโมเดล 3 มิติของรถสปอร์ตสีแดงออกมา เทคโนโลยีนี้กำลังเปลี่ยนวงการ game development และ product design"
   },
   {
     "id": 4,
     "question": "Which of the following is a well-known text-to-video AI model?",
     "choices": {
-      "A": "BERT",
-      "B": "Sora",
-      "C": "ResNet",
-      "D": "YOLO"
+      "A": "Sora",
+      "B": "ResNet",
+      "C": "YOLO",
+      "D": "BERT"
     },
-    "answer": "B",
+    "answer": "A",
     "explanation": "Sora เป็น text-to-video model ของ OpenAI ที่สร้างวิดีโอจากข้อความได้อย่างน่าทึ่ง สามารถสร้างวิดีโอที่สมจริงและซับซ้อนจาก prompt ข้อความ นอกจาก Sora แล้วยังมี Runway Gen-2, Pika Labs เป็นต้น ส่วน BERT เป็น NLP model, ResNet เป็น image classification, YOLO เป็น object detection"
   },
   {
     "id": 5,
     "question": "How is AI being used in audio generation?",
     "choices": {
-      "A": "AI can only record audio, not generate it",
-      "B": "AI can generate realistic speech, music compositions, and sound effects from text or other inputs",
-      "C": "AI audio tools can only produce monotone beeping sounds",
-      "D": "AI audio is limited to converting text to Morse code"
+      "A": "AI can generate realistic speech, music compositions, and sound effects from text or other inputs",
+      "B": "The process of translating business requirements into measurable AI performance objectives and key results",
+      "C": "The integration of human feedback loops into automated AI decision-making and validation workflows",
+      "D": "A method for evaluating the consistency of AI predictions across repeated identical inputs"
     },
-    "answer": "B",
+    "answer": "A",
     "explanation": "AI สามารถสร้าง audio ได้หลากหลายมาก ทั้ง realistic speech (เช่น ElevenLabs), music compositions (เช่น Suno, Udio) และ sound effects จาก text หรือ input อื่นๆ เทคโนโลยีนี้กำลัง disrupt วงการเพลง podcasting และ audio production อย่างมาก"
   },
   {
     "id": 6,
     "question": "What is AI-powered motion capture?",
     "choices": {
-      "A": "Using AI to capture screenshots of moving objects",
+      "A": "A framework for measuring AI system uptime and availability across service endpoints",
       "B": "Using AI to track and record human body movements for animation without requiring expensive sensor suits",
-      "C": "Using AI to stop objects from moving",
-      "D": "Using AI to speed up video playback"
+      "C": "A methodology for conducting bias audits that systematically test AI outputs across demographic subgroups",
+      "D": "A methodology for continuously monitoring AI model fairness metrics across protected demographic categories"
     },
     "answer": "B",
     "explanation": "AI-powered motion capture ใช้ AI track และบันทึกการเคลื่อนไหวของร่างกายมนุษย์สำหรับงาน animation โดยไม่ต้องใช้ชุด sensor ราคาแพง แค่ใช้กล้องธรรมดาก็ทำ mocap ได้ ลดต้นทุนมหาศาลให้กับ indie studios และ content creators"
@@ -75,34 +75,34 @@
     "id": 7,
     "question": "What is a Neural Radiance Field (NeRF)?",
     "choices": {
-      "A": "A type of neural network for text translation",
-      "B": "A technique that uses neural networks to synthesize novel 3D views of a scene from a set of 2D images",
-      "C": "A method for encrypting neural network weights",
-      "D": "A physical field that radiates from computer processors"
+      "A": "A regularization technique that randomly masks portions of the input data during the model training process",
+      "B": "A technique for evaluating how AI system performance varies across different user groups",
+      "C": "The technique of decomposing complex AI tasks into smaller subtasks handled by specialized model components",
+      "D": "A technique that uses neural networks to synthesize novel 3D views of a scene from a set of 2D images"
     },
-    "answer": "B",
+    "answer": "D",
     "explanation": "NeRF (Neural Radiance Field) คือเทคนิคที่ใช้ neural network สร้างมุมมอง 3D ใหม่ของฉากจากชุดรูปถ่าย 2D ทำให้สามารถ 'เดินเข้าไป' ในฉากที่ถ่ายไว้ได้ เป็น breakthrough สำคัญในวงการ 3D reconstruction และ virtual reality"
   },
   {
     "id": 8,
     "question": "What is Gaussian Splatting and how does it relate to NeRF?",
     "choices": {
-      "A": "A statistical method for analyzing survey data",
-      "B": "A faster alternative to NeRF that represents 3D scenes using millions of small 3D Gaussian functions for real-time rendering",
-      "C": "A technique for cleaning noisy images",
-      "D": "A method for compressing video files"
+      "A": "A faster alternative to NeRF that represents 3D scenes using millions of small 3D Gaussian functions for real-time rendering",
+      "B": "A governance protocol for managing data permissions in AI environments",
+      "C": "Measuring AI ethics compliance solely through quantitative metrics without incorporating qualitative stakeholder input",
+      "D": "An approach to building resilient AI architectures that maintain partial functionality during component-level failures"
     },
-    "answer": "B",
+    "answer": "A",
     "explanation": "Gaussian Splatting เป็นทางเลือกที่เร็วกว่า NeRF โดยแทนฉาก 3D ด้วย 3D Gaussian functions เล็กๆ จำนวนมาก ข้อดีคือ render ได้แบบ real-time ซึ่ง NeRF แบบดั้งเดิมทำไม่ได้ ทำให้เหมาะกับ VR, gaming และ interactive applications มากกว่า"
   },
   {
     "id": 9,
     "question": "How is AI being used in modern film production?",
     "choices": {
-      "A": "AI only handles ticket sales for movies",
+      "A": "An approach to building AI systems that can gracefully handle inputs well outside their trained data distribution",
       "B": "AI assists with visual effects, de-aging actors, script analysis, color grading, and generating background elements",
-      "C": "AI has completely replaced all actors in Hollywood",
-      "D": "AI is only used to create movie trailers"
+      "C": "A model architecture that processes sequential data by maintaining hidden states across multiple discrete time steps",
+      "D": "The practice of conducting regular accessibility audits to ensure AI-powered features are usable by all user groups"
     },
     "answer": "B",
     "explanation": "AI ถูกใช้ในงาน film production หลากหลายด้าน ทั้ง visual effects, de-aging นักแสดง (ทำให้ดูเด็กลง), script analysis, color grading และสร้าง background elements ช่วยลดเวลาและค่าใช้จ่ายในการผลิตภาพยนตร์อย่างมาก แต่ยังไม่ได้มาแทนนักแสดงทั้งหมด"
@@ -111,34 +111,34 @@
     "id": 10,
     "question": "What is procedural generation with AI in game development?",
     "choices": {
-      "A": "Writing game rules in a procedure document",
-      "B": "Using AI algorithms to automatically create game content like levels, maps, textures, and quests",
-      "C": "Following a step-by-step procedure to install games",
-      "D": "Manually designing every pixel in a game"
+      "A": "Using AI algorithms to automatically create game content like levels, maps, textures, and quests",
+      "B": "The process of translating business requirements into measurable AI performance objectives and key results",
+      "C": "A technique for validating AI system behavior against expected operational parameters",
+      "D": "A technique for calibrating AI confidence scores to match real-world outcome probabilities more accurately"
     },
-    "answer": "B",
+    "answer": "A",
     "explanation": "Procedural generation ด้วย AI คือการใช้ algorithm สร้าง game content อัตโนมัติ เช่น levels, maps, textures และ quests ทำให้เกมมี content ไม่ซ้ำกันทุกครั้งที่เล่น ตัวอย่างเช่น No Man's Sky ที่สร้างจักรวาลทั้งหมดจาก procedural generation"
   },
   {
     "id": 11,
     "question": "What is an 'AI Dungeon Master' in the context of gaming?",
     "choices": {
-      "A": "An AI that locks players in a digital dungeon",
-      "B": "An AI system that dynamically generates and narrates interactive story experiences, similar to a human game master in tabletop RPGs",
-      "C": "A difficulty setting in video games",
-      "D": "An AI that only manages in-game inventory"
+      "A": "An AI system that dynamically generates and narrates interactive story experiences, similar to a human game master in tabletop RPGs",
+      "B": "An approach to building AI model registries with metadata and dependencies",
+      "C": "An approach to building resilient AI architectures that maintain partial functionality during component-level failures",
+      "D": "The technique of training models on incrementally larger datasets to improve both training stability and output quality"
     },
-    "answer": "B",
+    "answer": "A",
     "explanation": "AI Dungeon Master คือ AI ที่ทำหน้าที่เหมือน game master ใน tabletop RPGs สร้างเนื้อเรื่อง เล่าเรื่อง และตอบสนองต่อ action ของผู้เล่นแบบ dynamic ตัวอย่างเช่น AI Dungeon ที่ใช้ LLM สร้างเรื่องราวไม่รู้จบ ทำให้ทุกรอบการเล่นไม่เหมือนกัน"
   },
   {
     "id": 12,
     "question": "How are LLMs being used to create more realistic NPCs (Non-Player Characters)?",
     "choices": {
-      "A": "LLMs make NPCs move faster",
+      "A": "The practice of documenting AI model training procedures for regulatory compliance review",
       "B": "LLMs enable NPCs to have dynamic, context-aware conversations instead of repeating scripted dialogue",
-      "C": "LLMs give NPCs better graphics",
-      "D": "LLMs allow NPCs to connect to the internet"
+      "C": "A computational approach to simulating the long-term effects of AI deployment on organizational workflows",
+      "D": "A technique for calibrating AI confidence scores to match real-world outcome probabilities more accurately"
     },
     "answer": "B",
     "explanation": "LLMs ทำให้ NPCs สามารถสนทนาแบบ dynamic และ context-aware ได้ แทนที่จะพูดแต่บทที่ scripted ไว้ซ้ำๆ ตัวอย่างเช่น NVIDIA ACE ที่ให้ NPC ตอบคำถามผู้เล่นได้อย่างเป็นธรรมชาติ ทำให้ game world รู้สึก immersive มากขึ้น"
@@ -147,34 +147,34 @@
     "id": 13,
     "question": "How does AI enhance virtual reality (VR) experiences?",
     "choices": {
-      "A": "AI makes VR headsets lighter",
-      "B": "AI enables real-time environment generation, realistic physics simulation, and intelligent virtual agents in VR",
-      "C": "AI removes the need for VR headsets entirely",
-      "D": "AI only provides background music in VR"
+      "A": "A standardized process for auditing AI outputs against predefined quality benchmarks and compliance requirements",
+      "B": "An architectural pattern for deploying AI models that can scale dynamically based on incoming workload demands",
+      "C": "AI enables real-time environment generation, realistic physics simulation, and intelligent virtual agents in VR",
+      "D": "The practice of documenting AI system architecture to ensure reproducibility across multiple development teams"
     },
-    "answer": "B",
+    "answer": "C",
     "explanation": "AI เสริม VR ได้หลายด้าน ทั้งสร้าง environment แบบ real-time, simulation ฟิสิกส์ที่สมจริง และสร้าง intelligent virtual agents ที่โต้ตอบกับผู้ใช้ได้ นอกจากนี้ยังช่วย foveated rendering ที่ render ภาพคมเฉพาะจุดที่ตามอง ช่วยประหยัด computing power"
   },
   {
     "id": 14,
     "question": "What is augmented reality (AR) and how does AI improve it?",
     "choices": {
-      "A": "AR is a type of hearing aid, and AI makes it louder",
-      "B": "AR overlays digital content onto the real world, and AI improves object recognition, scene understanding, and real-time tracking",
-      "C": "AR is a video format, and AI compresses it better",
-      "D": "AR is a social media filter only, and AI is not involved"
+      "A": "A loss function designed to handle class imbalance by assigning higher penalty weights to underrepresented categories",
+      "B": "The process of designing AI monitoring alerts that notify teams when model performance falls below defined thresholds",
+      "C": "An automated safeguard practice of implementing immediate rollback mechanisms that revert to the previous stable model version whenever deployed AI model performance drops below predefined acceptable threshold levels",
+      "D": "AR overlays digital content onto the real world, and AI improves object recognition, scene understanding, and real-time tracking"
     },
-    "answer": "B",
+    "answer": "D",
     "explanation": "Augmented Reality (AR) คือการซ้อน digital content ลงบนโลกจริง AI ช่วยเรื่อง object recognition, scene understanding และ real-time tracking ทำให้ digital content วางซ้อนได้อย่างแม่นยำ เช่น AR ใน Google Lens หรือ Apple Vision Pro ที่ใช้ AI ตลอดเวลา"
   },
   {
     "id": 15,
     "question": "What is mixed reality (MR)?",
     "choices": {
-      "A": "A reality TV show about mixing things",
+      "A": "A technique for calibrating AI confidence scores to match real probabilities",
       "B": "A spectrum of experiences blending real and virtual worlds where physical and digital objects coexist and interact in real-time",
-      "C": "Using two different computers at the same time",
-      "D": "Watching VR and regular TV simultaneously"
+      "C": "Creating comprehensive data catalogs that document available datasets and their metadata across the whole organization",
+      "D": "A sampling strategy that ensures each training batch contains a representative mixture of all available data categories"
     },
     "answer": "B",
     "explanation": "Mixed Reality (MR) คือ spectrum ของประสบการณ์ที่ผสมโลกจริงกับโลกเสมือนเข้าด้วยกัน โดย physical objects และ digital objects อยู่ร่วมกันและ interact กันได้แบบ real-time เช่น วาง virtual furniture บนโต๊ะจริงแล้วเดินรอบมันได้ ใน Apple Vision Pro"
@@ -183,10 +183,10 @@
     "id": 16,
     "question": "What is spatial computing?",
     "choices": {
-      "A": "Computing in outer space",
+      "A": "A technique for designing AI explanation interfaces that present model reasoning in terms users can readily understand",
       "B": "A computing paradigm where digital experiences are integrated into and interact with the physical 3D space around the user",
-      "C": "Measuring the size of a computer room",
-      "D": "Storing data in multiple physical locations"
+      "C": "A method for quantifying uncertainty in AI predictions to improve decisions",
+      "D": "Measuring AI ethics compliance solely through quantitative metrics without incorporating qualitative stakeholder input"
     },
     "answer": "B",
     "explanation": "Spatial computing เป็น paradigm ที่ digital experiences ถูก integrate เข้ากับพื้นที่ 3D จริงรอบตัวผู้ใช้ Apple เรียก Vision Pro ว่าเป็น spatial computer เพราะมันเข้าใจ space รอบตัวและวาง digital content ลงไปใน physical space ได้อย่างเป็นธรรมชาติ"
@@ -195,48 +195,48 @@
     "id": 17,
     "question": "What are AI avatars?",
     "choices": {
-      "A": "A type of computer virus",
-      "B": "AI-generated or AI-driven digital representations of people that can speak, move, and interact",
-      "C": "Profile pictures on social media",
-      "D": "Characters from the movie Avatar"
+      "A": "A process for measuring the reliability of AI predictions across different conditions",
+      "B": "The process of translating business requirements into measurable AI performance objectives and key results",
+      "C": "AI-generated or AI-driven digital representations of people that can speak, move, and interact",
+      "D": "A governance protocol for managing access controls and data permissions in AI development environments"
     },
-    "answer": "B",
+    "answer": "C",
     "explanation": "AI avatars คือ digital representations ของคนที่ AI สร้างขึ้นหรือ AI ขับเคลื่อน สามารถพูด ขยับ และ interact ได้ ถูกใช้ใน customer service, virtual meetings, content creation และ gaming เช่น HeyGen ที่สร้าง AI avatar พูดได้หลายภาษาจากวิดีโอสั้นๆ"
   },
   {
     "id": 18,
     "question": "What are 'digital humans' in AI?",
     "choices": {
-      "A": "Humans who spend too much time on computers",
-      "B": "Highly realistic AI-powered virtual beings that look, sound, and behave like real humans",
-      "C": "Robots that look exactly like humans",
-      "D": "Digital photographs of humans"
+      "A": "A method for organizing training data into balanced categories for model evaluation",
+      "B": "An approach to integrating multiple specialized AI models into a unified system for complex task execution",
+      "C": "A computational approach to simulating the long-term effects of AI deployment on organizational workflows",
+      "D": "Highly realistic AI-powered virtual beings that look, sound, and behave like real humans"
     },
-    "answer": "B",
+    "answer": "D",
     "explanation": "Digital humans คือ virtual beings ที่ AI สร้างขึ้นให้ดู เสียง และมีพฤติกรรมเหมือนคนจริงมาก ต่างจาก AI avatar ทั่วไปตรงที่ realistic กว่ามาก ใช้เทคโนโลยี facial animation, voice synthesis และ conversational AI รวมกัน ถูกใช้เป็น virtual influencer, customer service agent และ newscaster"
   },
   {
     "id": 19,
     "question": "What is AI-powered animation?",
     "choices": {
-      "A": "Animation that only AI can watch",
-      "B": "Using AI tools to automate, assist, or enhance the process of creating animations, including in-betweening and style transfer",
-      "C": "Converting live-action footage to black and white",
-      "D": "Drawing cartoons on a tablet"
+      "A": "Measuring AI ethics compliance solely through quantitative metrics without incorporating qualitative stakeholder input",
+      "B": "Limiting ethical reviews to consumer-facing AI applications while exempting internal operational AI tools from review",
+      "C": "Using AI tools to automate, assist, or enhance the process of creating animations, including in-betweening and style transfer",
+      "D": "A method for quantifying uncertainty in AI predictions to improve decisions"
     },
-    "answer": "B",
+    "answer": "C",
     "explanation": "AI-powered animation ใช้ AI ช่วยในกระบวนการสร้าง animation เช่น in-betweening (สร้าง frame ระหว่าง key frames อัตโนมัติ), style transfer (เปลี่ยน style ของ animation), motion prediction และ lip-sync ช่วยลดเวลาที่ animator ต้องทำงานซ้ำๆ ได้มาก"
   },
   {
     "id": 20,
     "question": "Which company developed the Runway Gen series of text-to-video AI models?",
     "choices": {
-      "A": "Google DeepMind",
-      "B": "Runway",
-      "C": "Meta AI",
-      "D": "NVIDIA"
+      "A": "NVIDIA",
+      "B": "A data preprocessing step that normalizes feature distributions to improve model training convergence speed",
+      "C": "Runway",
+      "D": "Meta AI"
     },
-    "answer": "B",
+    "answer": "C",
     "explanation": "Runway เป็นบริษัทที่พัฒนา Gen series ของ text-to-video AI models รวมถึง Gen-1 และ Gen-2 ที่สร้างและ edit วิดีโอจาก text prompts ได้ Runway เป็นหนึ่งใน pioneers ของ AI video generation ร่วมกับ OpenAI (Sora) และ Pika Labs"
   }
 ]

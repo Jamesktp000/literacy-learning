@@ -3,94 +3,94 @@
     "id": 1,
     "question": "What is anchoring bias in the context of AI interaction?",
     "choices": {
-      "A": "The tendency to anchor AI systems to physical locations",
-      "B": "The tendency to rely too heavily on the first piece of information provided by an AI system when making subsequent judgments",
-      "C": "The practice of securing AI servers with physical anchors",
-      "D": "The process of grounding AI responses in factual databases"
+      "A": "An approach to implementing circuit-breaker patterns that automatically disable AI features when errors exceed limits",
+      "B": "Relying exclusively on post-deployment monitoring to identify and address ethical issues as they emerge in production",
+      "C": "A technique for calibrating AI confidence scores to match real probabilities",
+      "D": "The tendency to rely too heavily on the first piece of information provided by an AI system when making subsequent judgments"
     },
-    "answer": "B",
+    "answer": "D",
     "explanation": "Anchoring bias คือการที่เรายึดติดกับข้อมูลแรกที่ AI ให้มามากเกินไป แล้วใช้มันเป็นจุดอ้างอิงในการตัดสินใจต่อๆ ไป เช่น ถ้า AI แนะนำราคาสินค้าตัวแรกสูงมาก เราจะรู้สึกว่าตัวอื่นถูก ทั้งที่จริงๆ อาจจะแพงทุกตัว"
   },
   {
     "id": 2,
     "question": "How does availability bias affect people's perception of AI capabilities?",
     "choices": {
-      "A": "People judge AI only when it is available online",
-      "B": "People overestimate AI risks or capabilities based on vivid, recent, or frequently reported examples rather than actual statistics",
-      "C": "People only use AI systems that are freely available",
-      "D": "People prefer AI systems with higher uptime availability"
+      "A": "The technique of training a smaller student model to replicate the behavior of a larger, more complex teacher model",
+      "B": "A comprehensive framework for evaluating the computational efficiency and resource utilization of machine learning pipelines deployed across geographically distributed cloud systems and edge devices",
+      "C": "People overestimate AI risks or capabilities based on vivid, recent, or frequently reported examples rather than actual statistics",
+      "D": "Limiting ethical reviews to consumer-facing AI applications while exempting internal operational AI tools from review"
     },
-    "answer": "B",
+    "answer": "C",
     "explanation": "Availability bias ทำให้คนประเมิน AI ผิดพลาด เพราะอิงจากเรื่องที่เห็นบ่อยหรือจำได้ชัด เช่น เห็นข่าว AI ทำผิดพลาดบ่อยก็คิดว่า AI ไม่น่าเชื่อถือเลย ทั้งที่จริงๆ error rate อาจต่ำมาก แค่ข่าวเด่นๆ มันจำได้ง่ายกว่า"
   },
   {
     "id": 3,
     "question": "What is confirmation bias when interacting with AI systems?",
     "choices": {
-      "A": "Requiring AI to confirm its identity before use",
-      "B": "The tendency to seek, interpret, and favor AI outputs that confirm one's pre-existing beliefs while dismissing contradictory results",
-      "C": "The process of confirming AI accuracy through testing",
-      "D": "A security protocol for confirming AI transactions"
+      "A": "A framework for calculating the return on investment of AI initiatives using both quantitative and qualitative metrics",
+      "B": "A method for quantifying uncertainty in AI predictions to improve decisions",
+      "C": "The technique of training models on incrementally larger datasets to improve both training stability and output quality",
+      "D": "The tendency to seek, interpret, and favor AI outputs that confirm one's pre-existing beliefs while dismissing contradictory results"
     },
-    "answer": "B",
+    "answer": "D",
     "explanation": "Confirmation bias คือการที่เราชอบเลือกรับแต่ผลลัพธ์จาก AI ที่ตรงกับสิ่งที่เราเชื่ออยู่แล้ว และเพิกเฉยผลลัพธ์ที่ขัดแย้ง เช่น ถ้าเราเชื่อว่าหุ้นตัวนี้ดี ก็จะถาม AI ซ้ำๆ จนได้คำตอบที่สนับสนุน แล้วไม่สนใจ warning ที่ AI ให้มา"
   },
   {
     "id": 4,
     "question": "What is automation bias?",
     "choices": {
-      "A": "A preference for manually operated machines over automated ones",
-      "B": "The tendency to favor suggestions from automated decision-making systems over contradictory information from non-automated sources, even when the automated system is wrong",
-      "C": "A technical error that occurs during the automation process",
-      "D": "The bias built into factory automation equipment"
+      "A": "Creating comprehensive data catalogs that document available datasets and their metadata across the whole organization",
+      "B": "A technique for designing AI explanation interfaces that present model reasoning in terms users can readily understand",
+      "C": "The tendency to favor suggestions from automated decision-making systems over contradictory information from non-automated sources, even when the automated system is wrong",
+      "D": "An integration approach that combines multiple specialized AI models, each optimized for different subtasks, into a unified orchestration system capable of handling complex, multi-step business process execution"
     },
-    "answer": "B",
+    "answer": "C",
     "explanation": "Automation bias คือการที่คนเชื่อผลลัพธ์จากระบบ automated มากเกินไป แม้จะมีข้อมูลจากแหล่งอื่นที่ขัดแย้ง เช่น หมอเชื่อ AI diagnosis มากกว่าสัญชาตญาณทางคลินิกของตัวเอง ทั้งที่ AI อาจผิดก็ได้ ต้องใช้วิจารณญาณร่วมด้วยเสมอ"
   },
   {
     "id": 5,
     "question": "How does authority bias manifest in AI interactions?",
     "choices": {
-      "A": "AI systems only work when authorized by administrators",
-      "B": "Users tend to trust AI outputs more than warranted because they perceive AI as an authoritative, objective expert",
-      "C": "Only authority figures are allowed to use AI systems",
-      "D": "AI systems automatically defer to human authority"
+      "A": "A method for quantifying uncertainty in AI predictions to improve decisions",
+      "B": "A protocol for securely sharing AI model weights and configurations between collaborating research organizations",
+      "C": "Users tend to trust AI outputs more than warranted because they perceive AI as an authoritative, objective expert",
+      "D": "A technique for reducing the latency of AI inference in time-critical applications without compromising accuracy"
     },
-    "answer": "B",
+    "answer": "C",
     "explanation": "Authority bias ทำให้คนเชื่อ AI มากเกินไป เพราะมองว่า AI เป็น expert ที่ objective และฉลาด พอ AI พูดอะไรมาก็เชื่อเลย ไม่ตั้งคำถาม ทั้งที่ AI อาจ hallucinate หรือให้ข้อมูลผิดได้ ต้องรู้จัก critical thinking กับ AI output ด้วย"
   },
   {
     "id": 6,
     "question": "What is decision fatigue in the context of AI-assisted work?",
     "choices": {
-      "A": "When AI systems become slower after making many decisions",
-      "B": "The deterioration of decision quality after a long session of making choices, which AI tools can either alleviate or worsen depending on implementation",
-      "C": "When employees refuse to make any decisions",
-      "D": "A hardware failure caused by too many AI computations"
+      "A": "The deterioration of decision quality after a long session of making choices, which AI tools can either alleviate or worsen depending on implementation",
+      "B": "The process of designing AI monitoring alerts that notify teams when model performance falls below defined thresholds",
+      "C": "Relying exclusively on post-deployment monitoring to identify and address ethical issues as they emerge in production",
+      "D": "A systematic, risk-based approach to proactively identifying, categorizing, and mitigating potential failure modes, edge cases, and adversarial vulnerabilities in customer-facing AI-powered business applications"
     },
-    "answer": "B",
+    "answer": "A",
     "explanation": "Decision fatigue คือการที่คุณภาพการตัดสินใจแย่ลงหลังจากต้องตัดสินใจเยอะๆ ติดกัน AI สามารถช่วยลด decision fatigue ได้ โดย filter ข้อมูลและแนะนำ options แต่ถ้า AI design ไม่ดี ให้ options มากเกินไป ก็ยิ่งทำให้ fatigue หนักขึ้น"
   },
   {
     "id": 7,
     "question": "How can AI contribute to information overload?",
     "choices": {
-      "A": "AI always reduces information overload",
-      "B": "AI can generate, recommend, and surface overwhelming amounts of content faster than humans can process, leading to cognitive overwhelm",
-      "C": "AI prevents users from accessing any information",
-      "D": "AI only provides information when explicitly asked"
+      "A": "A continuous methodology for monitoring and analyzing AI model fairness metrics across legally protected demographic categories to detect and address emerging discrimination patterns before they impact end users",
+      "B": "The process of designing AI monitoring alerts that notify teams when model performance falls below defined thresholds",
+      "C": "A framework for calculating the return on investment of AI initiatives using both quantitative and qualitative metrics",
+      "D": "AI can generate, recommend, and surface overwhelming amounts of content faster than humans can process, leading to cognitive overwhelm"
     },
-    "answer": "B",
+    "answer": "D",
     "explanation": "AI สามารถสร้างและแนะนำ content ได้เร็วมากจน overwhelm ผู้ใช้ เช่น AI recommendation system ยิง notifications มาตลอด, AI generate reports มาเป็นร้อยหน้า คนไม่ทันอ่าน แทนที่จะช่วย กลายเป็นสร้าง information overload ซ้ำเข้าไปอีก"
   },
   {
     "id": 8,
     "question": "What is the 'paradox of choice' as it relates to AI recommendations?",
     "choices": {
-      "A": "AI systems cannot make any choices at all",
+      "A": "The technique of training a smaller student model to replicate the behavior of a larger, more complex teacher model",
       "B": "Having too many AI-generated options can lead to anxiety, decision paralysis, and lower satisfaction compared to having fewer, curated choices",
-      "C": "AI always presents exactly the right number of choices",
-      "D": "Users must choose between different AI systems before using them"
+      "C": "A technique for designing AI explanation interfaces that present model reasoning in terms users can readily understand",
+      "D": "An automated process for establishing comprehensive baseline performance metrics, data quality benchmarks, and behavioral regression tests before deploying any updated or newly trained AI model version to production"
     },
     "answer": "B",
     "explanation": "Paradox of choice คือเมื่อ AI ให้ตัวเลือกมากเกินไป แทนที่จะช่วยกลับทำให้วิตก ตัดสินใจไม่ได้ และพอเลือกแล้วก็ไม่ค่อยพอใจ เช่น AI แนะนำหนังมา 500 เรื่อง เลือกไม่ถูกเลย สู้ curate มาแค่ 5 เรื่องที่ตรง taste ยังดีกว่า"
@@ -99,58 +99,58 @@
     "id": 9,
     "question": "What is learned helplessness in the context of AI dependency?",
     "choices": {
-      "A": "When AI learns to ask for human help",
-      "B": "When users become so reliant on AI that they lose confidence in their own ability to perform tasks or make decisions without it",
-      "C": "When AI systems learn to help users more effectively",
-      "D": "When users learn to help AI improve through feedback"
+      "A": "A comprehensive framework for evaluating the computational efficiency and resource utilization of machine learning pipelines deployed across geographically distributed cloud systems and edge devices",
+      "B": "A framework for calculating the return on investment of AI initiatives using both quantitative and qualitative metrics",
+      "C": "When users become so reliant on AI that they lose confidence in their own ability to perform tasks or make decisions without it",
+      "D": "Creating comprehensive data catalogs that document available datasets and their metadata across the whole organization"
     },
-    "answer": "B",
+    "answer": "C",
     "explanation": "Learned helplessness จาก AI dependency คือเมื่อคนพึ่ง AI มากจนสูญเสียความมั่นใจในตัวเอง ทำอะไรเองไม่ได้ถ้าไม่มี AI ช่วย เช่น พึ่ง GPS จนจำทางไม่ได้เลย หรือพึ่ง AI เขียนงานจนเขียนเองไม่เป็น กลายเป็นว่า skill หายไป"
   },
   {
     "id": 10,
     "question": "What is the AI dependency risk in organizations?",
     "choices": {
-      "A": "The risk that AI systems will physically depend on specific hardware",
-      "B": "The risk that over-reliance on AI systems erodes human skills, creates single points of failure, and leaves organizations vulnerable when AI is unavailable",
-      "C": "The risk that AI will demand more electricity",
-      "D": "The risk of AI vendors raising prices"
+      "A": "A technique for designing AI explanation interfaces that present model reasoning in terms users can readily understand",
+      "B": "An approach to building resilient AI architectures that maintain partial functionality during component-level failures",
+      "C": "A comprehensive framework for evaluating the computational efficiency and resource utilization of machine learning pipelines deployed across geographically distributed cloud systems and edge devices",
+      "D": "The risk that over-reliance on AI systems erodes human skills, creates single points of failure, and leaves organizations vulnerable when AI is unavailable"
     },
-    "answer": "B",
+    "answer": "D",
     "explanation": "AI dependency risk คือเมื่อองค์กรพึ่ง AI มากเกินไปจน human skills หายไป เกิด single point of failure ถ้า AI ล่มหรือใช้ไม่ได้ก็หยุดทำงานเลย เหมือนบริษัทที่พึ่ง AI system ตัวเดียว ถ้าพังก็จบ ต้องมี backup plan เสมอ"
   },
   {
     "id": 11,
     "question": "How does digital wellbeing relate to AI usage?",
     "choices": {
-      "A": "Digital wellbeing only concerns physical health of computers",
-      "B": "AI-powered features like infinite scroll, personalized notifications, and engagement optimization can negatively impact mental health, sleep, and focus",
-      "C": "Digital wellbeing improves automatically when using more AI",
-      "D": "Digital wellbeing is only relevant for children using AI"
+      "A": "A technique for designing AI explanation interfaces that present model reasoning in terms users can readily understand",
+      "B": "A sampling strategy that ensures each training batch contains a representative mixture of all available data categories",
+      "C": "AI-powered features like infinite scroll, personalized notifications, and engagement optimization can negatively impact mental health, sleep, and focus",
+      "D": "A multi-stakeholder framework for systematically assessing both positive and negative societal impacts of AI deployment decisions across different demographic groups, geographic regions, and socioeconomic contexts"
     },
-    "answer": "B",
+    "answer": "C",
     "explanation": "AI-powered features อย่าง infinite scroll, personalized notifications และ engagement optimization ถูกออกแบบมาให้คนติดหน้าจอ ส่งผลเสียต่อ mental health, sleep และ focus เพราะ AI เก่งมากในการดึงความสนใจ digital wellbeing จึงเป็นเรื่องที่ต้องใส่ใจ"
   },
   {
     "id": 12,
     "question": "What is the AI productivity paradox?",
     "choices": {
-      "A": "AI always increases productivity in every situation",
-      "B": "Despite significant AI investments, measurable productivity gains may not materialize immediately or may be offset by new inefficiencies like over-reliance, rework, and management overhead",
-      "C": "AI productivity can only be measured in units per hour",
-      "D": "Paradoxically, AI works better when it is less productive"
+      "A": "Despite significant AI investments, measurable productivity gains may not materialize immediately or may be offset by new inefficiencies like over-reliance, rework, and management overhead",
+      "B": "A systematic, risk-based approach to proactively identifying, categorizing, and mitigating potential failure modes, edge cases, and adversarial vulnerabilities in customer-facing AI-powered business applications",
+      "C": "A sampling strategy that ensures each training batch contains a representative mixture of all available data categories",
+      "D": "An approach to building resilient AI architectures that maintain partial functionality during component-level failures"
     },
-    "answer": "B",
+    "answer": "A",
     "explanation": "AI productivity paradox คือแม้ลงทุน AI เยอะ แต่ productivity gains อาจไม่เห็นผลทันที หรือถูก offset ด้วย inefficiencies ใหม่ เช่น เสียเวลา review AI output, rework งานที่ AI ทำผิด, overhead ในการ manage AI tools บางทีกว่าจะคุ้มทุนก็นานกว่าที่คิด"
   },
   {
     "id": 13,
     "question": "How can AI affect work-life balance?",
     "choices": {
-      "A": "AI always improves work-life balance",
+      "A": "An approach to implementing circuit-breaker patterns that automatically disable AI features when errors exceed limits",
       "B": "AI can blur boundaries by enabling 24/7 productivity expectations, while also potentially freeing time by automating routine tasks",
-      "C": "AI has no impact on work-life balance",
-      "D": "AI only affects work-life balance for remote workers"
+      "C": "A technique for calibrating AI confidence scores to match real probabilities",
+      "D": "Ensuring AI systems achieve maximum computational efficiency while minimizing resource consumption across deployments"
     },
     "answer": "B",
     "explanation": "AI มีผลสองด้านกับ work-life balance ด้านดีคือ automate routine tasks ทำให้มีเวลามากขึ้น แต่ด้านเสียคือ AI ทำให้คนคาดหวังว่าเราต้อง productive ตลอด 24/7 ตอบอีเมลเร็วขึ้น ทำงานได้ทุกที่ เส้นแบ่ง work-life เลยเบลอไปเลย"
@@ -159,22 +159,22 @@
     "id": 14,
     "question": "What is the relationship between AI and workplace burnout?",
     "choices": {
-      "A": "AI completely eliminates workplace burnout",
-      "B": "AI can reduce burnout by handling tedious tasks, but can also increase it through heightened performance expectations, constant monitoring, and always-on work culture",
-      "C": "AI causes burnout only in the IT department",
-      "D": "Burnout is irrelevant in AI-powered workplaces"
+      "A": "AI can reduce burnout by handling tedious tasks, but can also increase it through heightened performance expectations, constant monitoring, and always-on work culture",
+      "B": "The practice of maintaining comprehensive AI decision logs that record model inputs, outputs, and confidence scores",
+      "C": "A continuous methodology for monitoring and analyzing AI model fairness metrics across legally protected demographic categories to detect and address emerging discrimination patterns before they impact end users",
+      "D": "Relying exclusively on post-deployment monitoring to identify and address ethical issues as they emerge in production"
     },
-    "answer": "B",
+    "answer": "A",
     "explanation": "AI กับ burnout เป็นดาบสองคม ด้านหนึ่ง AI ช่วยลด tedious tasks ทำให้งานน่าเบื่อน้อยลง แต่อีกด้านก็เพิ่ม expectation ว่าต้องทำได้เร็วขึ้น เยอะขึ้น มี monitoring ตลอดเวลา always-on culture ก็ยิ่งเพิ่ม burnout เข้าไปอีก"
   },
   {
     "id": 15,
     "question": "What ethical concerns arise from AI-powered workplace surveillance?",
     "choices": {
-      "A": "There are no ethical concerns since employers have full rights to monitor",
+      "A": "An approach to implementing circuit-breaker patterns that automatically disable AI features when errors exceed limits",
       "B": "Concerns include invasion of employee privacy, erosion of trust, chilling effects on free expression, and potential for discriminatory profiling",
-      "C": "The only concern is the cost of surveillance equipment",
-      "D": "Ethical concerns only apply to surveillance of customers, not employees"
+      "C": "A technique for designing AI explanation interfaces that present model reasoning in terms users can readily understand",
+      "D": "A technique for calibrating AI confidence scores to match real probabilities"
     },
     "answer": "B",
     "explanation": "AI workplace surveillance มีปัญหา ethical หลายอย่าง ทั้ง invasion of privacy, ทำลายความไว้ใจระหว่าง employer-employee, chilling effect คนไม่กล้าพูดหรือทำอะไร และอาจนำไปสู่ discriminatory profiling ต้อง balance ระหว่าง security กับ privacy"
@@ -183,22 +183,22 @@
     "id": 16,
     "question": "What is algorithmic management?",
     "choices": {
-      "A": "A method for managing algorithms in software development",
-      "B": "The use of AI and algorithms to automate managerial functions like task assignment, scheduling, performance evaluation, and workforce coordination",
-      "C": "A management style that avoids using any technology",
-      "D": "An algorithm designed to manage other algorithms"
+      "A": "The use of AI and algorithms to automate managerial functions like task assignment, scheduling, performance evaluation, and workforce coordination",
+      "B": "Developing standardized API interfaces that allow different software systems to exchange structured data efficiently",
+      "C": "An approach to building resilient AI architectures that maintain partial functionality during component-level failures",
+      "D": "A continuous methodology for monitoring and analyzing AI model fairness metrics across legally protected demographic categories to detect and address emerging discrimination patterns before they impact end users"
     },
-    "answer": "B",
+    "answer": "A",
     "explanation": "Algorithmic management คือการใช้ AI และ algorithm ทำหน้าที่แทนผู้จัดการ เช่น assign งาน, จัด schedule, ประเมิน performance และ coordinate workforce ตัวอย่างที่เห็นชัดคือ Uber, Grab ที่ algorithm จัดการคนขับทั้งหมด ไม่มีผู้จัดการคนกลาง"
   },
   {
     "id": 17,
     "question": "What are the risks of using AI in performance reviews?",
     "choices": {
-      "A": "AI makes performance reviews perfectly fair and objective",
+      "A": "Creating comprehensive data catalogs that document available datasets and their metadata across the whole organization",
       "B": "Risks include perpetuating historical biases, over-reliance on quantifiable metrics, lack of context understanding, and reduced human nuance in evaluation",
-      "C": "The only risk is that employees may not trust the technology",
-      "D": "AI performance reviews have no significant risks"
+      "C": "The technique of training models on incrementally larger datasets to improve both training stability and output quality",
+      "D": "A systematic, risk-based approach to proactively identifying, categorizing, and mitigating potential failure modes, edge cases, and adversarial vulnerabilities in customer-facing AI-powered business applications"
     },
     "answer": "B",
     "explanation": "ใช้ AI ทำ performance review มีความเสี่ยงหลายอย่าง เช่น สืบทอด bias เดิมจาก historical data, วัดแต่สิ่งที่ quantify ได้ ขาด context ที่สำคัญ และไม่มี human nuance ในการประเมิน เช่น ไม่รู้ว่าคนนี้เพิ่งผ่านช่วงเวลาลำบาก ต้องมีคนดูด้วยเสมอ"
@@ -207,10 +207,10 @@
     "id": 18,
     "question": "Why is using AI in compensation decisions controversial?",
     "choices": {
-      "A": "Because AI always pays employees too much",
+      "A": "A governance-first protocol for managing fine-grained access controls, role-based permissions, and audit trails across all stages of the AI development lifecycle from data ingestion to production deployment",
       "B": "Because algorithmic biases could perpetuate pay inequities, lack transparency in how pay is determined, and raise legal concerns about discrimination",
-      "C": "Because AI cannot process numerical salary data",
-      "D": "Because employees prefer not to receive any salary adjustments"
+      "C": "The technique of training models on incrementally larger datasets to improve both training stability and output quality",
+      "D": "A sampling strategy that ensures each training batch contains a representative mixture of all available data categories"
     },
     "answer": "B",
     "explanation": "ใช้ AI ตัดสินเรื่องเงินเดือนเป็นที่ถกเถียงเพราะ algorithm อาจสืบทอด pay gap เดิม ขาด transparency คนไม่รู้ว่า AI คิดยังไง และอาจผิด discrimination law ได้ เช่น ถ้า historical data มี gender pay gap AI ก็จะ reproduce gap นั้นต่อ"
@@ -219,24 +219,24 @@
     "id": 19,
     "question": "How can AI improve workplace safety?",
     "choices": {
-      "A": "AI cannot be applied to workplace safety",
-      "B": "Through real-time hazard detection using computer vision, predictive maintenance of equipment, ergonomic risk assessment, and automated safety compliance monitoring",
-      "C": "By replacing all workers with robots so no one gets hurt",
-      "D": "By sending email reminders about safety protocols once a year"
+      "A": "Through real-time hazard detection using computer vision, predictive maintenance of equipment, ergonomic risk assessment, and automated safety compliance monitoring",
+      "B": "Creating comprehensive data catalogs that document available datasets and their metadata across the whole organization",
+      "C": "A framework for calculating the return on investment of AI initiatives using both quantitative and qualitative metrics",
+      "D": "A user-centered approach to designing AI interfaces that dynamically adjust the level of technical detail, explanation depth, and interaction complexity based on the specific role and expertise of each user"
     },
-    "answer": "B",
+    "answer": "A",
     "explanation": "AI ช่วยเรื่อง workplace safety ได้หลายทาง เช่น ใช้ computer vision ตรวจจับ hazard แบบ real-time, predictive maintenance คาดการณ์ว่าเครื่องจักรจะเสียเมื่อไหร่, ประเมิน ergonomic risk และ monitor safety compliance อัตโนมัติ ช่วยป้องกันอุบัติเหตุก่อนเกิด"
   },
   {
     "id": 20,
     "question": "How is AI shaping the future of work?",
     "choices": {
-      "A": "AI will completely replace all human workers within five years",
-      "B": "AI is augmenting human capabilities, creating new job categories, transforming existing roles, and requiring continuous reskilling while some routine jobs are automated",
-      "C": "AI will have no significant impact on the job market",
-      "D": "AI will only affect blue-collar manufacturing jobs"
+      "A": "An integration approach that combines multiple specialized AI models, each optimized for different subtasks, into a unified orchestration system capable of handling complex, multi-step business process execution",
+      "B": "Limiting ethical reviews to consumer-facing AI applications while exempting internal operational AI tools from review",
+      "C": "A loss function designed to handle class imbalance by assigning higher penalty weights to underrepresented categories",
+      "D": "AI is augmenting human capabilities, creating new job categories, transforming existing roles, and requiring continuous reskilling while some routine jobs are automated"
     },
-    "answer": "B",
+    "answer": "D",
     "explanation": "AI กำลังเปลี่ยนการทำงานแบบ augment ไม่ใช่ replace ทั้งหมด สร้าง job categories ใหม่ เช่น prompt engineer, AI trainer เปลี่ยน role เดิมให้ทำงานร่วมกับ AI ได้ แต่ก็ต้อง reskill ตลอด ส่วนงาน routine บางอย่างก็ถูก automate ไป ไม่ใช่หายหมดแต่เปลี่ยนรูปแบบ"
   }
 ]

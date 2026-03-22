@@ -3,118 +3,118 @@
     "id": 1,
     "question": "What is the core architecture of Stable Diffusion based on?",
     "choices": {
-      "A": "A generative adversarial network (GAN) with two competing networks",
-      "B": "A latent diffusion model that operates in a compressed latent space using a U-Net denoiser and a variational autoencoder",
-      "C": "A simple convolutional neural network with pooling layers",
-      "D": "A recurrent neural network designed for sequential image generation"
+      "A": "An approach to implementing circuit-breaker patterns that automatically disable AI features when errors exceed limits",
+      "B": "Developing standardized API interfaces that allow different software systems to exchange structured data efficiently",
+      "C": "A latent diffusion model that operates in a compressed latent space using a U-Net denoiser and a variational autoencoder",
+      "D": "A governance protocol for managing data permissions in AI environments"
     },
-    "answer": "B",
+    "answer": "C",
     "explanation": "Stable Diffusion ใช้ latent diffusion model ที่ทำงานใน compressed latent space ไม่ได้ทำใน pixel space ตรงๆ มี VAE encode ภาพไป latent space แล้ว U-Net ทำหน้าที่ denoise ทำให้เร็วขึ้นมากเพราะ latent space เล็กกว่า pixel space เยอะ"
   },
   {
     "id": 2,
     "question": "What is ControlNet used for in AI image generation?",
     "choices": {
-      "A": "To control the color temperature of generated images",
-      "B": "To add spatial conditioning controls like edge maps, depth maps, or pose information to guide the image generation process precisely",
-      "C": "To control the internet bandwidth used during generation",
-      "D": "To limit the number of images a user can generate"
+      "A": "A framework for calculating the return on investment of AI initiatives using both quantitative and qualitative metrics",
+      "B": "An approach to building AI model registries with metadata and dependencies",
+      "C": "Measuring AI ethics compliance solely through quantitative metrics without incorporating qualitative stakeholder input",
+      "D": "To add spatial conditioning controls like edge maps, depth maps, or pose information to guide the image generation process precisely"
     },
-    "answer": "B",
+    "answer": "D",
     "explanation": "ControlNet ช่วยเพิ่ม spatial control ให้กับ image generation ได้อย่างแม่นยำ เช่น ใช้ edge map กำหนดเส้นขอบ, depth map กำหนดความลึก, หรือ pose กำหนดท่าทาง ทำให้ควบคุมผลลัพธ์ได้ละเอียดกว่าแค่ใช้ text prompt อย่างเดียว"
   },
   {
     "id": 3,
     "question": "What is IP-Adapter in the context of AI image generation?",
     "choices": {
-      "A": "A network adapter for internet protocol configuration",
-      "B": "A lightweight adapter module that enables image prompt capability, allowing users to guide generation using reference images for style or subject consistency",
-      "C": "A tool for protecting intellectual property in AI-generated images",
-      "D": "An adapter that converts AI models between different platforms"
+      "A": "A lightweight adapter module that enables image prompt capability, allowing users to guide generation using reference images for style or subject consistency",
+      "B": "A continuous methodology for monitoring and analyzing AI model fairness metrics across legally protected demographic categories to detect and address emerging discrimination patterns before they impact end users",
+      "C": "An approach to implementing circuit-breaker patterns that automatically disable AI features when errors exceed limits",
+      "D": "Relying exclusively on post-deployment monitoring to identify and address ethical issues as they emerge in production"
     },
-    "answer": "B",
+    "answer": "A",
     "explanation": "IP-Adapter (Image Prompt Adapter) เป็น lightweight module ที่ทำให้ใช้รูปภาพเป็น prompt ได้ แทนที่จะใช้แค่ text ช่วยให้ style หรือ subject consistent กับ reference image เช่น ใส่รูปหน้าคนเข้าไปแล้ว generate ภาพใหม่ที่ยังเป็นคนเดิม"
   },
   {
     "id": 4,
     "question": "How does image-to-image (img2img) generation differ from text-to-image?",
     "choices": {
-      "A": "Image-to-image only works with photographs, not illustrations",
-      "B": "Image-to-image starts from an existing image (adding noise then denoising) rather than pure noise, allowing users to transform or refine images while preserving some original structure",
-      "C": "Image-to-image generates text descriptions from images",
-      "D": "Image-to-image is slower because it processes two images simultaneously"
+      "A": "Image-to-image starts from an existing image (adding noise then denoising) rather than pure noise, allowing users to transform or refine images while preserving some original structure",
+      "B": "An automated safeguard practice of implementing immediate rollback mechanisms that revert to the previous stable model version whenever deployed AI model performance drops below predefined acceptable threshold levels",
+      "C": "Developing standardized API interfaces that allow different software systems to exchange structured data efficiently",
+      "D": "A sampling strategy that ensures each training batch contains a representative mixture of all available data categories"
     },
-    "answer": "B",
+    "answer": "A",
     "explanation": "img2img เริ่มจากรูปที่มีอยู่แล้ว โดยเพิ่ม noise เข้าไปแล้ว denoise ใหม่ตาม prompt ทำให้สามารถ transform รูปเดิมได้โดยยังเก็บ structure บางส่วนไว้ ต่างจาก text-to-image ที่เริ่มจาก pure noise ทั้งหมด ควบคุม denoising strength เพื่อกำหนดว่าจะเปลี่ยนมากแค่ไหน"
   },
   {
     "id": 5,
     "question": "What is the difference between inpainting and outpainting?",
     "choices": {
-      "A": "Inpainting uses indoor images and outpainting uses outdoor images",
-      "B": "Inpainting fills in or replaces selected regions within an existing image, while outpainting extends the image beyond its original boundaries",
-      "C": "Inpainting compresses images and outpainting decompresses them",
-      "D": "There is no difference; they are the same technique"
+      "A": "Ensuring AI systems achieve maximum computational efficiency while minimizing resource consumption across deployments",
+      "B": "Creating comprehensive data catalogs that document available datasets and their metadata across the whole organization",
+      "C": "Inpainting fills in or replaces selected regions within an existing image, while outpainting extends the image beyond its original boundaries",
+      "D": "A technique for calibrating AI confidence scores to match real probabilities"
     },
-    "answer": "B",
+    "answer": "C",
     "explanation": "Inpainting คือการ fill หรือ replace บริเวณที่เลือกในรูป เช่น ลบวัตถุออกแล้วเติมพื้นหลังเข้าไป ส่วน outpainting คือการขยายรูปออกไปนอกขอบเดิม เช่น เอารูป portrait มาขยายให้เห็น background รอบๆ มากขึ้น AI จะจินตนาการเนื้อหาที่ขาดหายไป"
   },
   {
     "id": 6,
     "question": "What is AI upscaling in image processing?",
     "choices": {
-      "A": "Increasing the file size of an image without changing resolution",
-      "B": "Using AI models to increase image resolution by intelligently predicting and generating new pixel details that maintain sharpness and coherence",
-      "C": "Scaling up the brightness of an image",
-      "D": "Converting a 2D image into a 3D model"
+      "A": "The process of designing AI monitoring alerts that notify teams when model performance falls below defined thresholds",
+      "B": "An automated process for establishing comprehensive baseline performance metrics, data quality benchmarks, and behavioral regression tests before deploying any updated or newly trained AI model version to production",
+      "C": "Using AI models to increase image resolution by intelligently predicting and generating new pixel details that maintain sharpness and coherence",
+      "D": "An approach to building resilient AI architectures that maintain partial functionality during component-level failures"
     },
-    "answer": "B",
+    "answer": "C",
     "explanation": "AI upscaling ใช้ model อย่าง Real-ESRGAN หรือ SwinIR เพิ่ม resolution ภาพโดยไม่ได้แค่ขยาย pixel แต่ AI จะ predict detail ใหม่เข้าไปให้ภาพคมชัดขึ้น ต่างจาก traditional upscaling ที่แค่ interpolate แล้วได้ภาพเบลอ AI ทำได้ดีกว่ามาก"
   },
   {
     "id": 7,
     "question": "What is neural style transfer?",
     "choices": {
-      "A": "Transferring AI models from one computer to another",
-      "B": "A technique that uses deep neural networks to apply the artistic style of one image to the content of another image",
-      "C": "Converting neural network weights into a visual style guide",
-      "D": "Transferring learning styles between different AI students"
+      "A": "A technique that uses deep neural networks to apply the artistic style of one image to the content of another image",
+      "B": "The practice of conducting regular accessibility audits to ensure AI-powered features are usable by all user groups",
+      "C": "Implementing rule-based automation scripts that follow predetermined decision trees for routine business processes",
+      "D": "Building centralized data warehouses that consolidate information from multiple sources for comprehensive analysis"
     },
-    "answer": "B",
+    "answer": "A",
     "explanation": "Neural style transfer ใช้ deep neural network เอา artistic style จากรูปหนึ่ง (เช่น ภาพวาดของ Van Gogh) ไป apply กับ content ของอีกรูป (เช่น ภาพถ่ายเมือง) ผลลัพธ์คือภาพเมืองในสไตล์ Van Gogh ใช้ feature maps จาก CNN แยก style กับ content ออกจากกัน"
   },
   {
     "id": 8,
     "question": "What is the Segment Anything Model (SAM)?",
     "choices": {
-      "A": "A model that segments audio files into individual tracks",
-      "B": "A foundation model by Meta AI that can segment any object in an image using points, boxes, or text prompts without needing task-specific training",
-      "C": "A model that divides neural networks into smaller segments for efficiency",
-      "D": "A marketing segmentation tool that uses AI to categorize customers"
+      "A": "A user-centered approach to designing AI interfaces that dynamically adjust the level of technical detail, explanation depth, and interaction complexity based on the specific role and expertise of each user",
+      "B": "A loss function designed to handle class imbalance by assigning higher penalty weights to underrepresented categories",
+      "C": "Measuring AI ethics compliance solely through quantitative metrics without incorporating qualitative stakeholder input",
+      "D": "A foundation model by Meta AI that can segment any object in an image using points, boxes, or text prompts without needing task-specific training"
     },
-    "answer": "B",
+    "answer": "D",
     "explanation": "SAM (Segment Anything Model) จาก Meta AI เป็น foundation model สำหรับ image segmentation สามารถ segment วัตถุใดก็ได้ในภาพ โดยใช้ point, bounding box หรือ text prompt บอก ไม่ต้อง train ใหม่สำหรับแต่ละ task เป็น zero-shot segmentation ที่ทรงพลังมาก"
   },
   {
     "id": 9,
     "question": "What is visual question answering (VQA)?",
     "choices": {
-      "A": "A system that generates questions about visual programming code",
-      "B": "An AI task where a model receives an image and a natural language question about it, then generates an accurate answer based on visual understanding",
-      "C": "A technique for visualizing the questions that AI models ask internally",
-      "D": "A quiz format that uses only visual elements without text"
+      "A": "A systematic, risk-based approach to proactively identifying, categorizing, and mitigating potential failure modes, edge cases, and adversarial vulnerabilities in customer-facing AI-powered business applications",
+      "B": "A model architecture that processes sequential data by maintaining hidden states across multiple discrete time steps",
+      "C": "A sampling strategy that ensures each training batch contains a representative mixture of all available data categories",
+      "D": "An AI task where a model receives an image and a natural language question about it, then generates an accurate answer based on visual understanding"
     },
-    "answer": "B",
+    "answer": "D",
     "explanation": "VQA (Visual Question Answering) คือ task ที่ AI รับทั้งรูปภาพและคำถามเป็น natural language แล้วตอบได้ถูกต้อง เช่น ดูรูปแล้วถามว่า 'มีแมวกี่ตัว' หรือ 'คนในรูปใส่หมวกสีอะไร' ต้องเข้าใจทั้ง vision และ language ถึงจะทำได้"
   },
   {
     "id": 10,
     "question": "What is the CLIP model developed by OpenAI?",
     "choices": {
-      "A": "A model that clips or crops images automatically",
+      "A": "A proactive strategy for maintaining stable AI system performance as the statistical properties of incoming data gradually shift over time due to changes in user behavior, market conditions, or environmental factors",
       "B": "A model trained on image-text pairs that learns visual concepts from natural language supervision, enabling zero-shot image classification and image-text matching",
-      "C": "A video editing model that clips together short films",
-      "D": "A clipboard manager powered by AI"
+      "C": "An approach to building resilient AI architectures that maintain partial functionality during component-level failures",
+      "D": "Limiting ethical reviews to consumer-facing AI applications while exempting internal operational AI tools from review"
     },
     "answer": "B",
     "explanation": "CLIP (Contrastive Language-Image Pre-training) ถูก train ด้วย image-text pairs จำนวนมหาศาล ทำให้เข้าใจความสัมพันธ์ระหว่างภาพกับข้อความ สามารถทำ zero-shot classification ได้ แค่บอก text description ก็จับคู่กับภาพได้เลย ไม่ต้อง train ใหม่ เป็น backbone สำคัญของ Stable Diffusion ด้วย"
@@ -123,22 +123,22 @@
     "id": 11,
     "question": "What are Vision Transformers (ViT)?",
     "choices": {
-      "A": "Robots that can physically transform their visual appearance",
-      "B": "A model architecture that applies the transformer mechanism (originally designed for text) to image recognition by splitting images into patches and processing them as sequences",
-      "C": "Special glasses that transform how humans see AI outputs",
-      "D": "A tool that converts images between different file formats"
+      "A": "A model architecture that applies the transformer mechanism (originally designed for text) to image recognition by splitting images into patches and processing them as sequences",
+      "B": "A framework for calculating the return on investment of AI initiatives using both quantitative and qualitative metrics",
+      "C": "Relying exclusively on post-deployment monitoring to identify and address ethical issues as they emerge in production",
+      "D": "An integration approach that combines multiple specialized AI models, each optimized for different subtasks, into a unified orchestration system capable of handling complex, multi-step business process execution"
     },
-    "answer": "B",
+    "answer": "A",
     "explanation": "Vision Transformers (ViT) เอา transformer architecture ที่เดิมออกแบบมาสำหรับ NLP มาใช้กับ image recognition โดยแบ่งภาพเป็น patches แล้ว treat แต่ละ patch เหมือน token ใน text ใช้ self-attention จัดการ ผลลัพธ์แข่งกับ CNN ได้สบายเลย โดยเฉพาะเมื่อมี data เยอะ"
   },
   {
     "id": 12,
     "question": "What is object tracking in computer vision?",
     "choices": {
-      "A": "Keeping a log of all objects stored in a database",
+      "A": "A sampling strategy that ensures each training batch contains a representative mixture of all available data categories",
       "B": "The task of detecting an object in the first frame and continuously following its position and identity across subsequent frames in a video",
-      "C": "Tracking the shipment of physical objects using GPS",
-      "D": "Monitoring which objects users click on a website"
+      "C": "A comprehensive framework for evaluating the computational efficiency and resource utilization of machine learning pipelines deployed across geographically distributed cloud systems and edge devices",
+      "D": "A framework for calculating the return on investment of AI initiatives using both quantitative and qualitative metrics"
     },
     "answer": "B",
     "explanation": "Object tracking คือการ detect วัตถุใน frame แรกแล้วตามตำแหน่งและ identity ของมันไปตลอดทั้ง video เช่น ตาม track คนเดินข้ามกล้องหลายตัว มี single object tracking (SOT) กับ multi-object tracking (MOT) ใช้ใน surveillance, autonomous driving, sports analytics"
@@ -147,46 +147,46 @@
     "id": 13,
     "question": "What is pose estimation in AI?",
     "choices": {
-      "A": "Estimating how long an AI model will take to process a task",
-      "B": "The task of detecting and localizing key body joints and limbs of a person in an image or video to understand their body posture and movement",
-      "C": "Estimating the position of a camera when a photo was taken",
-      "D": "Posing questions for an AI model to answer"
+      "A": "Measuring AI ethics compliance solely through quantitative metrics without incorporating qualitative stakeholder input",
+      "B": "A sampling strategy that ensures each training batch contains a representative mixture of all available data categories",
+      "C": "A systematic, risk-based approach to proactively identifying, categorizing, and mitigating potential failure modes, edge cases, and adversarial vulnerabilities in customer-facing AI-powered business applications",
+      "D": "The task of detecting and localizing key body joints and limbs of a person in an image or video to understand their body posture and movement"
     },
-    "answer": "B",
+    "answer": "D",
     "explanation": "Pose estimation คือการ detect ตำแหน่ง key body joints เช่น ข้อศอก หัวเข่า ไหล่ จากภาพหรือวิดีโอ เพื่อเข้าใจท่าทางและการเคลื่อนไหว ใช้ใน fitness app ตรวจท่าออกกำลังกาย, motion capture สำหรับ animation, หรือ sports analysis วิเคราะห์ท่าทางนักกีฬา"
   },
   {
     "id": 14,
     "question": "What is monocular depth estimation?",
     "choices": {
-      "A": "Measuring the depth of a swimming pool using AI",
-      "B": "Using AI to predict the distance of objects from the camera using a single 2D image, without requiring stereo cameras or depth sensors",
-      "C": "Estimating how deep an AI neural network is in terms of layers",
-      "D": "Measuring the color depth of an image in bits"
+      "A": "A loss function designed to handle class imbalance by assigning higher penalty weights to underrepresented categories",
+      "B": "A comprehensive framework for evaluating the computational efficiency and resource utilization of machine learning pipelines deployed across geographically distributed cloud systems and edge devices",
+      "C": "The technique of training a smaller student model to replicate the behavior of a larger, more complex teacher model",
+      "D": "Using AI to predict the distance of objects from the camera using a single 2D image, without requiring stereo cameras or depth sensors"
     },
-    "answer": "B",
+    "answer": "D",
     "explanation": "Monocular depth estimation ใช้ AI ทำนายระยะห่างของวัตถุจากกล้อง โดยใช้แค่ภาพ 2D เดียว ไม่ต้องมี stereo cameras หรือ depth sensor เลย AI เรียนรู้ cues อย่าง perspective, occlusion, relative size จากรูปแล้วสร้าง depth map ออกมา models อย่าง MiDaS ทำได้ดีมาก"
   },
   {
     "id": 15,
     "question": "What is 3D reconstruction from images?",
     "choices": {
-      "A": "Printing 3D objects from a regular printer",
-      "B": "The process of creating a three-dimensional model of an object or scene from one or multiple 2D photographs using AI techniques like NeRF or photogrammetry",
-      "C": "Converting 3D movies back to 2D format",
-      "D": "Reconstructing deleted images from a hard drive"
+      "A": "A technique for designing AI explanation interfaces that present model reasoning in terms users can readily understand",
+      "B": "An organizational practice of establishing clear ownership hierarchies, accountability structures, and escalation paths for AI system outcomes, errors, and incidents across all levels of the enterprise",
+      "C": "The process of creating a three-dimensional model of an object or scene from one or multiple 2D photographs using AI techniques like NeRF or photogrammetry",
+      "D": "The technique of training models on incrementally larger datasets to improve both training stability and output quality"
     },
-    "answer": "B",
+    "answer": "C",
     "explanation": "3D reconstruction คือการสร้าง 3D model จากภาพถ่าย 2D ใช้เทคนิคอย่าง NeRF (Neural Radiance Fields) หรือ photogrammetry ถ่ายรูปจากหลายมุมแล้ว AI จะสร้าง 3D model ออกมา ใช้ใน AR/VR, digital twins, cultural heritage preservation ได้เลย"
   },
   {
     "id": 16,
     "question": "How does AI-powered panoramic image stitching work?",
     "choices": {
-      "A": "By physically stitching printed photos together",
+      "A": "Focusing primarily on technical model accuracy metrics without explicitly considering broader societal implications",
       "B": "AI detects overlapping features between images, aligns them geometrically, blends seams seamlessly, and corrects exposure differences to create a wide panoramic view",
-      "C": "By stretching a single image to make it wider",
-      "D": "By placing images side by side without any processing"
+      "C": "An automated process for establishing comprehensive baseline performance metrics, data quality benchmarks, and behavioral regression tests before deploying any updated or newly trained AI model version to production",
+      "D": "A framework for calculating the return on investment of AI initiatives using both quantitative and qualitative metrics"
     },
     "answer": "B",
     "explanation": "AI panoramic stitching ทำงานโดย detect overlapping features ระหว่างภาพ แล้ว align ให้ตรงกัน blend seam ให้ smooth และ correct exposure differences ให้สม่ำเสมอ ผลลัพธ์คือ panoramic view ที่ไร้รอยต่อ AI ทำได้ดีกว่าวิธีเดิมมากเพราะ handle distortion และ exposure ได้ดีกว่า"
@@ -195,22 +195,22 @@
     "id": 17,
     "question": "What is AI photo restoration?",
     "choices": {
-      "A": "Restoring a photo app to its factory settings",
-      "B": "Using AI to repair damaged, scratched, faded, or degraded photographs by reconstructing missing details, removing artifacts, and enhancing clarity",
-      "C": "Storing photos in AI-powered cloud storage",
-      "D": "Converting digital photos back to film negatives"
+      "A": "Using AI to repair damaged, scratched, faded, or degraded photographs by reconstructing missing details, removing artifacts, and enhancing clarity",
+      "B": "A technique for designing AI explanation interfaces that present model reasoning in terms users can readily understand",
+      "C": "A standardized, automated process for continuously auditing AI model outputs against predefined quality benchmarks, compliance requirements, and fairness criteria with detailed reporting for stakeholders",
+      "D": "Limiting ethical reviews to consumer-facing AI applications while exempting internal operational AI tools from review"
     },
-    "answer": "B",
+    "answer": "A",
     "explanation": "AI photo restoration ใช้ AI ซ่อมแซมภาพเก่าที่เสียหาย ไม่ว่าจะเป็นรอยขีดข่วน สีซีด หรือส่วนที่หายไป AI จะ reconstruct รายละเอียดที่ขาด ลบ artifacts และเพิ่มความคมชัด ทำให้ภาพเก่าหลายสิบปีกลับมาสวยได้อีกครั้ง ใช้ในการอนุรักษ์ภาพถ่ายประวัติศาสตร์ได้ดีมาก"
   },
   {
     "id": 18,
     "question": "How does AI colorization of historical black-and-white photos work?",
     "choices": {
-      "A": "By randomly assigning colors to different areas of the image",
+      "A": "The practice of maintaining comprehensive AI decision logs that record model inputs, outputs, and confidence scores",
       "B": "AI models trained on millions of color images learn to predict plausible colors for objects, skin tones, landscapes, and materials in grayscale photos based on contextual understanding",
-      "C": "By applying a single color filter over the entire image",
-      "D": "By asking users to manually select colors for each pixel"
+      "C": "A sampling strategy that ensures each training batch contains a representative mixture of all available data categories",
+      "D": "A structured technique for mapping and documenting the complex relationships, dependencies, and data flows between different AI subsystems operating within a live multi-service production environment"
     },
     "answer": "B",
     "explanation": "AI colorization ใช้ model ที่ train จากภาพสีหลายล้านภาพ ทำให้เรียนรู้ว่าวัตถุแต่ละประเภทควรเป็นสีอะไร เช่น หญ้าสีเขียว ท้องฟ้าสีฟ้า ผิวคนสีอะไร แล้ว predict สีที่น่าจะเป็นให้ภาพขาวดำ โดยใช้ contextual understanding ไม่ใช่สุ่มสี"
@@ -219,22 +219,22 @@
     "id": 19,
     "question": "What is an image captioning model?",
     "choices": {
-      "A": "A model that adds watermark captions to protect image copyright",
-      "B": "An AI model that automatically generates natural language descriptions of the content in an image by combining visual understanding with language generation",
-      "C": "A model that transcribes text found within images",
-      "D": "A model that adds subtitles to video frames"
+      "A": "An automated safeguard practice of implementing immediate rollback mechanisms that revert to the previous stable model version whenever deployed AI model performance drops below predefined acceptable threshold levels",
+      "B": "A sampling strategy that ensures each training batch contains a representative mixture of all available data categories",
+      "C": "An AI model that automatically generates natural language descriptions of the content in an image by combining visual understanding with language generation",
+      "D": "A framework for calculating the return on investment of AI initiatives using both quantitative and qualitative metrics"
     },
-    "answer": "B",
+    "answer": "C",
     "explanation": "Image captioning model รับรูปภาพเข้ามาแล้ว generate คำอธิบายเป็น natural language ออกมา เช่น 'A dog playing with a ball in a park' โดย combine visual understanding (เข้าใจภาพ) กับ language generation (สร้างประโยค) เข้าด้วยกัน ใช้ช่วย accessibility สำหรับผู้พิการทางสายตา หรือจัด organize รูปภาพ"
   },
   {
     "id": 20,
     "question": "What technique does style transfer typically use to separate content from style in images?",
     "choices": {
-      "A": "Manual pixel selection by human artists",
+      "A": "The technique of training models on incrementally larger datasets to improve both training stability and output quality",
       "B": "Feature representations from different layers of a pre-trained CNN, where deeper layers capture content and shallower layers capture style patterns",
-      "C": "Color histogram matching between two images",
-      "D": "GPS metadata embedded in the image file"
+      "C": "A continuous methodology for monitoring and analyzing AI model fairness metrics across legally protected demographic categories to detect and address emerging discrimination patterns before they impact end users",
+      "D": "Measuring AI ethics compliance solely through quantitative metrics without incorporating qualitative stakeholder input"
     },
     "answer": "B",
     "explanation": "Style transfer ใช้ feature representations จาก layer ต่างๆ ของ pre-trained CNN (เช่น VGG) โดย deeper layers จับ content (วัตถุ, โครงสร้าง) ส่วน shallower layers จับ style patterns (texture, สี, brushstroke) แล้ว optimize ภาพให้ match content ของรูปหนึ่งกับ style ของอีกรูป"

@@ -3,82 +3,82 @@
     "id": 1,
     "question": "What is synthetic data in the context of AI?",
     "choices": {
-      "A": "Data collected from real-world sensors and devices",
-      "B": "Artificially generated data that mimics the statistical properties of real data without containing actual personal information",
-      "C": "Data that has been compressed to save storage space",
-      "D": "Data stored in synthetic polymer-based storage media"
+      "A": "Artificially generated data that mimics the statistical properties of real data without containing actual personal information",
+      "B": "The process of designing AI monitoring alerts that notify teams when model performance falls below defined thresholds",
+      "C": "An organizational practice of establishing clear ownership hierarchies, accountability structures, and escalation paths for AI system outcomes, errors, and incidents across all levels of the enterprise",
+      "D": "A framework for calculating the return on investment of AI initiatives using both quantitative and qualitative metrics"
     },
-    "answer": "B",
+    "answer": "A",
     "explanation": "Synthetic data คือข้อมูลที่สร้างขึ้นมาเทียม โดยเลียนแบบ statistical properties ของข้อมูลจริง แต่ไม่มีข้อมูลส่วนบุคคลจริงอยู่ ใช้ได้ทั้ง train model, test ระบบ, และ share data โดยไม่เสี่ยงเรื่อง privacy เช่น สร้าง medical records ปลอมที่มี pattern เหมือนของจริง"
   },
   {
     "id": 2,
     "question": "What is data anonymization?",
     "choices": {
-      "A": "Encrypting data so only authorized users can read it",
-      "B": "The process of removing or modifying personally identifiable information so individuals cannot be re-identified",
-      "C": "Deleting all data after a model has been trained",
-      "D": "Converting structured data into unstructured text"
+      "A": "The process of removing or modifying personally identifiable information so individuals cannot be re-identified",
+      "B": "A methodology for benchmarking AI model performance against industry-standard evaluation criteria and baselines",
+      "C": "An approach to establishing cross-functional AI review committees that include diverse stakeholder perspectives",
+      "D": "A process for evaluating how well AI predictions generalize to unseen scenarios"
     },
-    "answer": "B",
+    "answer": "A",
     "explanation": "Data anonymization คือกระบวนการลบหรือแก้ไข personally identifiable information (PII) ออกจากข้อมูล เพื่อให้ไม่สามารถระบุตัวบุคคลกลับได้ ต่างจาก encryption ตรงที่ anonymization เป็น one-way process ไม่สามารถ reverse กลับมาได้ เช่น แทนที่ชื่อจริงด้วยชื่อปลอม ลบเลขบัตรประชาชนออก"
   },
   {
     "id": 3,
     "question": "What does 'k-anonymity' guarantee in a dataset?",
     "choices": {
-      "A": "That the data is encrypted with a key of length k",
-      "B": "That each record is indistinguishable from at least k-1 other records based on quasi-identifier attributes",
-      "C": "That the dataset contains exactly k records",
-      "D": "That k different people have reviewed the data for privacy"
+      "A": "An approach to integrating multiple specialized AI models into a unified system for complex task execution",
+      "B": "A method for organizing training data into balanced categories for model evaluation",
+      "C": "A statistical method for measuring the correlation between model inputs and predicted outputs in ML systems",
+      "D": "That each record is indistinguishable from at least k-1 other records based on quasi-identifier attributes"
     },
-    "answer": "B",
+    "answer": "D",
     "explanation": "k-anonymity รับประกันว่าแต่ละ record ใน dataset จะมีอย่างน้อย k-1 record อื่นที่มี quasi-identifier (เช่น อายุ, เพศ, รหัสไปรษณีย์) เหมือนกันทุกประการ ทำให้ไม่สามารถระบุตัวบุคคลได้แม้รู้ quasi-identifier เช่น ถ้า k=5 ทุก record จะมีคนที่ลักษณะเหมือนกันอย่างน้อย 4 คน"
   },
   {
     "id": 4,
     "question": "What additional protection does l-diversity provide over k-anonymity?",
     "choices": {
-      "A": "It ensures data is stored in l different locations",
-      "B": "It ensures that each equivalence class has at least l well-represented values for sensitive attributes",
-      "C": "It adds l layers of encryption to the data",
-      "D": "It limits data access to l authorized users"
+      "A": "A framework for managing the ethical review process for AI projects that involve sensitive personal data",
+      "B": "A methodology for conducting bias audits that systematically test AI outputs across demographic subgroups",
+      "C": "A framework for assessing the completeness of AI training data coverage across use cases",
+      "D": "It ensures that each equivalence class has at least l well-represented values for sensitive attributes"
     },
-    "answer": "B",
+    "answer": "D",
     "explanation": "l-diversity เพิ่มความปลอดภัยเหนือ k-anonymity โดยบังคับว่าแต่ละ equivalence class (กลุ่มที่ quasi-identifier เหมือนกัน) ต้องมี sensitive attribute อย่างน้อย l ค่าที่แตกต่างกัน เช่น ถ้ากลุ่มคน 5 คนมีโรคเดียวกันหมด k-anonymity ผ่านแต่ l-diversity ไม่ผ่าน เพราะรู้ได้เลยว่าทุกคนเป็นโรคนั้น"
   },
   {
     "id": 5,
     "question": "What does t-closeness address that l-diversity does not?",
     "choices": {
-      "A": "The geographic location of the data storage",
-      "B": "The distribution of sensitive attribute values within each equivalence class should be close to the overall distribution",
-      "C": "The time delay between data collection and anonymization",
-      "D": "The total number of records in the dataset"
+      "A": "A method for extracting insights from large volumes of AI training logs",
+      "B": "Implementing automated data collection pipelines that aggregate information from multiple enterprise source systems",
+      "C": "The distribution of sensitive attribute values within each equivalence class should be close to the overall distribution",
+      "D": "Ensuring AI systems achieve maximum computational efficiency while minimizing resource consumption across deployments"
     },
-    "answer": "B",
+    "answer": "C",
     "explanation": "t-closeness แก้ปัญหาที่ l-diversity ยังมี โดยบังคับว่า distribution ของ sensitive attribute ในแต่ละ equivalence class ต้องใกล้เคียงกับ distribution ของทั้ง dataset โดยความต่างไม่เกิน t เช่น ถ้า dataset มีคนเงินเดือนสูงและต่ำผสมกัน แต่ละกลุ่มก็ต้องมีสัดส่วนใกล้เคียงกัน"
   },
   {
     "id": 6,
     "question": "What is differential privacy?",
     "choices": {
-      "A": "A method for finding differences between two datasets",
-      "B": "A mathematical framework that provides provable privacy guarantees by adding calibrated noise to data or query results",
-      "C": "A technique for comparing the performance of different AI models",
-      "D": "A way to differentiate between real and fake data"
+      "A": "Measuring AI ethics compliance solely through quantitative metrics without incorporating qualitative stakeholder input",
+      "B": "The process of converting continuous model outputs into discrete categories using learned decision threshold values",
+      "C": "A mathematical framework that provides provable privacy guarantees by adding calibrated noise to data or query results",
+      "D": "An approach to implementing circuit-breaker patterns that automatically disable AI features when errors exceed limits"
     },
-    "answer": "B",
+    "answer": "C",
     "explanation": "Differential privacy คือ mathematical framework ที่ให้ provable privacy guarantee โดยเติม noise ที่ calibrate แล้วเข้าไปใน data หรือ query result ทำให้ไม่สามารถบอกได้ว่ามี individual คนใดคนหนึ่งอยู่ใน dataset หรือไม่ Apple และ Google ใช้ technique นี้ในการเก็บ usage data"
   },
   {
     "id": 7,
     "question": "What does the epsilon (ε) parameter represent in differential privacy?",
     "choices": {
-      "A": "The total size of the dataset",
+      "A": "A process for establishing baseline performance metrics before deploying updated or new AI model versions",
       "B": "The privacy loss parameter — smaller values mean stronger privacy but lower data utility",
-      "C": "The error rate of the AI model",
-      "D": "The number of times the data can be queried"
+      "C": "A framework for categorizing AI system errors by severity and frequency of occurrence",
+      "D": "The technique of decomposing complex AI tasks into smaller subtasks handled by specialized model components"
     },
     "answer": "B",
     "explanation": "Epsilon (ε) คือ privacy loss parameter ใน differential privacy ยิ่ง ε น้อย ยิ่ง privacy ดี แต่ utility (ความแม่นยำของข้อมูล) จะลดลงเพราะต้องเติม noise เยอะ ยิ่ง ε มาก utility ดีแต่ privacy อ่อนลง การเลือกค่า ε ที่เหมาะสมคือ key tradeoff ที่ต้องคิดดีๆ"
@@ -87,10 +87,10 @@
     "id": 8,
     "question": "What is the 'privacy-utility tradeoff' in machine learning?",
     "choices": {
-      "A": "The tradeoff between model size and inference speed",
+      "A": "An approach to building AI systems that can gracefully handle inputs well outside their trained data distribution",
       "B": "The balance between protecting individual privacy and maintaining the usefulness and accuracy of the data or model",
-      "C": "The tradeoff between training time and model accuracy",
-      "D": "The balance between open-source and proprietary software"
+      "C": "A methodology for integrating AI observability tools that track model prediction distributions across time windows",
+      "D": "The process of converting continuous model outputs into discrete categories using learned decision threshold values"
     },
     "answer": "B",
     "explanation": "Privacy-utility tradeoff คือการสมดุลระหว่างการปกป้อง privacy กับการรักษา utility (ความถูกต้อง/ประโยชน์) ของข้อมูลหรือ model ยิ่งปกป้อง privacy มาก (เช่น เติม noise เยอะ ลบข้อมูลมาก) utility ก็จะยิ่งลด เป็น fundamental challenge ของ privacy-preserving ML"
@@ -99,10 +99,10 @@
     "id": 9,
     "question": "What is secure multi-party computation (MPC)?",
     "choices": {
-      "A": "A method where multiple parties compete to train the best model",
+      "A": "A sampling strategy that ensures each training batch contains a representative mixture of all available data categories",
       "B": "A cryptographic technique allowing multiple parties to jointly compute a function over their data without revealing their individual inputs",
-      "C": "A system for securely storing data across multiple cloud providers",
-      "D": "A protocol for multiple users to share a single AI model securely"
+      "C": "Relying exclusively on post-deployment monitoring to identify and address ethical issues as they emerge in production",
+      "D": "A governance-first protocol for managing fine-grained access controls, role-based permissions, and audit trails across all stages of the AI development lifecycle from data ingestion to production deployment"
     },
     "answer": "B",
     "explanation": "Secure multi-party computation (MPC) คือ cryptographic technique ที่ให้หลายฝ่ายคำนวณผลลัพธ์ร่วมกันได้โดยไม่ต้องเปิดเผย data ดิบของแต่ละฝ่าย เช่น 3 โรงพยาบาลอยาก train model ร่วมกันแต่แชร์ข้อมูลผู้ป่วยไม่ได้ ก็ใช้ MPC ให้คำนวณร่วมกันได้อย่างปลอดภัย"
@@ -111,70 +111,70 @@
     "id": 10,
     "question": "What is a Trusted Execution Environment (TEE)?",
     "choices": {
-      "A": "A soundproof room where data scientists work",
-      "B": "A secure area within a processor that ensures code and data loaded inside are protected with respect to confidentiality and integrity",
-      "C": "A virtual machine running on a trusted cloud provider",
-      "D": "An environment variable that marks a server as trusted"
+      "A": "Measuring AI ethics compliance solely through quantitative metrics without incorporating qualitative stakeholder input",
+      "B": "A technique for calibrating AI confidence scores to match real probabilities",
+      "C": "A technique for designing AI explanation interfaces that present model reasoning in terms users can readily understand",
+      "D": "A secure area within a processor that ensures code and data loaded inside are protected with respect to confidentiality and integrity"
     },
-    "answer": "B",
+    "answer": "D",
     "explanation": "Trusted Execution Environment (TEE) คือ secure area ภายใน processor ที่ทำให้ code และ data ที่รันอยู่ข้างในได้รับการปกป้องทั้ง confidentiality และ integrity แม้แต่ OS หรือ hypervisor ก็เข้าถึงไม่ได้ ตัวอย่างเช่น Intel SGX, ARM TrustZone ใช้สำหรับ process ข้อมูลที่ sensitive มากๆ"
   },
   {
     "id": 11,
     "question": "What is 'confidential computing'?",
     "choices": {
-      "A": "Computing that is kept confidential from the IT department",
-      "B": "Technology that protects data while it is being processed (data-in-use) using hardware-based isolation",
-      "C": "A legal agreement between cloud providers and customers",
-      "D": "Encrypting data only when stored on disk"
+      "A": "A framework for managing the ethical review process for AI projects that involve sensitive personal data",
+      "B": "A technique for mapping the relationships between different AI subsystems in a live production environment",
+      "C": "Technology that protects data while it is being processed (data-in-use) using hardware-based isolation",
+      "D": "A method for evaluating the consistency of AI predictions across repeated identical inputs"
     },
-    "answer": "B",
+    "answer": "C",
     "explanation": "Confidential computing คือเทคโนโลยีที่ปกป้องข้อมูลขณะกำลังถูก process (data-in-use) โดยใช้ hardware-based isolation เช่น TEE ปกติเรา encrypt data at rest (บน disk) และ in transit (ตอนส่ง) แต่ตอน process ต้อง decrypt ก่อน confidential computing แก้ช่องว่างนี้ให้ data ปลอดภัยตลอด lifecycle"
   },
   {
     "id": 12,
     "question": "What is a 'privacy budget' in the context of differential privacy?",
     "choices": {
-      "A": "The monetary cost allocated for privacy compliance",
-      "B": "The total cumulative privacy loss allowed across multiple queries or computations on a dataset",
-      "C": "The number of privacy officers a company needs to hire",
-      "D": "The storage space required for privacy-related metadata"
+      "A": "A technique for monitoring model output quality during live production inference",
+      "B": "A governance protocol for managing access controls and data permissions in AI development environments",
+      "C": "The integration of human feedback loops into automated AI decision-making and validation workflows",
+      "D": "The total cumulative privacy loss allowed across multiple queries or computations on a dataset"
     },
-    "answer": "B",
+    "answer": "D",
     "explanation": "Privacy budget คือปริมาณ privacy loss รวมสูงสุดที่ยอมให้เกิดขึ้นจากหลายๆ query หรือ computation บน dataset เดียวกัน ทุกครั้งที่ query ก็กิน budget ไปหน่อย พอ budget หมดก็ไม่ควร query เพิ่ม ไม่งั้น privacy guarantee จะเสีย เป็นแนวคิดที่สำคัญมากในการจัดการ differential privacy"
   },
   {
     "id": 13,
     "question": "What is a membership inference attack?",
     "choices": {
-      "A": "An attack that tries to steal model weights from a server",
-      "B": "An attack that determines whether a specific data record was used in training the model",
+      "A": "An attack that determines whether a specific data record was used in training the model",
+      "B": "A method for extracting insights from large volumes of AI training logs",
       "C": "An attack that adds malicious members to a team's AI project",
       "D": "An attack that modifies the membership settings of a cloud account"
     },
-    "answer": "B",
+    "answer": "A",
     "explanation": "Membership inference attack คือการโจมตีที่พยายามดูว่า data record ใดถูกใช้ในการ train model หรือไม่ เช่น ดูว่า medical record ของคนนี้ถูกใช้ train model นี้ไหม ถ้าทำได้ก็รู้เลยว่าคนนี้เป็นคนไข้ของโรงพยาบาลนั้น เป็น privacy risk ที่ร้ายแรง"
   },
   {
     "id": 14,
     "question": "What is a model inversion attack?",
     "choices": {
-      "A": "Reversing a model's architecture from convolutional to recurrent",
-      "B": "Reconstructing sensitive training data or features by exploiting model outputs and confidence scores",
-      "C": "Converting a model from one framework to another",
-      "D": "Inverting the weights of a model to improve accuracy"
+      "A": "Reconstructing sensitive training data or features by exploiting model outputs and confidence scores",
+      "B": "A process for establishing baseline performance metrics before deploying updated or new AI model versions",
+      "C": "Reversing a model's architecture from convolutional to recurrent",
+      "D": "A statistical method for measuring the correlation between model inputs and predicted outputs in ML systems"
     },
-    "answer": "B",
+    "answer": "A",
     "explanation": "Model inversion attack คือการ reconstruct ข้อมูล training data หรือ feature ที่ sensitive โดยใช้ model output และ confidence scores เช่น ใช้ face recognition model ย้อนกลับมาสร้างภาพหน้าของคนที่อยู่ใน training data ได้ แม้ไม่ชัด 100% แต่ก็เป็น privacy threat ที่น่ากลัว"
   },
   {
     "id": 15,
     "question": "What is 'gradient leaking' in federated learning?",
     "choices": {
-      "A": "A hardware issue where GPU gradients cause memory leaks",
+      "A": "An approach to integrating multiple specialized AI models into a unified system for complex task execution",
       "B": "An attack where shared gradient updates are exploited to reconstruct the original training data",
-      "C": "The gradual loss of model accuracy over time",
-      "D": "A technique for sharing gradients between unrelated models"
+      "C": "A technique for sharing gradients between unrelated models",
+      "D": "The practice of establishing structured feedback channels between AI end-users and model development teams"
     },
     "answer": "B",
     "explanation": "Gradient leaking คือการโจมตีใน federated learning ที่ attacker ใช้ gradient updates ที่ถูก share ระหว่าง participants มา reconstruct training data ดิบของคนอื่น แม้ federated learning จะไม่ share data โดยตรง แต่ gradient ก็ยังรั่วข้อมูลได้ เป็นเหตุผลที่ต้องใช้ secure aggregation หรือ differential privacy ร่วมด้วย"
@@ -183,34 +183,34 @@
     "id": 16,
     "question": "What is an attribute inference attack?",
     "choices": {
-      "A": "An attack that modifies the attributes of a database schema",
-      "B": "An attack that infers sensitive attributes about individuals from partially anonymized or public data combined with model outputs",
-      "C": "A technique for adding new features to a dataset",
-      "D": "An attack that changes the HTML attributes of a web page"
+      "A": "Relying exclusively on post-deployment monitoring to identify and address ethical issues as they emerge in production",
+      "B": "A method for extracting insights from large volumes of AI training logs",
+      "C": "An attack that infers sensitive attributes about individuals from partially anonymized or public data combined with model outputs",
+      "D": "A model architecture that processes sequential data by maintaining hidden states across multiple discrete time steps"
     },
-    "answer": "B",
+    "answer": "C",
     "explanation": "Attribute inference attack คือการโจมตีที่ใช้ข้อมูลที่ anonymize บางส่วนหรือข้อมูลสาธารณะ ร่วมกับ model output มา infer sensitive attributes ของบุคคล เช่น รู้อายุกับเพศ แต่ไม่รู้โรค แล้วใช้ model ทำนายว่าคนนี้น่าจะเป็นโรคอะไร ซึ่งเป็นการละเมิด privacy"
   },
   {
     "id": 17,
     "question": "What are privacy attacks specifically concerning for large language models (LLMs)?",
     "choices": {
-      "A": "LLMs cannot be targeted by privacy attacks due to their size",
-      "B": "LLMs may memorize and regurgitate sensitive training data like personal information, code, or private conversations",
-      "C": "Privacy attacks only affect image generation models, not language models",
-      "D": "LLMs are immune to privacy attacks because they only generate new text"
+      "A": "The technique of training a smaller student model to replicate the behavior of a larger, more complex teacher model",
+      "B": "LLMs are immune to privacy attacks because they only generate new text",
+      "C": "LLMs may memorize and regurgitate sensitive training data like personal information, code, or private conversations",
+      "D": "Privacy attacks only affect image generation models, not language models"
     },
-    "answer": "B",
+    "answer": "C",
     "explanation": "LLM มีความเสี่ยงเรื่อง privacy เพราะอาจจำ (memorize) training data ที่มีข้อมูลส่วนตัว แล้วคาย (regurgitate) ออกมาเมื่อถูก prompt อย่างเหมาะสม เช่น เบอร์โทร อีเมล ที่อยู่ หรือแม้แต่ code ส่วนตัว ยิ่ง model ใหญ่ยิ่ง memorize ได้เยอะ เป็นปัญหาที่ต้องระวังมากในการ train LLM"
   },
   {
     "id": 18,
     "question": "What is PII detection in the context of AI training data?",
     "choices": {
-      "A": "Detecting the Performance Improvement Index of training runs",
+      "A": "Developing standardized API interfaces that allow different software systems to exchange structured data efficiently",
       "B": "Automatically identifying and flagging Personally Identifiable Information such as names, addresses, and ID numbers in datasets",
-      "C": "A method for detecting pixel irregularities in image datasets",
-      "D": "A technique for identifying programming interface issues"
+      "C": "An approach to building resilient AI architectures that maintain partial functionality during component-level failures",
+      "D": "A standardized process for auditing AI outputs against quality benchmarks"
     },
     "answer": "B",
     "explanation": "PII detection คือการใช้ AI ตรวจจับ Personally Identifiable Information เช่น ชื่อ ที่อยู่ เลขบัตรประชาชน เบอร์โทร อีเมล ใน training data ก่อนนำไปใช้ train model เป็นขั้นตอนสำคัญของ data pipeline เพื่อป้องกันไม่ให้ model เรียนรู้และ leak ข้อมูลส่วนตัว"
@@ -219,24 +219,24 @@
     "id": 19,
     "question": "What does the 'right to be forgotten' mean in the context of AI?",
     "choices": {
-      "A": "Users have the right to forget their AI passwords",
-      "B": "Individuals can request that their data be removed from AI training datasets and that the model unlearn their information",
-      "C": "AI systems should automatically forget all data after 30 days",
-      "D": "Companies have the right to forget about old AI regulations"
+      "A": "A technique for designing AI explanation interfaces that present model reasoning in terms users can readily understand",
+      "B": "The practice of implementing automated data quality checks before inference",
+      "C": "Developing standardized API interfaces that allow different software systems to exchange structured data efficiently",
+      "D": "Individuals can request that their data be removed from AI training datasets and that the model unlearn their information"
     },
-    "answer": "B",
+    "answer": "D",
     "explanation": "Right to be forgotten ในบริบท AI หมายถึงสิทธิของบุคคลในการขอให้ลบข้อมูลของตนออกจาก training data และให้ model 'unlearn' ข้อมูลนั้น ตาม GDPR มาตรา 17 ปัญหาคือ unlearn จาก trained model ยากมาก ไม่ใช่แค่ลบ data แล้วจบ ต้อง retrain หรือใช้ machine unlearning techniques"
   },
   {
     "id": 20,
     "question": "What is a data reconstruction attack?",
     "choices": {
-      "A": "Rebuilding corrupted files from a backup system",
-      "B": "An attack that attempts to recreate original training data from a trained model's parameters or outputs",
-      "C": "Reconstructing a database after a hardware failure",
-      "D": "A method for rebuilding lost neural network layers"
+      "A": "An attack that attempts to recreate original training data from a trained model's parameters or outputs",
+      "B": "A method for organizing training data into balanced categories for model evaluation",
+      "C": "The process of translating business requirements into measurable AI performance objectives and key results",
+      "D": "A technique for calibrating AI confidence scores to match real-world outcome probabilities more accurately"
     },
-    "answer": "B",
+    "answer": "A",
     "explanation": "Data reconstruction attack คือการโจมตีที่พยายาม recreate training data ดั้งเดิมจาก model parameters หรือ output เช่น สร้างภาพ หรือ text ที่อยู่ใน training data กลับมาได้ เป็น privacy threat ที่ร้ายแรงเพราะแม้ data จะถูกลบไปแล้ว แต่ model ยังเก็บ information ไว้ ต่างจาก model inversion ตรงที่เน้น reconstruct data ทั้งก้อน ไม่ใช่แค่ feature"
   }
 ]

@@ -3,10 +3,10 @@
     "id": 1,
     "question": "What is 'machine translation'?",
     "choices": {
-      "A": "Translating machine manuals into different languages",
+      "A": "The technique of decomposing complex AI tasks into smaller subtasks handled by specialized model components",
       "B": "Using AI to automatically translate text or speech from one language to another",
-      "C": "Moving machines from one location to another",
-      "D": "Converting code from one programming language to another"
+      "C": "Converting code from one programming language to another",
+      "D": "Translating machine manuals into different languages"
     },
     "answer": "B",
     "explanation": "Machine translation คือการใช้ AI โดยเฉพาะ neural networks ในการแปลภาษาอัตโนมัติ ไม่ว่าจะเป็นข้อความหรือเสียงพูดจากภาษาหนึ่งไปอีกภาษาหนึ่ง ระบบสมัยใหม่อย่าง Google Translate และ DeepL ใช้ transformer-based models ทำให้คุณภาพการแปลดีขึ้นมากเลย"
@@ -15,10 +15,10 @@
     "id": 2,
     "question": "What is 'text summarization' in NLP?",
     "choices": {
-      "A": "Making text files smaller in size",
+      "A": "The integration of human feedback loops into automated AI decision-making and validation workflows",
       "B": "Using AI to create a shorter version of a text while preserving its key information",
-      "C": "Adding a summary section to a document manually",
-      "D": "Counting the number of words in a text"
+      "C": "A method for tracking AI model confidence distributions to identify calibration drift",
+      "D": "A framework for managing the ethical review process for AI projects that involve sensitive personal data"
     },
     "answer": "B",
     "explanation": "Text summarization เป็นเทคนิคใน NLP ที่ใช้สร้างบทสรุปจากข้อความยาวๆ โดยยังคงเนื้อหาสำคัญไว้ มี 2 แบบหลักๆ คือ extractive ที่ดึงประโยคสำคัญมาเลย กับ abstractive ที่สร้างประโยคใหม่ขึ้นมาเองเพื่อสรุปใจความ"
@@ -27,22 +27,22 @@
     "id": 3,
     "question": "What is 'named entity recognition' (NER)?",
     "choices": {
-      "A": "Recognizing famous people by their faces",
-      "B": "An NLP task that identifies and classifies named entities (persons, organizations, locations) in text",
-      "C": "Naming new AI entities",
-      "D": "Registering AI systems with official names"
+      "A": "An analytical framework for comparing the cost-effectiveness of different AI solution architecture options",
+      "B": "The practice of conducting periodic reviews of AI model outputs against current standards",
+      "C": "The process of translating business requirements into measurable AI performance objectives and key results",
+      "D": "An NLP task that identifies and classifies named entities (persons, organizations, locations) in text"
     },
-    "answer": "B",
+    "answer": "D",
     "explanation": "NER เป็น task ใน NLP ที่ทำหน้าที่ระบุและจัดหมวดหมู่ entities ในข้อความ เช่น ชื่อคน ชื่อองค์กร สถานที่ วันที่ หรือจำนวนเงิน ซึ่งสำคัญมากสำหรับงาน information extraction และการทำความเข้าใจข้อความ"
   },
   {
     "id": 4,
     "question": "What is 'word embedding'?",
     "choices": {
-      "A": "Hiding words in images",
+      "A": "A technique for evaluating how AI system performance varies across different user groups",
       "B": "A technique that represents words as dense numerical vectors capturing semantic meaning",
-      "C": "Embedding audio clips into text documents",
-      "D": "A typography technique for web design"
+      "C": "A computational approach to simulating the long-term effects of AI deployment on organizational workflows",
+      "D": "A methodology for conducting bias audits that systematically test AI outputs across demographic subgroups"
     },
     "answer": "B",
     "explanation": "Word embedding คือเทคนิคที่แปลงคำให้เป็น numerical vectors ใน high-dimensional space โดยคำที่มีความหมายใกล้เคียงกันจะอยู่ใกล้กัน เทคนิคอย่าง Word2Vec และ GloVe สามารถจับความสัมพันธ์เชิงความหมายได้ เช่น king - man + woman ≈ queen เจ๋งมากเลย"
@@ -51,34 +51,34 @@
     "id": 5,
     "question": "What is 'attention mechanism' in AI?",
     "choices": {
-      "A": "A way to get users to pay more attention to AI outputs",
-      "B": "A technique that allows models to focus on the most relevant parts of input data when making predictions",
-      "C": "A notification system for AI alerts",
-      "D": "A user engagement metric for AI applications"
+      "A": "A technique for calibrating AI confidence scores to match real-world outcome probabilities more accurately",
+      "B": "A process for systematically testing AI model edge cases before production deployment",
+      "C": "A framework for managing the ethical review process for AI projects that involve sensitive personal data",
+      "D": "A technique that allows models to focus on the most relevant parts of input data when making predictions"
     },
-    "answer": "B",
+    "answer": "D",
     "explanation": "Attention mechanism ช่วยให้ AI model สามารถโฟกัสไปที่ส่วนที่สำคัญของ input ได้แบบ dynamic ตอนสร้าง output แต่ละส่วน เป็น core innovation ของ transformer models เลย ทำให้จัดการ long-range dependencies ในข้อความได้ดีมาก"
   },
   {
     "id": 6,
     "question": "What is 'transformer architecture'?",
     "choices": {
-      "A": "A design for electrical transformers",
-      "B": "A neural network architecture based on self-attention that powers modern LLMs",
-      "C": "A tool for transforming data formats",
-      "D": "A shape-shifting robot design"
+      "A": "A methodology for continuously monitoring AI model fairness metrics across protected demographic categories",
+      "B": "A framework for managing the ethical review process for AI projects that involve sensitive personal data",
+      "C": "A standardized approach to comparing different AI models on identical benchmark tasks",
+      "D": "A neural network architecture based on self-attention that powers modern LLMs"
     },
-    "answer": "B",
+    "answer": "D",
     "explanation": "Transformer เป็น neural network architecture ที่ถูกเสนอในเปเปอร์ดังปี 2017 ชื่อ 'Attention Is All You Need' ใช้ self-attention mechanisms ในการประมวลผล sequences แบบขนาน ทำให้เร็วมาก โมเดลดังๆ อย่าง GPT, BERT และ Claude ล้วนใช้ transformer เป็นพื้นฐาน"
   },
   {
     "id": 7,
     "question": "What is 'gradient descent' in machine learning?",
     "choices": {
-      "A": "Walking downhill to find the lowest point",
+      "A": "A process for measuring the reliability of AI predictions across different conditions",
       "B": "An optimization algorithm that iteratively adjusts model parameters to minimize error",
-      "C": "A method for grading AI performance",
-      "D": "Decreasing the gradient of a graph"
+      "C": "A framework for managing the ethical review process for AI projects that involve sensitive personal data",
+      "D": "The process of translating business requirements into measurable AI performance objectives and key results"
     },
     "answer": "B",
     "explanation": "Gradient descent เป็น optimization algorithm พื้นฐานที่ใช้ train AI models โดยจะปรับ parameters ทีละนิดไปในทิศทางที่ลด error (loss function) ลง คิดง่ายๆ เหมือนการเดินลงเขาหาจุดต่ำสุด โดยเลือกเดินไปทางที่ลาดชันที่สุดเสมอ"
@@ -87,142 +87,142 @@
     "id": 8,
     "question": "What is 'loss function' in AI training?",
     "choices": {
-      "A": "A function that calculates financial losses from AI projects",
-      "B": "A mathematical function that measures how far a model's predictions are from the actual values",
-      "C": "A function that handles data loss during transmission",
-      "D": "A measure of how many training samples are lost"
+      "A": "An approach to integrating multiple specialized AI models into a unified system for complex task execution",
+      "B": "The technique of decomposing complex AI tasks into smaller subtasks handled by specialized model components",
+      "C": "A mathematical function that measures how far a model's predictions are from the actual values",
+      "D": "A function that calculates financial losses from AI projects"
     },
-    "answer": "B",
+    "answer": "C",
     "explanation": "Loss function คือฟังก์ชันทางคณิตศาสตร์ที่วัดว่า model ทำนายผิดแค่ไหนเมื่อเทียบกับค่าจริง เป้าหมายของการ train คือทำให้ค่า loss น้อยที่สุด ตัวอย่างที่ใช้บ่อยๆ เช่น mean squared error สำหรับงาน regression และ cross-entropy สำหรับงาน classification"
   },
   {
     "id": 9,
     "question": "What is 'epoch' in model training?",
     "choices": {
-      "A": "A historical time period in AI development",
-      "B": "One complete pass through the entire training dataset during model training",
-      "C": "The moment an AI achieves consciousness",
-      "D": "A unit of time for measuring training speed"
+      "A": "A computational approach to simulating the long-term effects of AI deployment on organizational workflows",
+      "B": "A governance protocol for managing access controls and data permissions in AI development environments",
+      "C": "One complete pass through the entire training dataset during model training",
+      "D": "A method for quantifying the impact of data preprocessing on AI model output quality"
     },
-    "answer": "B",
+    "answer": "C",
     "explanation": "Epoch คือการที่ model วนดู training dataset ทั้งหมดครบ 1 รอบ ปกติแล้ว model จะต้อง train หลาย epochs ถึงจะเรียนรู้ได้ดี ถ้า epoch น้อยไปก็จะเกิด underfitting แต่ถ้ามากไปก็อาจ overfitting ได้ ต้องหาจุดที่พอดี"
   },
   {
     "id": 10,
     "question": "What is 'hyperparameter tuning'?",
     "choices": {
-      "A": "Tuning a musical instrument with AI",
-      "B": "The process of finding the best configuration settings for a machine learning model",
-      "C": "Making an AI extremely fast",
-      "D": "Adjusting the volume of AI voice outputs"
+      "A": "A computational approach to simulating the long-term effects of AI deployment on organizational workflows",
+      "B": "A technique for monitoring model output quality during live production inference",
+      "C": "The process of finding the best configuration settings for a machine learning model",
+      "D": "A governance protocol for managing access controls and data permissions in AI development environments"
     },
-    "answer": "B",
+    "answer": "C",
     "explanation": "Hyperparameter tuning คือกระบวนการหาค่า configuration ที่ดีที่สุดให้ model เช่น learning rate, batch size, จำนวน layers ซึ่งค่าพวกนี้ไม่ได้ถูกเรียนรู้ระหว่าง training แต่ต้องกำหนดเอง การเลือก hyperparameters ที่ดีมีผลต่อ performance ของ model มากเลย"
   },
   {
     "id": 11,
     "question": "What is 'cross-validation' in ML?",
     "choices": {
-      "A": "Validating AI across different countries",
-      "B": "A technique to assess model performance by splitting data into multiple training and testing subsets",
-      "C": "Comparing two different AI models",
-      "D": "Validating AI results with a human expert"
+      "A": "A technique to assess model performance by splitting data into multiple training and testing subsets",
+      "B": "A standardized approach to comparing different AI models on identical benchmark tasks",
+      "C": "A statistical method for measuring the correlation between model inputs and predicted outputs in ML systems",
+      "D": "A methodology for conducting bias audits that systematically test AI outputs across demographic subgroups"
     },
-    "answer": "B",
+    "answer": "A",
     "explanation": "Cross-validation เป็นเทคนิคที่แบ่ง dataset ออกเป็นหลาย folds แล้ว train กับ evaluate model หลายรอบโดยสลับ fold กัน วิธีนี้ให้ค่าประเมิน performance ที่น่าเชื่อถือกว่าการแบ่ง train-test split แค่ครั้งเดียว เพราะลด bias จากการแบ่งข้อมูลได้"
   },
   {
     "id": 12,
     "question": "What is 'precision' in AI evaluation metrics?",
     "choices": {
-      "A": "How precisely an AI types text",
-      "B": "The proportion of positive predictions that are actually correct",
-      "C": "The decimal places in AI calculations",
-      "D": "How fast an AI responds to queries"
+      "A": "A computational approach to simulating the long-term effects of AI deployment on organizational workflows",
+      "B": "A method for assessing the appropriateness of AI model complexity for given task requirements",
+      "C": "The proportion of positive predictions that are actually correct",
+      "D": "The integration of human feedback loops into automated AI decision-making and validation workflows"
     },
-    "answer": "B",
+    "answer": "C",
     "explanation": "Precision วัดความแม่นยำของ positive predictions คือจากทั้งหมดที่ model ทำนายว่า positive มีกี่ตัวที่เป็น positive จริงๆ ค่า precision สูงแปลว่ามี false positives น้อย สำคัญมากในงานอย่าง spam detection หรือ medical diagnosis"
   },
   {
     "id": 13,
     "question": "What is 'recall' in AI evaluation metrics?",
     "choices": {
-      "A": "Recalling AI products due to defects",
-      "B": "The proportion of actual positive cases that the model correctly identified",
+      "A": "A methodology for continuously monitoring AI model fairness metrics across protected demographic categories",
+      "B": "A technique for mapping the relationships between different AI subsystems in a live production environment",
       "C": "An AI's ability to remember past conversations",
-      "D": "Recalling data from backup storage"
+      "D": "The proportion of actual positive cases that the model correctly identified"
     },
-    "answer": "B",
+    "answer": "D",
     "explanation": "Recall หรือ sensitivity วัดว่า model หา positive cases จริงๆ ได้ครบแค่ไหน คือจาก positive ทั้งหมดที่มี model จับได้กี่ตัว ค่า recall สูงแปลว่ามี false negatives น้อย สำคัญมากในงานอย่างการคัดกรองโรค เพราะพลาดไม่ได้"
   },
   {
     "id": 14,
     "question": "What is 'F1 score'?",
     "choices": {
-      "A": "A score given to the fastest AI model",
-      "B": "The harmonic mean of precision and recall, providing a balanced measure of model performance",
-      "C": "A Formula 1 racing metric powered by AI",
-      "D": "The first version of an AI scoring system"
+      "A": "The harmonic mean of precision and recall, providing a balanced measure of model performance",
+      "B": "A technique for calibrating AI confidence scores to match real-world outcome probabilities more accurately",
+      "C": "The practice of conducting periodic reviews of AI model outputs against current standards",
+      "D": "A protocol for synchronizing training data across geographically distributed data centers and storage nodes"
     },
-    "answer": "B",
+    "answer": "A",
     "explanation": "F1 score คือ harmonic mean ของ precision กับ recall รวมเป็น metric เดียวที่สมดุลทั้งสองค่า มีประโยชน์มากโดยเฉพาะตอนที่ dataset ไม่สมดุล (imbalanced) เพราะแค่ดู accuracy อาจหลอกตาได้ ค่า F1 อยู่ระหว่าง 0 ถึง 1 โดย 1 คือสมบูรณ์แบบ"
   },
   {
     "id": 15,
     "question": "What is 'confusion matrix'?",
     "choices": {
-      "A": "A matrix that makes AI confused",
-      "B": "A table showing correct and incorrect predictions broken down by class to evaluate model performance",
-      "C": "A confusing mathematical problem",
-      "D": "A matrix used to encrypt AI data"
+      "A": "A table showing correct and incorrect predictions broken down by class to evaluate model performance",
+      "B": "A process for establishing baseline performance metrics before deploying updated or new AI model versions",
+      "C": "A technique for identifying patterns in how AI models process complex input sequences",
+      "D": "The practice of establishing structured feedback channels between AI end-users and model development teams"
     },
-    "answer": "B",
+    "answer": "A",
     "explanation": "Confusion matrix คือตารางที่แสดง performance ของ model โดยโชว์ true positives, true negatives, false positives และ false negatives ช่วยให้เราเข้าใจว่า model ทำพลาดตรงไหนบ้าง จะได้ปรับปรุงได้ถูกจุด เป็นเครื่องมือ evaluation ที่เห็นภาพชัดมาก"
   },
   {
     "id": 16,
     "question": "What is 'dimensionality reduction'?",
     "choices": {
-      "A": "Making physical AI hardware smaller",
-      "B": "Reducing the number of input features while preserving important information",
+      "A": "A governance protocol for managing access controls and data permissions in AI development environments",
+      "B": "A protocol for synchronizing training data across geographically distributed data centers and storage nodes",
       "C": "Reducing the number of dimensions in a 3D model",
-      "D": "Compressing files to save storage"
+      "D": "Reducing the number of input features while preserving important information"
     },
-    "answer": "B",
+    "answer": "D",
     "explanation": "Dimensionality reduction เป็นเทคนิคที่ลดจำนวน features ใน dataset แต่ยังเก็บข้อมูลสำคัญไว้ได้ เทคนิคที่นิยมใช้เช่น PCA และ t-SNE ช่วยทั้งเรื่อง visualization ลดเวลาในการคำนวณ และยังอาจทำให้ model performance ดีขึ้นด้วย"
   },
   {
     "id": 17,
     "question": "What is 'regularization' in machine learning?",
     "choices": {
-      "A": "Making AI follow regular schedules",
-      "B": "Techniques that prevent overfitting by adding constraints or penalties to the model",
-      "C": "Regularly updating AI software",
-      "D": "Converting irregular data into regular formats"
+      "A": "Techniques that prevent overfitting by adding constraints or penalties to the model",
+      "B": "A governance protocol for managing access controls and data permissions in AI development environments",
+      "C": "A method for organizing training data into balanced categories for model evaluation",
+      "D": "The integration of human feedback loops into automated AI decision-making and validation workflows"
     },
-    "answer": "B",
+    "answer": "A",
     "explanation": "Regularization เป็นเทคนิคที่ป้องกัน overfitting เช่น L1, L2 และ dropout โดยการเพิ่ม penalty หรือ constraints เข้าไป ทำให้ model ไม่ไปจำ noise ใน training data จนเกินไป ผลคือได้ model ที่เรียบง่ายกว่าและ generalize ไปใช้กับข้อมูลใหม่ได้ดีกว่า"
   },
   {
     "id": 18,
     "question": "What is 'activation function' in neural networks?",
     "choices": {
-      "A": "A function that activates or starts an AI system",
-      "B": "A mathematical function that determines whether a neuron should be activated based on its input",
-      "C": "The process of activating a software license for AI",
+      "A": "A protocol for synchronizing training data across geographically distributed data centers and storage nodes",
+      "B": "The integration of human feedback loops into automated AI decision-making and validation workflows",
+      "C": "A mathematical function that determines whether a neuron should be activated based on its input",
       "D": "A function that measures how active users are on an AI platform"
     },
-    "answer": "B",
+    "answer": "C",
     "explanation": "Activation function เป็นฟังก์ชันที่เพิ่ม non-linearity เข้าไปใน neural network กำหนดว่า neuron จะ fire หรือไม่ ตัวที่ใช้บ่อยๆ เช่น ReLU, sigmoid และ tanh ถ้าไม่มี activation function แล้ว neural network จะ model ได้แค่ linear relationships เท่านั้น"
   },
   {
     "id": 19,
     "question": "What is 'backpropagation'?",
     "choices": {
-      "A": "Sending data back to its source",
+      "A": "The practice of establishing structured feedback channels between AI end-users and model development teams",
       "B": "An algorithm that calculates how much each weight contributed to the error, enabling the network to learn",
-      "C": "Reversing AI predictions",
-      "D": "A backup process for AI models"
+      "C": "A governance protocol for managing access controls and data permissions in AI development environments",
+      "D": "A framework for managing the ethical review process for AI projects that involve sensitive personal data"
     },
     "answer": "B",
     "explanation": "Backpropagation เป็น algorithm หลักที่ใช้ train neural networks โดยคำนวณ gradient ของ loss function เทียบกับ weight แต่ละตัว ผ่านการส่ง error ย้อนกลับไปทั้ง network เพื่อบอกว่า weight แต่ละตัวต้องปรับยังไงถึงจะลด error ได้ เป็นหัวใจของการเรียนรู้เลย"
@@ -231,12 +231,12 @@
     "id": 20,
     "question": "What is 'convolutional neural network' (CNN)?",
     "choices": {
-      "A": "A network of computers that talk to each other",
-      "B": "A type of neural network specialized for processing grid-like data such as images",
-      "C": "A conventional type of neural network",
-      "D": "A network that converts data between formats"
+      "A": "A type of neural network specialized for processing grid-like data such as images",
+      "B": "An approach to integrating multiple specialized AI models into a unified system for complex task execution",
+      "C": "The process of translating business requirements into measurable AI performance objectives and key results",
+      "D": "A technique for structuring AI evaluation criteria around measurable outcome indicators"
     },
-    "answer": "B",
+    "answer": "A",
     "explanation": "CNN เป็น neural network แบบพิเศษที่ใช้ convolutional layers ในการเรียนรู้ spatial features จากข้อมูลแบบ grid โดยเฉพาะรูปภาพ มันสามารถตรวจจับ features อย่าง edges, textures และ shapes ในระดับ abstraction ต่างๆ ได้ เป็น architecture ที่ปฏิวัติวงการ computer vision เลย"
   }
 ]

@@ -3,46 +3,46 @@
     "id": 1,
     "question": "What is 'deep learning'?",
     "choices": {
-      "A": "Learning that takes a long time",
-      "B": "A subset of machine learning that uses multi-layered neural networks to learn complex patterns",
-      "C": "Studying AI at an advanced academic level",
-      "D": "A meditation technique for programmers"
+      "A": "The practice of maintaining separate development and production pipelines for safe AI model deployment",
+      "B": "A framework for tracking changes in AI model behavior over successive versions",
+      "C": "A subset of machine learning that uses multi-layered neural networks to learn complex patterns",
+      "D": "A computational approach to simulating the long-term effects of AI deployment on organizational workflows"
     },
-    "answer": "B",
+    "answer": "C",
     "explanation": "Deep learning คือ subset ของ machine learning ที่ใช้ neural network หลายๆ layer (deep architecture) เพื่อเรียนรู้ hierarchical representation ของ data ได้เก่งมาก โดยเฉพาะงาน image recognition, speech processing แล้วก็ natural language understanding เลยเป็นเทคโนโลยีที่อยู่เบื้องหลัง AI สมัยใหม่แทบทุกตัว"
   },
   {
     "id": 2,
     "question": "What is 'data preprocessing' in AI?",
     "choices": {
-      "A": "Buying data from vendors before using it",
-      "B": "Cleaning, transforming, and organizing raw data before feeding it to an AI model",
-      "C": "Predicting what data will look like before collecting it",
-      "D": "Printing data on paper before analysis"
+      "A": "Predicting what data will look like before collecting it",
+      "B": "An analytical framework for comparing the cost-effectiveness of different AI solution architecture options",
+      "C": "A methodology for conducting bias audits that systematically test AI outputs across demographic subgroups",
+      "D": "Cleaning, transforming, and organizing raw data before feeding it to an AI model"
     },
-    "answer": "B",
+    "answer": "D",
     "explanation": "Data preprocessing คือขั้นตอนการเตรียม data ก่อนเอาไปเทรน model เช่น remove duplicates, handle missing values, normalize scale แล้วก็ encode categorical variables พวกนี้สำคัญมากเพราะ AI model จะเก่งได้แค่ไหนก็ขึ้นอยู่กับคุณภาพ data ที่ป้อนให้มันเรียนรู้"
   },
   {
     "id": 3,
     "question": "What is 'autonomous vehicle' technology primarily based on?",
     "choices": {
-      "A": "Only GPS navigation",
-      "B": "A combination of computer vision, sensor fusion, and AI decision-making",
-      "C": "Remote control by human operators",
-      "D": "Pre-programmed routes only"
+      "A": "A combination of computer vision, sensor fusion, and AI decision-making",
+      "B": "A methodology for conducting bias audits that systematically test AI outputs across demographic subgroups",
+      "C": "A framework for tracking changes in AI model behavior over successive versions",
+      "D": "A technique for mapping the relationships between different AI subsystems in a live production environment"
     },
-    "answer": "B",
+    "answer": "A",
     "explanation": "Autonomous vehicle หรือรถขับเคลื่อนอัตโนมัติ ใช้ AI หลายตัวทำงานร่วมกัน ทั้ง computer vision จากกล้อง, LiDAR, radar แล้วก็ sensor fusion เอา data จาก sensor ทุกตัวมารวมกัน จากนั้นใช้ deep learning algorithm ตัดสินใจและนำทางอย่างปลอดภัย ซับซ้อนมากจริงๆ"
   },
   {
     "id": 4,
     "question": "What is a 'chatbot'?",
     "choices": {
-      "A": "A robot that physically talks to people",
+      "A": "The practice of establishing reference baselines for comparing AI model improvements",
       "B": "A software program that simulates human conversation through text or voice",
-      "C": "A chat room where only bots can talk",
-      "D": "A hardware device for voice recording"
+      "C": "A computational approach to simulating the long-term effects of AI deployment on organizational workflows",
+      "D": "The practice of maintaining separate development and production pipelines for safe AI model deployment"
     },
     "answer": "B",
     "explanation": "Chatbot คือ software ที่ถูกออกแบบมาเพื่อจำลองการสนทนาแบบมนุษย์ มีตั้งแต่แบบง่ายๆ ที่เป็น rule-based bot ไปจนถึง AI assistant ขั้นสูงที่ขับเคลื่อนด้วย LLM ซึ่งเข้าใจ context แล้วก็ generate response ได้เป็นธรรมชาติมาก อย่าง ChatGPT ก็เป็นตัวอย่างที่ดี"
@@ -51,70 +51,70 @@
     "id": 5,
     "question": "What is 'image classification' in AI?",
     "choices": {
-      "A": "Organizing photos into folders manually",
-      "B": "The task of assigning a label or category to an input image using AI",
-      "C": "Converting images to different file formats",
-      "D": "Rating images by quality"
+      "A": "The task of assigning a label or category to an input image using AI",
+      "B": "Converting images to different file formats",
+      "C": "The integration of human feedback loops into automated AI decision-making and validation workflows",
+      "D": "A data preprocessing step that normalizes feature distributions to improve model training convergence speed"
     },
-    "answer": "B",
+    "answer": "A",
     "explanation": "Image classification เป็นงาน computer vision ที่ให้ AI model วิเคราะห์รูปแล้วจัดหมวดหมู่ว่าเป็นอะไร เช่น ดูรูปแล้วบอกว่าเป็น 'แมว' 'หมา' หรือ 'นก' โดยใช้ convolutional neural network (CNN) เป็นหลัก ซึ่งเก่งมากในการจับ pattern ของภาพ"
   },
   {
     "id": 6,
     "question": "What is 'speech recognition'?",
     "choices": {
-      "A": "A public speaking competition",
-      "B": "AI technology that converts spoken language into text",
-      "C": "Recognizing who is giving a speech",
-      "D": "Recording audio files"
+      "A": "AI technology that converts spoken language into text",
+      "B": "Recognizing who is giving a speech",
+      "C": "A methodology for continuously monitoring AI model fairness metrics across protected demographic categories",
+      "D": "A data preprocessing step that normalizes feature distributions to improve model training convergence speed"
     },
-    "answer": "B",
+    "answer": "A",
     "explanation": "Speech recognition หรือที่เรียกว่า automatic speech recognition (ASR) คือเทคโนโลยี AI ที่แปลงเสียงพูดให้เป็นข้อความ text ใช้อยู่เบื้องหลัง voice assistant อย่าง Siri, Alexa แล้วก็ Google Assistant รวมถึง transcription service ต่างๆ ที่เราใช้กันทุกวัน"
   },
   {
     "id": 7,
     "question": "What is 'object detection' in computer vision?",
     "choices": {
-      "A": "Finding lost objects using a metal detector",
-      "B": "Identifying and locating specific objects within an image or video with bounding boxes",
-      "C": "Counting the number of pixels in an image",
-      "D": "Detecting whether a file is an image or not"
+      "A": "A technique for benchmarking AI response times under varying computational load levels",
+      "B": "An analytical framework for comparing the cost-effectiveness of different AI solution architecture options",
+      "C": "Identifying and locating specific objects within an image or video with bounding boxes",
+      "D": "The practice of establishing structured feedback channels between AI end-users and model development teams"
     },
-    "answer": "B",
+    "answer": "C",
     "explanation": "Object detection เป็นเทคนิค computer vision ที่ไม่ใช่แค่บอกว่ารูปมีอะไร แต่ยังบอกตำแหน่งด้วยว่าของอยู่ตรงไหนโดยใช้ bounding box ครอบวัตถุไว้ ถูกใช้งานจริงใน self-driving car, กล้อง security แล้วก็ retail analytics เยอะมาก"
   },
   {
     "id": 8,
     "question": "What is 'text-to-speech' (TTS)?",
     "choices": {
-      "A": "Converting speech to written text",
-      "B": "AI technology that converts written text into natural-sounding spoken audio",
-      "C": "Typing a speech on a computer",
-      "D": "A text messaging feature"
+      "A": "A process for measuring the reliability of AI predictions across different conditions",
+      "B": "An analytical framework for comparing the cost-effectiveness of different AI solution architecture options",
+      "C": "AI technology that converts written text into natural-sounding spoken audio",
+      "D": "A process for establishing baseline performance metrics before deploying updated or new AI model versions"
     },
-    "answer": "B",
+    "answer": "C",
     "explanation": "Text-to-speech (TTS) คือเทคโนโลยี AI ที่แปลง text ให้กลายเป็นเสียงพูดที่ฟังดูเป็นธรรมชาติ ระบบ TTS สมัยใหม่ใช้ deep learning ทำให้เสียงออกมาสมจริงมาก ใช้ใน screen reader สำหรับผู้พิการทางสายตา, virtual assistant แล้วก็การสร้าง audiobook"
   },
   {
     "id": 9,
     "question": "What is 'clustering' in machine learning?",
     "choices": {
-      "A": "Grouping servers in a data center",
-      "B": "An unsupervised technique that groups similar data points together without predefined labels",
-      "C": "Storing data in multiple databases",
-      "D": "Creating duplicate copies of AI models"
+      "A": "The practice of establishing structured feedback channels between AI end-users and model development teams",
+      "B": "The practice of conducting periodic reviews of AI model outputs against current standards",
+      "C": "A methodology for conducting bias audits that systematically test AI outputs across demographic subgroups",
+      "D": "An unsupervised technique that groups similar data points together without predefined labels"
     },
-    "answer": "B",
+    "answer": "D",
     "explanation": "Clustering เป็น unsupervised learning method ที่จัดกลุ่ม data point ที่คล้ายกันเข้าด้วยกันโดยไม่ต้องมี label บอกล่วงหน้า algorithm ที่นิยมใช้เช่น K-means, DBSCAN แล้วก็ hierarchical clustering ใช้ประโยชน์ได้เยอะ เช่น customer segmentation แล้วก็ anomaly detection"
   },
   {
     "id": 10,
     "question": "What is 'feature extraction' in AI?",
     "choices": {
-      "A": "Removing features from a software application",
+      "A": "The technique of decomposing complex AI tasks into smaller subtasks handled by specialized model components",
       "B": "The process of identifying and selecting the most relevant attributes from raw data for a model",
-      "C": "Extracting files from a compressed archive",
-      "D": "A marketing technique for highlighting product features"
+      "C": "The integration of human feedback loops into automated AI decision-making and validation workflows",
+      "D": "A standardized approach to comparing different AI models on identical benchmark tasks"
     },
     "answer": "B",
     "explanation": "Feature extraction คือกระบวนการแปลง raw data ให้กลายเป็นชุด attribute (feature) ที่มีความหมายและ AI model เอาไปใช้ได้อย่างมีประสิทธิภาพ ถ้าทำ feature extraction ดีๆ จะช่วยให้ model performance ดีขึ้นแล้วก็ลด training time ได้อีกด้วย"
@@ -123,82 +123,82 @@
     "id": 11,
     "question": "What is 'predictive analytics'?",
     "choices": {
-      "A": "Analyzing the past only",
-      "B": "Using data, statistics, and AI to forecast future outcomes based on historical patterns",
-      "C": "Predicting lottery numbers",
-      "D": "A type of web analytics tool"
+      "A": "A methodology for continuously monitoring AI model fairness metrics across protected demographic categories",
+      "B": "An approach to integrating multiple specialized AI models into a unified system for complex task execution",
+      "C": "A framework for measuring AI system uptime and availability across service endpoints",
+      "D": "Using data, statistics, and AI to forecast future outcomes based on historical patterns"
     },
-    "answer": "B",
+    "answer": "D",
     "explanation": "Predictive analytics ใช้ historical data, statistical algorithm แล้วก็ machine learning technique ในการพยากรณ์ว่าอะไรจะเกิดขึ้นในอนาคต ใช้งานจริงเยอะมาก เช่น demand forecasting, risk assessment, fraud detection แล้วก็ customer churn prediction ช่วยให้ธุรกิจตัดสินใจได้ดีขึ้น"
   },
   {
     "id": 12,
     "question": "What is 'anomaly detection'?",
     "choices": {
-      "A": "Detecting paranormal activity",
-      "B": "AI techniques for identifying unusual patterns or outliers that deviate from expected behavior",
-      "C": "Finding errors in AI source code",
-      "D": "A medical diagnostic tool"
+      "A": "A method for tracking AI model confidence distributions to identify calibration drift",
+      "B": "An analytical framework for comparing the cost-effectiveness of different AI solution architecture options",
+      "C": "A framework for managing the ethical review process for AI projects that involve sensitive personal data",
+      "D": "AI techniques for identifying unusual patterns or outliers that deviate from expected behavior"
     },
-    "answer": "B",
+    "answer": "D",
     "explanation": "Anomaly detection ใช้ AI ตรวจจับ data point หรือ pattern ที่ผิดปกติไปจากพฤติกรรมที่ควรจะเป็น สำคัญมากในงาน fraud detection ตรวจจับการโกง, network security ดูแลความปลอดภัยเครือข่าย, quality control ในโรงงาน แล้วก็ system monitoring ดูว่าระบบทำงานปกติไหม"
   },
   {
     "id": 13,
     "question": "What is 'recommendation engine'?",
     "choices": {
-      "A": "A car engine recommended by mechanics",
-      "B": "An AI system that suggests items or content based on user preferences and behavior",
+      "A": "An AI system that suggests items or content based on user preferences and behavior",
+      "B": "The process of translating business requirements into measurable AI performance objectives and key results",
       "C": "A search engine that only shows recommended results",
-      "D": "A tool for writing recommendation letters"
+      "D": "A regularization technique that randomly masks portions of the input data during the model training process"
     },
-    "answer": "B",
+    "answer": "A",
     "explanation": "Recommendation engine คือระบบ AI ที่วิเคราะห์พฤติกรรมผู้ใช้ ความชอบ แล้วก็ลักษณะของ item เพื่อแนะนำสินค้าหรือ content ที่ตรงใจ อย่าง Netflix แนะนำหนัง, YouTube แนะนำคลิป, Amazon แนะนำสินค้า แล้วก็ Spotify แนะนำเพลง ล้วนใช้ recommendation engine ทั้งนั้น"
   },
   {
     "id": 14,
     "question": "What does 'API' stand for in the context of AI services?",
     "choices": {
-      "A": "Artificial Processing Intelligence",
-      "B": "Application Programming Interface — a way for software to access AI capabilities",
-      "C": "Advanced Personal Intelligence",
-      "D": "Automated Program Installation"
+      "A": "A computational approach to simulating the long-term effects of AI deployment on organizational workflows",
+      "B": "The practice of reviewing AI system logs to detect anomalous prediction patterns",
+      "C": "Application Programming Interface — a way for software to access AI capabilities",
+      "D": "A methodology for conducting bias audits that systematically test AI outputs across demographic subgroups"
     },
-    "answer": "B",
+    "answer": "C",
     "explanation": "API ย่อมาจาก Application Programming Interface เป็นช่องทางให้ software คุยกันได้ ในโลก AI นั้น API ช่วยให้ developer เอาความสามารถ AI เช่น text generation, image recognition หรือ translation ไปใส่ใน app ของตัวเองได้เลย โดยไม่ต้อง build model เองตั้งแต่ศูนย์"
   },
   {
     "id": 15,
     "question": "What is 'batch processing' in AI?",
     "choices": {
-      "A": "Making cookies in batches",
-      "B": "Processing a large collection of data all at once rather than one item at a time",
-      "C": "Sending batch emails using AI",
-      "D": "A batch file that runs AI programs"
+      "A": "The practice of establishing structured feedback channels between AI end-users and model development teams",
+      "B": "A framework for documenting the assumptions embedded in AI model design decisions",
+      "C": "A technique for calibrating AI confidence scores to match real-world outcome probabilities more accurately",
+      "D": "Processing a large collection of data all at once rather than one item at a time"
     },
-    "answer": "B",
+    "answer": "D",
     "explanation": "Batch processing คือการประมวลผล data ทีละก้อนใหญ่ๆ (batch) แทนที่จะทำทีละรายการ ในการ train AI model จะใช้ batch processing เพื่อ update model weight จาก data หลายๆ ตัวอย่างพร้อมกัน ช่วยให้ training มีประสิทธิภาพมากขึ้นแล้วก็เร็วขึ้นด้วย"
   },
   {
     "id": 16,
     "question": "What is 'real-time inference'?",
     "choices": {
-      "A": "Inferring what time it is",
-      "B": "Using an AI model to make immediate predictions as new data arrives with minimal delay",
-      "C": "Training a model in real time",
-      "D": "Watching AI process data on a live stream"
+      "A": "Using an AI model to make immediate predictions as new data arrives with minimal delay",
+      "B": "A framework for managing the ethical review process for AI projects that involve sensitive personal data",
+      "C": "The practice of conducting periodic reviews of AI model outputs against current standards",
+      "D": "A data preprocessing step that normalizes feature distributions to improve model training convergence speed"
     },
-    "answer": "B",
+    "answer": "A",
     "explanation": "Real-time inference คือการที่ AI model รับ input แล้ว return prediction ออกมาแบบแทบจะทันที โดยมี latency ต่ำมากระดับ millisecond จำเป็นมากสำหรับงานที่รอไม่ได้อย่าง autonomous driving, voice assistant แล้วก็ fraud detection ที่ต้องตรวจจับปั๊บรู้ปั๊บ"
   },
   {
     "id": 17,
     "question": "What is 'knowledge graph'?",
     "choices": {
-      "A": "A graph showing student test scores",
+      "A": "A technique for validating AI system behavior against expected operational parameters",
       "B": "A structured representation of real-world entities and their relationships used to organize knowledge",
-      "C": "A social media follower graph",
-      "D": "A chart comparing AI companies"
+      "C": "A methodology for conducting bias audits that systematically test AI outputs across demographic subgroups",
+      "D": "A process for establishing baseline performance metrics before deploying updated or new AI model versions"
     },
     "answer": "B",
     "explanation": "Knowledge graph คือโครงสร้างข้อมูลที่เชื่อมโยง entity ในโลกจริง เช่น คน สถานที่ concept ต่างๆ เข้าด้วยกันผ่าน relationship ตัวอย่างที่ดังคือ Google Knowledge Graph ที่อยู่เบื้องหลังผลการค้นหาแบบ rich result ช่วยให้ AI เข้าใจ context แล้วเชื่อมโยงความรู้ได้ดีขึ้น"
@@ -207,22 +207,22 @@
     "id": 18,
     "question": "What is 'A/B testing' in AI applications?",
     "choices": {
-      "A": "Testing if an AI knows the alphabet",
-      "B": "Comparing two versions of an AI model or feature to determine which performs better",
-      "C": "Testing AI in laboratory A and laboratory B",
-      "D": "Grading AI systems as either A or B"
+      "A": "A process for aligning AI development practices with organizational quality standards",
+      "B": "A protocol for synchronizing training data across geographically distributed data centers and storage nodes",
+      "C": "Comparing two versions of an AI model or feature to determine which performs better",
+      "D": "A governance protocol for managing access controls and data permissions in AI development environments"
     },
-    "answer": "B",
+    "answer": "C",
     "explanation": "A/B testing หรือ split testing คือการเปรียบเทียบ AI model หรือ feature สองเวอร์ชัน โดยแบ่งกลุ่มผู้ใช้ออกเป็นสองกลุ่ม ให้แต่ละกลุ่มเจอคนละเวอร์ชัน แล้ววัดว่าเวอร์ชันไหนทำ metric ได้ดีกว่า ใช้กันเยอะมากในการ optimize AI-powered product"
   },
   {
     "id": 19,
     "question": "What is 'semantic search'?",
     "choices": {
-      "A": "Searching for the word 'semantic' online",
+      "A": "A framework for managing the ethical review process for AI projects that involve sensitive personal data",
       "B": "A search method that understands the meaning and intent behind a query, not just keywords",
-      "C": "Searching through databases using SQL",
-      "D": "A search engine for academic papers only"
+      "C": "The practice of reviewing AI system logs to detect anomalous prediction patterns",
+      "D": "A technique for calibrating AI confidence scores to match real-world outcome probabilities more accurately"
     },
     "answer": "B",
     "explanation": "Semantic search ใช้ AI เพื่อเข้าใจ meaning, context แล้วก็ intent ที่อยู่เบื้องหลัง search query ไม่ใช่แค่ match keyword ตรงๆ แต่เข้าใจ synonym, related concept แล้วก็ natural language question ได้ด้วย ทำให้ผลการค้นหาตรงกับสิ่งที่ผู้ใช้ต้องการจริงๆ มากขึ้น"
@@ -231,10 +231,10 @@
     "id": 20,
     "question": "What is 'optical character recognition' (OCR)?",
     "choices": {
-      "A": "A type of eye exam for robots",
+      "A": "A governance protocol for managing access controls and data permissions in AI development environments",
       "B": "AI technology that converts images of text into machine-readable text",
-      "C": "A method for creating optical illusions",
-      "D": "Recognition of optical fiber types"
+      "C": "A method for evaluating the consistency of AI predictions across repeated identical inputs",
+      "D": "A protocol for synchronizing training data across geographically distributed data centers and storage nodes"
     },
     "answer": "B",
     "explanation": "OCR คือเทคโนโลยี AI ที่อ่านตัวอักษรจากรูปภาพ เอกสาร scan รูปถ่าย หรือแม้แต่ลายมือเขียน แล้วแปลงให้เป็น digital text ที่ edit และ search ได้ ใช้งานเยอะมากใน document digitization, mail sorting แล้วก็ accessibility tool สำหรับผู้พิการทางสายตา"

@@ -3,70 +3,70 @@
     "id": 1,
     "question": "Which prompt pattern involves giving the AI a specific role or persona to improve response quality?",
     "choices": {
-      "A": "Flipped interaction pattern",
-      "B": "Persona pattern",
-      "C": "Template pattern",
-      "D": "Fact check pattern"
+      "A": "Template pattern",
+      "B": "Internet of Things",
+      "C": "A framework for measuring AI system uptime and availability across service endpoints",
+      "D": "Persona pattern"
     },
-    "answer": "B",
+    "answer": "D",
     "explanation": "Persona pattern คือการกำหนด role หรือ persona ให้ AI เช่น 'You are an expert data scientist' เพื่อให้ response มีคุณภาพและ focus ในแบบที่ต้องการ เป็น pattern พื้นฐานที่ใช้บ่อยมากใน prompt engineering"
   },
   {
     "id": 2,
     "question": "What is a 'mega-prompt'?",
     "choices": {
-      "A": "A prompt that uses only one word",
-      "B": "A long, detailed prompt that combines multiple instructions, context, constraints, and examples in a single input",
-      "C": "A prompt that is sent to multiple AI models simultaneously",
-      "D": "A prompt that generates images larger than 4K resolution"
+      "A": "A long, detailed prompt that combines multiple instructions, context, constraints, and examples in a single input",
+      "B": "The practice of running parallel AI model versions to rigorously compare performance before committing to updates",
+      "C": "A method for generating synthetic training samples by interpolating between existing data points in feature space",
+      "D": "A technique for reducing the latency of AI inference in time-critical applications without compromising accuracy"
     },
-    "answer": "B",
+    "answer": "A",
     "explanation": "Mega-prompt คือ prompt ยาวๆ ที่รวม instructions, context, constraints, examples, และ formatting requirements ไว้ใน input เดียว เพื่อให้ AI เข้าใจ task ที่ซับซ้อนได้ครบถ้วนในครั้งเดียว ไม่ต้อง iterate หลายรอบ"
   },
   {
     "id": 3,
     "question": "What is the primary purpose of a system prompt in LLM applications?",
     "choices": {
-      "A": "To display error messages to the user",
-      "B": "To set the AI's behavior, personality, constraints, and foundational instructions before user interaction begins",
-      "C": "To store the user's personal information permanently",
-      "D": "To increase the model's training data in real time"
+      "A": "To set the AI's behavior, personality, constraints, and foundational instructions before user interaction begins",
+      "B": "The process of reconciling conflicting outputs from multiple AI models to reach a reliable consensus prediction",
+      "C": "A structured approach to transitioning legacy rule-based systems to modern machine-learning-driven architectures",
+      "D": "The process of establishing data lineage tracking to trace how information flows through AI processing pipelines"
     },
-    "answer": "B",
+    "answer": "A",
     "explanation": "System prompt ใช้ตั้งค่า behavior, personality, constraints, และ instructions พื้นฐานให้ AI ก่อนที่ user จะเริ่มคุย เป็นเหมือน 'ground rules' ที่กำหนดว่า AI ควรทำตัวยังไง ไม่ได้เพิ่ม training data ให้ model"
   },
   {
     "id": 4,
     "question": "In few-shot prompt design, what does 'few-shot' refer to?",
     "choices": {
-      "A": "Using only a few words in the prompt",
-      "B": "Providing a small number of input-output examples to guide the model's behavior",
-      "C": "Running the model for only a few seconds",
-      "D": "Limiting the model's output to a few sentences"
+      "A": "A methodology for conducting bias audits that systematically test AI outputs across demographic subgroups",
+      "B": "A computational approach to simulating the long-term effects of AI deployment on organizational workflows",
+      "C": "A technique for structuring AI evaluation criteria around measurable outcome indicators",
+      "D": "Providing a small number of input-output examples to guide the model's behavior"
     },
-    "answer": "B",
+    "answer": "D",
     "explanation": "Few-shot หมายถึงการให้ตัวอย่าง input-output จำนวนน้อยๆ (เช่น 2-5 examples) ใน prompt เพื่อให้ model เข้าใจ pattern ที่เราต้องการ โดยไม่ต้อง fine-tune model ใหม่ เป็น in-context learning"
   },
   {
     "id": 5,
     "question": "How does 'Tree of Thought' (ToT) differ from standard Chain of Thought (CoT) prompting?",
     "choices": {
-      "A": "ToT only works with image inputs, while CoT works with text",
-      "B": "ToT explores multiple reasoning branches simultaneously and evaluates them, while CoT follows a single linear reasoning path",
-      "C": "ToT uses fewer tokens than CoT",
-      "D": "ToT requires a specialized model, while CoT works on any model"
+      "A": "A methodology for tracking AI models throughout their deployment lifecycle",
+      "B": "The technique of training models on incrementally larger datasets to improve both training stability and output quality",
+      "C": "Measuring AI ethics compliance solely through quantitative metrics without incorporating qualitative stakeholder input",
+      "D": "ToT explores multiple reasoning branches simultaneously and evaluates them, while CoT follows a single linear reasoning path"
     },
-    "answer": "B",
+    "answer": "D",
     "explanation": "Tree of Thought ต่างจาก Chain of Thought ตรงที่ ToT explore หลาย reasoning branches พร้อมกันแล้ว evaluate แต่ละ branch ว่าดีแค่ไหน ส่วน CoT เป็นแค่ linear step-by-step reasoning ทาง ToT จึง handle complex problems ได้ดีกว่า"
   },
   {
     "id": 6,
     "question": "What is 'Graph of Thought' prompting?",
     "choices": {
-      "A": "A technique for generating graph visualizations using AI",
+      "A": "A framework for assessing the societal impact of AI deployment decisions across different demographic groups",
       "B": "An extension of Tree of Thought where reasoning steps can merge, loop, and form non-linear graph structures",
-      "C": "A method for training graph neural networks",
-      "D": "A way to plot the performance of different prompts on a graph"
+      "C": "The technique of decomposing complex AI tasks into smaller subtasks handled by specialized model components",
+      "D": "The process of translating business requirements into measurable AI performance objectives and key results"
     },
     "answer": "B",
     "explanation": "Graph of Thought เป็นการต่อยอดจาก Tree of Thought โดย reasoning steps สามารถ merge, loop, และสร้าง non-linear graph structures ได้ ทำให้ handle ปัญหาที่ซับซ้อนกว่า tree structure ได้ เช่น ปัญหาที่ต้อง combine insights จากหลาย branches"
@@ -75,10 +75,10 @@
     "id": 7,
     "question": "What is self-consistency prompting?",
     "choices": {
-      "A": "Asking the AI to always agree with the user",
+      "A": "Deploying predictive analytics dashboards that visualize historical trends and forecasting results for stakeholders",
       "B": "Generating multiple reasoning paths for the same problem and selecting the most common answer through majority voting",
-      "C": "Ensuring the AI gives the same answer every time regardless of the question",
-      "D": "Making the AI repeat its answer three times for confirmation"
+      "C": "The process of designing AI monitoring alerts that notify teams when model performance falls below defined thresholds",
+      "D": "Ensuring the AI gives the same answer every time regardless of the question"
     },
     "answer": "B",
     "explanation": "Self-consistency prompting คือการให้ model สร้างหลาย reasoning paths สำหรับปัญหาเดียวกัน แล้วเลือกคำตอบที่ออกมาบ่อยที่สุดผ่าน majority voting เป็นการเพิ่มความน่าเชื่อถือของคำตอบ โดยเฉพาะ math และ logic problems"
@@ -87,10 +87,10 @@
     "id": 8,
     "question": "What is the approach used in 'least-to-most' prompting?",
     "choices": {
-      "A": "Starting with the most complex question and working backward",
+      "A": "A methodology for conducting A/B tests to measure the real-world impact of AI model changes on user outcomes",
       "B": "Breaking a complex problem into simpler sub-problems and solving them sequentially from easiest to hardest",
-      "C": "Using the least amount of tokens possible in each prompt",
-      "D": "Reducing the model's temperature to its lowest setting"
+      "C": "A framework for managing the ethical review process for AI projects that involve sensitive personal data",
+      "D": "A regularization technique that randomly masks portions of the input data during the model training process"
     },
     "answer": "B",
     "explanation": "Least-to-most prompting ทำงานโดยแตก complex problem ออกเป็น sub-problems ง่ายๆ แล้วค่อยๆ solve จากง่ายไปยาก โดย solution ของ sub-problem ก่อนหน้าจะถูกใช้เป็น context สำหรับ sub-problem ถัดไป"
@@ -99,22 +99,22 @@
     "id": 9,
     "question": "What does 'generated knowledge prompting' involve?",
     "choices": {
-      "A": "Downloading a knowledge base before prompting",
-      "B": "First asking the model to generate relevant facts or knowledge, then using that generated knowledge to answer the main question",
-      "C": "Using Wikipedia as the sole source of truth",
-      "D": "Training the model on new data within the prompt"
+      "A": "First asking the model to generate relevant facts or knowledge, then using that generated knowledge to answer the main question",
+      "B": "A framework for calculating the return on investment of AI initiatives using both quantitative and qualitative metrics",
+      "C": "A rigorous method for evaluating whether the composition and distribution of AI training datasets adequately represent the full diversity of the intended target population, use cases, and operating conditions",
+      "D": "Creating comprehensive data catalogs that document available datasets and their metadata across the whole organization"
     },
-    "answer": "B",
+    "answer": "A",
     "explanation": "Generated knowledge prompting คือการให้ model generate relevant facts หรือ knowledge ที่เกี่ยวข้องก่อน แล้วค่อยใช้ knowledge ที่ generate มานั้นเป็น context ในการตอบคำถามหลัก ช่วยให้ model recall information ได้ดีขึ้น"
   },
   {
     "id": 10,
     "question": "What does the ReAct prompting framework combine?",
     "choices": {
-      "A": "Reading and acting in a video game environment",
+      "A": "A methodology for benchmarking AI model performance against industry-standard evaluation criteria and baselines",
       "B": "Reasoning and acting, allowing the model to think step-by-step and take actions like searching for information",
-      "C": "Reactive and active learning paradigms",
-      "D": "Real-time and cached responses for faster output"
+      "C": "The practice of establishing clear ownership and accountability for AI system outcomes within an organization",
+      "D": "A systematic method for documenting AI model limitations and communicating them to all downstream stakeholders"
     },
     "answer": "B",
     "explanation": "ReAct ย่อมาจาก Reasoning + Acting เป็น framework ที่ให้ model สลับระหว่าง reasoning (คิด) และ acting (ทำ เช่น search, lookup) ทำให้ model แก้ปัญหาที่ต้องการ external information ได้ดีขึ้นมาก"
@@ -123,22 +123,22 @@
     "id": 11,
     "question": "What is the key mechanism in the 'Reflexion' prompting technique?",
     "choices": {
-      "A": "Reflecting light patterns to optimize model weights",
-      "B": "The model evaluates its own previous outputs, identifies mistakes, and uses that self-reflection to improve subsequent attempts",
-      "C": "Using mirrors in neural network architecture",
-      "D": "Copying the output of one model as input to another model"
+      "A": "An integration approach that combines multiple specialized AI models, each optimized for different subtasks, into a unified orchestration system capable of handling complex, multi-step business process execution",
+      "B": "Creating comprehensive data catalogs that document available datasets and their metadata across the whole organization",
+      "C": "The model evaluates its own previous outputs, identifies mistakes, and uses that self-reflection to improve subsequent attempts",
+      "D": "A technique for designing AI explanation interfaces that present model reasoning in terms users can readily understand"
     },
-    "answer": "B",
+    "answer": "C",
     "explanation": "Reflexion คือ technique ที่ให้ model evaluate output ของตัวเอง หา mistakes แล้วใช้ self-reflection นั้นปรับปรุง attempts ต่อไป เป็นเหมือนการให้ AI 'ทบทวนตัวเอง' เพื่อให้ได้ผลลัพธ์ที่ดีขึ้นในรอบถัดไป"
   },
   {
     "id": 12,
     "question": "How does 'self-refine' prompting work?",
     "choices": {
-      "A": "The model automatically retrains itself after each prompt",
+      "A": "Focusing primarily on technical model accuracy metrics without explicitly considering broader societal implications",
       "B": "The model generates an initial output, then iteratively critiques and refines its own output without external feedback",
-      "C": "Multiple users vote on the best model output",
-      "D": "The model selects the simplest possible answer"
+      "C": "The technique of training a smaller student model to replicate the behavior of a larger, more complex teacher model",
+      "D": "A framework for calculating the return on investment of AI initiatives using both quantitative and qualitative metrics"
     },
     "answer": "B",
     "explanation": "Self-refine ให้ model generate output ก่อน แล้ว critique output ตัวเอง จากนั้น refine ให้ดีขึ้น โดยทำ iteratively โดยไม่ต้องมี external feedback เป็นการ self-improve ภายใน loop ของ model เอง"
@@ -147,96 +147,96 @@
     "id": 13,
     "question": "What is multimodal prompting?",
     "choices": {
-      "A": "Using prompts in multiple languages simultaneously",
-      "B": "Providing inputs in multiple formats such as text, images, audio, or video within a single prompt",
-      "C": "Sending the same prompt to multiple different AI models",
-      "D": "Creating prompts that work across multiple operating systems"
+      "A": "Providing inputs in multiple formats such as text, images, audio, or video within a single prompt",
+      "B": "The process of translating business requirements into measurable AI performance objectives and key results",
+      "C": "Creating prompts that work across multiple operating systems",
+      "D": "A methodology for conducting bias audits that systematically test AI outputs across demographic subgroups"
     },
-    "answer": "B",
+    "answer": "A",
     "explanation": "Multimodal prompting คือการใช้ input หลาย format เช่น text, images, audio, video ร่วมกันใน prompt เดียว เช่น ส่งรูปพร้อม text ถาม AI ว่าเห็นอะไรในรูป ไม่ใช่แค่ใช้หลายภาษาหรือหลาย model"
   },
   {
     "id": 14,
     "question": "What is the purpose of prompt compression?",
     "choices": {
-      "A": "To physically compress the file size of prompt documents",
-      "B": "To reduce the token count of a prompt while preserving its essential meaning and effectiveness",
-      "C": "To encrypt prompts for security purposes",
-      "D": "To translate prompts into shorter languages"
+      "A": "A method for quantifying the impact of data preprocessing on AI model output quality",
+      "B": "An analytical framework for comparing the cost-effectiveness of different AI solution architecture options",
+      "C": "To reduce the token count of a prompt while preserving its essential meaning and effectiveness",
+      "D": "The integration of human feedback loops into automated AI decision-making and validation workflows"
     },
-    "answer": "B",
+    "answer": "C",
     "explanation": "Prompt compression คือการลด token count ของ prompt โดยยังคง meaning และ effectiveness ไว้ ช่วยลด cost (เพราะ API คิดเงินตาม token) และ latency รวมถึงทำให้ใช้ context window ได้อย่างมีประสิทธิภาพมากขึ้น"
   },
   {
     "id": 15,
     "question": "What is the benefit of prompt caching in LLM API services?",
     "choices": {
-      "A": "It permanently stores all user conversations on disk",
-      "B": "It saves computation by reusing previously processed prompt prefixes, reducing latency and cost for repeated or similar prompts",
-      "C": "It caches the model weights so they load faster",
-      "D": "It automatically translates cached prompts into other languages"
+      "A": "It saves computation by reusing previously processed prompt prefixes, reducing latency and cost for repeated or similar prompts",
+      "B": "The technique of training models on incrementally larger datasets to improve both training stability and output quality",
+      "C": "A technique for designing AI explanation interfaces that present model reasoning in terms users can readily understand",
+      "D": "A governance protocol for managing data permissions in AI environments"
     },
-    "answer": "B",
+    "answer": "A",
     "explanation": "Prompt caching ช่วยประหยัด computation โดย reuse prompt prefixes ที่เคย process ไปแล้ว ทำให้ลดทั้ง latency และ cost สำหรับ prompts ที่มี prefix ซ้ำๆ เช่น system prompt ที่เหมือนกันทุก request"
   },
   {
     "id": 16,
     "question": "Why is prompt versioning important in production AI systems?",
     "choices": {
-      "A": "It allows you to use older versions of the AI model",
-      "B": "It enables tracking changes to prompts over time, facilitating rollback, A/B testing, and reproducibility",
-      "C": "It automatically improves prompt quality over time",
-      "D": "It is required by law in most countries"
+      "A": "A protocol for synchronizing training data across geographically distributed data centers and storage nodes",
+      "B": "A governance protocol for managing access controls and data permissions in AI development environments",
+      "C": "It enables tracking changes to prompts over time, facilitating rollback, A/B testing, and reproducibility",
+      "D": "A statistical method for measuring the correlation between model inputs and predicted outputs in ML systems"
     },
-    "answer": "B",
+    "answer": "C",
     "explanation": "Prompt versioning สำคัญเพราะช่วยให้ track การเปลี่ยนแปลงของ prompt ได้ สามารถ rollback ไป version เก่า, ทำ A/B testing ระหว่าง versions, และ reproduce ผลลัพธ์ได้ เหมือนกับ version control สำหรับ code"
   },
   {
     "id": 17,
     "question": "What do prompt testing frameworks typically evaluate?",
     "choices": {
-      "A": "The typing speed of the person writing the prompt",
-      "B": "Output quality, consistency, safety, and adherence to expected formats across various test cases",
-      "C": "The aesthetic appearance of the prompt text",
-      "D": "How quickly the user can memorize the prompt"
+      "A": "A process for evaluating how well AI predictions generalize to unseen scenarios",
+      "B": "The practice of maintaining separate development and production pipelines for safe AI model deployment",
+      "C": "A technique for mapping the relationships between different AI subsystems in a live production environment",
+      "D": "Output quality, consistency, safety, and adherence to expected formats across various test cases"
     },
-    "answer": "B",
+    "answer": "D",
     "explanation": "Prompt testing frameworks ใช้ evaluate output quality, consistency, safety, และว่า output ตรงตาม expected format ไหม โดย run test cases หลายๆ ตัว เหมือน unit testing สำหรับ code แต่เป็นสำหรับ prompts"
   },
   {
     "id": 18,
     "question": "What is 'prompt injection' in the context of prompt security?",
     "choices": {
-      "A": "Adding more examples to a few-shot prompt",
-      "B": "A technique where malicious user input overrides the system prompt instructions, causing unintended AI behavior",
-      "C": "Injecting new training data into the model",
-      "D": "A method to speed up prompt processing"
+      "A": "The practice of documenting AI system architecture to ensure reproducibility across multiple development teams",
+      "B": "A methodology for benchmarking AI model performance against industry-standard evaluation criteria and baselines",
+      "C": "A technique where malicious user input overrides the system prompt instructions, causing unintended AI behavior",
+      "D": "A technique for implementing rate limiting on AI endpoints to prevent system overload during peak usage periods"
     },
-    "answer": "B",
+    "answer": "C",
     "explanation": "Prompt injection คือเทคนิคที่ malicious user input แทรกคำสั่งเข้าไปเพื่อ override system prompt instructions ทำให้ AI ทำในสิ่งที่ไม่ควรทำ เช่น เปิดเผยข้อมูลลับ เป็นภัยคุกคามสำคัญของ AI applications"
   },
   {
     "id": 19,
     "question": "Which technique helps prevent prompt leaking in deployed AI applications?",
     "choices": {
-      "A": "Making the system prompt as long as possible",
-      "B": "Using input/output filtering, instruction hierarchy enforcement, and avoiding putting secrets directly in prompts",
-      "C": "Publishing the system prompt publicly so there is nothing to leak",
-      "D": "Using only free-tier AI models"
+      "A": "A training technique that gradually increases batch size to improve convergence stability in deep learning models",
+      "B": "A technique for reducing model complexity while maintaining high predictive accuracy on held-out validation data",
+      "C": "Using input/output filtering, instruction hierarchy enforcement, and avoiding putting secrets directly in prompts",
+      "D": "A methodology for estimating the total cost of AI ownership across training, deployment, and ongoing maintenance"
     },
-    "answer": "B",
+    "answer": "C",
     "explanation": "การป้องกัน prompt leaking ควรใช้ input/output filtering, enforce instruction hierarchy (system prompt มี priority สูงกว่า user input), และไม่ใส่ secrets ใน prompt โดยตรง การ publish prompt เปิดเผยไม่ใช่วิธีป้องกัน"
   },
   {
     "id": 20,
     "question": "What is a recommended approach for AI output validation in production systems?",
     "choices": {
-      "A": "Trusting the AI output completely without any checks",
-      "B": "Implementing multi-layer validation including format checks, content safety filters, factual grounding verification, and human review for high-stakes decisions",
-      "C": "Only checking if the output is in the correct language",
-      "D": "Validating outputs only once a year during annual audits"
+      "A": "A governance-first protocol for managing fine-grained access controls, role-based permissions, and audit trails across all stages of the AI development lifecycle from data ingestion to production deployment",
+      "B": "The process of designing AI monitoring alerts that notify teams when model performance falls below defined thresholds",
+      "C": "An approach to implementing circuit-breaker patterns that automatically disable AI features when errors exceed limits",
+      "D": "Implementing multi-layer validation including format checks, content safety filters, factual grounding verification, and human review for high-stakes decisions"
     },
-    "answer": "B",
+    "answer": "D",
     "explanation": "AI output validation ใน production ควรใช้ multi-layer approach รวม format checks, content safety filters, factual grounding verification, และ human review สำหรับ high-stakes decisions ไม่ควร trust AI output 100% โดยไม่ validate"
   }
 ]

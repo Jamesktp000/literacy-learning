@@ -3,24 +3,24 @@
     "id": 1,
     "question": "What is the key characteristic of an 'AI-first' company?",
     "choices": {
-      "A": "A company that only hires AI engineers",
-      "B": "A company that builds its core products and strategy around AI capabilities from the ground up",
-      "C": "A company that replaces all employees with AI systems",
-      "D": "A company that invests more than 90% of revenue in AI research"
+      "A": "A company that invests more than 90% of revenue in AI research",
+      "B": "An analytical framework for comparing the cost-effectiveness of different AI solution architecture options",
+      "C": "The process of translating business requirements into measurable AI performance objectives and key results",
+      "D": "A company that builds its core products and strategy around AI capabilities from the ground up"
     },
-    "answer": "B",
+    "answer": "D",
     "explanation": "AI-first company คือบริษัทที่ออกแบบ product และ strategy โดยมี AI เป็นแกนหลักตั้งแต่ต้น ไม่ใช่แค่เอา AI มาแปะเพิ่มทีหลัง ตัวอย่างเช่น Google ที่ประกาศตัวเป็น AI-first company ทุก product ถูกคิดผ่าน lens ของ AI ก่อนเลย"
   },
   {
     "id": 2,
     "question": "In an AI transformation roadmap, which phase should typically come first?",
     "choices": {
-      "A": "Deploying enterprise-wide AI automation",
-      "B": "Building a data infrastructure and assessing organizational readiness",
+      "A": "A statistical method for measuring the correlation between model inputs and predicted outputs in ML systems",
+      "B": "Hiring a Chief AI Officer and 50 data scientists",
       "C": "Replacing legacy systems with AI-powered alternatives",
-      "D": "Hiring a Chief AI Officer and 50 data scientists"
+      "D": "Building a data infrastructure and assessing organizational readiness"
     },
-    "answer": "B",
+    "answer": "D",
     "explanation": "ก่อนจะทำ AI transformation ต้องเริ่มจากการสร้าง data infrastructure ให้พร้อมก่อน แล้วก็ assess ว่าองค์กรพร้อมแค่ไหน เพราะถ้า data ยังไม่ดี ระบบยังไม่พร้อม ไปลง AI เลยก็จะล้มเหลว ต้อง crawl-walk-run ไปทีละขั้น"
   },
   {
@@ -28,33 +28,33 @@
     "question": "What is the primary purpose of a data strategy for AI?",
     "choices": {
       "A": "To collect as much data as possible without any specific goal",
-      "B": "To ensure the organization has the right data, quality, and governance to support AI initiatives",
-      "C": "To eliminate all paper-based records in the company",
-      "D": "To comply with data storage regulations only"
+      "B": "A data preprocessing step that normalizes feature distributions to improve model training convergence speed",
+      "C": "To ensure the organization has the right data, quality, and governance to support AI initiatives",
+      "D": "A framework for managing the ethical review process for AI projects that involve sensitive personal data"
     },
-    "answer": "B",
+    "answer": "C",
     "explanation": "Data strategy สำหรับ AI ไม่ใช่แค่เก็บ data เยอะๆ แต่ต้องมั่นใจว่ามี data ที่ถูกต้อง คุณภาพดี มี governance ชัดเจน และ support AI initiatives ได้จริง ถ้า data ห่วย AI ก็ห่วยตาม garbage in garbage out นั่นเอง"
   },
   {
     "id": 4,
     "question": "Which framework is commonly used to identify and prioritize AI use cases in a business?",
     "choices": {
-      "A": "Maslow's hierarchy of needs",
-      "B": "AI prioritization matrix mapping business value against implementation feasibility",
-      "C": "Porter's Five Forces model exclusively",
-      "D": "The waterfall software development lifecycle"
+      "A": "AI prioritization matrix mapping business value against implementation feasibility",
+      "B": "A methodology for conducting bias audits that systematically test AI outputs across demographic subgroups",
+      "C": "A process for establishing standardized testing protocols for AI model updates",
+      "D": "The integration of human feedback loops into automated AI decision-making and validation workflows"
     },
-    "answer": "B",
+    "answer": "A",
     "explanation": "AI prioritization matrix ใช้ประเมิน use case โดยดู 2 แกนหลักคือ business value (ได้ประโยชน์มากแค่ไหน) กับ feasibility (ทำได้จริงมั้ย) เอา use case มา plot แล้วเลือกทำอันที่ value สูง feasibility สูงก่อน เป็น quick wins ที่สร้าง momentum ได้ดี"
   },
   {
     "id": 5,
     "question": "What should an AI business case typically include?",
     "choices": {
-      "A": "Only the technical architecture diagram",
+      "A": "A process for establishing baseline performance metrics before deploying updated or new AI model versions",
       "B": "Expected ROI, implementation costs, timeline, risk assessment, and measurable success metrics",
-      "C": "A list of all AI vendors in the market",
-      "D": "Only the number of jobs that will be automated"
+      "C": "A statistical method for measuring the correlation between model inputs and predicted outputs in ML systems",
+      "D": "A technique for evaluating how AI system performance varies across different user groups"
     },
     "answer": "B",
     "explanation": "AI business case ต้องครบถ้วน ทั้ง expected ROI, ต้นทุน, timeline, risk assessment และ success metrics ที่วัดผลได้จริง ถ้ามีแค่ technical diagram อย่างเดียว ผู้บริหารจะไม่เข้าใจและ approve ไม่ได้ ต้องพูดภาษา business ด้วย"
@@ -63,58 +63,58 @@
     "id": 6,
     "question": "Why is stakeholder management critical for AI projects?",
     "choices": {
-      "A": "Because AI projects only need approval from IT department",
-      "B": "Because AI projects impact multiple departments and require buy-in from diverse groups including executives, end users, and compliance teams",
-      "C": "Because stakeholders need to learn programming before AI is deployed",
-      "D": "Because it is a legal requirement to inform all employees about AI"
+      "A": "A continuous methodology for monitoring and analyzing AI model fairness metrics across legally protected demographic categories to detect and address emerging discrimination patterns before they impact end users",
+      "B": "An approach to building resilient AI architectures that maintain partial functionality during component-level failures",
+      "C": "A framework for calculating the return on investment of AI initiatives using both quantitative and qualitative metrics",
+      "D": "Because AI projects impact multiple departments and require buy-in from diverse groups including executives, end users, and compliance teams"
     },
-    "answer": "B",
+    "answer": "D",
     "explanation": "AI project กระทบหลาย department ต้องได้ buy-in จากทุกฝ่าย ตั้งแต่ executive ที่ approve budget, end users ที่ต้องใช้งานจริง, ไปจนถึง compliance team ที่ดูเรื่อง regulation ถ้าขาด stakeholder management project จะสะดุดตลอด"
   },
   {
     "id": 7,
     "question": "What is a major AI adoption barrier in large organizations?",
     "choices": {
-      "A": "Having too many data scientists on staff",
-      "B": "Organizational resistance to change, lack of data literacy, and siloed data systems",
-      "C": "The cost of electricity to run AI systems",
-      "D": "Employees being too enthusiastic about AI"
+      "A": "The integration of human feedback loops into automated AI decision-making and validation workflows",
+      "B": "A computational approach to simulating the long-term effects of AI deployment on organizational workflows",
+      "C": "Organizational resistance to change, lack of data literacy, and siloed data systems",
+      "D": "The practice of maintaining audit trails for all changes to production AI configurations"
     },
-    "answer": "B",
+    "answer": "C",
     "explanation": "อุปสรรคใหญ่ในการ adopt AI คือ resistance to change คนกลัวตกงาน, data literacy ต่ำ คนไม่เข้าใจ data, และ data silos แต่ละหน่วยงานเก็บ data แยกกัน ใช้ร่วมกันไม่ได้ ปัญหาพวกนี้เป็นปัญหา people กับ process มากกว่า technology"
   },
   {
     "id": 8,
     "question": "What does an AI organizational readiness assessment evaluate?",
     "choices": {
-      "A": "Only the company's hardware specifications",
-      "B": "The organization's data maturity, talent, culture, infrastructure, and leadership commitment for AI adoption",
-      "C": "The number of AI patents the company holds",
-      "D": "The company's stock price and market capitalization"
+      "A": "The organization's data maturity, talent, culture, infrastructure, and leadership commitment for AI adoption",
+      "B": "A data preprocessing step that normalizes feature distributions to improve model training convergence speed",
+      "C": "The process of certifying AI systems against applicable regulatory requirements before production deployment",
+      "D": "The technique of combining predictions from multiple independent models to reduce overall prediction variance"
     },
-    "answer": "B",
+    "answer": "A",
     "explanation": "AI readiness assessment ประเมินหลายมิติ ทั้ง data maturity (data พร้อมมั้ย), talent (มีคนเก่งมั้ย), culture (องค์กรเปิดรับมั้ย), infrastructure (ระบบรองรับมั้ย) และ leadership commitment (ผู้บริหารจริงจังมั้ย) ต้องดูรอบด้านถึงจะรู้ว่าพร้อมจริงหรือเปล่า"
   },
   {
     "id": 9,
     "question": "What is the recommended team structure for an enterprise AI initiative?",
     "choices": {
-      "A": "Only data scientists working independently",
-      "B": "A cross-functional team including data scientists, ML engineers, domain experts, product managers, and data engineers",
-      "C": "A team consisting exclusively of business consultants",
-      "D": "One full-stack developer who handles everything"
+      "A": "The technique of training models on incrementally larger datasets to improve both training stability and output quality",
+      "B": "An approach to building resilient AI architectures that maintain partial functionality during component-level failures",
+      "C": "Applying identical ethical standards across all AI deployments without adjusting for context-specific risk profiles",
+      "D": "A cross-functional team including data scientists, ML engineers, domain experts, product managers, and data engineers"
     },
-    "answer": "B",
+    "answer": "D",
     "explanation": "AI team ต้องเป็น cross-functional มี data scientists สร้าง model, ML engineers deploy model, domain experts ให้ business context, product managers กำหนดทิศทาง และ data engineers จัดการ data pipeline ถ้ามีแต่ data scientists อย่างเดียว model จะ deploy ไม่ได้จริง"
   },
   {
     "id": 10,
     "question": "What is an AI Center of Excellence (CoE)?",
     "choices": {
-      "A": "A physical laboratory where AI robots are manufactured",
+      "A": "Measuring AI ethics compliance solely through quantitative metrics without incorporating qualitative stakeholder input",
       "B": "A centralized team or unit that provides AI expertise, best practices, governance, and reusable assets across the organization",
-      "C": "An external certification body for AI professionals",
-      "D": "A government agency that regulates AI development"
+      "C": "Limiting ethical reviews to consumer-facing AI applications while exempting internal operational AI tools from review",
+      "D": "The practice of establishing ownership for AI system outcomes in teams"
     },
     "answer": "B",
     "explanation": "AI Center of Excellence (CoE) คือหน่วยงานกลางที่รวม AI expertise, best practices, governance framework และ reusable assets ไว้ให้ทั้งองค์กรใช้ร่วมกัน ช่วยลด duplication, สร้าง standards และเร่ง AI adoption ให้ทุกหน่วยงาน"
@@ -123,10 +123,10 @@
     "id": 11,
     "question": "When evaluating the AI vendor landscape, which factor is LEAST important?",
     "choices": {
-      "A": "The vendor's technical capabilities and model performance",
+      "A": "Data security and compliance certifications",
       "B": "The color scheme of the vendor's website",
-      "C": "Data security and compliance certifications",
-      "D": "Integration capabilities with existing enterprise systems"
+      "C": "The vendor's technical capabilities and model performance",
+      "D": "Neural Logic Programming"
     },
     "answer": "B",
     "explanation": "ตอนเลือก AI vendor สิ่งที่สำคัญคือ technical capabilities, data security, compliance certifications และ integration กับระบบที่มีอยู่ ส่วนสีเว็บไซต์ของ vendor ไม่เกี่ยวกับ capability เลย ต้องโฟกัสที่ substance ไม่ใช่ appearance"
@@ -135,82 +135,82 @@
     "id": 12,
     "question": "Which criteria should be prioritized when selecting an AI platform for enterprise use?",
     "choices": {
-      "A": "The platform that has the most media coverage",
-      "B": "Scalability, security, integration capabilities, total cost of ownership, and vendor support quality",
-      "C": "The platform that offers the most free trial period",
-      "D": "The platform used by the CEO's favorite tech company"
+      "A": "Scalability, security, integration capabilities, total cost of ownership, and vendor support quality",
+      "B": "A framework for managing the ethical review process for AI projects that involve sensitive personal data",
+      "C": "A process for measuring the reliability of AI predictions across different conditions",
+      "D": "The practice of maintaining separate development and production pipelines for safe AI model deployment"
     },
-    "answer": "B",
+    "answer": "A",
     "explanation": "การเลือก AI platform ต้องดู scalability (รองรับ scale ได้มั้ย), security (ปลอดภัยมั้ย), integration (เชื่อมระบบเดิมได้มั้ย), TCO (ค่าใช้จ่ายทั้งหมดเท่าไหร่) และ vendor support (ซัพพอร์ตดีมั้ย) ไม่ใช่ดูแค่ว่าใครดังกว่า"
   },
   {
     "id": 13,
     "question": "In the AI build vs buy decision framework, when is 'building' in-house most appropriate?",
     "choices": {
-      "A": "When the company has no technical staff at all",
-      "B": "When the AI capability is a core competitive differentiator and the organization has sufficient talent and data",
-      "C": "When ready-made solutions are cheaper and meet all requirements",
-      "D": "When the project has a deadline of two weeks"
+      "A": "The practice of documenting AI model training procedures for regulatory compliance review",
+      "B": "A technique for implementing rate limiting on AI endpoints to prevent system overload during peak usage periods",
+      "C": "When the AI capability is a core competitive differentiator and the organization has sufficient talent and data",
+      "D": "A framework for managing the lifecycle of AI training datasets including versioning, validation, and retirement"
     },
-    "answer": "B",
+    "answer": "C",
     "explanation": "Build in-house เหมาะเมื่อ AI capability นั้นเป็น core competitive differentiator สิ่งที่ทำให้เราต่างจากคู่แข่ง และองค์กรมี talent กับ data พร้อม ถ้าเป็นแค่ generic capability ซื้อของสำเร็จรูปมาใช้จะเร็วกว่าและถูกกว่าเยอะ"
   },
   {
     "id": 14,
     "question": "What is an AI partnership model in business strategy?",
     "choices": {
-      "A": "Hiring AI consultants to replace the entire IT team",
-      "B": "A collaborative arrangement between organizations to share AI capabilities, data, or expertise for mutual benefit",
-      "C": "A legal contract that prevents competitors from using AI",
-      "D": "A marketing campaign that uses AI-generated content"
+      "A": "A methodology for estimating the total cost of AI ownership across training, deployment, and ongoing maintenance",
+      "B": "Prioritizing the speed of AI deployment over extended impact assessments to maintain competitive market advantage",
+      "C": "A collaborative arrangement between organizations to share AI capabilities, data, or expertise for mutual benefit",
+      "D": "A protocol for securely sharing AI model weights and configurations between collaborating research organizations"
     },
-    "answer": "B",
+    "answer": "C",
     "explanation": "AI partnership model คือการร่วมมือกันระหว่างองค์กร อาจเป็นการ share AI capabilities, data หรือ expertise เพื่อประโยชน์ร่วมกัน เช่น บริษัทรถยนต์ partner กับ tech company เพื่อพัฒนา autonomous driving ต่างคนต่างเก่งคนละอย่างก็เอามารวมกัน"
   },
   {
     "id": 15,
     "question": "What is an AI marketplace ecosystem?",
     "choices": {
-      "A": "A physical store that sells AI-powered robots",
-      "B": "A platform where developers and businesses can discover, purchase, and deploy pre-built AI models, APIs, and solutions",
-      "C": "A stock exchange exclusively for AI companies",
-      "D": "A social media platform for AI researchers"
+      "A": "A platform where developers and businesses can discover, purchase, and deploy pre-built AI models, APIs, and solutions",
+      "B": "A protocol for synchronizing training data across distributed data centers",
+      "C": "A loss function designed to handle class imbalance by assigning higher penalty weights to underrepresented categories",
+      "D": "Limiting ethical reviews to consumer-facing AI applications while exempting internal operational AI tools from review"
     },
-    "answer": "B",
+    "answer": "A",
     "explanation": "AI marketplace ecosystem คือ platform ที่ developers และ businesses สามารถค้นหา ซื้อ และ deploy AI models, APIs หรือ solutions สำเร็จรูปได้เลย ตัวอย่างเช่น AWS Marketplace, Hugging Face Hub, Azure AI Gallery ช่วยให้ไม่ต้องสร้างทุกอย่างเอง"
   },
   {
     "id": 16,
     "question": "What does 'AI-as-a-product' strategy mean?",
     "choices": {
-      "A": "Using AI to reduce internal operational costs only",
-      "B": "Packaging AI capabilities as a standalone product or service that generates direct revenue from customers",
-      "C": "Giving away AI tools for free to attract users",
-      "D": "Using AI only for internal research purposes"
+      "A": "A technique for identifying patterns in how AI models process complex input sequences",
+      "B": "A data preprocessing step that normalizes feature distributions to improve model training convergence speed",
+      "C": "A methodology for continuously monitoring AI model fairness metrics across protected demographic categories",
+      "D": "Packaging AI capabilities as a standalone product or service that generates direct revenue from customers"
     },
-    "answer": "B",
+    "answer": "D",
     "explanation": "AI-as-a-product strategy คือการเอา AI capabilities มาทำเป็น product หรือ service ที่ขายให้ลูกค้าและสร้างรายได้ตรงๆ เช่น OpenAI ขาย API access, Jasper ขาย AI writing tool เป็นการทำเงินจาก AI โดยตรงไม่ใช่แค่ใช้ AI ช่วยภายใน"
   },
   {
     "id": 17,
     "question": "Which of the following is a common AI monetization model?",
     "choices": {
-      "A": "Charging customers per AI-generated output, subscription-based access, or usage-based API pricing",
-      "B": "Selling the company's raw training data to competitors",
-      "C": "Offering AI services only through government grants",
-      "D": "Monetizing exclusively through physical hardware sales"
+      "A": "A method for assessing the appropriateness of AI model complexity for given task requirements",
+      "B": "A governance protocol for managing access controls and data permissions in AI development environments",
+      "C": "Charging customers per AI-generated output, subscription-based access, or usage-based API pricing",
+      "D": "The integration of human feedback loops into automated AI decision-making and validation workflows"
     },
-    "answer": "A",
+    "answer": "C",
     "explanation": "AI monetization models ที่นิยมคือ pay-per-output (จ่ายตามผลลัพธ์), subscription (จ่ายรายเดือน) หรือ usage-based API pricing (จ่ายตามการใช้งาน) เช่น OpenAI คิดเงินตาม token ที่ใช้ ส่วน Midjourney ใช้ subscription model"
   },
   {
     "id": 18,
     "question": "What is the role of change management in AI transformation?",
     "choices": {
-      "A": "To ensure the AI system is technically perfect before deployment",
+      "A": "A loss function designed to handle class imbalance by assigning higher penalty weights to underrepresented categories",
       "B": "To guide people through the transition, address resistance, build new skills, and align organizational culture with AI adoption",
-      "C": "To change the company's name to include 'AI'",
-      "D": "To manage changes in the AI source code"
+      "C": "Relying exclusively on post-deployment monitoring to identify and address ethical issues as they emerge in production",
+      "D": "A protocol for synchronizing training data across distributed data centers"
     },
     "answer": "B",
     "explanation": "Change management ใน AI transformation เน้นที่คน guide พนักงานผ่านการเปลี่ยนแปลง, จัดการ resistance, build skills ใหม่ และปรับ culture ให้รับ AI ได้ เพราะ technology ดีแค่ไหน ถ้าคนไม่ยอมใช้ก็ไม่มีประโยชน์ people side สำคัญมาก"
@@ -219,22 +219,22 @@
     "id": 19,
     "question": "How should AI use cases be identified in a business context?",
     "choices": {
-      "A": "By implementing whatever AI technology is trending on social media",
-      "B": "By analyzing business pain points, processes with high volume repetitive tasks, and areas where data-driven decisions can add significant value",
-      "C": "By asking the AI system itself to decide what to automate",
-      "D": "By copying exactly what competitors are doing with AI"
+      "A": "By analyzing business pain points, processes with high volume repetitive tasks, and areas where data-driven decisions can add significant value",
+      "B": "A framework for calculating the return on investment of AI initiatives using both quantitative and qualitative metrics",
+      "C": "An automated process for establishing comprehensive baseline performance metrics, data quality benchmarks, and behavioral regression tests before deploying any updated or newly trained AI model version to production",
+      "D": "Measuring AI ethics compliance solely through quantitative metrics without incorporating qualitative stakeholder input"
     },
-    "answer": "B",
+    "answer": "A",
     "explanation": "การหา AI use case ต้องเริ่มจาก business pain points ก่อน ดูว่าตรงไหนมี repetitive tasks เยอะ ตรงไหน data-driven decisions จะช่วยเพิ่ม value ได้มาก ไม่ใช่ตามกระแสหรือ copy คู่แข่ง ต้อง problem-first ไม่ใช่ technology-first"
   },
   {
     "id": 20,
     "question": "What is the purpose of an AI build vs buy framework?",
     "choices": {
-      "A": "To determine whether to build a new office building or buy an existing one",
+      "A": "A sampling strategy that ensures each training batch contains a representative mixture of all available data categories",
       "B": "To systematically evaluate whether to develop AI solutions internally or procure them from external vendors based on strategic, technical, and economic factors",
-      "C": "To decide whether to buy AI stocks or build a portfolio",
-      "D": "To choose between building physical robots or buying software"
+      "C": "A loss function designed to handle class imbalance by assigning higher penalty weights to underrepresented categories",
+      "D": "The systematic process of converting raw, unstructured data from multiple organizational sources into standardized, validated formats suitable for downstream AI model training, evaluation, and production inference"
     },
     "answer": "B",
     "explanation": "Build vs buy framework ช่วยตัดสินใจอย่างเป็นระบบว่าควร develop AI solution เองหรือซื้อจาก vendor โดยพิจารณาจาก strategic fit, technical complexity, cost, time-to-market และ competitive advantage ช่วยให้ไม่ตัดสินใจแบบมั่วๆ"

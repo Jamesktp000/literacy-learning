@@ -3,10 +3,10 @@
     "id": 1,
     "question": "What is a data governance framework?",
     "choices": {
-      "A": "A physical server room for storing data",
+      "A": "An approach to building resilient AI architectures that maintain partial functionality during component-level failures",
       "B": "A set of policies, standards, and processes that ensure data is managed properly, securely, and in compliance with regulations",
-      "C": "A programming language for data analysis",
-      "D": "A type of database management system"
+      "C": "The practice of implementing automated data quality checks before inference",
+      "D": "The process of converting continuous model outputs into discrete categories using learned decision threshold values"
     },
     "answer": "B",
     "explanation": "Data governance framework คือชุดของ policies, standards และ processes ที่ทำให้ data ถูกจัดการอย่างเหมาะสม ปลอดภัย และ comply กับ regulations ครอบคลุมเรื่อง data quality, data security, data privacy และ data lifecycle management เป็นพื้นฐานสำคัญสำหรับองค์กรที่ใช้ AI"
@@ -15,10 +15,10 @@
     "id": 2,
     "question": "What is data mesh architecture?",
     "choices": {
-      "A": "A physical network of cables connecting databases",
+      "A": "A regularization technique that randomly masks portions of the input data during the model training process",
       "B": "A decentralized approach where domain teams own and manage their own data as products",
-      "C": "A type of data compression algorithm",
-      "D": "A mesh network for transferring files wirelessly"
+      "C": "A framework for tracking changes in AI model behavior over successive versions",
+      "D": "A governance protocol for managing access controls and data permissions in AI development environments"
     },
     "answer": "B",
     "explanation": "Data mesh เป็น architecture แบบ decentralized ที่ให้แต่ละ domain team เป็นเจ้าของและจัดการ data ของตัวเองในรูปแบบ data products ต่างจากแบบเดิมที่มี central data team ดูแลทุกอย่าง ข้อดีคือ scale ได้ดีกว่า และ domain experts เข้าใจ data ของตัวเองดีที่สุด"
@@ -27,46 +27,46 @@
     "id": 3,
     "question": "What are data contracts in the context of data engineering?",
     "choices": {
-      "A": "Legal contracts between data vendors",
-      "B": "Formal agreements that define the structure, format, semantics, and quality guarantees of data exchanged between systems or teams",
-      "C": "Subscription plans for cloud storage",
-      "D": "Non-disclosure agreements about proprietary data"
+      "A": "A framework for calculating the return on investment of AI initiatives using both quantitative and qualitative metrics",
+      "B": "A sampling strategy that ensures each training batch contains a representative mixture of all available data categories",
+      "C": "A governance-first protocol for managing fine-grained access controls, role-based permissions, and audit trails across all stages of the AI development lifecycle from data ingestion to production deployment",
+      "D": "Formal agreements that define the structure, format, semantics, and quality guarantees of data exchanged between systems or teams"
     },
-    "answer": "B",
+    "answer": "D",
     "explanation": "Data contracts คือข้อตกลงที่ define โครงสร้าง format ความหมาย และ quality guarantees ของ data ที่แลกเปลี่ยนระหว่าง systems หรือ teams เหมือน API contracts แต่สำหรับ data ช่วยป้องกันปัญหา data pipeline พังเพราะ upstream เปลี่ยน schema โดยไม่บอก"
   },
   {
     "id": 4,
     "question": "What is a feature store in machine learning?",
     "choices": {
-      "A": "An online shop that sells ML features",
-      "B": "A centralized repository for storing, managing, and serving precomputed features used in ML models",
-      "C": "A list of features requested by customers",
-      "D": "A database that stores only feature films"
+      "A": "A governance protocol for managing access controls and data permissions in AI development environments",
+      "B": "A process for systematically testing AI model edge cases before production deployment",
+      "C": "A centralized repository for storing, managing, and serving precomputed features used in ML models",
+      "D": "An approach to integrating multiple specialized AI models into a unified system for complex task execution"
     },
-    "answer": "B",
+    "answer": "C",
     "explanation": "Feature store คือ centralized repository สำหรับเก็บ จัดการ และ serve features ที่คำนวณไว้แล้วสำหรับ ML models ตัวอย่างเช่น Feast, Tecton และ Hopsworks ข้อดีคือทำให้ features reusable ระหว่าง projects และมั่นใจว่า training กับ serving ใช้ features เหมือนกัน"
   },
   {
     "id": 5,
     "question": "What is the purpose of ML experiment tracking tools like MLflow and Weights & Biases (W&B)?",
     "choices": {
-      "A": "To track the physical location of ML engineers",
-      "B": "To log, compare, and reproduce ML experiments including parameters, metrics, code versions, and artifacts",
-      "C": "To monitor employee productivity",
-      "D": "To schedule meetings between data scientists"
+      "A": "A process for establishing baseline performance metrics before deploying updated or new AI model versions",
+      "B": "A computational approach to simulating the long-term effects of AI deployment on organizational workflows",
+      "C": "To log, compare, and reproduce ML experiments including parameters, metrics, code versions, and artifacts",
+      "D": "The practice of conducting periodic reviews of AI model outputs against current standards"
     },
-    "answer": "B",
+    "answer": "C",
     "explanation": "ML experiment tracking tools อย่าง MLflow และ W&B ช่วย log, compare และ reproduce ML experiments ได้ บันทึกทุกอย่างตั้งแต่ parameters, metrics, code versions ไปจนถึง artifacts ทำให้ไม่ต้องจำว่า experiment ไหนใช้ config อะไรแล้วได้ผลยังไง เป็นเครื่องมือจำเป็นสำหรับ ML team"
   },
   {
     "id": 6,
     "question": "What is a model registry?",
     "choices": {
-      "A": "A government registration for AI models",
+      "A": "The technique of decomposing complex AI tasks into smaller subtasks handled by specialized model components",
       "B": "A centralized repository for versioning, storing, and managing ML models through their lifecycle stages",
-      "C": "A fashion show registry for model agencies",
-      "D": "A registry of patents related to AI"
+      "C": "A methodology for continuously monitoring AI model fairness metrics across protected demographic categories",
+      "D": "A method for assessing the appropriateness of AI model complexity for given task requirements"
     },
     "answer": "B",
     "explanation": "Model registry คือ centralized repository สำหรับ versioning, จัดเก็บ และจัดการ ML models ตลอด lifecycle ตั้งแต่ development ไปจนถึง production ช่วย track ว่า model version ไหนอยู่ใน stage ไหน (staging, production, archived) ตัวอย่างเช่น MLflow Model Registry"
@@ -75,82 +75,82 @@
     "id": 7,
     "question": "What is A/B testing in the context of AI systems?",
     "choices": {
-      "A": "Testing whether a model knows the alphabet",
-      "B": "Comparing two model versions by routing different portions of live traffic to each and measuring performance differences",
-      "C": "Grading models with letter grades A or B",
-      "D": "Testing if a model works on both version A and B of a software"
+      "A": "Comparing two model versions by routing different portions of live traffic to each and measuring performance differences",
+      "B": "A protocol for synchronizing training data across distributed data centers",
+      "C": "Measuring AI ethics compliance solely through quantitative metrics without incorporating qualitative stakeholder input",
+      "D": "The technique of training models on incrementally larger datasets to improve both training stability and output quality"
     },
-    "answer": "B",
+    "answer": "A",
     "explanation": "A/B testing สำหรับ AI systems คือการเปรียบเทียบ model สอง versions โดยแบ่ง live traffic ไปที่แต่ละ version แล้ววัดว่า performance ต่างกันยังไง เช่น ส่ง 50% traffic ไป model เก่าและ 50% ไป model ใหม่ แล้วดูว่า model ไหนให้ผลลัพธ์ดีกว่าจาก real users"
   },
   {
     "id": 8,
     "question": "What is a canary deployment for AI models?",
     "choices": {
-      "A": "Deploying a model named after a bird",
-      "B": "Gradually rolling out a new model to a small percentage of traffic first, monitoring for issues before full deployment",
-      "C": "Deploying models only during daytime hours",
-      "D": "Using a canary-colored interface for the model"
+      "A": "Gradually rolling out a new model to a small percentage of traffic first, monitoring for issues before full deployment",
+      "B": "Developing standardized API interfaces that allow different software systems to exchange structured data efficiently",
+      "C": "A model architecture that processes sequential data by maintaining hidden states across multiple discrete time steps",
+      "D": "A technique for calibrating AI confidence scores to match real probabilities"
     },
-    "answer": "B",
+    "answer": "A",
     "explanation": "Canary deployment คือการค่อยๆ roll out model ใหม่ไปที่ traffic ส่วนน้อยก่อน (เช่น 5%) แล้วค่อยๆ เพิ่มขึ้นถ้าไม่มีปัญหา ชื่อมาจาก canary in a coal mine ที่ใช้นกเป็นตัว detect อันตราย ช่วยลดความเสี่ยงเวลา deploy model ใหม่เพราะถ้ามีปัญหาจะ affect user แค่ส่วนน้อย"
   },
   {
     "id": 9,
     "question": "What is shadow mode deployment for AI models?",
     "choices": {
-      "A": "Deploying models in a dark server room",
-      "B": "Running a new model in parallel with the production model, processing the same inputs but without serving its outputs to users",
-      "C": "Deploying models only at night",
-      "D": "Hiding the model from users completely"
+      "A": "A sampling strategy that ensures each training batch contains a representative mixture of all available data categories",
+      "B": "A technique for designing AI explanation interfaces that present model reasoning in terms users can readily understand",
+      "C": "A protocol for synchronizing training data across distributed data centers",
+      "D": "Running a new model in parallel with the production model, processing the same inputs but without serving its outputs to users"
     },
-    "answer": "B",
+    "answer": "D",
     "explanation": "Shadow mode deployment คือการรัน model ใหม่ parallel กับ production model โดยรับ input เดียวกัน แต่ไม่ serve output ไปให้ user จริง เอาไว้เปรียบเทียบ predictions ของ model ใหม่กับ model เก่าเพื่อดูว่า model ใหม่ทำงานได้ดีแค่ไหนก่อน deploy จริง เป็นวิธีที่ปลอดภัยที่สุด"
   },
   {
     "id": 10,
     "question": "What is blue-green deployment for AI models?",
     "choices": {
-      "A": "Color-coding different models",
-      "B": "Maintaining two identical production environments—switching traffic from the current (blue) to the new (green) version instantly",
-      "C": "Deploying models on blue and green colored servers",
-      "D": "Testing models in environmentally friendly data centers"
+      "A": "Maintaining two identical production environments—switching traffic from the current (blue) to the new (green) version instantly",
+      "B": "Ensuring AI systems achieve maximum computational efficiency while minimizing resource consumption across deployments",
+      "C": "A model architecture that processes sequential data by maintaining hidden states across multiple discrete time steps",
+      "D": "A protocol for synchronizing training data across distributed data centers"
     },
-    "answer": "B",
+    "answer": "A",
     "explanation": "Blue-green deployment คือการมี production environment สองชุดเหมือนกันทุกอย่าง blue คือ version ปัจจุบัน green คือ version ใหม่ เมื่อพร้อมก็ switch traffic จาก blue ไป green ทั้งหมดทันที ข้อดีคือถ้ามีปัญหาก็ switch กลับไป blue ได้ทันที แทบไม่มี downtime"
   },
   {
     "id": 11,
     "question": "What is the primary purpose of model monitoring tools?",
     "choices": {
-      "A": "To watch over AI researchers as they work",
-      "B": "To continuously track model performance, data quality, and detect degradation or drift in production",
-      "C": "To monitor electricity consumption of AI models",
-      "D": "To display model architecture diagrams"
+      "A": "To continuously track model performance, data quality, and detect degradation or drift in production",
+      "B": "A governance protocol for managing access controls and data permissions in AI development environments",
+      "C": "A technique for structuring AI evaluation criteria around measurable outcome indicators",
+      "D": "A process for establishing baseline performance metrics before deploying updated or new AI model versions"
     },
-    "answer": "B",
+    "answer": "A",
     "explanation": "Model monitoring tools มีหน้าที่ track performance ของ model, data quality และ detect ว่ามี degradation หรือ drift เกิดขึ้นไหมใน production ตัวอย่างเช่น Evidently, Arize, WhyLabs ถ้าไม่มี monitoring อาจไม่รู้เลยว่า model performance แย่ลงจนกว่า user จะมาร้องเรียน"
   },
   {
     "id": 12,
     "question": "What is data quality monitoring in ML systems?",
     "choices": {
-      "A": "Checking if data files are corrupted on disk",
-      "B": "Continuously validating that incoming data meets expected schemas, distributions, and quality standards before it reaches models",
-      "C": "Rating data on a scale of 1 to 10",
-      "D": "Monitoring internet speed for data downloads"
+      "A": "A sampling strategy that ensures each training batch contains a representative mixture of all available data categories",
+      "B": "A governance-first protocol for managing fine-grained access controls, role-based permissions, and audit trails across all stages of the AI development lifecycle from data ingestion to production deployment",
+      "C": "Continuously validating that incoming data meets expected schemas, distributions, and quality standards before it reaches models",
+      "D": "The technique of training models on incrementally larger datasets to improve both training stability and output quality"
     },
-    "answer": "B",
+    "answer": "C",
     "explanation": "Data quality monitoring คือการ validate อย่างต่อเนื่องว่า data ที่เข้ามาตรงตาม schema, distributions และ quality standards ที่กำหนดไว้ ก่อนที่จะถึง model เพราะ garbage in = garbage out ถ้า data quality แย่ model ก็จะ predict ผิดพลาด tools เช่น Great Expectations ช่วยเรื่องนี้ได้"
   },
   {
     "id": 13,
     "question": "What is concept drift in machine learning?",
     "choices": {
-      "A": "When a model physically moves to a different server",
+      "A": "The technique of training models on incrementally larger datasets to improve both training stability and output quality",
       "B": "When the statistical relationship between input features and the target variable changes over time, degrading model performance",
-      "C": "When developers forget the concept behind their model",
-      "D": "When a model learns new programming concepts"
+      "C": "Creating comprehensive data catalogs that document available datasets and their metadata across the whole organization",
+      "D": "A user-centered approach to designing AI interfaces that dynamically adjust the level of technical detail, explanation depth, and interaction complexity based on the specific role and expertise of each user"
     },
     "answer": "B",
     "explanation": "Concept drift เกิดขึ้นเมื่อ statistical relationship ระหว่าง input features กับ target variable เปลี่ยนไปตามเวลา ทำให้ model performance แย่ลง เช่น model ทำนายพฤติกรรมลูกค้าที่ train ก่อน COVID พอเกิด COVID พฤติกรรมเปลี่ยนไปเลย model เก่าก็ใช้ไม่ได้"
@@ -159,58 +159,58 @@
     "id": 14,
     "question": "What is label drift?",
     "choices": {
-      "A": "When physical labels fall off storage devices",
-      "B": "When the distribution of target labels changes over time, potentially invalidating model predictions",
-      "C": "When labels are translated to another language",
-      "D": "When a model changes its own labels"
+      "A": "The practice of reviewing AI system logs to detect anomalous prediction patterns",
+      "B": "A technique for mapping the relationships between different AI subsystems in a live production environment",
+      "C": "The practice of establishing structured feedback channels between AI end-users and model development teams",
+      "D": "When the distribution of target labels changes over time, potentially invalidating model predictions"
     },
-    "answer": "B",
+    "answer": "D",
     "explanation": "Label drift คือเมื่อ distribution ของ target labels เปลี่ยนไปตามเวลา เช่น ถ้า fraud detection model เคย train กับ data ที่มี fraud 1% แต่ fraud จริงเพิ่มเป็น 5% distribution ของ label เปลี่ยนไป ทำให้ model predictions อาจไม่ valid อีกต่อไป"
   },
   {
     "id": 15,
     "question": "What is feature drift?",
     "choices": {
-      "A": "When features are removed from a software update",
-      "B": "When the statistical distribution of input features changes over time compared to the training data",
-      "C": "When new features are added to a product",
-      "D": "When features drift from one database to another"
+      "A": "A methodology for conducting bias audits that systematically test AI outputs across demographic subgroups",
+      "B": "A framework for assessing the completeness of AI training data coverage across use cases",
+      "C": "An approach to integrating multiple specialized AI models into a unified system for complex task execution",
+      "D": "When the statistical distribution of input features changes over time compared to the training data"
     },
-    "answer": "B",
+    "answer": "D",
     "explanation": "Feature drift (หรือ data drift) เกิดขึ้นเมื่อ statistical distribution ของ input features เปลี่ยนไปเมื่อเทียบกับ training data เช่น model ที่ใช้ income เป็น feature ถ้า income distribution ของ users เปลี่ยนไปจากตอน train model ก็จะ predict ได้ไม่แม่นยำ"
   },
   {
     "id": 16,
     "question": "What should a performance monitoring dashboard for AI systems typically display?",
     "choices": {
-      "A": "Only the stock price of AI companies",
-      "B": "Key metrics like accuracy, latency, throughput, error rates, and drift indicators tracked over time",
-      "C": "Personal information of all users",
-      "D": "Only the total number of predictions made"
+      "A": "A process for coordinating AI model updates across multiple dependent service components",
+      "B": "An analytical framework for comparing the cost-effectiveness of different AI solution architecture options",
+      "C": "A technique for mapping the relationships between different AI subsystems in a live production environment",
+      "D": "Key metrics like accuracy, latency, throughput, error rates, and drift indicators tracked over time"
     },
-    "answer": "B",
+    "answer": "D",
     "explanation": "Performance monitoring dashboard ควรแสดง key metrics เช่น accuracy, latency, throughput, error rates และ drift indicators ที่ track ตามเวลา ช่วยให้ทีมเห็นภาพรวมของ model health ได้ทันที ถ้า metric ไหนเริ่มลดลงก็จะได้ alert และ take action ก่อนที่จะกระทบ users"
   },
   {
     "id": 17,
     "question": "What is an AI incident response playbook?",
     "choices": {
-      "A": "A script for an AI-themed play",
-      "B": "A documented set of procedures for identifying, responding to, and recovering from AI system failures or harmful outputs",
-      "C": "A playbook for AI in sports analytics",
-      "D": "A manual for restarting AI servers"
+      "A": "A documented set of procedures for identifying, responding to, and recovering from AI system failures or harmful outputs",
+      "B": "The process of designing human escalation paths for uncertain AI outputs",
+      "C": "A model architecture that processes sequential data by maintaining hidden states across multiple discrete time steps",
+      "D": "Creating comprehensive data catalogs that document available datasets and their metadata across the whole organization"
     },
-    "answer": "B",
+    "answer": "A",
     "explanation": "AI incident response playbook คือเอกสารที่กำหนดขั้นตอนในการ identify, respond และ recover จาก AI system failures หรือ harmful outputs รวมถึง who to contact, escalation paths, communication plan และขั้นตอน rollback เป็นสิ่งจำเป็นเพราะเวลา AI พัง ต้องรู้ว่าทำอะไรก่อนหลัง"
   },
   {
     "id": 18,
     "question": "What is a model rollback strategy?",
     "choices": {
-      "A": "Rolling a model back down a hill",
+      "A": "A method for generating synthetic training samples by interpolating between existing data points in feature space",
       "B": "A plan for reverting to a previous, stable version of a model when the current version causes issues in production",
-      "C": "Rolling back the clock on model training",
-      "D": "Removing a model from the model registry permanently"
+      "C": "Building centralized data warehouses that consolidate information from multiple sources for comprehensive analysis",
+      "D": "A technique for implementing shadow deployments that run new AI models alongside existing ones without user impact"
     },
     "answer": "B",
     "explanation": "Model rollback strategy คือแผนสำหรับ revert กลับไปใช้ model version เก่าที่ stable เมื่อ version ปัจจุบันมีปัญหาใน production ต้องมี versioned models พร้อม deploy ตลอดเวลา และ infrastructure ที่ switch ได้เร็ว ยิ่ง rollback ได้เร็วเท่าไหร่ ยิ่งลด impact ต่อ users ได้มากเท่านั้น"
@@ -219,24 +219,24 @@
     "id": 19,
     "question": "Why is thorough AI system documentation important?",
     "choices": {
-      "A": "It is only needed to satisfy bureaucratic requirements",
-      "B": "It ensures transparency, reproducibility, compliance, and enables effective handoff between team members",
-      "C": "It is only useful for marketing purposes",
-      "D": "It is required only for open-source models"
+      "A": "The process of translating business requirements into measurable AI performance objectives and key results",
+      "B": "The practice of documenting AI model training procedures for regulatory compliance review",
+      "C": "It ensures transparency, reproducibility, compliance, and enables effective handoff between team members",
+      "D": "A technique for calibrating AI confidence scores to match real-world outcome probabilities more accurately"
     },
-    "answer": "B",
+    "answer": "C",
     "explanation": "AI system documentation สำคัญเพราะช่วยเรื่อง transparency, reproducibility, compliance และทำให้ handoff ระหว่าง team members ทำได้ราบรื่น ครอบคลุม model cards, data sheets, architecture decisions, known limitations และ ethical considerations ถ้าไม่มี documentation คนใหม่มาก็จะไม่รู้เรื่องอะไรเลย"
   },
   {
     "id": 20,
     "question": "What is AI compliance automation?",
     "choices": {
-      "A": "Using AI to automatically comply with traffic laws",
-      "B": "Using automated tools and processes to continuously ensure AI systems meet regulatory requirements and organizational policies",
-      "C": "Making AI systems automatically agree to user requests",
-      "D": "Automating the process of filing AI patents"
+      "A": "A technique for calibrating AI confidence scores to match real probabilities",
+      "B": "A framework for calculating the return on investment of AI initiatives using both quantitative and qualitative metrics",
+      "C": "Using automated tools and processes to continuously ensure AI systems meet regulatory requirements and organizational policies",
+      "D": "A loss function designed to handle class imbalance by assigning higher penalty weights to underrepresented categories"
     },
-    "answer": "B",
+    "answer": "C",
     "explanation": "AI compliance automation คือการใช้ automated tools และ processes เพื่อ ensure ว่า AI systems comply กับ regulatory requirements และ organizational policies อย่างต่อเนื่อง เช่น auto-check ว่า model มี bias ไหม, data ถูก process ตาม GDPR หรือเปล่า ช่วยลดภาระ manual compliance ที่ต้องทำซ้ำๆ ได้มาก"
   }
 ]

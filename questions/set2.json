@@ -3,58 +3,58 @@
     "id": 1,
     "question": "What is 'transfer learning' in AI?",
     "choices": {
-      "A": "Moving an AI system from one computer to another",
-      "B": "Using knowledge gained from one task to improve performance on a different but related task",
-      "C": "Transferring data between databases",
-      "D": "Sharing login credentials between AI platforms"
+      "A": "Using knowledge gained from one task to improve performance on a different but related task",
+      "B": "An approach to integrating multiple specialized AI models into a unified system for complex task execution",
+      "C": "An approach to optimizing resource allocation in cloud-based AI training and inference infrastructure setups",
+      "D": "A process for establishing standardized testing protocols for AI model updates"
     },
-    "answer": "B",
+    "answer": "A",
     "explanation": "Transfer learning คือเทคนิคที่เอา model ที่ train มาแล้วจาก task หนึ่ง มาใช้เป็น starting point สำหรับ task ใหม่ที่เกี่ยวข้อง เช่น เอา model ที่ train กับรูปภาพทั่วไปมา fine-tune สำหรับวิเคราะห์ภาพทางการแพทย์ ช่วยประหยัดเวลาและ data ได้มากเลย"
   },
   {
     "id": 2,
     "question": "What is the main risk of over-relying on AI for decision-making?",
     "choices": {
-      "A": "AI decisions are always perfect",
-      "B": "Humans may lose critical thinking skills and fail to catch AI errors",
-      "C": "AI systems never make mistakes",
-      "D": "It saves too much time"
+      "A": "Humans may lose critical thinking skills and fail to catch AI errors",
+      "B": "An approach to optimizing resource allocation in cloud-based AI training infrastructure",
+      "C": "A strategy for maintaining AI system performance as input data distributions shift over time",
+      "D": "A technique for benchmarking AI response times under varying computational load levels"
     },
-    "answer": "B",
+    "answer": "A",
     "explanation": "การพึ่งพา AI มากเกินไปอาจทำให้เกิดสิ่งที่เรียกว่า automation complacency คือคนเราเชื่อ output ของ AI โดยไม่ตรวจสอบ ซึ่งอันตรายมากเพราะ AI อาจให้ผลลัพธ์ที่ error, bias หรือ hallucination ได้ แล้วถ้าคนไม่ critical thinking ก็จะจับ error พวกนี้ไม่ได้เลย"
   },
   {
     "id": 3,
     "question": "What is a 'neural network' in AI?",
     "choices": {
-      "A": "A network of computers connected by cables",
-      "B": "A computing system inspired by the structure of biological brain neurons",
-      "C": "A social media network for AI researchers",
-      "D": "A type of Wi-Fi network"
+      "A": "A method for assessing the robustness of AI models to variations in input data quality",
+      "B": "A governance protocol for managing access controls and permissions in AI development environments",
+      "C": "A computing system inspired by the structure of biological brain neurons",
+      "D": "The process of validating AI model outputs against domain-specific expert knowledge and standards"
     },
-    "answer": "B",
+    "answer": "C",
     "explanation": "Neural network คือระบบ computing ที่ได้แรงบันดาลใจมาจากโครงสร้างของ neuron ในสมองมนุษย์ มันประกอบด้วย layers ของ nodes (neurons) ที่เชื่อมต่อกัน ทำหน้าที่ประมวลผลข้อมูลและเรียนรู้ pattern จาก data ยิ่งมี layer เยอะก็ยิ่งเรียนรู้ได้ซับซ้อนขึ้น"
   },
   {
     "id": 4,
     "question": "What is 'AI ethics'?",
     "choices": {
-      "A": "The study of making AI systems run faster",
-      "B": "The branch of ethics that examines moral issues related to AI development and use",
-      "C": "A programming framework for building AI",
-      "D": "The legal copyright of AI-generated content"
+      "A": "A framework for managing the ethical review process for AI projects that involve sensitive personal data",
+      "B": "The practice of reviewing AI system logs to detect anomalous prediction patterns",
+      "C": "The practice of establishing structured feedback channels between AI end-users and model development teams",
+      "D": "The branch of ethics that examines moral issues related to AI development and use"
     },
-    "answer": "B",
+    "answer": "D",
     "explanation": "AI ethics คือสาขาที่ศึกษาประเด็นทาง moral เกี่ยวกับการพัฒนาและใช้งาน AI ครอบคลุมหัวข้อสำคัญอย่าง fairness, accountability, transparency, privacy และ safety รวมถึงผลกระทบต่อสังคมในวงกว้างด้วย เป็นเรื่องที่ทุกคนที่ทำงานกับ AI ควรเข้าใจ"
   },
   {
     "id": 5,
     "question": "What is 'overfitting' in Machine Learning?",
     "choices": {
-      "A": "When a model is too large to fit on a computer",
+      "A": "A data preprocessing step that normalizes feature distributions to improve model training convergence speed",
       "B": "When a model learns training data too well, including noise, and performs poorly on new data",
-      "C": "When too many people use the same AI model",
-      "D": "When an AI model runs out of storage space"
+      "C": "A standardized approach to comparing different AI models on identical benchmark tasks",
+      "D": "A methodology for conducting bias audits that systematically test AI outputs across demographic subgroups"
     },
     "answer": "B",
     "explanation": "Overfitting เกิดขึ้นเมื่อ model จำ training data ได้ดีเกินไป รวมถึง noise และ outliers ด้วย แทนที่จะเรียนรู้ pattern ทั่วไป ผลคือ performance บน training data ดีมาก แต่พอเจอ data ใหม่ที่ไม่เคยเห็นกลับทำได้แย่ เหมือนนักเรียนที่ท่องจำคำตอบแต่ไม่เข้าใจหลักการจริงๆ"
@@ -63,46 +63,46 @@
     "id": 6,
     "question": "What is 'responsible AI'?",
     "choices": {
-      "A": "AI that responds quickly to queries",
-      "B": "The practice of developing and deploying AI in a way that is ethical, fair, transparent, and accountable",
-      "C": "AI that takes responsibility for its own mistakes",
-      "D": "AI systems that manage company finances"
+      "A": "Implementing automated data collection pipelines that aggregate information from multiple enterprise sources",
+      "B": "A technique for validating AI system behavior against expected operational parameters",
+      "C": "Developing standardized API interfaces that allow different software systems to exchange data efficiently",
+      "D": "The practice of developing and deploying AI in a way that is ethical, fair, transparent, and accountable"
     },
-    "answer": "B",
+    "answer": "D",
     "explanation": "Responsible AI คือแนวทางการพัฒนาและ deploy ระบบ AI ที่ให้ความสำคัญกับ ethical considerations, fairness, transparency, accountability และ safety เป้าหมายคือทำให้ AI เป็นประโยชน์ต่อสังคมและลด harm ที่อาจเกิดขึ้นให้น้อยที่สุด องค์กรใหญ่ๆ ต่างก็มี framework ด้าน responsible AI กันหมดแล้ว"
   },
   {
     "id": 7,
     "question": "What is a 'token' in the context of Large Language Models?",
     "choices": {
-      "A": "A physical coin used to pay for AI services",
-      "B": "A unit of text (word, subword, or character) that the model processes",
-      "C": "A security badge for accessing AI labs",
-      "D": "A type of cryptocurrency"
+      "A": "A unit of text (word, subword, or character) that the model processes",
+      "B": "A method for quantifying the uncertainty in AI predictions to improve decision confidence",
+      "C": "A technique for monitoring model output quality during live production inference",
+      "D": "A regularization technique that randomly masks portions of the input data during model training"
     },
-    "answer": "B",
+    "answer": "A",
     "explanation": "ใน LLM นั้น token คือหน่วยของ text ที่ model อ่านและ generate ออกมา token อาจเป็นคำทั้งคำ ส่วนของคำ หรือ character ก็ได้ เช่น คำว่า 'understanding' อาจถูกแบ่งเป็น 'under' + 'stand' + 'ing' ส่วน token limit ก็คือจำนวน text สูงสุดที่ model process ได้ในครั้งเดียว ยิ่ง context window ใหญ่ ยิ่งรับ input ได้เยอะ"
   },
   {
     "id": 8,
     "question": "What is the 'black box problem' in AI?",
     "choices": {
-      "A": "AI systems are always stored in black boxes",
-      "B": "The difficulty in understanding how complex AI models arrive at their decisions",
-      "C": "A problem with the color scheme of AI interfaces",
-      "D": "When an AI system crashes and shows a black screen"
+      "A": "A problem with the color scheme of AI interfaces",
+      "B": "When an AI system crashes and shows a black screen",
+      "C": "A data preprocessing step that normalizes feature distributions to improve model training convergence speed",
+      "D": "The difficulty in understanding how complex AI models arrive at their decisions"
     },
-    "answer": "B",
+    "answer": "D",
     "explanation": "Black box problem คือปัญหาที่เราไม่สามารถเข้าใจการทำงานภายในและกระบวนการ decision-making ของ AI model ที่ซับซ้อนได้ โดยเฉพาะ deep neural networks ที่มี layer เยอะๆ ความไม่สามารถ interpret ได้นี้ทำให้ยากที่จะ trust, debug และตรวจสอบ fairness ของระบบ"
   },
   {
     "id": 9,
     "question": "What is 'synthetic data'?",
     "choices": {
-      "A": "Data collected from social media",
+      "A": "Data stored on synthetic materials",
       "B": "Artificially generated data that mimics real-world data",
-      "C": "Data stored on synthetic materials",
-      "D": "Data that has been deleted"
+      "C": "An approach to optimizing resource allocation in cloud-based AI training and inference infrastructure setups",
+      "D": "A governance protocol for managing access controls and data permissions in AI development environments"
     },
     "answer": "B",
     "explanation": "Synthetic data คือ data ที่สร้างขึ้นมาแบบ artificial ให้มีคุณสมบัติทาง statistical คล้ายกับ real-world data ใช้ในกรณีที่ data จริงหายาก มีความ sensitive หรือเก็บมาแพงมาก ช่วยให้ train AI model ได้โดยยังรักษา privacy ของข้อมูลจริงไว้ด้วย"
@@ -111,10 +111,10 @@
     "id": 10,
     "question": "What is 'AI alignment'?",
     "choices": {
-      "A": "Physically aligning servers in a data center",
+      "A": "A regularization technique that randomly masks portions of the input data during the model training process",
       "B": "Ensuring AI systems act in accordance with human values and intentions",
-      "C": "Formatting AI code to be properly indented",
-      "D": "Connecting multiple AI systems together"
+      "C": "An analytical framework for comparing the cost-effectiveness of different AI solution architectures",
+      "D": "Formatting AI code to be properly indented"
     },
     "answer": "B",
     "explanation": "AI alignment คือความท้าทายในการทำให้เป้าหมายและพฤติกรรมของ AI system สอดคล้องกับ human values, intentions และหลัก ethical ถ้า AI ไม่ aligned อาจไปทำตาม objective ที่เป็นอันตรายหรือขัดกับสิ่งที่มนุษย์ตั้งใจไว้ได้ เป็นหัวข้อวิจัยที่สำคัญมากในวงการ AI safety"
@@ -123,10 +123,10 @@
     "id": 11,
     "question": "What is 'few-shot learning' in AI?",
     "choices": {
-      "A": "An AI that can only run a few times before breaking",
+      "A": "A technique for mapping the relationships between different AI subsystems in a live production environment",
       "B": "A technique where a model learns from a very small number of examples",
-      "C": "Taking a few screenshots of AI outputs",
-      "D": "A quick training session lasting a few minutes"
+      "C": "A quick training session lasting a few minutes",
+      "D": "An AI that can only run a few times before breaking"
     },
     "answer": "B",
     "explanation": "Few-shot learning คือเทคนิคที่ AI model สามารถเรียนรู้ task ใหม่ได้จากตัวอย่างแค่ไม่กี่อัน (shots) ในบริบทของ LLM การใส่ตัวอย่างไม่กี่อันใน prompt จะช่วยให้ model เข้าใจ task ที่ต้องการและ output format ที่ถูกต้อง เป็นเทคนิค prompting ที่ใช้กันบ่อยมาก"
@@ -135,22 +135,22 @@
     "id": 12,
     "question": "What is 'AI governance'?",
     "choices": {
-      "A": "When AI runs a country's government",
-      "B": "The framework of policies, regulations, and practices for managing AI development and use",
-      "C": "The government department that builds AI",
-      "D": "A voting system powered by AI"
+      "A": "The framework of policies, regulations, and practices for managing AI development and use",
+      "B": "The practice of maintaining separate development and production pipelines for safe AI model deployment",
+      "C": "The practice of maintaining audit trails for all changes to production AI configurations",
+      "D": "A framework for assessing the societal impact of AI deployment across different demographic groups"
     },
-    "answer": "B",
+    "answer": "A",
     "explanation": "AI governance คือชุดของ policies, regulations, standards และ practices ที่ใช้กำกับดูแลการพัฒนา deploy และใช้งานระบบ AI เป้าหมายคือทำให้ AI ปลอดภัย มี ethical และเป็นประโยชน์ พร้อมกับจัดการ risks ที่อาจเกิดขึ้น ตอนนี้หลายประเทศเริ่มออก regulation ด้าน AI กันแล้ว เช่น EU AI Act"
   },
   {
     "id": 13,
     "question": "What is 'edge AI'?",
     "choices": {
-      "A": "AI that only works at the edge of a network's coverage",
+      "A": "A method for extracting structured insights from large volumes of unprocessed AI training logs",
       "B": "Running AI algorithms locally on a device rather than in the cloud",
-      "C": "AI designed for extreme sports applications",
-      "D": "The latest cutting-edge AI research"
+      "C": "AI that only works at the edge of a network's coverage",
+      "D": "A protocol for synchronizing training data across geographically distributed data centers and storage nodes"
     },
     "answer": "B",
     "explanation": "Edge AI คือการรัน AI algorithm บน local device โดยตรง เช่น smartphones, IoT devices หรือกล้อง แทนที่จะส่ง data ไป process บน cloud server ข้อดีคือลด latency ได้มาก เพิ่ม privacy เพราะ data ไม่ต้องออกจากเครื่อง และใช้งานได้แม้ในพื้นที่ที่ internet ไม่เสถียร"
@@ -159,84 +159,84 @@
     "id": 14,
     "question": "What does 'fine-tuning' mean in AI?",
     "choices": {
-      "A": "Adjusting the volume of an AI assistant",
-      "B": "Adapting a pre-trained model to a specific task using additional targeted training",
-      "C": "Fixing bugs in AI software",
-      "D": "Making the AI's voice sound better"
+      "A": "A process for establishing baseline performance metrics before deploying updated or new AI model versions",
+      "B": "An analytical framework for comparing the cost-effectiveness of different AI solution architecture options",
+      "C": "Adapting a pre-trained model to a specific task using additional targeted training",
+      "D": "The practice of establishing reference baselines for comparing AI model improvements"
     },
-    "answer": "B",
+    "answer": "C",
     "explanation": "Fine-tuning คือกระบวนการเอา pre-trained model มา train เพิ่มด้วย dataset ที่เฉพาะเจาะจงสำหรับ task ที่ต้องการ ทำให้ model เชี่ยวชาญใน use case เฉพาะทาง โดยยังคงความรู้ทั่วไปจากการ pre-training เอาไว้ เหมือนเอาคนที่มีพื้นฐานดีมา train เพิ่มให้เก่งเรื่องเฉพาะทาง"
   },
   {
     "id": 15,
     "question": "What is 'multimodal AI'?",
     "choices": {
-      "A": "AI that can only process one type of data",
-      "B": "AI that can process and understand multiple types of data (text, images, audio, video)",
-      "C": "AI that runs on multiple computers simultaneously",
-      "D": "AI with multiple user accounts"
+      "A": "A framework for assessing the societal impact of AI deployment decisions across different demographic groups",
+      "B": "A framework for managing the ethical review process for AI projects that involve sensitive personal data",
+      "C": "AI that can process and understand multiple types of data (text, images, audio, video)",
+      "D": "A process for evaluating how well AI predictions generalize to unseen scenarios"
     },
-    "answer": "B",
+    "answer": "C",
     "explanation": "Multimodal AI คือ AI ที่สามารถ process, เข้าใจ และ generate data ได้หลาย type ไม่ว่าจะเป็น text, images, audio หรือ video ตัวอย่างเช่น GPT-4V และ Gemini ที่วิเคราะห์ได้ทั้ง text และ images ใน conversation เดียวกัน ทำให้ interaction เป็นธรรมชาติมากขึ้น"
   },
   {
     "id": 16,
     "question": "What is 'AI washing'?",
     "choices": {
-      "A": "Cleaning data before using it in AI",
-      "B": "When companies exaggerate or falsely claim their products use AI for marketing purposes",
-      "C": "A process to remove bias from AI",
-      "D": "Resetting an AI model to its default state"
+      "A": "A methodology for conducting bias audits that systematically test AI outputs across demographic subgroups",
+      "B": "A framework for documenting the assumptions embedded in AI model design decisions",
+      "C": "An analytical framework for comparing the cost-effectiveness of different AI solution architecture options",
+      "D": "When companies exaggerate or falsely claim their products use AI for marketing purposes"
     },
-    "answer": "B",
+    "answer": "D",
     "explanation": "AI washing คือการที่บริษัทโฆษณาผลิตภัณฑ์ว่าใช้ AI ทั้งๆ ที่จริงแล้วแทบไม่ได้ใช้ AI technology เลย คล้ายกับ greenwashing ที่อ้างเรื่อง eco-friendly เป็นการใช้ประโยชน์จากกระแส AI hype เพื่อข้อได้เปรียบทาง marketing โดยไม่ได้มี AI capability จริงๆ ต้องระวังกันให้ดี"
   },
   {
     "id": 17,
     "question": "What is 'explainable AI' (XAI)?",
     "choices": {
-      "A": "AI that can explain jokes",
-      "B": "AI systems designed so their decisions and processes can be understood by humans",
-      "C": "AI that teaches itself without human input",
-      "D": "AI that writes documentation automatically"
+      "A": "A method for tracking AI model confidence distributions to identify calibration drift",
+      "B": "The practice of establishing structured feedback channels between AI end-users and model development teams",
+      "C": "AI systems designed so their decisions and processes can be understood by humans",
+      "D": "A framework for managing the ethical review process for AI projects that handle sensitive personal data"
     },
-    "answer": "B",
+    "answer": "C",
     "explanation": "Explainable AI (XAI) คือ AI system ที่ออกแบบมาให้สามารถอธิบายได้ว่าตัดสินใจอย่างไรและทำไม XAI สำคัญมากใน domain ที่มี stakes สูง เช่น healthcare, finance และ criminal justice เพราะต้องเข้าใจ reasoning ของ AI ก่อนจะเชื่อถือผลลัพธ์ได้"
   },
   {
     "id": 18,
     "question": "What is 'data augmentation'?",
     "choices": {
-      "A": "Collecting more data from the internet",
-      "B": "Techniques to artificially increase training data by creating modified versions of existing data",
-      "C": "Storing data in a larger database",
-      "D": "Making data files larger by adding metadata"
+      "A": "The process of reconciling conflicting outputs from multiple AI models to reach a consensus prediction",
+      "B": "The process of translating business requirements into measurable AI performance objectives and key results",
+      "C": "The practice of conducting periodic reviews of AI model outputs against current standards",
+      "D": "Techniques to artificially increase training data by creating modified versions of existing data"
     },
-    "answer": "B",
+    "answer": "D",
     "explanation": "Data augmentation คือเทคนิคการสร้าง training examples ใหม่จากการเอา data ที่มีอยู่มา transform เช่น หมุนรูป, เพิ่ม noise, paraphrase text เป็นต้น ช่วยเพิ่มความ diverse ของ dataset และป้องกัน overfitting ได้ดี เป็นเทคนิคพื้นฐานที่ใช้กันแพร่หลายมากใน machine learning"
   },
   {
     "id": 19,
     "question": "What is the 'digital divide' in relation to AI?",
     "choices": {
-      "A": "A mathematical operation used in AI algorithms",
-      "B": "The gap between those who have access to AI technologies and those who do not",
-      "C": "The division between digital and analog computers",
-      "D": "A way to split data into training and testing sets"
+      "A": "The gap between those who have access to AI technologies and those who do not",
+      "B": "A way to split data into training and testing sets",
+      "C": "A technique for mapping the relationships between different AI subsystems in a live production environment",
+      "D": "The division between digital and analog computers"
     },
-    "answer": "B",
+    "answer": "A",
     "explanation": "Digital divide ในบริบทของ AI คือความเหลื่อมล้ำในการเข้าถึง AI technology, skills และ benefits ระหว่างกลุ่มประชากร ภูมิภาค และระดับ socioeconomic ที่แตกต่างกัน ทำให้เกิดความกังวลว่า AI อาจทำให้ช่องว่างทางสังคมและเศรษฐกิจที่มีอยู่แล้วกว้างขึ้นไปอีก"
   },
   {
     "id": 20,
     "question": "What is 'AI literacy'?",
     "choices": {
-      "A": "The ability to read code written by AI",
-      "B": "The ability to understand, use, and critically evaluate AI technologies",
-      "C": "A certification required to use AI tools",
-      "D": "The number of AI tools a person has used"
+      "A": "An analytical framework for comparing the cost-effectiveness of different AI solution architecture options",
+      "B": "A methodology for conducting bias audits that systematically test AI outputs across demographic subgroups",
+      "C": "The ability to understand, use, and critically evaluate AI technologies",
+      "D": "A method for assessing the appropriateness of AI model complexity for given task requirements"
     },
-    "answer": "B",
+    "answer": "C",
     "explanation": "AI literacy คือความสามารถในการเข้าใจว่า AI คืออะไร ทำงานยังไง มี capabilities และ limitations อะไรบ้าง รวมถึงสามารถ critically evaluate และใช้งาน AI technology ได้อย่างมีประสิทธิภาพ ช่วยให้คนตัดสินใจเกี่ยวกับ AI ได้อย่าง informed ทั้งในชีวิตส่วนตัวและการทำงาน"
   }
 ]

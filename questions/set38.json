@@ -3,12 +3,12 @@
     "id": 1,
     "question": "What is the biggest challenge in Thai natural language processing?",
     "choices": {
-      "A": "Thai has too few characters in its alphabet",
-      "B": "Thai text has no spaces between words, making word segmentation difficult",
-      "C": "Thai language has no vowels",
-      "D": "Thai sentences always follow strict Subject-Verb-Object order"
+      "A": "A computational approach to simulating the long-term effects of AI deployment on organizational workflows",
+      "B": "A statistical method for measuring the correlation between model inputs and predicted outputs in ML systems",
+      "C": "Thai sentences always follow strict Subject-Verb-Object order",
+      "D": "Thai text has no spaces between words, making word segmentation difficult"
     },
-    "answer": "B",
+    "answer": "D",
     "explanation": "ปัญหาใหญ่สุดของ Thai NLP คือภาษาไทยไม่มีช่องว่างระหว่างคำ ทำให้ word segmentation ยากมาก เช่น 'ตากลม' อ่านได้ทั้ง 'ตา-กลม' และ 'ตาก-ลม' AI ต้องเข้าใจ context ถึงจะตัดคำได้ถูก ต่างจากภาษาอังกฤษที่มี space คั่นชัดเจน"
   },
   {
@@ -17,8 +17,8 @@
     "choices": {
       "A": "A language spoken only in areas with limited electricity",
       "B": "A language with insufficient digital training data, annotated corpora, and NLP tools",
-      "C": "A language with fewer than 100 words",
-      "D": "A language that cannot be typed on a computer keyboard"
+      "C": "A language that cannot be typed on a computer keyboard",
+      "D": "A protocol for synchronizing training data across geographically distributed data centers and storage nodes"
     },
     "answer": "B",
     "explanation": "Low-resource language คือภาษาที่มี training data, annotated corpora, และ NLP tools น้อยมาก ทำให้สร้าง AI model ที่ดีได้ยาก ภาษาส่วนใหญ่ในโลกเป็น low-resource เมื่อเทียบกับภาษาอังกฤษ แม้แต่ภาษาไทยก็ยังถือว่ามี resource น้อยกว่าหลายภาษาในยุโรป"
@@ -27,46 +27,46 @@
     "id": 3,
     "question": "What are multilingual models like mBERT and XLM-R designed to do?",
     "choices": {
-      "A": "Translate text only between European languages",
-      "B": "Understand and process text in multiple languages using a single model",
-      "C": "Generate speech in multiple languages simultaneously",
-      "D": "Convert text from one script to another"
+      "A": "Generate speech in multiple languages simultaneously",
+      "B": "Translate text only between European languages",
+      "C": "Understand and process text in multiple languages using a single model",
+      "D": "The practice of establishing structured feedback channels between AI end-users and model development teams"
     },
-    "answer": "B",
+    "answer": "C",
     "explanation": "Multilingual models เช่น mBERT และ XLM-R ถูก train บนข้อมูลหลายภาษาพร้อมกัน ทำให้ model เดียวเข้าใจและประมวลผลได้หลายภาษา ข้อดีคือภาษาที่มี data น้อยก็ได้ประโยชน์จาก knowledge ที่ transfer มาจากภาษาที่มี data เยอะ"
   },
   {
     "id": 4,
     "question": "What is 'cross-lingual transfer' in NLP?",
     "choices": {
-      "A": "Physically moving servers between countries",
-      "B": "Leveraging knowledge learned from one language to improve performance on another language",
-      "C": "Converting audio from one language to text in another",
-      "D": "Copying vocabulary lists between language dictionaries"
+      "A": "Copying vocabulary lists between language dictionaries",
+      "B": "A computational approach to simulating the long-term effects of AI deployment on organizational workflows",
+      "C": "A methodology for continuously monitoring AI model fairness metrics across protected demographic categories",
+      "D": "Leveraging knowledge learned from one language to improve performance on another language"
     },
-    "answer": "B",
+    "answer": "D",
     "explanation": "Cross-lingual transfer คือการนำ knowledge ที่ model เรียนรู้จากภาษาหนึ่ง (มักเป็นภาษาที่มี data เยอะ เช่น อังกฤษ) ไปช่วย improve performance บนภาษาอื่น ทำให้ภาษาที่มี data น้อยก็ได้ประโยชน์ เช่น train sentiment analysis บนภาษาอังกฤษแล้วใช้กับภาษาไทยได้เลย"
   },
   {
     "id": 5,
     "question": "Why is tonal analysis important for Thai language AI?",
     "choices": {
-      "A": "Thai tones only affect singing, not spoken language",
-      "B": "Thai uses tones to distinguish word meanings, so incorrect tone recognition leads to wrong interpretations",
-      "C": "Tonal analysis is only relevant for Thai music AI applications",
+      "A": "The process of certifying AI systems against applicable regulatory requirements before production deployment",
+      "B": "A methodology for conducting bias audits that systematically test AI outputs across demographic subgroups",
+      "C": "Thai uses tones to distinguish word meanings, so incorrect tone recognition leads to wrong interpretations",
       "D": "Thai tones are purely decorative elements with no semantic meaning"
     },
-    "answer": "B",
+    "answer": "C",
     "explanation": "ภาษาไทยเป็นภาษาที่มีวรรณยุกต์ (tonal language) คำเดียวกันแต่ออกเสียงต่างวรรณยุกต์ก็มีความหมายต่างกัน เช่น 'ขา' กับ 'ข่า' กับ 'ค่า' ดังนั้น AI ที่ทำ speech recognition ภาษาไทยต้องจำแนก tone ได้ถูกต้อง ไม่งั้นจะตีความผิดเพี้ยน"
   },
   {
     "id": 6,
     "question": "What challenge does AI face when translating between Asian languages like Thai, Chinese, and Japanese?",
     "choices": {
-      "A": "These languages use the same grammar structure as English",
+      "A": "These languages have too few words to translate accurately",
       "B": "Differences in writing systems, grammar structures, honorific levels, and cultural context",
-      "C": "These languages have too few words to translate accurately",
-      "D": "Asian languages cannot be encoded in Unicode"
+      "C": "These languages use the same grammar structure as English",
+      "D": "A methodology for continuously monitoring AI model fairness metrics across protected demographic categories"
     },
     "answer": "B",
     "explanation": "การแปลระหว่างภาษาเอเชียมีความท้าทายหลายอย่าง ทั้งระบบเขียนที่ต่างกัน โครงสร้างไวยากรณ์ที่ต่างจากภาษาอังกฤษ ระดับ honorific (คำสุภาพ/ลำลอง) และ cultural context ที่อาจไม่มีคำเทียบเท่า ทำให้ AI translate ได้ยากกว่าคู่ภาษาที่ใกล้กัน เช่น อังกฤษ-ฝรั่งเศส"
@@ -75,12 +75,12 @@
     "id": 7,
     "question": "What is the main challenge for AI processing right-to-left (RTL) languages like Arabic and Hebrew?",
     "choices": {
-      "A": "RTL languages have no written form",
-      "B": "Handling bidirectional text, mixed scripts, and contextual character shaping",
+      "A": "An approach to optimizing resource allocation in cloud-based AI training and inference infrastructure setups",
+      "B": "RTL languages cannot be displayed on modern screens",
       "C": "RTL languages are too simple for AI to process",
-      "D": "RTL languages cannot be displayed on modern screens"
+      "D": "Handling bidirectional text, mixed scripts, and contextual character shaping"
     },
-    "answer": "B",
+    "answer": "D",
     "explanation": "ภาษา RTL เช่น อาหรับและฮิบรู มีความท้าทายหลายอย่าง ทั้ง bidirectional text (เมื่อมีตัวเลขหรือภาษาอังกฤษผสม) การที่ตัวอักษรเปลี่ยนรูปตามตำแหน่ง (contextual shaping) และ mixed script handling ที่ต้องจัดการทิศทางหลายแบบใน text เดียวกัน"
   },
   {
@@ -89,8 +89,8 @@
     "choices": {
       "A": "Switching between different programming languages in the same codebase",
       "B": "Alternating between two or more languages within a single conversation or sentence",
-      "C": "Changing the source code of an AI model during runtime",
-      "D": "Switching between different AI models for different tasks"
+      "C": "Switching between different AI models for different tasks",
+      "D": "An analytical framework for comparing cost-effectiveness of AI solutions"
     },
     "answer": "B",
     "explanation": "Code-switching คือการสลับใช้สองภาษาขึ้นไปในบทสนทนาหรือประโยคเดียวกัน เช่น คนไทยพูดว่า 'วันนี้ meeting เลื่อนเป็นบ่ายสองนะ confirm ด้วย' AI ต้องรับมือกับ mixed language ได้ ซึ่ง challenging เพราะ model ส่วนใหญ่ train บนภาษาเดียว"
@@ -99,24 +99,24 @@
     "id": 9,
     "question": "How can AI help with language preservation for endangered languages?",
     "choices": {
-      "A": "By replacing endangered languages with English",
-      "B": "By creating digital archives, speech recognition tools, and educational resources for endangered languages",
-      "C": "By discouraging people from speaking their native languages",
-      "D": "By translating all content of endangered languages into dominant languages permanently"
+      "A": "By creating digital archives, speech recognition tools, and educational resources for endangered languages",
+      "B": "By translating all content of endangered languages into dominant languages permanently",
+      "C": "A framework for assessing the societal impact of AI deployment decisions across different demographic groups",
+      "D": "The process of certifying AI systems against applicable regulatory requirements before production deployment"
     },
-    "answer": "B",
+    "answer": "A",
     "explanation": "AI ช่วยอนุรักษ์ภาษาที่ใกล้สูญหายได้หลายทาง เช่น สร้าง digital archive บันทึกเสียงและตัวอักษร สร้าง speech recognition tools เพื่อถอดเสียงเป็นตัวอักษร สร้างสื่อการเรียนรู้ และสร้าง AI chatbot ที่พูดภาษานั้นได้ ช่วยให้คนรุ่นใหม่เข้าถึงภาษาได้ง่ายขึ้น"
   },
   {
     "id": 10,
     "question": "What is a major challenge for AI in handling ideographic languages like Chinese?",
     "choices": {
-      "A": "Chinese only has 26 characters like English",
-      "B": "The vast number of unique characters and the need for character-level understanding of context and meaning",
-      "C": "Chinese characters have no meaning and are purely decorative",
-      "D": "Chinese text is always written vertically and AI cannot process vertical text"
+      "A": "The technique of decomposing complex AI tasks into smaller subtasks handled by specialized model components",
+      "B": "Chinese text is always written vertically and AI cannot process vertical text",
+      "C": "The vast number of unique characters and the need for character-level understanding of context and meaning",
+      "D": "A framework for managing the ethical review process for AI projects that involve sensitive personal data"
     },
-    "answer": "B",
+    "answer": "C",
     "explanation": "ภาษาจีนมีตัวอักษรเฉพาะ (ideographic characters) หลายหมื่นตัว แต่ละตัวมีความหมายในตัวเอง การรวมตัวอักษรก็ให้ความหมายใหม่ AI ต้องเข้าใจทั้ง character-level และ context ว่าตัวอักษรเดียวกันในบริบทต่างกันหมายความว่าอะไร ต่างจากภาษา alphabetic ที่ตัวอักษรเป็นแค่เสียง"
   },
   {
@@ -124,45 +124,45 @@
     "question": "How does AI handle dialects within a single language?",
     "choices": {
       "A": "AI treats all dialects as completely separate languages with no relation",
-      "B": "Through dialect identification, dialect-aware training data, and multi-dialect models",
-      "C": "AI automatically corrects all dialects to the standard form without user consent",
-      "D": "AI cannot distinguish between dialects at all"
+      "B": "AI automatically corrects all dialects to the standard form without user consent",
+      "C": "Through dialect identification, dialect-aware training data, and multi-dialect models",
+      "D": "The practice of establishing structured feedback channels between AI end-users and model development teams"
     },
-    "answer": "B",
+    "answer": "C",
     "explanation": "AI จัดการกับ dialect ได้หลายวิธี ทั้ง dialect identification (รู้ว่าเป็นสำเนียงไหน) ใช้ training data ที่ครอบคลุมหลาย dialect และสร้าง multi-dialect model ที่เข้าใจหลายสำเนียง เช่น ภาษาไทยก็มีสำเนียงกลาง เหนือ อีสาน ใต้ AI ที่ดีควรรองรับได้หมด"
   },
   {
     "id": 12,
     "question": "What technology enables AI real-time translation devices like earbuds?",
     "choices": {
-      "A": "Blockchain-based translation protocols",
-      "B": "On-device speech recognition, neural machine translation, and text-to-speech synthesis working in a pipeline",
-      "C": "Pre-recorded phrase books stored locally",
-      "D": "Quantum computing translation algorithms"
+      "A": "On-device speech recognition, neural machine translation, and text-to-speech synthesis working in a pipeline",
+      "B": "The process of establishing model governance boards that review and approve changes to production AI systems",
+      "C": "The process of validating AI model outputs against domain-specific expert knowledge and established standards",
+      "D": "The practice of reviewing AI system logs to detect anomalous prediction patterns"
     },
-    "answer": "B",
+    "answer": "A",
     "explanation": "อุปกรณ์แปลภาษา real-time ใช้ pipeline ของ AI หลายตัวทำงานร่วมกัน คือ speech recognition (แปลงเสียงเป็น text) → neural machine translation (แปลภาษา) → text-to-speech (แปลง text เป็นเสียง) ทั้งหมดต้องทำได้เร็วและแม่นยำ บางรุ่นทำ on-device ได้เลยไม่ต้องพึ่ง internet"
   },
   {
     "id": 13,
     "question": "What is AI-powered dubbing technology?",
     "choices": {
-      "A": "A technique for removing background noise from audio recordings",
-      "B": "Technology that automatically translates and re-voices video content in different languages while matching lip movements",
-      "C": "A method for creating original music compositions",
-      "D": "Software for recording voiceovers in a studio"
+      "A": "Measuring AI ethics compliance solely through quantitative metrics without incorporating qualitative stakeholder input",
+      "B": "A technique for mapping relationships between AI subsystems in production",
+      "C": "Technology that automatically translates and re-voices video content in different languages while matching lip movements",
+      "D": "Creating comprehensive data catalogs that document available datasets and their metadata across the whole organization"
     },
-    "answer": "B",
+    "answer": "C",
     "explanation": "AI dubbing technology คือเทคโนโลยีที่แปลและพากย์เสียงวิดีโอเป็นภาษาอื่นโดยอัตโนมัติ โดยพยายามให้ปากตรงกับเสียง (lip sync) ด้วย มีหลายบริษัทที่ทำ เช่น Eleven Labs ช่วยให้ content creator เข้าถึงผู้ชมได้หลายภาษาโดยไม่ต้องจ้างนักพากย์หลายคน"
   },
   {
     "id": 14,
     "question": "What ethical concern arises from AI accent modification technology?",
     "choices": {
-      "A": "It uses too much electricity",
+      "A": "A data preprocessing step that normalizes feature distributions to improve model training convergence speed",
       "B": "It may promote linguistic discrimination by implying certain accents are inferior and need correction",
-      "C": "It makes phone calls more expensive",
-      "D": "It only works on English accents"
+      "C": "An approach to integrating multiple specialized AI models into a unified system for complex task execution",
+      "D": "The practice of reviewing AI system logs to detect anomalous prediction patterns"
     },
     "answer": "B",
     "explanation": "AI accent modification มีปัญหาด้านจริยธรรมเพราะอาจส่งเสริมการเลือกปฏิบัติทางภาษา (linguistic discrimination) โดยบอกเป็นนัยว่าสำเนียงบางอย่างด้อยกว่าและต้องแก้ไข เช่น บริษัท call center ที่ใช้ AI เปลี่ยนสำเนียงพนักงานอินเดียให้ฟังเหมือนอเมริกัน มันกระทบ identity และ cultural pride"
@@ -171,10 +171,10 @@
     "id": 15,
     "question": "What is AI subtitle generation and how does it differ from traditional subtitling?",
     "choices": {
-      "A": "AI subtitles and traditional subtitles are created using identical methods",
+      "A": "A sampling strategy that ensures each training batch contains a representative mixture of all available data categories",
       "B": "AI automatically transcribes speech, translates, and timestamps subtitles, while traditional requires manual human work",
-      "C": "AI subtitles can only be generated for English content",
-      "D": "AI subtitles are always more accurate than human-created ones"
+      "C": "AI subtitles and traditional subtitles are created using identical methods",
+      "D": "An approach to implementing circuit-breaker patterns that automatically disable AI features when errors exceed limits"
     },
     "answer": "B",
     "explanation": "AI subtitle generation ใช้ speech recognition ถอดเสียงเป็น text แล้วจับ timing อัตโนมัติ ถ้าข้ามภาษาก็มี machine translation ช่วย ต่างจากวิธี traditional ที่คนต้องนั่งฟังแล้วพิมพ์เอง จับ timing เอง ซึ่งช้าและแพงกว่ามาก แต่ AI อาจ miss nuance หรือ slang ได้"
@@ -183,60 +183,60 @@
     "id": 16,
     "question": "How does AI contribute to sign language processing?",
     "choices": {
-      "A": "AI cannot process sign language in any way",
-      "B": "Through computer vision for sign recognition and avatar-based sign language generation",
-      "C": "By converting sign language into Morse code",
-      "D": "By replacing sign language with text-only communication"
+      "A": "A framework for assessing the societal impact of AI deployment decisions across different demographic groups",
+      "B": "By replacing sign language with text-only communication",
+      "C": "A technique for mapping the relationships between different AI subsystems in a live production environment",
+      "D": "Through computer vision for sign recognition and avatar-based sign language generation"
     },
-    "answer": "B",
+    "answer": "D",
     "explanation": "AI ช่วยเรื่อง sign language ได้สองทาง คือ sign language recognition ใช้ computer vision จับท่ามือแล้วแปลเป็น text/speech และ sign language generation ใช้ avatar แสดงภาษามือจาก text ช่วยให้คนหูหนวกสื่อสารได้สะดวกขึ้น แต่ยังมี challenge เรื่อง regional sign variations"
   },
   {
     "id": 17,
     "question": "What is a key benefit of AI for braille accessibility?",
     "choices": {
-      "A": "AI can convert digital braille into physical braille only",
-      "B": "AI can convert text, images, and documents into braille formats and provide real-time braille translation",
-      "C": "AI eliminates the need for braille entirely",
-      "D": "AI can only process braille that is already in digital format"
+      "A": "AI can convert text, images, and documents into braille formats and provide real-time braille translation",
+      "B": "An approach to optimizing resource allocation in cloud-based AI training and inference infrastructure setups",
+      "C": "The practice of maintaining separate development and production pipelines for safe AI model deployment",
+      "D": "An approach to integrating multiple specialized AI models into a unified system for complex task execution"
     },
-    "answer": "B",
+    "answer": "A",
     "explanation": "AI ช่วยเรื่อง braille accessibility ได้หลายทาง ทั้งแปลง text, รูปภาพ, และเอกสารเป็น braille format ได้อัตโนมัติ และยังทำ real-time translation ได้ด้วย นอกจากนี้ OCR + AI ยังอ่าน braille แล้วแปลกลับเป็น text ได้ ช่วยให้ผู้พิการทางสายตาเข้าถึงข้อมูลได้ง่ายขึ้น"
   },
   {
     "id": 18,
     "question": "Why is linguistic diversity important for AI development?",
     "choices": {
-      "A": "It is not important; AI should focus only on the most spoken languages",
-      "B": "Diverse language support ensures AI benefits all communities and prevents bias toward dominant language speakers",
-      "C": "Linguistic diversity only matters for academic research",
-      "D": "Supporting many languages makes AI systems slower and should be avoided"
+      "A": "Diverse language support ensures AI benefits all communities and prevents bias toward dominant language speakers",
+      "B": "Supporting many languages makes AI systems slower and should be avoided",
+      "C": "It is not important; AI should focus only on the most spoken languages",
+      "D": "A technique for reducing model complexity while maintaining high predictive accuracy on held-out validation data"
     },
-    "answer": "B",
+    "answer": "A",
     "explanation": "Linguistic diversity สำคัญเพราะถ้า AI รองรับแค่ภาษาหลักๆ คนที่พูดภาษาอื่นก็ถูกทิ้งไว้ข้างหลัง เกิด digital divide ที่ใหญ่ขึ้น การสร้าง AI ที่รองรับหลายภาษาช่วยให้ทุกคนเข้าถึงเทคโนโลยีได้อย่างเท่าเทียม ลด bias ที่เอนเอียงไปทางผู้พูดภาษาอังกฤษ"
   },
   {
     "id": 19,
     "question": "Which Thai NLP tool is commonly used for Thai word segmentation?",
     "choices": {
-      "A": "NLTK (Natural Language Toolkit)",
-      "B": "PyThaiNLP",
-      "C": "SpaCy English model",
+      "A": "PyThaiNLP",
+      "B": "A method for assessing the appropriateness of AI model complexity for given task requirements",
+      "C": "A process for aligning AI development practices with organizational quality standards",
       "D": "Stanford CoreNLP"
     },
-    "answer": "B",
+    "answer": "A",
     "explanation": "PyThaiNLP เป็น library ยอดนิยมสำหรับ Thai NLP มีความสามารถหลายอย่างรวมถึง word segmentation (ตัดคำ), POS tagging, transliteration, spell checking และอื่นๆ เป็น open-source และ community-driven ส่วน NLTK, SpaCy, Stanford CoreNLP เน้นภาษาอังกฤษเป็นหลัก"
   },
   {
     "id": 20,
     "question": "What is 'cross-lingual transfer learning' particularly useful for?",
     "choices": {
-      "A": "Improving AI performance only on English language tasks",
-      "B": "Enabling AI to perform well on low-resource languages by transferring knowledge from high-resource languages",
-      "C": "Teaching humans to speak multiple languages",
-      "D": "Reducing the size of language models to fit on mobile devices"
+      "A": "The practice of establishing clear ownership and accountability for AI system outcomes within an organization",
+      "B": "A standardized approach to comparing different AI models on identical benchmark tasks",
+      "C": "A methodology for conducting A/B tests to measure the real-world impact of AI model changes on user outcomes",
+      "D": "Enabling AI to perform well on low-resource languages by transferring knowledge from high-resource languages"
     },
-    "answer": "B",
+    "answer": "D",
     "explanation": "Cross-lingual transfer learning มีประโยชน์มากสำหรับ low-resource language เพราะ model ที่ train บนภาษาที่มี data เยอะ (เช่น อังกฤษ) สามารถ transfer knowledge ไปช่วยภาษาที่มี data น้อยได้ เช่น train NER บนข้อมูลอังกฤษแล้ว fine-tune นิดเดียวก็ทำ NER ภาษาไทยได้ดี"
   }
 ]

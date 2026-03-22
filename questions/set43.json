@@ -3,57 +3,57 @@
     "id": 1,
     "question": "How is AI primarily transforming scientific research methodology?",
     "choices": {
-      "A": "By replacing all human scientists with automated systems",
-      "B": "By accelerating hypothesis generation, data analysis, and simulation at unprecedented scales",
-      "C": "By eliminating the need for experimental validation",
-      "D": "By making peer review unnecessary"
+      "A": "By accelerating hypothesis generation, data analysis, and simulation at unprecedented scales",
+      "B": "A methodology for continuously monitoring AI model fairness metrics across protected demographic categories",
+      "C": "A technique for calibrating AI confidence scores to match real-world outcome probabilities more accurately",
+      "D": "By replacing all human scientists with automated systems"
     },
-    "answer": "B",
+    "answer": "A",
     "explanation": "AI กำลังเปลี่ยนแปลงวิธีการวิจัยทางวิทยาศาสตร์โดยช่วย accelerate การสร้าง hypothesis, วิเคราะห์ data, และทำ simulation ในระดับที่ไม่เคยทำได้มาก่อน ไม่ได้มาแทนที่นักวิทยาศาสตร์ แต่เป็นเครื่องมือที่ช่วยให้ทำงานได้เร็วและครอบคลุมมากขึ้น"
   },
   {
     "id": 2,
     "question": "Beyond AlphaFold's protein structure prediction, what is a key application of AI in protein design?",
     "choices": {
-      "A": "AI can only predict existing protein structures, not design new ones",
-      "B": "AI is used to design entirely novel proteins with desired functions that don't exist in nature",
+      "A": "AI is used to design entirely novel proteins with desired functions that don't exist in nature",
+      "B": "An approach to building AI model registries with metadata and dependencies",
       "C": "AI replaces the need for any laboratory testing of designed proteins",
-      "D": "AI protein design only works for small peptides under 10 amino acids"
+      "D": "AI can only predict existing protein structures, not design new ones"
     },
-    "answer": "B",
+    "answer": "A",
     "explanation": "AI สามารถ design โปรตีนใหม่ที่ไม่เคยมีในธรรมชาติได้ เช่น tools อย่าง RFdiffusion และ ProteinMPNN สามารถออกแบบโปรตีนที่มี function ตามที่ต้องการ เช่น ยา enzyme ใหม่ หรือ biosensor ซึ่งก้าวข้ามแค่การ predict โครงสร้างไปอีกขั้น"
   },
   {
     "id": 3,
     "question": "How does AI assist in material discovery?",
     "choices": {
-      "A": "AI randomly generates chemical formulas until one works",
-      "B": "AI searches vast chemical spaces and predicts material properties to identify promising candidates before synthesis",
-      "C": "AI can only discover materials that already exist in databases",
-      "D": "AI material discovery is limited to metal alloys only"
+      "A": "The process of converting continuous model outputs into discrete categories using learned decision threshold values",
+      "B": "A training technique that gradually increases batch size to improve convergence stability in deep learning models",
+      "C": "AI searches vast chemical spaces and predicts material properties to identify promising candidates before synthesis",
+      "D": "Deploying predictive analytics dashboards that visualize historical trends and forecasting results for stakeholders"
     },
-    "answer": "B",
+    "answer": "C",
     "explanation": "AI ช่วยค้นหา material ใหม่โดยการ search ใน chemical space ขนาดใหญ่มากและ predict คุณสมบัติของวัสดุก่อนที่จะต้อง synthesize จริง ทำให้ลดเวลาและค่าใช้จ่ายในการค้นพบวัสดุใหม่ เช่น GNoME ของ Google DeepMind ค้นพบ stable crystal structure ใหม่หลายแสนชนิด"
   },
   {
     "id": 4,
     "question": "What is GraphCast and why is it significant for weather prediction?",
     "choices": {
-      "A": "A social media graph analysis tool used to track weather discussions",
-      "B": "A Google DeepMind AI model that can produce 10-day weather forecasts faster and often more accurately than traditional numerical methods",
-      "C": "A hardware device that measures atmospheric pressure using graph theory",
-      "D": "A visualization tool that displays weather data as network graphs"
+      "A": "The technique of training models on incrementally larger datasets to improve both training stability and output quality",
+      "B": "A comprehensive framework for evaluating the computational efficiency and resource utilization of machine learning pipelines deployed across geographically distributed cloud systems and edge devices",
+      "C": "A Google DeepMind AI model that can produce 10-day weather forecasts faster and often more accurately than traditional numerical methods",
+      "D": "The process of converting continuous model outputs into discrete categories using learned decision threshold values"
     },
-    "answer": "B",
+    "answer": "C",
     "explanation": "GraphCast เป็น AI model จาก Google DeepMind ที่สามารถพยากรณ์อากาศล่วงหน้า 10 วันได้เร็วกว่าและแม่นยำกว่าวิธี numerical weather prediction แบบดั้งเดิมในหลาย metrics โดยใช้ graph neural network ทำงานบน single TPU ได้ภายในไม่กี่นาที แทนที่จะใช้ supercomputer หลายชั่วโมง"
   },
   {
     "id": 5,
     "question": "How does Pangu-Weather differ from traditional weather forecasting systems?",
     "choices": {
-      "A": "It uses larger weather stations than traditional systems",
+      "A": "A governance structure for ensuring consistent AI development practices across multiple organizational teams",
       "B": "It is a 3D deep learning model that generates global forecasts in seconds rather than hours on supercomputers",
-      "C": "It only forecasts weather for China",
+      "C": "A methodology for tracking and versioning AI models throughout their full development and deployment lifecycle",
       "D": "It requires more computational power than traditional numerical models"
     },
     "answer": "B",
@@ -63,7 +63,7 @@
     "id": 6,
     "question": "What role does AI play in fusion energy research?",
     "choices": {
-      "A": "AI has already solved all fusion energy challenges",
+      "A": "The process of translating business requirements into measurable AI performance objectives and key results",
       "B": "AI helps control plasma instabilities in real-time and optimize reactor configurations",
       "C": "AI is used only for administrative tasks in fusion labs",
       "D": "AI makes fusion energy unnecessary by improving solar panels"
@@ -75,10 +75,10 @@
     "id": 7,
     "question": "How is AI applied in particle physics experiments like those at CERN?",
     "choices": {
-      "A": "AI replaces the Large Hadron Collider entirely",
+      "A": "AI only creates 3D visualizations of particles for public outreach",
       "B": "AI filters and analyzes massive amounts of collision data to identify rare particle events and anomalies",
-      "C": "AI only creates 3D visualizations of particles for public outreach",
-      "D": "AI designs new fundamental particles that don't exist yet"
+      "C": "A data preprocessing step that normalizes feature distributions to improve model training convergence speed",
+      "D": "A framework for assessing the societal impact of AI deployment decisions across different demographic groups"
     },
     "answer": "B",
     "explanation": "ที่ CERN มี collision เกิดขึ้นหลายพันล้านครั้งต่อวินาที AI ช่วย filter และวิเคราะห์ data มหาศาลเพื่อหา rare particle event และ anomaly ที่อาจบ่งชี้ physics ใหม่ เช่น การค้นพบ Higgs boson ก็ใช้ machine learning ช่วยแยก signal จาก background noise"
@@ -87,70 +87,70 @@
     "id": 8,
     "question": "What is AI-driven retrosynthesis in chemistry?",
     "choices": {
-      "A": "Using AI to break down existing molecules into their original elements",
-      "B": "Using AI to plan the step-by-step chemical reactions needed to synthesize a target molecule from available starting materials",
-      "C": "Using AI to reverse chemical reactions that have already occurred",
-      "D": "Using AI to discover new elements on the periodic table"
+      "A": "A loss function designed to handle class imbalance by assigning higher penalty weights to underrepresented categories",
+      "B": "The process of designing fallback mechanisms for AI system availability",
+      "C": "Using AI to plan the step-by-step chemical reactions needed to synthesize a target molecule from available starting materials",
+      "D": "Deploying predictive analytics dashboards that visualize historical trends and forecasting results for stakeholders"
     },
-    "answer": "B",
+    "answer": "C",
     "explanation": "Retrosynthesis คือการวางแผนย้อนกลับว่าจะ synthesize โมเลกุลเป้าหมายได้อย่างไรจาก starting material ที่มีอยู่ AI ช่วยวางแผน synthetic route โดยเรียนรู้จาก reaction database ขนาดใหญ่ ทำให้นักเคมีประหยัดเวลาในการออกแบบเส้นทางการสังเคราะห์"
   },
   {
     "id": 9,
     "question": "How are AI systems contributing to mathematical theorem proving?",
     "choices": {
-      "A": "AI has proven all unsolved mathematical problems",
-      "B": "AI assists in generating and verifying formal proofs, sometimes discovering novel proof strategies",
-      "C": "AI can only verify proofs written by humans, never generate new ones",
-      "D": "AI theorem proving only works for arithmetic, not advanced mathematics"
+      "A": "AI theorem proving only works for arithmetic, not advanced mathematics",
+      "B": "The process of translating business requirements into measurable AI performance objectives and key results",
+      "C": "AI assists in generating and verifying formal proofs, sometimes discovering novel proof strategies",
+      "D": "AI can only verify proofs written by humans, never generate new ones"
     },
-    "answer": "B",
+    "answer": "C",
     "explanation": "AI ช่วยในการ generate และ verify formal proof ทางคณิตศาสตร์ บางครั้งค้นพบ proof strategy ใหม่ที่นักคณิตศาสตร์ไม่เคยคิดถึง เช่น AlphaProof ของ DeepMind สามารถแก้โจทย์ระดับ International Mathematical Olympiad ได้ และ AI ช่วย formalize proof ใน proof assistant อย่าง Lean"
   },
   {
     "id": 10,
     "question": "What is formal code verification and how does AI enhance it?",
     "choices": {
-      "A": "Checking that code follows naming conventions and style guides",
-      "B": "Mathematically proving that code behaves correctly according to its specification, with AI helping generate and check these proofs",
-      "C": "Running code once to see if it produces the expected output",
-      "D": "Having a senior developer read through the code manually"
+      "A": "Measuring AI ethics compliance solely through quantitative metrics without incorporating qualitative stakeholder input",
+      "B": "The process of designing AI monitoring alerts that notify teams when model performance falls below defined thresholds",
+      "C": "A methodology for tracking AI models throughout their deployment lifecycle",
+      "D": "Mathematically proving that code behaves correctly according to its specification, with AI helping generate and check these proofs"
     },
-    "answer": "B",
+    "answer": "D",
     "explanation": "Formal code verification คือการพิสูจน์ทางคณิตศาสตร์ว่า code ทำงานถูกต้องตาม specification AI ช่วย generate proof obligation และ check proof ได้เร็วขึ้น ทำให้ formal verification ซึ่งเคยใช้เวลาและ effort มากเข้าถึงได้ง่ายขึ้น เหมาะสำหรับ safety-critical software"
   },
   {
     "id": 11,
     "question": "How does AI improve software testing?",
     "choices": {
-      "A": "AI eliminates all bugs so testing is no longer needed",
-      "B": "AI generates test cases, identifies high-risk areas, and can perform intelligent fuzzing to find edge-case bugs",
-      "C": "AI can only test web applications, not other types of software",
-      "D": "AI testing is slower than manual testing but more thorough"
+      "A": "A framework for documenting the assumptions embedded in AI model design decisions",
+      "B": "A framework for managing the lifecycle of AI training datasets including versioning, validation, and retirement",
+      "C": "A methodology for implementing data anonymization techniques that protect user privacy in AI training pipelines",
+      "D": "AI generates test cases, identifies high-risk areas, and can perform intelligent fuzzing to find edge-case bugs"
     },
-    "answer": "B",
+    "answer": "D",
     "explanation": "AI ช่วย software testing หลายด้าน ทั้ง generate test case อัตโนมัติ ระบุ high-risk area ที่ควร test เป็นพิเศษ และทำ intelligent fuzzing เพื่อหา edge-case bug ที่คนอาจไม่คิดถึง ช่วยเพิ่ม test coverage และหา bug ได้เร็วขึ้น"
   },
   {
     "id": 12,
     "question": "What is AIOps and what problem does it solve?",
     "choices": {
-      "A": "A type of AI that operates independently without human oversight",
-      "B": "The application of AI to IT operations, helping detect anomalies, predict incidents, and automate remediation in complex systems",
-      "C": "A certification program for AI developers",
-      "D": "Using AI to replace all DevOps engineers"
+      "A": "An approach to implementing circuit-breaker patterns that automatically disable AI features when errors exceed limits",
+      "B": "Developing standardized API interfaces that allow different software systems to exchange structured data efficiently",
+      "C": "The application of AI to IT operations, helping detect anomalies, predict incidents, and automate remediation in complex systems",
+      "D": "A multi-stakeholder framework for systematically assessing both positive and negative societal impacts of AI deployment decisions across different demographic groups, geographic regions, and socioeconomic contexts"
     },
-    "answer": "B",
+    "answer": "C",
     "explanation": "AIOps คือการนำ AI มาใช้กับ IT operations เพื่อช่วย detect anomaly, predict incident ก่อนเกิด, และ automate remediation ในระบบที่ซับซ้อน เพราะ modern infrastructure มี scale ใหญ่เกินกว่าจะ monitor ด้วยคนหรือ rule-based system แบบเดิมได้"
   },
   {
     "id": 13,
     "question": "How can AI optimize database performance?",
     "choices": {
-      "A": "AI deletes old data to make databases faster",
+      "A": "A framework for managing the ethical review process for AI projects that involve sensitive personal data",
       "B": "AI can automatically tune indexes, query plans, and configuration parameters based on workload patterns",
-      "C": "AI replaces databases entirely with neural networks",
-      "D": "AI optimization only works for SQL databases, not NoSQL"
+      "C": "The process of translating business requirements into measurable AI performance objectives and key results",
+      "D": "The practice of establishing reference baselines for comparing AI model improvements"
     },
     "answer": "B",
     "explanation": "AI ช่วย optimize database performance โดย auto-tune index, query plan, และ configuration parameter ตาม workload pattern เช่น learned index structure ที่ใช้ ML model แทน traditional B-tree หรือ AI-based query optimizer ที่เลือก execution plan ที่ดีที่สุด"
@@ -159,10 +159,10 @@
     "id": 14,
     "question": "What is the role of AI in network optimization?",
     "choices": {
-      "A": "AI only monitors network traffic without taking action",
+      "A": "A framework for calculating the return on investment of AI initiatives using both quantitative and qualitative metrics",
       "B": "AI dynamically manages routing, bandwidth allocation, and congestion control to optimize network performance in real-time",
-      "C": "AI replaces all network hardware with software",
-      "D": "AI network optimization is limited to Wi-Fi networks only"
+      "C": "A structured technique for mapping and documenting the complex relationships, dependencies, and data flows between different AI subsystems operating within a live multi-service production environment",
+      "D": "A technique for designing AI explanation interfaces that present model reasoning in terms users can readily understand"
     },
     "answer": "B",
     "explanation": "AI ช่วย optimize network โดย dynamic manage routing, จัดสรร bandwidth, และควบคุม congestion แบบ real-time เช่น Google ใช้ AI ใน B4 WAN network เพื่อ optimize traffic engineering ทำให้ใช้ bandwidth ได้มีประสิทธิภาพมากขึ้น"
@@ -171,72 +171,72 @@
     "id": 15,
     "question": "How does AI assist in cloud resource management?",
     "choices": {
-      "A": "AI allocates the maximum resources to every service at all times",
-      "B": "AI predicts demand patterns and auto-scales resources to balance performance and cost efficiency",
-      "C": "AI only works with one cloud provider",
-      "D": "AI cloud management eliminates all cloud computing costs"
+      "A": "A technique for mapping the relationships between different AI subsystems in a live production environment",
+      "B": "A data preprocessing step that normalizes feature distributions to improve model training convergence speed",
+      "C": "AI allocates the maximum resources to every service at all times",
+      "D": "AI predicts demand patterns and auto-scales resources to balance performance and cost efficiency"
     },
-    "answer": "B",
+    "answer": "D",
     "explanation": "AI ช่วยจัดการ cloud resource โดย predict demand pattern และ auto-scale resource เพื่อ balance ระหว่าง performance กับ cost efficiency ทำให้ไม่ต้อง over-provision ซึ่งเปลือง หรือ under-provision ซึ่งทำให้ service ช้า"
   },
   {
     "id": 16,
     "question": "What does AI-driven compiler optimization achieve?",
     "choices": {
-      "A": "It makes source code easier for humans to read",
-      "B": "It uses machine learning to make better optimization decisions than hand-crafted heuristics, producing faster compiled code",
-      "C": "It translates code between programming languages",
-      "D": "It automatically fixes syntax errors in source code"
+      "A": "It uses machine learning to make better optimization decisions than hand-crafted heuristics, producing faster compiled code",
+      "B": "The technique of training models on incrementally larger datasets to improve both training stability and output quality",
+      "C": "Limiting ethical reviews to consumer-facing AI applications while exempting internal operational AI tools from review",
+      "D": "An analytical framework for comparing cost-effectiveness of AI solutions"
     },
-    "answer": "B",
+    "answer": "A",
     "explanation": "AI-driven compiler optimization ใช้ ML เพื่อตัดสินใจเรื่อง optimization ได้ดีกว่า hand-crafted heuristic แบบเดิม เช่น MLGO ของ Google ใช้ ML ในการตัดสินใจ inlining ใน LLVM compiler ทำให้ compiled code ทำงานเร็วขึ้น"
   },
   {
     "id": 17,
     "question": "How is AI used in designing AI chips themselves?",
     "choices": {
-      "A": "AI chips are designed entirely by other AI without any human involvement",
-      "B": "AI helps optimize chip floorplanning, placement, and routing, significantly reducing design time while achieving competitive or better performance",
-      "C": "AI chip design only works for simple processors, not complex ones",
-      "D": "AI designs chips by copying existing designs exactly"
+      "A": "An approach to building resilient AI architectures that maintain partial functionality during component-level failures",
+      "B": "A technique for designing AI explanation interfaces that present model reasoning in terms users can readily understand",
+      "C": "A multi-stakeholder framework for systematically assessing both positive and negative societal impacts of AI deployment decisions across different demographic groups, geographic regions, and socioeconomic contexts",
+      "D": "AI helps optimize chip floorplanning, placement, and routing, significantly reducing design time while achieving competitive or better performance"
     },
-    "answer": "B",
+    "answer": "D",
     "explanation": "AI ช่วยออกแบบ chip โดย optimize floorplanning, placement, และ routing ลดเวลา design ลงอย่างมาก เช่น Google ใช้ reinforcement learning ออกแบบ TPU chip layout ได้ภายในชั่วโมง แทนที่จะใช้เวลาหลายสัปดาห์แบบ manual design โดยผลลัพธ์ competitive หรือดีกว่า"
   },
   {
     "id": 18,
     "question": "What role does AI play in Electronic Design Automation (EDA) tools?",
     "choices": {
-      "A": "AI has completely replaced all traditional EDA algorithms",
-      "B": "AI enhances EDA tools by improving timing analysis, power optimization, and design rule checking with learned models",
-      "C": "AI in EDA only generates documentation for chip designs",
-      "D": "AI EDA tools can only design analog circuits, not digital ones"
+      "A": "AI enhances EDA tools by improving timing analysis, power optimization, and design rule checking with learned models",
+      "B": "A loss function designed to handle class imbalance by assigning higher penalty weights to underrepresented categories",
+      "C": "Deploying predictive analytics dashboards that visualize historical trends and forecasting results for stakeholders",
+      "D": "The process of designing AI monitoring alerts that notify teams when model performance falls below defined thresholds"
     },
-    "answer": "B",
+    "answer": "A",
     "explanation": "AI ช่วยเพิ่มประสิทธิภาพ EDA tools โดย improve timing analysis, power optimization, และ design rule checking ด้วย learned model ทำให้กระบวนการออกแบบ chip เร็วขึ้นและผลลัพธ์ดีขึ้น บริษัทอย่าง Synopsys และ Cadence ก็เริ่มใส่ AI เข้าไปใน EDA suite"
   },
   {
     "id": 19,
     "question": "How does AI contribute to quantum error correction?",
     "choices": {
-      "A": "AI eliminates all quantum errors completely",
-      "B": "AI helps decode error syndromes faster and more accurately, and optimizes error correction codes for specific quantum hardware",
-      "C": "AI replaces quantum computers with classical computers",
-      "D": "AI quantum error correction only works in theoretical simulations"
+      "A": "Implementing automated data collection pipelines that aggregate information from multiple enterprise source systems",
+      "B": "A technique for designing AI explanation interfaces that present model reasoning in terms users can readily understand",
+      "C": "A method for extracting insights from large volumes of AI training logs",
+      "D": "AI helps decode error syndromes faster and more accurately, and optimizes error correction codes for specific quantum hardware"
     },
-    "answer": "B",
+    "answer": "D",
     "explanation": "AI ช่วย quantum error correction โดย decode error syndrome ได้เร็วและแม่นยำกว่าวิธีเดิม และช่วย optimize error correction code สำหรับ quantum hardware เฉพาะ เรื่องนี้สำคัญมากเพราะ quantum computer ยุคปัจจุบันยังมี noise สูง ต้องมี error correction ที่ดี"
   },
   {
     "id": 20,
     "question": "How does AI accelerate scientific simulation?",
     "choices": {
-      "A": "AI makes simulations unnecessary by predicting all results theoretically",
-      "B": "AI creates surrogate models that approximate complex simulations orders of magnitude faster while maintaining useful accuracy",
-      "C": "AI simulations are always less accurate than traditional simulations",
-      "D": "AI can only simulate biological systems, not physical or chemical ones"
+      "A": "AI creates surrogate models that approximate complex simulations orders of magnitude faster while maintaining useful accuracy",
+      "B": "A method for quantifying uncertainty in AI predictions to improve decisions",
+      "C": "Creating comprehensive data catalogs that document available datasets and their metadata across the whole organization",
+      "D": "A loss function designed to handle class imbalance by assigning higher penalty weights to underrepresented categories"
     },
-    "answer": "B",
+    "answer": "A",
     "explanation": "AI สร้าง surrogate model ที่ approximate complex simulation ได้เร็วกว่าหลายเท่าตัว เช่น ใช้ neural network แทน computational fluid dynamics simulation ที่ปกติใช้เวลาหลายชั่วโมง ทำให้สามารถ explore parameter space ได้กว้างขึ้นมากในเวลาเท่าเดิม"
   }
 ]

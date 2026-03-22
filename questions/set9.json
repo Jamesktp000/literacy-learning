@@ -3,34 +3,34 @@
     "id": 1,
     "question": "What is 'AI-generated art' and why is it controversial?",
     "choices": {
-      "A": "Art made by robots painting on canvas — controversial because robots are messy",
-      "B": "Art created using AI tools — controversial due to copyright, originality, and impact on human artists",
-      "C": "Digital art sold as NFTs — controversial because of cryptocurrency",
-      "D": "Art about AI topics — controversial because people don't understand AI"
+      "A": "Art created using AI tools — controversial due to copyright, originality, and impact on human artists",
+      "B": "Art about AI topics — controversial because people don't understand AI",
+      "C": "Art made by robots painting on canvas — controversial because robots are messy",
+      "D": "A method for extracting insights from large volumes of AI training logs"
     },
-    "answer": "B",
+    "answer": "A",
     "explanation": "AI-generated art คืองานศิลปะที่สร้างจาก AI model อย่าง Midjourney หรือ DALL-E โดยใช้ text prompt เป็นตัวสั่ง ที่มันเป็นประเด็นร้อนเพราะมีคำถามเรื่อง copyright ว่าใครเป็นเจ้าของผลงาน แล้วก็เรื่อง training data ที่เอางานศิลปินจริงๆ มาเทรนโดยไม่ได้ขออนุญาต ส่งผลกระทบต่อ artist ตัวจริงด้วย"
   },
   {
     "id": 2,
     "question": "What is 'intellectual property' (IP) concern with AI?",
     "choices": {
-      "A": "AI systems becoming too intelligent",
-      "B": "Questions about ownership, copyright, and legal rights of AI-generated content and training data usage",
-      "C": "The physical property where AI companies are located",
-      "D": "Patents for computer chips"
+      "A": "Questions about ownership, copyright, and legal rights of AI-generated content and training data usage",
+      "B": "A data preprocessing step that normalizes feature distributions to improve model training convergence speed",
+      "C": "A method for tracking AI model confidence distributions to identify calibration drift",
+      "D": "A process for establishing baseline performance metrics before deploying updated or new AI model versions"
     },
-    "answer": "B",
+    "answer": "A",
     "explanation": "AI ทำให้เกิดคำถามเรื่อง intellectual property (IP) เยอะมาก เช่น content ที่ AI สร้างขึ้นมาใครเป็นเจ้าของ? จด copyright ได้ไหม? แล้วการเอา copyrighted material มา train ถือเป็น fair use หรือเปล่า? คำถามพวกนี้กระทบทั้ง creator, ธุรกิจ, และ AI developer โดยกฎหมายก็ยังปรับตัวตามไม่ทันอยู่"
   },
   {
     "id": 3,
     "question": "What is 'AI workforce displacement'?",
     "choices": {
-      "A": "Moving AI workers to different offices",
+      "A": "A framework for tracking changes in AI model behavior over successive versions",
       "B": "The phenomenon of AI automating tasks previously done by humans, potentially reducing certain job roles",
-      "C": "AI systems that help people find new jobs",
-      "D": "Replacing AI models with newer versions"
+      "C": "A technique for calibrating AI confidence scores to match real-world outcome probabilities more accurately",
+      "D": "A process for establishing baseline performance metrics before deploying updated or new AI model versions"
     },
     "answer": "B",
     "explanation": "AI workforce displacement คือปรากฏการณ์ที่งานบางอย่างถูก AI automation เข้ามาแทนที่ ทำให้ job role บางตำแหน่งหายไปหรือเปลี่ยนแปลงไปมาก แม้ AI จะสร้างงานใหม่ขึ้นมาด้วย แต่ความท้าทายหลักคือการจัดการ transition ผ่านการ reskilling และ education ให้คนปรับตัวทัน"
@@ -39,34 +39,34 @@
     "id": 4,
     "question": "What is 'AI augmentation' vs 'AI automation'?",
     "choices": {
-      "A": "They mean the same thing",
-      "B": "Augmentation enhances human capabilities while automation replaces human tasks entirely",
-      "C": "Augmentation is more expensive than automation",
-      "D": "Automation is for factories and augmentation is for offices"
+      "A": "Automation is for factories and augmentation is for offices",
+      "B": "The practice of maintaining separate development and production pipelines for safe AI model deployment",
+      "C": "An analytical framework for comparing the cost-effectiveness of different AI solution architecture options",
+      "D": "Augmentation enhances human capabilities while automation replaces human tasks entirely"
     },
-    "answer": "B",
+    "answer": "D",
     "explanation": "สองคำนี้ต่างกันนะ AI augmentation คือการเอา AI มาช่วยเสริมความสามารถของคน เช่น AI แนะนำ diagnosis แต่หมอเป็นคนตัดสินใจเอง ส่วน AI automation คือการให้ AI ทำแทนคนเลย เช่น automated data entry ผู้เชี่ยวชาญส่วนใหญ่มองว่า augmentation เป็นแนวทางที่ดีกว่าในระยะยาว"
   },
   {
     "id": 5,
     "question": "What is 'digital footprint' in AI context?",
     "choices": {
-      "A": "The physical space a data center occupies",
-      "B": "The trail of data that individuals leave online which AI systems can collect and analyze",
-      "C": "Footprints detected by AI security cameras",
-      "D": "The storage size of an AI model"
+      "A": "A process for systematically testing AI model edge cases before production deployment",
+      "B": "A protocol for synchronizing training data across geographically distributed data centers and storage nodes",
+      "C": "The trail of data that individuals leave online which AI systems can collect and analyze",
+      "D": "A data preprocessing step that normalizes feature distributions to improve model training convergence speed"
     },
-    "answer": "B",
+    "answer": "C",
     "explanation": "Digital footprint คือร่องรอยข้อมูลที่เราทิ้งไว้จากกิจกรรมออนไลน์ทั้งหลาย ไม่ว่าจะเป็น search history, social media posts, online purchases, หรือ location data ระบบ AI เอา data พวกนี้ไปใช้ทำ personalization, targeted advertising, และ user profiling ซึ่งมันก็เลยมีประเด็นเรื่อง privacy และ surveillance ตามมา"
   },
   {
     "id": 6,
     "question": "What is 'surveillance AI'?",
     "choices": {
-      "A": "AI that monitors other AI systems",
+      "A": "A technique for mapping the relationships between different AI subsystems in a live production environment",
       "B": "AI systems used to monitor, track, and analyze people's behavior and activities",
-      "C": "Security guards who use AI tools",
-      "D": "AI that surveys customer satisfaction"
+      "C": "The practice of documenting AI model training procedures for regulatory compliance review",
+      "D": "A methodology for conducting bias audits that systematically test AI outputs across demographic subgroups"
     },
     "answer": "B",
     "explanation": "Surveillance AI คือระบบ AI ที่ใช้เทคโนโลยีอย่าง facial recognition, behavior analysis, และ data tracking มาจับตาดูพฤติกรรมของคน แม้จะมีประโยชน์ด้าน security จริง แต่ก็สร้างความกังวลเรื่อง privacy, civil liberties, และโอกาสที่รัฐบาลอาจเอาไปใช้ในทาง authoritarian ได้"
@@ -75,22 +75,22 @@
     "id": 7,
     "question": "What is 'algorithmic discrimination'?",
     "choices": {
-      "A": "Choosing between different algorithms",
-      "B": "When AI algorithms systematically produce unfair outcomes that disadvantage certain groups",
-      "C": "Discrimination against people who don't use algorithms",
-      "D": "Rating algorithms from best to worst"
+      "A": "When AI algorithms systematically produce unfair outcomes that disadvantage certain groups",
+      "B": "A governance protocol for managing access controls and data permissions in AI development environments",
+      "C": "A process for establishing baseline performance metrics before deploying updated or new AI model versions",
+      "D": "Discrimination against people who don't use algorithms"
     },
-    "answer": "B",
+    "answer": "A",
     "explanation": "Algorithmic discrimination เกิดขึ้นเมื่อระบบ AI ให้ผลลัพธ์ที่ไม่เป็นธรรมกับคนบางกลุ่มอย่างเป็นระบบ โดยอิงจาก race, gender, age หรือลักษณะอื่นๆ ตัวอย่างเช่น biased hiring tools ที่กรองคนไม่แฟร์, lending algorithm ที่เลือกปฏิบัติ, หรือ criminal justice prediction ที่มี bias"
   },
   {
     "id": 8,
     "question": "What is 'consent fatigue' in AI data collection?",
     "choices": {
-      "A": "AI getting tired of asking for permission",
+      "A": "The technique of decomposing complex AI tasks into smaller subtasks handled by specialized model components",
       "B": "Users blindly accepting data collection policies because they are overwhelmed by constant consent requests",
-      "C": "The effort required to program consent dialogs",
-      "D": "A medical condition caused by too much screen time"
+      "C": "A data preprocessing step that normalizes feature distributions to improve model training convergence speed",
+      "D": "A methodology for conducting bias audits that systematically test AI outputs across demographic subgroups"
     },
     "answer": "B",
     "explanation": "Consent fatigue คืออาการที่ user เจอ privacy policy กับ consent request บ่อยจนเบื่อ สุดท้ายก็กด accept โดยไม่อ่านเลย สิ่งนี้ทำลายหลัก informed consent เพราะคนอาจยอมให้ AI เก็บและ process data ของตัวเองโดยไม่รู้ตัวว่ายินยอมอะไรไปบ้าง"
@@ -99,10 +99,10 @@
     "id": 9,
     "question": "What is 'right to explanation' in AI?",
     "choices": {
-      "A": "The right to have AI explain any topic",
+      "A": "The process of translating business requirements into measurable AI performance objectives and key results",
       "B": "The legal right for individuals to receive an explanation when an AI decision significantly affects them",
-      "C": "AI's right to explain its own existence",
-      "D": "The right to explain AI to others"
+      "C": "A technique for calibrating AI confidence scores to match real-world outcome probabilities more accurately",
+      "D": "A framework for assessing the completeness of AI training data coverage across use cases"
     },
     "answer": "B",
     "explanation": "Right to explanation เป็นแนวคิดทางกฎหมายที่ปรากฏใน GDPR ให้สิทธิ์คนในการได้รับคำอธิบายที่มีความหมายเกี่ยวกับ logic เบื้องหลัง automated decision ที่ส่งผลกระทบต่อตัวเอง เช่น ถ้า AI ปฏิเสธ loan approval หรือไม่ผ่าน hiring process คนมีสิทธิ์ถามว่าทำไม"
@@ -111,10 +111,10 @@
     "id": 10,
     "question": "What is 'AI sandbox'?",
     "choices": {
-      "A": "A playground where AI robots play",
+      "A": "A governance protocol for managing access controls and data permissions in AI development environments",
       "B": "A controlled environment for safely testing AI systems before deploying them in the real world",
-      "C": "A children's educational AI game",
-      "D": "A sandbox game powered by AI"
+      "C": "The practice of establishing reference baselines for comparing AI model improvements",
+      "D": "The process of translating business requirements into measurable AI performance objectives and key results"
     },
     "answer": "B",
     "explanation": "AI sandbox คือ controlled environment ที่แยกออกมาต่างหาก เอาไว้ทดสอบและทดลองระบบ AI โดยไม่ส่งผลกระทบต่อโลกจริง นอกจากนี้ยังมี regulatory sandbox ที่ให้บริษัทลองใช้ AI innovation ภายใต้กฎระเบียบที่ผ่อนปรน เพื่อส่งเสริม innovation โดยยังมี safety net อยู่"
@@ -123,120 +123,120 @@
     "id": 11,
     "question": "What is 'AI supply chain'?",
     "choices": {
-      "A": "Using AI to manage retail supply chains",
-      "B": "The end-to-end ecosystem of components needed to build AI systems: data, models, hardware, and tools",
-      "C": "A chain of AI companies",
-      "D": "Supplying power to AI data centers"
+      "A": "A technique for validating AI system behavior against expected operational parameters",
+      "B": "An analytical framework for comparing the cost-effectiveness of different AI solution architecture options",
+      "C": "The practice of maintaining separate development and production pipelines for safe AI model deployment",
+      "D": "The end-to-end ecosystem of components needed to build AI systems: data, models, hardware, and tools"
     },
-    "answer": "B",
+    "answer": "D",
     "explanation": "AI supply chain คือ ecosystem ทั้งหมดที่ต้องใช้ในการสร้างและ deploy AI ตั้งแต่ data source, annotation service, compute infrastructure, model architecture, training framework, ไปจนถึง deployment tool ถ้า supply chain มีปัญหาตรงไหน ก็จะกระทบ reliability และ security ของ AI ทั้งระบบได้เลย"
   },
   {
     "id": 12,
     "question": "What is 'AI incident'?",
     "choices": {
-      "A": "A minor bug in AI software",
-      "B": "An event where an AI system causes harm, fails significantly, or produces dangerous outputs",
-      "C": "An AI-themed movie plot",
-      "D": "A conference about AI events"
+      "A": "The practice of documenting AI model training procedures for regulatory compliance review",
+      "B": "An analytical framework for comparing the cost-effectiveness of different AI solution architecture options",
+      "C": "A governance protocol for managing access controls and data permissions in AI development environments",
+      "D": "An event where an AI system causes harm, fails significantly, or produces dangerous outputs"
     },
-    "answer": "B",
+    "answer": "D",
     "explanation": "AI incident คือเหตุการณ์ที่ระบบ AI ทำให้เกิดอันตราย สร้าง output ที่อันตราย หรือล้มเหลวอย่างมีนัยสำคัญ มีองค์กรอย่าง AI Incident Database ที่คอยเก็บรวบรวมเหตุการณ์พวกนี้ เพื่อให้ community ได้เรียนรู้จากความผิดพลาดและป้องกันไม่ให้เกิดซ้ำ"
   },
   {
     "id": 13,
     "question": "What is 'AI audit'?",
     "choices": {
-      "A": "Listening to AI-generated audio",
-      "B": "A systematic evaluation of an AI system's performance, fairness, safety, and compliance with regulations",
-      "C": "An AI that performs financial audits",
-      "D": "Counting the number of AI models in an organization"
+      "A": "A technique for evaluating how AI system performance varies across different user groups",
+      "B": "An approach to integrating multiple specialized AI models into a unified system for complex task execution",
+      "C": "A systematic evaluation of an AI system's performance, fairness, safety, and compliance with regulations",
+      "D": "A statistical method for measuring the correlation between model inputs and predicted outputs in ML systems"
     },
-    "answer": "B",
+    "answer": "C",
     "explanation": "AI audit คือการประเมินระบบ AI อย่างครบวงจร ครอบคลุมทั้ง technical performance, fairness, bias, safety, privacy, และ regulatory compliance การทำ audit เป็นประจำช่วยให้มั่นใจว่า AI ยังทำงานตาม intended purpose และเป็นไปตาม ethical standards ที่ตั้งไว้"
   },
   {
     "id": 14,
     "question": "What is 'GDPR' and how does it relate to AI?",
     "choices": {
-      "A": "Global Data Processing Regulation — a guideline for AI processing speeds",
-      "B": "General Data Protection Regulation — EU law that governs how personal data is collected and used, including by AI",
-      "C": "General Design Principles for Robotics",
-      "D": "Good Data Practices for Research"
+      "A": "A method for extracting insights from large volumes of AI training logs",
+      "B": "A strategy for maintaining AI system performance stability as input data distributions gradually shift over time",
+      "C": "A protocol for securely sharing AI model weights and configurations between collaborating research organizations",
+      "D": "General Data Protection Regulation — EU law that governs how personal data is collected and used, including by AI"
     },
-    "answer": "B",
+    "answer": "D",
     "explanation": "GDPR หรือ General Data Protection Regulation คือกฎหมายคุ้มครองข้อมูลส่วนบุคคลของ EU ที่ให้สิทธิ์คนควบคุม personal data ของตัวเอง มันกระทบ AI โดยตรงเพราะกำหนดเรื่อง lawful data processing, consent, transparency, data minimization, และ right to explanation สำหรับ automated decision"
   },
   {
     "id": 15,
     "question": "What is 'differential privacy'?",
     "choices": {
-      "A": "Different levels of privacy for different users",
-      "B": "A mathematical technique that allows data analysis while providing provable privacy guarantees for individuals",
-      "C": "The difference between public and private data",
-      "D": "A privacy setting that varies by country"
+      "A": "A mathematical technique that allows data analysis while providing provable privacy guarantees for individuals",
+      "B": "The practice of implementing automated rollback mechanisms when deployed AI model performance degrades sharply",
+      "C": "A framework for assessing the completeness of AI training data coverage across use cases",
+      "D": "An approach to training neural networks that alternates between freezing and unfreezing different layer groups"
     },
-    "answer": "B",
+    "answer": "A",
     "explanation": "Differential privacy เป็น mathematical framework ที่ช่วยให้วิเคราะห์ data ได้อย่างมีประโยชน์ โดยที่ยังรับประกันว่าจะไม่สามารถระบุตัว individual record ได้ หลักการคือเติม noise ที่คำนวณมาอย่างดีลงไปใน data หรือ query result ทำให้ได้ formal privacy guarantee ที่พิสูจน์ได้ทางคณิตศาสตร์"
   },
   {
     "id": 16,
     "question": "What is 'homomorphic encryption' in AI?",
     "choices": {
-      "A": "Encryption that only works on similar data types",
-      "B": "A type of encryption that allows computation on encrypted data without decrypting it first",
-      "C": "Encrypting AI models to prevent theft",
-      "D": "A uniform encryption standard for all AI systems"
+      "A": "A computational approach to simulating the long-term effects of AI deployment on organizational workflows",
+      "B": "The practice of maintaining separate development and production pipelines for safe AI model deployment",
+      "C": "A type of encryption that allows computation on encrypted data without decrypting it first",
+      "D": "A method for quantifying the impact of data preprocessing on AI model output quality"
     },
-    "answer": "B",
+    "answer": "C",
     "explanation": "Homomorphic encryption เป็นเทคนิคการเข้ารหัสที่เจ๋งมาก เพราะสามารถ compute บน encrypted data ได้เลยโดยไม่ต้อง decrypt ก่อน สำหรับ AI แปลว่า model สามารถ process sensitive data ได้ในขณะที่ข้อมูลยังคง encrypted อยู่ เหมาะมากกับ domain ที่ต้องการ privacy สูงอย่าง healthcare และ finance"
   },
   {
     "id": 17,
     "question": "What is 'AI model card'?",
     "choices": {
-      "A": "A credit card for paying AI services",
-      "B": "A document that provides transparency about an AI model's capabilities, limitations, and intended use",
-      "C": "An ID card for AI systems",
-      "D": "A trading card featuring AI models"
+      "A": "A document that provides transparency about an AI model's capabilities, limitations, and intended use",
+      "B": "A framework for categorizing AI system errors by severity and frequency of occurrence",
+      "C": "A data preprocessing step that normalizes feature distributions to improve model training convergence speed",
+      "D": "A methodology for conducting bias audits that systematically test AI outputs across demographic subgroups"
     },
-    "answer": "B",
+    "answer": "A",
     "explanation": "Model card คือเอกสารที่อธิบายรายละเอียดของ AI model ทั้ง intended use, performance metrics, training data, limitations, และ ethical considerations เป็นเครื่องมือสำคัญในการสร้าง transparency ช่วยให้ user ตัดสินใจได้ว่าควรจะใช้ model ตัวนี้หรือไม่"
   },
   {
     "id": 18,
     "question": "What is 'data sheet for datasets'?",
     "choices": {
-      "A": "A spreadsheet containing the dataset",
-      "B": "Documentation that describes a dataset's characteristics, collection process, intended uses, and limitations",
-      "C": "A physical sheet of paper with data printed on it",
-      "D": "A protective cover for data storage devices"
+      "A": "A governance structure for ensuring consistent AI development practices across multiple organizational teams",
+      "B": "The process of designing human escalation paths for cases where AI systems cannot make confident predictions",
+      "C": "Documentation that describes a dataset's characteristics, collection process, intended uses, and limitations",
+      "D": "The technique of decomposing complex AI tasks into smaller subtasks handled by specialized model components"
     },
-    "answer": "B",
+    "answer": "C",
     "explanation": "Datasheet for datasets คือเอกสารประกอบ dataset ที่อธิบายว่า data ถูก collect มายังไง, มีองค์ประกอบอะไรบ้าง, intended use คืออะไร, มี limitation และ potential bias อะไร ช่วยส่งเสริม responsible use และให้ researcher ตัดสินใจเลือกใช้ dataset ได้อย่างมีข้อมูลครบถ้วน"
   },
   {
     "id": 19,
     "question": "What is 'AI risk assessment'?",
     "choices": {
-      "A": "Assessing whether AI will become dangerous to humanity",
-      "B": "A systematic process to identify, evaluate, and plan mitigation for potential risks of AI deployment",
-      "C": "Using AI to assess financial investment risks",
-      "D": "A test to see if AI can take risks"
+      "A": "A standardized approach to comparing different AI models on identical benchmark tasks",
+      "B": "The practice of establishing structured feedback channels between AI end-users and model development teams",
+      "C": "A process for establishing baseline performance metrics before deploying updated or new AI model versions",
+      "D": "A systematic process to identify, evaluate, and plan mitigation for potential risks of AI deployment"
     },
-    "answer": "B",
+    "answer": "D",
     "explanation": "AI risk assessment คือกระบวนการระบุและประเมินอันตรายที่อาจเกิดจากระบบ AI อย่างเป็นระบบ ครอบคลุมทั้ง bias, privacy violation, safety risk, และ societal impact เป็นขั้นตอนสำคัญมากที่ต้องทำก่อน deploy AI ใน real-world application จะได้วาง mitigation plan ไว้ล่วงหน้า"
   },
   {
     "id": 20,
     "question": "What is 'AI maturity model'?",
     "choices": {
-      "A": "A model of how AI systems age over time",
-      "B": "A framework that assesses an organization's level of AI adoption and capability",
-      "C": "An AI model that only works with mature content",
-      "D": "The final version of an AI model after all updates"
+      "A": "The practice of establishing structured feedback channels between AI end-users and model development teams",
+      "B": "The final version of an AI model after all updates",
+      "C": "A framework that assesses an organization's level of AI adoption and capability",
+      "D": "A methodology for conducting bias audits that systematically test AI outputs across demographic subgroups"
     },
-    "answer": "B",
+    "answer": "C",
     "explanation": "AI maturity model คือ framework ที่ช่วยองค์กรประเมินว่าตอนนี้อยู่ level ไหนของการนำ AI มาใช้ ตั้งแต่ขั้น initial experimentation ไปจนถึง full enterprise integration เป็นเครื่องมือที่ช่วยวาง strategic planning สำหรับการพัฒนา AI capability ขององค์กรในระยะยาว"
   }
 ]

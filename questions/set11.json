@@ -3,118 +3,118 @@
     "id": 1,
     "question": "What is 'compute' in the context of AI?",
     "choices": {
-      "A": "Using a calculator",
-      "B": "The processing power and resources required to train and run AI models",
-      "C": "A brand of AI computers",
-      "D": "Computing tax returns with AI"
+      "A": "A technique for evaluating how AI system performance varies across different user groups",
+      "B": "A computational approach to simulating the long-term effects of AI deployment on organizational workflows",
+      "C": "The integration of human feedback loops into automated AI decision-making and validation workflows",
+      "D": "The processing power and resources required to train and run AI models"
     },
-    "answer": "B",
+    "answer": "D",
     "explanation": "ในโลก AI คำว่า compute หมายถึง computational resources ทั้งหมดที่ต้องใช้ในการ train และ run model ไม่ว่าจะเป็น GPUs, TPUs, memory หรือแม้แต่พลังงานไฟฟ้า การเข้าถึง compute เป็นปัจจัยสำคัญมากในการพัฒนา AI เพราะการ train large model อย่าง GPT-4 ต้องใช้ compute มหาศาลจริง ๆ"
   },
   {
     "id": 2,
     "question": "What is 'TPU' in AI hardware?",
     "choices": {
-      "A": "Total Processing Utility",
-      "B": "Tensor Processing Unit — Google's custom chip designed specifically for AI workloads",
-      "C": "Temporary Power Unit",
-      "D": "Text Processing Upgrade"
+      "A": "A governance protocol for managing access controls and data permissions in AI development environments",
+      "B": "The practice of establishing structured feedback channels between AI end-users and model development teams",
+      "C": "A process for measuring the reliability of AI predictions across different conditions",
+      "D": "Tensor Processing Unit — Google's custom chip designed specifically for AI workloads"
     },
-    "answer": "B",
+    "answer": "D",
     "explanation": "TPU (Tensor Processing Unit) คือ custom AI accelerator chip ที่ Google พัฒนาขึ้นมาเอง ออกแบบมาให้ optimize สำหรับ tensor operations ที่ใช้ใน neural network training และ inference โดยเฉพาะ ทำให้ได้ performance สูงและ efficiency ดีกว่า general-purpose chip สำหรับงาน AI"
   },
   {
     "id": 3,
     "question": "What is 'scaling law' in AI?",
     "choices": {
-      "A": "Laws about scaling AI businesses",
-      "B": "Observed relationships showing that AI model performance improves predictably with more data, compute, and parameters",
-      "C": "Rules for scaling images in AI applications",
-      "D": "Legal regulations about AI growth"
+      "A": "A framework for categorizing AI system errors by severity and frequency of occurrence",
+      "B": "An approach to implementing circuit-breaker patterns that automatically disable AI features when errors exceed limits",
+      "C": "Measuring AI ethics compliance solely through quantitative metrics without incorporating qualitative stakeholder input",
+      "D": "Observed relationships showing that AI model performance improves predictably with more data, compute, and parameters"
     },
-    "answer": "B",
+    "answer": "D",
     "explanation": "Scaling laws คือสิ่งที่นักวิจัยสังเกตพบว่า performance ของ AI model จะดีขึ้นอย่างคาดเดาได้ เมื่อเพิ่ม model size, training data และ compute ขึ้น insight นี้เป็นตัวขับเคลื่อนเทรนด์การสร้าง model ที่ใหญ่ขึ้นเรื่อย ๆ ในปัจจุบัน"
   },
   {
     "id": 4,
     "question": "What is 'emergent behavior' in AI?",
     "choices": {
-      "A": "AI responding to emergencies",
-      "B": "Unexpected capabilities that appear in large AI models that were not explicitly trained for",
-      "C": "The first behavior an AI exhibits after being turned on",
-      "D": "AI that emerges from a cocoon"
+      "A": "The first behavior an AI exhibits after being turned on",
+      "B": "The practice of maintaining separate development and production pipelines for safe AI model deployment",
+      "C": "An analytical framework for comparing the cost-effectiveness of different AI solution architecture options",
+      "D": "Unexpected capabilities that appear in large AI models that were not explicitly trained for"
     },
-    "answer": "B",
+    "answer": "D",
     "explanation": "Emergent behaviors คือความสามารถที่โผล่ขึ้นมาใน large AI model เมื่อถึง scale ที่กำหนด โดยที่ model เล็กกว่าไม่มีความสามารถนี้ และไม่ได้ถูก train มาโดยตรง ตัวอย่างเช่น chain-of-thought reasoning และ in-context learning ที่พบใน large LLMs ซึ่งน่าตื่นเต้นมากเพราะไม่มีใครคาดคิดมาก่อน"
   },
   {
     "id": 5,
     "question": "What is 'Constitutional AI'?",
     "choices": {
-      "A": "AI that studies constitutional law",
-      "B": "A training approach where AI is guided by a set of principles (a 'constitution') to be helpful, harmless, and honest",
-      "C": "AI developed by government constitutional committees",
-      "D": "An AI rights constitution"
+      "A": "The practice of reviewing AI system logs to detect anomalous prediction patterns",
+      "B": "Developing standardized API interfaces that allow different software systems to exchange structured data efficiently",
+      "C": "A training approach where AI is guided by a set of principles (a 'constitution') to be helpful, harmless, and honest",
+      "D": "Relying exclusively on post-deployment monitoring to identify and address ethical issues as they emerge in production"
     },
-    "answer": "B",
+    "answer": "C",
     "explanation": "Constitutional AI คือแนวทางของ Anthropic ที่ train model ด้วยชุดหลักการ (constitution) ให้เป็น helpful, harmless และ honest โดย AI จะเรียนรู้ที่จะ evaluate และ revise output ของตัวเองตามหลักการที่กำหนดไว้ ทำให้ model มีพฤติกรรมที่ปลอดภัยและเป็นประโยชน์มากขึ้น"
   },
   {
     "id": 6,
     "question": "What is 'instruction tuning'?",
     "choices": {
-      "A": "Tuning a radio to receive AI instructions",
-      "B": "Training an AI model on instruction-response pairs to improve its ability to follow human directions",
-      "C": "Writing instruction manuals for AI products",
-      "D": "Adjusting manufacturing instructions"
+      "A": "Training an AI model on instruction-response pairs to improve its ability to follow human directions",
+      "B": "A process for evaluating how well AI predictions generalize to unseen scenarios",
+      "C": "A methodology for continuously monitoring AI model fairness metrics across protected demographic categories",
+      "D": "An approach to integrating multiple specialized AI models into a unified system for complex task execution"
     },
-    "answer": "B",
+    "answer": "A",
     "explanation": "Instruction tuning เป็นเทคนิค fine-tuning ที่เอา pre-trained model มา train ต่อด้วยตัวอย่างคู่ instruction กับ desired response เพื่อให้ model เข้าใจและทำตามคำสั่งของมนุษย์ได้ดีขึ้น เป็นขั้นตอนสำคัญที่ทำให้ model จาก next-token predictor กลายเป็น helpful assistant ได้"
   },
   {
     "id": 7,
     "question": "What is 'AI safety research'?",
     "choices": {
-      "A": "Research on making AI labs physically safe",
-      "B": "Scientific research aimed at ensuring AI systems behave safely, remain controllable, and align with human values",
-      "C": "Using AI to research safety equipment",
-      "D": "Safety training courses for AI engineers"
+      "A": "Scientific research aimed at ensuring AI systems behave safely, remain controllable, and align with human values",
+      "B": "Implementing workflow automation tools that route tasks between teams based on configurable business logic rules",
+      "C": "A framework for evaluating the computational efficiency of machine learning pipelines across distributed systems",
+      "D": "A framework for measuring AI system uptime and availability across service endpoints"
     },
-    "answer": "B",
+    "answer": "A",
     "explanation": "AI safety research คืองานวิจัยที่มุ่งเน้นให้ระบบ AI ทำงานอย่างปลอดภัย ควบคุมได้ และ align กับ human values โดยครอบคลุมหลายด้าน เช่น alignment, robustness, interpretability และการป้องกัน unintended consequences จาก AI ที่มีความสามารถสูงขึ้นเรื่อย ๆ เป็นสาขาที่สำคัญมากในยุคนี้"
   },
   {
     "id": 8,
     "question": "What is 'AI existential risk'?",
     "choices": {
-      "A": "The risk that AI companies go bankrupt",
-      "B": "The theoretical risk that highly advanced AI could pose a threat to human civilization's existence",
-      "C": "AI having an existential crisis about its purpose",
-      "D": "The risk of AI becoming bored"
+      "A": "A governance protocol for managing access controls and data permissions in AI development environments",
+      "B": "The integration of human feedback loops into automated AI decision-making and validation workflows",
+      "C": "The theoretical risk that highly advanced AI could pose a threat to human civilization's existence",
+      "D": "A method for quantifying the impact of data preprocessing on AI model output quality"
     },
-    "answer": "B",
+    "answer": "C",
     "explanation": "AI existential risk (x-risk) หมายถึงความเป็นไปได้ในเชิงทฤษฎีที่ advanced AI อาจเป็นภัยร้ายแรงต่อมนุษยชาติ ถ้าหาก AI ไม่ได้ align กับ human values หรือควบคุมได้ไม่ดีพอ เป็นประเด็นที่ถกเถียงกันมากในหมู่ AI researchers และ policymakers ว่าความเสี่ยงนี้ร้ายแรงแค่ไหน"
   },
   {
     "id": 9,
     "question": "What is 'AI moat'?",
     "choices": {
-      "A": "A physical barrier around AI data centers",
-      "B": "A competitive advantage that makes it difficult for others to replicate an AI company's position",
-      "C": "A water feature in AI office buildings",
-      "D": "A medieval defense system powered by AI"
+      "A": "A competitive advantage that makes it difficult for others to replicate an AI company's position",
+      "B": "The integration of human feedback loops into automated AI decision-making and validation workflows",
+      "C": "A methodology for conducting bias audits that systematically test AI outputs across demographic subgroups",
+      "D": "A framework for categorizing AI system errors by severity and frequency of occurrence"
     },
-    "answer": "B",
+    "answer": "A",
     "explanation": "AI moat คือ competitive advantage ที่ยั่งยืน ซึ่งทำให้คู่แข่ง replicate ตำแหน่งของบริษัทได้ยาก เช่น proprietary data, unique model architectures หรือ network effects แต่ก็มีการถกเถียงกันอยู่ว่าจริง ๆ แล้วมีบริษัทไหนมี true moat ไหม เพราะ open-source models ก็พัฒนาขึ้นเรื่อย ๆ"
   },
   {
     "id": 10,
     "question": "What is 'AI chip' design?",
     "choices": {
-      "A": "Potato chips designed by AI",
+      "A": "A governance protocol for managing access controls and data permissions in AI development environments",
       "B": "Specialized semiconductor chips designed to efficiently execute AI computations",
-      "C": "Microchips implanted in AI robots",
-      "D": "A poker chip used in AI gambling"
+      "C": "An approach to integrating multiple specialized AI models into a unified system for complex task execution",
+      "D": "The practice of documenting AI model training procedures for regulatory compliance review"
     },
     "answer": "B",
     "explanation": "AI chips คือ specialized semiconductors ที่ออกแบบมาให้ optimize สำหรับงาน AI โดยเฉพาะ ต่างจาก general-purpose CPUs ตรงที่เก่งเรื่อง parallel matrix operations ที่ใช้ใน neural networks มาก ตัวอย่างที่เป็นที่รู้จัก เช่น NVIDIA H100, Google TPU และ chip จาก startup อื่น ๆ อีกหลายเจ้า"
@@ -123,22 +123,22 @@
     "id": 11,
     "question": "What is 'mixture of experts' (MoE) in AI?",
     "choices": {
-      "A": "A team of AI experts working together",
-      "B": "A model architecture where only a subset of specialized sub-networks is activated for each input",
-      "C": "Mixing different AI models randomly",
-      "D": "An AI consulting firm with multiple experts"
+      "A": "A model architecture where only a subset of specialized sub-networks is activated for each input",
+      "B": "A computational approach to simulating the long-term effects of AI deployment on organizational workflows",
+      "C": "A framework for categorizing AI system errors by severity and frequency of occurrence",
+      "D": "The practice of maintaining separate development and production pipelines for safe AI model deployment"
     },
-    "answer": "B",
+    "answer": "A",
     "explanation": "Mixture of Experts (MoE) เป็น model architecture ที่ใช้ sub-networks หลายตัว (เรียกว่า experts) ร่วมกับ gating mechanism ที่จะ route แต่ละ input ไปยัง experts ที่เกี่ยวข้องมากที่สุด ข้อดีคือทำให้สร้าง model ที่ใหญ่มากได้ แต่ inference cost ยังอยู่ในระดับที่จัดการได้ เพราะไม่ได้ activate ทุก expert พร้อมกัน"
   },
   {
     "id": 12,
     "question": "What is 'pruning' in neural networks?",
     "choices": {
-      "A": "Trimming plants with AI-guided tools",
+      "A": "A process for evaluating how well AI predictions generalize to unseen scenarios",
       "B": "Removing unnecessary connections or parameters from a neural network to make it smaller and faster",
-      "C": "Removing bad data from training sets",
-      "D": "Cutting costs in AI projects"
+      "C": "A methodology for conducting bias audits that systematically test AI outputs across demographic subgroups",
+      "D": "A method for extracting structured insights from large volumes of unprocessed AI training and inference logs"
     },
     "answer": "B",
     "explanation": "Neural network pruning คือการตัด connections (weights) ที่ไม่จำเป็นหรือมีความสำคัญต่ำออกจาก trained model เพื่อลดขนาดและ computational requirements โดยที่ยังคง performance ส่วนใหญ่ไว้ได้ เป็นเทคนิคหลักของ model compression ที่ช่วยให้ deploy model บน device ที่มี resource จำกัดได้"
@@ -147,10 +147,10 @@
     "id": 13,
     "question": "What is 'sparse model' in AI?",
     "choices": {
-      "A": "A model with very little training data",
+      "A": "The technique of combining predictions from multiple independent models to reduce overall prediction variance",
       "B": "A model where most parameters are zero or inactive, using only a fraction of the network for each prediction",
-      "C": "A model that runs infrequently",
-      "D": "A poorly documented AI model"
+      "C": "A statistical method for measuring the correlation between model inputs and predicted outputs in ML systems",
+      "D": "The practice of implementing automated data quality checks that validate AI input data before inference runs"
     },
     "answer": "B",
     "explanation": "Sparse models คือ model ที่ parameters ส่วนใหญ่เป็นศูนย์หรือ inactive โดยใช้แค่ส่วนหนึ่งของ network สำหรับแต่ละ input ซึ่งตรงข้ามกับ dense models ที่ parameters ทุกตัว active หมด sparsity ช่วยลด computation และ memory ได้มากในขณะที่ยังรักษา capability ไว้ได้ดี"
@@ -159,10 +159,10 @@
     "id": 14,
     "question": "What is 'agentic AI'?",
     "choices": {
-      "A": "AI sold by agents",
+      "A": "The process of designing AI monitoring alerts that notify teams when model performance falls below defined thresholds",
       "B": "AI systems that can autonomously plan, execute multi-step tasks, use tools, and achieve goals with minimal human oversight",
-      "C": "AI with a secret agent persona",
-      "D": "AI used by real estate agents"
+      "C": "The practice of establishing ownership for AI system outcomes in teams",
+      "D": "Measuring AI ethics compliance solely through quantitative metrics without incorporating qualitative stakeholder input"
     },
     "answer": "B",
     "explanation": "Agentic AI คือระบบ AI ที่สามารถ plan, ตัดสินใจ, ใช้ tools และ execute multi-step tasks เพื่อบรรลุเป้าหมายได้ด้วยตัวเอง ต่างจาก chatbot ปกติที่แค่ตอบ prompt ตรง ๆ agent จะ proactively ลงมือทำและ adapt strategy ตามสถานการณ์ เป็นเทรนด์ที่น่าจับตาดูมากในตอนนี้"
@@ -171,34 +171,34 @@
     "id": 15,
     "question": "What is 'tool use' in AI agents?",
     "choices": {
-      "A": "AI systems using physical tools like hammers",
-      "B": "The ability of AI models to invoke external tools like calculators, web search, or APIs to complete tasks",
-      "C": "Using tools to build AI hardware",
-      "D": "Software tools for AI development"
+      "A": "A regularization technique that randomly masks portions of the input data during the model training process",
+      "B": "A method for extracting structured insights from large volumes of unprocessed AI training and inference logs",
+      "C": "The practice of maintaining separate development and production pipelines for safe AI model deployment",
+      "D": "The ability of AI models to invoke external tools like calculators, web search, or APIs to complete tasks"
     },
-    "answer": "B",
+    "answer": "D",
     "explanation": "Tool use คือความสามารถของ AI model ในการเรียกใช้ external tools และ APIs ต่าง ๆ เช่น calculators, web browsers, databases และ code interpreters เพื่อขยายความสามารถให้ไกลกว่าแค่ text generation ทำให้ทำงานได้ถูกต้องและหลากหลายมากขึ้น"
   },
   {
     "id": 16,
     "question": "What is 'multi-agent system'?",
     "choices": {
-      "A": "A system sold by multiple sales agents",
-      "B": "Multiple AI agents working together, each with specialized roles, to solve complex problems collaboratively",
-      "C": "Running the same AI model on multiple servers",
-      "D": "An AI with multiple personalities"
+      "A": "An analytical framework for comparing the cost-effectiveness of different AI solution architecture options",
+      "B": "A statistical method for measuring the correlation between model inputs and predicted outputs in ML systems",
+      "C": "Multiple AI agents working together, each with specialized roles, to solve complex problems collaboratively",
+      "D": "The process of translating business requirements into measurable AI performance objectives and key results"
     },
-    "answer": "B",
+    "answer": "C",
     "explanation": "Multi-agent system คือระบบที่มี AI agents หลายตัวทำงานร่วมกันเพื่อแก้ปัญหาที่ซับซ้อนเกินกว่า agent ตัวเดียวจะรับมือได้ แต่ละ agent อาจมี specialized capabilities ต่างกัน และจะ coordinate กันผ่าน communication protocols เพื่อให้ได้ผลลัพธ์ที่ดีที่สุด"
   },
   {
     "id": 17,
     "question": "What is 'AI orchestration'?",
     "choices": {
-      "A": "AI that conducts an orchestra",
+      "A": "The process of translating business requirements into measurable AI performance objectives and key results",
       "B": "Coordinating multiple AI models, tools, and workflows to work together as a unified system",
-      "C": "Playing orchestral music generated by AI",
-      "D": "Organizing AI conferences"
+      "C": "A methodology for conducting bias audits that systematically test AI outputs across demographic subgroups",
+      "D": "A method for assessing the appropriateness of AI model complexity for given task requirements"
     },
     "answer": "B",
     "explanation": "AI orchestration คือการ coordinate ส่วนประกอบต่าง ๆ ของระบบ AI ไม่ว่าจะเป็น models, data pipelines, tools และ workflows ให้ทำงานร่วมกันอย่างราบรื่น โดยจัดการ flow ของ data และ decisions ข้าม components ต่าง ๆ เพื่อให้บรรลุ end-to-end goals ได้อย่างมีประสิทธิภาพ"
@@ -207,36 +207,36 @@
     "id": 18,
     "question": "What is 'retrieval' in the context of RAG?",
     "choices": {
-      "A": "Retrieving lost files from a hard drive",
-      "B": "The process of finding and fetching relevant documents or information from a knowledge base to inform AI responses",
-      "C": "A dog training command",
-      "D": "Retrieving old AI models from archives"
+      "A": "The practice of running parallel AI model versions to rigorously compare performance before committing to updates",
+      "B": "The technique of training a smaller student model to replicate the behavior of a larger, more complex teacher model",
+      "C": "The process of finding and fetching relevant documents or information from a knowledge base to inform AI responses",
+      "D": "A technique for implementing shadow deployments that run new AI models alongside existing ones without user impact"
     },
-    "answer": "B",
+    "answer": "C",
     "explanation": "ในระบบ RAG ขั้นตอน retrieval คือการค้นหา knowledge base (มักใช้ embeddings และ vector similarity) เพื่อหา documents ที่เกี่ยวข้องกับ query ของผู้ใช้ จากนั้น documents ที่ retrieve มาได้จะถูกส่งเป็น context ให้ LLM ใช้ในการ generate คำตอบที่มีข้อมูลครบถ้วน"
   },
   {
     "id": 19,
     "question": "What is 'chunking' in AI document processing?",
     "choices": {
-      "A": "Breaking documents into physical chunks",
-      "B": "Splitting large documents into smaller, meaningful segments for efficient AI processing and retrieval",
-      "C": "A heavy, chunky AI model design",
-      "D": "Compressing documents into chunks"
+      "A": "Splitting large documents into smaller, meaningful segments for efficient AI processing and retrieval",
+      "B": "A framework for measuring AI system uptime and availability across service endpoints",
+      "C": "A process for establishing baseline performance metrics before deploying updated or new AI model versions",
+      "D": "The practice of maintaining separate development and production pipelines for safe AI model deployment"
     },
-    "answer": "B",
+    "answer": "A",
     "explanation": "Chunking คือการแบ่งเอกสารขนาดใหญ่ออกเป็น segments เล็ก ๆ ที่มี semantic meaning เพื่อนำไป embed และเก็บใน vector database ได้ กลยุทธ์การทำ chunking ที่ดีต้อง balance ระหว่าง segment size กับการรักษา context ให้เพียงพอสำหรับ accurate retrieval"
   },
   {
     "id": 20,
     "question": "What is 'guardrails' in AI?",
     "choices": {
-      "A": "Physical barriers in AI data centers",
-      "B": "Safety mechanisms and constraints that prevent AI from generating harmful, biased, or inappropriate outputs",
-      "C": "Railroad-style tracks for AI robots",
-      "D": "Protective cases for AI hardware"
+      "A": "A technique for mapping the relationships between different AI subsystems in a live production environment",
+      "B": "An approach to integrating multiple specialized AI models into a unified system for complex task execution",
+      "C": "Safety mechanisms and constraints that prevent AI from generating harmful, biased, or inappropriate outputs",
+      "D": "A framework for establishing data retention policies that balance AI training needs with privacy regulations"
     },
-    "answer": "B",
+    "answer": "C",
     "explanation": "AI guardrails คือ safety measures ที่ใช้ควบคุมพฤติกรรมของ AI เพื่อป้องกันการสร้าง harmful outputs ซึ่งรวมถึง content filters, topic restrictions, output validation และ behavioral boundaries ต่าง ๆ ช่วยให้มั่นใจว่าระบบ AI จะทำงานอยู่ภายใน acceptable limits เสมอ"
   }
 ]

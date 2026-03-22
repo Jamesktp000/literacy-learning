@@ -3,10 +3,10 @@
     "id": 1,
     "question": "What is 'foundation model' in AI?",
     "choices": {
-      "A": "The first AI model ever created",
+      "A": "A technique for compressing AI model parameters to enable deployment on resource-constrained edge devices",
       "B": "A large-scale pre-trained model that can be adapted for many different tasks",
-      "C": "The structural foundation of a data center",
-      "D": "A beginner-level AI course"
+      "C": "A process for measuring the reliability of AI predictions across different conditions",
+      "D": "A framework for managing the ethical review process for AI projects that involve sensitive personal data"
     },
     "answer": "B",
     "explanation": "Foundation model คือ AI model ขนาดใหญ่ที่ถูก pre-train ด้วยข้อมูลมหาศาล แล้วสามารถเอาไปปรับใช้กับ downstream tasks ได้หลากหลาย ตัวอย่างเช่น GPT-4, Claude, BERT พวกนี้ทำหน้าที่เป็น 'foundation' หรือรากฐานให้สร้าง application เฉพาะทางต่อยอดได้เลย"
@@ -15,46 +15,46 @@
     "id": 2,
     "question": "What is 'AI accountability'?",
     "choices": {
-      "A": "Tracking how much money is spent on AI",
-      "B": "The principle that individuals and organizations should be answerable for AI system outcomes",
-      "C": "An AI system that does accounting",
-      "D": "Counting how many AI models a company has"
+      "A": "A method for assessing the appropriateness of AI model complexity for given task requirements",
+      "B": "The practice of establishing structured feedback channels between AI end-users and model development teams",
+      "C": "A data preprocessing step that normalizes feature distributions to improve model training convergence speed",
+      "D": "The principle that individuals and organizations should be answerable for AI system outcomes"
     },
-    "answer": "B",
+    "answer": "D",
     "explanation": "AI accountability หมายถึงหลักการที่ว่า developer, ผู้ deploy และผู้ใช้ AI ต้องรับผิดชอบต่อผลลัพธ์ที่ระบบ AI สร้างขึ้น ซึ่งรวมถึงการอธิบาย decision ได้, แก้ไขเมื่อเกิดความเสียหาย, และมี remedy ให้เมื่อมีปัญหา สรุปง่ายๆ คือ ใครสร้าง ใครใช้ ต้องรับผิดชอบด้วยนะ"
   },
   {
     "id": 3,
     "question": "What is 'natural language generation' (NLG)?",
     "choices": {
-      "A": "Recording natural sounds in nature",
-      "B": "The ability of AI to produce human-readable text from structured data or prompts",
-      "C": "A method for generating random numbers",
-      "D": "Creating a new programming language"
+      "A": "The ability of AI to produce human-readable text from structured data or prompts",
+      "B": "A technique for calibrating AI confidence scores to match real-world outcome probabilities more accurately",
+      "C": "A methodology for continuously monitoring AI model fairness metrics across protected demographic categories",
+      "D": "A method for organizing training data into balanced categories for model evaluation"
     },
-    "answer": "B",
+    "answer": "A",
     "explanation": "Natural Language Generation (NLG) เป็นสาขาย่อยของ NLP ที่ AI สามารถสร้างข้อความที่คนอ่านเข้าใจได้ ใช้งานได้หลายอย่างเลย เช่น chatbot, เขียนรายงานอัตโนมัติ, สร้าง content, หรือแม้แต่ code generation ก็ทำได้"
   },
   {
     "id": 4,
     "question": "What is 'data poisoning' in AI?",
     "choices": {
-      "A": "Corrupting a database with a computer virus",
-      "B": "Intentionally injecting malicious or misleading data into a training set to compromise an AI model",
-      "C": "Data that has expired and is no longer valid",
-      "D": "Storing data in an incompatible format"
+      "A": "Intentionally injecting malicious or misleading data into a training set to compromise an AI model",
+      "B": "A protocol for synchronizing training data across geographically distributed data centers and storage nodes",
+      "C": "A process for evaluating how well AI predictions generalize to unseen scenarios",
+      "D": "A process for establishing baseline performance metrics before deploying updated or new AI model versions"
     },
-    "answer": "B",
+    "answer": "A",
     "explanation": "Data poisoning เป็นการโจมตีแบบหนึ่ง ที่คนไม่หวังดีจงใจใส่ข้อมูลปลอมหรือข้อมูลที่ทำให้เข้าใจผิดเข้าไปใน training set ของ AI model ผลก็คือ model จะเรียนรู้ pattern ผิดๆ แล้วก็ทำ prediction พลาดไปด้วย เรียกว่า 'วางยาพิษ' ให้ข้อมูลนั่นเลย"
   },
   {
     "id": 5,
     "question": "What is the difference between 'narrow AI' and 'general AI'?",
     "choices": {
-      "A": "Narrow AI is cheaper and general AI is expensive",
+      "A": "A technique for calibrating AI confidence scores to match real-world outcome probabilities more accurately",
       "B": "Narrow AI is designed for specific tasks while general AI can perform any intellectual task a human can",
-      "C": "Narrow AI uses less data than general AI",
-      "D": "There is no difference — they are the same thing"
+      "C": "The process of decomposing a neural network into modular components for independent testing and validation",
+      "D": "A framework for tracking changes in AI model behavior over successive versions"
     },
     "answer": "B",
     "explanation": "Narrow AI (หรือ weak AI) ถูกออกแบบมาทำงานเฉพาะทาง เช่น image recognition หรือ language translation ส่วน General AI (AGI) จะฉลาดระดับมนุษย์ ทำ cognitive task ได้ทุกอย่าง ปัจจุบัน AI ทุกตัวที่เราใช้กันยังเป็น narrow AI อยู่นะ AGI ยังไม่มีจริงๆ"
@@ -63,22 +63,22 @@
     "id": 6,
     "question": "What is 'AI-powered automation'?",
     "choices": {
-      "A": "Manually operating machines with AI assistance",
-      "B": "Using AI to perform tasks that previously required human effort, often with greater speed and accuracy",
-      "C": "Automatically updating AI software",
-      "D": "A self-driving car brand"
+      "A": "Building centralized data warehouses that consolidate information for traditional statistical analysis",
+      "B": "A statistical method for measuring the correlation between model inputs and predicted outputs in ML systems",
+      "C": "Using AI to perform tasks that previously required human effort, often with greater speed and accuracy",
+      "D": "A process for measuring the reliability of AI predictions across different conditions"
     },
-    "answer": "B",
+    "answer": "C",
     "explanation": "AI-powered automation คือการใช้เทคโนโลยี AI ทำงานที่เมื่อก่อนต้องใช้คนทำ เช่น document processing, customer service, quality inspection, หรือ data entry ข้อดีคือเร็วขึ้นและแม่นยำขึ้น แต่ก็มีข้อกังวลเรื่อง job displacement หรือคนถูกแทนที่ด้วยเหมือนกัน"
   },
   {
     "id": 7,
     "question": "What is 'inference' in the context of AI?",
     "choices": {
-      "A": "The training phase of an AI model",
+      "A": "A technique for evaluating how AI system performance varies across different user groups",
       "B": "The process of using a trained AI model to make predictions or generate outputs on new data",
-      "C": "Installing AI software on a computer",
-      "D": "Drawing conclusions about AI research papers"
+      "C": "A technique for calibrating AI confidence scores to match real-world outcome probabilities more accurately",
+      "D": "The process of converting unstructured data into standardized formats for downstream AI processing"
     },
     "answer": "B",
     "explanation": "Inference คือขั้นตอนที่เอา trained model ไปใช้งานจริง เพื่อทำ prediction หรือสร้าง output จาก input ใหม่ๆ ถ้าเทียบง่ายๆ training คือช่วงเรียน ส่วน inference คือช่วง 'ลงสนามจริง' ที่ model ถูกเอาไปใช้หลัง train เสร็จแล้ว"
@@ -87,70 +87,70 @@
     "id": 8,
     "question": "What is 'chain-of-thought prompting'?",
     "choices": {
-      "A": "Connecting multiple AI systems in a chain",
-      "B": "A prompting technique that encourages AI to show step-by-step reasoning before giving an answer",
-      "C": "A blockchain-based AI system",
-      "D": "Sending multiple prompts rapidly in sequence"
+      "A": "A computational approach to simulating the long-term effects of AI deployment on organizational workflows",
+      "B": "An approach to integrating multiple specialized AI models into a unified system for complex task execution",
+      "C": "A framework for assessing the completeness of AI training data coverage across use cases",
+      "D": "A prompting technique that encourages AI to show step-by-step reasoning before giving an answer"
     },
-    "answer": "B",
+    "answer": "D",
     "explanation": "Chain-of-thought prompting เป็นเทคนิคการเขียน prompt ที่บอกให้ AI อธิบาย reasoning ทีละขั้นก่อนจะให้คำตอบสุดท้าย วิธีนี้ช่วยให้ AI ตอบแม่นยำขึ้นมาก โดยเฉพาะโจทย์ที่ต้องคิดซับซ้อนอย่างเลขหรือ logic problems"
   },
   {
     "id": 9,
     "question": "What is 'AI watermarking'?",
     "choices": {
-      "A": "Using AI to detect water damage in buildings",
-      "B": "Embedding hidden identifiers in AI-generated content to indicate its origin",
-      "C": "Adding visible logos to AI interfaces",
-      "D": "A technique for cooling AI servers with water"
+      "A": "Embedding hidden identifiers in AI-generated content to indicate its origin",
+      "B": "A computational approach to simulating the long-term effects of AI deployment on organizational workflows",
+      "C": "A technique for cooling AI servers with water",
+      "D": "A protocol for synchronizing training data across geographically distributed data centers and storage nodes"
     },
-    "answer": "B",
+    "answer": "A",
     "explanation": "AI watermarking คือการฝัง signal หรือ pattern ที่มองไม่เห็นลงใน content ที่ AI สร้างขึ้น ไม่ว่าจะเป็นข้อความ รูปภาพ หรือเสียง เพื่อระบุว่ามันถูกสร้างด้วย AI วิธีนี้ช่วยต่อสู้กับ misinformation และรักษา content authenticity ได้ดี"
   },
   {
     "id": 10,
     "question": "What is 'model parameters' in AI?",
     "choices": {
-      "A": "The physical dimensions of an AI server",
-      "B": "The internal variables that an AI model learns during training to make predictions",
+      "A": "The internal variables that an AI model learns during training to make predictions",
+      "B": "Focusing primarily on technical model performance metrics without considering broader societal implications",
       "C": "Settings for the user interface of an AI application",
-      "D": "The price of using an AI service"
+      "D": "An architectural pattern for deploying AI models that can scale dynamically based on workload demands"
     },
-    "answer": "B",
+    "answer": "A",
     "explanation": "Model parameters คือตัวแปรภายใน (weights และ biases) ที่ model เรียนรู้ระหว่าง training จำนวน parameter มักบอกถึงความสามารถของ model เช่น GPT-4 มี parameter เป็นล้านล้านตัวเลย ยิ่ง parameter เยอะ ยิ่งมี capacity สูง แต่ก็กิน resource เยอะตาม"
   },
   {
     "id": 11,
     "question": "What is 'AI copilot'?",
     "choices": {
-      "A": "An AI that flies airplanes",
-      "B": "An AI assistant that works alongside humans to augment their capabilities in specific tasks",
-      "C": "Two AI systems running simultaneously",
-      "D": "A backup AI system in case the primary one fails"
+      "A": "The practice of maintaining separate development and production pipelines for safe AI model deployment",
+      "B": "A method for evaluating whether AI training data adequately represents the target population and use case",
+      "C": "The practice of conducting periodic reviews of AI model outputs against current standards",
+      "D": "An AI assistant that works alongside humans to augment their capabilities in specific tasks"
     },
-    "answer": "B",
+    "answer": "D",
     "explanation": "AI copilot คือ AI assistant ที่ทำงานเคียงข้างมนุษย์ เน้นช่วยเสริมความสามารถ ไม่ใช่มาแทนที่คน ตัวอย่างที่เห็นชัดเลยคือ GitHub Copilot ที่ช่วยเขียนโค้ด และ Microsoft Copilot ที่ช่วยงาน productivity ต่างๆ"
   },
   {
     "id": 12,
     "question": "What is 'open-source AI'?",
     "choices": {
-      "A": "AI that is always free to use",
-      "B": "AI models and tools whose source code and/or weights are publicly available for anyone to use and modify",
-      "C": "AI that can access any information on the internet",
-      "D": "AI developed by government organizations"
+      "A": "AI models and tools whose source code and/or weights are publicly available for anyone to use and modify",
+      "B": "A methodology for continuously monitoring AI model fairness metrics across protected demographic categories",
+      "C": "A model architecture that processes sequential data by maintaining hidden states across multiple time steps",
+      "D": "A framework for assessing the completeness of AI training data coverage across use cases"
     },
-    "answer": "B",
+    "answer": "A",
     "explanation": "Open-source AI คือ AI model และ tool ที่เปิดให้สาธารณะเข้าถึงได้ ใครก็สามารถดู source code, ใช้งาน, แก้ไข, หรือแจกจ่ายต่อได้ ตัวอย่างเช่น LLaMA, Stable Diffusion, Mistral พวกนี้ช่วยส่งเสริม transparency และ innovation ในวงการ AI ได้เยอะเลย"
   },
   {
     "id": 13,
     "question": "What is 'AI hallucination detection'?",
     "choices": {
-      "A": "Using brain scans to study AI",
+      "A": "Detecting visual illusions in AI-generated images",
       "B": "Methods and tools to identify when AI generates false or unsupported information",
-      "C": "Detecting visual illusions in AI-generated images",
-      "D": "A medical application of AI"
+      "C": "Limiting ethical reviews to consumer-facing AI applications while exempting internal operational AI systems",
+      "D": "A framework for measuring and reporting the environmental impact of AI training and inference workloads"
     },
     "answer": "B",
     "explanation": "AI hallucination detection คือวิธีการตรวจจับเมื่อ AI model สร้างข้อมูลที่ไม่จริง แต่งขึ้นเอง หรือไม่มีหลักฐานสนับสนุน เทคนิคที่ใช้มีหลายแบบ เช่น fact-checking, cross-referencing sources, และ consistency checking เพราะ AI ชอบ 'มั่ว' เนียนๆ ให้ดูน่าเชื่อ เราต้องมีวิธีจับให้ได้"
@@ -159,22 +159,22 @@
     "id": 14,
     "question": "What is 'temperature' in AI model settings?",
     "choices": {
-      "A": "The physical temperature of the AI hardware",
-      "B": "A parameter that controls the randomness/creativity of AI outputs",
-      "C": "The warmth of the AI's personality",
-      "D": "How fast the model generates responses"
+      "A": "A technique for mapping the relationships between different AI subsystems in a production environment",
+      "B": "The integration of human feedback loops into automated AI decision-making and validation workflows",
+      "C": "A parameter that controls the randomness/creativity of AI outputs",
+      "D": "The practice of establishing reference baselines for comparing AI model improvements"
     },
-    "answer": "B",
+    "answer": "C",
     "explanation": "Temperature เป็น parameter ที่ควบคุมความ random ของ output จาก AI ถ้าตั้ง temperature ต่ำ (เช่น 0.1) คำตอบจะค่อนข้าง deterministic และตรงประเด็น แต่ถ้าตั้งสูง (เช่น 1.0) คำตอบจะ creative และหลากหลายมากขึ้น เลือกใช้ให้เหมาะกับงานนะ"
   },
   {
     "id": 15,
     "question": "What is 'AI red teaming'?",
     "choices": {
-      "A": "A team that designs red-colored AI interfaces",
+      "A": "The practice of reviewing AI system logs to detect anomalous prediction patterns",
       "B": "The practice of deliberately testing AI systems by trying to find flaws, biases, and vulnerabilities",
-      "C": "A competitive AI sports team",
-      "D": "The marketing team for AI products"
+      "C": "An approach to designing AI interfaces that provide appropriate levels of detail for different user roles",
+      "D": "Delegating all ethical decisions about AI deployment to automated systems without human review processes"
     },
     "answer": "B",
     "explanation": "AI red teaming คือการทดสอบระบบ AI โดยเจตนา เพื่อหา vulnerability, bias, harmful output และจุดอ่อนต่างๆ แนวคิดนี้ยืมมาจากวงการ cybersecurity เลย ซึ่งสำคัญมากที่ต้องทำก่อน deploy AI ออกไปใช้งานจริง เพื่อให้มั่นใจเรื่อง AI safety"
@@ -183,60 +183,60 @@
     "id": 16,
     "question": "What is the 'EU AI Act'?",
     "choices": {
-      "A": "A European theatre performance about AI",
-      "B": "The European Union's comprehensive regulatory framework for AI that classifies systems by risk level",
-      "C": "An AI system developed by the EU",
-      "D": "A European AI research laboratory"
+      "A": "An approach to building AI systems that can gracefully handle inputs outside their trained data distribution",
+      "B": "A method for assessing the robustness of AI models to variations in input data quality",
+      "C": "The European Union's comprehensive regulatory framework for AI that classifies systems by risk level",
+      "D": "Implementing workflow automation tools that route tasks between teams based on configurable business rules"
     },
-    "answer": "B",
+    "answer": "C",
     "explanation": "EU AI Act เป็นกฎหมายควบคุม AI ฉบับแรกของโลกที่ครอบคลุมที่สุด ออกโดยสหภาพยุโรป โดยจัดระบบ AI เป็นกลุ่มตาม risk level: unacceptable, high, limited, minimal แล้วก็กำหนดข้อบังคับตามระดับความเสี่ยงของแต่ละกลุ่ม ถือเป็นต้นแบบ regulation ที่หลายประเทศจับตามองเลย"
   },
   {
     "id": 17,
     "question": "What is 'context window' in LLMs?",
     "choices": {
-      "A": "A window on the computer screen showing AI context",
-      "B": "The maximum amount of text (tokens) an LLM can process in a single interaction",
-      "C": "The timeframe during which an AI model was trained",
-      "D": "A pop-up window providing context-sensitive help"
+      "A": "An analytical framework for comparing cost-effectiveness of AI solutions",
+      "B": "The timeframe during which an AI model was trained",
+      "C": "A window on the computer screen showing AI context",
+      "D": "The maximum amount of text (tokens) an LLM can process in a single interaction"
     },
-    "answer": "B",
+    "answer": "D",
     "explanation": "Context window คือจำนวน token สูงสุดที่ LLM ประมวลผลได้ในครั้งเดียว รวมทั้ง input และ output ยิ่ง context window ใหญ่ model ก็ยิ่งพิจารณาข้อมูลได้เยอะขึ้น เช่น Claude รองรับได้ถึง 200K tokens เลย ทำให้ส่งเอกสารยาวๆ ให้อ่านได้สบาย"
   },
   {
     "id": 18,
     "question": "What is 'synthetic media'?",
     "choices": {
-      "A": "Media stored on synthetic materials",
-      "B": "Media content (images, video, audio, text) that is created or modified using AI",
-      "C": "Artificial turf for sports media",
-      "D": "A type of social media platform"
+      "A": "A methodology for tracking and versioning AI models throughout their development and deployment lifecycle",
+      "B": "The practice of establishing structured feedback channels between AI end-users and model development teams",
+      "C": "Media content (images, video, audio, text) that is created or modified using AI",
+      "D": "A method for organizing training data into balanced categories for model evaluation"
     },
-    "answer": "B",
+    "answer": "C",
     "explanation": "Synthetic media คือ media content ทุกชนิดที่ถูกสร้างหรือดัดแปลงด้วย AI ไม่ว่าจะเป็น deepfake, AI-generated images, synthesized voices, หรือ AI-written text พวกนี้ทำให้เกิดคำถามสำคัญเรื่อง authenticity และ trust ว่าอะไรจริง อะไรปลอม"
   },
   {
     "id": 19,
     "question": "What is 'AI literacy education'?",
     "choices": {
-      "A": "Teaching AI systems to read",
-      "B": "Educational programs that teach people to understand, use, and critically evaluate AI",
-      "C": "Using AI to teach literacy (reading and writing)",
-      "D": "A degree program in AI engineering"
+      "A": "The practice of testing AI systems under controlled conditions before full deployment",
+      "B": "A governance protocol for managing access controls and data permissions in AI development environments",
+      "C": "A protocol for synchronizing training data across geographically distributed data centers and storage nodes",
+      "D": "Educational programs that teach people to understand, use, and critically evaluate AI"
     },
-    "answer": "B",
+    "answer": "D",
     "explanation": "AI literacy education คือหลักสูตรและโปรแกรมที่สอนให้คนทุกวัยเข้าใจ concept ของ AI, ใช้ AI tool ได้อย่างมีประสิทธิภาพ, คิดวิเคราะห์เกี่ยวกับ AI ได้ และเข้าใจ societal implications ของมัน พูดง่ายๆ คือสอนให้คนรู้เท่าทัน AI นั่นเอง"
   },
   {
     "id": 20,
     "question": "What is the significance of 'informed consent' in AI?",
     "choices": {
-      "A": "Getting an AI's permission before using it",
-      "B": "Ensuring people understand and agree to how their data is collected and used by AI systems",
-      "C": "Informing AI about consent laws",
-      "D": "A consent form signed by AI developers"
+      "A": "A process for measuring the reliability of AI predictions across different conditions",
+      "B": "A methodology for continuously monitoring AI model fairness metrics across protected demographic categories",
+      "C": "Ensuring people understand and agree to how their data is collected and used by AI systems",
+      "D": "The integration of human feedback loops into automated AI decision-making and validation workflows"
     },
-    "answer": "B",
+    "answer": "C",
     "explanation": "Informed consent ในบริบท AI หมายความว่า ผู้ใช้ต้องได้รับข้อมูลที่ชัดเจนว่าระบบ AI collect, process, และใช้ data ของพวกเขายังไง แล้วต้องมีสิทธิ์เลือกว่าจะ consent หรือไม่ consent ด้วย ถือเป็นหลักการพื้นฐานของ data privacy และ AI ethics เลยนะ"
   }
 ]

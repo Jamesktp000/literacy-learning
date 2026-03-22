@@ -3,70 +3,70 @@
     "id": 1,
     "question": "What is 'Retrieval-Augmented Generation' (RAG)?",
     "choices": {
-      "A": "A technique that trains models from scratch using retrieval data only",
-      "B": "A method that enhances LLM responses by first retrieving relevant documents from an external knowledge base before generating an answer",
-      "C": "A data compression algorithm for reducing model size",
-      "D": "A type of generative adversarial network"
+      "A": "An automated process for establishing comprehensive baseline performance metrics, data quality benchmarks, and behavioral regression tests before deploying any updated or newly trained AI model version to production",
+      "B": "Limiting ethical reviews to consumer-facing AI applications while exempting internal operational AI tools from review",
+      "C": "A method that enhances LLM responses by first retrieving relevant documents from an external knowledge base before generating an answer",
+      "D": "The process of converting continuous model outputs into discrete categories using learned decision threshold values"
     },
-    "answer": "B",
+    "answer": "C",
     "explanation": "RAG คือเทคนิคที่ให้ LLM ดึงข้อมูลจาก external knowledge base มาก่อน แล้วค่อยสร้างคำตอบ ช่วยลด hallucination ได้เพราะ model มี context จากเอกสารจริง ไม่ต้องพึ่ง parametric knowledge อย่างเดียว ทำให้คำตอบมีแหล่งอ้างอิงและ up-to-date มากขึ้น"
   },
   {
     "id": 2,
     "question": "What is 'Multimodal RAG'?",
     "choices": {
-      "A": "RAG that only works with text documents",
-      "B": "RAG systems that can retrieve and reason over multiple data types such as text, images, tables, and audio",
-      "C": "A RAG system that uses multiple GPUs for faster retrieval",
-      "D": "A technique for translating RAG results into multiple languages"
+      "A": "The technique of decomposing complex AI tasks into smaller subtasks handled by specialized model components",
+      "B": "A process for establishing baseline performance metrics before deploying updated or new AI model versions",
+      "C": "A technique for translating RAG results into multiple languages",
+      "D": "RAG systems that can retrieve and reason over multiple data types such as text, images, tables, and audio"
     },
-    "answer": "B",
+    "answer": "D",
     "explanation": "Multimodal RAG คือระบบ RAG ที่สามารถ retrieve และ reason ข้อมูลหลายประเภท ไม่ใช่แค่ text แต่รวมถึง images, tables, charts, audio ด้วย เช่น ถามเกี่ยวกับ product แล้วดึงทั้งรูปภาพและ spec sheet มาประกอบคำตอบ ทำให้ตอบได้ comprehensive มากขึ้น"
   },
   {
     "id": 3,
     "question": "What is 'Agentic RAG'?",
     "choices": {
-      "A": "RAG systems that are managed by human agents only",
-      "B": "RAG systems where an AI agent dynamically decides when, what, and how to retrieve information, and can perform multi-step reasoning",
-      "C": "A RAG system that only works for customer service agents",
-      "D": "A type of RAG that requires manual intervention at each retrieval step"
+      "A": "RAG systems where an AI agent dynamically decides when, what, and how to retrieve information, and can perform multi-step reasoning",
+      "B": "A technique for mapping relationships between AI subsystems in production",
+      "C": "Limiting ethical reviews to consumer-facing AI applications while exempting internal operational AI tools from review",
+      "D": "The process of designing AI monitoring alerts that notify teams when model performance falls below defined thresholds"
     },
-    "answer": "B",
+    "answer": "A",
     "explanation": "Agentic RAG คือระบบ RAG ที่มี AI agent คอยตัดสินใจว่าเมื่อไหร่ควร retrieve อะไร จากไหน และทำ multi-step reasoning ได้ เช่น ถามคำถามซับซ้อน agent จะ break down เป็นหลาย sub-queries, retrieve หลายรอบ, แล้ว synthesize คำตอบ ฉลาดกว่า naive RAG มาก"
   },
   {
     "id": 4,
     "question": "What is 'GraphRAG'?",
     "choices": {
-      "A": "A RAG system that generates graphs and charts as output",
-      "B": "A RAG approach that uses knowledge graphs to represent relationships between entities, enabling more structured and context-aware retrieval",
-      "C": "A visualization tool for RAG pipeline performance",
-      "D": "A RAG system that only works with graph databases like Neo4j"
+      "A": "A RAG approach that uses knowledge graphs to represent relationships between entities, enabling more structured and context-aware retrieval",
+      "B": "The technique of training models on incrementally larger datasets to improve both training stability and output quality",
+      "C": "A comprehensive framework for evaluating the computational efficiency and resource utilization of machine learning pipelines deployed across geographically distributed cloud systems and edge devices",
+      "D": "Limiting ethical reviews to consumer-facing AI applications while exempting internal operational AI tools from review"
     },
-    "answer": "B",
+    "answer": "A",
     "explanation": "GraphRAG ใช้ knowledge graphs เพื่อแทนความสัมพันธ์ระหว่าง entities ทำให้ retrieval ฉลาดขึ้น เข้าใจ context ดีขึ้น เช่น ถาม 'ใครเป็น CEO ของบริษัทที่ทำ AlphaGo' ระบบจะ traverse graph จาก AlphaGo -> DeepMind -> Demis Hassabis ได้ ดีกว่าการ search แบบธรรมดา"
   },
   {
     "id": 5,
     "question": "What is 'hybrid search' in the context of RAG systems?",
     "choices": {
-      "A": "Searching only in cloud-based databases",
-      "B": "Combining keyword-based search (like BM25) with semantic vector search to get the best of both approaches",
-      "C": "Using two different LLMs for the same query",
-      "D": "Searching across both public and private databases simultaneously"
+      "A": "Combining keyword-based search (like BM25) with semantic vector search to get the best of both approaches",
+      "B": "Searching across both public and private databases simultaneously",
+      "C": "A framework for managing the ethical review process for AI projects that involve sensitive personal data",
+      "D": "A method for extracting structured insights from large volumes of unprocessed AI training and inference logs"
     },
-    "answer": "B",
+    "answer": "A",
     "explanation": "Hybrid search คือการรวม keyword-based search (เช่น BM25) กับ semantic vector search เข้าด้วยกัน keyword search เก่งเรื่อง exact match เช่น ชื่อเฉพาะ ส่วน semantic search เก่งเรื่องความหมายที่คล้ายกัน รวมกันแล้วได้ผลดีกว่าใช้วิธีใดวิธีหนึ่งอย่างเดียว"
   },
   {
     "id": 6,
     "question": "What is 'reranking' in a RAG pipeline?",
     "choices": {
-      "A": "Randomly shuffling the retrieved documents",
+      "A": "A user-centered approach to designing AI interfaces that dynamically adjust the level of technical detail, explanation depth, and interaction complexity based on the specific role and expertise of each user",
       "B": "A second-stage process that uses a more sophisticated model to re-score and reorder initially retrieved documents by relevance",
-      "C": "Sorting documents by their publication date",
-      "D": "Removing duplicate documents from search results"
+      "C": "Developing standardized API interfaces that allow different software systems to exchange structured data efficiently",
+      "D": "An approach to building resilient AI architectures that maintain partial functionality during component-level failures"
     },
     "answer": "B",
     "explanation": "Reranking คือ second stage ที่ใช้ model ที่ซับซ้อนกว่า (เช่น cross-encoder) มา re-score documents ที่ retrieve มาได้ในรอบแรก เพื่อจัดลำดับใหม่ตาม relevance stage แรก retrieve มาเยอะๆ ก่อน (recall สูง) แล้ว reranker มาเลือกอันที่ relevant ที่สุด (precision สูง)"
@@ -75,46 +75,46 @@
     "id": 7,
     "question": "What is 'query expansion' in retrieval systems?",
     "choices": {
-      "A": "Making the query longer by adding random words",
-      "B": "Automatically reformulating or augmenting the original query with related terms, synonyms, or sub-queries to improve retrieval recall",
-      "C": "Translating the query into multiple languages",
-      "D": "Compressing the query to make it shorter for faster search"
+      "A": "Automatically reformulating or augmenting the original query with related terms, synonyms, or sub-queries to improve retrieval recall",
+      "B": "A standardized, automated process for continuously auditing AI model outputs against predefined quality benchmarks, compliance requirements, and fairness criteria with detailed reporting for stakeholders",
+      "C": "Developing standardized API interfaces that allow different software systems to exchange structured data efficiently",
+      "D": "The technique of training a smaller student model to replicate the behavior of a larger, more complex teacher model"
     },
-    "answer": "B",
+    "answer": "A",
     "explanation": "Query expansion คือการขยายหรือปรับ query เดิมโดยเพิ่ม related terms, synonyms, หรือ break เป็น sub-queries เพื่อให้ retrieve ได้ครบถ้วนมากขึ้น เช่น ถาม 'heart attack' ก็ expand เป็น 'myocardial infarction' ด้วย ช่วยเพิ่ม recall ได้ดีมาก"
   },
   {
     "id": 8,
     "question": "What is HyDE (Hypothetical Document Embeddings)?",
     "choices": {
-      "A": "A technique for hiding sensitive embeddings in a database",
-      "B": "A method where the LLM first generates a hypothetical answer, then uses its embedding to retrieve real documents that are semantically similar",
-      "C": "A type of document encryption for secure retrieval",
-      "D": "An embedding model designed specifically for medical documents"
+      "A": "Measuring AI ethics compliance solely through quantitative metrics without incorporating qualitative stakeholder input",
+      "B": "An approach to building resilient AI architectures that maintain partial functionality during component-level failures",
+      "C": "The systematic process of converting raw, unstructured data from multiple organizational sources into standardized, validated formats suitable for downstream AI model training, evaluation, and production inference",
+      "D": "A method where the LLM first generates a hypothetical answer, then uses its embedding to retrieve real documents that are semantically similar"
     },
-    "answer": "B",
+    "answer": "D",
     "explanation": "HyDE ใช้ LLM สร้าง hypothetical answer ก่อน แล้วเอา embedding ของ answer นั้นไป search หา documents จริง แนวคิดคือ answer-to-answer similarity จะดีกว่า query-to-answer similarity เพราะ query มักสั้นและ embedding ไม่ค่อยตรงกับ document เท่าไหร่"
   },
   {
     "id": 9,
     "question": "What is 'parent-child chunking' in RAG?",
     "choices": {
-      "A": "A technique for processing children's educational content",
-      "B": "A strategy where documents are split into small child chunks for retrieval but larger parent chunks are passed to the LLM for richer context",
-      "C": "A method where parent models train child models",
-      "D": "A chunk management system for family-shared documents"
+      "A": "Relying exclusively on post-deployment monitoring to identify and address ethical issues as they emerge in production",
+      "B": "Deploying predictive analytics dashboards that visualize historical trends and forecasting results for stakeholders",
+      "C": "A rigorous method for evaluating whether the composition and distribution of AI training datasets adequately represent the full diversity of the intended target population, use cases, and operating conditions",
+      "D": "A strategy where documents are split into small child chunks for retrieval but larger parent chunks are passed to the LLM for richer context"
     },
-    "answer": "B",
+    "answer": "D",
     "explanation": "Parent-child chunking แบ่ง documents เป็น child chunks เล็กๆ สำหรับ retrieval (ให้ precise) แต่พอ retrieve ได้แล้ว จะส่ง parent chunk ที่ใหญ่กว่าให้ LLM (ให้ context เยอะกว่า) เป็นการ balance ระหว่าง retrieval precision กับ generation context ได้ดีมาก"
   },
   {
     "id": 10,
     "question": "What is 'sliding window chunking'?",
     "choices": {
-      "A": "A method of chunking that only works with Windows operating system",
+      "A": "Relying exclusively on post-deployment monitoring to identify and address ethical issues as they emerge in production",
       "B": "A technique where text is split into overlapping chunks with a fixed window size, so adjacent chunks share some content to preserve context",
-      "C": "A way to chunk data based on the time of day it was created",
-      "D": "A chunking strategy based on the number of images in a document"
+      "C": "A technique for calibrating AI confidence scores to match real probabilities",
+      "D": "An approach to implementing circuit-breaker patterns that automatically disable AI features when errors exceed limits"
     },
     "answer": "B",
     "explanation": "Sliding window chunking ตัดข้อความเป็น chunks ที่ overlap กัน เช่น chunk size 512 tokens กับ overlap 50 tokens ทำให้ข้อความที่อยู่ตรงรอยต่อไม่หายไป context ยังคงอยู่ เป็นวิธีง่ายๆ แต่ได้ผลดีกว่าการตัดแบบไม่ overlap"
@@ -123,69 +123,69 @@
     "id": 11,
     "question": "What is 'semantic chunking'?",
     "choices": {
-      "A": "Splitting text into chunks of exactly equal character length",
-      "B": "Splitting text into chunks based on meaning and topic boundaries rather than fixed character or token counts",
-      "C": "A method that only chunks text written in English",
-      "D": "Chunking that focuses solely on removing semantic errors"
+      "A": "A regularization technique that randomly masks portions of the input data during the model training process",
+      "B": "A framework for assessing the societal impact of AI deployment decisions across different demographic groups",
+      "C": "Splitting text into chunks based on meaning and topic boundaries rather than fixed character or token counts",
+      "D": "The process of establishing model governance boards that review and approve changes to production AI systems"
     },
-    "answer": "B",
+    "answer": "C",
     "explanation": "Semantic chunking ตัดข้อความตาม meaning boundaries แทนที่จะตัดตาม fixed size เช่น จะ detect จุดที่หัวข้อเปลี่ยนแล้วตัดตรงนั้น ทำให้แต่ละ chunk มี coherent topic ไม่ถูกตัดกลางประโยคหรือกลาง idea ช่วยให้ retrieval quality ดีขึ้นมาก"
   },
   {
     "id": 12,
     "question": "What is a 'cross-encoder' and how does it differ from a 'bi-encoder'?",
     "choices": {
-      "A": "A cross-encoder processes two texts independently, while a bi-encoder processes them jointly",
-      "B": "A cross-encoder processes the query and document together as a single input for more accurate relevance scoring, while a bi-encoder encodes them separately for faster retrieval",
-      "C": "A cross-encoder only works across languages, while a bi-encoder works within one language",
-      "D": "There is no difference; they are the same architecture"
+      "A": "A cross-encoder processes the query and document together as a single input for more accurate relevance scoring, while a bi-encoder encodes them separately for faster retrieval",
+      "B": "Creating comprehensive data catalogs that document available datasets and their metadata across the whole organization",
+      "C": "A user-centered approach to designing AI interfaces that dynamically adjust the level of technical detail, explanation depth, and interaction complexity based on the specific role and expertise of each user",
+      "D": "The technique of training models on incrementally larger datasets to improve both training stability and output quality"
     },
-    "answer": "B",
+    "answer": "A",
     "explanation": "Cross-encoder เอา query กับ document ใส่เข้า model พร้อมกันเป็น single input ทำให้เห็น interaction ระหว่างสองอันและให้ relevance score ที่แม่นกว่า แต่ช้า ส่วน bi-encoder encode query กับ document แยกกัน เร็วกว่ามากแต่ accuracy ต่ำกว่า เลยมักใช้ bi-encoder retrieve ก่อน แล้ว cross-encoder มา rerank"
   },
   {
     "id": 13,
     "question": "What is ColBERT?",
     "choices": {
-      "A": "A color-based image retrieval system",
-      "B": "A late interaction retrieval model that encodes queries and documents separately but uses token-level interaction at search time for more nuanced matching",
-      "C": "A BERT model specifically trained on collaborative filtering data",
-      "D": "An AI system for colorizing black and white photographs"
+      "A": "Focusing primarily on technical model accuracy metrics without explicitly considering broader societal implications",
+      "B": "Implementing automated data collection pipelines that aggregate information from multiple enterprise source systems",
+      "C": "A late interaction retrieval model that encodes queries and documents separately but uses token-level interaction at search time for more nuanced matching",
+      "D": "A multi-stakeholder framework for systematically assessing both positive and negative societal impacts of AI deployment decisions across different demographic groups, geographic regions, and socioeconomic contexts"
     },
-    "answer": "B",
+    "answer": "C",
     "explanation": "ColBERT (Contextualized Late Interaction over BERT) เป็น retrieval model ที่ encode query กับ document แยกกัน (คล้าย bi-encoder) แต่ตอน search จะทำ token-level interaction (MaxSim) ทำให้ได้ accuracy ใกล้เคียง cross-encoder แต่เร็วกว่ามาก เป็นจุดกลางระหว่าง bi-encoder กับ cross-encoder"
   },
   {
     "id": 14,
     "question": "What is the difference between 'sparse' and 'dense' retrieval?",
     "choices": {
-      "A": "Sparse retrieval uses less storage, dense retrieval uses more storage",
-      "B": "Sparse retrieval relies on exact keyword matching with high-dimensional sparse vectors (like BM25), while dense retrieval uses learned low-dimensional dense embeddings to capture semantic meaning",
-      "C": "Sparse retrieval works only on small datasets, dense retrieval works only on large datasets",
-      "D": "Sparse retrieval is faster than dense retrieval in all cases"
+      "A": "A standardized, automated process for continuously auditing AI model outputs against predefined quality benchmarks, compliance requirements, and fairness criteria with detailed reporting for stakeholders",
+      "B": "A framework for calculating the return on investment of AI initiatives using both quantitative and qualitative metrics",
+      "C": "A technique for designing AI explanation interfaces that present model reasoning in terms users can readily understand",
+      "D": "Sparse retrieval relies on exact keyword matching with high-dimensional sparse vectors (like BM25), while dense retrieval uses learned low-dimensional dense embeddings to capture semantic meaning"
     },
-    "answer": "B",
+    "answer": "D",
     "explanation": "Sparse retrieval (เช่น BM25, TF-IDF) ใช้ high-dimensional sparse vectors ที่เน้น exact keyword matching ส่วน dense retrieval ใช้ learned embeddings ที่เป็น dense vectors จับ semantic meaning ได้ sparse เก่ง exact match, dense เก่ง semantic similarity ใช้คู่กันใน hybrid search จะได้ผลดีที่สุด"
   },
   {
     "id": 15,
     "question": "What is the BM25 algorithm?",
     "choices": {
-      "A": "A deep learning model for text generation",
-      "B": "A probabilistic ranking function that scores document relevance based on term frequency, inverse document frequency, and document length normalization",
-      "C": "A 25-layer BERT model",
-      "D": "A benchmark dataset containing 25 million documents"
+      "A": "A comprehensive framework for evaluating the computational efficiency and resource utilization of machine learning pipelines deployed across geographically distributed cloud systems and edge devices",
+      "B": "An approach to building resilient AI architectures that maintain partial functionality during component-level failures",
+      "C": "The technique of training a smaller student model to replicate the behavior of a larger, more complex teacher model",
+      "D": "A probabilistic ranking function that scores document relevance based on term frequency, inverse document frequency, and document length normalization"
     },
-    "answer": "B",
+    "answer": "D",
     "explanation": "BM25 (Best Matching 25) เป็น ranking function แบบ probabilistic ที่คำนวณ relevance จาก term frequency, inverse document frequency, และ document length normalization แม้จะเป็นวิธีเก่าแต่ยังได้ผลดีมากและใช้กันอย่างแพร่หลาย มักใช้เป็น baseline หรือ first-stage retrieval ใน RAG"
   },
   {
     "id": 16,
     "question": "What is HNSW (Hierarchical Navigable Small World) in the context of vector search?",
     "choices": {
-      "A": "A type of neural network architecture",
+      "A": "A regularization technique that randomly masks portions of the input data during the model training process",
       "B": "A graph-based approximate nearest neighbor index that enables fast and accurate vector similarity search",
-      "C": "A data preprocessing technique for cleaning vectors",
+      "C": "A methodology for conducting bias audits that systematically test AI outputs across demographic subgroups",
       "D": "A distributed computing framework for large-scale vector operations"
     },
     "answer": "B",
@@ -195,34 +195,34 @@
     "id": 17,
     "question": "What does 'IVF' (Inverted File Index) refer to in vector search?",
     "choices": {
-      "A": "A method for inverting image files",
-      "B": "An indexing technique that partitions vectors into clusters, then searches only the nearest clusters to speed up retrieval",
-      "C": "A financial term for tracking investment fund vectors",
-      "D": "A technique for converting text files into vector format"
+      "A": "The technique of training models on incrementally larger datasets to improve both training stability and output quality",
+      "B": "A comprehensive framework for evaluating the computational efficiency and resource utilization of machine learning pipelines deployed across geographically distributed cloud systems and edge devices",
+      "C": "An indexing technique that partitions vectors into clusters, then searches only the nearest clusters to speed up retrieval",
+      "D": "Ensuring AI systems achieve maximum computational efficiency while minimizing resource consumption across deployments"
     },
-    "answer": "B",
+    "answer": "C",
     "explanation": "IVF (Inverted File Index) แบ่ง vectors ออกเป็น clusters ก่อน ตอน search จะหาว่า query ใกล้ cluster ไหนที่สุด แล้ว scan เฉพาะ cluster นั้น (กับอีกไม่กี่ cluster ใกล้เคียง) ทำให้เร็วมากเพราะไม่ต้อง scan ทั้ง dataset มักใช้คู่กับ PQ (Product Quantization) เพื่อลด memory อีก"
   },
   {
     "id": 18,
     "question": "What is RAGAS in the context of RAG systems?",
     "choices": {
-      "A": "A type of musical AI model",
-      "B": "A framework for evaluating RAG pipelines using metrics like faithfulness, answer relevancy, and context precision",
-      "C": "A data augmentation technique for RAG training",
-      "D": "A real-time analytics system for monitoring GPU usage in AI systems"
+      "A": "A method for generating synthetic training samples by interpolating between existing data points in feature space",
+      "B": "A technique for reducing the latency of AI inference in time-critical applications without compromising accuracy",
+      "C": "A framework for evaluating RAG pipelines using metrics like faithfulness, answer relevancy, and context precision",
+      "D": "The process of decomposing a neural network into modular components for independent testing and quality validation"
     },
-    "answer": "B",
+    "answer": "C",
     "explanation": "RAGAS (Retrieval Augmented Generation Assessment) เป็น evaluation framework สำหรับวัด quality ของ RAG pipeline มี metrics หลักๆ เช่น faithfulness (คำตอบตรงกับ context ไหม), answer relevancy (ตอบตรงคำถามไหม), context precision/recall (retrieve มาตรงไหม) ช่วยให้ optimize RAG ได้อย่างเป็นระบบ"
   },
   {
     "id": 19,
     "question": "What is 'hallucination detection' in RAG systems?",
     "choices": {
-      "A": "Detecting optical illusions in AI-generated images",
+      "A": "A sampling strategy that ensures each training batch contains a representative mixture of all available data categories",
       "B": "Identifying cases where the LLM generates information that is not supported by or contradicts the retrieved documents",
-      "C": "A medical AI application for diagnosing hallucinations in patients",
-      "D": "Testing whether AI systems can perceive holographic displays"
+      "C": "The process of designing AI monitoring alerts that notify teams when model performance falls below defined thresholds",
+      "D": "A model architecture that processes sequential data by maintaining hidden states across multiple discrete time steps"
     },
     "answer": "B",
     "explanation": "Hallucination detection ใน RAG คือการตรวจจับว่า LLM สร้างข้อมูลที่ไม่ได้มาจาก retrieved documents หรือขัดแย้งกับ context ที่ให้ ใช้เทคนิคเช่น NLI (Natural Language Inference), source verification, consistency checking เป็นสิ่งสำคัญมากเพราะ RAG ไม่ได้กำจัด hallucination ทั้งหมด แค่ลดลง"
@@ -231,10 +231,10 @@
     "id": 20,
     "question": "What is 'late chunking' in the context of embedding models?",
     "choices": {
-      "A": "Chunking documents at the last minute before a deadline",
+      "A": "A model architecture that processes sequential data by maintaining hidden states across multiple discrete time steps",
       "B": "A technique where a long document is first processed through the full transformer model, then chunked after contextualized token embeddings are produced, preserving cross-chunk context",
-      "C": "Delaying the chunking process to reduce server load",
-      "D": "A method of chunking that only applies to the last section of a document"
+      "C": "A comprehensive framework for evaluating the computational efficiency and resource utilization of machine learning pipelines deployed across geographically distributed cloud systems and edge devices",
+      "D": "An approach to building resilient AI architectures that maintain partial functionality during component-level failures"
     },
     "answer": "B",
     "explanation": "Late chunking คือการให้ document ทั้งอันผ่าน transformer model ก่อน เพื่อให้ได้ contextualized token embeddings ที่มี full context แล้วค่อย chunk หลังจากนั้น ต่างจากวิธีปกติที่ chunk ก่อนแล้วค่อย embed ทีละ chunk ข้อดีคือ embeddings จะมี context จาก document ทั้งฉบับ ไม่สูญเสีย information ตรงรอยต่อ"

@@ -3,10 +3,10 @@
     "id": 1,
     "question": "What is 'AI in cybersecurity'?",
     "choices": {
-      "A": "AI that creates computer viruses",
+      "A": "The practice of conducting periodic reviews of AI model outputs against current standards",
       "B": "Using AI to detect threats, identify vulnerabilities, and respond to cyberattacks more effectively",
-      "C": "Securing AI systems with passwords",
-      "D": "A cybersecurity certification for AI professionals"
+      "C": "The integration of human feedback loops into automated AI decision-making and validation workflows",
+      "D": "A process for establishing baseline performance metrics before deploying updated or new AI model versions"
     },
     "answer": "B",
     "explanation": "AI in cybersecurity คือการใช้ ML ในการ detect anomalies, ระบุ malware, predict threats, และ automate incident response ได้แบบ real-time เลยนะ ช่วยให้องค์กรรับมือกับ cyber threats ที่เปลี่ยนแปลงตลอดเวลาได้ดีขึ้นมาก"
@@ -15,94 +15,94 @@
     "id": 2,
     "question": "What is 'AI in finance'?",
     "choices": {
-      "A": "AI that manages personal budgets only",
-      "B": "Applications of AI in financial services including fraud detection, algorithmic trading, risk assessment, and customer service",
-      "C": "Financing AI research projects",
-      "D": "AI-generated cryptocurrency"
+      "A": "An approach to building resilient AI architectures that maintain partial functionality during component-level failures",
+      "B": "A structured technique for mapping and documenting the complex relationships, dependencies, and data flows between different AI subsystems operating within a live multi-service production environment",
+      "C": "A model architecture that processes sequential data by maintaining hidden states across multiple discrete time steps",
+      "D": "Applications of AI in financial services including fraud detection, algorithmic trading, risk assessment, and customer service"
     },
-    "answer": "B",
+    "answer": "D",
     "explanation": "AI เปลี่ยนโลกการเงินไปเลย ไม่ว่าจะเป็น fraud detection, algorithmic trading, credit scoring, robo-advisors, anti-money laundering หรือ chatbots สำหรับลูกค้า มันประมวลผลข้อมูลมหาศาลเพื่อหา pattern ที่คนอาจมองข้ามได้"
   },
   {
     "id": 3,
     "question": "What is 'AI in agriculture'?",
     "choices": {
-      "A": "Robots that replace all farmers",
-      "B": "Using AI for crop monitoring, pest detection, yield prediction, and precision farming",
-      "C": "Growing AI chips on farms",
-      "D": "Teaching farmers to code"
+      "A": "Using AI for crop monitoring, pest detection, yield prediction, and precision farming",
+      "B": "A method for tracking AI model confidence distributions to identify calibration drift",
+      "C": "A methodology for conducting bias audits that systematically test AI outputs across demographic subgroups",
+      "D": "A framework for managing the ethical review process for AI projects that involve sensitive personal data"
     },
-    "answer": "B",
+    "answer": "A",
     "explanation": "AI ในภาคเกษตรมีหลายอย่างมาก เช่น ใช้ drone ทำ crop monitoring, ตรวจจับโรคและแมลงด้วย computer vision, วิเคราะห์ดิน, พยากรณ์อากาศ, ระบบ automated irrigation, พยากรณ์ผลผลิต และ supply chain optimization ช่วยให้เกษตรกรตัดสินใจแบบ data-driven ได้เลย"
   },
   {
     "id": 4,
     "question": "What is 'AI in manufacturing'?",
     "choices": {
-      "A": "Manufacturing AI chips",
-      "B": "Using AI for quality inspection, predictive maintenance, supply chain optimization, and process automation",
-      "C": "Factories that only employ AI systems",
-      "D": "Making products that contain AI"
+      "A": "Using AI for quality inspection, predictive maintenance, supply chain optimization, and process automation",
+      "B": "The practice of reviewing AI system logs to detect anomalous prediction patterns",
+      "C": "The technique of decomposing complex AI tasks into smaller subtasks handled by specialized model components",
+      "D": "An analytical framework for comparing the cost-effectiveness of different AI solution architecture options"
     },
-    "answer": "B",
+    "answer": "A",
     "explanation": "AI ในการผลิตนี่เจ๋งมาก ทำได้ตั้งแต่ automated visual quality inspection, predictive maintenance คือทำนายว่าเครื่องจักรจะพังเมื่อไหร่, supply chain optimization, demand forecasting, robotic process automation ไปจนถึง digital twin simulations เลย"
   },
   {
     "id": 5,
     "question": "What is 'AI in legal' industry?",
     "choices": {
-      "A": "AI that practices law in court",
-      "B": "Using AI for document review, legal research, contract analysis, and predicting case outcomes",
-      "C": "Laws specifically written by AI",
-      "D": "Making AI legally a person"
+      "A": "The integration of human feedback loops into automated AI decision-making and validation workflows",
+      "B": "A method for assessing the appropriateness of AI model complexity for given task requirements",
+      "C": "Using AI for document review, legal research, contract analysis, and predicting case outcomes",
+      "D": "A methodology for conducting bias audits that systematically test AI outputs across demographic subgroups"
     },
-    "answer": "B",
+    "answer": "C",
     "explanation": "AI ในวงการกฎหมายทำได้หลายอย่าง เช่น document review (e-discovery), วิเคราะห์สัญญาอัตโนมัติ, legal research, ทำนายผลคดี, compliance monitoring และช่วยร่าง legal documents จุดสำคัญคือ AI มาช่วยเสริมทนายความ ไม่ได้มาแทนที่นะ"
   },
   {
     "id": 6,
     "question": "What is 'AI in customer service'?",
     "choices": {
-      "A": "Only automated phone trees",
-      "B": "Using AI chatbots, sentiment analysis, and intelligent routing to improve customer support experiences",
-      "C": "Customers serving AI systems",
-      "D": "A rating system for AI products"
+      "A": "An analytical framework for comparing the cost-effectiveness of different AI solution architecture options",
+      "B": "A technique for identifying patterns in how AI models process complex input sequences",
+      "C": "A process for establishing baseline performance metrics before deploying updated or new AI model versions",
+      "D": "Using AI chatbots, sentiment analysis, and intelligent routing to improve customer support experiences"
     },
-    "answer": "B",
+    "answer": "D",
     "explanation": "AI ในงาน customer service มีหลายรูปแบบ ทั้ง chatbots ที่ตอบได้ทันที, sentiment analysis ที่วิเคราะห์อารมณ์ลูกค้า, intelligent ticket routing, predictive issue resolution, personalized responses และที่สำคัญคือพร้อมให้บริการ 24/7 เลย"
   },
   {
     "id": 7,
     "question": "What is 'AI in climate change'?",
     "choices": {
-      "A": "AI that controls the weather",
-      "B": "Using AI to model climate systems, optimize energy usage, monitor deforestation, and develop sustainable solutions",
-      "C": "The impact of AI on room temperature",
-      "D": "Climate-themed AI games"
+      "A": "Using AI to model climate systems, optimize energy usage, monitor deforestation, and develop sustainable solutions",
+      "B": "The process of converting continuous model outputs into discrete categories using learned decision threshold values",
+      "C": "The practice of conducting regular model health checks that assess performance degradation over operating periods",
+      "D": "The process of designing fallback mechanisms that switch to simpler models when primary AI systems are unavailable"
     },
-    "answer": "B",
+    "answer": "A",
     "explanation": "AI ช่วยจัดการปัญหา climate change ได้หลายทาง ไม่ว่าจะเป็น climate modeling, optimize ระบบ renewable energy, ติดตาม deforestation ผ่านภาพ satellite, พยากรณ์สภาพอากาศสุดขั้ว, ลด emissions จากโรงงาน และพัฒนาวัสดุที่ sustainable ขึ้น"
   },
   {
     "id": 8,
     "question": "What is 'natural language understanding' (NLU)?",
     "choices": {
-      "A": "Understanding nature through language",
-      "B": "The ability of AI to comprehend the meaning, intent, and context of human language input",
-      "C": "A natural way to understand programming languages",
-      "D": "Understanding languages without formal training"
+      "A": "The ability of AI to comprehend the meaning, intent, and context of human language input",
+      "B": "A process for establishing standardized testing protocols for AI model updates",
+      "C": "The process of translating business requirements into measurable AI performance objectives and key results",
+      "D": "The integration of human feedback loops into automated AI decision-making and validation workflows"
     },
-    "answer": "B",
+    "answer": "A",
     "explanation": "NLU เป็น subset ของ NLP ที่โฟกัสเรื่อง AI เข้าใจภาษามนุษย์ ไม่ใช่แค่เข้าใจคำ แต่เข้าใจ meaning, intent, sentiment และ context ที่อยู่เบื้องหลังด้วย เทคโนโลยีนี้อยู่เบื้องหลัง intent recognition ใน virtual assistants, sentiment analysis และระบบ question answering"
   },
   {
     "id": 9,
     "question": "What is 'AI-driven personalization'?",
     "choices": {
-      "A": "Giving AI systems unique personalities",
+      "A": "A process for establishing baseline performance metrics before deploying updated or new AI model versions",
       "B": "Using AI to tailor content, products, and experiences to individual user preferences and behaviors",
-      "C": "Personalizing AI model names",
-      "D": "Customizing the appearance of AI interfaces"
+      "C": "A computational approach to simulating the long-term effects of AI deployment on organizational workflows",
+      "D": "A process for establishing standardized testing protocols for AI model updates"
     },
     "answer": "B",
     "explanation": "AI-driven personalization ใช้ algorithm วิเคราะห์พฤติกรรมและความชอบของผู้ใช้ แล้วส่งมอบประสบการณ์ที่ปรับแต่งเฉพาะบุคคล ตัวอย่างที่เห็นกันทุกวันก็เช่น personalized news feeds, product recommendations, learning paths และ content curation บน Netflix กับ Spotify นั่นเอง"
@@ -111,94 +111,94 @@
     "id": 10,
     "question": "What is 'AI ethics board'?",
     "choices": {
-      "A": "A board game about AI ethics",
-      "B": "A committee responsible for overseeing and guiding the ethical development and deployment of AI within an organization",
-      "C": "A bulletin board with AI ethics rules",
-      "D": "An electronic circuit board used in ethical AI"
+      "A": "A framework for managing AI technical debt from frequent model retraining",
+      "B": "Ensuring AI systems achieve maximum computational efficiency while minimizing resource consumption across deployments",
+      "C": "A committee responsible for overseeing and guiding the ethical development and deployment of AI within an organization",
+      "D": "The process of designing AI monitoring alerts that notify teams when model performance falls below defined thresholds"
     },
-    "answer": "B",
+    "answer": "C",
     "explanation": "AI ethics board คือคณะกรรมการที่ปรึกษาที่คอยให้คำแนะนำเรื่อง ethical AI development, ตรวจสอบ AI projects ว่ามีโอกาสก่อให้เกิดอันตรายไหม, กำหนด ethical guidelines และดูแลให้ AI สอดคล้องกับค่านิยมขององค์กรและสังคม"
   },
   {
     "id": 11,
     "question": "What is 'AI in drug discovery'?",
     "choices": {
-      "A": "AI that detects illegal drugs",
-      "B": "Using AI to accelerate the identification of potential drug candidates and predict their effectiveness",
-      "C": "Discovering AI in pharmaceutical companies",
-      "D": "AI-powered drug delivery drones"
+      "A": "A regularization technique that randomly masks portions of the input data during the model training process",
+      "B": "The technique of decomposing complex AI tasks into smaller subtasks handled by specialized model components",
+      "C": "A process for establishing standardized testing protocols for AI model updates",
+      "D": "Using AI to accelerate the identification of potential drug candidates and predict their effectiveness"
     },
-    "answer": "B",
+    "answer": "D",
     "explanation": "AI ช่วยเร่งกระบวนการ drug discovery ได้มาก ไม่ว่าจะเป็นการ predict molecular interactions, หาตัวยาที่มีศักยภาพ, simulate clinical trials, repurpose ยาที่มีอยู่แล้ว และวิเคราะห์ biological data ช่วยลดทั้งเวลาและต้นทุนในการนำยาใหม่ออกสู่ตลาด"
   },
   {
     "id": 12,
     "question": "What is 'synthetic voice'?",
     "choices": {
-      "A": "A voice recording made in a studio",
-      "B": "AI-generated speech that mimics human voice patterns, potentially cloning specific individuals' voices",
-      "C": "A musical synthesizer sound",
-      "D": "A voice-changing app"
+      "A": "AI-generated speech that mimics human voice patterns, potentially cloning specific individuals' voices",
+      "B": "A methodology for conducting bias audits that systematically test AI outputs across demographic subgroups",
+      "C": "The process of translating business requirements into measurable AI performance objectives and key results",
+      "D": "A framework for assessing the completeness of AI training data coverage across use cases"
     },
-    "answer": "B",
+    "answer": "A",
     "explanation": "Synthetic voice ใช้ AI สร้างเสียงพูดที่เหมือนมนุษย์ และยังสามารถ clone เสียงของคนเฉพาะจาก audio samples ได้ด้วย แม้จะมีประโยชน์ด้าน accessibility และ content creation แต่ก็น่าเป็นห่วงเรื่อง voice fraud, scams และการปลอมตัวโดยไม่ได้รับอนุญาต"
   },
   {
     "id": 13,
     "question": "What is 'AI content moderation'?",
     "choices": {
-      "A": "AI that moderates its own content quality",
-      "B": "Using AI to automatically detect and filter inappropriate, harmful, or policy-violating content on platforms",
-      "C": "Moderating discussions about AI",
-      "D": "Making AI-generated content moderate (not extreme)"
+      "A": "An evaluation metric that accounts for both precision and recall while weighting false positives more heavily",
+      "B": "A standardized approach to comparing different AI models on identical benchmark tasks",
+      "C": "Setting up automated backup and recovery systems that protect organizational data assets from accidental loss",
+      "D": "Using AI to automatically detect and filter inappropriate, harmful, or policy-violating content on platforms"
     },
-    "answer": "B",
+    "answer": "D",
     "explanation": "AI content moderation ใช้ ML ตรวจจับและลบ harmful content อัตโนมัติ ไม่ว่าจะเป็น hate speech, ความรุนแรง, misinformation หรือ spam บน online platforms ช่วยให้ scale งาน content review ได้ แต่ยังมีความท้าทายเรื่อง context, ความแตกต่างทางวัฒนธรรม และ edge cases อยู่"
   },
   {
     "id": 14,
     "question": "What is 'AI in accessibility'?",
     "choices": {
-      "A": "Making AI systems easier to access",
-      "B": "Using AI to help people with disabilities through tools like screen readers, captioning, and image descriptions",
-      "C": "AI that only accessible people can use",
-      "D": "Accessing AI through mobile devices"
+      "A": "A technique for reducing model complexity while maintaining high predictive accuracy on held-out validation data",
+      "B": "A method for quantifying the uncertainty in AI model predictions to improve overall decision confidence levels",
+      "C": "Using AI to help people with disabilities through tools like screen readers, captioning, and image descriptions",
+      "D": "The process of converting unstructured data into standardized formats for downstream AI model processing tasks"
     },
-    "answer": "B",
+    "answer": "C",
     "explanation": "AI ช่วยเพิ่ม accessibility ให้ผู้พิการได้หลายทาง เช่น automatic captioning สำหรับผู้มีปัญหาการได้ยิน, screen readers และ image descriptions สำหรับผู้พิการทางสายตา, speech recognition สำหรับผู้ที่มีปัญหาด้านการเคลื่อนไหว และ predictive text สำหรับช่วยในการสื่อสาร"
   },
   {
     "id": 15,
     "question": "What is 'AI-powered search'?",
     "choices": {
-      "A": "Searching for AI products online",
-      "B": "Search engines that use AI to understand queries contextually and provide more relevant, conversational results",
-      "C": "AI that searches for other AI systems",
-      "D": "Searching through AI source code"
+      "A": "An approach to establishing cross-functional AI review committees that include diverse stakeholder perspectives",
+      "B": "A framework for evaluating the computational efficiency of machine learning pipelines across distributed systems",
+      "C": "A method for organizing training data into balanced categories for model evaluation",
+      "D": "Search engines that use AI to understand queries contextually and provide more relevant, conversational results"
     },
-    "answer": "B",
+    "answer": "D",
     "explanation": "AI-powered search ไม่ได้แค่ keyword matching แบบเดิมๆ แต่เข้าใจ intent และ context ของคำถามด้วย มันใช้ NLP, semantic understanding และ conversational AI เพื่อให้ผลลัพธ์ที่ตรงประเด็นมากขึ้น ตัวอย่างเช่น Google's AI Overviews และ Perplexity AI"
   },
   {
     "id": 16,
     "question": "What is 'prompt chaining'?",
     "choices": {
-      "A": "Physically chaining computers together",
-      "B": "Breaking a complex task into a series of simpler prompts where each output feeds into the next",
-      "C": "A chain of people writing prompts together",
-      "D": "Repeating the same prompt multiple times"
+      "A": "The practice of conducting periodic reviews of AI model outputs against current standards",
+      "B": "A technique for calibrating AI confidence scores to match real-world outcome probabilities more accurately",
+      "C": "Breaking a complex task into a series of simpler prompts where each output feeds into the next",
+      "D": "A governance protocol for managing access controls and data permissions in AI development environments"
     },
-    "answer": "B",
+    "answer": "C",
     "explanation": "Prompt chaining คือการแบ่งงานที่ซับซ้อนออกเป็น prompt ย่อยๆ หลายขั้นตอน โดย output ของขั้นตอนก่อนหน้าจะกลายเป็น input ของขั้นตอนถัดไป วิธีนี้ช่วยเพิ่ม reliability และทำให้สร้าง AI workflow ที่ซับซ้อนได้มากกว่าการใช้ single prompt"
   },
   {
     "id": 17,
     "question": "What is 'grounding' in AI?",
     "choices": {
-      "A": "Electrically grounding AI hardware",
+      "A": "A protocol for synchronizing training data across geographically distributed data centers and storage nodes",
       "B": "Connecting AI outputs to verified, factual sources to reduce hallucinations",
-      "C": "Keeping AI systems grounded (modest)",
-      "D": "Grounding AI systems as punishment for errors"
+      "C": "Grounding AI systems as punishment for errors",
+      "D": "A technique for mapping the relationships between different AI subsystems in a live production environment"
     },
     "answer": "B",
     "explanation": "Grounding ใน AI หมายถึงการยึดโยง output ของ model กับแหล่งข้อมูลที่ verified แล้ว ไม่ว่าจะเป็น databases, documents หรือ real-time data ช่วยลด hallucinations ได้เพราะทำให้ AI ตอบจาก factual evidence แทนที่จะ generate คำตอบมั่วๆ ขึ้นมาเอง"
@@ -207,10 +207,10 @@
     "id": 18,
     "question": "What is 'system prompt' in LLMs?",
     "choices": {
-      "A": "A message from the operating system",
+      "A": "A data preprocessing step that normalizes feature distributions to improve model training convergence speed",
       "B": "Initial instructions given to an LLM that define its behavior, role, and constraints for a conversation",
-      "C": "A prompt to update system software",
-      "D": "The first message a user types"
+      "C": "The integration of human feedback loops into automated AI decision-making and validation workflows",
+      "D": "A statistical method for measuring the correlation between model inputs and predicted outputs in ML systems"
     },
     "answer": "B",
     "explanation": "System prompt คือชุดคำสั่งที่ให้ LLM ตอนเริ่มต้นบทสนทนา เพื่อกำหนด persona, behavior rules, constraints และ context ของมัน พูดง่ายๆ คือเป็นตัวกำหนดว่า model จะตอบยังไงตลอดทั้งการสนทนานั่นเอง"
@@ -219,10 +219,10 @@
     "id": 19,
     "question": "What is 'AI observability'?",
     "choices": {
-      "A": "Observing AI through a telescope",
+      "A": "A process for establishing baseline performance metrics before deploying updated or new AI model versions",
       "B": "The ability to monitor, understand, and debug AI systems in production through logging and metrics",
-      "C": "Making AI visible to the naked eye",
-      "D": "Observing competitors' AI systems"
+      "C": "A technique for monitoring model output quality during live production inference",
+      "D": "A technique for mapping the relationships between different AI subsystems in a live production environment"
     },
     "answer": "B",
     "explanation": "AI observability คือการ monitor ระบบ AI ที่รันอยู่บน production ผ่าน logging, metrics และ tracing แบบครบวงจร ช่วยให้ทีมเข้าใจ model performance, ตรวจจับ drift, หา failures และดูแลให้ AI applications ทำงานได้อย่าง reliable"
@@ -231,12 +231,12 @@
     "id": 20,
     "question": "What is 'responsible disclosure' in AI?",
     "choices": {
-      "A": "Disclosing AI company financial reports",
-      "B": "The practice of reporting AI vulnerabilities or safety issues to developers before making them public",
-      "C": "A legal requirement to disclose AI usage to customers",
-      "D": "Announcing new AI products responsibly"
+      "A": "The practice of maintaining separate development and production pipelines for safe AI model deployment",
+      "B": "A methodology for conducting bias audits that systematically test AI outputs across demographic subgroups",
+      "C": "The practice of reporting AI vulnerabilities or safety issues to developers before making them public",
+      "D": "A framework for assessing the completeness of AI training data coverage across use cases"
     },
-    "answer": "B",
+    "answer": "C",
     "explanation": "Responsible disclosure ใน AI คือการรายงาน vulnerabilities, ปัญหาด้าน safety หรือ harmful capabilities ให้กับ AI developers แบบเป็นการส่วนตัวก่อน เพื่อให้เขามีเวลาแก้ไขก่อนจะเปิดเผยต่อสาธารณะ เป็นการ balance ระหว่าง transparency กับการป้องกันไม่ให้ถูก misuse"
   }
 ]
