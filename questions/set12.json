@@ -1,0 +1,242 @@
+[
+  {
+    "id": 1,
+    "question": "What is 'AI in creative writing'?",
+    "choices": {
+      "A": "Writing stories about AI",
+      "B": "Using AI tools to assist with generating, editing, or brainstorming written content",
+      "C": "AI that only writes creatively, not factually",
+      "D": "A writing contest judged by AI"
+    },
+    "answer": "B",
+    "explanation": "AI in creative writing คือการใช้ LLMs มาช่วยนักเขียนในหลายๆ ด้าน ไม่ว่าจะเป็น brainstorming ไอเดีย, drafting text, editing งานเขียน, สร้าง dialogue หรือแม้แต่ช่วยตอนที่ writer's block เขียนอะไรไม่ออก แต่มันก็มีประเด็นที่ต้องคิดเรื่อง authorship, originality แล้วก็บทบาทของ human creativity ว่ายังสำคัญแค่ไหน"
+  },
+  {
+    "id": 2,
+    "question": "What is 'AI code generation'?",
+    "choices": {
+      "A": "Generating random codes for coupons",
+      "B": "Using AI to automatically write, complete, or suggest programming code based on natural language descriptions",
+      "C": "Converting AI models into source code",
+      "D": "QR code generation"
+    },
+    "answer": "B",
+    "explanation": "AI code generation ใช้ model ที่ train มาจาก code เพื่อเขียน เติม debug แล้วก็อธิบาย programming code ได้เลย เครื่องมืออย่าง GitHub Copilot กับ Claude สามารถ generate code จาก natural language descriptions ได้ ช่วยเพิ่ม developer productivity ได้เยอะมากจริงๆ"
+  },
+  {
+    "id": 3,
+    "question": "What is 'AI music generation'?",
+    "choices": {
+      "A": "Playing music while AI processes data",
+      "B": "Using AI to compose, arrange, or produce original music tracks",
+      "C": "A music playlist curated by AI",
+      "D": "Converting music to data for AI training"
+    },
+    "answer": "B",
+    "explanation": "AI music generation ใช้ model ในการ compose เพลงใหม่ๆ สร้าง accompaniments หรือผลิต full tracks ในหลากหลาย style เครื่องมืออย่าง Suno, Udio แล้วก็ Google's MusicLM สามารถสร้างเพลงจาก text descriptions ได้เลย แต่ก็มีคำถามเรื่อง IP กับประเด็น creative ที่ต้องคิดกันต่อ"
+  },
+  {
+    "id": 4,
+    "question": "What is 'AI video generation'?",
+    "choices": {
+      "A": "Recording videos of AI systems",
+      "B": "Using AI to create, edit, or synthesize video content from text prompts or other inputs",
+      "C": "Video tutorials about AI",
+      "D": "Compressing video files with AI"
+    },
+    "answer": "B",
+    "explanation": "AI video generation สร้าง video content จาก text descriptions, รูปภาพ หรือ input อื่นๆ ได้ เครื่องมืออย่าง Sora, Runway แล้วก็ Pika สามารถ generate วิดีโอที่ดูสมจริงมาก technology นี้มี potential สูงมากสำหรับวงการ entertainment แต่ก็มีความกังวลเรื่อง deepfake ที่ต้องระวังด้วย"
+  },
+  {
+    "id": 5,
+    "question": "What is 'AI in gaming'?",
+    "choices": {
+      "A": "Playing video games on AI-powered hardware",
+      "B": "Using AI for NPCs, procedural content generation, adaptive difficulty, and game testing",
+      "C": "Games that teach people about AI",
+      "D": "Gambling with AI predictions"
+    },
+    "answer": "B",
+    "explanation": "AI in gaming ทำให้เกมฉลาดขึ้นเยอะเลย ไม่ว่าจะเป็น NPCs (non-player characters) ที่มีปฏิสัมพันธ์ดีขึ้น, procedural content generation ที่สร้าง levels/worlds ที่ไม่ซ้ำกัน, adaptive difficulty adjustment ที่ปรับความยากตามผู้เล่น, realistic physics, automated game testing แล้วก็ personalized player experiences ที่ทำให้แต่ละคนได้ประสบการณ์ไม่เหมือนกัน"
+  },
+  {
+    "id": 6,
+    "question": "What is 'AI in transportation'?",
+    "choices": {
+      "A": "Transporting AI hardware between locations",
+      "B": "Using AI for autonomous vehicles, traffic optimization, route planning, and predictive maintenance",
+      "C": "AI-themed public transport designs",
+      "D": "Transporting data through AI networks"
+    },
+    "answer": "B",
+    "explanation": "AI in transportation ครอบคลุมหลายอย่างมาก ทั้ง self-driving vehicles, intelligent traffic management ที่จัดการจราจรได้ดีขึ้น, optimal route planning วางแผนเส้นทาง, predictive maintenance สำหรับยานพาหนะและโครงสร้างพื้นฐาน, demand forecasting สำหรับขนส่งสาธารณะ ไปจนถึง drone delivery systems ด้วย"
+  },
+  {
+    "id": 7,
+    "question": "What is 'digital ethics'?",
+    "choices": {
+      "A": "Ethics that only apply in digital spaces",
+      "B": "The branch of ethics concerned with moral issues arising from digital technologies including AI, data, and the internet",
+      "C": "Converting ethical guidelines to digital format",
+      "D": "Ethics courses taught online"
+    },
+    "answer": "B",
+    "explanation": "Digital ethics เป็นสาขาที่ศึกษาคำถามทางจริยธรรมที่เกิดจาก digital technologies ไม่ว่าจะเป็นเรื่อง privacy, surveillance, AI fairness, misinformation, digital addiction แล้วก็ผลกระทบของเทคโนโลยีต่อสังคม มันให้ framework สำหรับการพัฒนาและใช้เทคโนโลยีอย่างรับผิดชอบ"
+  },
+  {
+    "id": 8,
+    "question": "What is 'techno-optimism' in AI?",
+    "choices": {
+      "A": "Being optimistic about buying tech stocks",
+      "B": "The belief that AI and technology will predominantly lead to positive outcomes for humanity",
+      "C": "Optimizing technology for performance",
+      "D": "A music genre combining techno with AI"
+    },
+    "answer": "B",
+    "explanation": "Techno-optimism คือความเชื่อที่ว่า AI กับเทคโนโลยีจะส่งผลดีต่อมนุษยชาติเป็นหลัก เช่น แก้ปัญหาโรคภัย ลดความยากจน เพิ่ม productivity แต่ฝั่งที่ criticize ก็บอกว่ามันอาจทำให้เรา underestimate ความเสี่ยง แล้วก็มองข้ามคนที่ได้รับผลกระทบจากเทคโนโลยีไป"
+  },
+  {
+    "id": 9,
+    "question": "What is 'techno-pessimism' in AI?",
+    "choices": {
+      "A": "Being pessimistic about technology stock prices",
+      "B": "The belief that AI and technology pose significant risks and may cause more harm than good",
+      "C": "Pessimistic AI models that always predict negative outcomes",
+      "D": "Disliking technology in general"
+    },
+    "answer": "B",
+    "explanation": "Techno-pessimism เชื่อว่า AI กับเทคโนโลยีอาจก่อให้เกิดอันตรายร้ายแรง ไม่ว่าจะเป็น job displacement, surveillance, inequality หรือแม้แต่ existential risk มุมมองที่ balanced ควรจะยอมรับทั้ง potential benefits และ risks แล้วก็ผลักดันเรื่อง governance กับ regulation ที่รอบคอบ"
+  },
+  {
+    "id": 10,
+    "question": "What is 'human agency' in the context of AI?",
+    "choices": {
+      "A": "A staffing agency for AI companies",
+      "B": "The ability of humans to make their own decisions and maintain control over AI systems",
+      "C": "Humans acting as agents for AI",
+      "D": "An agency that regulates AI on behalf of humans"
+    },
+    "answer": "B",
+    "explanation": "Human agency ในบริบทของ AI หมายถึงการรักษาความสามารถของมนุษย์ในการตัดสินใจด้วยตัวเอง มี meaningful control เหนือระบบ AI และสามารถ override AI ได้เมื่อจำเป็น การรักษา human agency เป็น core principle ที่สำคัญมากในการพัฒนา responsible AI"
+  },
+  {
+    "id": 11,
+    "question": "What is 'AI and misinformation'?",
+    "choices": {
+      "A": "Misinformation about how AI works",
+      "B": "The challenge of AI being used to create and spread false information at scale",
+      "C": "AI that corrects all misinformation online",
+      "D": "Giving AI incorrect training data"
+    },
+    "answer": "B",
+    "explanation": "AI มีสองด้านเรื่อง misinformation เลย ด้านหนึ่ง generative AI ทำให้สร้าง fake text, images แล้วก็ videos ที่น่าเชื่อถือได้ง่ายมากในปริมาณมหาศาล แต่อีกด้าน AI tools ก็ช่วย detect misinformation ได้เหมือนกัน dual-use nature แบบนี้ทำให้มันเป็น challenge สำคัญของสังคมมากๆ"
+  },
+  {
+    "id": 12,
+    "question": "What is 'filter bubble' in AI?",
+    "choices": {
+      "A": "A bubble wrap used to protect AI hardware filters",
+      "B": "When AI recommendation algorithms only show content that reinforces existing beliefs, limiting exposure to diverse viewpoints",
+      "C": "A visual effect in AI-generated images",
+      "D": "Filtering bubbles in data visualization"
+    },
+    "answer": "B",
+    "explanation": "Filter bubble เกิดขึ้นเมื่อ AI recommendation algorithms personalize เนื้อหามากจนผู้ใช้เห็นแต่ข้อมูลที่ยืนยันความเชื่อเดิมของตัวเอง ผลที่ตามมาคือเพิ่ม polarization ลดโอกาสเห็น diverse perspectives แล้วก็บิดเบือนความเข้าใจต่อความเป็นจริงได้"
+  },
+  {
+    "id": 13,
+    "question": "What is 'echo chamber effect' in AI?",
+    "choices": {
+      "A": "AI that produces echoing audio",
+      "B": "When AI algorithms amplify and reinforce users' existing opinions by repeatedly exposing them to similar viewpoints",
+      "C": "Testing AI in a soundproof room",
+      "D": "AI that repeats everything the user says"
+    },
+    "answer": "B",
+    "explanation": "Echo chamber effect ถูกทำให้รุนแรงขึ้นโดย AI recommendation systems ที่แสดง content ที่สอดคล้องกับมุมมองเดิมของผู้ใช้ สร้าง self-reinforcing cycle ที่ยิ่งดูยิ่งเห็นแต่สิ่งเดิมๆ ส่งผลให้เกิด political polarization แล้วก็การแพร่กระจายของ extreme viewpoints มากขึ้น"
+  },
+  {
+    "id": 14,
+    "question": "What is 'AI and environmental sustainability'?",
+    "choices": {
+      "A": "AI that runs on sustainable energy only",
+      "B": "Both the environmental cost of AI (energy use) and AI's potential to solve environmental challenges",
+      "C": "Sustaining AI companies financially",
+      "D": "Using recycled materials to build AI hardware"
+    },
+    "answer": "B",
+    "explanation": "เรื่อง AI กับ sustainability มีสองมุมที่ต้องมองนะ ด้านหนึ่ง AI ต้องใช้พลังงานมหาศาลในการ training/inference ซึ่งเป็น environmental cost แต่อีกด้าน AI ก็ช่วยแก้ปัญหาสิ่งแวดล้อมได้ เช่น optimizing energy grids, monitoring deforestation, ปรับปรุง crop yields แล้วก็ predicting climate patterns"
+  },
+  {
+    "id": 15,
+    "question": "What is 'AI and intellectual property law'?",
+    "choices": {
+      "A": "AI that practices law",
+      "B": "Legal questions about who owns AI-generated content and whether training on copyrighted data is lawful",
+      "C": "Patenting AI robot designs",
+      "D": "AI that memorizes all laws"
+    },
+    "answer": "B",
+    "explanation": "AI สร้างคำถามเรื่อง IP ที่ซับซ้อนมากเลย เช่น AI-generated works สามารถจด copyright ได้ไหม? ใครเป็นเจ้าของ — user, developer หรือไม่มีใครเลย? การ train models จาก copyrighted material ถือว่าเป็น fair use หรือเปล่า? ศาลทั่วโลกกำลัง actively ตัดสินคำถามพวกนี้อยู่"
+  },
+  {
+    "id": 16,
+    "question": "What is 'AI and academic integrity'?",
+    "choices": {
+      "A": "AI that grades papers honestly",
+      "B": "Challenges around students using AI to complete academic work and how institutions should respond",
+      "C": "Using AI to prevent cheating on exams",
+      "D": "AI research that follows academic standards"
+    },
+    "answer": "B",
+    "explanation": "AI tools อย่าง ChatGPT ทำให้เกิดคำถามเรื่อง academic integrity ว่าการใช้ AI ช่วยแค่ไหนถึงจะถือว่า cheating? สถาบันการศึกษาก็กำลังพัฒนา AI usage policies, AI detection tools (แม้จะยังไม่สมบูรณ์) แล้วก็วิธีการประเมินแบบใหม่ที่ incorporate AI literacy เข้าไปด้วย"
+  },
+  {
+    "id": 17,
+    "question": "What is 'AI detection tool'?",
+    "choices": {
+      "A": "A tool that detects if you have AI installed",
+      "B": "Software that attempts to determine whether content was generated by AI or written by a human",
+      "C": "AI that detects objects in images",
+      "D": "A metal detector powered by AI"
+    },
+    "answer": "B",
+    "explanation": "AI detection tools วิเคราะห์ text, images หรือ content อื่นๆ เพื่อดูว่ามันถูกสร้างโดย AI หรือเปล่า เครื่องมืออย่าง GPTZero แล้วก็ Turnitin's AI detector มีอยู่ แต่ก็ยังมี limitations เยอะอยู่ ทั้งเรื่อง false positives แล้วก็การที่คนสามารถหลีกเลี่ยง detection ได้ด้วยการ paraphrasing"
+  },
+  {
+    "id": 18,
+    "question": "What is 'AI and informed decision-making'?",
+    "choices": {
+      "A": "AI making all decisions for humans",
+      "B": "Using AI as a tool to provide information and insights that help humans make better decisions",
+      "C": "Informing AI about human decisions",
+      "D": "Deciding which AI to purchase"
+    },
+    "answer": "B",
+    "explanation": "AI-informed decision-making ใช้ AI ในการ analyze data, identify patterns แล้วก็ present insights ให้คน แต่มนุษย์ยังคงเป็นคนตัดสินใจสุดท้าย วิธีนี้ผสมผสาน AI's processing power เข้ากับ human judgment, ความเข้าใจ context แล้วก็ ethical reasoning ได้อย่างลงตัว"
+  },
+  {
+    "id": 19,
+    "question": "What is 'AI skepticism'?",
+    "choices": {
+      "A": "AI that is skeptical of everything",
+      "B": "A critical approach that questions AI claims, hype, and capabilities while advocating for evidence-based evaluation",
+      "C": "Being skeptical that AI exists",
+      "D": "AI that doesn't believe in human intelligence"
+    },
+    "answer": "B",
+    "explanation": "AI skepticism คือการ critically evaluate claims แล้วก็ capabilities ของ AI แทนที่จะเชื่อตาม hype ไปหมด healthy skepticism จะถามว่า AI นี้ทำงานได้จริงตามที่อ้างไหม? limitations คืออะไร? ใครได้ประโยชน์แล้วใครเสียประโยชน์? มันเป็นส่วนสำคัญมากของ AI literacy"
+  },
+  {
+    "id": 20,
+    "question": "What is 'critical AI literacy'?",
+    "choices": {
+      "A": "AI literacy that is critically important",
+      "B": "The ability to critically analyze AI systems — questioning their design, data, outputs, impacts, and power dynamics",
+      "C": "A critical review of AI literacy courses",
+      "D": "AI that critically evaluates literature"
+    },
+    "answer": "B",
+    "explanation": "Critical AI literacy ไม่ใช่แค่เข้าใจว่า AI ทำงานยังไง แต่ต้องตั้งคำถามเรื่อง power dynamics, societal impacts แล้วก็ hidden assumptions ด้วย รวมถึงถามว่าใครสร้าง AI, ใครได้ประโยชน์, ใครเสียประโยชน์, มี biases อะไรบ้าง แล้วก็ AI reinforce หรือ challenge inequality ยังไง"
+  }
+]

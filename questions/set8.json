@@ -1,0 +1,242 @@
+[
+  {
+    "id": 1,
+    "question": "What is 'recurrent neural network' (RNN)?",
+    "choices": {
+      "A": "A network that recurs (repeats) the same error",
+      "B": "A neural network designed to handle sequential data by maintaining memory of previous inputs",
+      "C": "A recurring subscription for AI services",
+      "D": "A network that reconnects automatically"
+    },
+    "answer": "B",
+    "explanation": "RNN เป็น neural network ที่ออกแบบมาเพื่อจัดการกับ sequential data เช่น ข้อความ, time series, เสียง โดยมันจะมี hidden state ที่คอยจำข้อมูลจาก step ก่อนหน้าไว้ ลองนึกภาพว่ามันอ่านทีละคำแล้วจำบริบทที่ผ่านมาได้เลย ส่วน variant ที่เก่งขึ้นก็มี LSTM กับ GRU ที่แก้ปัญหา vanishing gradient problem ได้ด้วยนะ"
+  },
+  {
+    "id": 2,
+    "question": "What is 'LSTM' in deep learning?",
+    "choices": {
+      "A": "Long System Training Method",
+      "B": "Long Short-Term Memory — an RNN variant that can learn long-term dependencies",
+      "C": "Large Scale Text Mining",
+      "D": "Low Speed Transfer Mode"
+    },
+    "answer": "B",
+    "explanation": "LSTM ย่อมาจาก Long Short-Term Memory เป็น RNN แบบพิเศษที่ใช้ระบบ gates ในการควบคุม information flow ว่าจะจำอะไร ลืมอะไร ทำให้มันเรียนรู้ long-term dependencies ในข้อมูลได้ดีมาก ปัญหา vanishing gradient ที่ RNN ธรรมดาเจอ LSTM จัดการได้สบายเลย"
+  },
+  {
+    "id": 3,
+    "question": "What is 'autoencoder' in AI?",
+    "choices": {
+      "A": "An automatic video encoder",
+      "B": "A neural network that learns to compress data into a compact representation and then reconstruct it",
+      "C": "A tool for automatically encoding passwords",
+      "D": "An AI that writes code automatically"
+    },
+    "answer": "B",
+    "explanation": "Autoencoder เป็น neural network ที่เรียนรู้การบีบอัดข้อมูล (encoding) ให้เหลือแค่ representation ขนาดเล็ก แล้วก็สร้างข้อมูลกลับมา (decoding) ให้เหมือนเดิมมากที่สุด ใช้ประโยชน์ได้หลายอย่างเลย เช่น dimensionality reduction, denoising แล้วก็ anomaly detection"
+  },
+  {
+    "id": 4,
+    "question": "What is 'variational autoencoder' (VAE)?",
+    "choices": {
+      "A": "An autoencoder with variable speed settings",
+      "B": "A generative model that learns a probabilistic latent space, enabling generation of new data samples",
+      "C": "An autoencoder that varies its encoding method randomly",
+      "D": "A validation tool for autoencoders"
+    },
+    "answer": "B",
+    "explanation": "VAE เป็น generative model ที่เรียนรู้ probabilistic latent space แบบมีโครงสร้าง ต่างจาก autoencoder ธรรมดาตรงที่ VAE สามารถสร้างข้อมูลใหม่ได้ด้วยการ sample จาก distribution ที่เรียนรู้มา เลยเอาไปใช้ generate รูปภาพหรือข้อความใหม่ได้เก่งมาก"
+  },
+  {
+    "id": 5,
+    "question": "What is 'diffusion model' in AI?",
+    "choices": {
+      "A": "A model for studying how ideas spread",
+      "B": "A generative model that creates data by learning to reverse a gradual noise-adding process",
+      "C": "A model for predicting gas diffusion",
+      "D": "A method for distributing AI models across servers"
+    },
+    "answer": "B",
+    "explanation": "Diffusion model ทำงานโดยเรียนรู้วิธี reverse กระบวนการเติม noise ลงไปในข้อมูลทีละนิด จนกลายเป็น random noise หมดเลย แล้วมันก็เรียนรู้ที่จะ denoise กลับทีละ step จนได้ภาพสวยออกมา ตัวอย่างที่ดังมากก็เช่น Stable Diffusion กับ DALL-E 3 นั่นเอง"
+  },
+  {
+    "id": 6,
+    "question": "What is 'tokenization' in NLP?",
+    "choices": {
+      "A": "Creating blockchain tokens from text",
+      "B": "Breaking text into smaller units (tokens) such as words, subwords, or characters for processing",
+      "C": "Converting text to cryptocurrency",
+      "D": "Adding security tokens to text files"
+    },
+    "answer": "B",
+    "explanation": "Tokenization คือการตัดข้อความออกเป็นหน่วยย่อย ๆ ที่เรียกว่า token เพื่อให้ NLP model ประมวลผลได้ วิธีการมีตั้งแต่แบบง่าย ๆ อย่างตัดเป็นคำ ไปจนถึง subword tokenization แบบ BPE ที่จัดการกับคำที่ไม่ค่อยเจอโดยแตกออกเป็น subunit ที่พบบ่อยกว่า"
+  },
+  {
+    "id": 7,
+    "question": "What is 'BERT' in AI?",
+    "choices": {
+      "A": "Basic Electronic Reasoning Technology",
+      "B": "Bidirectional Encoder Representations from Transformers — a language model that understands context from both directions",
+      "C": "A chatbot character name",
+      "D": "Binary Encrypted Runtime Tool"
+    },
+    "answer": "B",
+    "explanation": "BERT ย่อมาจาก Bidirectional Encoder Representations from Transformers เป็น language model จาก Google ที่อ่านข้อความได้ทั้งสองทิศทางพร้อมกัน ทำให้เข้าใจ context ของคำได้ดีกว่า model แบบทิศทางเดียว มันปฏิวัติวงการ NLP ไปเลย ไม่ว่าจะเป็นงาน search, Q&A หรือ text classification"
+  },
+  {
+    "id": 8,
+    "question": "What is 'GPT' in AI?",
+    "choices": {
+      "A": "General Processing Technology",
+      "B": "Generative Pre-trained Transformer — a family of language models that generate text",
+      "C": "Global Programming Tool",
+      "D": "Graphics Processing Technique"
+    },
+    "answer": "B",
+    "explanation": "GPT ย่อมาจาก Generative Pre-trained Transformer เป็นตระกูล LLM จาก OpenAI ที่ถูก pre-train ด้วยข้อมูลข้อความมหาศาล สามารถ generate ข้อความที่สอดคล้องและเป็นธรรมชาติได้ GPT-4 เป็นตัวขับเคลื่อน ChatGPT และเป็นหนึ่งใน language model ที่เก่งที่สุดในตอนนี้"
+  },
+  {
+    "id": 9,
+    "question": "What is 'embedding' in AI?",
+    "choices": {
+      "A": "Inserting AI chips into devices",
+      "B": "A numerical vector representation of data (text, images, etc.) that captures semantic meaning",
+      "C": "Embedding videos in websites",
+      "D": "A method for hiding data within files"
+    },
+    "answer": "B",
+    "explanation": "Embedding คือ dense numerical vector ที่แทนข้อมูลในแบบที่จับความหมายเชิง semantic ได้ ของที่คล้ายกันก็จะมี embedding ที่ใกล้กัน ทำให้ AI ทำงานอย่าง search, clustering แล้วก็ recommendation ได้ด้วยการเทียบ vector similarity กันนั่นเอง"
+  },
+  {
+    "id": 10,
+    "question": "What is 'vector database'?",
+    "choices": {
+      "A": "A database that stores only mathematical vectors",
+      "B": "A specialized database designed to store and efficiently search embedding vectors for AI applications",
+      "C": "A database about vector-borne diseases",
+      "D": "A graphical database with vector images"
+    },
+    "answer": "B",
+    "explanation": "Vector database คือฐานข้อมูลเฉพาะทางที่เก็บและ index embedding vector เพื่อให้ค้นหา similarity ได้เร็วมาก สำคัญมากสำหรับระบบ RAG, recommendation engine แล้วก็ semantic search ตัวอย่างที่นิยมก็มี Pinecone, Weaviate แล้วก็ ChromaDB"
+  },
+  {
+    "id": 11,
+    "question": "What is 'cosine similarity'?",
+    "choices": {
+      "A": "A mathematical concept unrelated to AI",
+      "B": "A metric that measures how similar two vectors are by calculating the cosine of the angle between them",
+      "C": "The similarity between two cosine waves",
+      "D": "A method for aligning AI models"
+    },
+    "answer": "B",
+    "explanation": "Cosine similarity วัดความคล้ายกันของ vector สองตัวโดยคำนวณ cosine ของมุมระหว่างมัน ค่าจะอยู่ระหว่าง -1 ถึง 1 ยิ่งใกล้ 1 ยิ่งคล้ายกัน ใช้กันเยอะมากใน NLP กับ recommendation system เวลาเทียบ embedding ว่าอันไหนใกล้เคียงกัน"
+  },
+  {
+    "id": 12,
+    "question": "What is 'data lake' in AI infrastructure?",
+    "choices": {
+      "A": "A lake where data centers are built",
+      "B": "A large storage repository that holds raw data in its native format until needed for analysis",
+      "C": "A visualization of data flowing like water",
+      "D": "A cooling system for AI servers"
+    },
+    "answer": "B",
+    "explanation": "Data lake คือที่เก็บข้อมูลขนาดใหญ่แบบรวมศูนย์ ที่เก็บ raw data ทั้ง structured และ unstructured ไว้ในรูปแบบดั้งเดิม ข้อดีคือยืดหยุ่นมาก data scientist สามารถเข้าถึงข้อมูลหลากหลายชนิดเพื่อเอาไปใช้ train model ได้สะดวก"
+  },
+  {
+    "id": 13,
+    "question": "What is 'MLOps'?",
+    "choices": {
+      "A": "Machine Learning Operations — practices for deploying and maintaining ML models in production",
+      "B": "Multiple Language Operations",
+      "C": "Machine Logic Optimization",
+      "D": "Master Level Operations"
+    },
+    "answer": "A",
+    "explanation": "MLOps ย่อมาจาก Machine Learning Operations เป็นชุดแนวปฏิบัติที่รวม ML, DevOps และ data engineering เข้าด้วยกัน เพื่อให้ deploy และดูแล ML system ใน production ได้อย่างมั่นใจ ครอบคลุมเรื่อง model versioning, monitoring, automated retraining แล้วก็ CI/CD สำหรับ ML เลย"
+  },
+  {
+    "id": 14,
+    "question": "What is 'model serving'?",
+    "choices": {
+      "A": "Serving food prepared by AI",
+      "B": "The process of deploying a trained AI model to make it available for real-time predictions",
+      "C": "A customer service model",
+      "D": "Serving data to multiple models"
+    },
+    "answer": "B",
+    "explanation": "Model serving คือกระบวนการ deploy ML model ที่ train เสร็จแล้วเข้าสู่ production environment เพื่อให้รับ request แล้วส่ง prediction กลับได้ ต้องคิดเรื่องหลายอย่างเลยนะ ทั้ง latency, scalability, versioning แล้วก็ monitoring"
+  },
+  {
+    "id": 15,
+    "question": "What is 'model drift'?",
+    "choices": {
+      "A": "When an AI model physically moves to a different server",
+      "B": "The degradation of model performance over time as real-world data patterns change",
+      "C": "A model that slowly changes its architecture",
+      "D": "Drifting between different AI frameworks"
+    },
+    "answer": "B",
+    "explanation": "Model drift เกิดขึ้นเมื่อ performance ของ AI model แย่ลงเรื่อย ๆ ตามเวลา เพราะข้อมูลในโลกจริงเปลี่ยนไปจากตอนที่ train ไว้ เลยต้องคอย monitor drift อยู่เสมอ แล้วก็ retrain model เป็นระยะ ถือเป็น practice สำคัญของ MLOps เลย"
+  },
+  {
+    "id": 16,
+    "question": "What is 'data pipeline' in AI?",
+    "choices": {
+      "A": "A physical pipe that carries data",
+      "B": "An automated workflow that collects, processes, transforms, and delivers data for AI models",
+      "C": "A pipeline company's AI division",
+      "D": "A visualization showing data flow direction"
+    },
+    "answer": "B",
+    "explanation": "Data pipeline คือชุดขั้นตอนอัตโนมัติที่ดึง raw data จากแหล่งต่าง ๆ มา process และ transform แล้วส่งต่อในรูปแบบที่พร้อมใช้สำหรับ train หรือ inference ของ AI/ML model ถ้า pipeline เชื่อถือได้ ระบบ AI ใน production ก็จะทำงานราบรื่นตามไปด้วย"
+  },
+  {
+    "id": 17,
+    "question": "What is 'AutoML'?",
+    "choices": {
+      "A": "Self-driving cars made with ML",
+      "B": "Automated Machine Learning — tools that automate the process of building ML models",
+      "C": "An automatic email system",
+      "D": "ML that runs automatically without electricity"
+    },
+    "answer": "B",
+    "explanation": "AutoML ทำให้กระบวนการสร้าง ML model เป็นแบบอัตโนมัติตั้งแต่ต้นจนจบ ไม่ว่าจะเป็น feature engineering, model selection, hyperparameter tuning แล้วก็ evaluation ทำให้คนที่ไม่ใช่ expert ก็สร้าง model ได้ง่ายขึ้น ตัวอย่างเช่น Google AutoML กับ H2O AutoML"
+  },
+  {
+    "id": 18,
+    "question": "What is 'no-code AI'?",
+    "choices": {
+      "A": "AI that doesn't work properly",
+      "B": "Platforms that allow users to build AI applications without writing programming code",
+      "C": "AI systems that have no source code",
+      "D": "A secret AI program with no documentation"
+    },
+    "answer": "B",
+    "explanation": "No-code AI platform ให้ visual interface แบบ drag-and-drop ที่ทำให้คนไม่ต้องเขียนโค้ดก็สร้าง, train แล้วก็ deploy AI model ได้เลย ช่วย democratize AI ให้เข้าถึงง่ายสำหรับ business user กับ domain expert ที่อาจไม่ถนัดเขียนโปรแกรม"
+  },
+  {
+    "id": 19,
+    "question": "What is 'AI inference cost'?",
+    "choices": {
+      "A": "The price of buying an AI model",
+      "B": "The computational expense of running a trained model to generate predictions or outputs",
+      "C": "The cost of AI research papers",
+      "D": "The salary of AI engineers"
+    },
+    "answer": "B",
+    "explanation": "AI inference cost คือค่าใช้จ่ายด้าน computational resource ที่ต้องใช้ในการรัน trained model เพื่อทำ prediction สำหรับ LLM มักจะวัดเป็น cost per token การลด inference cost โดยยังรักษา quality ไว้ได้ถือเป็นความท้าทายใหญ่ของวงการ AI เลย"
+  },
+  {
+    "id": 20,
+    "question": "What is 'quantization' in AI?",
+    "choices": {
+      "A": "Measuring the quantity of AI data",
+      "B": "Reducing the precision of model parameters (e.g., from 32-bit to 8-bit) to make models smaller and faster",
+      "C": "Converting qualitative data to quantitative",
+      "D": "A quantum computing technique for AI"
+    },
+    "answer": "B",
+    "explanation": "Quantization คือการลด numerical precision ของ model weights เช่น จาก float32 เหลือ int8 ทำให้ model ขนาดเล็กลง inference เร็วขึ้น ใช้ memory น้อยลง แต่ accuracy แทบไม่หายไปเลย เลยช่วยให้รัน large model บนอุปกรณ์เล็ก ๆ ได้สบาย"
+  }
+]

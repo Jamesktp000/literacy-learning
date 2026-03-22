@@ -1,0 +1,242 @@
+[
+  {
+    "id": 1,
+    "question": "What is 'AI and energy management'?",
+    "choices": {
+      "A": "Managing the energy that AI consumes",
+      "B": "Using AI to optimize energy production, distribution, and consumption for efficiency and sustainability",
+      "C": "Energy drinks for AI developers",
+      "D": "AI that generates energy"
+    },
+    "answer": "B",
+    "explanation": "AI in energy management คือการใช้ AI มาช่วย optimize การผลิต การจ่าย และการใช้พลังงานให้มีประสิทธิภาพมากขึ้น เช่น ใช้ predict energy demand เพื่อวางแผนการผลิตไฟฟ้า จัดการ renewable energy integration ให้ลงตัว ลด waste ในอาคารและโรงงาน แล้วก็ทำให้ smart grid ทำงานได้ฉลาดขึ้น สรุปคือ AI ช่วยให้ระบบพลังงานทั้งหมด sustainable มากขึ้นนั่นเอง"
+  },
+  {
+    "id": 2,
+    "question": "What is 'AI and disaster response'?",
+    "choices": {
+      "A": "When an AI system fails disastrously",
+      "B": "Using AI for predicting natural disasters, coordinating rescue operations, and assessing damage",
+      "C": "AI disaster recovery backup systems",
+      "D": "A disaster movie about AI"
+    },
+    "answer": "B",
+    "explanation": "AI in disaster response เอาไว้ช่วยรับมือกับภัยพิบัติแบบครบวงจรเลย ตั้งแต่ predict แผ่นดินไหวหรือน้ำท่วม วิเคราะห์ satellite imagery เพื่อ assess ความเสียหาย optimize evacuation routes ให้คนอพยพได้เร็วขึ้น ประสาน rescue resources ได้อย่างมีระบบ แถมยัง monitor social media เพื่อรู้สถานการณ์แบบ real-time อีกด้วย"
+  },
+  {
+    "id": 3,
+    "question": "What is 'AI and urban planning'?",
+    "choices": {
+      "A": "AI that plans city birthday parties",
+      "B": "Using AI to analyze data and simulate scenarios for better city design, traffic management, and resource allocation",
+      "C": "Planning where to build AI data centers in cities",
+      "D": "AI maps of urban areas"
+    },
+    "answer": "B",
+    "explanation": "AI in urban planning ใช้ data analysis กับ simulation มาช่วยออกแบบเมืองให้ดีขึ้น เช่น จัดการ traffic flow ไม่ให้รถติด วางแผน public transportation ให้คนเดินทางสะดวก predict population growth เพื่อรองรับคนในอนาคต ลด pollution แล้วก็ปรับปรุง public services ให้คุณภาพชีวิตคนในเมืองดีขึ้นแบบเห็นได้ชัด"
+  },
+  {
+    "id": 4,
+    "question": "What is 'AI and food safety'?",
+    "choices": {
+      "A": "AI that cooks safe meals",
+      "B": "Using AI to detect contamination, monitor food quality, predict outbreaks, and optimize food supply chains",
+      "C": "Safely storing food near AI equipment",
+      "D": "AI-generated recipes"
+    },
+    "answer": "B",
+    "explanation": "AI in food safety ใช้เทคโนโลยีหลายอย่างมาดูแลความปลอดภัยอาหารตั้งแต่ฟาร์มถึงโต๊ะกินข้าวเลย เช่น ใช้ computer vision ตรวจสอบคุณภาพอาหาร ใช้ sensors ตรวจจับ contamination มี predictive models ประเมิน shelf life แล้วก็ monitor supply chain ทั้งระบบ เรียกว่าดูแลแบบ from farm to table จริงๆ"
+  },
+  {
+    "id": 5,
+    "question": "What is 'AI and wildlife conservation'?",
+    "choices": {
+      "A": "AI that conserves its own wildlife",
+      "B": "Using AI to monitor endangered species, detect poaching, analyze ecosystems, and protect biodiversity",
+      "C": "Wildlife documentaries made by AI",
+      "D": "AI robots that live in the wild"
+    },
+    "answer": "B",
+    "explanation": "AI in wildlife conservation ช่วยปกป้องสัตว์ป่าได้หลายทางเลย เช่น ใช้ camera traps ร่วมกับ image recognition เพื่อระบุสายพันธุ์สัตว์ ใช้ acoustic monitoring ติดตามประชากรนกหรือวาฬ วิเคราะห์ satellite data เพื่อดู habitat loss แล้วก็ใช้ predictive models ป้องกันการลักลอบล่าสัตว์ สรุปคือ AI เป็นเครื่องมือสำคัญในการ protect biodiversity เลยทีเดียว"
+  },
+  {
+    "id": 6,
+    "question": "What is 'AI and ocean science'?",
+    "choices": {
+      "A": "AI that lives in the ocean",
+      "B": "Using AI to analyze ocean data for climate research, marine biodiversity monitoring, and underwater exploration",
+      "C": "Ocean-themed AI screensavers",
+      "D": "Cooling AI servers with ocean water"
+    },
+    "answer": "B",
+    "explanation": "AI in ocean science วิเคราะห์ข้อมูลจาก satellite และ sensors เพื่อศึกษาทะเลและมหาสมุทร เช่น monitor อุณหภูมิน้ำทะเล track สายพันธุ์สัตว์ทะเล predict weather patterns ทำแผนที่พื้นมหาสมุทร ตรวจจับ pollution แล้วก็ศึกษาผลกระทบของ climate change ต่อ marine ecosystems ทั้งระบบ เรียกว่า AI ช่วยให้เราเข้าใจท้องทะเลได้ลึกขึ้นมากเลย"
+  },
+  {
+    "id": 7,
+    "question": "What is 'AI and space exploration'?",
+    "choices": {
+      "A": "Exploring AI systems",
+      "B": "Using AI for autonomous spacecraft navigation, data analysis from space missions, and planning Mars exploration",
+      "C": "Creating space in servers for AI",
+      "D": "AI-themed space movies"
+    },
+    "answer": "B",
+    "explanation": "AI ขับเคลื่อน space exploration ในหลายมิติเลย เช่น ใช้ autonomous navigation ให้ rover บนดาวอังคารขับเคลื่อนเอง วิเคราะห์ telescope data เพื่อค้นหา exoplanets optimize spacecraft trajectory ให้ประหยัดเชื้อเพลิง วิเคราะห์ satellite images แล้วก็จัดการระบบ communication ที่ต้องรับมือกับ signal delay ระยะไกลๆ ด้วย AI เป็นพระเอกของการสำรวจอวกาศยุคใหม่เลย"
+  },
+  {
+    "id": 8,
+    "question": "What is 'AI and materials science'?",
+    "choices": {
+      "A": "The materials used to build AI hardware",
+      "B": "Using AI to discover and design new materials with desired properties for applications like batteries and semiconductors",
+      "C": "AI coursework materials",
+      "D": "Studying the material cost of AI"
+    },
+    "answer": "B",
+    "explanation": "AI ช่วยเร่ง materials science ให้เร็วขึ้นมหาศาลเลย โดย predict material properties ได้ล่วงหน้า design สารประกอบใหม่ๆ optimize กระบวนการผลิต แล้วก็ค้นพบวัสดุสำหรับ batteries, solar cells, superconductors และอื่นๆ ได้เร็วกว่าวิธีแบบเดิมมากๆ เรียกว่า AI accelerate การวิจัยวัสดุศาสตร์ไปอีกขั้นเลย"
+  },
+  {
+    "id": 9,
+    "question": "What is 'digital literacy' vs 'AI literacy'?",
+    "choices": {
+      "A": "They are exactly the same concept",
+      "B": "Digital literacy is general tech skills; AI literacy specifically includes understanding AI capabilities, limitations, and ethical implications",
+      "C": "AI literacy is more basic than digital literacy",
+      "D": "Digital literacy is only about reading digital text"
+    },
+    "answer": "B",
+    "explanation": "Digital literacy ครอบคลุมทักษะเทคโนโลยีทั่วไป เช่น ใช้อุปกรณ์ต่างๆ ได้ รู้เรื่อง internet safety สื่อสารผ่านช่องทาง digital ได้ ส่วน AI literacy เป็นขั้นที่ลึกกว่า คือต้องเข้าใจว่า AI ทำงานยังไง มี capabilities กับ limitations อะไรบ้าง รวมถึง ethical considerations และสามารถ evaluate AI outputs ได้อย่างมีวิจารณญาณด้วย"
+  },
+  {
+    "id": 10,
+    "question": "What is 'computational thinking'?",
+    "choices": {
+      "A": "Thinking done by computers",
+      "B": "A problem-solving approach that involves breaking down problems, recognizing patterns, and designing solutions — foundational for understanding AI",
+      "C": "Thinking about buying a new computer",
+      "D": "Computing how long it takes to think"
+    },
+    "answer": "B",
+    "explanation": "Computational thinking คือวิธีคิดแก้ปัญหาแบบเป็นระบบ ประกอบด้วยการ decompose ปัญหาใหญ่ให้เล็กลง recognize patterns ที่ซ้ำๆ abstract เอาเฉพาะข้อมูลสำคัญ แล้วก็ design algorithmic solutions ขึ้นมา ถึงจะไม่ใช่การเขียนโปรแกรมโดยตรง แต่เป็น foundational skill สำคัญมากในการเข้าใจว่า AI คิดและแก้ปัญหายังไง"
+  },
+  {
+    "id": 11,
+    "question": "What is 'AI fluency'?",
+    "choices": {
+      "A": "AI that speaks fluently",
+      "B": "A deeper level of AI understanding that enables someone to effectively work with, evaluate, and make decisions about AI",
+      "C": "Being fluent in programming AI",
+      "D": "AI that is fluid-like"
+    },
+    "answer": "B",
+    "explanation": "AI fluency เป็นระดับที่ลึกกว่า basic AI literacy อีก คือไม่ใช่แค่รู้ว่า AI คืออะไร แต่ต้อง communicate กับ AI systems ได้อย่างมีประสิทธิภาพ evaluate outputs ของ AI เป็น เข้าใจ limitations ของมัน แล้วก็ตัดสินใจได้ว่าควรใช้ AI เมื่อไหร่และอย่างไรใน context ต่างๆ เรียกว่าใช้ AI เป็นจริงๆ นั่นแหละ"
+  },
+  {
+    "id": 12,
+    "question": "What is 'algorithmic thinking'?",
+    "choices": {
+      "A": "Thinking about algorithms",
+      "B": "The ability to define problems clearly and develop step-by-step solutions, essential for understanding AI logic",
+      "C": "Letting algorithms do your thinking",
+      "D": "A type of mathematical formula"
+    },
+    "answer": "B",
+    "explanation": "Algorithmic thinking คือความสามารถในการ define ปัญหาให้ชัดเจน แล้วสร้าง step-by-step procedures ขึ้นมาแก้ปัญหานั้น พอเราเข้าใจ algorithmic thinking แล้ว เราก็จะเข้าใจได้ง่ายขึ้นว่า AI ประมวลผลข้อมูลยังไง และตัดสินใจบนพื้นฐานอะไร มันเป็นทักษะพื้นฐานที่ช่วยให้เราเก็ท logic ของ AI ได้ดีขึ้นเยอะเลย"
+  },
+  {
+    "id": 13,
+    "question": "What is 'confirmation bias' in AI usage?",
+    "choices": {
+      "A": "AI confirming all user requests",
+      "B": "The tendency to seek or trust AI outputs that confirm existing beliefs while ignoring contradictory information",
+      "C": "Confirming AI accuracy through testing",
+      "D": "A bias in confirmation email systems"
+    },
+    "answer": "B",
+    "explanation": "Confirmation bias ในการใช้ AI คือแนวโน้มที่คนเราจะเชื่อหรือหา AI outputs ที่ตรงกับสิ่งที่เราเชื่ออยู่แล้ว แล้วก็เพิกเฉยข้อมูลที่ขัดแย้ง การมี AI literacy ที่ดีคือต้อง recognize แนวโน้มนี้ในตัวเอง ตั้งคำถามกับ AI outputs เสมอ แล้วก็ seek diverse perspectives แทนที่จะรับแค่คำตอบที่ confirm ความเชื่อเดิม"
+  },
+  {
+    "id": 14,
+    "question": "What is 'automation bias'?",
+    "choices": {
+      "A": "A preference for buying automated products",
+      "B": "The tendency to over-trust automated or AI system outputs and neglect contradictory information from other sources",
+      "C": "A bias in how automation is programmed",
+      "D": "Automatically choosing biased data"
+    },
+    "answer": "B",
+    "explanation": "Automation bias คือแนวโน้มที่คนเราจะเชื่อ automated systems มากเกินไป แม้ว่ามันจะผิดก็ตาม โดย ignore human judgment หรือหลักฐานที่ขัดแย้ง อันนี้อันตรายมากเลยนะ โดยเฉพาะใน high-stakes domains อย่าง medicine กับ aviation ที่ถ้าเชื่อ AI แบบไม่ตั้งคำถามอาจเกิดผลร้ายแรงได้"
+  },
+  {
+    "id": 15,
+    "question": "What is 'information verification' in the age of AI?",
+    "choices": {
+      "A": "Verifying that AI systems have internet access",
+      "B": "The practice of cross-checking AI-generated information against reliable sources before trusting or sharing it",
+      "C": "AI that verifies email addresses",
+      "D": "Checking if information is stored correctly in databases"
+    },
+    "answer": "B",
+    "explanation": "Information verification สำคัญมากในยุค AI เพราะ AI สามารถสร้างข้อมูลที่ดูน่าเชื่อถือแต่จริงๆ ผิดได้ ซึ่งเราเรียกว่า hallucinations การมี AI literacy ที่ดีคือต้องมีนิสัย cross-check AI outputs กับ authoritative sources เสมอก่อนที่จะเชื่อหรือเอาไปแชร์ต่อ อย่าเชื่อ AI แบบ 100% โดยไม่ตรวจสอบนะ"
+  },
+  {
+    "id": 16,
+    "question": "What is 'AI and creativity'?",
+    "choices": {
+      "A": "AI that appreciates art",
+      "B": "The debate about whether AI can be truly creative, and how AI tools augment or challenge human creative processes",
+      "C": "Creative names for AI systems",
+      "D": "AI courses in art school"
+    },
+    "answer": "B",
+    "explanation": "AI and creativity เป็นประเด็นถกเถียงที่น่าสนใจมาก คำถามคือ AI สร้างสรรค์ผลงานได้จริงหรือแค่ recombine patterns ที่เรียนมา? AI tools สามารถ generate งานศิลปะ ดนตรี และงานเขียนได้ แต่ยังมี debate อยู่เรื่อง originality, authorship และว่า AI creativity เทียบได้กับ human creativity จริงไหม"
+  },
+  {
+    "id": 17,
+    "question": "What is 'AI and emotional intelligence'?",
+    "choices": {
+      "A": "AI that has real emotions",
+      "B": "AI systems that can detect, interpret, and respond to human emotions, and the debate about whether AI truly understands feelings",
+      "C": "Being emotional about AI",
+      "D": "AI that is emotionally stable"
+    },
+    "answer": "B",
+    "explanation": "AI emotion recognition สามารถตรวจจับ facial expressions, voice tone และ text sentiment ได้ แต่คำถามสำคัญคือ AI เข้าใจอารมณ์จริงๆ หรือแค่ pattern-match เฉยๆ? นอกจากนี้ยังมี ethical concerns เรื่อง surveillance กับ cultural bias ในการตีความอารมณ์ด้วย เพราะคนแต่ละวัฒนธรรมแสดงออกทางอารมณ์ไม่เหมือนกัน"
+  },
+  {
+    "id": 18,
+    "question": "What is 'AI and trust calibration'?",
+    "choices": {
+      "A": "Calibrating AI hardware to build trust",
+      "B": "Developing the right level of trust in AI — neither over-trusting nor under-trusting — based on the specific context",
+      "C": "AI that measures how trustworthy people are",
+      "D": "A trust score assigned to AI companies"
+    },
+    "answer": "B",
+    "explanation": "AI trust calibration คือการมีระดับความไว้วางใจต่อ AI ที่เหมาะสมในแต่ละสถานการณ์ ถ้า over-trust ก็จะยอมรับ errors แบบไม่ตั้งคำถาม ถ้า under-trust ก็เสียโอกาสใช้ประโยชน์จาก AI การ calibrate ที่ดีต้องพิจารณา task ที่ทำ, stakes ที่เกี่ยวข้อง และ proven reliability ของ AI ในงานนั้นๆ ด้วย เรียกว่าต้องเชื่อแบบมีสติ"
+  },
+  {
+    "id": 19,
+    "question": "What is the difference between 'AI hype' and 'AI reality'?",
+    "choices": {
+      "A": "There is no difference — all AI claims are true",
+      "B": "AI hype exaggerates capabilities and timelines, while AI reality acknowledges both impressive progress and significant limitations",
+      "C": "AI hype is about future AI, reality is about current AI",
+      "D": "Hype is about hardware, reality is about software"
+    },
+    "answer": "B",
+    "explanation": "AI hype มักจะ overpromise ความสามารถ underestimate limitations แล้วก็ predict timelines ที่ไม่สมจริง ส่วน AI reality ยอมรับว่า AI มี impressive progress จริงในบาง domain แต่ก็ยังมีข้อจำกัดอีกเยอะ เช่น เรื่อง common sense, reliability และ complex tasks หลายอย่าง ดังนั้นต้องแยกให้ออกระหว่าง hype กับ reality นะ"
+  },
+  {
+    "id": 20,
+    "question": "What is the most important takeaway from AI literacy?",
+    "choices": {
+      "A": "AI will solve all of humanity's problems",
+      "B": "Understanding AI enables informed, critical, and responsible engagement with AI technologies in personal and professional life",
+      "C": "Everyone needs to become an AI programmer",
+      "D": "AI should be avoided because it's too risky"
+    },
+    "answer": "B",
+    "explanation": "หัวใจของ AI literacy คือ empowerment through understanding เลย พอเราเข้าใจว่า AI ทำงานยังไง มี capabilities อะไร limitations คืออะไร และ ethical implications มีอะไรบ้าง เราก็จะใช้ AI tools ได้อย่างมีประสิทธิภาพ คิดวิเคราะห์ AI claims ได้อย่างมีวิจารณญาณ และมีส่วนร่วมในการกำหนดบทบาทของ AI ในสังคมได้อย่างรับผิดชอบ"
+  }
+]

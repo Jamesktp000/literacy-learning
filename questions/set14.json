@@ -1,0 +1,242 @@
+[
+  {
+    "id": 1,
+    "question": "What is 'prompt template'?",
+    "choices": {
+      "A": "A physical template for writing prompts on paper",
+      "B": "A reusable prompt structure with placeholders that can be filled with specific information",
+      "C": "A template for AI system architecture",
+      "D": "A pre-written email template"
+    },
+    "answer": "B",
+    "explanation": "Prompt template คือโครงสร้าง prompt ที่ทำไว้ใช้ซ้ำได้ โดยจะมี placeholder ที่เราเปลี่ยนค่าได้ตามต้องการ เช่น 'Translate the following {language} text to English: {text}' แบบนี้เราก็แค่เปลี่ยนตัวแปร {language} กับ {text} ไปเรื่อยๆ ทำให้การใช้งาน AI เป็นระบบและ consistent มากขึ้น"
+  },
+  {
+    "id": 2,
+    "question": "What is 'role prompting'?",
+    "choices": {
+      "A": "Prompting AI to play a video game role",
+      "B": "Assigning a specific persona or expertise to the AI (e.g., 'You are an expert scientist') to shape its responses",
+      "C": "A role-playing game powered by AI",
+      "D": "Prompting users to choose their role"
+    },
+    "answer": "B",
+    "explanation": "Role prompting คือเทคนิคที่เราสั่งให้ AI สวมบทบาทเป็นผู้เชี่ยวชาญด้านใดด้านหนึ่ง เช่น 'Act as a senior software engineer' พอ AI ได้รับ role แบบนี้ มันก็จะตอบด้วย tone, ความลึก, และ domain knowledge ที่เหมาะสมกับบทบาทนั้นๆ ผลลัพธ์จะดีกว่าถามแบบกว้างๆ เยอะเลย"
+  },
+  {
+    "id": 3,
+    "question": "What is 'output formatting' in prompt engineering?",
+    "choices": {
+      "A": "Formatting a hard drive for AI output storage",
+      "B": "Specifying the desired structure and format of AI responses (JSON, bullet points, tables, etc.) in the prompt",
+      "C": "The font and color of AI text",
+      "D": "Reformatting AI-generated documents"
+    },
+    "answer": "B",
+    "explanation": "Output formatting คือการระบุใน prompt ว่าเราอยากได้คำตอบในรูปแบบไหน เช่น JSON, markdown, bullet points, table หรือ numbered list พอเราบอก format ชัดเจน AI ก็จะตอบมาเป็นระเบียบ เอาไปใช้ต่อได้เลยไม่ต้องมานั่ง format เอง"
+  },
+  {
+    "id": 4,
+    "question": "What is 'AI-powered translation' compared to traditional machine translation?",
+    "choices": {
+      "A": "They are identical technologies",
+      "B": "AI-powered translation uses neural networks to understand context, producing more natural and accurate translations",
+      "C": "Traditional translation is always more accurate",
+      "D": "AI translation only works for programming languages"
+    },
+    "answer": "B",
+    "explanation": "AI-powered translation หรือ neural machine translation ใช้ deep learning ในการทำความเข้าใจ context, สำนวน และ nuance ของภาษา ทำให้แปลได้เป็นธรรมชาติกว่าระบบเก่าที่ใช้ rule-based หรือ statistical methods แต่ก็ยังมีจุดอ่อนอยู่นะ โดยเฉพาะภาษาที่หายากหรือศัพท์เฉพาะทาง"
+  },
+  {
+    "id": 5,
+    "question": "What is 'AI and fake news detection'?",
+    "choices": {
+      "A": "AI that creates fake news",
+      "B": "Using AI to analyze content patterns, sources, and context to identify potentially false or misleading information",
+      "C": "News about AI that is fake",
+      "D": "A fake AI news channel"
+    },
+    "answer": "B",
+    "explanation": "AI fake news detection ใช้ NLP กับ ML วิเคราะห์ linguistic patterns, ความน่าเชื่อถือของ source, ความสอดคล้องของเนื้อหา และรูปแบบการแพร่กระจายข่าว เพื่อจับ misinformation แต่ก็ไม่ได้สมบูรณ์แบบนะ เพราะยังแยก satire กับ opinion ได้ยากอยู่ แถมเทคนิคปลอมข่าวก็พัฒนาไปเรื่อยๆ"
+  },
+  {
+    "id": 6,
+    "question": "What is 'AI and social media algorithms'?",
+    "choices": {
+      "A": "AI systems that create social media platforms",
+      "B": "AI algorithms that determine what content users see, optimizing for engagement, which can affect behavior and opinions",
+      "C": "Algorithms for counting social media followers",
+      "D": "Social gatherings of AI algorithm developers"
+    },
+    "answer": "B",
+    "explanation": "Social media algorithms ใช้ AI ตัดสินใจว่าจะโชว์ content อะไรให้ user แต่ละคน โดย optimize เพื่อ engagement เป็นหลัก ข้อดีคือทำให้เห็นเนื้อหาที่สนใจ แต่ข้อเสียคืออาจสร้าง filter bubble, ขยายเนื้อหาที่สร้างความแตกแยก และส่งผลต่อ mental health จากการออกแบบที่ทำให้เสพติดได้"
+  },
+  {
+    "id": 7,
+    "question": "What is 'AI and e-commerce'?",
+    "choices": {
+      "A": "Selling AI products online",
+      "B": "Using AI for product recommendations, dynamic pricing, visual search, chatbots, and fraud detection in online retail",
+      "C": "An online store that only sells AI tools",
+      "D": "E-commerce websites designed by AI"
+    },
+    "answer": "B",
+    "explanation": "AI ใน e-commerce ทำได้เยอะมาก ตั้งแต่ personalized product recommendations ที่แนะนำสินค้าตรงใจ, dynamic pricing ปรับราคาตาม demand, visual search ค้นสินค้าจากรูปภาพ, chatbot บริการลูกค้า, demand forecasting พยากรณ์ยอดขาย ไปจนถึง fraud detection ตรวจจับการโกง"
+  },
+  {
+    "id": 8,
+    "question": "What is 'AI and human-computer interaction' (HCI)?",
+    "choices": {
+      "A": "Computers interacting with each other using AI",
+      "B": "Studying and designing how humans interact with AI systems to create more intuitive and effective interfaces",
+      "C": "AI that replaces computer interfaces",
+      "D": "Human competition against computers"
+    },
+    "answer": "B",
+    "explanation": "AI กับ HCI คือการศึกษาและออกแบบ interface ระหว่างคนกับระบบ AI ให้ใช้งานง่ายและมีประสิทธิภาพ ครอบคลุมตั้งแต่ conversational interface, voice interaction, gesture recognition ไปจนถึงการทำให้ระบบ AI usable, accessible และตรงกับความคาดหวังของ user"
+  },
+  {
+    "id": 9,
+    "question": "What is 'voice assistant'?",
+    "choices": {
+      "A": "A human assistant who answers phone calls",
+      "B": "An AI-powered system that uses speech recognition and NLP to understand and respond to voice commands",
+      "C": "Software that improves voice quality in calls",
+      "D": "A voicemail system"
+    },
+    "answer": "B",
+    "explanation": "Voice assistant อย่าง Siri, Alexa, Google Assistant ใช้ AI speech recognition กับ NLP ในการฟังและเข้าใจคำสั่งเสียง แล้วตอบกลับเป็นเสียงพูด ทำได้หลายอย่างเลย ตั้งแต่ตอบคำถาม สั่งงาน smart device ตั้ง reminder ใช้งาน hands-free ได้สะดวกมาก"
+  },
+  {
+    "id": 10,
+    "question": "What is 'smart home AI'?",
+    "choices": {
+      "A": "A house shaped like a brain",
+      "B": "AI systems that automate and optimize home functions like lighting, temperature, security, and appliances",
+      "C": "An AI that is home-schooled",
+      "D": "A mobile home equipped with computers"
+    },
+    "answer": "B",
+    "explanation": "Smart home AI ใช้ sensor, IoT devices และ AI ในการ automate และ optimize การทำงานต่างๆ ในบ้าน เช่น ปรับแสงสว่าง ควบคุมอุณหภูมิ monitor ระบบ security จัดการ energy usage แถมยังเรียนรู้พฤติกรรมของคนในบ้านเพื่อปรับ comfort ให้เหมาะกับแต่ละคนด้วย"
+  },
+  {
+    "id": 11,
+    "question": "What is 'AI and wearable technology'?",
+    "choices": {
+      "A": "Wearing an AI costume",
+      "B": "AI integrated into wearable devices for health monitoring, fitness tracking, and real-time data analysis",
+      "C": "AI that designs clothing",
+      "D": "Wearable devices that look like AI robots"
+    },
+    "answer": "B",
+    "explanation": "AI ใน wearable devices ทำให้เราติดตามสุขภาพได้แบบ real-time เช่น วัด heart rate, วิเคราะห์ sleep pattern, เช็ค blood oxygen, ติดตาม fitness, ตรวจจับ fall detection และยังแนะนำเรื่องสุขภาพแบบ personalized ผ่านอุปกรณ์อย่าง smartwatch และ health band ได้ด้วย"
+  },
+  {
+    "id": 12,
+    "question": "What is 'AI and robotics'?",
+    "choices": {
+      "A": "All AI is robotics and all robotics is AI",
+      "B": "The intersection of AI (intelligence) and robotics (physical machines), enabling robots to perceive, decide, and act",
+      "C": "Building robots without any AI",
+      "D": "AI that only exists inside robots"
+    },
+    "answer": "B",
+    "explanation": "AI กับ robotics คือการรวมกันของ artificial intelligence ที่ให้ความสามารถด้าน perception, decision-making, learning เข้ากับ physical machines ที่เคลื่อนไหวและจัดการวัตถุได้ ผลลัพธ์คือหุ่นยนต์ที่ navigate สภาพแวดล้อม หยิบจับสิ่งของ และปรับตัวตามสถานการณ์ได้เอง"
+  },
+  {
+    "id": 13,
+    "question": "What is 'swarm intelligence'?",
+    "choices": {
+      "A": "Intelligence about insect swarms",
+      "B": "Collective behavior of decentralized AI agents that coordinate to solve problems, inspired by nature",
+      "C": "A large number of AI systems attacking a target",
+      "D": "The intelligence level of a swarm of robots"
+    },
+    "answer": "B",
+    "explanation": "Swarm intelligence ได้แรงบันดาลใจมาจากพฤติกรรมกลุ่มในธรรมชาติ เช่น colony ของมด หรือ flock ของนก ในด้าน AI ก็ใช้ agent จำนวนมากที่ทำตาม local rules ง่ายๆ แต่พอรวมกันแล้วเกิด intelligent collective behavior ใช้ได้ในงาน optimization, drone coordination และ logistics"
+  },
+  {
+    "id": 14,
+    "question": "What is 'simulation' in AI?",
+    "choices": {
+      "A": "Pretending to be AI",
+      "B": "Using AI to create virtual models of real-world systems for testing, training, and prediction",
+      "C": "A simulated AI that isn't real",
+      "D": "Playing simulation games with AI opponents"
+    },
+    "answer": "B",
+    "explanation": "AI simulation คือการสร้าง virtual environment ที่จำลองระบบในโลกจริง เพื่อทดสอบ ฝึก และทำนายผลลัพธ์อย่างปลอดภัย ตัวอย่างเช่น ฝึก self-driving car ในเมืองจำลอง, ทดสอบพฤติกรรม robot, simulate drug interactions หรือ model ระบบสภาพอากาศ ทำได้หมดโดยไม่ต้องเสี่ยงในโลกจริง"
+  },
+  {
+    "id": 15,
+    "question": "What is 'AI and precision medicine'?",
+    "choices": {
+      "A": "AI that precisely administers medication doses",
+      "B": "Using AI to tailor medical treatment to individual patients based on their genetics, lifestyle, and data",
+      "C": "Precisely measuring AI accuracy in medical settings",
+      "D": "A precise AI medical diagnosis tool"
+    },
+    "answer": "B",
+    "explanation": "AI-powered precision medicine ใช้ข้อมูลเฉพาะของผู้ป่วยแต่ละคน ไม่ว่าจะเป็น genetics, biomarkers, lifestyle หรือ medical history มาออกแบบ treatment plan ที่เหมาะกับคนๆ นั้นโดยเฉพาะ AI จะช่วยวิเคราะห์ว่า treatment แบบไหนน่าจะ work ที่สุดสำหรับผู้ป่วยแต่ละราย"
+  },
+  {
+    "id": 16,
+    "question": "What is 'AI and radiology'?",
+    "choices": {
+      "A": "AI that listens to radio",
+      "B": "Using AI to analyze medical images like X-rays, CT scans, and MRIs to assist radiologists in diagnosis",
+      "C": "Broadcasting AI news on radio",
+      "D": "AI that measures radiation levels"
+    },
+    "answer": "B",
+    "explanation": "AI ในด้าน radiology ใช้ deep learning วิเคราะห์ medical images เช่น X-ray, CT scan, MRI เพื่อช่วยตรวจหาความผิดปกติอย่างมะเร็ง กระดูกหัก หรือปัญหาทางสมอง AI ทำหน้าที่เป็น second reader ที่ช่วยจับสิ่งที่คนอาจมองข้าม ทำให้ diagnostic accuracy ดีขึ้น"
+  },
+  {
+    "id": 17,
+    "question": "What is 'AI triage' in healthcare?",
+    "choices": {
+      "A": "Sorting AI systems by priority",
+      "B": "Using AI to assess patient urgency and prioritize medical care based on symptoms and risk factors",
+      "C": "Three AI systems working together",
+      "D": "A trial version of medical AI"
+    },
+    "answer": "B",
+    "explanation": "AI triage ใช้ algorithm ประเมินอาการและข้อมูลของผู้ป่วย เพื่อจัดลำดับความเร่งด่วนว่าใครต้องได้รับการรักษาก่อน ช่วยให้ระบบ healthcare จัดลำดับ priority ได้ดีขึ้น ใช้งานจริงในห้อง emergency, telehealth และระบบ ambulance dispatch"
+  },
+  {
+    "id": 18,
+    "question": "What is 'AI and genomics'?",
+    "choices": {
+      "A": "AI that creates new species",
+      "B": "Using AI to analyze genetic data for disease prediction, drug discovery, and understanding biological processes",
+      "C": "Genetics of AI systems",
+      "D": "AI with genetic algorithms only"
+    },
+    "answer": "B",
+    "explanation": "AI ในด้าน genomics วิเคราะห์ genetic dataset ขนาดใหญ่เพื่อค้นหา gene ที่เกี่ยวข้องกับโรค, ทำนาย genetic risk, ทำความเข้าใจ protein structure อย่าง AlphaFold, เร่ง drug discovery และพัฒนา personalized medicine ที่ออกแบบจาก genetic profile ของแต่ละคน"
+  },
+  {
+    "id": 19,
+    "question": "What is 'AlphaFold'?",
+    "choices": {
+      "A": "An AI that plays the card game Alpha",
+      "B": "DeepMind's AI system that predicts protein 3D structures from amino acid sequences, revolutionizing biology",
+      "C": "A folding phone powered by AI",
+      "D": "The first (alpha) version of a folding robot"
+    },
+    "answer": "B",
+    "explanation": "AlphaFold เป็น AI ของ DeepMind ที่แก้ปัญหา protein folding ซึ่งเป็นโจทย์ที่ท้าทายมานานหลายสิบปี โดยสามารถทำนาย 3D structure ของ protein จาก amino acid sequence ได้อย่างแม่นยำ ตอนนี้ทำนายโครงสร้างของ protein ที่รู้จักแล้วเกือบทั้งหมด ช่วยเร่ง biological research และ drug discovery ได้มหาศาล"
+  },
+  {
+    "id": 20,
+    "question": "What is 'AI and pandemic response'?",
+    "choices": {
+      "A": "An AI pandemic (AI spreading like a virus)",
+      "B": "Using AI for disease tracking, vaccine development, resource allocation, and public health response during pandemics",
+      "C": "AI that prevents all pandemics",
+      "D": "Pandemic-themed AI games"
+    },
+    "answer": "B",
+    "explanation": "AI ช่วยรับมือ pandemic ได้หลายทาง ตั้งแต่ disease spread modeling, contact tracing, ระบุ vaccine candidate, drug repurposing, optimize resource allocation ไปจนถึงวิเคราะห์ health data เพื่อ early outbreak detection ช่วง COVID-19 เป็นตัวเร่งสำคัญที่ทำให้วงการ public health หันมาใช้ AI กันมากขึ้น"
+  }
+]

@@ -1,0 +1,911 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI Literacy Tutor</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    :root {
+      --bg: #0f172a;
+      --card: #1e293b;
+      --card-hover: #334155;
+      --primary: #38bdf8;
+      --primary-dim: #0ea5e9;
+      --success: #4ade80;
+      --error: #f87171;
+      --warning: #fbbf24;
+      --text: #f1f5f9;
+      --text-dim: #94a3b8;
+      --border: #475569;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+    }
+
+    /* ── Header ── */
+    .header {
+      text-align: center;
+      padding: 2rem 1rem 1rem;
+      background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+      border-bottom: 1px solid var(--border);
+    }
+    .header h1 {
+      font-size: 2rem;
+      background: linear-gradient(135deg, var(--primary), #a78bfa);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+    .header p { color: var(--text-dim); margin-top: 0.25rem; }
+
+    /* ── Container ── */
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 1.5rem;
+    }
+
+    /* ── Menu ── */
+    .menu { display: flex; flex-direction: column; gap: 1rem; margin-top: 1rem; }
+    .menu-btn {
+      background: var(--card);
+      border: 1px solid var(--border);
+      color: var(--text);
+      padding: 1.25rem 1.5rem;
+      border-radius: 12px;
+      cursor: pointer;
+      font-size: 1.1rem;
+      text-align: left;
+      transition: all 0.2s;
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+    }
+    .menu-btn:hover { background: var(--card-hover); border-color: var(--primary); transform: translateY(-2px); }
+    .menu-btn .icon { font-size: 1.5rem; }
+    .menu-btn .label { font-weight: 600; }
+    .menu-btn .desc { color: var(--text-dim); font-size: 0.85rem; margin-top: 0.15rem; }
+
+    /* ── Stats bar ── */
+    .stats {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      padding: 1rem;
+      background: var(--card);
+      border-radius: 12px;
+      margin-bottom: 1.5rem;
+      border: 1px solid var(--border);
+      flex-wrap: wrap;
+    }
+    .stat { text-align: center; }
+    .stat-value { font-size: 1.5rem; font-weight: 700; color: var(--primary); }
+    .stat-label { font-size: 0.75rem; color: var(--text-dim); text-transform: uppercase; letter-spacing: 0.05em; }
+
+    /* ── Progress bar ── */
+    .progress-wrap { margin-bottom: 1.5rem; }
+    .progress-info { display: flex; justify-content: space-between; margin-bottom: 0.5rem; font-size: 0.85rem; color: var(--text-dim); }
+    .progress-bar { height: 8px; background: var(--card); border-radius: 999px; overflow: hidden; }
+    .progress-fill { height: 100%; background: linear-gradient(90deg, var(--primary), #a78bfa); border-radius: 999px; transition: width 0.5s ease; }
+
+    /* ── Question Card ── */
+    .question-card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 2rem;
+      margin-bottom: 1.5rem;
+    }
+    .question-num { color: var(--primary); font-size: 0.85rem; font-weight: 600; margin-bottom: 0.75rem; }
+    .question-text { font-size: 1.2rem; font-weight: 600; line-height: 1.5; margin-bottom: 1.5rem; }
+
+    /* ── Choices ── */
+    .choices { display: flex; flex-direction: column; gap: 0.75rem; }
+    .choice-btn {
+      background: var(--bg);
+      border: 2px solid var(--border);
+      color: var(--text);
+      padding: 1rem 1.25rem;
+      border-radius: 12px;
+      cursor: pointer;
+      font-size: 1rem;
+      text-align: left;
+      transition: all 0.2s;
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+    .choice-btn:hover:not(.disabled) { border-color: var(--primary); background: #1e293b; }
+    .choice-btn .choice-key {
+      width: 32px; height: 32px;
+      display: flex; align-items: center; justify-content: center;
+      border-radius: 8px;
+      background: var(--card-hover);
+      font-weight: 700;
+      font-size: 0.9rem;
+      flex-shrink: 0;
+    }
+    .choice-btn.correct { border-color: var(--success); background: rgba(74, 222, 128, 0.1); }
+    .choice-btn.correct .choice-key { background: var(--success); color: #0f172a; }
+    .choice-btn.wrong { border-color: var(--error); background: rgba(248, 113, 113, 0.1); }
+    .choice-btn.wrong .choice-key { background: var(--error); color: #0f172a; }
+    .choice-btn.disabled { cursor: default; opacity: 0.7; }
+    .choice-btn.disabled.correct { opacity: 1; }
+
+    /* ── Explanation ── */
+    .explanation {
+      margin-top: 1.25rem;
+      padding: 1.25rem;
+      border-radius: 12px;
+      font-size: 0.95rem;
+      line-height: 1.6;
+      animation: fadeIn 0.3s ease;
+    }
+    .explanation.correct-exp { background: rgba(74, 222, 128, 0.1); border-left: 4px solid var(--success); }
+    .explanation.wrong-exp { background: rgba(248, 113, 113, 0.1); border-left: 4px solid var(--error); }
+    .explanation .exp-title { font-weight: 700; margin-bottom: 0.5rem; }
+
+    @keyframes fadeIn { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
+
+    /* ── Next Button ── */
+    .next-btn {
+      display: none;
+      width: 100%;
+      padding: 1rem;
+      margin-top: 1rem;
+      background: linear-gradient(135deg, var(--primary), #a78bfa);
+      color: #0f172a;
+      border: none;
+      border-radius: 12px;
+      font-size: 1.1rem;
+      font-weight: 700;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+    .next-btn:hover { transform: translateY(-2px); box-shadow: 0 4px 20px rgba(56, 189, 248, 0.3); }
+    .next-btn.show { display: block; animation: fadeIn 0.3s ease; }
+
+    /* ── Results ── */
+    .results {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 2rem;
+      text-align: center;
+    }
+    .results h2 { font-size: 1.5rem; margin-bottom: 1rem; }
+    .results .score-big { font-size: 3.5rem; font-weight: 800; margin: 1rem 0; }
+    .results .score-big.excellent { color: var(--success); }
+    .results .score-big.good { color: var(--warning); }
+    .results .score-big.ok { color: #a78bfa; }
+    .results .score-big.low { color: var(--error); }
+    .results .grade { font-size: 1.25rem; margin-bottom: 1.5rem; }
+
+    .result-bar { height: 12px; background: var(--bg); border-radius: 999px; overflow: hidden; margin: 1rem 0; max-width: 400px; margin-left: auto; margin-right: auto; }
+    .result-bar-fill { height: 100%; border-radius: 999px; transition: width 1s ease; }
+
+    .result-actions { display: flex; gap: 1rem; justify-content: center; margin-top: 1.5rem; flex-wrap: wrap; }
+    .result-actions button {
+      padding: 0.75rem 1.5rem;
+      border-radius: 10px;
+      font-size: 1rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.2s;
+      border: 2px solid var(--border);
+      background: var(--bg);
+      color: var(--text);
+    }
+    .result-actions button:hover { border-color: var(--primary); transform: translateY(-2px); }
+    .result-actions .primary-action { background: linear-gradient(135deg, var(--primary), #a78bfa); color: #0f172a; border: none; }
+
+    /* ── Review ── */
+    .review-item {
+      background: var(--bg);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 1.25rem;
+      margin-bottom: 1rem;
+      text-align: left;
+    }
+    .review-item .q-text { font-weight: 600; margin-bottom: 0.5rem; }
+    .review-item .answer-line { font-size: 0.9rem; margin-bottom: 0.5rem; }
+    .review-item .answer-line .wrong-ans { color: var(--error); font-weight: 600; }
+    .review-item .answer-line .correct-ans { color: var(--success); font-weight: 600; }
+    .review-item .exp { color: var(--text-dim); font-size: 0.85rem; line-height: 1.5; }
+
+    /* ── Study Mode ── */
+    .study-reveal-btn {
+      width: 100%;
+      padding: 1rem;
+      margin-top: 1rem;
+      background: var(--card-hover);
+      color: var(--warning);
+      border: 2px dashed var(--warning);
+      border-radius: 12px;
+      font-size: 1rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+    .study-reveal-btn:hover { background: rgba(251, 191, 36, 0.1); }
+    .study-answer { display: none; margin-top: 1rem; animation: fadeIn 0.3s ease; }
+    .study-answer.show { display: block; }
+    .study-answer-box {
+      background: rgba(74, 222, 128, 0.1);
+      border-left: 4px solid var(--success);
+      border-radius: 12px;
+      padding: 1.25rem;
+    }
+    .study-answer-box .ans-label { color: var(--success); font-weight: 700; font-size: 1.1rem; margin-bottom: 0.5rem; }
+    .study-answer-box .ans-exp { color: var(--text-dim); line-height: 1.6; }
+
+    /* ── Study Nav Buttons ── */
+    .study-nav {
+      display: flex;
+      gap: 0.75rem;
+      margin-top: 1rem;
+    }
+    .study-nav button {
+      flex: 1;
+      padding: 0.85rem;
+      border-radius: 12px;
+      font-size: 1rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.2s;
+      border: none;
+    }
+    .study-nav button:hover { transform: translateY(-2px); }
+    .study-nav .btn-back {
+      background: var(--card-hover);
+      color: var(--text);
+      border: 2px solid var(--border);
+    }
+    .study-nav .btn-back:hover { border-color: var(--primary); }
+    .study-nav .btn-back:disabled { opacity: 0.3; cursor: default; transform: none; }
+    .study-nav .btn-next {
+      background: linear-gradient(135deg, var(--primary), #a78bfa);
+      color: #0f172a;
+    }
+    .study-nav .btn-home {
+      background: var(--card-hover);
+      color: var(--text);
+      border: 2px solid var(--border);
+      flex: 0 0 auto;
+      width: 48px;
+    }
+    .study-nav .btn-home:hover { border-color: var(--error); }
+    .study-selected { border-color: var(--primary) !important; background: rgba(56, 189, 248, 0.1) !important; }
+    .study-selected .choice-key { background: var(--primary) !important; color: #0f172a !important; }
+    .study-correct-mark { border-color: var(--success) !important; background: rgba(74, 222, 128, 0.1) !important; }
+    .study-correct-mark .choice-key { background: var(--success) !important; color: #0f172a !important; }
+    .study-wrong-mark { border-color: var(--error) !important; background: rgba(248, 113, 113, 0.1) !important; }
+    .study-wrong-mark .choice-key { background: var(--error) !important; color: #0f172a !important; }
+    .study-result-badge {
+      display: inline-block;
+      padding: 0.25rem 0.75rem;
+      border-radius: 8px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      margin-bottom: 0.75rem;
+    }
+    .study-result-badge.correct-badge { background: rgba(74, 222, 128, 0.2); color: var(--success); }
+    .study-result-badge.wrong-badge { background: rgba(248, 113, 113, 0.2); color: var(--error); }
+
+    /* ── Hidden ── */
+    .hidden { display: none !important; }
+
+    /* ── Responsive ── */
+    @media (max-width: 600px) {
+      .header h1 { font-size: 1.5rem; }
+      .question-card { padding: 1.25rem; }
+      .stats { gap: 1rem; }
+      .container { padding: 1rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="header">
+    <h1>🤖 AI Literacy Tutor</h1>
+    <p>300 Questions • Cycle 20 at a time</p>
+  </div>
+
+  <div class="container">
+    <!-- ═══ MENU SCREEN ═══ -->
+    <div id="menu-screen">
+      <div class="stats">
+        <div class="stat">
+          <div class="stat-value" id="total-q">300</div>
+          <div class="stat-label">Questions</div>
+        </div>
+        <div class="stat">
+          <div class="stat-value">20</div>
+          <div class="stat-label">Per Round</div>
+        </div>
+        <div class="stat">
+          <div class="stat-value" id="total-rounds">15</div>
+          <div class="stat-label">Rounds</div>
+        </div>
+      </div>
+
+      <div class="menu">
+        <button class="menu-btn" onclick="startMode('cycle')">
+          <span class="icon">🔄</span>
+          <div>
+            <div class="label">Cycle Mode</div>
+            <div class="desc">ไล่ทำทีละ 20 ข้อ ตามลำดับ ไปจนครบ 300 ข้อ</div>
+          </div>
+        </button>
+        <button class="menu-btn" onclick="startMode('shuffle')">
+          <span class="icon">🎲</span>
+          <div>
+            <div class="label">Shuffle Mode</div>
+            <div class="desc">สุ่มลำดับทั้ง 300 ข้อ แล้ววนทีละ 20</div>
+          </div>
+        </button>
+        <button class="menu-btn" onclick="startMode('quick')">
+          <span class="icon">⚡</span>
+          <div>
+            <div class="label">Quick Random</div>
+            <div class="desc">สุ่ม 20 ข้อมาทำเลย</div>
+          </div>
+        </button>
+        <button class="menu-btn" onclick="startMode('study')">
+          <span class="icon">📖</span>
+          <div>
+            <div class="label">Study Mode</div>
+            <div class="desc">อ่านคำถาม คิดก่อน แล้วกดดูเฉลย+คำอธิบาย</div>
+          </div>
+        </button>
+      </div>
+    </div>
+
+    <!-- ═══ QUIZ SCREEN ═══ -->
+    <div id="quiz-screen" class="hidden">
+      <div class="stats">
+        <div class="stat">
+          <div class="stat-value" id="round-label">1/15</div>
+          <div class="stat-label">Round</div>
+        </div>
+        <div class="stat">
+          <div class="stat-value" id="score-label">0</div>
+          <div class="stat-label">Correct</div>
+        </div>
+        <div class="stat">
+          <div class="stat-value" id="streak-label">0</div>
+          <div class="stat-label">Streak 🔥</div>
+        </div>
+      </div>
+
+      <div class="progress-wrap">
+        <div class="progress-info">
+          <span id="progress-text">Question 1/20</span>
+          <span id="progress-pct">0%</span>
+        </div>
+        <div class="progress-bar">
+          <div class="progress-fill" id="progress-fill" style="width: 0%"></div>
+        </div>
+      </div>
+
+      <div class="question-card" id="question-card">
+        <div class="question-num" id="question-num"></div>
+        <div class="question-text" id="question-text"></div>
+        <div class="choices" id="choices"></div>
+        <div id="explanation-box"></div>
+        <button class="next-btn" id="next-btn" onclick="nextQuestion()">Next Question →</button>
+      </div>
+    </div>
+
+    <!-- ═══ STUDY SCREEN ═══ -->
+    <div id="study-screen" class="hidden">
+      <div class="stats">
+        <div class="stat">
+          <div class="stat-value" id="study-round-label">1/15</div>
+          <div class="stat-label">Round</div>
+        </div>
+        <div class="stat">
+          <div class="stat-value" id="study-progress-label">1/20</div>
+          <div class="stat-label">Progress</div>
+        </div>
+      </div>
+
+      <div class="progress-wrap">
+        <div class="progress-info">
+          <span id="study-progress-text">Question 1/20</span>
+          <span id="study-progress-pct">0%</span>
+        </div>
+        <div class="progress-bar">
+          <div class="progress-fill" id="study-progress-fill" style="width: 0%"></div>
+        </div>
+      </div>
+
+      <div class="question-card" id="study-card">
+        <div id="study-result-badge-area"></div>
+        <div class="question-num" id="study-question-num"></div>
+        <div class="question-text" id="study-question-text"></div>
+        <div class="choices" id="study-choices"></div>
+        <button class="study-reveal-btn" id="study-reveal-btn" onclick="revealStudyAnswer()">👁️ Reveal Answer</button>
+        <div class="study-answer" id="study-answer">
+          <div class="study-answer-box">
+            <div class="ans-label" id="study-ans-label"></div>
+            <div class="ans-exp" id="study-ans-exp"></div>
+          </div>
+        </div>
+        <div class="study-nav" id="study-nav">
+          <button class="btn-home" id="study-home-btn" onclick="goHome()" title="Back to Menu">🏠</button>
+          <button class="btn-back" id="study-back-btn" onclick="prevStudyQuestion()">← Back</button>
+          <button class="btn-next" id="study-next-btn" onclick="nextStudyQuestion()">Next →</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- ═══ RESULTS SCREEN ═══ -->
+    <div id="results-screen" class="hidden">
+      <div class="results">
+        <h2 id="results-title">Round Complete!</h2>
+        <div class="score-big" id="results-score">0%</div>
+        <div class="grade" id="results-grade"></div>
+        <div class="result-bar">
+          <div class="result-bar-fill" id="result-bar-fill"></div>
+        </div>
+        <p id="results-detail" style="color: var(--text-dim); margin-top: 0.5rem;"></p>
+
+        <div id="review-section" class="hidden" style="margin-top: 1.5rem;">
+          <h3 style="margin-bottom: 1rem; text-align: left;">📖 Review Incorrect Answers</h3>
+          <div id="review-list"></div>
+        </div>
+
+        <div class="result-actions">
+          <button id="review-toggle-btn" onclick="toggleReview()">📖 Review Incorrect</button>
+          <button id="next-round-btn" class="primary-action" onclick="nextRound()">Next Round →</button>
+          <button onclick="goHome()">🏠 Menu</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // ═══ STATE ═══
+    let allQuestions = [];
+    let currentQuestions = []; // questions for current mode (possibly shuffled)
+    let batchQuestions = [];   // current batch of 20
+    let currentIndex = 0;
+    let currentRound = 0;
+    let totalRounds = 0;
+    let score = 0;
+    let streak = 0;
+    let maxStreak = 0;
+    let wrongAnswers = [];
+    let mode = '';
+    let answered = false;
+
+    // overall across rounds
+    let overallCorrect = 0;
+    let overallAnswered = 0;
+
+    const BATCH = 20;
+
+    // ═══ LOAD QUESTIONS ═══
+    async function loadQuestions() {
+      const files = [];
+      for (let i = 1; i <= 15; i++) {
+        files.push(`questions/set${i}.json`);
+      }
+      const results = await Promise.all(files.map(f => fetch(f).then(r => r.json())));
+      allQuestions = results.flat();
+      document.getElementById('total-q').textContent = allQuestions.length;
+      document.getElementById('total-rounds').textContent = Math.ceil(allQuestions.length / BATCH);
+    }
+
+    function shuffle(arr) {
+      const a = [...arr];
+      for (let i = a.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [a[i], a[j]] = [a[j], a[i]];
+      }
+      return a;
+    }
+
+    // ═══ SCREENS ═══
+    function showScreen(id) {
+      ['menu-screen', 'quiz-screen', 'study-screen', 'results-screen'].forEach(s => {
+        document.getElementById(s).classList.toggle('hidden', s !== id);
+      });
+    }
+
+    function goHome() {
+      overallCorrect = 0;
+      overallAnswered = 0;
+      showScreen('menu-screen');
+    }
+
+    // ═══ START MODE ═══
+    function startMode(m) {
+      mode = m;
+      overallCorrect = 0;
+      overallAnswered = 0;
+      currentRound = 0;
+
+      if (m === 'cycle') {
+        currentQuestions = [...allQuestions];
+      } else if (m === 'shuffle') {
+        currentQuestions = shuffle(allQuestions);
+      } else if (m === 'quick') {
+        currentQuestions = shuffle(allQuestions).slice(0, BATCH);
+      } else if (m === 'study') {
+        currentQuestions = shuffle(allQuestions);
+      }
+
+      totalRounds = Math.ceil(currentQuestions.length / BATCH);
+      startRound();
+    }
+
+    function startRound() {
+      const start = currentRound * BATCH;
+      batchQuestions = currentQuestions.slice(start, start + BATCH);
+      if (batchQuestions.length === 0) { goHome(); return; }
+
+      currentIndex = 0;
+      score = 0;
+      streak = 0;
+      maxStreak = 0;
+      wrongAnswers = [];
+
+      if (mode === 'study') {
+        initStudyState();
+        showScreen('study-screen');
+        renderStudyQuestion();
+      } else {
+        showScreen('quiz-screen');
+        renderQuestion();
+      }
+    }
+
+    // ═══ QUIZ MODE ═══
+    function renderQuestion() {
+      const q = batchQuestions[currentIndex];
+      const total = batchQuestions.length;
+      answered = false;
+
+      document.getElementById('round-label').textContent = `${currentRound + 1}/${totalRounds}`;
+      document.getElementById('score-label').textContent = score;
+      document.getElementById('streak-label').textContent = streak > 0 ? streak : '0';
+      document.getElementById('progress-text').textContent = `Question ${currentIndex + 1}/${total}`;
+      document.getElementById('progress-pct').textContent = `${Math.round((currentIndex / total) * 100)}%`;
+      document.getElementById('progress-fill').style.width = `${(currentIndex / total) * 100}%`;
+
+      document.getElementById('question-num').textContent = `Question ${currentIndex + 1} of ${total}`;
+      document.getElementById('question-text').textContent = q.question;
+      document.getElementById('explanation-box').innerHTML = '';
+      document.getElementById('next-btn').classList.remove('show');
+
+      const choicesEl = document.getElementById('choices');
+      choicesEl.innerHTML = '';
+
+      for (const [key, value] of Object.entries(q.choices)) {
+        const btn = document.createElement('button');
+        btn.className = 'choice-btn';
+        btn.innerHTML = `<span class="choice-key">${key}</span><span>${value}</span>`;
+        btn.onclick = () => selectAnswer(key, btn);
+        choicesEl.appendChild(btn);
+      }
+    }
+
+    function selectAnswer(key, btnEl) {
+      if (answered) return;
+      answered = true;
+
+      const q = batchQuestions[currentIndex];
+      const isCorrect = key === q.answer;
+
+      // Disable all buttons
+      document.querySelectorAll('#choices .choice-btn').forEach(b => {
+        b.classList.add('disabled');
+        const bKey = b.querySelector('.choice-key').textContent;
+        if (bKey === q.answer) b.classList.add('correct');
+      });
+
+      if (isCorrect) {
+        score++;
+        streak++;
+        if (streak > maxStreak) maxStreak = streak;
+        btnEl.classList.add('correct');
+      } else {
+        streak = 0;
+        btnEl.classList.add('wrong');
+        wrongAnswers.push({ ...q, userAnswer: key });
+      }
+
+      document.getElementById('score-label').textContent = score;
+      document.getElementById('streak-label').textContent = streak > 0 ? streak : '0';
+
+      // Show explanation
+      const expBox = document.getElementById('explanation-box');
+      expBox.innerHTML = `
+        <div class="explanation ${isCorrect ? 'correct-exp' : 'wrong-exp'}">
+          <div class="exp-title">${isCorrect ? '✅ ถูกต้อง!' : `❌ ผิด! คำตอบที่ถูกคือ ${q.answer}`}</div>
+          <div>💡 ${q.explanation}</div>
+        </div>
+      `;
+
+      document.getElementById('next-btn').classList.add('show');
+      document.getElementById('next-btn').textContent =
+        currentIndex < batchQuestions.length - 1 ? 'Next Question →' : 'See Results →';
+    }
+
+    function nextQuestion() {
+      currentIndex++;
+      if (currentIndex >= batchQuestions.length) {
+        showResults();
+      } else {
+        renderQuestion();
+      }
+    }
+
+    // ═══ STUDY MODE ═══
+    // Track per-question state: { selected: 'A'|null, revealed: bool }
+    let studyState = [];
+
+    function initStudyState() {
+      studyState = batchQuestions.map(() => ({ selected: null, revealed: false }));
+    }
+
+    function renderStudyQuestion() {
+      const q = batchQuestions[currentIndex];
+      const total = batchQuestions.length;
+      const state = studyState[currentIndex];
+
+      document.getElementById('study-round-label').textContent = `${currentRound + 1}/${totalRounds}`;
+      document.getElementById('study-progress-label').textContent = `${currentIndex + 1}/${total}`;
+      document.getElementById('study-progress-text').textContent = `Question ${currentIndex + 1}/${total}`;
+      document.getElementById('study-progress-pct').textContent = `${Math.round(((currentIndex + 1) / total) * 100)}%`;
+      document.getElementById('study-progress-fill').style.width = `${((currentIndex + 1) / total) * 100}%`;
+
+      document.getElementById('study-question-num').textContent = `Question ${currentIndex + 1} of ${total}`;
+      document.getElementById('study-question-text').textContent = q.question;
+
+      // Back button state
+      document.getElementById('study-back-btn').disabled = (currentIndex === 0);
+
+      // Next button label
+      const nextBtn = document.getElementById('study-next-btn');
+      nextBtn.textContent = currentIndex < batchQuestions.length - 1 ? 'Next →' : 'Next Round →';
+
+      // Badge area
+      const badgeArea = document.getElementById('study-result-badge-area');
+      badgeArea.innerHTML = '';
+
+      // Render choices
+      const choicesEl = document.getElementById('study-choices');
+      choicesEl.innerHTML = '';
+      for (const [key, value] of Object.entries(q.choices)) {
+        const btn = document.createElement('button');
+        btn.className = 'choice-btn';
+        btn.innerHTML = `<span class="choice-key">${key}</span><span>${value}</span>`;
+
+        if (state.revealed) {
+          // Already revealed — show results
+          btn.classList.add('disabled');
+          if (key === q.answer) {
+            btn.classList.add('study-correct-mark');
+          } else if (key === state.selected && key !== q.answer) {
+            btn.classList.add('study-wrong-mark');
+          }
+        } else if (state.selected === key) {
+          // Selected but not yet revealed
+          btn.classList.add('study-selected');
+        }
+
+        if (!state.revealed) {
+          btn.onclick = () => selectStudyChoice(key);
+        }
+        choicesEl.appendChild(btn);
+      }
+
+      // Reveal button
+      const revealBtn = document.getElementById('study-reveal-btn');
+      if (state.revealed) {
+        revealBtn.style.display = 'none';
+      } else {
+        revealBtn.style.display = 'block';
+        revealBtn.textContent = state.selected
+          ? `👁️ Reveal Answer (your pick: ${state.selected})`
+          : '👁️ Reveal Answer';
+      }
+
+      // Answer explanation
+      const answerDiv = document.getElementById('study-answer');
+      if (state.revealed) {
+        const isCorrect = state.selected === q.answer;
+        if (state.selected) {
+          badgeArea.innerHTML = isCorrect
+            ? '<span class="study-result-badge correct-badge">✅ ถูกต้อง!</span>'
+            : `<span class="study-result-badge wrong-badge">❌ คุณเลือก ${state.selected} — คำตอบที่ถูกคือ ${q.answer}</span>`;
+        }
+        document.getElementById('study-ans-label').textContent = `✅ Answer: ${q.answer} — ${q.choices[q.answer]}`;
+        document.getElementById('study-ans-exp').textContent = `💡 ${q.explanation}`;
+        answerDiv.classList.add('show');
+      } else {
+        answerDiv.classList.remove('show');
+      }
+    }
+
+    function selectStudyChoice(key) {
+      const state = studyState[currentIndex];
+      if (state.revealed) return;
+      state.selected = (state.selected === key) ? null : key; // toggle
+      renderStudyQuestion();
+    }
+
+    function revealStudyAnswer() {
+      studyState[currentIndex].revealed = true;
+      renderStudyQuestion();
+    }
+
+    function nextStudyQuestion() {
+      currentIndex++;
+      if (currentIndex >= batchQuestions.length) {
+        currentRound++;
+        if (currentRound >= totalRounds) {
+          alert('🎉 คุณศึกษาครบทั้ง 300 ข้อแล้ว!');
+          goHome();
+        } else {
+          startRound();
+        }
+      } else {
+        renderStudyQuestion();
+      }
+    }
+
+    function prevStudyQuestion() {
+      if (currentIndex > 0) {
+        currentIndex--;
+        renderStudyQuestion();
+      }
+    }
+
+    // ═══ RESULTS ═══
+    function showResults() {
+      overallCorrect += score;
+      overallAnswered += batchQuestions.length;
+
+      const pct = Math.round((score / batchQuestions.length) * 100);
+      let grade, gradeClass;
+
+      if (pct >= 90) { grade = '🏆 EXCELLENT!'; gradeClass = 'excellent'; }
+      else if (pct >= 70) { grade = '👍 GOOD JOB!'; gradeClass = 'good'; }
+      else if (pct >= 50) { grade = '📚 KEEP STUDYING!'; gradeClass = 'ok'; }
+      else { grade = '💪 DON\'T GIVE UP!'; gradeClass = 'low'; }
+
+      showScreen('results-screen');
+
+      document.getElementById('results-title').textContent = `Round ${currentRound + 1}/${totalRounds} Complete!`;
+      const scoreEl = document.getElementById('results-score');
+      scoreEl.textContent = `${pct}%`;
+      scoreEl.className = `score-big ${gradeClass}`;
+      document.getElementById('results-grade').textContent = grade;
+      document.getElementById('results-detail').textContent =
+        `${score}/${batchQuestions.length} correct • Max streak: ${maxStreak} 🔥 • Overall: ${overallCorrect}/${overallAnswered}`;
+
+      const barFill = document.getElementById('result-bar-fill');
+      barFill.style.width = '0%';
+      barFill.style.background = pct >= 70 ? 'var(--success)' : pct >= 50 ? 'var(--warning)' : 'var(--error)';
+      setTimeout(() => { barFill.style.width = `${pct}%`; }, 100);
+
+      // Review section
+      document.getElementById('review-section').classList.add('hidden');
+      const reviewList = document.getElementById('review-list');
+      reviewList.innerHTML = '';
+
+      if (wrongAnswers.length > 0) {
+        document.getElementById('review-toggle-btn').classList.remove('hidden');
+        for (const q of wrongAnswers) {
+          const div = document.createElement('div');
+          div.className = 'review-item';
+          div.innerHTML = `
+            <div class="q-text">${q.question}</div>
+            <div class="answer-line">
+              Your answer: <span class="wrong-ans">${q.userAnswer} — ${q.choices[q.userAnswer]}</span>
+            </div>
+            <div class="answer-line">
+              Correct: <span class="correct-ans">${q.answer} — ${q.choices[q.answer]}</span>
+            </div>
+            <div class="exp">💡 ${q.explanation}</div>
+          `;
+          reviewList.appendChild(div);
+        }
+      } else {
+        document.getElementById('review-toggle-btn').classList.add('hidden');
+      }
+
+      // Next round button
+      const hasMore = currentRound + 1 < totalRounds && mode !== 'quick';
+      document.getElementById('next-round-btn').style.display = hasMore ? 'inline-block' : 'none';
+    }
+
+    function toggleReview() {
+      const section = document.getElementById('review-section');
+      section.classList.toggle('hidden');
+      document.getElementById('review-toggle-btn').textContent =
+        section.classList.contains('hidden') ? '📖 Review Incorrect' : '📖 Hide Review';
+    }
+
+    function nextRound() {
+      currentRound++;
+      if (currentRound >= totalRounds) {
+        alert(`🎉 ครบทั้ง ${allQuestions.length} ข้อแล้ว! Overall: ${overallCorrect}/${overallAnswered}`);
+        goHome();
+      } else {
+        startRound();
+      }
+    }
+
+    // ═══ KEYBOARD SHORTCUTS ═══
+    document.addEventListener('keydown', (e) => {
+      const quizVisible = !document.getElementById('quiz-screen').classList.contains('hidden');
+      const studyVisible = !document.getElementById('study-screen').classList.contains('hidden');
+
+      if (quizVisible) {
+        if (!answered && ['a', 'b', 'c', 'd'].includes(e.key.toLowerCase())) {
+          const key = e.key.toUpperCase();
+          const btns = document.querySelectorAll('#choices .choice-btn');
+          for (const btn of btns) {
+            if (btn.querySelector('.choice-key').textContent === key) {
+              selectAnswer(key, btn);
+              break;
+            }
+          }
+        }
+        if (answered && (e.key === 'Enter' || e.key === ' ')) {
+          e.preventDefault();
+          nextQuestion();
+        }
+      }
+
+      if (studyVisible) {
+        const state = studyState[currentIndex];
+        // A/B/C/D to select answer before reveal
+        if (!state.revealed && ['a', 'b', 'c', 'd'].includes(e.key.toLowerCase())) {
+          e.preventDefault();
+          selectStudyChoice(e.key.toUpperCase());
+        }
+        // Enter/Space to reveal or go next
+        if (e.key === 'Enter' || e.key === ' ') {
+          e.preventDefault();
+          if (!state.revealed) {
+            revealStudyAnswer();
+          } else {
+            nextStudyQuestion();
+          }
+        }
+        // Left arrow or Backspace to go back
+        if (e.key === 'ArrowLeft' || e.key === 'Backspace') {
+          e.preventDefault();
+          prevStudyQuestion();
+        }
+        // Right arrow to go next
+        if (e.key === 'ArrowRight') {
+          e.preventDefault();
+          if (state.revealed) nextStudyQuestion();
+        }
+        // Escape to go home
+        if (e.key === 'Escape') {
+          e.preventDefault();
+          goHome();
+        }
+      }
+    });
+
+    // ═══ INIT ═══
+    loadQuestions();
+  </script>
+</body>
+</html>
