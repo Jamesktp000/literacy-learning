@@ -1,0 +1,242 @@
+[
+  {
+    "id": 1,
+    "question": "What is the most important skill in comprehensive AI literacy?",
+    "choices": {
+      "A": "Memorizing the names of all AI companies",
+      "B": "The ability to critically evaluate AI claims, understand capabilities and limitations, and make informed decisions about AI use",
+      "C": "Learning to code AI systems from scratch",
+      "D": "Avoiding all AI technology completely"
+    },
+    "answer": "B",
+    "explanation": "Comprehensive AI literacy คือความสามารถในการ critically evaluate AI claims, เข้าใจ capabilities และ limitations, และตัดสินใจอย่าง informed เกี่ยวกับการใช้ AI ไม่จำเป็นต้อง code เป็น แต่ต้องเข้าใจว่า AI ทำอะไรได้และทำอะไรไม่ได้"
+  },
+  {
+    "id": 2,
+    "question": "When evaluating an AI claim such as 'Our AI is 99% accurate,' what should you ask first?",
+    "choices": {
+      "A": "Nothing — 99% accuracy is always impressive",
+      "B": "What dataset was it tested on, what does 'accuracy' mean in this context, and how does it perform on edge cases?",
+      "C": "Whether the company's stock price is going up",
+      "D": "How many employees the company has"
+    },
+    "answer": "B",
+    "explanation": "เวลาเจอ claim เรื่อง accuracy ต้องถามว่า test บน dataset อะไร, accuracy ในที่นี้หมายถึงอะไร (precision? recall? F1?), และ perform ยังไงกับ edge cases เพราะ 99% accuracy บน easy dataset อาจไม่ impressive เท่าที่คิด"
+  },
+  {
+    "id": 3,
+    "question": "Which of the following is a common sign of AI hype rather than reality?",
+    "choices": {
+      "A": "Peer-reviewed research with reproducible results",
+      "B": "Vague claims of 'revolutionary' capabilities without specific benchmarks, demos on cherry-picked examples, and no discussion of limitations",
+      "C": "Transparent disclosure of model limitations",
+      "D": "Open-source code available for testing"
+    },
+    "answer": "B",
+    "explanation": "AI hype มักมาในรูปแบบ vague claims เช่น 'revolutionary' โดยไม่มี specific benchmarks, demo แค่ cherry-picked examples ที่ดูดี, และไม่พูดถึง limitations เลย ถ้าเจอแบบนี้ให้ระวังว่าอาจเป็น hype มากกว่า reality"
+  },
+  {
+    "id": 4,
+    "question": "What is a practical tip for non-experts reading AI research papers?",
+    "choices": {
+      "A": "Only read the title and assume the rest is correct",
+      "B": "Focus on the abstract, conclusion, and limitations sections first, then look at the methodology and results if needed",
+      "C": "Skip the paper and only read social media commentary about it",
+      "D": "Only trust papers that have no mathematical formulas"
+    },
+    "answer": "B",
+    "explanation": "สำหรับคนที่ไม่ใช่ expert แนะนำให้อ่าน abstract, conclusion, และ limitations sections ก่อน เพราะจะให้ภาพรวมว่า paper ทำอะไร ได้ผลอะไร และมี limitations อะไร แล้วค่อยดู methodology ถ้าอยากเข้าใจลึกขึ้น"
+  },
+  {
+    "id": 5,
+    "question": "What is a major limitation of AI benchmarks?",
+    "choices": {
+      "A": "Benchmarks are always perfectly representative of real-world performance",
+      "B": "Benchmarks may not reflect real-world performance because they test narrow tasks, can be gamed, and may not capture important qualities like robustness and fairness",
+      "C": "Benchmarks are only used for marketing and have no scientific value",
+      "D": "Benchmarks measure everything about an AI system perfectly"
+    },
+    "answer": "B",
+    "explanation": "AI benchmarks มี limitations สำคัญคือ อาจไม่ reflect real-world performance เพราะ test แค่ narrow tasks, สามารถถูก game ได้ (เช่น overfit to benchmark), และอาจไม่ capture คุณสมบัติสำคัญอย่าง robustness, fairness, หรือ safety"
+  },
+  {
+    "id": 6,
+    "question": "When an AI company announces a 'breakthrough,' what should an AI-literate person do?",
+    "choices": {
+      "A": "Immediately invest in the company's stock",
+      "B": "Look for independent verification, check if the claims are peer-reviewed, compare with existing solutions, and assess practical applicability",
+      "C": "Assume it is always fake news",
+      "D": "Wait for the company to release a consumer product before forming any opinion"
+    },
+    "answer": "B",
+    "explanation": "เมื่อ AI company ประกาศ breakthrough ควร look for independent verification, check ว่า claims ผ่าน peer review หรือเปล่า, compare กับ existing solutions, และ assess practical applicability อย่า believe หรือ dismiss ทันที แต่ให้ verify ก่อน"
+  },
+  {
+    "id": 7,
+    "question": "What is 'AI media literacy'?",
+    "choices": {
+      "A": "The ability to use AI to create social media posts",
+      "B": "The ability to critically evaluate media coverage of AI, distinguish hype from substance, and understand how AI is represented in news and entertainment",
+      "C": "Teaching AI to read newspapers",
+      "D": "Using AI to block all media content"
+    },
+    "answer": "B",
+    "explanation": "AI media literacy คือความสามารถในการ critically evaluate media coverage เกี่ยวกับ AI, แยกแยะ hype กับ substance, และเข้าใจว่า AI ถูก represent ยังไงในข่าวและ entertainment สำคัญมากเพราะ media มักจะ sensationalize AI stories"
+  },
+  {
+    "id": 8,
+    "question": "What is the best approach to fact-checking AI-related news?",
+    "choices": {
+      "A": "Trust whatever the most popular news outlet reports",
+      "B": "Cross-reference multiple sources, check if claims are backed by published research, look for expert opinions, and verify with the original source",
+      "C": "Only trust news from AI companies themselves",
+      "D": "Ignore all AI news because it is always inaccurate"
+    },
+    "answer": "B",
+    "explanation": "วิธี fact-check AI news ที่ดีที่สุดคือ cross-reference หลาย sources, check ว่า claims มี published research รองรับไหม, หา expert opinions, และ verify กับ original source เพราะ AI news มักถูก sensationalize หรือ misinterpret"
+  },
+  {
+    "id": 9,
+    "question": "Which of the following is a real limitation of AI in daily use that people often overlook?",
+    "choices": {
+      "A": "AI always gives perfectly correct answers",
+      "B": "AI can confidently produce plausible-sounding but incorrect information (hallucinations), lacks true understanding, and may reflect biases in training data",
+      "C": "AI only works on weekdays",
+      "D": "AI requires physical maintenance like oil changes"
+    },
+    "answer": "B",
+    "explanation": "Limitation สำคัญที่คนมักมองข้ามคือ AI สามารถ produce ข้อมูลที่ฟังดูน่าเชื่อแต่ผิด (hallucinations), ไม่มี true understanding, และอาจ reflect biases จาก training data สิ่งเหล่านี้ทำให้ต้อง verify output เสมอ"
+  },
+  {
+    "id": 10,
+    "question": "In which scenario should you NOT rely on AI?",
+    "choices": {
+      "A": "Brainstorming ideas for a creative project",
+      "B": "Making critical medical or legal decisions without human expert verification",
+      "C": "Drafting a first version of an email",
+      "D": "Summarizing a long document for quick review"
+    },
+    "answer": "B",
+    "explanation": "ไม่ควรพึ่ง AI อย่างเดียวใน critical medical หรือ legal decisions โดยไม่มี human expert verify เพราะ AI อาจ hallucinate หรือให้ข้อมูลที่ outdated ซึ่งอาจส่งผลร้ายแรงต่อชีวิตหรือสิทธิของคน ต้องมี expert ตรวจสอบเสมอ"
+  },
+  {
+    "id": 11,
+    "question": "What criteria should you use when selecting an AI tool for a specific task?",
+    "choices": {
+      "A": "Always choose the most expensive option",
+      "B": "Evaluate accuracy for your use case, data privacy policies, cost, ease of use, integration capabilities, and vendor reliability",
+      "C": "Pick whichever tool has the best logo",
+      "D": "Only use tools made by the largest tech companies"
+    },
+    "answer": "B",
+    "explanation": "การเลือก AI tool ควรพิจารณา accuracy สำหรับ use case ของเรา, data privacy policies, cost, ease of use, integration capabilities, และ vendor reliability ไม่ใช่แค่เลือกตัวที่แพงสุดหรือ popular สุด"
+  },
+  {
+    "id": 12,
+    "question": "What should a cost-benefit analysis of AI adoption include?",
+    "choices": {
+      "A": "Only the subscription price of the AI tool",
+      "B": "Implementation costs, training time, productivity gains, risk of errors, data privacy implications, and long-term maintenance costs",
+      "C": "Only the number of employees who will be replaced",
+      "D": "Only the marketing value of saying 'we use AI'"
+    },
+    "answer": "B",
+    "explanation": "Cost-benefit analysis ของ AI adoption ต้องรวม implementation costs, training time, productivity gains, risk of errors, data privacy implications, และ long-term maintenance costs ไม่ใช่แค่ราคา subscription เพราะ hidden costs อาจสูงมาก"
+  },
+  {
+    "id": 13,
+    "question": "What does 'informed consent' mean in the context of AI?",
+    "choices": {
+      "A": "Users simply clicking 'I agree' without reading anything",
+      "B": "Users genuinely understanding how their data will be used by AI, what decisions AI will make, and having the right to opt out",
+      "C": "AI systems deciding what users should consent to",
+      "D": "Consent is not needed when using AI"
+    },
+    "answer": "B",
+    "explanation": "Informed consent ในบริบท AI หมายถึงผู้ใช้เข้าใจจริงๆ ว่า data จะถูกใช้ยังไง, AI จะตัดสินใจอะไร, และมีสิทธิ opt out ได้ ไม่ใช่แค่กด 'I agree' โดยไม่อ่านอะไร ซึ่งเป็น problem ใหญ่ในปัจจุบัน"
+  },
+  {
+    "id": 14,
+    "question": "What is a common AI scam that people should watch out for?",
+    "choices": {
+      "A": "Free AI tools that are actually open-source",
+      "B": "Fake AI investment schemes promising guaranteed returns, AI-generated deepfake impersonations, and AI-powered phishing emails that mimic trusted contacts",
+      "C": "AI companies offering free trials of their products",
+      "D": "Universities teaching AI courses online"
+    },
+    "answer": "B",
+    "explanation": "AI scams ที่ต้องระวังรวมถึง fake AI investment schemes ที่สัญญา guaranteed returns, deepfake impersonations ที่ปลอมเป็นคนที่เรารู้จัก, และ AI-powered phishing emails ที่เลียนแบบ trusted contacts ได้แนบเนียนมาก"
+  },
+  {
+    "id": 15,
+    "question": "How can AI be used to detect phishing attempts?",
+    "choices": {
+      "A": "AI cannot help with phishing detection at all",
+      "B": "AI can analyze email patterns, detect suspicious links, identify language anomalies, and flag communications that deviate from known sender behavior",
+      "C": "AI blocks all emails automatically",
+      "D": "AI only detects phishing in social media, not email"
+    },
+    "answer": "B",
+    "explanation": "AI ช่วย detect phishing ได้โดย analyze email patterns, detect suspicious links, identify language anomalies, และ flag communications ที่ผิดปกติจาก known sender behavior ทำให้สามารถจับ phishing attempts ที่ซับซ้อนได้ดีกว่า rule-based systems"
+  },
+  {
+    "id": 16,
+    "question": "What is the best way to verify if content was generated by AI?",
+    "choices": {
+      "A": "AI-generated content is always obvious to spot",
+      "B": "Use a combination of AI detection tools, check for factual accuracy, look for inconsistencies, and cross-reference claims with reliable sources",
+      "C": "There is no way to ever verify AI-generated content",
+      "D": "Simply ask the author and they will always be honest"
+    },
+    "answer": "B",
+    "explanation": "วิธี verify AI-generated content ที่ดีที่สุดคือใช้ combination ของ AI detection tools, check factual accuracy, look for inconsistencies, และ cross-reference claims กับ reliable sources เพราะไม่มี single method ที่ 100% reliable"
+  },
+  {
+    "id": 17,
+    "question": "What does 'building AI resilience' mean?",
+    "choices": {
+      "A": "Making AI systems physically indestructible",
+      "B": "Developing the ability to adapt to AI-driven changes, maintaining critical thinking skills, and having fallback plans when AI systems fail or produce errors",
+      "C": "Resisting all forms of AI adoption",
+      "D": "Building robots that can survive natural disasters"
+    },
+    "answer": "B",
+    "explanation": "Building AI resilience คือการพัฒนาความสามารถในการ adapt กับ changes ที่ AI bring, maintain critical thinking skills, และมี fallback plans เมื่อ AI systems ล้มเหลว ไม่ใช่การต่อต้าน AI แต่เป็นการเตรียมพร้อมรับมือ"
+  },
+  {
+    "id": 18,
+    "question": "What is the most effective strategy for future-proofing your career in the age of AI?",
+    "choices": {
+      "A": "Only learning skills that AI currently cannot do",
+      "B": "Continuously developing uniquely human skills like critical thinking, creativity, and emotional intelligence while also learning to work effectively with AI tools",
+      "C": "Switching to a completely unrelated field every two years",
+      "D": "Refusing to use any AI tools at work"
+    },
+    "answer": "B",
+    "explanation": "วิธี future-proof career ที่ดีที่สุดคือ continuously develop uniquely human skills เช่น critical thinking, creativity, emotional intelligence ขณะเดียวกันก็เรียนรู้การใช้ AI tools อย่างมีประสิทธิภาพ เป็นการ combine human strengths กับ AI capabilities"
+  },
+  {
+    "id": 19,
+    "question": "What is the best way to stay updated on AI developments?",
+    "choices": {
+      "A": "Only follow one AI influencer on social media",
+      "B": "Follow diverse and reputable sources including research publications, industry newsletters, expert commentary, and participate in AI literacy communities",
+      "C": "Wait for AI to personally notify you of its own updates",
+      "D": "Only read about AI once a year"
+    },
+    "answer": "B",
+    "explanation": "การ stay updated ที่ดีที่สุดคือ follow diverse และ reputable sources รวมถึง research publications, industry newsletters, expert commentary, และเข้าร่วม AI literacy communities เพราะ AI landscape เปลี่ยนเร็วมาก ต้องได้ข้อมูลจากหลาย sources"
+  },
+  {
+    "id": 20,
+    "question": "What does it mean to be an 'AI-literate citizen'?",
+    "choices": {
+      "A": "Someone who can build AI systems from scratch",
+      "B": "A person who understands AI's impact on society, can critically evaluate AI claims, makes informed decisions about AI use, and participates in discussions about AI governance and ethics",
+      "C": "Someone who uses AI tools every single day without exception",
+      "D": "A person who has passed a government-mandated AI certification exam"
+    },
+    "answer": "B",
+    "explanation": "AI-literate citizen คือคนที่เข้าใจ impact ของ AI ต่อสังคม, สามารถ critically evaluate AI claims ได้, ตัดสินใจเรื่อง AI use อย่าง informed, และมีส่วนร่วมใน discussions เรื่อง AI governance และ ethics ไม่จำเป็นต้องเป็น developer แต่ต้องเป็น informed participant ในสังคม"
+  }
+]

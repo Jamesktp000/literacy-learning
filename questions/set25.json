@@ -1,0 +1,242 @@
+[
+  {
+    "id": 1,
+    "question": "What is the primary goal of integrating AI literacy into K-12 education?",
+    "choices": {
+      "A": "To train every student to become an AI engineer",
+      "B": "To help students understand, evaluate, and interact responsibly with AI systems",
+      "C": "To replace traditional subjects like math and science with AI courses",
+      "D": "To ensure all students can build neural networks before graduating"
+    },
+    "answer": "B",
+    "explanation": "AI literacy ใน K-12 ไม่ได้หมายความว่าต้องเปลี่ยนเด็กทุกคนเป็น AI engineer แต่เป้าหมายหลักคือให้นักเรียนเข้าใจ evaluate และใช้งาน AI อย่างรับผิดชอบ เป็นทักษะที่จำเป็นสำหรับการเป็น digital citizen ที่ดีในยุคปัจจุบัน"
+  },
+  {
+    "id": 2,
+    "question": "Which approach is most recommended when designing an AI literacy curriculum for non-technical audiences?",
+    "choices": {
+      "A": "Start with advanced calculus and linear algebra prerequisites",
+      "B": "Use hands-on activities, real-world examples, and unplugged exercises",
+      "C": "Focus exclusively on programming in Python",
+      "D": "Require students to read academic machine learning papers"
+    },
+    "answer": "B",
+    "explanation": "สำหรับคนที่ไม่มี technical background การสอน AI literacy ควรใช้ hands-on activities ตัวอย่างจากชีวิตจริง และ unplugged exercises (กิจกรรมที่ไม่ต้องใช้คอมพิวเตอร์) จะช่วยให้เข้าใจ concept ได้ง่ายกว่าการเริ่มจากคณิตศาสตร์หรือ coding เลย"
+  },
+  {
+    "id": 3,
+    "question": "What is an AI tutoring system?",
+    "choices": {
+      "A": "A system that replaces all human teachers permanently",
+      "B": "An AI-powered platform that provides personalized instruction and feedback to individual learners",
+      "C": "A database that stores student grades",
+      "D": "A video conferencing tool for remote classes"
+    },
+    "answer": "B",
+    "explanation": "AI tutoring system คือ platform ที่ใช้ AI ให้การสอนแบบ personalized กับผู้เรียนแต่ละคน สามารถปรับเนื้อหา ระดับความยาก และ feedback ตามความสามารถของนักเรียน ตัวอย่างเช่น Khan Academy กับ Khanmigo ที่ใช้ AI ช่วยสอน ไม่ได้มาแทนครูแต่เป็นเครื่องมือเสริม"
+  },
+  {
+    "id": 4,
+    "question": "How does an adaptive learning platform differ from a traditional e-learning platform?",
+    "choices": {
+      "A": "It uses more colorful graphics",
+      "B": "It adjusts content difficulty and learning paths in real-time based on student performance",
+      "C": "It only works on tablets, not computers",
+      "D": "It requires students to watch videos at 2x speed"
+    },
+    "answer": "B",
+    "explanation": "Adaptive learning platform จะปรับเนื้อหาและเส้นทางการเรียนแบบ real-time ตามผลการเรียนของนักเรียนแต่ละคน ถ้าเด็กทำได้ดีก็จะเพิ่มความยาก ถ้ายังไม่เข้าใจก็จะย้อนกลับไปอธิบายใหม่ ต่างจาก e-learning ธรรมดาที่ให้เนื้อหาเหมือนกันกับทุกคน"
+  },
+  {
+    "id": 5,
+    "question": "What is a key concern about using AI in standardized testing?",
+    "choices": {
+      "A": "AI makes tests too easy for everyone",
+      "B": "AI-generated test questions may contain biases or inaccuracies that affect fairness",
+      "C": "AI cannot generate multiple choice questions",
+      "D": "AI tests always take longer to complete"
+    },
+    "answer": "B",
+    "explanation": "ปัญหาสำคัญของการใช้ AI ใน standardized testing คือเรื่อง bias และ accuracy ของข้อสอบที่ AI สร้าง อาจมีอคติแฝงที่กระทบความ fair ของการสอบ เช่น ใช้ภาษาหรือ context ที่เอื้อประโยชน์ต่อกลุ่มนักเรียนบางกลุ่มมากกว่ากลุ่มอื่น"
+  },
+  {
+    "id": 6,
+    "question": "How can AI benefit special education?",
+    "choices": {
+      "A": "By diagnosing medical conditions without a doctor",
+      "B": "By providing personalized accommodations, assistive tools, and individualized learning plans",
+      "C": "By separating special needs students from mainstream classes automatically",
+      "D": "By reducing the number of special education teachers needed to zero"
+    },
+    "answer": "B",
+    "explanation": "AI ช่วย special education ได้โดยการสร้าง personalized accommodations เครื่องมือ assistive technology และแผนการเรียนเฉพาะบุคคล เช่น text-to-speech สำหรับนักเรียนที่มีปัญหาการอ่าน หรือ AI ที่ช่วยปรับ content ให้เหมาะกับความต้องการพิเศษของเด็กแต่ละคน"
+  },
+  {
+    "id": 7,
+    "question": "Which of the following is a well-known AI-powered language learning application?",
+    "choices": {
+      "A": "Microsoft Excel",
+      "B": "Duolingo",
+      "C": "Adobe Photoshop",
+      "D": "Slack"
+    },
+    "answer": "B",
+    "explanation": "Duolingo เป็น app เรียนภาษาที่ใช้ AI อย่างเข้มข้น มีทั้ง adaptive exercises ที่ปรับตามระดับผู้เรียน, AI chatbot สำหรับฝึกสนทนา และ spaced repetition algorithm ที่ช่วยให้จำคำศัพท์ได้ดีขึ้น เป็นตัวอย่างที่ดีมากของ AI in language learning"
+  },
+  {
+    "id": 8,
+    "question": "What does 'digital citizenship' mean in the context of AI education?",
+    "choices": {
+      "A": "Having a passport that includes a digital chip",
+      "B": "The ability to use technology and AI responsibly, ethically, and safely",
+      "C": "Living in a country that has the fastest internet",
+      "D": "Owning multiple digital devices"
+    },
+    "answer": "B",
+    "explanation": "Digital citizenship ในบริบทของ AI education หมายถึงความสามารถในการใช้ technology และ AI อย่างรับผิดชอบ มีจริยธรรม และปลอดภัย ครอบคลุมเรื่องการเข้าใจ privacy, การ verify ข้อมูล, การรู้จักผลกระทบของ AI ต่อสังคม และการใช้ AI โดยไม่ทำร้ายผู้อื่น"
+  },
+  {
+    "id": 9,
+    "question": "Why is media literacy increasingly important in the age of AI?",
+    "choices": {
+      "A": "Because AI can generate realistic fake images, videos, and text that are hard to distinguish from real content",
+      "B": "Because AI has made all media perfectly trustworthy",
+      "C": "Because media is no longer created by humans",
+      "D": "Because AI prevents all forms of misinformation"
+    },
+    "answer": "A",
+    "explanation": "Media literacy สำคัญมากขึ้นเพราะ AI สามารถสร้าง deepfake images, videos และ text ที่ดูสมจริงมากจนแยกไม่ออกว่าของจริงหรือ AI สร้าง ทำให้คนต้องมีทักษะในการ evaluate และ verify ข้อมูลที่เห็นบน social media และสื่อต่างๆ มากกว่าเดิม"
+  },
+  {
+    "id": 10,
+    "question": "What is information literacy in relation to AI?",
+    "choices": {
+      "A": "The ability to code in multiple programming languages",
+      "B": "The ability to find, evaluate, and use information effectively, including understanding how AI may affect information quality",
+      "C": "The ability to type very fast",
+      "D": "The ability to memorize large amounts of data"
+    },
+    "answer": "B",
+    "explanation": "Information literacy ในยุค AI คือความสามารถในการหา evaluate และใช้ข้อมูลอย่างมีประสิทธิภาพ รวมถึงเข้าใจว่า AI อาจส่งผลต่อคุณภาพข้อมูลอย่างไร เช่น AI hallucination ที่สร้างข้อมูลผิดๆ ที่ดูน่าเชื่อถือ หรือ AI-generated content ที่อาจ spread misinformation"
+  },
+  {
+    "id": 11,
+    "question": "When evaluating an AI claim such as 'This AI is 99% accurate,' what should you consider first?",
+    "choices": {
+      "A": "Accept the claim because numbers don't lie",
+      "B": "Ask what dataset was used, how accuracy was measured, and whether it generalizes to your use case",
+      "C": "Ignore it because AI claims are always exaggerated",
+      "D": "Check if the company has a nice website"
+    },
+    "answer": "B",
+    "explanation": "เวลาเจอ claim ว่า AI มี accuracy 99% สิ่งแรกที่ต้องถามคือ วัดจาก dataset อะไร วัดยังไง และ result มัน generalize ไปใช้กับ use case ของเราได้ไหม เพราะ accuracy บน benchmark dataset อาจไม่สะท้อนประสิทธิภาพจริงในสถานการณ์ที่แตกต่าง เป็น critical thinking skill ที่สำคัญมาก"
+  },
+  {
+    "id": 12,
+    "question": "Which of the following is the best criterion for evaluating an AI tool for classroom use?",
+    "choices": {
+      "A": "How expensive the tool is",
+      "B": "Whether it aligns with learning objectives, protects student data privacy, and provides transparent AI decisions",
+      "C": "How many celebrity endorsements it has",
+      "D": "Whether it has the most advanced AI model available"
+    },
+    "answer": "B",
+    "explanation": "การเลือก AI tool สำหรับห้องเรียน ต้องดูว่ามันตรงกับ learning objectives ไหม ปกป้อง student data privacy ได้ดีแค่ไหน และ AI decisions มีความ transparent ไหม ไม่ใช่แค่ดูว่าเทคโนโลยีล้ำหรือราคาแพง เพราะสุดท้ายต้องเหมาะกับการเรียนการสอนและปลอดภัยสำหรับนักเรียน"
+  },
+  {
+    "id": 13,
+    "question": "What is the most common concern about students using AI tools like ChatGPT for assignments?",
+    "choices": {
+      "A": "AI tools are too slow to use",
+      "B": "Students may submit AI-generated work as their own, raising academic integrity issues",
+      "C": "AI tools cannot produce any useful text",
+      "D": "AI tools are only available in English"
+    },
+    "answer": "B",
+    "explanation": "ปัญหาหลักคือนักเรียนอาจส่งงานที่ AI สร้างให้เป็นผลงานของตัวเอง ทำให้เกิดปัญหา academic integrity อย่างหนัก โรงเรียนและมหาวิทยาลัยจึงต้องมี AI plagiarism policy ที่ชัดเจนว่าใช้ AI ได้แค่ไหนและต้อง cite ยังไง"
+  },
+  {
+    "id": 14,
+    "question": "What is a recommended approach for schools to create AI plagiarism policies?",
+    "choices": {
+      "A": "Ban all AI tools completely without exception",
+      "B": "Establish clear guidelines on acceptable AI use, require disclosure, and focus on the learning process",
+      "C": "Allow unlimited AI use with no restrictions",
+      "D": "Ignore the issue until it becomes a bigger problem"
+    },
+    "answer": "B",
+    "explanation": "แนวทางที่แนะนำคือสร้าง guideline ที่ชัดเจนว่าใช้ AI ได้ในระดับไหน กำหนดให้ต้อง disclose การใช้ AI และเน้นที่กระบวนการเรียนรู้มากกว่า output สุดท้าย การ ban ทั้งหมดไม่ realistic และไม่ช่วยเตรียมเด็กให้พร้อมกับโลกที่มี AI ทุกที่"
+  },
+  {
+    "id": 15,
+    "question": "How might AI affect university admissions processes?",
+    "choices": {
+      "A": "AI will guarantee admission for all applicants",
+      "B": "AI can help screen applications efficiently but may introduce or perpetuate biases in selection",
+      "C": "AI will eliminate the need for applications entirely",
+      "D": "AI only affects admissions in computer science programs"
+    },
+    "answer": "B",
+    "explanation": "AI ช่วย screen ใบสมัครได้เร็วขึ้น แต่มีความเสี่ยงที่จะ introduce หรือ perpetuate biases ในกระบวนการคัดเลือก เช่น ถ้า training data มาจากข้อมูลการรับเข้าเดิมที่มีอคติ AI ก็จะเรียนรู้อคตินั้นไปด้วย จึงต้องมี human oversight ควบคู่เสมอ"
+  },
+  {
+    "id": 16,
+    "question": "What is a major fairness concern when using AI for automated grading?",
+    "choices": {
+      "A": "AI grading is always perfectly fair",
+      "B": "AI may penalize non-standard English dialects, creative answers, or cultural differences in writing style",
+      "C": "AI grading takes too long",
+      "D": "AI can only grade math, not essays"
+    },
+    "answer": "B",
+    "explanation": "ปัญหา fairness ของ AI grading คือมันอาจลงโทษคนที่ใช้ภาษาไม่เป็น standard เช่น dialect ต่างๆ หรือคำตอบที่ creative แต่ไม่ตรง pattern ที่ AI เรียนมา รวมถึงความแตกต่างทาง culture ในการเขียน ทำให้เด็กบางกลุ่มเสียเปรียบอย่างไม่ยุติธรรม"
+  },
+  {
+    "id": 17,
+    "question": "Which AI application helps teachers save time on administrative tasks?",
+    "choices": {
+      "A": "AI-powered lesson planning and automated attendance tracking",
+      "B": "AI that teaches classes while the teacher is absent",
+      "C": "AI that decides teacher salaries",
+      "D": "AI that replaces parent-teacher conferences"
+    },
+    "answer": "A",
+    "explanation": "AI ช่วยครูประหยัดเวลาในงาน admin ได้เยอะ เช่น AI-powered lesson planning ช่วยสร้างแผนการสอน automated attendance tracking ช่วยเช็คชื่อ auto-grading ช่วยตรวจงาน ทำให้ครูมีเวลาเหลือไป focus กับการสอนและดูแลนักเรียนมากขึ้น"
+  },
+  {
+    "id": 18,
+    "question": "How can AI support STEM education specifically?",
+    "choices": {
+      "A": "By replacing laboratory experiments with AI simulations only",
+      "B": "By providing interactive simulations, personalized problem sets, and real-time feedback on coding and math",
+      "C": "By eliminating the need for STEM teachers",
+      "D": "By automatically passing all students in STEM subjects"
+    },
+    "answer": "B",
+    "explanation": "AI ช่วย STEM education ได้โดยการให้ interactive simulations สำหรับ science experiments, personalized problem sets ที่ปรับตามระดับ และ real-time feedback สำหรับ coding และคณิตศาสตร์ เป็นการเสริมการเรียนไม่ใช่การมาแทนที่ lab จริงหรือครูผู้สอน"
+  },
+  {
+    "id": 19,
+    "question": "What role does AI play in educational research?",
+    "choices": {
+      "A": "AI writes all educational research papers automatically",
+      "B": "AI can analyze large-scale learning data to identify patterns, predict outcomes, and inform teaching strategies",
+      "C": "AI has no useful application in educational research",
+      "D": "AI only counts the number of students in a school"
+    },
+    "answer": "B",
+    "explanation": "AI ช่วยงาน educational research ได้โดยวิเคราะห์ learning data ขนาดใหญ่เพื่อหา patterns ทำนาย outcomes และให้ข้อมูลที่ช่วย inform teaching strategies เช่น learning analytics ที่บอกว่านักเรียนติดตรงไหนบ่อย หรือ intervention แบบไหนได้ผลดีที่สุด"
+  },
+  {
+    "id": 20,
+    "question": "What is the most likely future trend of AI in education?",
+    "choices": {
+      "A": "AI will completely replace all human teachers within 5 years",
+      "B": "AI will become a collaborative partner for teachers, enhancing personalized learning while requiring human oversight",
+      "C": "Schools will ban all technology including AI permanently",
+      "D": "AI will only be used in private schools"
+    },
+    "answer": "B",
+    "explanation": "แนวโน้มในอนาคตคือ AI จะเป็น collaborative partner ของครู ช่วยเสริมการเรียนแบบ personalized แต่ยังต้องมี human oversight เสมอ ครูจะเปลี่ยนบทบาทจากผู้ให้ความรู้อย่างเดียวมาเป็น facilitator ที่ใช้ AI เป็นเครื่องมือช่วยดูแลนักเรียนได้ดีขึ้น"
+  }
+]

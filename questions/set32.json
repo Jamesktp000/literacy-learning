@@ -1,0 +1,242 @@
+[
+  {
+    "id": 1,
+    "question": "What is a 'centaur model' in the context of human-AI collaboration?",
+    "choices": {
+      "A": "An AI system modeled after horse anatomy",
+      "B": "A hybrid approach where humans and AI combine their strengths to outperform either alone",
+      "C": "A large language model with two separate neural networks",
+      "D": "A mythological concept unrelated to technology"
+    },
+    "answer": "B",
+    "explanation": "Centaur model มาจากหมากรุกที่คนเล่นร่วมกับ AI แล้วชนะทั้งคนเก่งๆ และ AI ที่เล่นคนเดียว แนวคิดนี้คือผสมจุดแข็งของมนุษย์ (creativity, judgment) กับ AI (speed, data processing) เข้าด้วยกัน"
+  },
+  {
+    "id": 2,
+    "question": "In AI-assisted medical decision-making, what is the recommended role of AI?",
+    "choices": {
+      "A": "AI should make final diagnoses without physician review",
+      "B": "AI should provide recommendations and supporting evidence while physicians make final decisions",
+      "C": "AI should only be used for administrative tasks, never clinical decisions",
+      "D": "AI should override physician judgment whenever there is disagreement"
+    },
+    "answer": "B",
+    "explanation": "ในทางการแพทย์ AI ควรทำหน้าที่เป็น decision support ให้แพทย์ โดยให้ recommendation พร้อม evidence ที่สนับสนุน แต่แพทย์ต้องเป็นคนตัดสินใจสุดท้ายเสมอ เพราะต้องรับผิดชอบต่อผู้ป่วย"
+  },
+  {
+    "id": 3,
+    "question": "What is AI-assisted 'drug repurposing'?",
+    "choices": {
+      "A": "Using AI to manufacture cheaper generic drugs",
+      "B": "Using AI to identify new therapeutic uses for existing approved drugs",
+      "C": "Recycling unused medications using robotic systems",
+      "D": "AI-powered drug delivery drones"
+    },
+    "answer": "B",
+    "explanation": "Drug repurposing คือการใช้ AI ค้นหาว่ายาที่ได้รับอนุมัติแล้วสามารถรักษาโรคอื่นๆ ที่ไม่ได้ออกแบบมาได้ด้วย เช่น AI อาจพบว่ายาลดความดันบางตัวช่วยรักษามะเร็งได้ ช่วยประหยัดเวลาและค่าใช้จ่ายในการพัฒนายาใหม่"
+  },
+  {
+    "id": 4,
+    "question": "What is a key ethical concern about AI therapy chatbots for mental health?",
+    "choices": {
+      "A": "They are too expensive for most patients",
+      "B": "They may fail to recognize crisis situations like suicidal ideation and provide inadequate responses",
+      "C": "They always recommend medication over therapy",
+      "D": "They require in-person visits to function"
+    },
+    "answer": "B",
+    "explanation": "ปัญหาสำคัญของ AI therapy chatbot คือมันอาจไม่สามารถตรวจจับสถานการณ์ฉุกเฉินได้ เช่น ผู้ป่วยที่มีความคิดอยากทำร้ายตัวเอง แล้วตอบสนองไม่เหมาะสม ซึ่งอาจเป็นอันตรายถึงชีวิตได้"
+  },
+  {
+    "id": 5,
+    "question": "How can AI assist in scientific hypothesis generation?",
+    "choices": {
+      "A": "AI replaces the need for scientific experiments entirely",
+      "B": "AI can analyze large bodies of literature and data to suggest novel hypotheses humans might not consider",
+      "C": "AI generates random hypotheses without any data basis",
+      "D": "AI can only confirm existing hypotheses, not generate new ones"
+    },
+    "answer": "B",
+    "explanation": "AI สามารถอ่านและวิเคราะห์ papers หลายล้านชิ้นพร้อมกับ datasets ขนาดใหญ่ เพื่อเสนอ hypothesis ใหม่ๆ ที่มนุษย์อาจมองข้ามได้ เพราะ AI มองเห็น pattern ข้ามสาขาวิชาที่คนคนเดียวอ่านไม่หมด"
+  },
+  {
+    "id": 6,
+    "question": "What is an 'AI grief bot'?",
+    "choices": {
+      "A": "An AI that detects sadness in social media posts for advertising",
+      "B": "An AI chatbot trained on a deceased person's messages and data to simulate conversations with them",
+      "C": "A robot that attends funerals on behalf of people",
+      "D": "An AI system that predicts when someone will experience grief"
+    },
+    "answer": "B",
+    "explanation": "AI grief bot คือ chatbot ที่ถูก train จากข้อความ รูปภาพ และข้อมูลของคนที่เสียชีวิตไปแล้ว เพื่อให้คนที่อยู่ข้างหลังสามารถ 'คุย' กับคนที่จากไปได้ เป็นประเด็น ethics ที่ถกเถียงกันมากว่าช่วยในการ grieve หรือทำให้ move on ไม่ได้"
+  },
+  {
+    "id": 7,
+    "question": "What is a 'social robot' in the context of AI companions?",
+    "choices": {
+      "A": "A robot that manages social media accounts",
+      "B": "A physically embodied robot designed to interact and communicate with humans in socially meaningful ways",
+      "C": "Any software that posts on social networking sites",
+      "D": "A robot built only for industrial manufacturing"
+    },
+    "answer": "B",
+    "explanation": "Social robot คือหุ่นยนต์ที่มีร่างกายจริง ออกแบบมาให้สื่อสารและมีปฏิสัมพันธ์กับมนุษย์ในทางสังคม เช่น หุ่นยนต์เพื่อนเล่นสำหรับผู้สูงอายุ หรือ PARO ที่เป็นหุ่นยนต์แมวน้ำสำหรับผู้ป่วย dementia"
+  },
+  {
+    "id": 8,
+    "question": "How can AI assist in the peer review process for scientific publications?",
+    "choices": {
+      "A": "AI should completely replace human peer reviewers to eliminate bias",
+      "B": "AI can screen for statistical errors, plagiarism, and methodological issues to support human reviewers",
+      "C": "AI peer review means papers are published without any review at all",
+      "D": "AI can only review papers written by other AI systems"
+    },
+    "answer": "B",
+    "explanation": "AI สามารถช่วย peer review ได้โดย screen หา statistical errors, ตรวจ plagiarism, และหาปัญหาเชิง methodology ซึ่งช่วยให้ human reviewers ทำงานได้เร็วและแม่นยำขึ้น แต่ไม่ได้มาแทนที่คนทั้งหมด"
+  },
+  {
+    "id": 9,
+    "question": "What is 'emotional AI' (also called affective computing)?",
+    "choices": {
+      "A": "AI that has genuine human emotions",
+      "B": "AI systems designed to detect, interpret, and respond to human emotions",
+      "C": "AI that makes humans more emotional",
+      "D": "AI programs that only process emotional content like love songs"
+    },
+    "answer": "B",
+    "explanation": "Emotional AI หรือ affective computing คือระบบ AI ที่ออกแบบมาเพื่อตรวจจับ ตีความ และตอบสนองต่ออารมณ์ของมนุษย์ ผ่านการวิเคราะห์สีหน้า น้ำเสียง หรือข้อความ แต่ AI ไม่ได้มีอารมณ์จริงๆ"
+  },
+  {
+    "id": 10,
+    "question": "What is a major ethical concern about AI companions for elderly people?",
+    "choices": {
+      "A": "They are too difficult for elderly people to use",
+      "B": "They may reduce human social contact and create emotional dependency on machines",
+      "C": "They cost more than human caregivers",
+      "D": "They only speak one language"
+    },
+    "answer": "B",
+    "explanation": "ปัญหาสำคัญคือ AI companion อาจทำให้ผู้สูงอายุพึ่งพาหุ่นยนต์หรือ chatbot แทนที่จะมีปฏิสัมพันธ์กับคนจริงๆ ซึ่งอาจทำให้ความเหงายิ่งแย่ลงในระยะยาว แม้ในระยะสั้นจะดูเหมือนช่วยได้"
+  },
+  {
+    "id": 11,
+    "question": "How is AI being used in clinical trials?",
+    "choices": {
+      "A": "AI replaces the need for human participants in all trials",
+      "B": "AI helps with patient recruitment, trial design optimization, and real-time data monitoring",
+      "C": "AI is only used to write the final clinical trial report",
+      "D": "AI administers experimental drugs directly to patients"
+    },
+    "answer": "B",
+    "explanation": "AI ช่วย clinical trials ได้หลายทาง เช่น หาผู้เข้าร่วมวิจัยที่เหมาะสม (patient recruitment), ออกแบบ trial ที่ดีขึ้น, และ monitor ข้อมูลแบบ real-time เพื่อตรวจจับ adverse events ได้เร็วขึ้น"
+  },
+  {
+    "id": 12,
+    "question": "What is a key concern about using AI in legal judgment?",
+    "choices": {
+      "A": "AI always makes perfectly fair legal decisions",
+      "B": "AI may perpetuate historical biases present in past legal decisions and lack contextual understanding",
+      "C": "AI legal systems are already used in all courts worldwide",
+      "D": "AI in law only helps with spelling corrections in documents"
+    },
+    "answer": "B",
+    "explanation": "ปัญหาสำคัญคือ AI ที่ train จากคำพิพากษาในอดีตอาจสืบทอด bias ที่เคยมีอยู่ เช่น ลำเอียงต่อกลุ่มคนบางกลุ่ม และ AI ขาดความเข้าใจ context เฉพาะของแต่ละคดีที่ต้องการ human judgment"
+  },
+  {
+    "id": 13,
+    "question": "What role does AI play in epidemiology?",
+    "choices": {
+      "A": "AI creates new diseases for research purposes",
+      "B": "AI helps track disease spread, predict outbreaks, and model intervention strategies",
+      "C": "AI is only useful for counting hospital beds",
+      "D": "AI replaces the need for vaccines"
+    },
+    "answer": "B",
+    "explanation": "AI ช่วยด้าน epidemiology โดยติดตามการแพร่ระบาดของโรค ทำนาย outbreak ล่วงหน้า และจำลอง intervention strategies ต่างๆ เช่น ช่วง COVID-19 AI ช่วยทำนายการระบาดและวิเคราะห์ประสิทธิภาพของมาตรการต่างๆ"
+  },
+  {
+    "id": 14,
+    "question": "What is the concept of 'AI lab assistants' in scientific research?",
+    "choices": {
+      "A": "AI that cleans laboratory equipment",
+      "B": "AI systems that can design experiments, control lab equipment, and analyze results semi-autonomously",
+      "C": "Virtual assistants that only schedule lab meetings",
+      "D": "Robots that guard laboratories at night"
+    },
+    "answer": "B",
+    "explanation": "AI lab assistant คือระบบ AI ที่ช่วยนักวิทยาศาสตร์ออกแบบการทดลอง ควบคุมอุปกรณ์ในแล็บ และวิเคราะห์ผลลัพธ์ได้แบบกึ่งอัตโนมัติ ช่วยเร่งกระบวนการวิจัยให้เร็วขึ้นมาก"
+  },
+  {
+    "id": 15,
+    "question": "What ethical issues arise with AI in end-of-life decisions?",
+    "choices": {
+      "A": "AI always knows the exact time a patient will die",
+      "B": "AI prognostic tools may influence decisions to withdraw care prematurely, and lack the empathy needed for such sensitive situations",
+      "C": "There are no ethical concerns because AI is always objective",
+      "D": "AI end-of-life systems are required by law in all hospitals"
+    },
+    "answer": "B",
+    "explanation": "AI ที่ทำนาย prognosis อาจมีอิทธิพลต่อการตัดสินใจถอนการรักษาเร็วเกินไป และ AI ขาด empathy ที่จำเป็นในสถานการณ์ที่ละเอียดอ่อนมากๆ แบบ end-of-life ที่ต้องคำนึงถึงความรู้สึกของผู้ป่วยและครอบครัว"
+  },
+  {
+    "id": 16,
+    "question": "How does AI assist in mental health diagnosis?",
+    "choices": {
+      "A": "AI can diagnose all mental health conditions with 100% accuracy",
+      "B": "AI can analyze speech patterns, text, and behavioral data to help identify indicators of conditions like depression",
+      "C": "AI prescribes psychiatric medication directly",
+      "D": "AI mental health tools work only for children"
+    },
+    "answer": "B",
+    "explanation": "AI สามารถวิเคราะห์ speech patterns, ข้อความ, และ behavioral data เพื่อช่วยระบุสัญญาณของโรคจิตเวช เช่น depression โดยตรวจจับการเปลี่ยนแปลงในน้ำเสียง คำที่ใช้ หรือ social media activity แต่ไม่ได้แม่นยำ 100%"
+  },
+  {
+    "id": 17,
+    "question": "What is the 'AI and loneliness' paradox?",
+    "choices": {
+      "A": "AI systems become lonely when not in use",
+      "B": "AI companions may alleviate feelings of loneliness short-term but could worsen social isolation long-term by substituting real human connections",
+      "C": "Lonely people are always the best AI developers",
+      "D": "AI makes everyone equally lonely"
+    },
+    "answer": "B",
+    "explanation": "Paradox นี้คือ AI companion อาจช่วยบรรเทาความเหงาได้ในระยะสั้น แต่ในระยะยาวอาจทำให้คน isolate ตัวเองจากสังคมมากขึ้น เพราะรู้สึกว่า AI ก็เพียงพอแล้ว ทำให้ขาด real human connection"
+  },
+  {
+    "id": 18,
+    "question": "What is a key advantage of AI in scientific discovery compared to traditional methods?",
+    "choices": {
+      "A": "AI eliminates the need for any experiments",
+      "B": "AI can explore vast combinatorial spaces and find patterns across disciplines that would take humans decades",
+      "C": "AI only confirms what scientists already know",
+      "D": "AI discoveries do not need to be verified"
+    },
+    "answer": "B",
+    "explanation": "ข้อดีหลักของ AI ในการค้นพบทางวิทยาศาสตร์คือมันสามารถสำรวจ combinatorial space มหาศาลและหา pattern ข้ามสาขาวิชาที่มนุษย์ต้องใช้เวลาหลายสิบปี เช่น AlphaFold ค้นพบโครงสร้างโปรตีนได้เร็วมาก"
+  },
+  {
+    "id": 19,
+    "question": "What is AI-assisted palliative care primarily aimed at?",
+    "choices": {
+      "A": "Curing all terminal diseases with AI",
+      "B": "Using AI to help manage pain, predict symptom changes, and personalize comfort care for terminally ill patients",
+      "C": "Replacing hospice workers entirely with robots",
+      "D": "Using AI to decide who receives palliative care"
+    },
+    "answer": "B",
+    "explanation": "AI ใน palliative care ช่วยจัดการความเจ็บปวด ทำนายการเปลี่ยนแปลงของอาการ และ personalize การดูแลให้เหมาะกับผู้ป่วยระยะสุดท้ายแต่ละคน เป้าหมายคือเพิ่มคุณภาพชีวิต ไม่ใช่รักษาให้หาย"
+  },
+  {
+    "id": 20,
+    "question": "In the context of human-AI collaboration frameworks, what does 'appropriate reliance' mean?",
+    "choices": {
+      "A": "Humans should always follow AI recommendations without question",
+      "B": "Humans should calibrate their trust in AI based on the system's known strengths, limitations, and the specific context",
+      "C": "AI should never be relied upon for any decision",
+      "D": "Reliance means the AI system depends on humans for electricity"
+    },
+    "answer": "B",
+    "explanation": "Appropriate reliance หมายถึงการที่มนุษย์ปรับระดับความเชื่อมั่นใน AI ตามจุดแข็ง ข้อจำกัด และบริบทเฉพาะ ไม่เชื่อมากเกินไป (over-reliance) และไม่ไม่เชื่อเลย (under-reliance) ต้องหา balance ที่เหมาะสม"
+  }
+]

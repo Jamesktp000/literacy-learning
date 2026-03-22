@@ -1,0 +1,242 @@
+[
+  {
+    "id": 1,
+    "question": "What is 'computational propaganda'?",
+    "choices": {
+      "A": "Using computers to calculate election statistics accurately",
+      "B": "The use of algorithms, automation, and AI to deliberately spread misleading information and manipulate public opinion",
+      "C": "A type of computer virus that targets government systems",
+      "D": "A programming language used for political data analysis"
+    },
+    "answer": "B",
+    "explanation": "Computational propaganda คือการใช้ algorithms, bots, และ AI เพื่อแพร่กระจายข้อมูลเท็จและบิดเบือนความคิดเห็นสาธารณะ ทำได้ในระดับ scale ที่ใหญ่มาก ทั้ง social media manipulation, fake news, และ automated messaging ถือเป็นภัยคุกคามต่อประชาธิปไตยในยุคดิจิทัล"
+  },
+  {
+    "id": 2,
+    "question": "What are 'bot networks' (botnets) in the context of social media manipulation?",
+    "choices": {
+      "A": "Groups of human volunteers who manually share content online",
+      "B": "Coordinated networks of automated fake accounts that amplify specific messages or narratives",
+      "C": "Secure networks used by social media companies to protect user data",
+      "D": "A type of customer service chatbot system"
+    },
+    "answer": "B",
+    "explanation": "Bot networks คือเครือข่ายของ automated fake accounts ที่ทำงานร่วมกันเพื่อ amplify ข้อความหรือ narrative บางอย่าง เช่น like, share, comment ซ้ำๆ ทำให้ content ดูเหมือนได้รับความนิยมจริงๆ ใช้กันเยอะมากในการปั่นกระแสทั้งการเมืองและการตลาด"
+  },
+  {
+    "id": 3,
+    "question": "What is 'astroturfing' in the context of AI-driven manipulation?",
+    "choices": {
+      "A": "Using AI to design artificial grass for sports stadiums",
+      "B": "Creating the illusion of widespread grassroots support using fake accounts and AI-generated content",
+      "C": "A green computing initiative for sustainable AI",
+      "D": "Using AI to monitor environmental campaigns"
+    },
+    "answer": "B",
+    "explanation": "Astroturfing คือการสร้างภาพลวงว่ามี grassroots support จำนวนมาก ทั้งที่จริงๆ แล้วเป็น fake accounts และ AI-generated content ทั้งหมด ชื่อมาจาก AstroTurf (หญ้าเทียม) เพราะมันเป็น fake grassroots นั่นเอง ใช้ AI ทำได้ scale ใหญ่มากในปัจจุบัน"
+  },
+  {
+    "id": 4,
+    "question": "How can AI be used to generate fake reviews at scale?",
+    "choices": {
+      "A": "By hiring thousands of human reviewers to write honest opinions",
+      "B": "By using large language models to produce realistic-sounding product reviews that are entirely fabricated",
+      "C": "By copying and pasting existing real reviews from other platforms",
+      "D": "By translating real reviews from other languages"
+    },
+    "answer": "B",
+    "explanation": "LLMs สามารถสร้าง fake reviews ที่ดูสมจริงมากได้ในปริมาณมหาศาล ทั้ง positive reviews ปั้นสินค้าตัวเอง และ negative reviews ทำลายคู่แข่ง ปัญหาคือ AI-generated reviews ตรวจจับยากขึ้นเรื่อยๆ เพราะภาษาดูเป็นธรรมชาติมาก"
+  },
+  {
+    "id": 5,
+    "question": "What are 'synthetic personas' in the context of AI-driven influence operations?",
+    "choices": {
+      "A": "Real people who use pseudonyms online",
+      "B": "AI-generated fake identities complete with profile pictures, backstories, and consistent posting patterns",
+      "C": "Virtual assistants like Siri and Alexa",
+      "D": "Anonymized user profiles for data privacy"
+    },
+    "answer": "B",
+    "explanation": "Synthetic personas คือตัวตนปลอมที่สร้างด้วย AI ทั้งหมด ตั้งแต่รูปโปรไฟล์ (สร้างจาก AI image generation) ประวัติส่วนตัว และ posting pattern ที่สม่ำเสมอ ทำให้ดูเหมือนคนจริงมาก ใช้ใน influence operations เพื่อสร้างความน่าเชื่อถือก่อนปล่อย propaganda"
+  },
+  {
+    "id": 6,
+    "question": "What is 'micro-targeting' with AI in the context of political advertising?",
+    "choices": {
+      "A": "Sending the same advertisement to everyone in a country",
+      "B": "Using AI to analyze individual user data and deliver highly personalized political messages to specific voter segments",
+      "C": "Targeting only users who have microscopes in their profile",
+      "D": "A technique for reducing the file size of advertisement images"
+    },
+    "answer": "B",
+    "explanation": "Micro-targeting ใช้ AI วิเคราะห์ข้อมูลผู้ใช้แต่ละคน เช่น พฤติกรรมออนไลน์ ความสนใจ ข้อมูลประชากร แล้วส่ง political messages ที่ personalize มากๆ ไปหาแต่ละกลุ่ม เช่น คนกลุ่มหนึ่งเห็นโฆษณาเน้นเศรษฐกิจ อีกกลุ่มเห็นเน้นความมั่นคง ทำให้ manipulation มีประสิทธิภาพมาก"
+  },
+  {
+    "id": 7,
+    "question": "What are 'dark patterns' in the context of AI-powered user interfaces?",
+    "choices": {
+      "A": "Dark-themed UI designs that reduce eye strain",
+      "B": "Deceptive design techniques that use AI to manipulate users into making unintended decisions",
+      "C": "Patterns used in AI model training data preprocessing",
+      "D": "Security protocols for protecting user passwords"
+    },
+    "answer": "B",
+    "explanation": "Dark patterns คือเทคนิคการออกแบบ UI ที่หลอกล่อให้ผู้ใช้ทำสิ่งที่ไม่ได้ตั้งใจ เช่น สมัครสมาชิกโดยไม่รู้ตัว แชร์ข้อมูลมากเกินไป เมื่อใช้ AI เข้ามา dark patterns จะ adaptive ได้ คือปรับเปลี่ยนตาม behavior ของผู้ใช้แต่ละคนให้หลงกลได้ง่ายขึ้น"
+  },
+  {
+    "id": 8,
+    "question": "What does the 'attention economy' refer to, and how does AI amplify it?",
+    "choices": {
+      "A": "An economy where human attention is a scarce resource, and AI optimizes content to capture and hold it as long as possible",
+      "B": "A system where AI pays attention to economic indicators",
+      "C": "A financial system that rewards people for paying attention in class",
+      "D": "An economy powered by the self-attention mechanism in transformers"
+    },
+    "answer": "A",
+    "explanation": "Attention economy คือแนวคิดที่ว่า human attention เป็นทรัพยากรที่มีจำกัด และ platforms แข่งกันแย่งชิง AI ถูกใช้เพื่อ optimize content ให้ดึงดูดความสนใจได้มากที่สุด ทั้ง recommendation algorithms, notification systems, และ content curation ทำให้คนติดจอได้มากขึ้น"
+  },
+  {
+    "id": 9,
+    "question": "What is 'doom scrolling' and how does AI contribute to it?",
+    "choices": {
+      "A": "Scrolling through AI-generated art of dystopian themes",
+      "B": "The compulsive behavior of continuously scrolling through negative news, amplified by AI algorithms that serve emotionally engaging content",
+      "C": "A game-like AI training technique",
+      "D": "Using AI to automatically scroll through documents for summarization"
+    },
+    "answer": "B",
+    "explanation": "Doom scrolling คือพฤติกรรมเลื่อนหน้าจอดูข่าวร้ายไม่หยุด AI recommendation algorithms มีส่วนทำให้เกิดปัญหานี้ เพราะ content ที่กระตุ้นอารมณ์ (โดยเฉพาะความกลัวและความโกรธ) จะได้ engagement สูง algorithm ก็เลยยิ่ง feed content แบบนี้เข้ามาเรื่อยๆ"
+  },
+  {
+    "id": 10,
+    "question": "How does AI enable 'behavioral manipulation' on digital platforms?",
+    "choices": {
+      "A": "By providing users with objective, unbiased information",
+      "B": "By analyzing user behavior patterns and exploiting psychological vulnerabilities to influence decisions",
+      "C": "By blocking all advertisements from reaching users",
+      "D": "By encrypting user behavior data so it cannot be accessed"
+    },
+    "answer": "B",
+    "explanation": "AI วิเคราะห์ behavior patterns ของผู้ใช้แล้วใช้ psychological vulnerabilities มา exploit เช่น FOMO, social proof, loss aversion ทำให้กดซื้อ กดแชร์ หรือใช้เวลาบน platform นานขึ้น ยิ่ง AI เก่งขึ้น ยิ่ง manipulate ได้แนบเนียนมากขึ้น"
+  },
+  {
+    "id": 11,
+    "question": "What is 'addictive design' in the context of AI-powered applications?",
+    "choices": {
+      "A": "Designing AI systems that are addicted to data",
+      "B": "Using AI to intentionally design features that create habitual, compulsive usage patterns in users",
+      "C": "A design methodology for creating AI rehabilitation tools",
+      "D": "Making AI interfaces visually appealing"
+    },
+    "answer": "B",
+    "explanation": "Addictive design คือการใช้ AI ออกแบบ features ที่ทำให้ผู้ใช้เกิดพฤติกรรมเสพติด เช่น infinite scroll, variable reward schedules (เหมือน slot machine), personalized notifications ที่รู้จังหวะส่งพอดี ทำให้คนหยุดใช้งานไม่ได้ เป็น ethical concern ที่ใหญ่มากในวงการ tech"
+  },
+  {
+    "id": 12,
+    "question": "What is 'gamification with AI'?",
+    "choices": {
+      "A": "Using AI to develop video games only",
+      "B": "Incorporating game-like elements (points, badges, leaderboards) enhanced by AI personalization to drive user engagement",
+      "C": "Training AI by letting it play games all day",
+      "D": "Converting all AI interfaces into game controllers"
+    },
+    "answer": "B",
+    "explanation": "Gamification with AI คือการใส่ game elements เช่น points, badges, leaderboards เข้าไปใน non-game contexts แล้วใช้ AI ทำ personalization เช่น ปรับ difficulty, rewards, challenges ให้เหมาะกับผู้ใช้แต่ละคน ทำให้ engagement สูงขึ้นมาก แต่ก็อาจถูกใช้ manipulate ได้เช่นกัน"
+  },
+  {
+    "id": 13,
+    "question": "What is 'nudge technology' and how does AI enhance it?",
+    "choices": {
+      "A": "Physical robots that gently push people in certain directions",
+      "B": "AI-powered systems that subtly guide user decisions through carefully designed choice architectures and prompts",
+      "C": "A notification system that only sends messages at noon",
+      "D": "Technology that measures how often users nudge their phones"
+    },
+    "answer": "B",
+    "explanation": "Nudge technology ใช้ AI เพื่อ subtly guide การตัดสินใจของผู้ใช้ เช่น default settings, framing effects, social proof แนวคิดมาจาก behavioral economics ของ Thaler กับ Sunstein เมื่อใช้ AI จะ personalize nudges ได้ตามแต่ละคน ซึ่งอาจใช้ทั้งในทางดี (สุขภาพ) หรือทาง exploit ก็ได้"
+  },
+  {
+    "id": 14,
+    "question": "How can deepfakes be weaponized in political contexts?",
+    "choices": {
+      "A": "By creating realistic but fabricated videos of politicians saying things they never said",
+      "B": "By improving the video quality of legitimate political speeches",
+      "C": "By translating political speeches into other languages accurately",
+      "D": "By adding visual effects to campaign commercials"
+    },
+    "answer": "A",
+    "explanation": "Deepfakes ถูกใช้สร้างวิดีโอปลอมที่ดูสมจริงมากของนักการเมือง ทำให้ดูเหมือนพูดสิ่งที่ไม่เคยพูด ใช้บ่อนทำลายชื่อเสียงหรือสร้างความแตกแยก อันตรายมากเพราะ technology ก้าวหน้าเร็วจนตรวจจับยาก และ viral spread เกิดเร็วกว่าการ fact-check"
+  },
+  {
+    "id": 15,
+    "question": "What is 'choice architecture' in the context of AI?",
+    "choices": {
+      "A": "The physical design of computer hardware",
+      "B": "The way options are structured and presented to users, which AI can optimize to steer decisions in a desired direction",
+      "C": "A software framework for building AI applications",
+      "D": "The process of choosing which AI model to deploy"
+    },
+    "answer": "B",
+    "explanation": "Choice architecture คือการจัดวาง options ให้ผู้ใช้เลือก ซึ่งวิธีนำเสนอมีผลต่อการตัดสินใจมาก AI สามารถ optimize choice architecture ได้แบบ real-time เช่น เรียงลำดับ options, ตั้ง default, highlight บางตัวเลือก ทำให้ผู้ใช้เลือกในทิศทางที่ platform ต้องการ"
+  },
+  {
+    "id": 16,
+    "question": "What is 'persuasive AI'?",
+    "choices": {
+      "A": "AI that can only be used for marketing purposes",
+      "B": "AI systems specifically designed to change human attitudes, beliefs, or behaviors through automated persuasion techniques",
+      "C": "AI that persuades other AI systems to cooperate",
+      "D": "A type of AI that argues in court cases"
+    },
+    "answer": "B",
+    "explanation": "Persuasive AI คือระบบ AI ที่ถูกออกแบบมาเพื่อเปลี่ยนทัศนคติ ความเชื่อ หรือพฤติกรรมของคนโดยเฉพาะ ใช้เทคนิคทาง psychology เช่น social proof, reciprocity, scarcity มา automate ให้ทำได้ในระดับ scale ใหญ่ มีทั้งการใช้ในทางดี (public health) และทางไม่ดี (manipulation)"
+  },
+  {
+    "id": 17,
+    "question": "What is a key concern about AI-generated news articles?",
+    "choices": {
+      "A": "They are always more accurate than human-written articles",
+      "B": "They can be produced at massive scale, making it difficult to distinguish real journalism from fabricated content",
+      "C": "They are too expensive to produce",
+      "D": "They can only be written in English"
+    },
+    "answer": "B",
+    "explanation": "AI-generated news articles สร้างได้ในปริมาณมหาศาลด้วย cost ต่ำมาก ทำให้ยากที่จะแยกข่าวจริงจากข่าวปลอม content farms ใช้ AI ปั่นบทความจำนวนมากเพื่อ SEO หรือ spread misinformation เป็นภัยคุกคามต่อ information ecosystem อย่างมาก"
+  },
+  {
+    "id": 18,
+    "question": "What is an 'influence operation' using AI?",
+    "choices": {
+      "A": "A marketing campaign that uses only organic content",
+      "B": "A coordinated campaign that leverages AI tools to covertly shape public perception, often by state or non-state actors",
+      "C": "An AI system that influences the stock market through legal trading",
+      "D": "A technique for influencing hyperparameter tuning in ML models"
+    },
+    "answer": "B",
+    "explanation": "Influence operation คือ campaign ที่ใช้ AI tools เพื่อบิดเบือนความคิดเห็นสาธารณะอย่างแอบแฝง ทำได้โดย state actors (รัฐบาล) หรือ non-state actors ใช้ทั้ง bot networks, synthetic personas, deepfakes, และ AI-generated content ร่วมกัน ทำให้มี impact ใหญ่มากในระดับประเทศ"
+  },
+  {
+    "id": 19,
+    "question": "How does AI enable 'social media manipulation' at scale?",
+    "choices": {
+      "A": "By manually managing individual social media accounts one by one",
+      "B": "By automating content creation, account management, engagement, and targeting across thousands of fake accounts simultaneously",
+      "C": "By improving the security of social media platforms",
+      "D": "By providing fact-checking services to social media companies"
+    },
+    "answer": "B",
+    "explanation": "AI ทำให้ social media manipulation ทำได้ในระดับ scale ที่ไม่เคยเป็นไปได้มาก่อน สามารถ automate ทั้งการสร้าง content, manage บัญชีปลอมหลายพันบัญชี, สร้าง engagement, และ target กลุ่มเป้าหมายพร้อมกัน ใช้คนน้อยมากแต่สร้าง impact ได้มหาศาล"
+  },
+  {
+    "id": 20,
+    "question": "What is AI-driven 'political advertising' primarily concerned with?",
+    "choices": {
+      "A": "Creating non-partisan, neutral political content",
+      "B": "Using AI to optimize ad delivery, personalize political messages, and maximize voter persuasion through targeted campaigns",
+      "C": "Banning all political advertisements from the internet",
+      "D": "Using AI to ensure equal representation of all political parties"
+    },
+    "answer": "B",
+    "explanation": "AI-driven political advertising ใช้ AI เพื่อ optimize การส่ง ads, personalize ข้อความทางการเมือง, และเพิ่ม voter persuasion ให้มากที่สุด สามารถทำ A/B testing, sentiment analysis, และ micro-targeting ได้แบบ real-time ทำให้โฆษณาการเมืองมีประสิทธิภาพสูงมาก แต่ก็สร้างความกังวลเรื่อง fairness และ manipulation"
+  }
+]

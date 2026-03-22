@@ -1,0 +1,242 @@
+[
+  {
+    "id": 1,
+    "question": "Which two countries are most commonly described as leading the global AI race?",
+    "choices": {
+      "A": "Japan and South Korea",
+      "B": "United States and China",
+      "C": "United Kingdom and Germany",
+      "D": "India and Russia"
+    },
+    "answer": "B",
+    "explanation": "สหรัฐกับจีนเป็นสองประเทศที่ลงทุนใน AI มากที่สุดและแข่งขันกันอย่างดุเดือดทั้งด้าน research, talent และ commercial deployment จนเรียกว่าเป็น US-China AI race"
+  },
+  {
+    "id": 2,
+    "question": "What does the acronym LAWS stand for in the context of AI and military?",
+    "choices": {
+      "A": "Logical Autonomous Weapon Software",
+      "B": "Lethal Autonomous Weapons Systems",
+      "C": "Large-scale Automated War Simulations",
+      "D": "Legal Authorization for Weapon Systems"
+    },
+    "answer": "B",
+    "explanation": "LAWS ย่อมาจาก Lethal Autonomous Weapons Systems หมายถึงระบบอาวุธที่สามารถเลือกเป้าหมายและโจมตีได้เองโดยไม่ต้องมีคนสั่ง เป็นประเด็นที่ถกเถียงกันมากใน international humanitarian law"
+  },
+  {
+    "id": 3,
+    "question": "What is a 'deepfake' most commonly used for in the context of election interference?",
+    "choices": {
+      "A": "Improving ballot counting accuracy",
+      "B": "Creating fabricated video or audio of political candidates",
+      "C": "Encrypting voter registration databases",
+      "D": "Automating voter outreach campaigns"
+    },
+    "answer": "B",
+    "explanation": "Deepfake ใช้ AI สร้างวิดีโอหรือเสียงปลอมที่ดูเหมือนจริงมาก ทำให้สามารถปลอมแปลงคำพูดหรือการกระทำของนักการเมืองเพื่อบิดเบือนข้อมูลก่อนการเลือกตั้งได้"
+  },
+  {
+    "id": 4,
+    "question": "What is 'AI sovereignty' primarily concerned with?",
+    "choices": {
+      "A": "Giving AI systems legal citizenship rights",
+      "B": "A nation's ability to develop and control its own AI capabilities independently",
+      "C": "Making AI systems autonomous from human oversight",
+      "D": "Allowing AI to make sovereign political decisions"
+    },
+    "answer": "B",
+    "explanation": "AI sovereignty หมายถึงความสามารถของประเทศในการพัฒนาและควบคุม AI ด้วยตัวเอง ไม่ต้องพึ่งพาเทคโนโลยีจากต่างประเทศ รวมถึงการมี infrastructure, talent และ data เป็นของตัวเอง"
+  },
+  {
+    "id": 5,
+    "question": "What is 'data localization' in the context of AI policy?",
+    "choices": {
+      "A": "Translating datasets into local languages",
+      "B": "Requirements that data about a country's citizens must be stored within that country's borders",
+      "C": "Using GPS data to train location-based AI models",
+      "D": "Converting global AI models to work with local hardware"
+    },
+    "answer": "B",
+    "explanation": "Data localization คือกฎหมายหรือข้อกำหนดที่บังคับให้ข้อมูลของพลเมืองต้องถูกเก็บและประมวลผลภายในประเทศนั้นๆ เช่น จีนมี Cybersecurity Law ที่กำหนดเรื่องนี้ เป็นประเด็นสำคัญเรื่อง digital sovereignty"
+  },
+  {
+    "id": 6,
+    "question": "What is 'AI brain drain' referring to?",
+    "choices": {
+      "A": "AI systems consuming too much computational power",
+      "B": "The migration of AI talent from developing countries to tech hubs in wealthy nations",
+      "C": "The loss of human cognitive skills due to over-reliance on AI",
+      "D": "Neural networks losing learned information over time"
+    },
+    "answer": "B",
+    "explanation": "AI brain drain คือปรากฏการณ์ที่คนเก่งด้าน AI จากประเทศกำลังพัฒนาย้ายไปทำงานในประเทศที่จ่ายเงินเดือนสูงกว่า เช่น สหรัฐ ทำให้ประเทศต้นทางขาดแคลนบุคลากรด้าน AI อย่างมาก"
+  },
+  {
+    "id": 7,
+    "question": "Which of the following is a primary concern about AI in cyber warfare?",
+    "choices": {
+      "A": "AI can only defend but cannot attack computer systems",
+      "B": "AI can automate and scale up cyber attacks far beyond human capabilities",
+      "C": "AI-powered firewalls are too expensive for governments",
+      "D": "Cyber warfare requires physical robots that AI cannot control"
+    },
+    "answer": "B",
+    "explanation": "AI ทำให้ cyber attack ทำได้เร็วขึ้น ฉลาดขึ้น และ scale ได้มากกว่าเดิมมาก เช่น AI สามารถค้นหาช่องโหว่ในระบบได้อัตโนมัติ สร้าง phishing email ที่ดูน่าเชื่อถือ หรือ adapt ตัวเองเพื่อหลบระบบป้องกัน"
+  },
+  {
+    "id": 8,
+    "question": "What is the 'Global South' challenge regarding AI development?",
+    "choices": {
+      "A": "Countries in the Southern Hemisphere have too much data",
+      "B": "Developing nations risk being left behind due to lack of infrastructure, data, and talent for AI",
+      "C": "Southern countries have banned all AI development",
+      "D": "AI models only work in northern climates"
+    },
+    "answer": "B",
+    "explanation": "ประเทศใน Global South เผชิญปัญหาขาดแคลน infrastructure, ข้อมูล, และบุคลากรด้าน AI ทำให้เสี่ยงที่จะถูกทิ้งห่างจากประเทศพัฒนาแล้ว เกิด digital divide ที่กว้างขึ้นเรื่อยๆ"
+  },
+  {
+    "id": 9,
+    "question": "What role does AI play in modern intelligence gathering?",
+    "choices": {
+      "A": "AI has replaced all human intelligence officers entirely",
+      "B": "AI helps analyze massive volumes of signals intelligence, imagery, and open-source data",
+      "C": "AI is only used for translating foreign languages",
+      "D": "Intelligence agencies have banned AI due to security risks"
+    },
+    "answer": "B",
+    "explanation": "AI ช่วยหน่วยข่าวกรองวิเคราะห์ข้อมูลมหาศาลจาก signals intelligence (SIGINT), ภาพถ่ายดาวเทียม, และ open-source intelligence (OSINT) ได้เร็วกว่ามนุษย์มาก ทำให้ตรวจจับภัยคุกคามได้เร็วขึ้น"
+  },
+  {
+    "id": 10,
+    "question": "How can AI-generated political content pose a threat to democracy?",
+    "choices": {
+      "A": "It makes political campaigns cheaper and more accessible",
+      "B": "It can mass-produce convincing disinformation that erodes public trust and manipulates voters",
+      "C": "It automatically registers new voters",
+      "D": "It ensures all political advertisements are factually correct"
+    },
+    "answer": "B",
+    "explanation": "AI สามารถสร้าง content ทางการเมืองที่ดูน่าเชื่อถือได้ในปริมาณมหาศาล ทั้งข่าวปลอม บทความบิดเบือน และ social media posts ที่ทำให้คนเชื่อผิดๆ ซึ่งกัดกร่อนความเชื่อมั่นในระบอบประชาธิปไตย"
+  },
+  {
+    "id": 11,
+    "question": "What is China's 'New Generation AI Development Plan' primarily aimed at?",
+    "choices": {
+      "A": "Banning AI development in private companies",
+      "B": "Making China the world leader in AI by 2030",
+      "C": "Sharing all AI research openly with other nations",
+      "D": "Reducing China's reliance on technology completely"
+    },
+    "answer": "B",
+    "explanation": "แผน New Generation AI Development Plan ของจีนประกาศในปี 2017 ตั้งเป้าให้จีนเป็นผู้นำด้าน AI ระดับโลกภายในปี 2030 ครอบคลุมทั้ง research, industry, และ talent development"
+  },
+  {
+    "id": 12,
+    "question": "What is a key concern about AI-powered disinformation campaigns compared to traditional propaganda?",
+    "choices": {
+      "A": "AI disinformation is easier for humans to detect",
+      "B": "AI can personalize and scale disinformation to target individuals at unprecedented speed",
+      "C": "AI disinformation only works in English",
+      "D": "AI campaigns are always more expensive than traditional methods"
+    },
+    "answer": "B",
+    "explanation": "AI ทำให้ disinformation campaigns น่ากลัวกว่าเดิมมากเพราะสามารถ personalize เนื้อหาให้เหมาะกับแต่ละคน สร้างได้ในปริมาณมหาศาล และปรับตัวตาม reaction ของคนแบบ real-time"
+  },
+  {
+    "id": 13,
+    "question": "What does 'cross-border AI data flows' refer to?",
+    "choices": {
+      "A": "Physical transportation of AI hardware between countries",
+      "B": "The transfer of data used for AI training and inference across national boundaries",
+      "C": "AI robots crossing international borders",
+      "D": "Translating AI outputs from one language to another"
+    },
+    "answer": "B",
+    "explanation": "Cross-border AI data flows คือการไหลของข้อมูลที่ใช้ train และ run ระบบ AI ข้ามพรมแดนประเทศ ซึ่งเป็นประเด็นซับซ้อนเพราะแต่ละประเทศมีกฎหมายคุ้มครองข้อมูลส่วนบุคคลต่างกัน เช่น GDPR ของยุโรป"
+  },
+  {
+    "id": 14,
+    "question": "How might AI impact international diplomacy?",
+    "choices": {
+      "A": "AI will replace all human diplomats within 5 years",
+      "B": "AI can assist with translation, treaty analysis, and predicting geopolitical outcomes",
+      "C": "AI makes diplomacy unnecessary because conflicts are automatically resolved",
+      "D": "AI is prohibited in all diplomatic contexts by international law"
+    },
+    "answer": "B",
+    "explanation": "AI สามารถช่วยงานด้าน diplomacy ได้หลายอย่าง เช่น แปลภาษาแบบ real-time, วิเคราะห์สนธิสัญญาที่ซับซ้อน, และทำนายผลลัพธ์ทางภูมิรัฐศาสตร์ แต่ไม่ได้มาแทนที่นักการทูตทั้งหมด"
+  },
+  {
+    "id": 15,
+    "question": "What is the 'AI arms race' primarily about?",
+    "choices": {
+      "A": "Countries competing to build physical robot soldiers",
+      "B": "Nations competing to achieve AI superiority for economic and military advantage",
+      "C": "Companies racing to sell the cheapest AI products",
+      "D": "Universities competing for the most AI research papers"
+    },
+    "answer": "B",
+    "explanation": "AI arms race คือการแข่งขันระหว่างประเทศเพื่อให้ได้ความเหนือกว่าด้าน AI ทั้งในแง่เศรษฐกิจและการทหาร คล้ายกับ nuclear arms race ในอดีต แต่คราวนี้เป็นเรื่องของ computing power, data, และ talent"
+  },
+  {
+    "id": 16,
+    "question": "Why is AI talent migration a geopolitical concern?",
+    "choices": {
+      "A": "AI researchers prefer warmer climates",
+      "B": "Concentration of AI talent in a few countries creates strategic advantages and dependencies",
+      "C": "There are too many AI researchers worldwide",
+      "D": "AI talent only exists in government labs"
+    },
+    "answer": "B",
+    "explanation": "การที่ AI talent กระจุกตัวอยู่ในไม่กี่ประเทศ (โดยเฉพาะสหรัฐ) ทำให้ประเทศเหล่านั้นได้เปรียบด้าน strategic advantage มาก ขณะที่ประเทศอื่นๆ ต้องพึ่งพาเทคโนโลยีจากภายนอก"
+  },
+  {
+    "id": 17,
+    "question": "What is a major challenge in regulating AI in trade agreements?",
+    "choices": {
+      "A": "AI is too simple to need regulation in trade",
+      "B": "AI technologies evolve rapidly, making static trade rules quickly outdated",
+      "C": "Only one country produces AI technology",
+      "D": "Trade agreements already cover all AI-related issues comprehensively"
+    },
+    "answer": "B",
+    "explanation": "ปัญหาหลักคือ AI เปลี่ยนแปลงเร็วมาก ทำให้กฎระเบียบในข้อตกลงการค้าที่เขียนไว้ตายตัวล้าสมัยได้อย่างรวดเร็ว ต้องออกแบบ framework ที่ยืดหยุ่นพอที่จะรับมือกับเทคโนโลยีใหม่ๆ"
+  },
+  {
+    "id": 18,
+    "question": "What role does AI play in military decision-making according to the 'human-in-the-loop' principle?",
+    "choices": {
+      "A": "AI makes all combat decisions autonomously without human input",
+      "B": "A human must authorize critical decisions even when AI provides recommendations",
+      "C": "Humans are only consulted after AI has already executed an action",
+      "D": "The loop refers to AI training cycles, not human involvement"
+    },
+    "answer": "B",
+    "explanation": "หลัก human-in-the-loop กำหนดว่ามนุษย์ต้องเป็นคนอนุมัติ critical decisions เสมอ แม้ AI จะช่วยวิเคราะห์และแนะนำ โดยเฉพาะในสถานการณ์ที่เกี่ยวกับชีวิตมนุษย์ เช่น การตัดสินใจใช้อาวุธ"
+  },
+  {
+    "id": 19,
+    "question": "How do national AI strategies typically differ between the US and EU approaches?",
+    "choices": {
+      "A": "The US focuses more on regulation while the EU focuses on innovation",
+      "B": "The US emphasizes private-sector innovation while the EU prioritizes ethical regulation and human rights",
+      "C": "Both have identical AI strategies",
+      "D": "The EU has no AI strategy at all"
+    },
+    "answer": "B",
+    "explanation": "สหรัฐเน้นให้ภาคเอกชนนำนวัตกรรม AI โดยไม่ค่อยควบคุมมาก ส่วน EU เน้นเรื่อง regulation, ethics, และสิทธิมนุษยชนผ่านกฎหมายอย่าง EU AI Act ทำให้สอง approach แตกต่างกันมาก"
+  },
+  {
+    "id": 20,
+    "question": "What is 'AI for international development' primarily focused on?",
+    "choices": {
+      "A": "Selling expensive AI products to developing countries",
+      "B": "Using AI to address challenges like poverty, healthcare access, and food security in developing nations",
+      "C": "Training AI models exclusively on data from wealthy countries",
+      "D": "Replacing international aid organizations with AI systems"
+    },
+    "answer": "B",
+    "explanation": "AI for international development คือการใช้ AI เพื่อแก้ปัญหาในประเทศกำลังพัฒนา เช่น ปรับปรุงการเข้าถึง healthcare, เพิ่มผลผลิตเกษตร, และ predict ภัยพิบัติ ช่วยให้ SDGs บรรลุเป้าหมายได้เร็วขึ้น"
+  }
+]

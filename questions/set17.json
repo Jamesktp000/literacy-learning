@@ -1,0 +1,242 @@
+[
+  {
+    "id": 1,
+    "question": "What is an ensemble method in machine learning?",
+    "choices": {
+      "A": "A method that uses only one very large model",
+      "B": "A technique that combines multiple models to produce a better prediction than any single model alone",
+      "C": "A way to compress a model into a smaller size",
+      "D": "A method for visualizing neural network layers"
+    },
+    "answer": "B",
+    "explanation": "Ensemble method คือเทคนิคที่รวม predictions จาก multiple models เข้าด้วยกันเพื่อให้ผลลัพธ์ดีกว่า single model แนวคิดคือ 'wisdom of the crowd' โดยแต่ละ model อาจผิดพลาดต่างจุดกัน เมื่อรวมกันจะ cancel out errors ได้ ตัวอย่างเช่น bagging, boosting และ stacking"
+  },
+  {
+    "id": 2,
+    "question": "What is a Random Forest algorithm?",
+    "choices": {
+      "A": "A single decision tree with random node placement",
+      "B": "An ensemble of multiple decision trees trained on random subsets of data, with predictions aggregated by voting or averaging",
+      "C": "A clustering algorithm for environmental data",
+      "D": "A neural network inspired by tree structures in nature"
+    },
+    "answer": "B",
+    "explanation": "Random Forest เป็น ensemble method ที่สร้าง decision trees หลายต้น แต่ละต้น train จาก random subset ของ data (bagging) และใช้ random subset ของ features ตอน predict จะให้แต่ละ tree vote แล้วเอาผลส่วนใหญ่ ทำให้ลด overfitting ได้ดีกว่า single decision tree"
+  },
+  {
+    "id": 3,
+    "question": "What is the main advantage of a decision tree algorithm?",
+    "choices": {
+      "A": "It always achieves the highest accuracy among all algorithms",
+      "B": "It is highly interpretable and easy to visualize the decision-making process",
+      "C": "It requires no training data",
+      "D": "It cannot overfit to training data"
+    },
+    "answer": "B",
+    "explanation": "ข้อดีหลักของ decision tree คือ interpretability สูงมาก สามารถ visualize เป็นแผนภูมิต้นไม้ที่แสดง decision rules ได้ชัดเจน ทำให้อธิบายให้คนที่ไม่ใช่ technical เข้าใจได้ง่าย แต่ข้อเสียคือมักจะ overfit ถ้าไม่ทำ pruning"
+  },
+  {
+    "id": 4,
+    "question": "How does a Support Vector Machine (SVM) classify data?",
+    "choices": {
+      "A": "By counting the frequency of each data point",
+      "B": "By finding the optimal hyperplane that maximizes the margin between different classes",
+      "C": "By calculating the average of all data points",
+      "D": "By randomly assigning labels to data points"
+    },
+    "answer": "B",
+    "explanation": "SVM ทำงานโดยหา optimal hyperplane ที่แบ่งข้อมูลระหว่าง classes โดย maximize margin (ระยะห่าง) ระหว่าง hyperplane กับ data points ที่ใกล้ที่สุด (support vectors) ยิ่ง margin กว้าง model ยิ่ง generalize ได้ดี และใช้ kernel trick เพื่อจัดการ non-linear data"
+  },
+  {
+    "id": 5,
+    "question": "How does the K-Nearest Neighbors (KNN) algorithm make predictions?",
+    "choices": {
+      "A": "By building a complex mathematical model during training",
+      "B": "By classifying a new data point based on the majority class among its K closest neighbors in the feature space",
+      "C": "By creating clusters of exactly K groups",
+      "D": "By using K different neural networks simultaneously"
+    },
+    "answer": "B",
+    "explanation": "KNN เป็น lazy learning algorithm ที่ไม่ได้ build model ตอน training แต่จะดู K data points ที่อยู่ใกล้ที่สุดกับ new data point ใน feature space แล้ว vote ว่า class ไหนมีมากที่สุด ข้อดีคือง่ายมาก แต่ข้อเสียคือช้าเมื่อ dataset ใหญ่เพราะต้องคำนวณ distance ทุกครั้ง"
+  },
+  {
+    "id": 6,
+    "question": "What assumption does the Naive Bayes classifier make?",
+    "choices": {
+      "A": "All features are correlated with each other",
+      "B": "All features are conditionally independent given the class label",
+      "C": "The data must be normally distributed",
+      "D": "There must be exactly two classes"
+    },
+    "answer": "B",
+    "explanation": "Naive Bayes ถูกเรียก 'naive' เพราะ assume ว่า features ทุกตัว conditionally independent กัน given class label ซึ่งในความเป็นจริงแทบไม่เคยเป็นแบบนั้น แต่ surprisingly algorithm นี้ยังทำงานได้ดีในหลาย tasks เช่น spam filtering และ text classification"
+  },
+  {
+    "id": 7,
+    "question": "What is logistic regression primarily used for?",
+    "choices": {
+      "A": "Predicting continuous numerical values",
+      "B": "Classification tasks where the output is a probability of belonging to a class",
+      "C": "Clustering data into groups",
+      "D": "Reducing the dimensionality of data"
+    },
+    "answer": "B",
+    "explanation": "แม้จะมีคำว่า 'regression' ในชื่อ แต่ logistic regression ใช้สำหรับ classification โดยให้ output เป็น probability (0 ถึง 1) ว่า data point อยู่ใน class ไหน ใช้ sigmoid function แปลง linear output เป็น probability เหมาะกับ binary classification เช่น spam vs not spam"
+  },
+  {
+    "id": 8,
+    "question": "What does linear regression aim to find?",
+    "choices": {
+      "A": "The cluster centers in a dataset",
+      "B": "The best-fit straight line that minimizes the sum of squared differences between predicted and actual values",
+      "C": "The maximum margin hyperplane between classes",
+      "D": "The nearest neighbor for each data point"
+    },
+    "answer": "B",
+    "explanation": "Linear regression หา best-fit line (y = mx + b) ที่ minimize sum of squared residuals (ความต่างระหว่าง predicted กับ actual values) เป็น algorithm พื้นฐานที่สุดสำหรับ regression tasks ใช้ predict continuous values เช่น ราคาบ้านจาก features ต่างๆ"
+  },
+  {
+    "id": 9,
+    "question": "When would polynomial regression be preferred over linear regression?",
+    "choices": {
+      "A": "When the dataset is very small",
+      "B": "When the relationship between variables is non-linear and follows a curved pattern",
+      "C": "When there are more than 100 features",
+      "D": "When the target variable is categorical"
+    },
+    "answer": "B",
+    "explanation": "Polynomial regression เหมาะเมื่อ relationship ระหว่าง variables เป็น non-linear (เส้นโค้ง) เช่น quadratic หรือ cubic patterns ที่ linear regression จับไม่ได้ โดยเพิ่ม polynomial terms (x², x³) เข้าไป แต่ต้องระวัง degree สูงเกินจะ overfit ได้ง่าย"
+  },
+  {
+    "id": 10,
+    "question": "What is a key challenge in time series forecasting with AI?",
+    "choices": {
+      "A": "Time series data is always perfectly periodic",
+      "B": "Capturing temporal dependencies, seasonality, and handling non-stationarity in the data",
+      "C": "Time series data has no noise",
+      "D": "All time series can be predicted with 100% accuracy"
+    },
+    "answer": "B",
+    "explanation": "Time series forecasting มี challenges หลายอย่าง เช่น การจับ temporal dependencies (ค่าในอดีตส่งผลต่ออนาคตยังไง), seasonality (patterns ที่ซ้ำตามฤดูกาล) และ non-stationarity (statistical properties เปลี่ยนตามเวลา) ต้องใช้ techniques เฉพาะเช่น ARIMA, LSTM หรือ Prophet"
+  },
+  {
+    "id": 11,
+    "question": "What is Bayesian inference?",
+    "choices": {
+      "A": "A method that ignores prior knowledge when making predictions",
+      "B": "A statistical method that updates the probability of a hypothesis as new evidence is observed, using Bayes' theorem",
+      "C": "A technique for training neural networks faster",
+      "D": "A clustering algorithm based on distance metrics"
+    },
+    "answer": "B",
+    "explanation": "Bayesian inference ใช้ Bayes' theorem อัพเดท probability ของ hypothesis เมื่อมี evidence ใหม่เข้ามา โดย posterior = (likelihood × prior) / evidence หัวใจคือการรวม prior knowledge กับ observed data ทำให้ reasoning ดีขึ้นเรื่อยๆ เมื่อมีข้อมูลเพิ่ม"
+  },
+  {
+    "id": 12,
+    "question": "What is the Monte Carlo method used for in AI?",
+    "choices": {
+      "A": "It is a deterministic algorithm that always gives the exact same result",
+      "B": "It uses repeated random sampling to estimate numerical results for problems that are difficult to solve analytically",
+      "C": "It is a method for sorting data alphabetically",
+      "D": "It is exclusively used for playing card games"
+    },
+    "answer": "B",
+    "explanation": "Monte Carlo method ใช้ random sampling ซ้ำๆ เพื่อ estimate ผลลัพธ์ของปัญหาที่แก้ด้วย analytical methods ยาก ใช้ใน AI หลายด้าน เช่น Monte Carlo Tree Search (MCTS) ที่ AlphaGo ใช้, reinforcement learning และ probabilistic inference ยิ่ง sample มากยิ่งแม่นยำ"
+  },
+  {
+    "id": 13,
+    "question": "What are genetic algorithms inspired by?",
+    "choices": {
+      "A": "The structure of the human brain",
+      "B": "The process of natural selection and biological evolution",
+      "C": "The behavior of water flowing downhill",
+      "D": "The movement of planets in the solar system"
+    },
+    "answer": "B",
+    "explanation": "Genetic algorithms ได้แรงบันดาลใจจาก natural selection และ biological evolution ใช้ concepts เช่น selection (เลือกตัวที่ดีที่สุด), crossover (ผสมพันธุ์) และ mutation (กลายพันธุ์) เพื่อ evolve solutions ให้ดีขึ้นเรื่อยๆ ในแต่ละ generation เหมาะกับ optimization problems ที่ซับซ้อน"
+  },
+  {
+    "id": 14,
+    "question": "What is simulated annealing in optimization?",
+    "choices": {
+      "A": "A technique that only searches locally for the best solution",
+      "B": "An optimization algorithm inspired by the annealing process in metallurgy, which gradually reduces randomness to find a near-optimal solution",
+      "C": "A method for heating up computer processors to run faster",
+      "D": "A technique for freezing neural network weights"
+    },
+    "answer": "B",
+    "explanation": "Simulated annealing ได้แรงบันดาลใจจากการ annealing (อบอ่อน) โลหะ เริ่มต้นด้วย 'temperature' สูง ยอมรับ solutions ที่แย่ลงได้ (เพื่อหลุดจาก local optima) แล้วค่อยๆ ลด temperature ทำให้ค่อยๆ converge ไปหา near-optimal solution ช่วยหลีกเลี่ยง local minima ได้ดี"
+  },
+  {
+    "id": 15,
+    "question": "What is Particle Swarm Optimization (PSO) inspired by?",
+    "choices": {
+      "A": "The growth pattern of crystals",
+      "B": "The social behavior of bird flocking or fish schooling",
+      "C": "The structure of DNA",
+      "D": "The flow of electricity in circuits"
+    },
+    "answer": "B",
+    "explanation": "Particle Swarm Optimization ได้แรงบันดาลใจจาก social behavior ของฝูงนก (bird flocking) หรือฝูงปลา (fish schooling) แต่ละ particle (solution) จะ adjust ตำแหน่งตาม personal best experience และ best experience ของ swarm ทั้งหมด ทำให้กลุ่ม converge ไปหา optimal solution"
+  },
+  {
+    "id": 16,
+    "question": "What is Ant Colony Optimization (ACO) based on?",
+    "choices": {
+      "A": "The way ants build their underground tunnels",
+      "B": "The pheromone trail behavior of ants finding the shortest path to food sources",
+      "C": "The queen ant's decision-making process",
+      "D": "The way ants carry objects heavier than themselves"
+    },
+    "answer": "B",
+    "explanation": "Ant Colony Optimization อิง behavior ของมดที่ใช้ pheromone trails หาเส้นทางสั้นที่สุดไปแหล่งอาหาร มดที่เดินทางสั้นกว่าจะกลับมาวาง pheromone ได้เร็วกว่า ทำให้ pheromone บนเส้นทางสั้นเข้มข้นขึ้น มดตัวอื่นจะตามเส้นทางนี้ เหมาะกับ routing problems เช่น Traveling Salesman Problem"
+  },
+  {
+    "id": 17,
+    "question": "What is multi-objective optimization?",
+    "choices": {
+      "A": "Optimizing a single objective function multiple times",
+      "B": "Simultaneously optimizing two or more conflicting objectives to find a set of trade-off solutions (Pareto front)",
+      "C": "Using multiple computers to optimize one objective",
+      "D": "Running the same optimization algorithm in different programming languages"
+    },
+    "answer": "B",
+    "explanation": "Multi-objective optimization คือการ optimize objectives หลายตัวที่มักจะ conflict กัน เช่น ต้องการทั้ง accuracy สูงและ inference time ต่ำ ผลลัพธ์จะได้ set ของ Pareto optimal solutions ที่ไม่มี solution ไหนดีกว่าอีกตัวในทุก objectives พร้อมกัน ให้ decision maker เลือก trade-off ที่เหมาะสม"
+  },
+  {
+    "id": 18,
+    "question": "What is a Constraint Satisfaction Problem (CSP)?",
+    "choices": {
+      "A": "A problem where the goal is to maximize profit",
+      "B": "A problem where the goal is to find values for variables that satisfy all given constraints simultaneously",
+      "C": "A problem that has no solution by definition",
+      "D": "A problem solved exclusively by neural networks"
+    },
+    "answer": "B",
+    "explanation": "Constraint Satisfaction Problem (CSP) คือปัญหาที่ต้องหาค่า variables ที่ satisfy constraints ทุกตัวพร้อมกัน ตัวอย่างเช่น Sudoku (ตัวเลขห้ามซ้ำในแถว/คอลัมน์/กล่อง) หรือ scheduling (ห้ามจัด class ชนเวลา) ใช้ techniques เช่น backtracking และ constraint propagation"
+  },
+  {
+    "id": 19,
+    "question": "What are Graph Neural Networks (GNNs) designed to work with?",
+    "choices": {
+      "A": "Only image data arranged in a grid",
+      "B": "Data structured as graphs with nodes and edges, such as social networks or molecular structures",
+      "C": "Only sequential text data",
+      "D": "Only numerical tabular data"
+    },
+    "answer": "B",
+    "explanation": "Graph Neural Networks (GNNs) ออกแบบมาสำหรับ graph-structured data ที่มี nodes และ edges เช่น social networks, molecular structures หรือ knowledge graphs โดยใช้ message passing ระหว่าง nodes เพื่อเรียนรู้ representation ที่คำนึงถึง graph topology ทำสิ่งที่ CNN หรือ RNN ทำไม่ได้กับข้อมูลแบบนี้"
+  },
+  {
+    "id": 20,
+    "question": "What was the main motivation behind developing Capsule Networks?",
+    "choices": {
+      "A": "To make models run faster on mobile devices",
+      "B": "To better capture spatial hierarchies and part-whole relationships that traditional CNNs struggle with",
+      "C": "To replace all recurrent neural networks",
+      "D": "To reduce the need for labeled training data"
+    },
+    "answer": "B",
+    "explanation": "Capsule Networks ถูกพัฒนาโดย Geoffrey Hinton เพื่อแก้ปัญหาที่ CNNs มี คือ การจับ spatial hierarchies และ part-whole relationships เช่น CNN อาจจำได้ว่ามีตา จมูก ปาก แต่ไม่สนใจตำแหน่งสัมพัทธ์ Capsule Networks ใช้ capsules ที่ encode ทั้ง presence และ pose ของ features ทำให้เข้าใจ spatial relationships ดีกว่า"
+  }
+]

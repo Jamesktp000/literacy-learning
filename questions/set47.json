@@ -1,0 +1,242 @@
+[
+  {
+    "id": 1,
+    "question": "In a Transformer-based LLM, what is the role of the multi-head attention mechanism?",
+    "choices": {
+      "A": "It compresses the model into a single attention head for efficiency",
+      "B": "It allows the model to attend to different representation subspaces at different positions simultaneously",
+      "C": "It removes all attention from the model to speed up training",
+      "D": "It replaces the feedforward network entirely"
+    },
+    "answer": "B",
+    "explanation": "Multi-head attention แบ่ง attention ออกเป็นหลาย heads เพื่อให้แต่ละ head เรียนรู้ representation subspace ที่ต่างกัน ทำให้ model จับ pattern ได้หลากหลายมิติพร้อมกัน ไม่ได้ลดเหลือ head เดียวนะ"
+  },
+  {
+    "id": 2,
+    "question": "What is the purpose of the Feed-Forward Network (FFN) layers in a Transformer block?",
+    "choices": {
+      "A": "To compute attention scores between tokens",
+      "B": "To apply non-linear transformations to each position independently, adding representational capacity",
+      "C": "To reduce the number of parameters in the model",
+      "D": "To convert text tokens back into audio signals"
+    },
+    "answer": "B",
+    "explanation": "FFN layers ใน Transformer block ทำ non-linear transformation ให้แต่ละ position independently ซึ่งช่วยเพิ่ม representational capacity ของ model โดยปกติจะมี 2 linear layers คั่นด้วย activation function เช่น GELU"
+  },
+  {
+    "id": 3,
+    "question": "What is the KV cache in LLM inference?",
+    "choices": {
+      "A": "A database that stores all training data for the model",
+      "B": "A mechanism that stores previously computed key and value tensors to avoid redundant computation during autoregressive generation",
+      "C": "A file system cache for storing model weights on disk",
+      "D": "A type of CPU cache specifically designed for AI chips"
+    },
+    "answer": "B",
+    "explanation": "KV cache เก็บ key และ value tensors ที่คำนวณไปแล้วจาก previous tokens ทำให้ตอน generate token ใหม่ไม่ต้องคำนวณ K, V ของ token เก่าซ้ำ ช่วยเร่ง inference ได้มาก แต่ก็กิน memory เยอะเหมือนกัน"
+  },
+  {
+    "id": 4,
+    "question": "What problem does Flash Attention primarily solve?",
+    "choices": {
+      "A": "It increases the number of parameters in the model",
+      "B": "It reduces the memory bottleneck of standard attention by using tiling and recomputation to avoid materializing the full attention matrix in HBM",
+      "C": "It replaces attention with convolution operations",
+      "D": "It flashes a light signal to synchronize multiple GPUs"
+    },
+    "answer": "B",
+    "explanation": "Flash Attention แก้ปัญหา memory bottleneck ของ standard attention โดยใช้ tiling technique แบ่งงานเป็นชิ้นเล็กๆ ทำใน SRAM แทนที่จะ materialize attention matrix ทั้งก้อนใน HBM ทำให้เร็วขึ้นและใช้ memory น้อยลง"
+  },
+  {
+    "id": 5,
+    "question": "How does Grouped Query Attention (GQA) differ from standard Multi-Head Attention (MHA)?",
+    "choices": {
+      "A": "GQA uses more KV heads than query heads",
+      "B": "GQA groups multiple query heads to share a single set of key-value heads, reducing KV cache size",
+      "C": "GQA eliminates all query heads entirely",
+      "D": "GQA only works with single-head attention models"
+    },
+    "answer": "B",
+    "explanation": "GQA ให้หลาย query heads share KV heads ชุดเดียวกัน เช่น Llama 2 70B ใช้ 64 query heads แต่มีแค่ 8 KV heads ช่วยลดขนาด KV cache ได้มากโดยที่ quality ไม่ลดลงมากนัก เป็น middle ground ระหว่าง MHA กับ MQA"
+  },
+  {
+    "id": 6,
+    "question": "What is Rotary Position Embedding (RoPE)?",
+    "choices": {
+      "A": "A method that uses absolute position indices added to token embeddings",
+      "B": "A position encoding method that encodes relative position information by rotating query and key vectors based on their positions",
+      "C": "A technique that removes all positional information from the model",
+      "D": "A physical rotation of GPU chips to improve cooling"
+    },
+    "answer": "B",
+    "explanation": "RoPE encode ข้อมูลตำแหน่งโดยการหมุน (rotate) query และ key vectors ตามตำแหน่งของ token ทำให้ dot product ระหว่าง Q กับ K ขึ้นกับ relative position โดยอัตโนมัติ ใช้ใน Llama, Mistral และอีกหลาย model"
+  },
+  {
+    "id": 7,
+    "question": "What is the purpose of Sliding Window Attention?",
+    "choices": {
+      "A": "To make each token attend to all other tokens in the entire sequence",
+      "B": "To limit each token's attention to a fixed-size local window, reducing computational cost from quadratic to linear",
+      "C": "To slide the entire model across multiple servers",
+      "D": "To increase the attention span to infinity"
+    },
+    "answer": "B",
+    "explanation": "Sliding Window Attention จำกัดให้แต่ละ token attend แค่ token ใน window ขนาดคงที่รอบๆ มัน ทำให้ computational cost ลดจาก O(n²) เป็น O(n × w) โดย w คือขนาด window ใช้ใน Mistral เป็นต้น และ information ยังไหลผ่าน layers ได้"
+  },
+  {
+    "id": 8,
+    "question": "In a Mixture of Experts (MoE) model, what does the router (gating network) do?",
+    "choices": {
+      "A": "It trains all experts on every single input token",
+      "B": "It selects which subset of expert networks should process each token, enabling sparse activation",
+      "C": "It routes network traffic between servers",
+      "D": "It removes experts that perform poorly during inference"
+    },
+    "answer": "B",
+    "explanation": "Router ใน MoE model ทำหน้าที่เลือกว่า token แต่ละตัวจะถูกส่งไปให้ expert ตัวไหน (มักเลือกแค่ top-k เช่น 2 จาก 8 experts) ทำให้เกิด sparse activation คือใช้แค่บาง expert ต่อ token ช่วยให้ model ใหญ่ขึ้นได้โดย compute ไม่เพิ่มตาม"
+  },
+  {
+    "id": 9,
+    "question": "What is speculative decoding in LLM inference?",
+    "choices": {
+      "A": "Randomly guessing the next token without any model computation",
+      "B": "Using a smaller draft model to propose multiple tokens quickly, then verifying them in parallel with the larger target model",
+      "C": "Decoding the entire response at once in a single forward pass",
+      "D": "Speculating about user intent before they finish typing"
+    },
+    "answer": "B",
+    "explanation": "Speculative decoding ใช้ draft model ตัวเล็กเร็ว generate หลาย tokens ล่วงหน้า แล้วให้ target model ตัวใหญ่ verify ทีเดียวเป็น batch ถ้า token ไหนถูกก็ accept ถ้าผิดก็ reject แล้ว resample ช่วยเร่ง inference ได้โดยไม่เสีย quality"
+  },
+  {
+    "id": 10,
+    "question": "What is continuous batching (also called dynamic batching) in LLM serving?",
+    "choices": {
+      "A": "Batching all requests and waiting until the batch is full before processing",
+      "B": "Dynamically adding new requests to and removing completed requests from a running batch at each iteration",
+      "C": "Processing only one request at a time sequentially",
+      "D": "Batching model weights instead of input requests"
+    },
+    "answer": "B",
+    "explanation": "Continuous batching ต่างจาก static batching ตรงที่สามารถเพิ่ม request ใหม่เข้า batch และเอา request ที่เสร็จแล้วออกได้ทุก iteration ไม่ต้องรอให้ทุก request ใน batch generate เสร็จก่อน ช่วยเพิ่ม throughput และลด latency ได้มาก"
+  },
+  {
+    "id": 11,
+    "question": "What is PagedAttention, the core innovation behind vLLM?",
+    "choices": {
+      "A": "A technique that stores attention weights in book pages for documentation",
+      "B": "A memory management technique inspired by OS virtual memory that stores KV cache in non-contiguous physical blocks (pages)",
+      "C": "A method to display attention maps on web pages",
+      "D": "A pagination system for splitting long documents into pages"
+    },
+    "answer": "B",
+    "explanation": "PagedAttention จาก vLLM ได้แรงบันดาลใจจาก virtual memory ของ OS โดยเก็บ KV cache เป็น blocks (pages) ที่ไม่จำเป็นต้องอยู่ติดกันใน memory ช่วยลด memory waste จาก fragmentation ได้มาก ทำให้ serve ได้มากกว่า requests พร้อมกัน"
+  },
+  {
+    "id": 12,
+    "question": "What does tensor parallelism do in distributed LLM training or inference?",
+    "choices": {
+      "A": "It trains the model on a single GPU to avoid communication overhead",
+      "B": "It splits individual tensors (weight matrices) across multiple GPUs so each GPU computes a portion of each layer",
+      "C": "It duplicates the entire model on every GPU without splitting",
+      "D": "It parallelizes data loading but not model computation"
+    },
+    "answer": "B",
+    "explanation": "Tensor parallelism แบ่ง weight matrix ของแต่ละ layer ออกเป็นส่วนๆ กระจายไปหลาย GPUs ให้แต่ละ GPU คำนวณส่วนของตัวเอง เหมาะกับ model ที่ใหญ่เกินจะใส่ GPU ตัวเดียว แต่ต้อง communicate ระหว่าง GPUs ทุก layer"
+  },
+  {
+    "id": 13,
+    "question": "How does pipeline parallelism distribute an LLM across multiple GPUs?",
+    "choices": {
+      "A": "By splitting each individual matrix multiplication across GPUs",
+      "B": "By assigning different consecutive layers of the model to different GPUs, forming a pipeline",
+      "C": "By running the same layers on all GPUs simultaneously with the same data",
+      "D": "By using only one GPU and queuing the rest"
+    },
+    "answer": "B",
+    "explanation": "Pipeline parallelism แบ่ง layers ของ model ไปอยู่คนละ GPU เช่น GPU 1 ได้ layers 1-10, GPU 2 ได้ layers 11-20 แล้ว data ก็ไหลผ่านเป็น pipeline จาก GPU หนึ่งไปอีก GPU ข้อเสียคือมี bubble overhead ที่ GPU บางตัวต้องรอ"
+  },
+  {
+    "id": 14,
+    "question": "In distributed training, what is data parallelism?",
+    "choices": {
+      "A": "Splitting the model's layers across different GPUs",
+      "B": "Replicating the full model on each GPU and splitting the training data across them, then synchronizing gradients",
+      "C": "Using a single GPU to process all data sequentially",
+      "D": "Parallelizing only the data preprocessing, not the training"
+    },
+    "answer": "B",
+    "explanation": "Data parallelism copy model ทั้งก้อนไปทุก GPU แต่แบ่ง training data กัน แต่ละ GPU คำนวณ gradient จาก data ส่วนของตัวเอง แล้ว synchronize gradients กัน (เช่น all-reduce) เป็นวิธี distributed training ที่ง่ายที่สุด"
+  },
+  {
+    "id": 15,
+    "question": "What does ZeRO (Zero Redundancy Optimizer) optimization achieve?",
+    "choices": {
+      "A": "It sets all model parameters to zero for faster initialization",
+      "B": "It partitions optimizer states, gradients, and parameters across GPUs to eliminate memory redundancy in data parallelism",
+      "C": "It optimizes the model to have zero training loss",
+      "D": "It reduces the number of GPUs needed to exactly zero"
+    },
+    "answer": "B",
+    "explanation": "ZeRO จาก DeepSpeed แก้ปัญหา memory redundancy ใน data parallelism โดยแบ่ง optimizer states (Stage 1), gradients (Stage 2), และ parameters (Stage 3) ออกไปเก็บคนละ GPU ไม่ต้อง duplicate ทุก GPU ประหยัด memory ได้มหาศาล"
+  },
+  {
+    "id": 16,
+    "question": "Why is gradient accumulation used in LLM training?",
+    "choices": {
+      "A": "To skip gradient computation entirely and save time",
+      "B": "To simulate a larger effective batch size by accumulating gradients over multiple mini-batches before updating weights",
+      "C": "To accumulate model weights over time without training",
+      "D": "To prevent the model from learning any new patterns"
+    },
+    "answer": "B",
+    "explanation": "Gradient accumulation ช่วยจำลอง batch size ใหญ่ๆ ที่ไม่พอ memory ทำจริง โดยสะสม gradients จากหลาย mini-batches ก่อน แล้วค่อย update weights ทีเดียว เช่น accumulate 4 steps ของ batch size 8 ก็เหมือนใช้ batch size 32"
+  },
+  {
+    "id": 17,
+    "question": "What is the typical purpose of a learning rate warmup strategy in LLM training?",
+    "choices": {
+      "A": "To use the maximum learning rate from the very first step",
+      "B": "To gradually increase the learning rate from near-zero at the start of training to prevent unstable early optimization",
+      "C": "To warm up the GPU hardware before training begins",
+      "D": "To decrease the learning rate to zero immediately after the first epoch"
+    },
+    "answer": "B",
+    "explanation": "Learning rate warmup ค่อยๆ เพิ่ม learning rate จากเกือบ 0 ในช่วงแรกของ training เพราะตอน initial steps model weights ยังสุ่มอยู่ ถ้าใช้ lr สูงเลยอาจทำให้ optimization ไม่เสถียร พอ warmup เสร็จก็ค่อย decay ลง"
+  },
+  {
+    "id": 18,
+    "question": "What is the purpose of weight decay in training neural networks?",
+    "choices": {
+      "A": "To make all weights exactly zero so the model is smaller",
+      "B": "To add a penalty proportional to weight magnitude to the loss function, acting as regularization to prevent overfitting",
+      "C": "To gradually decay the model's accuracy over time",
+      "D": "To physically degrade the GPU weights over training cycles"
+    },
+    "answer": "B",
+    "explanation": "Weight decay เพิ่ม penalty ตามขนาดของ weights เข้าไปใน loss function ทำให้ model ไม่อยากมี weights ที่ใหญ่เกินไป ช่วย regularize model ป้องกัน overfitting ใน AdamW จะ decouple weight decay ออกจาก gradient update"
+  },
+  {
+    "id": 19,
+    "question": "How does dropout function as a regularization strategy in neural networks?",
+    "choices": {
+      "A": "It permanently removes neurons from the network architecture",
+      "B": "It randomly sets a fraction of neuron activations to zero during training, preventing co-adaptation",
+      "C": "It drops out entire layers from the model permanently",
+      "D": "It increases all neuron activations by a dropout factor"
+    },
+    "answer": "B",
+    "explanation": "Dropout สุ่มปิด neurons บางตัว (set เป็น 0) ระหว่าง training ในแต่ละ forward pass ทำให้ neurons ไม่ co-adapt กัน (ไม่พึ่งพา neuron ตัวใดตัวหนึ่งมากเกินไป) ช่วย regularize model ตอน inference จะเปิดหมดแต่ scale ลง"
+  },
+  {
+    "id": 20,
+    "question": "What is a key difference between Batch Normalization and Layer Normalization?",
+    "choices": {
+      "A": "Batch Normalization normalizes across the batch dimension, while Layer Normalization normalizes across the feature dimension within each sample",
+      "B": "They are exactly the same technique with different names",
+      "C": "Batch Normalization only works with images, and Layer Normalization only works with audio",
+      "D": "Layer Normalization requires a minimum batch size of 1024"
+    },
+    "answer": "A",
+    "explanation": "Batch Normalization normalize ข้าม batch dimension (คำนวณ mean/var จากทุก samples ใน batch) ส่วน Layer Normalization normalize ข้าม feature dimension ภายใน sample เดียว LayerNorm เหมาะกับ Transformer มากกว่าเพราะไม่ขึ้นกับ batch size และใช้กับ sequence data ได้ดี"
+  }
+]

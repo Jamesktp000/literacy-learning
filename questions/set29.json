@@ -1,0 +1,242 @@
+[
+  {
+    "id": 1,
+    "question": "Which prompt pattern involves giving the AI a specific role or persona to improve response quality?",
+    "choices": {
+      "A": "Flipped interaction pattern",
+      "B": "Persona pattern",
+      "C": "Template pattern",
+      "D": "Fact check pattern"
+    },
+    "answer": "B",
+    "explanation": "Persona pattern คือการกำหนด role หรือ persona ให้ AI เช่น 'You are an expert data scientist' เพื่อให้ response มีคุณภาพและ focus ในแบบที่ต้องการ เป็น pattern พื้นฐานที่ใช้บ่อยมากใน prompt engineering"
+  },
+  {
+    "id": 2,
+    "question": "What is a 'mega-prompt'?",
+    "choices": {
+      "A": "A prompt that uses only one word",
+      "B": "A long, detailed prompt that combines multiple instructions, context, constraints, and examples in a single input",
+      "C": "A prompt that is sent to multiple AI models simultaneously",
+      "D": "A prompt that generates images larger than 4K resolution"
+    },
+    "answer": "B",
+    "explanation": "Mega-prompt คือ prompt ยาวๆ ที่รวม instructions, context, constraints, examples, และ formatting requirements ไว้ใน input เดียว เพื่อให้ AI เข้าใจ task ที่ซับซ้อนได้ครบถ้วนในครั้งเดียว ไม่ต้อง iterate หลายรอบ"
+  },
+  {
+    "id": 3,
+    "question": "What is the primary purpose of a system prompt in LLM applications?",
+    "choices": {
+      "A": "To display error messages to the user",
+      "B": "To set the AI's behavior, personality, constraints, and foundational instructions before user interaction begins",
+      "C": "To store the user's personal information permanently",
+      "D": "To increase the model's training data in real time"
+    },
+    "answer": "B",
+    "explanation": "System prompt ใช้ตั้งค่า behavior, personality, constraints, และ instructions พื้นฐานให้ AI ก่อนที่ user จะเริ่มคุย เป็นเหมือน 'ground rules' ที่กำหนดว่า AI ควรทำตัวยังไง ไม่ได้เพิ่ม training data ให้ model"
+  },
+  {
+    "id": 4,
+    "question": "In few-shot prompt design, what does 'few-shot' refer to?",
+    "choices": {
+      "A": "Using only a few words in the prompt",
+      "B": "Providing a small number of input-output examples to guide the model's behavior",
+      "C": "Running the model for only a few seconds",
+      "D": "Limiting the model's output to a few sentences"
+    },
+    "answer": "B",
+    "explanation": "Few-shot หมายถึงการให้ตัวอย่าง input-output จำนวนน้อยๆ (เช่น 2-5 examples) ใน prompt เพื่อให้ model เข้าใจ pattern ที่เราต้องการ โดยไม่ต้อง fine-tune model ใหม่ เป็น in-context learning"
+  },
+  {
+    "id": 5,
+    "question": "How does 'Tree of Thought' (ToT) differ from standard Chain of Thought (CoT) prompting?",
+    "choices": {
+      "A": "ToT only works with image inputs, while CoT works with text",
+      "B": "ToT explores multiple reasoning branches simultaneously and evaluates them, while CoT follows a single linear reasoning path",
+      "C": "ToT uses fewer tokens than CoT",
+      "D": "ToT requires a specialized model, while CoT works on any model"
+    },
+    "answer": "B",
+    "explanation": "Tree of Thought ต่างจาก Chain of Thought ตรงที่ ToT explore หลาย reasoning branches พร้อมกันแล้ว evaluate แต่ละ branch ว่าดีแค่ไหน ส่วน CoT เป็นแค่ linear step-by-step reasoning ทาง ToT จึง handle complex problems ได้ดีกว่า"
+  },
+  {
+    "id": 6,
+    "question": "What is 'Graph of Thought' prompting?",
+    "choices": {
+      "A": "A technique for generating graph visualizations using AI",
+      "B": "An extension of Tree of Thought where reasoning steps can merge, loop, and form non-linear graph structures",
+      "C": "A method for training graph neural networks",
+      "D": "A way to plot the performance of different prompts on a graph"
+    },
+    "answer": "B",
+    "explanation": "Graph of Thought เป็นการต่อยอดจาก Tree of Thought โดย reasoning steps สามารถ merge, loop, และสร้าง non-linear graph structures ได้ ทำให้ handle ปัญหาที่ซับซ้อนกว่า tree structure ได้ เช่น ปัญหาที่ต้อง combine insights จากหลาย branches"
+  },
+  {
+    "id": 7,
+    "question": "What is self-consistency prompting?",
+    "choices": {
+      "A": "Asking the AI to always agree with the user",
+      "B": "Generating multiple reasoning paths for the same problem and selecting the most common answer through majority voting",
+      "C": "Ensuring the AI gives the same answer every time regardless of the question",
+      "D": "Making the AI repeat its answer three times for confirmation"
+    },
+    "answer": "B",
+    "explanation": "Self-consistency prompting คือการให้ model สร้างหลาย reasoning paths สำหรับปัญหาเดียวกัน แล้วเลือกคำตอบที่ออกมาบ่อยที่สุดผ่าน majority voting เป็นการเพิ่มความน่าเชื่อถือของคำตอบ โดยเฉพาะ math และ logic problems"
+  },
+  {
+    "id": 8,
+    "question": "What is the approach used in 'least-to-most' prompting?",
+    "choices": {
+      "A": "Starting with the most complex question and working backward",
+      "B": "Breaking a complex problem into simpler sub-problems and solving them sequentially from easiest to hardest",
+      "C": "Using the least amount of tokens possible in each prompt",
+      "D": "Reducing the model's temperature to its lowest setting"
+    },
+    "answer": "B",
+    "explanation": "Least-to-most prompting ทำงานโดยแตก complex problem ออกเป็น sub-problems ง่ายๆ แล้วค่อยๆ solve จากง่ายไปยาก โดย solution ของ sub-problem ก่อนหน้าจะถูกใช้เป็น context สำหรับ sub-problem ถัดไป"
+  },
+  {
+    "id": 9,
+    "question": "What does 'generated knowledge prompting' involve?",
+    "choices": {
+      "A": "Downloading a knowledge base before prompting",
+      "B": "First asking the model to generate relevant facts or knowledge, then using that generated knowledge to answer the main question",
+      "C": "Using Wikipedia as the sole source of truth",
+      "D": "Training the model on new data within the prompt"
+    },
+    "answer": "B",
+    "explanation": "Generated knowledge prompting คือการให้ model generate relevant facts หรือ knowledge ที่เกี่ยวข้องก่อน แล้วค่อยใช้ knowledge ที่ generate มานั้นเป็น context ในการตอบคำถามหลัก ช่วยให้ model recall information ได้ดีขึ้น"
+  },
+  {
+    "id": 10,
+    "question": "What does the ReAct prompting framework combine?",
+    "choices": {
+      "A": "Reading and acting in a video game environment",
+      "B": "Reasoning and acting, allowing the model to think step-by-step and take actions like searching for information",
+      "C": "Reactive and active learning paradigms",
+      "D": "Real-time and cached responses for faster output"
+    },
+    "answer": "B",
+    "explanation": "ReAct ย่อมาจาก Reasoning + Acting เป็น framework ที่ให้ model สลับระหว่าง reasoning (คิด) และ acting (ทำ เช่น search, lookup) ทำให้ model แก้ปัญหาที่ต้องการ external information ได้ดีขึ้นมาก"
+  },
+  {
+    "id": 11,
+    "question": "What is the key mechanism in the 'Reflexion' prompting technique?",
+    "choices": {
+      "A": "Reflecting light patterns to optimize model weights",
+      "B": "The model evaluates its own previous outputs, identifies mistakes, and uses that self-reflection to improve subsequent attempts",
+      "C": "Using mirrors in neural network architecture",
+      "D": "Copying the output of one model as input to another model"
+    },
+    "answer": "B",
+    "explanation": "Reflexion คือ technique ที่ให้ model evaluate output ของตัวเอง หา mistakes แล้วใช้ self-reflection นั้นปรับปรุง attempts ต่อไป เป็นเหมือนการให้ AI 'ทบทวนตัวเอง' เพื่อให้ได้ผลลัพธ์ที่ดีขึ้นในรอบถัดไป"
+  },
+  {
+    "id": 12,
+    "question": "How does 'self-refine' prompting work?",
+    "choices": {
+      "A": "The model automatically retrains itself after each prompt",
+      "B": "The model generates an initial output, then iteratively critiques and refines its own output without external feedback",
+      "C": "Multiple users vote on the best model output",
+      "D": "The model selects the simplest possible answer"
+    },
+    "answer": "B",
+    "explanation": "Self-refine ให้ model generate output ก่อน แล้ว critique output ตัวเอง จากนั้น refine ให้ดีขึ้น โดยทำ iteratively โดยไม่ต้องมี external feedback เป็นการ self-improve ภายใน loop ของ model เอง"
+  },
+  {
+    "id": 13,
+    "question": "What is multimodal prompting?",
+    "choices": {
+      "A": "Using prompts in multiple languages simultaneously",
+      "B": "Providing inputs in multiple formats such as text, images, audio, or video within a single prompt",
+      "C": "Sending the same prompt to multiple different AI models",
+      "D": "Creating prompts that work across multiple operating systems"
+    },
+    "answer": "B",
+    "explanation": "Multimodal prompting คือการใช้ input หลาย format เช่น text, images, audio, video ร่วมกันใน prompt เดียว เช่น ส่งรูปพร้อม text ถาม AI ว่าเห็นอะไรในรูป ไม่ใช่แค่ใช้หลายภาษาหรือหลาย model"
+  },
+  {
+    "id": 14,
+    "question": "What is the purpose of prompt compression?",
+    "choices": {
+      "A": "To physically compress the file size of prompt documents",
+      "B": "To reduce the token count of a prompt while preserving its essential meaning and effectiveness",
+      "C": "To encrypt prompts for security purposes",
+      "D": "To translate prompts into shorter languages"
+    },
+    "answer": "B",
+    "explanation": "Prompt compression คือการลด token count ของ prompt โดยยังคง meaning และ effectiveness ไว้ ช่วยลด cost (เพราะ API คิดเงินตาม token) และ latency รวมถึงทำให้ใช้ context window ได้อย่างมีประสิทธิภาพมากขึ้น"
+  },
+  {
+    "id": 15,
+    "question": "What is the benefit of prompt caching in LLM API services?",
+    "choices": {
+      "A": "It permanently stores all user conversations on disk",
+      "B": "It saves computation by reusing previously processed prompt prefixes, reducing latency and cost for repeated or similar prompts",
+      "C": "It caches the model weights so they load faster",
+      "D": "It automatically translates cached prompts into other languages"
+    },
+    "answer": "B",
+    "explanation": "Prompt caching ช่วยประหยัด computation โดย reuse prompt prefixes ที่เคย process ไปแล้ว ทำให้ลดทั้ง latency และ cost สำหรับ prompts ที่มี prefix ซ้ำๆ เช่น system prompt ที่เหมือนกันทุก request"
+  },
+  {
+    "id": 16,
+    "question": "Why is prompt versioning important in production AI systems?",
+    "choices": {
+      "A": "It allows you to use older versions of the AI model",
+      "B": "It enables tracking changes to prompts over time, facilitating rollback, A/B testing, and reproducibility",
+      "C": "It automatically improves prompt quality over time",
+      "D": "It is required by law in most countries"
+    },
+    "answer": "B",
+    "explanation": "Prompt versioning สำคัญเพราะช่วยให้ track การเปลี่ยนแปลงของ prompt ได้ สามารถ rollback ไป version เก่า, ทำ A/B testing ระหว่าง versions, และ reproduce ผลลัพธ์ได้ เหมือนกับ version control สำหรับ code"
+  },
+  {
+    "id": 17,
+    "question": "What do prompt testing frameworks typically evaluate?",
+    "choices": {
+      "A": "The typing speed of the person writing the prompt",
+      "B": "Output quality, consistency, safety, and adherence to expected formats across various test cases",
+      "C": "The aesthetic appearance of the prompt text",
+      "D": "How quickly the user can memorize the prompt"
+    },
+    "answer": "B",
+    "explanation": "Prompt testing frameworks ใช้ evaluate output quality, consistency, safety, และว่า output ตรงตาม expected format ไหม โดย run test cases หลายๆ ตัว เหมือน unit testing สำหรับ code แต่เป็นสำหรับ prompts"
+  },
+  {
+    "id": 18,
+    "question": "What is 'prompt injection' in the context of prompt security?",
+    "choices": {
+      "A": "Adding more examples to a few-shot prompt",
+      "B": "A technique where malicious user input overrides the system prompt instructions, causing unintended AI behavior",
+      "C": "Injecting new training data into the model",
+      "D": "A method to speed up prompt processing"
+    },
+    "answer": "B",
+    "explanation": "Prompt injection คือเทคนิคที่ malicious user input แทรกคำสั่งเข้าไปเพื่อ override system prompt instructions ทำให้ AI ทำในสิ่งที่ไม่ควรทำ เช่น เปิดเผยข้อมูลลับ เป็นภัยคุกคามสำคัญของ AI applications"
+  },
+  {
+    "id": 19,
+    "question": "Which technique helps prevent prompt leaking in deployed AI applications?",
+    "choices": {
+      "A": "Making the system prompt as long as possible",
+      "B": "Using input/output filtering, instruction hierarchy enforcement, and avoiding putting secrets directly in prompts",
+      "C": "Publishing the system prompt publicly so there is nothing to leak",
+      "D": "Using only free-tier AI models"
+    },
+    "answer": "B",
+    "explanation": "การป้องกัน prompt leaking ควรใช้ input/output filtering, enforce instruction hierarchy (system prompt มี priority สูงกว่า user input), และไม่ใส่ secrets ใน prompt โดยตรง การ publish prompt เปิดเผยไม่ใช่วิธีป้องกัน"
+  },
+  {
+    "id": 20,
+    "question": "What is a recommended approach for AI output validation in production systems?",
+    "choices": {
+      "A": "Trusting the AI output completely without any checks",
+      "B": "Implementing multi-layer validation including format checks, content safety filters, factual grounding verification, and human review for high-stakes decisions",
+      "C": "Only checking if the output is in the correct language",
+      "D": "Validating outputs only once a year during annual audits"
+    },
+    "answer": "B",
+    "explanation": "AI output validation ใน production ควรใช้ multi-layer approach รวม format checks, content safety filters, factual grounding verification, และ human review สำหรับ high-stakes decisions ไม่ควร trust AI output 100% โดยไม่ validate"
+  }
+]

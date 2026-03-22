@@ -1,0 +1,242 @@
+[
+  {
+    "id": 1,
+    "question": "What was the key issue with Amazon's AI hiring tool that was scrapped in 2018?",
+    "choices": {
+      "A": "It was too slow to process applications",
+      "B": "It systematically downgraded resumes containing words associated with women, reflecting bias in historical hiring data",
+      "C": "It hired too many candidates simultaneously",
+      "D": "It could not read PDF resume files"
+    },
+    "answer": "B",
+    "explanation": "Amazon AI hiring tool เรียนรู้จาก historical hiring data ที่ส่วนใหญ่เป็นผู้ชาย ทำให้ model เกิด bias ลด score ของ resume ที่มีคำเกี่ยวกับผู้หญิง เช่น 'women's chess club' เป็นตัวอย่างคลาสสิกของ garbage in, garbage out"
+  },
+  {
+    "id": 2,
+    "question": "What was the COMPAS (Correctional Offender Management Profiling for Alternative Sanctions) controversy about?",
+    "choices": {
+      "A": "The system was too expensive for courts to afford",
+      "B": "A ProPublica investigation found the system had significantly higher false positive rates for Black defendants in predicting recidivism",
+      "C": "The system only worked in one US state",
+      "D": "The system was open-source and anyone could modify it"
+    },
+    "answer": "B",
+    "explanation": "COMPAS เป็น algorithm ที่ศาลอเมริกาใช้ predict recidivism (การกระทำผิดซ้ำ) แต่ ProPublica พบว่ามี false positive rate สูงกว่ามากสำหรับ Black defendants คือพยากรณ์ผิดว่าจะทำผิดซ้ำทั้งที่ไม่ได้ทำ เป็น case study สำคัญเรื่อง algorithmic bias"
+  },
+  {
+    "id": 3,
+    "question": "What happened in the Google Photos 'gorilla incident' of 2015?",
+    "choices": {
+      "A": "Google Photos failed to recognize any animal species",
+      "B": "Google Photos' image recognition system misclassified photos of Black people as gorillas",
+      "C": "Google Photos accidentally deleted all gorilla images from its database",
+      "D": "Google Photos added gorilla filters without user consent"
+    },
+    "answer": "B",
+    "explanation": "Google Photos AI จำแนกรูปภาพของคน Black ผิดเป็น gorillas ซึ่งสะท้อนปัญหา bias ใน training data และ testing ที่ไม่ diverse พอ Google แก้โดยบล็อคไม่ให้ tag คำว่า gorilla ไปเลย ซึ่งเป็นแค่ workaround ไม่ได้แก้ root cause จริงๆ"
+  },
+  {
+    "id": 4,
+    "question": "What lesson did Microsoft learn from the Tay chatbot incident in 2016?",
+    "choices": {
+      "A": "That chatbots should only speak in formal English",
+      "B": "That AI systems learning from unfiltered public interaction can be manipulated to produce offensive and harmful content",
+      "C": "That chatbots should never be connected to the internet",
+      "D": "That AI should only be trained on data from a single country"
+    },
+    "answer": "B",
+    "explanation": "Microsoft Tay เป็น Twitter chatbot ที่เรียนรู้จากการคุยกับ users แต่ถูก troll จน tweet ข้อความ racist, sexist ภายในไม่กี่ชั่วโมง บทเรียนคือ AI ที่เรียนจาก unfiltered user interaction ถูก manipulate ได้ง่าย ต้องมี safety guardrails"
+  },
+  {
+    "id": 5,
+    "question": "What was the significance of the Uber self-driving car fatal crash in Tempe, Arizona (2018)?",
+    "choices": {
+      "A": "It was the first recorded car accident in Arizona history",
+      "B": "It was the first known fatality involving an autonomous vehicle striking a pedestrian, raising questions about AI safety testing and human oversight",
+      "C": "The car's AI performed perfectly but the road was too damaged",
+      "D": "It proved that self-driving cars are completely safe"
+    },
+    "answer": "B",
+    "explanation": "Uber self-driving car ชน pedestrian เสียชีวิตเป็นรายแรกของโลก investigation พบว่าระบบ detect คนข้ามถนนได้แต่ emergency braking ถูกปิด และ safety driver ไม่ได้ดูถนน เป็น case study สำคัญเรื่อง AI safety testing และ human oversight"
+  },
+  {
+    "id": 6,
+    "question": "Why was Clearview AI controversial?",
+    "choices": {
+      "A": "Its AI produced low-quality images",
+      "B": "It scraped billions of facial images from social media without consent to build a facial recognition database sold to law enforcement",
+      "C": "It was the first company to create an AI camera",
+      "D": "It only operated in countries where facial recognition is legal"
+    },
+    "answer": "B",
+    "explanation": "Clearview AI scrape รูปใบหน้าหลายพันล้านรูปจาก social media โดยไม่ได้ขอ consent แล้วสร้างเป็น facial recognition database ขายให้ตำรวจและหน่วยงานรัฐ ถูกฟ้องหลายคดีเรื่อง privacy violation เป็น case study สำคัญเรื่อง AI surveillance"
+  },
+  {
+    "id": 7,
+    "question": "What type of concerns were raised about GPT-4's capabilities upon its release?",
+    "choices": {
+      "A": "That it was too slow to be useful for any practical application",
+      "B": "That its advanced reasoning and persuasion capabilities could be misused for disinformation, cyberattacks, and manipulation at scale",
+      "C": "That it could only generate text in one language",
+      "D": "That it consumed too much paper when printing responses"
+    },
+    "answer": "B",
+    "explanation": "GPT-4 ถูกกังวลเรื่อง advanced capabilities ที่อาจถูกใช้ผิด เช่น สร้าง disinformation ที่น่าเชื่อ, ช่วยทำ cyberattacks, หรือ manipulate คนได้ในวงกว้าง OpenAI เองก็ทำ red teaming และออก system card เพื่อ address ความกังวลเหล่านี้"
+  },
+  {
+    "id": 8,
+    "question": "How have deepfakes posed a threat to elections, as seen in incidents during 2024?",
+    "choices": {
+      "A": "Deepfakes only affected local school board elections",
+      "B": "AI-generated audio and video of candidates were used to spread disinformation, including fake robocalls impersonating political figures",
+      "C": "Deepfakes improved voter turnout by making campaigns more entertaining",
+      "D": "Deepfakes were easily detected by all voters without any technology"
+    },
+    "answer": "B",
+    "explanation": "ในปี 2024 มี deepfake audio ปลอมเสียง Biden โทร robocall บอกคนไม่ต้องไปเลือกตั้ง และมี deepfake video ของผู้สมัครหลายประเทศ ถูกใช้ spread disinformation สร้างความสับสนให้ผู้มีสิทธิ์เลือกตั้ง เป็นภัยคุกคามต่อ democracy"
+  },
+  {
+    "id": 9,
+    "question": "What is a central issue in AI art copyright lawsuits (e.g., against Stability AI, Midjourney)?",
+    "choices": {
+      "A": "AI art tools are accused of destroying physical artwork in museums",
+      "B": "Artists allege that AI models were trained on their copyrighted works without permission or compensation",
+      "C": "AI-generated art is always considered public domain by default",
+      "D": "Copyright law explicitly permits all AI training on any data"
+    },
+    "answer": "B",
+    "explanation": "ศิลปินฟ้องว่า AI art models ถูก train บนผลงาน copyrighted ของพวกเขาโดยไม่ขออนุญาตและไม่จ่ายค่าตอบแทน คำถามสำคัญคือ training on copyrighted data เป็น fair use หรือเปล่า ซึ่งศาลยังพิจารณาอยู่"
+  },
+  {
+    "id": 10,
+    "question": "What incident highlighted the risks of AI chatbots providing mental health advice?",
+    "choices": {
+      "A": "A chatbot successfully replaced all therapists in a country",
+      "B": "Cases where AI chatbots provided inappropriate responses to users expressing suicidal ideation or emotional distress",
+      "C": "A chatbot refused to discuss any health-related topics",
+      "D": "Mental health chatbots were found to be too expensive for users"
+    },
+    "answer": "B",
+    "explanation": "มีหลาย incidents ที่ AI chatbot ตอบ users ที่กำลังมีปัญหาสุขภาพจิตอย่างไม่เหมาะสม บางกรณี chatbot ไม่ redirect ไป crisis hotline หรือแม้กระทั่งตอบในลักษณะที่อาจทำให้สถานการณ์แย่ลง เป็น case study สำคัญเรื่อง AI safety ในบริบท sensitive"
+  },
+  {
+    "id": 11,
+    "question": "What is a common lesson learned across major AI failure case studies?",
+    "choices": {
+      "A": "AI systems should be deployed without any testing to move fast",
+      "B": "Diverse and representative training data, thorough testing, and human oversight are essential to prevent harmful outcomes",
+      "C": "AI failures only happen in small companies with limited budgets",
+      "D": "Once an AI system is deployed, it never needs to be updated"
+    },
+    "answer": "B",
+    "explanation": "บทเรียนจาก AI failures ทั้งหลายคือต้องมี diverse training data, thorough testing (รวม bias testing), และ human oversight ไม่ว่าจะเป็น Amazon hiring, COMPAS, หรือ Tay ล้วนเกิดจากขาดสิ่งเหล่านี้ทั้งนั้น"
+  },
+  {
+    "id": 12,
+    "question": "What is the AI Incident Database (AIID)?",
+    "choices": {
+      "A": "A secret government database tracking AI developers",
+      "B": "A public repository that catalogues real-world AI harms and failures to help the community learn from past incidents",
+      "C": "A database of all AI models ever created",
+      "D": "An internal tool used only by OpenAI"
+    },
+    "answer": "B",
+    "explanation": "AI Incident Database (AIID) เป็น public repository ที่รวบรวม incidents ที่ AI ทำให้เกิด harm ในโลกจริง เพื่อให้ community เรียนรู้จากความผิดพลาดในอดีต คล้ายกับ aviation incident database ที่ช่วยให้อุตสาหกรรมการบินปลอดภัยขึ้น"
+  },
+  {
+    "id": 13,
+    "question": "What is responsible disclosure in the context of AI vulnerabilities?",
+    "choices": {
+      "A": "Publicly posting all AI vulnerabilities on social media immediately",
+      "B": "Privately reporting discovered vulnerabilities to the AI developer first and allowing time for fixes before public disclosure",
+      "C": "Never disclosing any vulnerabilities to anyone under any circumstances",
+      "D": "Selling vulnerability information to the highest bidder"
+    },
+    "answer": "B",
+    "explanation": "Responsible disclosure คือการรายงาน vulnerability ที่พบให้ developer ก่อน ให้เวลาแก้ไข แล้วค่อย disclose สาธารณะ เหมือนใน cybersecurity เช่น Google Project Zero ให้เวลา 90 วัน ใน AI ก็ใช้หลักการเดียวกันกับ jailbreaks หรือ safety bypasses"
+  },
+  {
+    "id": 14,
+    "question": "What challenges do AI ethics whistleblowers typically face?",
+    "choices": {
+      "A": "They are always rewarded with promotions and bonuses",
+      "B": "They often face retaliation, job loss, NDAs, and legal threats while trying to raise concerns about harmful AI practices",
+      "C": "They have strong legal protections in all countries worldwide",
+      "D": "They never face any consequences because all companies welcome criticism"
+    },
+    "answer": "B",
+    "explanation": "AI ethics whistleblowers อย่าง Timnit Gebru (Google) หรือคนอื่นๆ มักเจอ retaliation, ถูกไล่ออก, โดน NDA บังคับไม่ให้พูด ทำให้คนที่เห็นปัญหาไม่กล้าออกมาพูด เป็นความท้าทายใหญ่ในวงการ AI ethics"
+  },
+  {
+    "id": 15,
+    "question": "What is a key challenge for corporate AI ethics teams within technology companies?",
+    "choices": {
+      "A": "They have unlimited budget and full authority over product decisions",
+      "B": "They often struggle with limited authority, pressure to not slow down product launches, and potential conflicts with business objectives",
+      "C": "They are always the largest department in every tech company",
+      "D": "They only focus on marketing and have no technical expertise"
+    },
+    "answer": "B",
+    "explanation": "Corporate AI ethics teams มักมี authority จำกัด ถูกกดดันไม่ให้ชะลอ product launch และต้องเผชิญ conflict กับ business objectives ที่เน้น revenue หลายทีมถูกยุบหรือลดขนาด แสดงให้เห็นว่า ethics กับ profit มักขัดกัน"
+  },
+  {
+    "id": 16,
+    "question": "What is 'AI ethics washing' (also called 'ethics washing')?",
+    "choices": {
+      "A": "A thorough process of removing all biases from AI systems",
+      "B": "When organizations publicly promote AI ethics principles and commitments while failing to implement meaningful changes in practice",
+      "C": "A technique for cleaning training data of ethical concerns",
+      "D": "A government regulation requiring companies to wash their ethical records"
+    },
+    "answer": "B",
+    "explanation": "AI ethics washing คือเมื่อองค์กรโปรโมท AI ethics principles สวยหรู ออก statement เท่ๆ แต่ในทางปฏิบัติไม่ได้ implement อะไรจริงจัง เป็นแค่ PR strategy เหมือน greenwashing ในเรื่องสิ่งแวดล้อม พูดอย่างทำอย่าง"
+  },
+  {
+    "id": 17,
+    "question": "What distinguishes 'performative AI ethics' from 'substantive AI ethics'?",
+    "choices": {
+      "A": "Performative ethics uses more expensive AI models than substantive ethics",
+      "B": "Performative ethics focuses on appearing ethical through statements and committees, while substantive ethics involves real structural changes, accountability, and measurable outcomes",
+      "C": "Substantive ethics is only applicable to startups, not large corporations",
+      "D": "There is no difference; they are interchangeable terms"
+    },
+    "answer": "B",
+    "explanation": "Performative AI ethics เน้นแค่ดูดี ตั้ง ethics board, ออก principles แต่ substantive AI ethics ทำจริง มี structural changes, accountability mechanisms, และ measurable outcomes เช่น bias audits จริง, ยกเลิก products ที่มีปัญหา ต่างกันที่ action ไม่ใช่แค่ words"
+  },
+  {
+    "id": 18,
+    "question": "Why is AI ethics education important for technical practitioners?",
+    "choices": {
+      "A": "Because ethics knowledge automatically makes AI systems bug-free",
+      "B": "Because developers who understand ethical implications can anticipate harms, design better safeguards, and make more responsible decisions throughout the AI lifecycle",
+      "C": "Because it is only relevant for lawyers and policymakers, not engineers",
+      "D": "Because ethics education replaces the need for technical skills"
+    },
+    "answer": "B",
+    "explanation": "AI ethics education สำคัญสำหรับ technical practitioners เพราะคนที่สร้าง AI ต้องเข้าใจ ethical implications ด้วย จะได้ anticipate harms ตั้งแต่ design phase, ใส่ safeguards ที่เหมาะสม, ไม่ใช่มาแก้ทีหลัง เรื่อง ethics ไม่ใช่แค่หน้าที่ของนักกฎหมาย"
+  },
+  {
+    "id": 19,
+    "question": "What is a crucial element for building an ethical AI culture within an organization?",
+    "choices": {
+      "A": "Hiring a single ethics officer and delegating all responsibility to them",
+      "B": "Integrating ethical considerations into every stage of AI development, with leadership support, psychological safety to raise concerns, and clear accountability",
+      "C": "Avoiding all discussion of ethics to prevent slowing down development",
+      "D": "Only following ethical guidelines when legally required"
+    },
+    "answer": "B",
+    "explanation": "Ethical AI culture ต้อง integrate ethics เข้าไปทุก stage ตั้งแต่ design, development, deployment ต้องมี leadership support, psychological safety ให้คนกล้าพูดเมื่อเห็นปัญหา, และ clear accountability ไม่ใช่โยนให้คนเดียวรับผิดชอบ"
+  },
+  {
+    "id": 20,
+    "question": "What overarching lesson do AI ethics case studies collectively teach us?",
+    "choices": {
+      "A": "AI technology is inherently evil and should be banned entirely",
+      "B": "Technical excellence alone is insufficient; AI development requires continuous ethical reflection, diverse perspectives, robust governance, and willingness to prioritize safety over speed",
+      "C": "Only government-built AI systems can be trusted",
+      "D": "AI ethics issues only occur in developing countries"
+    },
+    "answer": "B",
+    "explanation": "บทเรียนรวมจาก AI ethics case studies ทั้งหมดคือ technical excellence อย่างเดียวไม่พอ ต้องมี ethical reflection ตลอดเวลา, diverse perspectives ใน team, robust governance, และต้องกล้า prioritize safety เหนือ speed to market ไม่ใช่ว่า AI เลวทั้งหมด แต่ต้อง develop อย่างรับผิดชอบ"
+  }
+]

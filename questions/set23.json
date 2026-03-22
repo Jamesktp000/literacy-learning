@@ -1,0 +1,242 @@
+[
+  {
+    "id": 1,
+    "question": "Which of the following is a common technique used for deepfake detection?",
+    "choices": {
+      "A": "Checking if the video file size exceeds 1 GB",
+      "B": "Analyzing facial inconsistencies such as unnatural blinking patterns, lighting mismatches, and artifact detection around face boundaries",
+      "C": "Counting the number of pixels in the video",
+      "D": "Checking if the video was uploaded from a mobile device"
+    },
+    "answer": "B",
+    "explanation": "Deepfake detection ใช้หลายเทคนิค เช่น วิเคราะห์ความผิดปกติของ facial features เช่น blinking patterns ที่ไม่ธรรมชาติ, lighting ที่ไม่สอดคล้อง, artifacts ตรงขอบใบหน้า, และ temporal inconsistencies ในวิดีโอ โดยใช้ deep learning models ที่ train มาเฉพาะเพื่อจับ patterns เหล่านี้"
+  },
+  {
+    "id": 2,
+    "question": "What is digital provenance in the context of AI-generated content?",
+    "choices": {
+      "A": "A type of digital currency used to purchase AI services",
+      "B": "The verifiable record of the origin, history, and modifications of digital content, allowing users to trace how content was created",
+      "C": "A technique for improving the resolution of AI-generated images",
+      "D": "The geographic location where an AI model was trained"
+    },
+    "answer": "B",
+    "explanation": "Digital provenance คือ record ที่ verify ได้ว่า digital content มาจากไหน ถูกสร้างอย่างไร ผ่านการแก้ไขอะไรบ้าง ช่วยให้ users ตรวจสอบที่มาของ content ได้ว่าเป็น original หรือถูก AI generate/modify สำคัญมากในยุคที่ AI-generated content แพร่หลาย"
+  },
+  {
+    "id": 3,
+    "question": "What is the C2PA standard?",
+    "choices": {
+      "A": "A programming language designed for AI development",
+      "B": "The Coalition for Content Provenance and Authenticity — a technical standard for certifying the source and history of digital content through cryptographic metadata",
+      "C": "A cloud computing platform for training large AI models",
+      "D": "A cybersecurity certification required for all AI companies"
+    },
+    "answer": "B",
+    "explanation": "C2PA (Coalition for Content Provenance and Authenticity) เป็น technical standard ที่พัฒนาร่วมกันโดย Adobe, Microsoft, Intel และอื่นๆ ใช้ cryptographic metadata ฝังใน digital content เพื่อ certify ว่า content นั้นสร้างมาอย่างไร ใช้เครื่องมืออะไร ถูก edit อะไรบ้าง ช่วยต่อสู้กับ misinformation"
+  },
+  {
+    "id": 4,
+    "question": "What are 'Content Credentials'?",
+    "choices": {
+      "A": "Login credentials for content management systems",
+      "B": "Tamper-evident metadata attached to digital content that shows how, when, and by what tools the content was created or modified",
+      "C": "Academic degrees required to become a content creator",
+      "D": "Encryption keys used to protect copyrighted content from piracy"
+    },
+    "answer": "B",
+    "explanation": "Content Credentials คือ tamper-evident metadata ที่แนบไปกับ digital content บอกว่า content ถูกสร้างอย่างไร เมื่อไหร่ ใช้ tools อะไร ผ่านการ edit อะไรบ้าง เป็น implementation ของ C2PA standard โดย Adobe เป็นผู้นำในการ adopt ใช้ใน Photoshop, Firefly และ tools อื่นๆ"
+  },
+  {
+    "id": 5,
+    "question": "How can blockchain technology be used for AI content verification?",
+    "choices": {
+      "A": "By replacing AI models with blockchain-based algorithms",
+      "B": "By providing an immutable, decentralized ledger to record content creation timestamps and provenance information that cannot be altered retroactively",
+      "C": "By mining cryptocurrency to fund AI research projects",
+      "D": "By storing entire AI models on the blockchain for public access"
+    },
+    "answer": "B",
+    "explanation": "Blockchain ช่วย verify AI content ได้โดยเป็น immutable ledger ที่บันทึก timestamps และ provenance information ของ content ไว้อย่างถาวร ไม่สามารถแก้ไขย้อนหลังได้ ทำให้พิสูจน์ได้ว่า content ถูกสร้างเมื่อไหร่ โดยใคร เป็น original หรือถูก modify"
+  },
+  {
+    "id": 6,
+    "question": "What is the primary legal controversy surrounding NFTs and AI-generated art?",
+    "choices": {
+      "A": "NFTs consume too much electricity for AI art",
+      "B": "Questions of authorship and copyright ownership — whether AI-generated works can be copyrighted and who owns the rights when AI creates the art",
+      "C": "NFTs are illegal in all countries",
+      "D": "AI art NFTs can only be sold in cryptocurrency"
+    },
+    "answer": "B",
+    "explanation": "ประเด็นหลักของ NFTs กับ AI art คือเรื่อง authorship และ copyright ownership ว่า AI-generated works สามารถจด copyright ได้ไหม ใครเป็นเจ้าของ — คนที่เขียน prompt, คนที่สร้าง model, หรือไม่มีใครเลย ศาลหลายประเทศ (เช่น US Copyright Office) ตัดสินว่า purely AI-generated works ไม่สามารถจด copyright ได้"
+  },
+  {
+    "id": 7,
+    "question": "Under recent AI copyright developments (2024-2025), what has been the general stance of the U.S. Copyright Office on purely AI-generated content?",
+    "choices": {
+      "A": "All AI-generated content is automatically copyrighted by the AI company",
+      "B": "Purely AI-generated content without sufficient human authorship is generally not eligible for copyright protection",
+      "C": "AI-generated content receives double the copyright protection of human-created works",
+      "D": "Copyright for AI content is always assigned to the person who owns the computer used"
+    },
+    "answer": "B",
+    "explanation": "US Copyright Office มีจุดยืนว่า purely AI-generated content ที่ไม่มี sufficient human authorship ไม่สามารถจด copyright ได้ แต่ถ้ามนุษย์มี creative input มากพอ เช่น เลือก, จัดวาง, แก้ไข AI output อย่างมีนัยสำคัญ ส่วนที่เป็น human authorship อาจได้รับ protection ได้"
+  },
+  {
+    "id": 8,
+    "question": "How does the 'fair use' doctrine potentially apply to AI training data?",
+    "choices": {
+      "A": "Fair use always allows any data to be used for AI training without restriction",
+      "B": "It is debated — some argue training AI on copyrighted works is transformative fair use, while others argue it infringes on creators' rights, and courts are still deciding",
+      "C": "Fair use only applies to government data, not private content",
+      "D": "Fair use was abolished in 2024 for all AI-related purposes"
+    },
+    "answer": "B",
+    "explanation": "Fair use กับ AI training data ยังเป็นประเด็นที่ถกเถียงกันมาก ฝั่งหนึ่งบอกว่าเป็น transformative use เพราะ model ไม่ได้ copy งานตรงๆ แต่เรียนรู้ patterns ฝั่ง creators บอกว่าละเมิดสิทธิ์ คดีสำคัญเช่น NYT v. OpenAI, Getty v. Stability AI ยังอยู่ระหว่างพิจารณา"
+  },
+  {
+    "id": 9,
+    "question": "What are opt-out mechanisms for AI training?",
+    "choices": {
+      "A": "Methods for AI models to opt out of being evaluated",
+      "B": "Tools and protocols that allow content creators to signal that their work should not be used for AI model training, such as robots.txt directives or metadata tags",
+      "C": "A way for AI companies to opt out of paying taxes",
+      "D": "Hardware switches that disable AI processing on personal computers"
+    },
+    "answer": "B",
+    "explanation": "Opt-out mechanisms คือวิธีที่ให้ content creators บอกว่าไม่ต้องการให้ AI ใช้ข้อมูลของตน เช่น robots.txt (ai-disallow), meta tags, Do Not Train registry, หรือ tools เฉพาะของแต่ละ platform แต่ปัญหาคือการ enforce ยังทำได้ยาก และหลาย AI companies อาจไม่เคารพ opt-out signals"
+  },
+  {
+    "id": 10,
+    "question": "What is 'data poisoning as defense' in the context of protecting creative works from AI?",
+    "choices": {
+      "A": "Deleting all creative works from the internet to prevent AI access",
+      "B": "Adding imperceptible perturbations to images or text that disrupt AI training, causing models to learn incorrect patterns from the poisoned data",
+      "C": "Infecting AI servers with computer viruses",
+      "D": "Encrypting all creative works so AI cannot read them"
+    },
+    "answer": "B",
+    "explanation": "Data poisoning as defense คือการเพิ่ม perturbations เล็กๆ ที่มนุษย์มองไม่เห็นลงใน images/text เพื่อให้ AI models ที่เอาไป train ได้ผลลัพธ์ผิดพลาด เป็นวิธี proactive defense ของ creators tools เช่น Nightshade ทำให้ AI model สับสนว่ารูปแมวคือรูปหมา เป็นต้น"
+  },
+  {
+    "id": 11,
+    "question": "What does the Glaze tool do?",
+    "choices": {
+      "A": "Adds a glossy filter to photos for social media",
+      "B": "Applies subtle perturbations to artwork that prevent AI style-mimicry models from accurately copying an artist's style, while remaining visually similar to the original",
+      "C": "Converts digital art into physical prints",
+      "D": "Automatically generates art in any artist's style"
+    },
+    "answer": "B",
+    "explanation": "Glaze เป็น tool จาก University of Chicago ที่เพิ่ม subtle perturbations ลงในงาน art ทำให้ AI models ไม่สามารถเลียนแบบ style ของ artist ได้อย่างถูกต้อง โดยที่คนมองเห็นแทบไม่ต่าง เป็น defensive tool ที่ช่วยปกป้อง artistic style จากการถูก AI ลอกเลียน"
+  },
+  {
+    "id": 12,
+    "question": "How does Nightshade differ from Glaze?",
+    "choices": {
+      "A": "Nightshade works only on music while Glaze works only on images",
+      "B": "Nightshade is offensive — it poisons AI training data to cause model malfunctions, while Glaze is defensive — it cloaks an artist's style to prevent mimicry",
+      "C": "Nightshade is free while Glaze is paid software",
+      "D": "They are the same tool with different names"
+    },
+    "answer": "B",
+    "explanation": "Nightshade เป็น offensive tool ที่ poison ข้อมูล training ของ AI ทำให้ model เรียนรู้ผิดๆ (เช่น เห็นรูปหมาเป็นแมว) ส่วน Glaze เป็น defensive tool ที่ปกป้อง style ของ artist ไม่ให้ถูก AI เลียนแบบ ทั้งคู่มาจากทีมวิจัยเดียวกันที่ University of Chicago"
+  },
+  {
+    "id": 13,
+    "question": "What legal issues surround AI music copyright?",
+    "choices": {
+      "A": "AI-generated music is always public domain with no restrictions",
+      "B": "Key issues include whether AI-generated music can be copyrighted, whether training on copyrighted songs constitutes infringement, and how to attribute royalties when AI mimics existing artists",
+      "C": "AI-generated music is automatically owned by the hardware manufacturer",
+      "D": "There are no legal issues since music copyright law doesn't apply to AI"
+    },
+    "answer": "B",
+    "explanation": "AI music copyright มีประเด็นหลักๆ คือ: 1) AI-generated music จด copyright ได้ไหม 2) การ train model บนเพลงที่มี copyright ถือว่าละเมิดไหม 3) ถ้า AI เลียนเสียงหรือ style ของ artist จะจ่าย royalties อย่างไร เช่นกรณี AI-generated Drake song ที่ถูก takedown จาก streaming platforms"
+  },
+  {
+    "id": 14,
+    "question": "What are the primary legal concerns with AI voice cloning?",
+    "choices": {
+      "A": "Voice cloning technology is too expensive to be a legal concern",
+      "B": "Unauthorized cloning of someone's voice may violate right of publicity, enable fraud/scams, and raise consent issues, leading to new legislation in several jurisdictions",
+      "C": "Voice cloning is only used in medical applications so there are no legal concerns",
+      "D": "Voice cloning laws only apply to celebrity voices"
+    },
+    "answer": "B",
+    "explanation": "AI voice cloning มีปัญหาทางกฎหมายหลายด้าน: ละเมิด right of publicity, ใช้ทำ scam/fraud (เช่น โทรหลอกเป็นคนรู้จัก), ปัญหาเรื่อง consent หลายรัฐในสหรัฐฯ ออกกฎหมายใหม่เช่น Tennessee ELVIS Act, และ federal bills ที่ protect voice rights โดยเฉพาะ"
+  },
+  {
+    "id": 15,
+    "question": "What is the 'right of publicity' as it relates to AI?",
+    "choices": {
+      "A": "The right of AI companies to publicly release any data they collect",
+      "B": "An individual's right to control the commercial use of their name, likeness, and voice, which AI-generated deepfakes and voice clones may violate",
+      "C": "The public's right to access all AI source code",
+      "D": "The right to publicize AI research findings without peer review"
+    },
+    "answer": "B",
+    "explanation": "Right of publicity คือสิทธิ์ของบุคคลในการควบคุมการใช้ชื่อ, หน้าตา, เสียงของตนเองเพื่อการค้า AI deepfakes และ voice clones อาจละเมิดสิทธิ์นี้โดยใช้ likeness ของคนโดยไม่ได้รับอนุญาต เช่น สร้าง AI version ของ celebrity มาโฆษณาสินค้า"
+  },
+  {
+    "id": 16,
+    "question": "What are AI-generated virtual influencers?",
+    "choices": {
+      "A": "Real influencers who use AI filters on their photos",
+      "B": "Completely synthetic digital personas created using AI that have social media presences, brand partnerships, and followers, but do not represent real humans",
+      "C": "Robots that physically attend influencer events",
+      "D": "AI chatbots that comment on influencer posts"
+    },
+    "answer": "B",
+    "explanation": "Virtual influencers คือ digital personas ที่สร้างขึ้นมาทั้งหมดด้วย AI/CGI มี social media profiles, brand partnerships, followers เหมือนคนจริง แต่ไม่ใช่คนจริง เช่น Lil Miquela, Aitana Lopez มีประเด็นด้าน ethics เรื่อง transparency ว่าคน follow รู้ไหมว่าไม่ใช่คนจริง"
+  },
+  {
+    "id": 17,
+    "question": "What is a major ethical concern with AI in advertising?",
+    "choices": {
+      "A": "AI makes advertisements too boring and predictable",
+      "B": "AI enables hyper-personalized manipulation, micro-targeting vulnerable populations, and creating deceptive synthetic content that blurs the line between real and fake endorsements",
+      "C": "AI advertising is always more expensive than traditional advertising",
+      "D": "AI cannot generate creative advertising content"
+    },
+    "answer": "B",
+    "explanation": "AI ใน advertising มีปัญหา ethics หลายอย่าง เช่น hyper-personalized manipulation ที่รู้จุดอ่อนของแต่ละคน, micro-targeting กลุ่มเปราะบาง (เด็ก, คนเสพติด), สร้าง synthetic content หลอกว่าเป็น real endorsement ทำให้คนแยก real vs fake ไม่ออก"
+  },
+  {
+    "id": 18,
+    "question": "What are 'dark patterns' in the context of AI?",
+    "choices": {
+      "A": "Visual themes using dark colors in AI application interfaces",
+      "B": "Deceptive user interface designs that use AI to manipulate users into making decisions they wouldn't otherwise make, such as hidden opt-ins or confusing consent flows",
+      "C": "Patterns found in dark matter data analyzed by AI",
+      "D": "Error patterns that appear when AI models are trained in low-light conditions"
+    },
+    "answer": "B",
+    "explanation": "Dark patterns คือ deceptive UI/UX designs ที่หลอกให้ users ตัดสินใจในสิ่งที่ไม่ได้ต้องการ AI ทำให้ dark patterns ร้ายแรงขึ้นเพราะสามารถ personalize วิธีหลอกแต่ละคน เช่น ซ่อนปุ่ม unsubscribe, ทำให้ consent flow สับสน, ใช้ urgency ปลอมกดดันให้ซื้อ หลายประเทศเริ่มออกกฎหมายห้าม"
+  },
+  {
+    "id": 19,
+    "question": "What does the Creative Commons organization's position on AI training generally involve?",
+    "choices": {
+      "A": "All Creative Commons licensed content is automatically excluded from AI training",
+      "B": "Creative Commons has been working to clarify how CC licenses apply to AI training, noting that some licenses may permit it while advocating for better tools and norms around AI training data",
+      "C": "Creative Commons has banned all AI companies from using any CC-licensed content",
+      "D": "Creative Commons created a special AI-only license that requires payment"
+    },
+    "answer": "B",
+    "explanation": "Creative Commons พยายาม clarify ว่า CC licenses ต่างๆ apply กับ AI training อย่างไร บาง licenses อาจอนุญาต (เช่น CC0, CC-BY) แต่ก็ advocate ให้มี better tools และ norms เพื่อให้ creators มี choice มากขึ้น ไม่ได้ ban AI training แต่ต้องการ transparency"
+  },
+  {
+    "id": 20,
+    "question": "What type of protection does an 'artist protection tool' like Kudurru provide?",
+    "choices": {
+      "A": "Physical security for art galleries",
+      "B": "It detects and blocks AI web crawlers/scrapers from downloading artwork, notifies artists of scraping attempts, and can serve decoy images to AI data collectors",
+      "C": "Insurance coverage for damaged physical artworks",
+      "D": "Automatic copyright registration for all uploaded art"
+    },
+    "answer": "B",
+    "explanation": "Kudurru เป็น artist protection tool ที่ detect และ block AI web crawlers/scrapers ไม่ให้ download artwork ได้ แจ้งเตือน artist เมื่อมีการ scrape และสามารถส่ง decoy images ให้ AI collectors แทน เป็น proactive defense ที่ช่วย artists ป้องกันงานจากการถูก AI นำไป train โดยไม่ได้รับอนุญาต"
+  }
+]

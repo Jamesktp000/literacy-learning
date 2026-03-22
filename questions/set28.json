@@ -1,0 +1,242 @@
+[
+  {
+    "id": 1,
+    "question": "What is a key advantage of building an AI startup in a mature AI ecosystem like Silicon Valley or London?",
+    "choices": {
+      "A": "Lower office rental costs compared to other regions",
+      "B": "Access to specialized AI talent, investors, and potential partners",
+      "C": "Guaranteed government subsidies for all AI companies",
+      "D": "Automatic access to proprietary datasets from large tech firms"
+    },
+    "answer": "B",
+    "explanation": "AI startup ecosystem ที่ mature อย่าง Silicon Valley หรือ London มีข้อดีหลักคือ access ถึง talent pool, investor network, และ partner ที่เชี่ยวชาญด้าน AI ไม่ได้หมายความว่าค่าเช่าจะถูกหรือได้ subsidy อัตโนมัติ"
+  },
+  {
+    "id": 2,
+    "question": "Which stage of venture capital funding typically involves an AI startup demonstrating a working prototype or early traction?",
+    "choices": {
+      "A": "Pre-seed round",
+      "B": "Series C round",
+      "C": "Seed round",
+      "D": "IPO stage"
+    },
+    "answer": "C",
+    "explanation": "Seed round คือช่วงที่ AI startup มักจะต้องมี working prototype หรือ early traction มาโชว์แล้ว ส่วน pre-seed มักเป็นแค่ idea stage และ Series C จะเป็นช่วง scale ขนาดใหญ่"
+  },
+  {
+    "id": 3,
+    "question": "What is the most commonly cited challenge in the AI talent market?",
+    "choices": {
+      "A": "Too many qualified AI researchers competing for limited positions",
+      "B": "Shortage of professionals with both deep AI expertise and domain knowledge",
+      "C": "Declining interest in AI-related university programs",
+      "D": "Oversaturation of AI certifications making hiring easier"
+    },
+    "answer": "B",
+    "explanation": "ปัญหาหลักของ AI talent market คือคนที่มีทั้ง AI expertise ลึกๆ และ domain knowledge เฉพาะทางนั้นหายากมาก ไม่ใช่ว่า AI talent ล้นตลาด แต่เป็น shortage โดยเฉพาะคนที่ bridge ระหว่าง technical กับ business ได้"
+  },
+  {
+    "id": 4,
+    "question": "Which of the following best describes the 'AI skills gap'?",
+    "choices": {
+      "A": "The difference in salary between AI engineers and traditional software engineers",
+      "B": "The mismatch between AI skills that organizations need and skills available in the workforce",
+      "C": "The gap in computing power between large and small AI companies",
+      "D": "The time it takes to train a new AI model from scratch"
+    },
+    "answer": "B",
+    "explanation": "AI skills gap หมายถึงช่องว่างระหว่าง skill ที่องค์กรต้องการกับ skill ที่มีอยู่จริงในตลาดแรงงาน เป็นปัญหา supply-demand mismatch ของ workforce ไม่ใช่เรื่อง salary gap หรือ computing power"
+  },
+  {
+    "id": 5,
+    "question": "What is a recommended strategy for upskilling employees for the AI era?",
+    "choices": {
+      "A": "Replace all non-technical staff with AI specialists immediately",
+      "B": "Provide blended learning combining online courses, hands-on projects, and mentorship",
+      "C": "Only focus on training senior management in AI concepts",
+      "D": "Wait until AI tools become fully automated before investing in training"
+    },
+    "answer": "B",
+    "explanation": "Upskilling ที่ดีควรใช้ blended learning approach ผสม online courses, hands-on projects, และ mentorship เข้าด้วยกัน ไม่ใช่แค่ train ผู้บริหาร หรือรอจน AI automate ทุกอย่าง ต้องเริ่มเตรียมคนตั้งแต่ตอนนี้"
+  },
+  {
+    "id": 6,
+    "question": "Which AI certification is specifically focused on cloud-based AI services from a major provider?",
+    "choices": {
+      "A": "Certified Ethical Hacker (CEH)",
+      "B": "AWS Machine Learning Specialty Certification",
+      "C": "Project Management Professional (PMP)",
+      "D": "Cisco Certified Network Associate (CCNA)"
+    },
+    "answer": "B",
+    "explanation": "AWS Machine Learning Specialty เป็น certification ที่ focus เรื่อง cloud-based AI/ML services ของ Amazon โดยเฉพาะ ส่วน CEH เป็นด้าน security, PMP เป็น project management, CCNA เป็น networking ไม่เกี่ยวกับ AI"
+  },
+  {
+    "id": 7,
+    "question": "Which career path typically bridges the gap between AI technical teams and business stakeholders?",
+    "choices": {
+      "A": "AI Research Scientist",
+      "B": "ML Operations Engineer",
+      "C": "AI Product Manager",
+      "D": "Data Annotation Specialist"
+    },
+    "answer": "C",
+    "explanation": "AI Product Manager เป็นคนที่ bridge ระหว่าง technical team กับ business stakeholders โดยต้องเข้าใจทั้ง AI capability และ business needs ส่วน Research Scientist focus งานวิจัย, MLOps focus infrastructure, Data Annotation focus labeling data"
+  },
+  {
+    "id": 8,
+    "question": "What is a major advantage of AI freelancing compared to full-time AI employment?",
+    "choices": {
+      "A": "Guaranteed steady income with full benefits",
+      "B": "Flexibility to work on diverse projects across multiple industries",
+      "C": "Access to a company's proprietary training data",
+      "D": "Automatic promotion based on seniority"
+    },
+    "answer": "B",
+    "explanation": "ข้อดีหลักของ AI freelancing คือ flexibility ในการเลือกทำ project หลากหลาย industry ได้ประสบการณ์กว้าง แต่ข้อเสียคือไม่มี steady income หรือ benefits เหมือนพนักงานประจำ"
+  },
+  {
+    "id": 9,
+    "question": "What should an AI consultant prioritize when engaging with a new client?",
+    "choices": {
+      "A": "Immediately recommending the most expensive AI solution available",
+      "B": "Understanding the client's business problems before proposing any AI solution",
+      "C": "Building a custom deep learning model regardless of the problem complexity",
+      "D": "Focusing only on technical implementation without considering business context"
+    },
+    "answer": "B",
+    "explanation": "AI consultant ที่ดีต้องเข้าใจ business problem ของ client ก่อนเสมอ ไม่ใช่กระโดดไป recommend solution แพงๆ หรือ build deep learning model ทุกเรื่อง บางปัญหาอาจไม่ต้องใช้ AI เลยด้วยซ้ำ"
+  },
+  {
+    "id": 10,
+    "question": "Which factor is most critical for AI entrepreneurship success?",
+    "choices": {
+      "A": "Having the largest possible training dataset from day one",
+      "B": "Identifying a clear problem-solution fit where AI provides a genuine competitive advantage",
+      "C": "Using the newest and most complex AI architecture available",
+      "D": "Raising the maximum amount of funding in the first round"
+    },
+    "answer": "B",
+    "explanation": "สิ่งสำคัญที่สุดสำหรับ AI entrepreneurship คือการหา problem-solution fit ที่ชัดเจน โดย AI ต้องสร้าง competitive advantage จริงๆ ไม่ใช่แค่ใช้ tech ใหม่สุดหรือหา funding เยอะสุด แต่ต้องแก้ปัญหาจริงของ market"
+  },
+  {
+    "id": 11,
+    "question": "When should a company prefer to 'buy' an AI solution rather than 'build' one in-house?",
+    "choices": {
+      "A": "When the AI use case is a core competitive differentiator",
+      "B": "When off-the-shelf solutions adequately address the business need and time-to-market is critical",
+      "C": "When the company has unlimited budget and engineering resources",
+      "D": "When the company wants complete control over the model architecture"
+    },
+    "answer": "B",
+    "explanation": "ควร buy AI solution เมื่อ off-the-shelf solution ตอบโจทย์ได้ดีพอ และ time-to-market สำคัญ ไม่ต้องเสียเวลา build เอง แต่ถ้าเป็น core competitive differentiator ก็ควร build เองเพื่อ control และ customize ได้เต็มที่"
+  },
+  {
+    "id": 12,
+    "question": "What is the most important criterion when evaluating an AI vendor?",
+    "choices": {
+      "A": "The vendor's office location and size",
+      "B": "The vendor's model performance on the specific use case, data privacy practices, and support quality",
+      "C": "The number of social media followers the vendor has",
+      "D": "Whether the vendor uses the latest buzzword technologies"
+    },
+    "answer": "B",
+    "explanation": "การ evaluate AI vendor ต้องดูที่ model performance บน use case จริงของเรา, data privacy practices, และ support quality เป็นหลัก ไม่ใช่ดูแค่ขนาดบริษัท followers หรือ buzzword ที่ vendor ใช้ในการ marketing"
+  },
+  {
+    "id": 13,
+    "question": "Which cost component is often underestimated in AI Total Cost of Ownership (TCO)?",
+    "choices": {
+      "A": "Initial software licensing fee",
+      "B": "Ongoing model monitoring, retraining, and data pipeline maintenance",
+      "C": "Cost of the initial project kickoff meeting",
+      "D": "Marketing expenses for the AI product"
+    },
+    "answer": "B",
+    "explanation": "ค่าใช้จ่ายที่มักถูกมองข้ามใน AI TCO คือ ongoing costs เช่น model monitoring, retraining เมื่อ data drift, และ data pipeline maintenance ซึ่งเป็นค่าใช้จ่ายต่อเนื่องที่อาจสูงกว่า initial cost มาก"
+  },
+  {
+    "id": 14,
+    "question": "How is AI ROI (Return on Investment) best measured?",
+    "choices": {
+      "A": "By counting the number of AI models deployed",
+      "B": "By comparing measurable business outcomes (cost savings, revenue increase, efficiency gains) against total AI investment",
+      "C": "By measuring the accuracy of the AI model alone",
+      "D": "By tracking the number of data scientists hired"
+    },
+    "answer": "B",
+    "explanation": "AI ROI ต้องวัดจาก business outcomes ที่จับต้องได้ เช่น cost savings, revenue increase, efficiency gains เทียบกับ total investment ไม่ใช่แค่นับจำนวน model หรือวัดแค่ accuracy เพราะ model แม่นแต่ไม่สร้าง business value ก็ไม่มี ROI"
+  },
+  {
+    "id": 15,
+    "question": "What is the primary purpose of an AI Proof of Concept (PoC)?",
+    "choices": {
+      "A": "To build a production-ready AI system immediately",
+      "B": "To validate whether an AI approach can solve the targeted problem before committing full resources",
+      "C": "To replace all existing business processes with AI",
+      "D": "To demonstrate AI capabilities to competitors"
+    },
+    "answer": "B",
+    "explanation": "AI PoC มีเป้าหมายหลักคือ validate ว่า AI approach สามารถแก้ปัญหาที่ตั้งไว้ได้จริงไหม ก่อนที่จะ commit resources เต็มที่ เป็นการลด risk ไม่ใช่การ build production system ตั้งแต่แรก"
+  },
+  {
+    "id": 16,
+    "question": "What differentiates an AI Minimum Viable Product (MVP) from a Proof of Concept?",
+    "choices": {
+      "A": "An MVP is always more expensive than a PoC",
+      "B": "An MVP is designed to be used by real users and gather feedback, while a PoC only validates technical feasibility",
+      "C": "A PoC has more features than an MVP",
+      "D": "An MVP does not require any AI functionality"
+    },
+    "answer": "B",
+    "explanation": "AI MVP ต่างจาก PoC ตรงที่ MVP ถูกออกแบบให้ real users ใช้งานจริงและเก็บ feedback ได้ ส่วน PoC แค่ validate technical feasibility ว่า AI ทำได้ไหม MVP จึงต้อง consider UX และ usability ด้วย"
+  },
+  {
+    "id": 17,
+    "question": "Which is a common challenge when scaling AI from a pilot project to enterprise-wide deployment?",
+    "choices": {
+      "A": "The pilot model always works perfectly at scale without any changes",
+      "B": "Data quality issues, infrastructure limitations, and organizational resistance to change",
+      "C": "Scaling only requires purchasing more powerful hardware",
+      "D": "Regulatory requirements disappear once AI is proven in a pilot"
+    },
+    "answer": "B",
+    "explanation": "การ scale AI จาก pilot ไป enterprise-wide มักเจอปัญหา data quality ที่ไม่ consistent, infrastructure ไม่พร้อม, และคนในองค์กรต่อต้านการเปลี่ยนแปลง ไม่ใช่แค่ซื้อ hardware เพิ่มแล้วจะ scale ได้เลย"
+  },
+  {
+    "id": 18,
+    "question": "What does 'AI technical debt' refer to?",
+    "choices": {
+      "A": "The financial debt a company owes to AI vendors",
+      "B": "Accumulated shortcuts and suboptimal decisions in AI systems that increase future maintenance costs",
+      "C": "The time spent learning new AI technologies",
+      "D": "The cost of purchasing AI-related textbooks and courses"
+    },
+    "answer": "B",
+    "explanation": "AI technical debt คือ shortcuts และ suboptimal decisions ที่สะสมมาใน AI system เช่น hardcoded features, undocumented pipelines, untested data dependencies ซึ่งทำให้ maintenance cost ในอนาคตสูงขึ้นเรื่อยๆ ไม่ใช่หนี้การเงิน"
+  },
+  {
+    "id": 19,
+    "question": "What is the role of AI organizational change management?",
+    "choices": {
+      "A": "To ensure employees are laid off and replaced by AI systems",
+      "B": "To help people, processes, and culture adapt to AI-driven transformation smoothly",
+      "C": "To manage the physical relocation of AI server rooms",
+      "D": "To enforce mandatory AI usage quotas for all employees"
+    },
+    "answer": "B",
+    "explanation": "AI organizational change management คือการช่วยให้คน กระบวนการ และวัฒนธรรมองค์กร adapt กับ AI transformation ได้อย่างราบรื่น รวมถึง communication, training, และ stakeholder engagement ไม่ใช่การไล่คนออก"
+  },
+  {
+    "id": 20,
+    "question": "What is the primary function of an AI Center of Excellence (CoE)?",
+    "choices": {
+      "A": "To restrict AI usage to only one department in the organization",
+      "B": "To serve as a centralized hub for AI best practices, governance, talent development, and cross-functional AI initiatives",
+      "C": "To conduct basic IT support for AI software installations",
+      "D": "To outsource all AI work to external consultants"
+    },
+    "answer": "B",
+    "explanation": "AI Center of Excellence (CoE) ทำหน้าที่เป็น centralized hub สำหรับ AI best practices, governance, talent development, และ cross-functional initiatives เป็นตัว drive AI adoption ทั้งองค์กร ไม่ใช่จำกัด AI ไว้แค่แผนกเดียว"
+  }
+]

@@ -1,0 +1,242 @@
+[
+  {
+    "id": 1,
+    "question": "What is LangChain primarily used for?",
+    "choices": {
+      "A": "Training large language models from scratch",
+      "B": "Building applications powered by language models through composable components",
+      "C": "Compressing language models for mobile deployment",
+      "D": "Visualizing neural network architectures"
+    },
+    "answer": "B",
+    "explanation": "LangChain คือ framework ที่ช่วยให้เราสร้าง application ที่ใช้ LLM เป็นตัวขับเคลื่อนได้ง่ายขึ้น โดยมี composable components เช่น chains, agents, memory มาให้ต่อเป็น pipeline ได้เลย ไม่ได้เอาไว้ train model จาก scratch นะ"
+  },
+  {
+    "id": 2,
+    "question": "What is the primary focus of LlamaIndex (formerly GPT Index)?",
+    "choices": {
+      "A": "Fine-tuning LLMs on custom datasets",
+      "B": "Connecting LLMs to external data sources for retrieval-augmented generation",
+      "C": "Generating synthetic training data for small models",
+      "D": "Building computer vision pipelines"
+    },
+    "answer": "B",
+    "explanation": "LlamaIndex เน้นเรื่องการเชื่อมต่อ LLM กับ external data sources เพื่อทำ RAG (Retrieval-Augmented Generation) พูดง่ายๆ คือช่วยให้ LLM ตอบคำถามจาก data ของเราเองได้ โดย index และ query ข้อมูลได้อย่างมีประสิทธิภาพ"
+  },
+  {
+    "id": 3,
+    "question": "What distinguishes CrewAI from other agent frameworks?",
+    "choices": {
+      "A": "It only supports single-agent workflows",
+      "B": "It focuses on role-based multi-agent collaboration with defined crew roles",
+      "C": "It is exclusively designed for image generation tasks",
+      "D": "It requires agents to share a single language model"
+    },
+    "answer": "B",
+    "explanation": "CrewAI โดดเด่นเรื่อง multi-agent collaboration แบบ role-based คือเราสร้าง crew ที่มี agent หลายตัว แต่ละตัวมี role, goal, backstory ของตัวเอง แล้วให้มันทำงานร่วมกันเพื่อบรรลุเป้าหมาย เหมือนทีมงานจริงๆ เลย"
+  },
+  {
+    "id": 4,
+    "question": "What is 'function calling' in the context of LLMs?",
+    "choices": {
+      "A": "The ability of an LLM to execute arbitrary code on the server",
+      "B": "The LLM's ability to generate structured arguments to invoke predefined external functions",
+      "C": "A technique for calling the LLM API multiple times in sequence",
+      "D": "A method for debugging errors in LLM responses"
+    },
+    "answer": "B",
+    "explanation": "Function calling คือความสามารถของ LLM ในการ generate structured arguments เพื่อเรียกใช้ function ที่เรากำหนดไว้ล่วงหน้า เช่น เราบอกว่ามี function get_weather(city) LLM ก็จะ output เป็น JSON ที่ระบุว่าจะเรียก function ไหน ด้วย argument อะไร ไม่ได้ execute code เองนะ"
+  },
+  {
+    "id": 5,
+    "question": "What is 'JSON mode' or structured output in LLMs?",
+    "choices": {
+      "A": "A mode that only accepts JSON as input",
+      "B": "A feature that constrains the LLM to output valid JSON conforming to a specified schema",
+      "C": "A compression format for storing LLM weights",
+      "D": "A JSON-based programming language for training models"
+    },
+    "answer": "B",
+    "explanation": "JSON mode หรือ structured output คือ feature ที่บังคับให้ LLM output เป็น valid JSON ตาม schema ที่เรากำหนด ทำให้ parse ผลลัพธ์ได้ง่ายและเชื่อถือได้ ไม่ต้องมานั่ง regex หรือ string manipulation เอาเอง ช่วยเรื่อง reliability ของ application มากๆ"
+  },
+  {
+    "id": 6,
+    "question": "In AI workflow orchestration, what does a 'DAG' represent?",
+    "choices": {
+      "A": "Data Aggregation Gateway",
+      "B": "Directed Acyclic Graph — a structure defining task dependencies and execution order",
+      "C": "Dynamic Agent Generator — a tool for creating new agents",
+      "D": "Distributed API Gateway for load balancing"
+    },
+    "answer": "B",
+    "explanation": "DAG ย่อมาจาก Directed Acyclic Graph คือโครงสร้างที่ใช้กำหนดลำดับการทำงานของ task ต่างๆ โดยไม่มี cycle (ไม่วนลูป) ใช้ใน orchestration tools อย่าง Airflow หรือ Prefect เพื่อจัดการ workflow ที่ซับซ้อนของ AI pipeline"
+  },
+  {
+    "id": 7,
+    "question": "What is the purpose of a 'memory system' in an AI agent?",
+    "choices": {
+      "A": "To increase the GPU RAM available for inference",
+      "B": "To allow the agent to retain and recall information across interactions and tasks",
+      "C": "To store the model weights permanently on disk",
+      "D": "To compress conversation history to save bandwidth"
+    },
+    "answer": "B",
+    "explanation": "Memory system ใน AI agent คือกลไกที่ทำให้ agent จำข้อมูลข้ามการสนทนาหรือ task ต่างๆ ได้ มีหลายแบบ เช่น short-term memory (context window), long-term memory (vector store), episodic memory (จำ experience เก่า) ช่วยให้ agent ทำงานต่อเนื่องและฉลาดขึ้นเรื่อยๆ"
+  },
+  {
+    "id": 8,
+    "question": "Which planning strategy involves an AI agent breaking a complex task into subtasks before execution?",
+    "choices": {
+      "A": "Greedy decoding",
+      "B": "Task decomposition",
+      "C": "Gradient descent",
+      "D": "Batch normalization"
+    },
+    "answer": "B",
+    "explanation": "Task decomposition คือกลยุทธ์ที่ agent แบ่งงานใหญ่ออกเป็น subtask ย่อยๆ ก่อนลงมือทำ เช่น ถ้าต้อง research และเขียนรายงาน agent จะวางแผนว่าต้อง search ข้อมูล → สรุป → เขียน draft → review ทำให้จัดการงานซับซ้อนได้ดีขึ้น"
+  },
+  {
+    "id": 9,
+    "question": "What is 'ReAct' in the context of AI agents?",
+    "choices": {
+      "A": "A JavaScript framework for building agent UIs",
+      "B": "A paradigm combining Reasoning and Acting where agents alternate between thinking and taking actions",
+      "C": "A real-time error correction technique",
+      "D": "A reactive programming library for agent communication"
+    },
+    "answer": "B",
+    "explanation": "ReAct (Reasoning + Acting) เป็น paradigm ที่ให้ agent สลับระหว่างการคิด (Thought) กับการลงมือทำ (Action) แล้วดู observation จาก action นั้น วนไปเรื่อยๆ จนได้คำตอบ ทำให้ agent ทำงานได้เป็นระบบ มี reasoning ที่ track ได้ ไม่ใช่ React.js นะ คนละตัวเลย"
+  },
+  {
+    "id": 10,
+    "question": "How does an AI agent typically select which tool to use for a given task?",
+    "choices": {
+      "A": "It randomly picks a tool from the available list",
+      "B": "It matches the task requirements against tool descriptions and capabilities using the LLM's reasoning",
+      "C": "It always uses tools in alphabetical order",
+      "D": "It requires the user to manually specify the tool for every step"
+    },
+    "answer": "B",
+    "explanation": "Agent เลือก tool โดยใช้ความสามารถ reasoning ของ LLM เทียบ task ที่ต้องทำกับ description ของ tool ที่มีอยู่ เช่น ถ้าต้องค้นหาข้อมูล ก็จะเลือก search tool ถ้าต้องคำนวณก็เลือก calculator tool โดย tool แต่ละตัวจะมี description บอกว่าทำอะไรได้บ้าง"
+  },
+  {
+    "id": 11,
+    "question": "What is a common error recovery strategy for AI agents?",
+    "choices": {
+      "A": "Immediately terminating the entire workflow",
+      "B": "Retrying with modified parameters, falling back to alternative tools, or asking for human help",
+      "C": "Ignoring all errors and continuing with random outputs",
+      "D": "Retraining the underlying model in real-time"
+    },
+    "answer": "B",
+    "explanation": "Agent ที่ดีจะมีกลยุทธ์ error recovery หลายแบบ เช่น retry ด้วย parameter ที่ปรับใหม่ สลับไปใช้ tool สำรอง หรือส่งต่อให้คนช่วยตัดสินใจ (human-in-the-loop) ไม่ใช่พัง แล้วก็หยุดเลย หรือเพิกเฉย error แล้วทำต่อไปเรื่อยๆ"
+  },
+  {
+    "id": 12,
+    "question": "What are 'safety constraints' in an AI agent system?",
+    "choices": {
+      "A": "Physical barriers around the server room",
+      "B": "Predefined rules and boundaries that limit what actions an agent can take to prevent harmful outcomes",
+      "C": "Encryption protocols for data in transit",
+      "D": "Hardware temperature limits for GPU cooling"
+    },
+    "answer": "B",
+    "explanation": "Safety constraints คือกฎและขอบเขตที่กำหนดไว้ล่วงหน้าเพื่อจำกัดสิ่งที่ agent ทำได้ เช่น ห้ามลบไฟล์โดยไม่ได้รับอนุญาต ห้ามส่งข้อมูลออกไปข้างนอก ห้ามทำ transaction เกินวงเงิน เป็น guardrails ที่ป้องกันไม่ให้ agent ทำอะไรอันตรายหรือไม่พึงประสงค์"
+  },
+  {
+    "id": 13,
+    "question": "Which benchmark is commonly used to evaluate AI agents on real-world computer tasks?",
+    "choices": {
+      "A": "ImageNet",
+      "B": "WebArena and SWE-bench",
+      "C": "MNIST",
+      "D": "WordNet"
+    },
+    "answer": "B",
+    "explanation": "WebArena ใช้ทดสอบ agent ในการทำงานบน web จริงๆ เช่น ช็อปปิ้ง จัดการ content ส่วน SWE-bench ทดสอบ agent ในการแก้ bug จาก real GitHub issues ทั้งสอง benchmark เน้น real-world tasks ไม่ใช่ ImageNet หรือ MNIST ที่เน้นแค่ image classification"
+  },
+  {
+    "id": 14,
+    "question": "What is 'agent-human handoff'?",
+    "choices": {
+      "A": "Transferring the AI model weights to a human researcher",
+      "B": "The process where an agent escalates a task to a human when it cannot proceed confidently",
+      "C": "A human physically handing a device to an AI robot",
+      "D": "Converting human-written code into agent-compatible format"
+    },
+    "answer": "B",
+    "explanation": "Agent-human handoff คือกระบวนการที่ agent ส่งต่องานให้คนเมื่อ agent ไม่มั่นใจหรือเจอสถานการณ์ที่เกินขอบเขตที่ทำได้ เช่น ลูกค้าร้องเรียนเรื่องซับซ้อน agent ก็โอนให้ human agent รับช่วงต่อ เป็น best practice ที่สำคัญมากในระบบ production"
+  },
+  {
+    "id": 15,
+    "question": "What does 'agent observability' refer to?",
+    "choices": {
+      "A": "The ability of an agent to observe its physical environment through cameras",
+      "B": "Tools and practices for monitoring, tracing, and debugging agent behavior and decisions in real-time",
+      "C": "The visual appearance of an agent's user interface",
+      "D": "An agent's ability to read and interpret charts"
+    },
+    "answer": "B",
+    "explanation": "Agent observability คือการมี tools และ practices สำหรับ monitor, trace, และ debug พฤติกรรมของ agent ได้แบบ real-time เช่น ดู trace ของ chain of thought, ดูว่าเรียก tool อะไรบ้าง ใช้เวลาเท่าไหร่ เสียค่า token เท่าไหร่ ใช้ tools อย่าง LangSmith หรือ Arize Phoenix"
+  },
+  {
+    "id": 16,
+    "question": "Which is an effective strategy for optimizing AI agent costs?",
+    "choices": {
+      "A": "Always using the largest and most expensive model for every task",
+      "B": "Using model routing to assign simpler tasks to cheaper models and complex tasks to powerful models",
+      "C": "Disabling all safety checks to reduce token usage",
+      "D": "Running agents only during off-peak hours for lower pricing"
+    },
+    "answer": "B",
+    "explanation": "Model routing เป็นกลยุทธ์ที่ดีมากสำหรับ cost optimization คือส่ง task ง่ายๆ ไปให้ model เล็กราคาถูก แล้ว task ยากๆ ค่อยส่งไป model ใหญ่ นอกจากนี้ยังมี caching, prompt optimization, และ batching ช่วยลดต้นทุนได้อีก"
+  },
+  {
+    "id": 17,
+    "question": "What is a key technique for reducing AI agent latency?",
+    "choices": {
+      "A": "Adding more reasoning steps to improve accuracy",
+      "B": "Parallelizing independent tool calls and using streaming responses",
+      "C": "Increasing the temperature parameter to speed up generation",
+      "D": "Using larger context windows for every request"
+    },
+    "answer": "B",
+    "explanation": "การลด latency ของ agent ทำได้หลายวิธี เช่น parallelize tool calls ที่ไม่ depend กัน ใช้ streaming response ให้ user เห็นผลเร็วขึ้น cache ผลลัพธ์ที่ใช้บ่อย และใช้ smaller model สำหรับ subtask ที่ไม่ซับซ้อน ไม่ใช่เพิ่ม reasoning step เพราะจะยิ่งช้า"
+  },
+  {
+    "id": 18,
+    "question": "What is the difference between stateful and stateless agents?",
+    "choices": {
+      "A": "Stateful agents work in the US; stateless agents work internationally",
+      "B": "Stateful agents maintain context across interactions; stateless agents treat each request independently",
+      "C": "Stateful agents are more secure; stateless agents are vulnerable to attacks",
+      "D": "Stateful agents use GPUs; stateless agents use CPUs only"
+    },
+    "answer": "B",
+    "explanation": "Stateful agent จะเก็บ context และข้อมูลจากการ interact ก่อนหน้าไว้ เลยจำได้ว่าเคยคุยอะไรกันมาบ้าง ส่วน stateless agent แต่ละ request เป็นอิสระต่อกัน ไม่มีความทรงจำ ข้อดีของ stateless คือ scale ง่ายกว่า แต่ stateful ให้ experience ที่ดีกว่า"
+  },
+  {
+    "id": 19,
+    "question": "What is 'agent sandboxing'?",
+    "choices": {
+      "A": "Testing agents in desert-themed virtual environments",
+      "B": "Running agents in an isolated environment to contain potential damage from their actions",
+      "C": "A method for training agents using sandbox games",
+      "D": "Storing agent logs in a sandboxed database"
+    },
+    "answer": "B",
+    "explanation": "Agent sandboxing คือการรัน agent ใน isolated environment เพื่อจำกัดความเสียหายที่อาจเกิดขึ้น เช่น รัน code ที่ agent สร้างใน container ที่แยกออกจากระบบหลัก ถ้า agent ทำอะไรพัง ก็ไม่กระทบ production environment ของจริง เป็นเรื่อง security ที่สำคัญมาก"
+  },
+  {
+    "id": 20,
+    "question": "What is AutoGen primarily designed for?",
+    "choices": {
+      "A": "Automatically generating training data for image classifiers",
+      "B": "Enabling multi-agent conversations where agents can collaborate and converse with each other and humans",
+      "C": "Auto-generating unit tests for Python code",
+      "D": "Automatically scaling GPU resources based on demand"
+    },
+    "answer": "B",
+    "explanation": "AutoGen เป็น framework จาก Microsoft ที่เน้นเรื่อง multi-agent conversation คือสร้าง agent หลายตัวที่คุยกันเองได้ และคุยกับคนได้ด้วย เช่น สร้าง agent ที่เป็น coder กับ reviewer ให้ช่วยกัน review code ได้โดยอัตโนมัติ เหมาะกับงานที่ต้องการ collaboration"
+  }
+]

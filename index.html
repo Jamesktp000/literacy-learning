@@ -376,7 +376,7 @@
 
   <div class="header">
     <h1>🤖 AI Literacy Tutor</h1>
-    <p>300 Questions • Cycle 20 at a time</p>
+    <p>1,000 Questions • Cycle 20 at a time</p>
   </div>
 
   <div class="container">
@@ -402,14 +402,14 @@
           <span class="icon">🔄</span>
           <div>
             <div class="label">Cycle Mode</div>
-            <div class="desc">ไล่ทำทีละ 20 ข้อ ตามลำดับ ไปจนครบ 300 ข้อ</div>
+            <div class="desc">ไล่ทำทีละ 20 ข้อ ตามลำดับ ไปจนครบ 1,000 ข้อ</div>
           </div>
         </button>
         <button class="menu-btn" onclick="startMode('shuffle')">
           <span class="icon">🎲</span>
           <div>
             <div class="label">Shuffle Mode</div>
-            <div class="desc">สุ่มลำดับทั้ง 300 ข้อ แล้ววนทีละ 20</div>
+            <div class="desc">สุ่มลำดับทั้ง 1,000 ข้อ แล้ววนทีละ 20</div>
           </div>
         </button>
         <button class="menu-btn" onclick="startMode('quick')">
@@ -557,12 +557,17 @@
     // ═══ LOAD QUESTIONS ═══
     async function loadQuestions() {
       const files = [];
-      for (let i = 1; i <= 15; i++) {
+      for (let i = 1; i <= 50; i++) {
         files.push(`questions/set${i}.json`);
       }
-      const results = await Promise.all(files.map(f => fetch(f).then(r => r.json())));
-      allQuestions = results.flat();
-      document.getElementById('total-q').textContent = allQuestions.length;
+      const results = await Promise.allSettled(files.map(f => fetch(f).then(r => {
+        if (!r.ok) throw new Error('not found');
+        return r.json();
+      })));
+      allQuestions = results
+        .filter(r => r.status === 'fulfilled')
+        .flatMap(r => r.value);
+      document.getElementById('total-q').textContent = allQuestions.length.toLocaleString();
       document.getElementById('total-rounds').textContent = Math.ceil(allQuestions.length / BATCH);
     }
 

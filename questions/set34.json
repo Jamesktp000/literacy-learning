@@ -1,0 +1,242 @@
+[
+  {
+    "id": 1,
+    "question": "In what year was the Dartmouth Conference held, which is widely considered the founding event of Artificial Intelligence as a field?",
+    "choices": {
+      "A": "1943",
+      "B": "1956",
+      "C": "1969",
+      "D": "1974"
+    },
+    "answer": "B",
+    "explanation": "Dartmouth Conference จัดขึ้นในปี 1956 ที่ Dartmouth College ถือเป็นจุดกำเนิดของ AI เป็น field วิชาการอย่างเป็นทางการ โดย John McCarthy เป็นคนเสนอจัดงานนี้ขึ้นมา และเป็นคนบัญญัติคำว่า Artificial Intelligence ด้วย"
+  },
+  {
+    "id": 2,
+    "question": "Who is credited with coining the term 'Artificial Intelligence'?",
+    "choices": {
+      "A": "Alan Turing",
+      "B": "Marvin Minsky",
+      "C": "John McCarthy",
+      "D": "Geoffrey Hinton"
+    },
+    "answer": "C",
+    "explanation": "John McCarthy เป็นคนบัญญัติคำว่า Artificial Intelligence ตอนเขาเสนอจัด Dartmouth Conference ในปี 1956 เขาเป็นหนึ่งในผู้บุกเบิก AI ยุคแรกเลย นอกจากนี้ยังเป็นคนพัฒนาภาษา LISP ที่ใช้ในงาน AI อีกด้วย"
+  },
+  {
+    "id": 3,
+    "question": "What is the 'Turing Test' designed to evaluate?",
+    "choices": {
+      "A": "The processing speed of a computer",
+      "B": "Whether a machine can exhibit intelligent behavior indistinguishable from a human",
+      "C": "The amount of data a machine can store",
+      "D": "How fast a machine can learn new tasks"
+    },
+    "answer": "B",
+    "explanation": "Turing Test ถูกเสนอโดย Alan Turing ในปี 1950 ผ่านบทความ 'Computing Machinery and Intelligence' เป็นการทดสอบว่าเครื่องสามารถแสดงพฤติกรรมที่ฉลาดจนแยกไม่ออกจากมนุษย์ได้หรือเปล่า ถ้าคนถามคำถามแล้วแยกไม่ได้ว่าคุยกับคนหรือเครื่อง ก็ถือว่าผ่าน"
+  },
+  {
+    "id": 4,
+    "question": "Which era of AI (roughly 1970s–1980s) was dominated by rule-based systems that encoded human expertise?",
+    "choices": {
+      "A": "The Connectionist Era",
+      "B": "The Deep Learning Era",
+      "C": "The Expert Systems Era",
+      "D": "The Transformer Era"
+    },
+    "answer": "C",
+    "explanation": "Expert Systems Era คือยุคที่ AI ใช้ rule-based approach เอาความรู้ของผู้เชี่ยวชาญมาเขียนเป็น if-then rules ระบบดังๆ เช่น MYCIN (วินิจฉัยโรค) และ DENDRAL (วิเคราะห์สารเคมี) ยุคนี้ AI ได้รับความนิยมมากในเชิงพาณิชย์ก่อนจะเข้าสู่ AI Winter"
+  },
+  {
+    "id": 5,
+    "question": "What does the term 'AI Winter' refer to?",
+    "choices": {
+      "A": "A period when AI systems were used primarily for weather prediction",
+      "B": "A period of reduced funding, interest, and progress in AI research",
+      "C": "A season-based AI training schedule used in early labs",
+      "D": "The cooling systems required to run early AI hardware"
+    },
+    "answer": "B",
+    "explanation": "AI Winter คือช่วงที่ funding และ interest ใน AI ลดลงอย่างมาก เพราะ AI ไม่สามารถทำตามที่สัญญาไว้ได้ มี AI Winter หลักๆ สองครั้ง คือช่วงกลาง 1970s และช่วงปลาย 1980s–1990s ทุกคนผิดหวังเลยหยุดลงทุน"
+  },
+  {
+    "id": 6,
+    "question": "IBM's Deep Blue defeated world chess champion Garry Kasparov in which year?",
+    "choices": {
+      "A": "1992",
+      "B": "1997",
+      "C": "2001",
+      "D": "2005"
+    },
+    "answer": "B",
+    "explanation": "Deep Blue ชนะ Garry Kasparov ในปี 1997 ถือเป็น milestone สำคัญของ AI เพราะเป็นครั้งแรกที่เครื่องเอาชนะแชมป์หมากรุกโลกในการแข่งขันเต็มรูปแบบ แต่จริงๆ Deep Blue ใช้ brute-force search มากกว่า intelligence แบบที่เราเข้าใจกันนะ"
+  },
+  {
+    "id": 7,
+    "question": "Geoffrey Hinton, Yann LeCun, and Yoshua Bengio are often called the 'Godfathers of' which subfield of AI?",
+    "choices": {
+      "A": "Expert Systems",
+      "B": "Robotics",
+      "C": "Deep Learning",
+      "D": "Natural Language Processing"
+    },
+    "answer": "C",
+    "explanation": "สามคนนี้ได้รับฉายา Godfathers of Deep Learning เพราะเป็นผู้บุกเบิกงานวิจัย neural networks ตั้งแต่ยุคที่ไม่มีใครเชื่อว่ามันจะเวิร์ค ทั้งสามคนได้รับรางวัล Turing Award ปี 2018 ร่วมกัน ซึ่งถือเป็น Nobel Prize ของสาย computer science"
+  },
+  {
+    "id": 8,
+    "question": "What breakthrough in 2012 is widely considered the start of the modern Deep Learning revolution?",
+    "choices": {
+      "A": "IBM Watson winning Jeopardy!",
+      "B": "AlexNet winning the ImageNet competition by a large margin",
+      "C": "Google Translate launching neural machine translation",
+      "D": "The release of TensorFlow"
+    },
+    "answer": "B",
+    "explanation": "AlexNet ที่สร้างโดย Alex Krizhevsky ภายใต้การดูแลของ Geoffrey Hinton ชนะ ImageNet Large Scale Visual Recognition Challenge ปี 2012 ด้วย error rate ที่ต่ำกว่าคู่แข่งมากๆ ถือเป็นจุดเปลี่ยนที่ทำให้วงการหันมาจริงจังกับ deep learning"
+  },
+  {
+    "id": 9,
+    "question": "Google DeepMind's AlphaGo defeated the world Go champion Lee Sedol in which year?",
+    "choices": {
+      "A": "2014",
+      "B": "2016",
+      "C": "2018",
+      "D": "2020"
+    },
+    "answer": "B",
+    "explanation": "AlphaGo เอาชนะ Lee Sedol ในปี 2016 ที่กรุงโซล ผลการแข่ง 4-1 ถือเป็นเหตุการณ์สำคัญมาก เพราะ Go มีความซับซ้อนมากกว่าหมากรุก brute-force ไม่ได้ ต้องใช้ deep learning กับ Monte Carlo tree search ถึงจะชนะ"
+  },
+  {
+    "id": 10,
+    "question": "The 'Transformer' architecture, introduced in the paper 'Attention Is All You Need', was published in which year?",
+    "choices": {
+      "A": "2015",
+      "B": "2017",
+      "C": "2019",
+      "D": "2021"
+    },
+    "answer": "B",
+    "explanation": "Paper 'Attention Is All You Need' ตีพิมพ์ในปี 2017 โดยทีมจาก Google เสนอ Transformer architecture ที่ใช้ self-attention mechanism แทนที่ RNN/LSTM เดิม ถือเป็น paradigm shift ที่เปลี่ยนวงการ NLP และ AI ทั้งหมดเลย GPT, BERT, ทุกอย่างก่อร่างมาจากนี้"
+  },
+  {
+    "id": 11,
+    "question": "ChatGPT was released by OpenAI in November of which year, triggering a massive public interest in generative AI?",
+    "choices": {
+      "A": "2020",
+      "B": "2021",
+      "C": "2022",
+      "D": "2023"
+    },
+    "answer": "C",
+    "explanation": "ChatGPT เปิดตัวในเดือนพฤศจิกายน 2022 และมีผู้ใช้ถึง 100 ล้านคนภายในสองเดือน ถือเป็น 'ChatGPT moment' ที่ทำให้คนทั่วไปตื่นตัวเรื่อง generative AI อย่างมาก ส่งผลให้ทุกบริษัทเทคโนโลยีแข่งกันพัฒนา AI chatbot"
+  },
+  {
+    "id": 12,
+    "question": "Who is the CEO of DeepMind, known for developing AlphaGo and AlphaFold?",
+    "choices": {
+      "A": "Sam Altman",
+      "B": "Dario Amodei",
+      "C": "Demis Hassabis",
+      "D": "Andrew Ng"
+    },
+    "answer": "C",
+    "explanation": "Demis Hassabis เป็นผู้ร่วมก่อตั้งและ CEO ของ DeepMind ซึ่งตอนนี้เป็นส่วนหนึ่งของ Google เขาเป็นคนนำทีมพัฒนา AlphaGo, AlphaFold (ทำนายโครงสร้างโปรตีน) และได้รับรางวัล Nobel Prize สาขาเคมีปี 2024 ด้วย"
+  },
+  {
+    "id": 13,
+    "question": "Dario Amodei is best known as the CEO of which AI company?",
+    "choices": {
+      "A": "OpenAI",
+      "B": "Anthropic",
+      "C": "Google DeepMind",
+      "D": "Meta AI"
+    },
+    "answer": "B",
+    "explanation": "Dario Amodei เป็น CEO ของ Anthropic บริษัทที่พัฒนา Claude เขาเคยเป็น VP of Research ที่ OpenAI ก่อนจะออกมาก่อตั้ง Anthropic ในปี 2021 โดยเน้นเรื่อง AI safety เป็นหลัก"
+  },
+  {
+    "id": 14,
+    "question": "Which AI pioneer is known for co-founding the Stanford AI Lab and teaching one of the first massive open online courses (MOOCs) on Machine Learning?",
+    "choices": {
+      "A": "Yann LeCun",
+      "B": "Andrew Ng",
+      "C": "Marvin Minsky",
+      "D": "Geoffrey Hinton"
+    },
+    "answer": "B",
+    "explanation": "Andrew Ng เป็นผู้ร่วมก่อตั้ง Google Brain และ Coursera คอร์ส Machine Learning ของเขาบน Coursera เป็นหนึ่งในคอร์สที่มีคนเรียนมากที่สุดในโลก เขายังเคยเป็น Chief Scientist ที่ Baidu อีกด้วย ถือเป็นคนที่ทำให้ AI education เข้าถึงคนทั่วไปได้มากขึ้น"
+  },
+  {
+    "id": 15,
+    "question": "Marvin Minsky, a key figure at MIT, is best known for his contributions to which area of early AI?",
+    "choices": {
+      "A": "Generative adversarial networks",
+      "B": "Transformer architecture",
+      "C": "Theories of human cognition and neural networks",
+      "D": "Reinforcement learning from human feedback"
+    },
+    "answer": "C",
+    "explanation": "Marvin Minsky เป็นผู้ร่วมก่อตั้ง MIT AI Lab และเป็นหนึ่งในผู้บุกเบิก AI ยุคแรก งานของเขาเน้นเรื่อง cognitive science และ neural networks เขาเขียนหนังสือ 'The Society of Mind' ที่เสนอทฤษฎีว่า intelligence เกิดจาก agent เล็กๆ หลายตัวทำงานร่วมกัน"
+  },
+  {
+    "id": 16,
+    "question": "What is the 'Bitter Lesson' in AI, as articulated by Rich Sutton?",
+    "choices": {
+      "A": "AI will never surpass human intelligence",
+      "B": "General methods that leverage computation are ultimately the most effective, outperforming hand-crafted human knowledge",
+      "C": "Expert systems are always superior to neural networks",
+      "D": "AI research funding should focus exclusively on symbolic reasoning"
+    },
+    "answer": "B",
+    "explanation": "Bitter Lesson ของ Rich Sutton บอกว่า วิธีที่ใช้ computation เป็นหลัก (เช่น search, learning) สุดท้ายจะเอาชนะวิธีที่พยายามใส่ human knowledge เข้าไปเสมอ ประวัติศาสตร์ AI พิสูจน์ซ้ำแล้วซ้ำเล่าว่า scale compute ชนะ hand-crafted rules ทุกที"
+  },
+  {
+    "id": 17,
+    "question": "DALL-E, the AI system capable of generating images from text descriptions, was developed by which company?",
+    "choices": {
+      "A": "Google",
+      "B": "Meta",
+      "C": "OpenAI",
+      "D": "Stability AI"
+    },
+    "answer": "C",
+    "explanation": "DALL-E พัฒนาโดย OpenAI เปิดตัวครั้งแรกในปี 2021 สามารถสร้างภาพจาก text prompt ได้ ส่วน Stable Diffusion เป็นของ Stability AI อย่าสับสนกันนะ DALL-E ชื่อเป็นการผสมระหว่าง Salvador Dalí กับ WALL-E"
+  },
+  {
+    "id": 18,
+    "question": "How did Moore's Law historically contribute to AI progress?",
+    "choices": {
+      "A": "It ensured that AI algorithms became more ethical over time",
+      "B": "It predicted that computing power would roughly double every two years, enabling increasingly complex AI models",
+      "C": "It mandated government funding for AI research every decade",
+      "D": "It guaranteed that AI would achieve consciousness by 2030"
+    },
+    "answer": "B",
+    "explanation": "Moore's Law สังเกตว่าจำนวน transistor บน chip จะเพิ่มเป็นสองเท่าทุกสองปีโดยประมาณ การที่ computing power เพิ่มขึ้นเรื่อยๆ ทำให้ algorithm ที่เคยไม่ practical กลายเป็นใช้ได้จริง deep learning ประสบความสำเร็จก็เพราะ compute ที่มากพอนั่นเอง"
+  },
+  {
+    "id": 19,
+    "question": "IBM Watson gained fame in 2011 by defeating human champions in which game show?",
+    "choices": {
+      "A": "Who Wants to Be a Millionaire",
+      "B": "Jeopardy!",
+      "C": "Wheel of Fortune",
+      "D": "The Price Is Right"
+    },
+    "answer": "B",
+    "explanation": "IBM Watson ชนะ Jeopardy! ในปี 2011 โดยเอาชนะ Ken Jennings และ Brad Rutter สองแชมป์ตลอดกาล Watson ใช้ NLP ในการเข้าใจคำถามและ search ฐานข้อมูลหาคำตอบ ถือเป็น milestone สำคัญของ NLP ในยุคนั้น"
+  },
+  {
+    "id": 20,
+    "question": "Which major paradigm shift in AI moved the field from hand-engineered features to learned representations?",
+    "choices": {
+      "A": "From symbolic AI to connectionism (neural networks)",
+      "B": "From analog computing to digital computing",
+      "C": "From single-player games to multiplayer games",
+      "D": "From English language models to multilingual models"
+    },
+    "answer": "A",
+    "explanation": "Paradigm shift จาก symbolic AI (ใช้ rules และ logic) ไปสู่ connectionism (neural networks ที่เรียนรู้ representations เอง) เป็นการเปลี่ยนแปลงครั้งใหญ่ที่สุดในวงการ AI แทนที่จะ engineer features ด้วยมือ ตอนนี้ model เรียนรู้ features เองจาก data ซึ่งได้ผลดีกว่ามาก"
+  }
+]

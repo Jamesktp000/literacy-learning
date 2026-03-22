@@ -1,0 +1,242 @@
+[
+  {
+    "id": 1,
+    "question": "What is AIoT?",
+    "choices": {
+      "A": "A protocol for transferring AI models between devices",
+      "B": "The integration of Artificial Intelligence with the Internet of Things",
+      "C": "A type of neural network designed for IoT sensors",
+      "D": "An AI-based operating system for smart devices"
+    },
+    "answer": "B",
+    "explanation": "AIoT คือการรวม Artificial Intelligence เข้ากับ Internet of Things ทำให้อุปกรณ์ IoT สามารถวิเคราะห์ข้อมูลและตัดสินใจได้อย่างชาญฉลาดมากขึ้น เช่น smart thermostat ที่เรียนรู้พฤติกรรมผู้ใช้แล้วปรับอุณหภูมิเองได้"
+  },
+  {
+    "id": 2,
+    "question": "Which of the following is a primary characteristic of a smart city?",
+    "choices": {
+      "A": "All citizens must use AI-powered personal assistants",
+      "B": "The city uses data and technology to improve urban services, efficiency, and quality of life",
+      "C": "Every building must have a robot receptionist",
+      "D": "The city government is run entirely by AI without human oversight"
+    },
+    "answer": "B",
+    "explanation": "Smart city คือเมืองที่ใช้ data และ technology เพื่อปรับปรุง urban services ต่างๆ ให้มีประสิทธิภาพ เช่น traffic management, energy optimization และ waste management โดยเน้นที่การ improve quality of life ของประชาชน ไม่ใช่การแทนที่มนุษย์ด้วย AI ทั้งหมด"
+  },
+  {
+    "id": 3,
+    "question": "How does 5G technology enhance AI applications?",
+    "choices": {
+      "A": "5G replaces the need for AI processing entirely",
+      "B": "5G provides higher bandwidth and lower latency, enabling real-time AI processing on edge devices",
+      "C": "5G is only useful for downloading AI models faster",
+      "D": "5G eliminates the need for cloud computing in AI"
+    },
+    "answer": "B",
+    "explanation": "5G ให้ bandwidth สูงและ latency ต่ำมาก ทำให้ AI applications ที่ต้องการ real-time processing เช่น autonomous vehicles หรือ remote surgery สามารถทำงานได้อย่างมีประสิทธิภาพ โดยเฉพาะเมื่อใช้ร่วมกับ edge computing ที่ประมวลผลใกล้กับ data source"
+  },
+  {
+    "id": 4,
+    "question": "Which AI application is commonly used in the retail industry?",
+    "choices": {
+      "A": "Seismic wave prediction",
+      "B": "Personalized product recommendations based on customer behavior",
+      "C": "Protein structure prediction",
+      "D": "Autonomous spacecraft navigation"
+    },
+    "answer": "B",
+    "explanation": "ในวงการ retail, AI ถูกใช้สำหรับ personalized product recommendations มากที่สุด โดยวิเคราะห์จาก customer behavior เช่น browsing history, purchase patterns และ demographic data เพื่อแนะนำสินค้าที่ลูกค้าน่าจะสนใจ เหมือนที่เราเห็นใน Amazon หรือ Shopee"
+  },
+  {
+    "id": 5,
+    "question": "How is AI transforming the insurance industry?",
+    "choices": {
+      "A": "By eliminating the need for any human insurance agents",
+      "B": "By automating claims processing, fraud detection, and risk assessment",
+      "C": "By guaranteeing zero false claims",
+      "D": "By setting a single universal premium for all customers"
+    },
+    "answer": "B",
+    "explanation": "AI ช่วย transform วงการประกันภัยโดยเฉพาะในด้าน claims processing automation, fraud detection และ risk assessment ทำให้กระบวนการเร็วขึ้นและแม่นยำขึ้น แต่ยังคงต้องมี human agents คอย oversight อยู่ ไม่ได้แทนที่คนทั้งหมด"
+  },
+  {
+    "id": 6,
+    "question": "What is an AI-powered Automated Valuation Model (AVM) used for in real estate?",
+    "choices": {
+      "A": "Designing the interior layout of buildings",
+      "B": "Estimating property values using data analysis and machine learning",
+      "C": "Managing tenant complaints automatically",
+      "D": "Constructing buildings with robotic labor"
+    },
+    "answer": "B",
+    "explanation": "Automated Valuation Model (AVM) ใช้ machine learning วิเคราะห์ข้อมูลหลายอย่าง เช่น comparable sales, location data, property features และ market trends เพื่อประเมินมูลค่าอสังหาริมทรัพย์ได้อย่างรวดเร็วและแม่นยำ ช่วยทั้ง buyers, sellers และ lenders"
+  },
+  {
+    "id": 7,
+    "question": "What is 'automated journalism' or 'robot journalism'?",
+    "choices": {
+      "A": "Robots that physically deliver newspapers",
+      "B": "AI systems that generate news articles from structured data",
+      "C": "Journalists who only write about AI topics",
+      "D": "AI that replaces all editorial decision-making in newsrooms"
+    },
+    "answer": "B",
+    "explanation": "Automated journalism คือการใช้ AI systems สร้าง news articles จาก structured data เช่น ผลการแข่งกีฬา, รายงานการเงิน หรือรายงานสภาพอากาศ โดย AI จะนำข้อมูลมาเขียนเป็นบทความอัตโนมัติ ตัวอย่างเช่น Associated Press ใช้ AI เขียน earnings reports"
+  },
+  {
+    "id": 8,
+    "question": "How is AI used in sports analytics?",
+    "choices": {
+      "A": "AI only tracks ticket sales for sporting events",
+      "B": "AI analyzes player performance, predicts injuries, and optimizes game strategies",
+      "C": "AI replaces referees in all professional sports",
+      "D": "AI is used exclusively for broadcasting sports events"
+    },
+    "answer": "B",
+    "explanation": "AI ในวงการ sports analytics ใช้วิเคราะห์ player performance จาก tracking data, predict injuries จาก workload patterns และช่วย coaches วาง game strategies ที่เหมาะสม เช่น NBA ใช้ player tracking cameras ร่วมกับ AI วิเคราะห์ movement patterns ของผู้เล่น"
+  },
+  {
+    "id": 9,
+    "question": "What role does AI play in the fashion industry?",
+    "choices": {
+      "A": "AI is only used to manufacture clothing in factories",
+      "B": "AI helps with trend forecasting, virtual try-ons, and personalized styling recommendations",
+      "C": "AI has completely replaced human fashion designers",
+      "D": "AI is limited to managing fashion show schedules"
+    },
+    "answer": "B",
+    "explanation": "AI ในวงการ fashion ทำได้หลายอย่าง เช่น trend forecasting โดยวิเคราะห์ social media และ runway data, virtual try-on ที่ใช้ AR/AI ให้ลูกค้าลองเสื้อผ้าเสมือนจริง และ personalized styling recommendations ที่แนะนำเสื้อผ้าตาม preference ของแต่ละคน"
+  },
+  {
+    "id": 10,
+    "question": "How is AI being used in the music industry?",
+    "choices": {
+      "A": "AI can only be used to adjust volume levels",
+      "B": "AI is used for music composition, recommendation algorithms, and mastering tracks",
+      "C": "AI has made human musicians completely obsolete",
+      "D": "AI is exclusively used for piracy detection"
+    },
+    "answer": "B",
+    "explanation": "AI ในวงการเพลงใช้ได้หลากหลาย ตั้งแต่ music composition ด้วยเครื่องมืออย่าง AIVA หรือ Suno, recommendation algorithms ที่ Spotify ใช้แนะนำเพลง ไปจนถึง AI mastering ที่ช่วยปรับแต่งเสียงเพลง แต่ human musicians ยังคงเป็นหัวใจสำคัญของ creativity"
+  },
+  {
+    "id": 11,
+    "question": "What is the key difference between an AI-powered chatbot and a virtual assistant?",
+    "choices": {
+      "A": "There is absolutely no difference between them",
+      "B": "Chatbots are typically task-specific for text conversations, while virtual assistants handle broader tasks including voice interaction and device control",
+      "C": "Virtual assistants can only answer questions, while chatbots can control devices",
+      "D": "Chatbots require internet but virtual assistants do not"
+    },
+    "answer": "B",
+    "explanation": "Chatbot มักจะเป็น task-specific เน้น text-based conversations ในขอบเขตจำกัด เช่น customer support bot ส่วน virtual assistant อย่าง Siri, Alexa จะ handle ได้หลากหลายกว่า รวมถึง voice interaction, device control และ integration กับ services ต่างๆ"
+  },
+  {
+    "id": 12,
+    "question": "What is a major ethical concern regarding AI voice cloning?",
+    "choices": {
+      "A": "Voice cloning always produces low-quality audio",
+      "B": "Voice cloning can be used to create fraudulent audio impersonating real people without consent",
+      "C": "Voice cloning is too expensive to be a real concern",
+      "D": "Voice cloning only works in English"
+    },
+    "answer": "B",
+    "explanation": "Voice cloning ที่ก้าวหน้ามากในปัจจุบันสร้างปัญหา ethical ใหญ่มาก เพราะสามารถปลอมเสียงคนจริงได้แนบเนียน โดยไม่ได้รับ consent นำไปสู่ fraud, scam calls หรือ misinformation ได้ง่าย เช่น ปลอมเสียง CEO สั่งโอนเงิน ซึ่งเคยเกิดขึ้นจริง"
+  },
+  {
+    "id": 13,
+    "question": "How is AI used in HR and recruitment processes?",
+    "choices": {
+      "A": "AI randomly selects candidates without any criteria",
+      "B": "AI screens resumes, matches candidates to job requirements, and can conduct initial assessments",
+      "C": "AI completely replaces HR departments in all companies",
+      "D": "AI only sends rejection emails to candidates"
+    },
+    "answer": "B",
+    "explanation": "AI ใน HR/recruitment ช่วย screen resumes โดยจับคู่ skills กับ job requirements, ใช้ NLP วิเคราะห์ resume content และบางระบบยังทำ initial video interview assessments ได้ แต่ต้องระวังเรื่อง bias ที่อาจฝังอยู่ใน training data ด้วย"
+  },
+  {
+    "id": 14,
+    "question": "What is the primary benefit of AI in logistics and supply chain?",
+    "choices": {
+      "A": "AI eliminates the need for physical warehouses",
+      "B": "AI optimizes route planning, demand forecasting, and inventory management",
+      "C": "AI can teleport packages to their destination",
+      "D": "AI only tracks package delivery status"
+    },
+    "answer": "B",
+    "explanation": "AI ในด้าน logistics ช่วย optimize route planning ให้เส้นทางขนส่งดีที่สุด, demand forecasting เพื่อ predict ความต้องการสินค้า และ inventory management เพื่อจัดการ stock ให้เหมาะสม ช่วยลดต้นทุนและเพิ่มประสิทธิภาพทั้ง supply chain"
+  },
+  {
+    "id": 15,
+    "question": "What is AI-powered dynamic pricing?",
+    "choices": {
+      "A": "Setting a fixed price for all products forever",
+      "B": "Using AI to adjust prices in real-time based on demand, competition, and other market factors",
+      "C": "Letting customers set their own prices",
+      "D": "Randomly changing prices every hour"
+    },
+    "answer": "B",
+    "explanation": "Dynamic pricing ใช้ AI ปรับราคาแบบ real-time โดยวิเคราะห์ factors หลายอย่าง เช่น demand level, competitor pricing, time of day, inventory levels และ customer segments ตัวอย่างที่เห็นชัดคือ ride-sharing apps อย่าง Uber ที่ปรับราคาตาม surge pricing"
+  },
+  {
+    "id": 16,
+    "question": "How is AI applied in the telecommunications industry?",
+    "choices": {
+      "A": "AI only designs the physical appearance of mobile phones",
+      "B": "AI helps with network optimization, predictive maintenance, and customer churn prediction",
+      "C": "AI replaces all cell towers with satellites",
+      "D": "AI is used exclusively for translating phone calls"
+    },
+    "answer": "B",
+    "explanation": "ในวงการ telecom, AI ช่วย optimize network performance โดยจัดสรร bandwidth อัตโนมัติ, ทำ predictive maintenance เพื่อซ่อมอุปกรณ์ก่อนพัง และ predict customer churn เพื่อรักษาลูกค้า ช่วยให้ operators บริหาร network ได้มีประสิทธิภาพมากขึ้น"
+  },
+  {
+    "id": 17,
+    "question": "What is Building Information Modeling (BIM) enhanced with AI used for in construction?",
+    "choices": {
+      "A": "Only creating 3D models of buildings for entertainment",
+      "B": "Optimizing construction planning, detecting design clashes, and predicting project risks",
+      "C": "Replacing all construction workers with robots",
+      "D": "Exclusively managing construction worker payroll"
+    },
+    "answer": "B",
+    "explanation": "BIM + AI ในวงการก่อสร้างช่วย optimize construction planning, ตรวจจับ design clashes ก่อนเริ่มก่อสร้างจริง และ predict project risks เช่น delays หรือ cost overruns ทำให้ลดข้อผิดพลาดและ save ทั้งเวลาและค่าใช้จ่ายได้มาก"
+  },
+  {
+    "id": 18,
+    "question": "How does AI assist in design processes such as graphic and product design?",
+    "choices": {
+      "A": "AI can only copy existing designs exactly",
+      "B": "AI generates design variations, automates repetitive tasks, and provides data-driven design suggestions",
+      "C": "AI has completely replaced the need for human designers",
+      "D": "AI only selects color palettes"
+    },
+    "answer": "B",
+    "explanation": "AI-assisted design ช่วยสร้าง design variations หลายแบบให้เลือก, automate repetitive tasks เช่น resizing หรือ format conversion และให้ data-driven suggestions จาก user research ตัวอย่างเช่น generative design ใน product design ที่ AI สร้าง options หลายร้อยแบบตาม constraints ที่กำหนด"
+  },
+  {
+    "id": 19,
+    "question": "How can AI be used in event planning?",
+    "choices": {
+      "A": "AI can only print event tickets",
+      "B": "AI assists with venue selection, attendee prediction, scheduling optimization, and personalized experiences",
+      "C": "AI physically sets up event decorations",
+      "D": "AI replaces all event staff and performers"
+    },
+    "answer": "B",
+    "explanation": "AI ใน event planning ช่วยได้หลายด้าน เช่น แนะนำ venue ที่เหมาะสมจาก requirements, predict จำนวน attendees, optimize scheduling ให้ sessions ไม่ชนกัน และสร้าง personalized experiences สำหรับผู้เข้าร่วมแต่ละคน ทำให้จัด event ได้มีประสิทธิภาพมากขึ้น"
+  },
+  {
+    "id": 20,
+    "question": "How is AI transforming the tourism industry?",
+    "choices": {
+      "A": "AI only translates tourist brochures",
+      "B": "AI powers personalized travel recommendations, dynamic pricing for flights/hotels, and AI concierge services",
+      "C": "AI has eliminated the need for human tour guides entirely",
+      "D": "AI is only used to manage airport security"
+    },
+    "answer": "B",
+    "explanation": "AI เปลี่ยนวงการ tourism หลายด้าน ตั้งแต่ personalized travel recommendations ที่แนะนำสถานที่ตาม preferences, dynamic pricing สำหรับตั๋วเครื่องบินและโรงแรม ไปจนถึง AI concierge ที่ช่วยตอบคำถามนักท่องเที่ยว 24/7 ทำให้ travel experience สะดวกและ personalized มากขึ้น"
+  }
+]

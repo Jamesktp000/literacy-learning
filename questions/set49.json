@@ -1,0 +1,242 @@
+[
+  {
+    "id": 1,
+    "question": "What is a widely discussed prediction about AI capabilities by 2030?",
+    "choices": {
+      "A": "AI will have completely replaced all human workers worldwide",
+      "B": "AI systems are expected to become significantly more capable in reasoning, multimodal understanding, and domain-specific tasks",
+      "C": "AI will achieve consciousness and demand legal rights",
+      "D": "AI development will be permanently halted due to energy constraints"
+    },
+    "answer": "B",
+    "explanation": "การคาดการณ์ที่สมเหตุสมผลที่สุดคือ AI จะมี capabilities ที่เพิ่มขึ้นอย่างมากใน reasoning และ multimodal understanding ส่วนตัวเลือกอื่นเป็น extreme predictions ที่ไม่น่าจะเกิดขึ้นจริงภายในปี 2030"
+  },
+  {
+    "id": 2,
+    "question": "How might AI contribute to a post-scarcity economic model?",
+    "choices": {
+      "A": "By eliminating all forms of currency immediately",
+      "B": "By automating production and reducing costs of goods and services to near zero over time",
+      "C": "By forcing everyone to stop working entirely",
+      "D": "By creating artificial shortages to drive up prices"
+    },
+    "answer": "B",
+    "explanation": "แนวคิด post-scarcity economics คือ AI จะช่วย automate การผลิตและลด cost ของสินค้าและบริการลงอย่างมาก ทำให้ของจำเป็นมี abundance มากขึ้น ไม่ได้หมายความว่าเงินจะหายไปทันทีหรือคนจะหยุดทำงานหมด"
+  },
+  {
+    "id": 3,
+    "question": "What is the primary argument for Universal Basic Income (UBI) in relation to AI automation?",
+    "choices": {
+      "A": "UBI would encourage people to compete harder for remaining jobs",
+      "B": "UBI could provide a financial safety net as AI displaces certain types of jobs",
+      "C": "UBI would eliminate the need for any form of taxation",
+      "D": "UBI is designed to punish companies that use AI"
+    },
+    "answer": "B",
+    "explanation": "UBI ถูกเสนอเป็น safety net ทางการเงินเพื่อรองรับคนที่อาจถูก displace จากงานเพราะ AI automation โดยให้รายได้พื้นฐานเพื่อให้คนมีเวลา reskill หรือหา meaningful work ใหม่"
+  },
+  {
+    "id": 4,
+    "question": "How is the 'meaning of work' likely to change as AI takes over routine tasks?",
+    "choices": {
+      "A": "Work will become completely meaningless for all humans",
+      "B": "Humans may shift toward work that emphasizes creativity, empathy, relationship-building, and purpose-driven activities",
+      "C": "Everyone will be forced to become AI engineers",
+      "D": "The concept of work will be legally abolished"
+    },
+    "answer": "B",
+    "explanation": "เมื่อ AI รับงาน routine ไป คนจะ shift ไปทำงานที่เน้น creativity, empathy, และ purpose-driven activities มากขึ้น ความหมายของ work จะเปลี่ยนจากแค่ทำเงินไปเป็นเรื่อง fulfillment และ contribution ต่อสังคม"
+  },
+  {
+    "id": 5,
+    "question": "What does the concept of 'human purpose' look like in a world with advanced AI?",
+    "choices": {
+      "A": "Humans will have no purpose since AI can do everything better",
+      "B": "Human purpose may increasingly center around relationships, meaning-making, ethical judgment, and experiences that AI cannot replicate",
+      "C": "Human purpose will be assigned by AI systems",
+      "D": "Purpose will only be found in competing against AI"
+    },
+    "answer": "B",
+    "explanation": "แม้ AI จะเก่งหลายอย่าง แต่ human purpose จะยังคงอยู่ใน areas ที่ AI ทำแทนไม่ได้จริงๆ เช่น relationships, meaning-making, ethical judgment, และ lived experiences ที่เป็นเอกลักษณ์ของมนุษย์"
+  },
+  {
+    "id": 6,
+    "question": "How can AI enhance human creativity rather than replace it?",
+    "choices": {
+      "A": "By generating all creative works autonomously without human input",
+      "B": "By serving as a tool that helps humans brainstorm, iterate, and explore creative possibilities faster",
+      "C": "By judging which human creations are worthy of publication",
+      "D": "By copying existing human art more efficiently"
+    },
+    "answer": "B",
+    "explanation": "AI ในฐานะ creativity enhancement tool ช่วยคน brainstorm, iterate, และ explore possibilities ได้เร็วขึ้น เช่น generate variations, suggest ideas, หรือช่วย prototype ทำให้ creative process มีประสิทธิภาพมากขึ้นโดยที่คนยังคงเป็น creative director"
+  },
+  {
+    "id": 7,
+    "question": "What best describes AI as a 'creative partner'?",
+    "choices": {
+      "A": "AI that owns the copyright to all jointly created works",
+      "B": "A collaborative relationship where humans guide creative vision while AI assists with execution, variation, and exploration",
+      "C": "AI that independently decides what creative projects to pursue",
+      "D": "A system where AI replaces the need for human artists entirely"
+    },
+    "answer": "B",
+    "explanation": "AI as creative partner คือ collaborative relationship ที่คนเป็นคน guide creative vision และ AI ช่วย execute, สร้าง variations, และ explore possibilities ต่างๆ เป็นการทำงานร่วมกัน ไม่ใช่ AI ทำเองทั้งหมด"
+  },
+  {
+    "id": 8,
+    "question": "What is 'human-AI co-creation'?",
+    "choices": {
+      "A": "AI creating content and humans merely approving it",
+      "B": "A process where humans and AI iteratively contribute to a creative work, each building on the other's contributions",
+      "C": "Humans training AI without any creative input",
+      "D": "AI systems creating content for other AI systems"
+    },
+    "answer": "B",
+    "explanation": "Human-AI co-creation คือ process ที่คนกับ AI ทำงานร่วมกันแบบ iterative โดยแต่ละฝ่ายต่อยอดจาก contributions ของอีกฝ่าย เช่น คนให้ concept แล้ว AI generate draft แล้วคน refine แล้ว AI ปรับต่อ เป็นวงจร"
+  },
+  {
+    "id": 9,
+    "question": "How does AI impact art appreciation?",
+    "choices": {
+      "A": "AI makes all art worthless because it can be mass-produced",
+      "B": "AI raises new questions about authorship, originality, and what we value in creative expression",
+      "C": "AI has no effect on how people appreciate art",
+      "D": "AI-generated art is universally considered superior to human art"
+    },
+    "answer": "B",
+    "explanation": "AI ทำให้เกิดคำถามใหม่เกี่ยวกับ authorship, originality, และว่าเรา value อะไรใน creative expression จริงๆ บางคนอาจ value human-made art มากขึ้นเพราะมี human story อยู่เบื้องหลัง ขณะที่บางคนอาจ appreciate AI art ในฐานะ new medium"
+  },
+  {
+    "id": 10,
+    "question": "In AI-assisted music composition, what role does the human musician typically play?",
+    "choices": {
+      "A": "The human simply presses a button and AI creates the entire song",
+      "B": "The human provides creative direction, selects from AI-generated options, and refines the final composition",
+      "C": "The human only listens to AI-generated music without any input",
+      "D": "The human is not involved at all in the process"
+    },
+    "answer": "B",
+    "explanation": "ใน AI-assisted music composition คน musician ทำหน้าที่เป็น creative director โดยให้ direction, เลือกจาก options ที่ AI generate, แล้ว refine ผลงานสุดท้าย เหมือนเป็น collaboration ที่คนคุม artistic vision"
+  },
+  {
+    "id": 11,
+    "question": "How can AI enhance storytelling?",
+    "choices": {
+      "A": "By writing complete novels that require no human editing",
+      "B": "By helping writers generate plot ideas, develop characters, overcome writer's block, and create interactive narratives",
+      "C": "By making all stories identical and formulaic",
+      "D": "By eliminating the need for story structure"
+    },
+    "answer": "B",
+    "explanation": "AI ช่วย enhance storytelling โดยช่วย writers generate plot ideas, develop characters, overcome writer's block, และสร้าง interactive narratives ได้ เป็นเครื่องมือที่ช่วยให้ creative process ราบรื่นขึ้น ไม่ใช่มาแทนที่ writer"
+  },
+  {
+    "id": 12,
+    "question": "What role does AI play in modern game design?",
+    "choices": {
+      "A": "AI can only be used for non-player character behavior and nothing else",
+      "B": "AI assists in procedural content generation, dynamic difficulty adjustment, NPC behavior, playtesting, and narrative branching",
+      "C": "AI has replaced all human game designers",
+      "D": "AI is prohibited from being used in game design"
+    },
+    "answer": "B",
+    "explanation": "AI มีบทบาทหลากหลายใน game design ตั้งแต่ procedural content generation, dynamic difficulty adjustment, NPC behavior, automated playtesting ไปจนถึง narrative branching ช่วยให้ games มี depth และ variety มากขึ้น"
+  },
+  {
+    "id": 13,
+    "question": "What are 'AI-generated worlds'?",
+    "choices": {
+      "A": "Physical planets created by AI robots",
+      "B": "Virtual environments procedurally created or enhanced by AI, including landscapes, buildings, ecosystems, and narratives",
+      "C": "Worlds where only AI inhabitants exist",
+      "D": "A marketing term with no actual technology behind it"
+    },
+    "answer": "B",
+    "explanation": "AI-generated worlds คือ virtual environments ที่ถูกสร้างหรือ enhance ด้วย AI ผ่าน procedural generation รวมถึง landscapes, buildings, ecosystems, และ narratives ใช้ใน games, simulations, และ metaverse applications"
+  },
+  {
+    "id": 14,
+    "question": "How might AI influence virtual economies?",
+    "choices": {
+      "A": "AI cannot interact with virtual economies in any way",
+      "B": "AI can help balance in-game economies, create dynamic pricing, detect fraud, and generate virtual goods and services",
+      "C": "AI will crash all virtual economies immediately",
+      "D": "AI only creates inflation in virtual economies"
+    },
+    "answer": "B",
+    "explanation": "AI ช่วย manage virtual economies ได้หลายทาง เช่น balance in-game economy, สร้าง dynamic pricing, detect fraud, และ generate virtual goods ทำให้ virtual economies มี stability และ richness มากขึ้น"
+  },
+  {
+    "id": 15,
+    "question": "What is the relationship between AI and the metaverse?",
+    "choices": {
+      "A": "AI and the metaverse are completely unrelated technologies",
+      "B": "AI powers key metaverse features including realistic avatars, natural language interaction, content generation, and world simulation",
+      "C": "The metaverse will replace AI entirely",
+      "D": "AI is only used to advertise metaverse products"
+    },
+    "answer": "B",
+    "explanation": "AI เป็น technology หลักที่ขับเคลื่อน metaverse features สำคัญ เช่น realistic avatars, natural language interaction กับ NPCs, content generation สำหรับ virtual worlds, และ world simulation ทำให้ metaverse experience สมจริงและ engaging มากขึ้น"
+  },
+  {
+    "id": 16,
+    "question": "What is a 'digital identity' in the context of AI?",
+    "choices": {
+      "A": "Only a username and password combination",
+      "B": "The comprehensive digital representation of a person, including their online behavior patterns, preferences, and AI-generated profiles that shape how they are perceived and treated online",
+      "C": "A government-issued identification number for robots",
+      "D": "A type of cryptocurrency wallet"
+    },
+    "answer": "B",
+    "explanation": "Digital identity ในยุค AI คือ comprehensive digital representation ของคน รวมถึง online behavior patterns, preferences, และ AI-generated profiles ที่มีผลต่อว่าคนจะถูก perceive และ treat อย่างไรในโลก online ซึ่งกว้างกว่าแค่ username กับ password"
+  },
+  {
+    "id": 17,
+    "question": "Why is personal data ownership important in the age of AI?",
+    "choices": {
+      "A": "Personal data has no value to AI companies",
+      "B": "Because AI systems are trained on and make decisions based on personal data, giving individuals control over their data protects privacy and prevents exploitation",
+      "C": "Personal data ownership only matters for celebrities",
+      "D": "Data ownership is automatically guaranteed by all AI systems"
+    },
+    "answer": "B",
+    "explanation": "Personal data ownership สำคัญมากเพราะ AI systems ถูก train จากและตัดสินใจ based on personal data การให้คน control data ของตัวเองช่วย protect privacy และป้องกัน exploitation โดยเฉพาะเมื่อ AI สามารถ infer ข้อมูลลึกๆ จาก data ได้"
+  },
+  {
+    "id": 18,
+    "question": "What is a 'digital legacy' in relation to AI?",
+    "choices": {
+      "A": "The amount of storage space a person uses on the internet",
+      "B": "The digital footprint, online accounts, AI-trained models, and digital assets a person leaves behind after death or departure from platforms",
+      "C": "A new type of computer virus",
+      "D": "The first computer a person ever owned"
+    },
+    "answer": "B",
+    "explanation": "Digital legacy คือ digital footprint, online accounts, AI-trained models, และ digital assets ที่คนทิ้งไว้หลังจากเสียชีวิตหรือหยุดใช้ platforms รวมถึง data ที่ AI ใช้ train ซึ่งอาจยังคงอยู่และถูกใช้ต่อไป"
+  },
+  {
+    "id": 19,
+    "question": "What is a 'posthumous digital presence'?",
+    "choices": {
+      "A": "A website that only dead people can access",
+      "B": "AI-powered recreations or continuations of a deceased person's digital persona, such as chatbots trained on their messages or deepfake videos",
+      "C": "Automatically deleting all online accounts after someone dies",
+      "D": "A social media account that was never used"
+    },
+    "answer": "B",
+    "explanation": "Posthumous digital presence คือการใช้ AI สร้าง recreations หรือ continuations ของ digital persona ของคนที่เสียชีวิตแล้ว เช่น chatbots ที่ train จาก messages ของเขา หรือ deepfake videos ซึ่งก่อให้เกิดคำถาม ethical มากมาย"
+  },
+  {
+    "id": 20,
+    "question": "What is a key ethical concern regarding AI-powered posthumous digital presence?",
+    "choices": {
+      "A": "It uses too much electricity",
+      "B": "The deceased person never consented to having their likeness or personality recreated by AI, raising issues of dignity and consent",
+      "C": "It is always illegal in every country",
+      "D": "It only works for famous people"
+    },
+    "answer": "B",
+    "explanation": "Ethical concern หลักของ posthumous digital presence คือเรื่อง consent เพราะคนที่เสียชีวิตไม่ได้ให้ความยินยอมในการ recreate likeness หรือ personality ของตัวเอง ทำให้เกิดคำถามเรื่อง dignity, consent, และสิทธิของผู้เสียชีวิตในการไม่ถูก represent โดย AI"
+  }
+]

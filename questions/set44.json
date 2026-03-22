@@ -1,0 +1,242 @@
+[
+  {
+    "id": 1,
+    "question": "What is a fundamental principle of conversational AI design?",
+    "choices": {
+      "A": "The chatbot should pretend to be human at all times",
+      "B": "Design conversations to be natural, transparent, and goal-oriented while setting clear expectations about AI capabilities",
+      "C": "The chatbot should use as much technical jargon as possible",
+      "D": "Conversations should always follow a rigid script with no flexibility"
+    },
+    "answer": "B",
+    "explanation": "หลักการออกแบบ conversational AI ที่ดีคือต้อง natural, transparent, และ goal-oriented พร้อมตั้ง expectation ที่ชัดเจนว่า AI ทำอะไรได้และทำอะไรไม่ได้ ไม่ควรหลอกว่าเป็นมนุษย์ และต้อง flexible พอที่จะรับมือกับ input ที่หลากหลาย"
+  },
+  {
+    "id": 2,
+    "question": "What is chatbot personality design and why does it matter?",
+    "choices": {
+      "A": "Giving the chatbot a human name so users think it's a real person",
+      "B": "Defining consistent tone, language style, and behavioral traits that align with brand identity and user expectations",
+      "C": "Programming the chatbot to tell jokes in every conversation",
+      "D": "Making the chatbot change personality based on each user's mood"
+    },
+    "answer": "B",
+    "explanation": "Chatbot personality design คือการกำหนด tone, language style, และ behavioral trait ที่สอดคล้องกับ brand identity และ user expectation ทำให้ user experience สม่ำเสมอและน่าเชื่อถือ เช่น chatbot ธนาคารควร formal ส่วน chatbot แบรนด์วัยรุ่นอาจ casual กว่า"
+  },
+  {
+    "id": 3,
+    "question": "What is a conversation flow in chatbot design?",
+    "choices": {
+      "A": "The speed at which the chatbot responds to messages",
+      "B": "The planned sequence of interactions that guides users through completing a task or getting information",
+      "C": "The amount of data flowing through the chatbot's server",
+      "D": "The order in which chatbot features were developed"
+    },
+    "answer": "B",
+    "explanation": "Conversation flow คือลำดับ interaction ที่วางแผนไว้เพื่อนำ user ไปสู่การทำ task หรือได้ข้อมูลที่ต้องการ ออกแบบเป็น flowchart หรือ dialog tree ที่ cover ทั้ง happy path และ edge case ต่างๆ ที่อาจเกิดขึ้น"
+  },
+  {
+    "id": 4,
+    "question": "What is a fallback strategy in chatbot design?",
+    "choices": {
+      "A": "A backup server that activates when the main server crashes",
+      "B": "A planned response when the chatbot cannot understand or handle a user's input",
+      "C": "A strategy for the chatbot to avoid all difficult questions",
+      "D": "A method to restart the conversation from the beginning"
+    },
+    "answer": "B",
+    "explanation": "Fallback strategy คือแผนรับมือเมื่อ chatbot ไม่เข้าใจหรือ handle input ของ user ไม่ได้ เช่น ขอให้ user rephrase, เสนอตัวเลือกที่เกี่ยวข้อง, หรือ transfer ไปหาคน fallback ที่ดีช่วยให้ user ไม่รู้สึก frustrate เมื่อ chatbot ไม่เข้าใจ"
+  },
+  {
+    "id": 5,
+    "question": "When should a chatbot escalate a conversation to a human agent?",
+    "choices": {
+      "A": "Never, the chatbot should always handle everything alone",
+      "B": "When the user expresses frustration, the query is too complex, or involves sensitive matters the bot cannot handle",
+      "C": "Only when the user explicitly types the word 'human'",
+      "D": "Randomly, to give human agents something to do"
+    },
+    "answer": "B",
+    "explanation": "Chatbot ควร escalate ไปหา human agent เมื่อ user แสดงความ frustrate, query ซับซ้อนเกินไป, หรือเกี่ยวกับเรื่อง sensitive ที่ bot จัดการไม่ได้ เช่น complaint ที่ต้องใช้ judgment, เรื่องกฎหมาย, หรือเมื่อ bot ตอบผิดซ้ำหลายรอบ"
+  },
+  {
+    "id": 6,
+    "question": "What is multi-turn conversation management?",
+    "choices": {
+      "A": "Limiting conversations to a single question and answer",
+      "B": "Maintaining context and coherence across multiple exchanges in a conversation to handle complex interactions",
+      "C": "Allowing multiple users to talk to the chatbot at exactly the same time",
+      "D": "Rotating between different chatbot personalities during a conversation"
+    },
+    "answer": "B",
+    "explanation": "Multi-turn conversation management คือการรักษา context และความต่อเนื่องข้าม exchange หลายรอบ เพื่อ handle interaction ที่ซับซ้อน เช่น user ถามเรื่องสินค้า แล้วถามต่อว่า 'แล้วอันนี้ล่ะ' bot ต้องเข้าใจว่า 'อันนี้' หมายถึงอะไร"
+  },
+  {
+    "id": 7,
+    "question": "Why is context window management important for conversational AI?",
+    "choices": {
+      "A": "It determines the physical screen size needed to display the chat",
+      "B": "LLMs have limited context windows, so strategies like summarization and selective retention are needed to maintain relevant conversation history",
+      "C": "It only matters for conversations shorter than 5 messages",
+      "D": "Context windows automatically expand as conversations get longer"
+    },
+    "answer": "B",
+    "explanation": "LLM มี context window จำกัด ดังนั้นต้องมี strategy จัดการ เช่น summarize conversation เก่า, เลือกเก็บแค่ข้อมูลสำคัญ, หรือใช้ retrieval เพื่อดึงข้อมูลที่เกี่ยวข้องกลับมา ถ้าไม่จัดการดี bot จะลืมสิ่งที่คุยกันไว้ในตอนต้น"
+  },
+  {
+    "id": 8,
+    "question": "What is the purpose of conversation summarization in chatbot systems?",
+    "choices": {
+      "A": "To create a report for management about chatbot performance",
+      "B": "To condense long conversation histories into shorter representations that preserve key information within limited context windows",
+      "C": "To translate conversations into different languages",
+      "D": "To delete sensitive information from chat logs"
+    },
+    "answer": "B",
+    "explanation": "Conversation summarization ย่อ conversation history ยาวๆ ให้สั้นลงแต่ยังเก็บข้อมูลสำคัญไว้ เพื่อให้ใช้ context window อย่างมีประสิทธิภาพ ทำให้ bot จำเรื่องสำคัญได้แม้คุยกันมาหลาย turn โดยไม่เกิน token limit"
+  },
+  {
+    "id": 9,
+    "question": "What is user intent classification in conversational AI?",
+    "choices": {
+      "A": "Classifying users into demographic groups based on their messages",
+      "B": "Determining what the user wants to accomplish from their natural language input",
+      "C": "Ranking users by how frequently they use the chatbot",
+      "D": "Categorizing messages as spam or not spam"
+    },
+    "answer": "B",
+    "explanation": "Intent classification คือการระบุว่า user ต้องการทำอะไรจาก natural language input เช่น user พิมพ์ 'อยากจองตั๋ว' ก็จะถูก classify เป็น intent 'book_ticket' ซึ่งเป็นขั้นตอนแรกที่สำคัญก่อนที่ bot จะตอบสนองได้ถูกต้อง"
+  },
+  {
+    "id": 10,
+    "question": "What is slot filling in dialog systems?",
+    "choices": {
+      "A": "Filling time slots in a calendar application",
+      "B": "Extracting and collecting specific pieces of information needed to complete a user's request",
+      "C": "Inserting advertisements into chatbot conversations",
+      "D": "Filling empty database records with default values"
+    },
+    "answer": "B",
+    "explanation": "Slot filling คือการดึงและรวบรวมข้อมูลที่จำเป็นเพื่อตอบสนอง request ของ user เช่น ถ้า user ต้องการจองโรงแรม ต้อง fill slot: เมืองไหน (destination), วันที่เข้าพัก (check-in), วันที่ออก (check-out), จำนวนห้อง (rooms) ถ้ายังไม่ครบ bot จะถามเพิ่ม"
+  },
+  {
+    "id": 11,
+    "question": "What is dialog state tracking?",
+    "choices": {
+      "A": "Tracking how many dialogs a chatbot has had in total",
+      "B": "Maintaining a structured representation of the current state of the conversation including user goals, filled slots, and conversation history",
+      "C": "Recording the GPS location of users during conversations",
+      "D": "Tracking the emotional state of the chatbot's developers"
+    },
+    "answer": "B",
+    "explanation": "Dialog state tracking คือการรักษา structured representation ของสถานะ conversation ปัจจุบัน รวมถึง user goal, slot ที่ fill แล้ว, และ conversation history ทำให้ bot รู้ว่าตอนนี้อยู่จุดไหนของ conversation และต้องทำอะไรต่อ"
+  },
+  {
+    "id": 12,
+    "question": "Which metrics are commonly used to evaluate conversational AI?",
+    "choices": {
+      "A": "Only the number of messages sent per day",
+      "B": "Task completion rate, user satisfaction score, conversation length, fallback rate, and resolution rate",
+      "C": "Only the speed of response in milliseconds",
+      "D": "Only the number of users who downloaded the chatbot app"
+    },
+    "answer": "B",
+    "explanation": "Conversational AI ใช้ metrics หลายตัวในการ evaluate เช่น task completion rate (ทำ task สำเร็จไหม), user satisfaction score, conversation length, fallback rate (ตอบไม่ได้บ่อยแค่ไหน), และ resolution rate ดูหลาย metrics พร้อมกันให้ภาพที่ครบถ้วน"
+  },
+  {
+    "id": 13,
+    "question": "How is user satisfaction typically measured for chatbots?",
+    "choices": {
+      "A": "By counting the number of exclamation marks in user messages",
+      "B": "Through post-conversation surveys, implicit signals like task completion, and sentiment analysis of user messages",
+      "C": "By measuring how long users spend talking to the chatbot",
+      "D": "User satisfaction cannot be measured for chatbots"
+    },
+    "answer": "B",
+    "explanation": "วัด user satisfaction ได้หลายวิธี ทั้ง post-conversation survey (เช่น CSAT score, thumbs up/down), implicit signal อย่าง task completion rate, และ sentiment analysis จากข้อความของ user ใช้หลายวิธีร่วมกันจะได้ภาพที่แม่นยำกว่า"
+  },
+  {
+    "id": 14,
+    "question": "What is conversation analytics?",
+    "choices": {
+      "A": "Counting only the total number of conversations per day",
+      "B": "Analyzing conversation data to discover patterns, common user intents, drop-off points, and areas for improvement",
+      "C": "Converting conversations into statistical charts for decoration",
+      "D": "Analyzing only conversations that resulted in complaints"
+    },
+    "answer": "B",
+    "explanation": "Conversation analytics คือการวิเคราะห์ data จาก conversation เพื่อค้นหา pattern, common intent, จุดที่ user drop off, และจุดที่ต้องปรับปรุง ช่วยให้ทีมเข้าใจว่า user ใช้ bot อย่างไรและปรับปรุง bot ได้ตรงจุด"
+  },
+  {
+    "id": 15,
+    "question": "How is A/B testing applied to chatbots?",
+    "choices": {
+      "A": "Testing whether the chatbot works on both Android and iOS",
+      "B": "Comparing two or more versions of conversation flows, responses, or features to determine which performs better with users",
+      "C": "Testing the chatbot in two different languages only",
+      "D": "Running the chatbot on two different servers simultaneously"
+    },
+    "answer": "B",
+    "explanation": "A/B testing สำหรับ chatbot คือการเปรียบเทียบ conversation flow, response, หรือ feature สองเวอร์ชันขึ้นไปว่าอันไหนดีกว่า เช่น ทดสอบ greeting message สองแบบ หรือ fallback strategy ต่างกัน แล้ววัดผลจาก metric อย่าง completion rate"
+  },
+  {
+    "id": 16,
+    "question": "What makes effective chatbot onboarding design?",
+    "choices": {
+      "A": "Showing a lengthy tutorial video before allowing any interaction",
+      "B": "Clearly introducing the chatbot's capabilities, setting expectations, and providing example prompts to help users get started",
+      "C": "Requiring users to read a 10-page manual before chatting",
+      "D": "Letting users figure out the chatbot on their own without any guidance"
+    },
+    "answer": "B",
+    "explanation": "Chatbot onboarding ที่ดีควร introduce ความสามารถของ bot อย่างชัดเจน ตั้ง expectation ว่าทำอะไรได้บ้าง และเสนอ example prompt ให้ user เริ่มต้นได้ง่าย ไม่ควรยาวเกินไป แต่ต้องให้ข้อมูลพอที่ user จะใช้ bot ได้อย่างมีประสิทธิภาพ"
+  },
+  {
+    "id": 17,
+    "question": "What are best practices for error recovery in chatbot conversations?",
+    "choices": {
+      "A": "Immediately ending the conversation when an error occurs",
+      "B": "Acknowledging the misunderstanding, asking clarifying questions, and offering alternative ways to proceed",
+      "C": "Blaming the user for providing unclear input",
+      "D": "Repeating the exact same response until the user gives up"
+    },
+    "answer": "B",
+    "explanation": "Error recovery ที่ดีคือ acknowledge ว่าเข้าใจผิด ถาม clarifying question และเสนอทางเลือกอื่นให้ user เช่น 'ขอโทษค่ะ ไม่แน่ใจว่าเข้าใจถูก คุณหมายถึง A หรือ B คะ?' ทำให้ user ไม่ frustrate และสามารถกลับมา track ได้"
+  },
+  {
+    "id": 18,
+    "question": "Why is managing user expectations important for chatbots?",
+    "choices": {
+      "A": "It is not important because users already know what chatbots can do",
+      "B": "Setting clear boundaries about what the chatbot can and cannot do prevents user frustration and builds trust",
+      "C": "Managing expectations means promising the chatbot can do everything",
+      "D": "It only matters for enterprise chatbots, not consumer ones"
+    },
+    "answer": "B",
+    "explanation": "การจัดการ expectation ของ user สำคัญมาก เพราะถ้า user คาดหวังว่า bot ทำได้ทุกอย่างแล้วทำไม่ได้จริง จะเกิดความผิดหวัง การบอกชัดเจนว่าทำอะไรได้และไม่ได้ช่วยสร้าง trust และลดความ frustrate"
+  },
+  {
+    "id": 19,
+    "question": "What are chatbot transparency requirements?",
+    "choices": {
+      "A": "Making the chatbot's source code publicly available",
+      "B": "Disclosing that users are interacting with an AI, explaining data usage, and being honest about the bot's limitations",
+      "C": "Using transparent UI elements like glass-effect design",
+      "D": "Allowing users to see all other users' conversations"
+    },
+    "answer": "B",
+    "explanation": "Chatbot transparency requirements รวมถึงการบอก user ว่ากำลังคุยกับ AI (ไม่ใช่คน), อธิบายว่า data ถูกใช้อย่างไร, และซื่อสัตย์เรื่อง limitation ของ bot กฎหมายหลายแห่งเช่น EU AI Act กำหนดให้ต้อง disclose ว่าเป็น AI"
+  },
+  {
+    "id": 20,
+    "question": "How can conversational AI be made more accessible?",
+    "choices": {
+      "A": "Accessibility is not relevant for text-based chatbots",
+      "B": "Supporting voice input/output, screen reader compatibility, simple language options, and accommodating diverse communication styles",
+      "C": "Only by making the chatbot available in multiple languages",
+      "D": "By requiring all users to use the same standardized input format"
+    },
+    "answer": "B",
+    "explanation": "ทำให้ conversational AI accessible ได้โดย support voice input/output, ทำงานร่วมกับ screen reader ได้, มีตัวเลือกภาษาง่ายๆ, และ accommodate communication style ที่หลากหลาย เพื่อให้คนพิการ ผู้สูงอายุ และคนที่มีข้อจำกัดต่างๆ ใช้ได้"
+  }
+]

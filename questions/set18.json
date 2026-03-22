@@ -1,0 +1,242 @@
+[
+  {
+    "id": 1,
+    "question": "How is AI being used in astronomy?",
+    "choices": {
+      "A": "AI only controls telescope motor movements",
+      "B": "AI helps classify galaxies, detect exoplanets, and analyze vast amounts of astronomical data",
+      "C": "AI has replaced all human astronomers",
+      "D": "AI is used exclusively for naming new stars"
+    },
+    "answer": "B",
+    "explanation": "AI ในด้าน astronomy ช่วยจัดกลุ่ม galaxies จากภาพถ่ายล้านๆ ภาพ, detect exoplanets จาก light curve patterns ของดาวฤกษ์ และวิเคราะห์ astronomical data ปริมาณมหาศาลที่มนุษย์ทำไม่ไหว เช่น Kepler mission ใช้ ML ค้นพบ exoplanets ที่มนุษย์พลาดไป"
+  },
+  {
+    "id": 2,
+    "question": "How does AI assist in archaeological research?",
+    "choices": {
+      "A": "AI physically excavates archaeological sites",
+      "B": "AI analyzes satellite imagery to identify potential archaeological sites and helps reconstruct artifacts",
+      "C": "AI dates artifacts by tasting the soil",
+      "D": "AI only creates museum virtual tours"
+    },
+    "answer": "B",
+    "explanation": "AI ช่วยงาน archaeology โดยวิเคราะห์ satellite imagery และ aerial photography เพื่อระบุ potential archaeological sites ที่มองไม่เห็นด้วยตาเปล่า และช่วย reconstruct artifacts ที่แตกหักจาก fragments โดยใช้ pattern matching ทำให้ค้นพบ sites ใหม่ๆ ได้เร็วขึ้นมาก"
+  },
+  {
+    "id": 3,
+    "question": "What role does AI play in computational linguistics?",
+    "choices": {
+      "A": "AI only creates new languages for fictional worlds",
+      "B": "AI helps document endangered languages, analyze language evolution, and build translation models for low-resource languages",
+      "C": "AI determines which language is the best in the world",
+      "D": "AI only corrects grammar mistakes"
+    },
+    "answer": "B",
+    "explanation": "AI ในด้าน linguistics ช่วย document endangered languages โดยเรียนรู้จาก limited data, วิเคราะห์ language evolution ว่าภาษาเปลี่ยนแปลงอย่างไรตามเวลา และสร้าง translation models สำหรับ low-resource languages ที่มี training data น้อย ช่วยอนุรักษ์ภาษาที่กำลังจะสูญหาย"
+  },
+  {
+    "id": 4,
+    "question": "How is AI being applied in psychology research?",
+    "choices": {
+      "A": "AI provides therapy sessions without any human supervision",
+      "B": "AI analyzes behavioral patterns, assists in mental health screening, and helps identify psychological markers from text and speech",
+      "C": "AI diagnoses all mental health conditions with 100% accuracy",
+      "D": "AI only administers online surveys"
+    },
+    "answer": "B",
+    "explanation": "AI ใน psychology research ช่วยวิเคราะห์ behavioral patterns จาก large datasets, assist ในการ screen mental health issues เบื้องต้นจาก social media posts หรือ speech patterns และ identify psychological markers เช่น depression indicators จาก text analysis แต่ยังต้องมี professional validate เสมอ"
+  },
+  {
+    "id": 5,
+    "question": "How can AI be used in sociological research?",
+    "choices": {
+      "A": "AI replaces sociologists in forming social theories",
+      "B": "AI helps analyze large-scale social media data, detect social trends, and model complex social dynamics",
+      "C": "AI only counts population numbers",
+      "D": "AI can perfectly predict individual human behavior"
+    },
+    "answer": "B",
+    "explanation": "AI ช่วย sociological research โดยวิเคราะห์ social media data ขนาดใหญ่เพื่อเข้าใจ public sentiment, detect social trends ที่กำลังเกิดขึ้น และ model complex social dynamics เช่น information spread หรือ social network formation ทำให้เห็น patterns ในสังคมที่ traditional methods จับไม่ได้"
+  },
+  {
+    "id": 6,
+    "question": "How is AI used in political science research?",
+    "choices": {
+      "A": "AI decides election outcomes",
+      "B": "AI helps analyze political discourse, predict election trends, and study legislative patterns",
+      "C": "AI writes all political speeches",
+      "D": "AI only counts votes at polling stations"
+    },
+    "answer": "B",
+    "explanation": "AI ในด้าน political science ใช้วิเคราะห์ political discourse จาก speeches และ social media, predict election trends จาก polling data และ sentiment analysis และ study legislative patterns เช่น voting behavior ของ legislators ช่วยนักวิจัยเข้าใจ political dynamics ได้ลึกซึ้งขึ้น"
+  },
+  {
+    "id": 7,
+    "question": "How does AI contribute to economics forecasting?",
+    "choices": {
+      "A": "AI guarantees accurate prediction of stock market crashes",
+      "B": "AI analyzes economic indicators, alternative data sources, and complex patterns to generate forecasts that complement traditional models",
+      "C": "AI only tracks currency exchange rates",
+      "D": "AI has eliminated all economic uncertainty"
+    },
+    "answer": "B",
+    "explanation": "AI ช่วย economics forecasting โดยวิเคราะห์ economic indicators แบบ traditional ร่วมกับ alternative data เช่น satellite imagery, shipping data และ social media sentiment เพื่อสร้าง forecasts ที่ complement traditional econometric models แต่ไม่สามารถ guarantee accuracy ได้เพราะเศรษฐกิจมี uncertainty สูงมาก"
+  },
+  {
+    "id": 8,
+    "question": "How is AI transforming supply chain management?",
+    "choices": {
+      "A": "AI eliminates the need for any inventory",
+      "B": "AI provides end-to-end visibility, demand sensing, risk prediction, and autonomous decision-making across the supply chain",
+      "C": "AI only tracks shipment locations",
+      "D": "AI makes all supply chains fully automated without human workers"
+    },
+    "answer": "B",
+    "explanation": "AI ใน supply chain management ให้ end-to-end visibility ทั้ง chain, demand sensing ที่แม่นยำกว่า traditional forecasting, risk prediction เช่น supplier disruptions และ autonomous decision-making เช่น auto-reordering ช่วยให้ supply chain resilient และ responsive มากขึ้น"
+  },
+  {
+    "id": 9,
+    "question": "What AI technologies are primarily used in warehouse automation?",
+    "choices": {
+      "A": "Only voice recognition systems",
+      "B": "Autonomous mobile robots, computer vision for picking, and AI-optimized warehouse layout and inventory placement",
+      "C": "AI-powered air conditioning systems only",
+      "D": "Blockchain technology exclusively"
+    },
+    "answer": "B",
+    "explanation": "Warehouse automation ใช้ AI หลายอย่าง เช่น autonomous mobile robots (AMRs) สำหรับเคลื่อนย้ายสินค้า, computer vision ช่วย picking สินค้าที่ถูกต้อง และ AI-optimized layout ที่จัด placement สินค้าให้ efficient ที่สุด ตัวอย่างเช่น Amazon ใช้ robots ในคลังสินค้ากว่าแสนตัว"
+  },
+  {
+    "id": 10,
+    "question": "How does AI improve fleet management?",
+    "choices": {
+      "A": "AI only monitors fuel consumption",
+      "B": "AI optimizes routes, predicts vehicle maintenance needs, monitors driver behavior, and improves fleet utilization",
+      "C": "AI designs new vehicle models",
+      "D": "AI replaces all human drivers immediately"
+    },
+    "answer": "B",
+    "explanation": "AI ใน fleet management ช่วย optimize routes แบบ real-time ตาม traffic conditions, predict vehicle maintenance ก่อนรถเสีย, monitor driver behavior เพื่อความปลอดภัย และ improve fleet utilization ให้ใช้รถได้คุ้มค่าที่สุด ช่วยลดค่าใช้จ่ายและเพิ่ม efficiency"
+  },
+  {
+    "id": 11,
+    "question": "What is the main controversy surrounding AI-powered predictive policing?",
+    "choices": {
+      "A": "The AI systems are too expensive for police departments",
+      "B": "The systems can perpetuate and amplify existing racial and socioeconomic biases in historical crime data",
+      "C": "The AI is too slow to be useful for law enforcement",
+      "D": "Predictive policing only works in rural areas"
+    },
+    "answer": "B",
+    "explanation": "Predictive policing controversy หลักคือ AI systems เรียนรู้จาก historical crime data ที่มี racial และ socioeconomic biases ฝังอยู่ เช่น ถ้าตำรวจเคย patrol ในย่านคนผิวสีมากกว่า data ก็จะบอกว่าย่านนั้นอาชญากรรมสูง ทำให้ AI perpetuate and amplify biases เดิม เป็น feedback loop"
+  },
+  {
+    "id": 12,
+    "question": "What is a key concern about AI in immigration screening systems?",
+    "choices": {
+      "A": "The systems process applications too slowly",
+      "B": "AI systems may discriminate against applicants based on nationality, ethnicity, or other protected characteristics embedded in training data",
+      "C": "AI makes immigration completely open with no screening",
+      "D": "AI only checks passport photos"
+    },
+    "answer": "B",
+    "explanation": "AI ในระบบ immigration screening มีความกังวลว่า algorithms อาจ discriminate ต่อผู้สมัครบางกลุ่มตาม nationality, ethnicity หรือ characteristics อื่นที่ embedded อยู่ใน training data การตัดสินใจของ AI ที่ส่งผลต่อชีวิตคนต้อง transparent และ accountable"
+  },
+  {
+    "id": 13,
+    "question": "How is AI used in insurance underwriting?",
+    "choices": {
+      "A": "AI randomly assigns insurance premiums",
+      "B": "AI analyzes diverse data sources to assess risk more granularly and automate underwriting decisions",
+      "C": "AI only checks if applicants have paid previous premiums",
+      "D": "AI eliminates the need for any risk assessment"
+    },
+    "answer": "B",
+    "explanation": "AI ใน insurance underwriting วิเคราะห์ data sources หลากหลายกว่าเดิมมาก เช่น IoT data, social data และ behavioral patterns เพื่อ assess risk ได้ granular มากขึ้น และ automate underwriting decisions ให้เร็วขึ้น แต่ต้องระวังเรื่อง fairness ว่าไม่ discriminate กลุ่มใดกลุ่มหนึ่ง"
+  },
+  {
+    "id": 14,
+    "question": "What fairness concern exists with AI-powered credit scoring?",
+    "choices": {
+      "A": "AI credit scores are always perfectly fair",
+      "B": "AI models may use proxy variables that correlate with race or income level, leading to discriminatory lending decisions",
+      "C": "AI credit scoring is only used in developing countries",
+      "D": "AI gives everyone the same credit score"
+    },
+    "answer": "B",
+    "explanation": "AI credit scoring มีปัญหา fairness เพราะ models อาจใช้ proxy variables ที่ correlate กับ race หรือ income level เช่น zip code อาจเป็น proxy ของ race ทำให้ lending decisions discriminate กลุ่มบางกลุ่มโดยไม่ตั้งใจ เรียกว่า disparate impact แม้ไม่ได้ใช้ protected attributes โดยตรง"
+  },
+  {
+    "id": 15,
+    "question": "How can AI contribute to housing discrimination?",
+    "choices": {
+      "A": "AI always ensures equal access to housing",
+      "B": "AI algorithms in real estate platforms may steer certain demographic groups away from specific neighborhoods or show them different listings",
+      "C": "AI only builds houses and has no role in housing allocation",
+      "D": "Housing discrimination is impossible with AI systems"
+    },
+    "answer": "B",
+    "explanation": "AI ใน real estate platforms อาจสร้าง housing discrimination โดย steer กลุ่ม demographic บางกลุ่มออกจากบาง neighborhoods หรือแสดง listings ที่ต่างกัน เรียกว่า digital redlining ซึ่งเป็น modern version ของ discriminatory practices เดิม แม้จะไม่ได้ตั้งใจ program ไว้โดยตรง"
+  },
+  {
+    "id": 16,
+    "question": "What triggered major AI hiring bias lawsuits?",
+    "choices": {
+      "A": "AI systems hired too many qualified candidates",
+      "B": "AI recruitment tools were found to systematically discriminate against women, older workers, or minorities in resume screening",
+      "C": "AI offered salaries that were too high",
+      "D": "AI hiring tools only worked during business hours"
+    },
+    "answer": "B",
+    "explanation": "AI hiring bias lawsuits เกิดจาก recruitment tools ที่ systematically discriminate กลุ่มบางกลุ่ม เช่น กรณี Amazon ที่ AI penalize resumes ที่มีคำว่า 'women's' เพราะ train จาก historical hiring data ที่เป็น male-dominated ทำให้หลายเมืองออกกฎหมายบังคับ audit AI hiring tools"
+  },
+  {
+    "id": 17,
+    "question": "Why have some cities banned AI facial recognition technology?",
+    "choices": {
+      "A": "Because facial recognition technology is too expensive",
+      "B": "Due to concerns about mass surveillance, high error rates for minorities, and threats to civil liberties",
+      "C": "Because the technology does not work at all",
+      "D": "Because it makes people look bad in photos"
+    },
+    "answer": "B",
+    "explanation": "หลายเมืองเช่น San Francisco และ Boston แบน facial recognition เพราะกังวลเรื่อง mass surveillance ที่ละเมิด privacy, error rates สูงสำหรับ minorities โดยเฉพาะคนผิวสีและผู้หญิง และ threats ต่อ civil liberties เป็นการ balance ระหว่าง security กับ individual rights"
+  },
+  {
+    "id": 18,
+    "question": "What is the primary ethical concern about Lethal Autonomous Weapons Systems (LAWS)?",
+    "choices": {
+      "A": "They are too expensive to manufacture",
+      "B": "They raise questions about accountability, the morality of delegating life-and-death decisions to machines, and potential for escalation",
+      "C": "They only work in cold climates",
+      "D": "They make warfare too slow"
+    },
+    "answer": "B",
+    "explanation": "Lethal Autonomous Weapons Systems (LAWS) สร้างปัญหา ethical ใหญ่มากเรื่อง accountability (ถ้า AI ฆ่าคนผิด ใครรับผิดชอบ), morality ของการปล่อยให้เครื่องจักรตัดสินใจ life-and-death และ potential escalation ที่ AI อาจตอบโต้เร็วเกินควบคุม หลายประเทศเรียกร้องให้ UN แบน LAWS"
+  },
+  {
+    "id": 19,
+    "question": "What is a social credit system that uses AI?",
+    "choices": {
+      "A": "A social media platform for sharing credit card rewards",
+      "B": "A system that uses AI to monitor and score citizens' behavior, rewarding or punishing them based on their social trustworthiness",
+      "C": "A system that only tracks academic grades",
+      "D": "An AI tool for managing social media followers"
+    },
+    "answer": "B",
+    "explanation": "Social credit system ใช้ AI monitor และ score พฤติกรรมประชาชน ให้รางวัลหรือลงโทษตาม social trustworthiness เช่น ระบบในจีนที่ track behaviors ต่างๆ แล้วให้คะแนน คนคะแนนต่ำอาจถูกจำกัดสิทธิ์ เช่น ซื้อตั๋วเครื่องบินไม่ได้ สร้างข้อถกเถียงเรื่อง surveillance และ human rights"
+  },
+  {
+    "id": 20,
+    "question": "What is a key concern about AI in content recommendation regulation?",
+    "choices": {
+      "A": "Content recommendations are always perfectly aligned with user interests",
+      "B": "AI recommendation algorithms can create filter bubbles, promote addictive engagement, and amplify misinformation, raising calls for regulatory oversight",
+      "C": "Content recommendation AI is only used on one platform",
+      "D": "AI recommendations never influence user behavior"
+    },
+    "answer": "B",
+    "explanation": "AI content recommendation algorithms สร้างปัญหาหลายอย่าง เช่น filter bubbles ที่คนเห็นแต่ content ที่เห็นด้วย, promote addictive engagement เพื่อให้ users อยู่บน platform นานขึ้น และ amplify misinformation ทำให้หลายประเทศเรียกร้อง regulatory oversight เช่น EU Digital Services Act ที่บังคับให้ platforms transparent เรื่อง algorithms"
+  }
+]

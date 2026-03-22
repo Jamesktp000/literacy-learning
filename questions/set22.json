@@ -1,0 +1,242 @@
+[
+  {
+    "id": 1,
+    "question": "What is the 'data flywheel' effect in AI product management?",
+    "choices": {
+      "A": "A hardware component that speeds up data storage in AI systems",
+      "B": "A virtuous cycle where more users generate more data, which improves the model, attracting even more users",
+      "C": "A data backup mechanism that rotates between multiple servers",
+      "D": "A technique for compressing datasets to reduce training time"
+    },
+    "answer": "B",
+    "explanation": "Data flywheel คือ virtuous cycle ที่ยิ่งมี users มาก ก็ยิ่งได้ data มาก → model ดีขึ้น → ดึงดูด users มากขึ้นอีก เป็น competitive advantage สำคัญของ AI products เช่น Google Search ยิ่งคนใช้เยอะ ยิ่ง search results ดี"
+  },
+  {
+    "id": 2,
+    "question": "Which of the following best describes the 'cold start problem' in AI systems?",
+    "choices": {
+      "A": "AI models that take too long to boot up on cold hardware",
+      "B": "The difficulty of making accurate predictions or recommendations when there is little or no historical data available",
+      "C": "The problem of training AI in cold weather environments where hardware overheats less",
+      "D": "A bug that occurs when AI systems are first deployed to production servers"
+    },
+    "answer": "B",
+    "explanation": "Cold start problem คือปัญหาที่ AI system ยังมี data น้อยมากตอนเริ่มต้น ทำให้ predictions หรือ recommendations ไม่แม่นยำ เช่น recommendation system ใหม่ที่ยังไม่รู้ preferences ของ user เลย ต้องหาวิธี bootstrap เช่น ใช้ popular items หรือถาม user preferences ตอนสมัคร"
+  },
+  {
+    "id": 3,
+    "question": "In active learning, what is the role of the 'oracle'?",
+    "choices": {
+      "A": "A database system that stores all training examples",
+      "B": "An entity (often a human annotator) that provides labels for the data points selected by the model",
+      "C": "A pre-trained model that generates synthetic data for training",
+      "D": "A testing framework that validates model performance automatically"
+    },
+    "answer": "B",
+    "explanation": "ใน active learning, oracle คือคนหรือ entity ที่ให้ label กับ data points ที่ model เลือกมา โดย model จะเลือก data points ที่มัน uncertain มากที่สุด แล้วถาม oracle ให้ label ทำให้ใช้ labeling budget อย่างมีประสิทธิภาพ ไม่ต้อง label ทุก data point"
+  },
+  {
+    "id": 4,
+    "question": "What is curriculum learning in machine learning?",
+    "choices": {
+      "A": "Teaching AI models using textbooks and academic papers only",
+      "B": "A training strategy where the model is first trained on easier examples and progressively exposed to harder ones",
+      "C": "A method of training multiple models simultaneously in a classroom-like setting",
+      "D": "Using educational datasets exclusively for model pre-training"
+    },
+    "answer": "B",
+    "explanation": "Curriculum learning คือการ train model โดยเริ่มจาก easy examples ก่อน แล้วค่อยๆ เพิ่มความยากขึ้น เหมือนคนเรียนหนังสือจากง่ายไปยาก วิธีนี้ช่วยให้ model converge เร็วขึ้นและได้ performance ดีขึ้นในหลายๆ tasks"
+  },
+  {
+    "id": 5,
+    "question": "What does meta-learning in AI primarily aim to achieve?",
+    "choices": {
+      "A": "Training models on metadata rather than actual data",
+      "B": "Learning how to learn, so that models can quickly adapt to new tasks with minimal data",
+      "C": "Creating models that can only perform one specific task extremely well",
+      "D": "Analyzing the meta-tags of web pages for better search results"
+    },
+    "answer": "B",
+    "explanation": "Meta-learning หรือ 'learning to learn' คือการทำให้ model เรียนรู้วิธีการเรียนรู้ เพื่อที่จะ adapt ไปยัง new tasks ได้เร็วด้วย data น้อยๆ ตัวอย่างเช่น MAML (Model-Agnostic Meta-Learning) ที่ train model ให้ parameters อยู่ในจุดที่ fine-tune ไป task ใหม่ได้ง่าย"
+  },
+  {
+    "id": 6,
+    "question": "What is the key difference between zero-shot and few-shot learning?",
+    "choices": {
+      "A": "Zero-shot uses no training data at all, while few-shot uses millions of examples",
+      "B": "Zero-shot performs tasks without any task-specific examples, while few-shot uses a small number of examples to guide the model",
+      "C": "Zero-shot only works with images, while few-shot only works with text",
+      "D": "Zero-shot is faster but less accurate, while few-shot is slower but always more accurate"
+    },
+    "answer": "B",
+    "explanation": "Zero-shot คือ model ทำ task ได้โดยไม่ต้องเห็น example ของ task นั้นเลย (แค่บอก instruction) ส่วน few-shot คือให้ตัวอย่างไม่กี่ examples (เช่น 2-5 ตัวอย่าง) เพื่อช่วย guide model ว่า task นี้ต้องการ output แบบไหน ทั้งสองแบบไม่ต้อง fine-tune model"
+  },
+  {
+    "id": 7,
+    "question": "What is in-context learning (ICL) as used in large language models?",
+    "choices": {
+      "A": "Training the model on contextual data from a specific domain",
+      "B": "The model's ability to learn and perform tasks from examples or instructions provided directly in the prompt, without updating model weights",
+      "C": "A technique that requires retraining the model for each new context",
+      "D": "Using context clues from the internet to improve model responses in real time"
+    },
+    "answer": "B",
+    "explanation": "In-context learning (ICL) คือความสามารถของ LLM ที่จะเรียนรู้และทำ task จาก examples หรือ instructions ที่ให้ใน prompt เลย โดยไม่ต้อง update weights ของ model เลย เช่น ให้ตัวอย่างการแปลภาษา 3 คู่ใน prompt แล้ว model ก็แปลประโยคใหม่ได้ เป็น emergent ability ของ large models"
+  },
+  {
+    "id": 8,
+    "question": "What is Retrieval-Augmented Fine-Tuning (RAFT)?",
+    "choices": {
+      "A": "A method that fine-tunes a retrieval system without any language model",
+      "B": "A technique that combines retrieval-augmented generation with fine-tuning, training the model to use retrieved documents effectively for domain-specific tasks",
+      "C": "A way to retrieve pre-fine-tuned models from a cloud repository",
+      "D": "A process of removing irrelevant data from fine-tuning datasets using retrieval"
+    },
+    "answer": "B",
+    "explanation": "RAFT คือเทคนิคที่รวม RAG กับ fine-tuning เข้าด้วยกัน โดย train model ให้เก่งในการใช้ retrieved documents ตอบคำถาม domain-specific ได้ดี model จะได้เรียนรู้ว่า document ไหนเกี่ยวข้อง ข้อมูลอะไรสำคัญ ต่างจาก RAG ธรรมดาที่แค่แนบ document ไปกับ prompt"
+  },
+  {
+    "id": 9,
+    "question": "Which of the following is a Parameter-Efficient Fine-Tuning (PEFT) method?",
+    "choices": {
+      "A": "Training all parameters of the model from scratch",
+      "B": "LoRA (Low-Rank Adaptation), which adds small trainable matrices to frozen model layers",
+      "C": "Increasing the model size by adding more transformer layers",
+      "D": "Using only the last layer of the model for all fine-tuning tasks"
+    },
+    "answer": "B",
+    "explanation": "LoRA เป็น PEFT method ที่ได้รับความนิยมมาก โดยเพิ่ม small low-rank matrices เข้าไปใน frozen model layers แล้ว train แค่ matrices เล็กๆ เหล่านี้ ทำให้ fine-tune model ใหญ่ๆ ได้โดยใช้ memory น้อยกว่า full fine-tuning มาก PEFT methods อื่นๆ เช่น prefix tuning, adapter layers, QLoRA"
+  },
+  {
+    "id": 10,
+    "question": "Which model compression technique reduces the numerical precision of model weights (e.g., from 32-bit to 4-bit)?",
+    "choices": {
+      "A": "Knowledge distillation",
+      "B": "Pruning",
+      "C": "Quantization",
+      "D": "Ensemble reduction"
+    },
+    "answer": "C",
+    "explanation": "Quantization คือการลด precision ของ model weights เช่น จาก FP32 → INT8 หรือ INT4 ทำให้ model เล็กลงและ inference เร็วขึ้น โดยสูญเสีย accuracy น้อยมาก ตัวอย่างเช่น GPTQ, GGML, AWQ ที่ใช้ quantize LLMs ให้รันบน consumer hardware ได้"
+  },
+  {
+    "id": 11,
+    "question": "What is knowledge distillation in model compression?",
+    "choices": {
+      "A": "Extracting knowledge from databases to create training data",
+      "B": "Training a smaller 'student' model to mimic the behavior of a larger 'teacher' model",
+      "C": "Removing duplicate knowledge from a model's parameters",
+      "D": "Converting model weights into a knowledge graph format"
+    },
+    "answer": "B",
+    "explanation": "Knowledge distillation คือการ train 'student' model ตัวเล็กให้เลียนแบบ output ของ 'teacher' model ตัวใหญ่ โดย student จะเรียนจาก soft probabilities (soft labels) ของ teacher ซึ่งมีข้อมูลมากกว่า hard labels ทำให้ student ได้ performance ใกล้เคียง teacher แต่ขนาดเล็กกว่ามาก"
+  },
+  {
+    "id": 12,
+    "question": "What is a knowledge graph?",
+    "choices": {
+      "A": "A bar chart showing how much knowledge a model has acquired",
+      "B": "A structured representation of facts using entities (nodes) and relationships (edges) that captures real-world knowledge",
+      "C": "A type of neural network architecture designed for graph data",
+      "D": "A visualization tool for displaying model training metrics"
+    },
+    "answer": "B",
+    "explanation": "Knowledge graph คือ structured representation ของ facts โดยใช้ entities เป็น nodes และ relationships เป็น edges เช่น (Bangkok, capitalOf, Thailand) ตัวอย่างที่รู้จักกันดีคือ Google Knowledge Graph, Wikidata, DBpedia ใช้เสริม AI systems ให้มี structured knowledge เพิ่มเติม"
+  },
+  {
+    "id": 13,
+    "question": "What is ontology engineering in the context of AI?",
+    "choices": {
+      "A": "The study of philosophical existence applied to artificial intelligence",
+      "B": "The process of defining and structuring the concepts, relationships, and rules within a specific domain to enable machine understanding",
+      "C": "A technique for training neural networks using ontological data only",
+      "D": "The engineering of physical hardware components for AI systems"
+    },
+    "answer": "B",
+    "explanation": "Ontology engineering คือกระบวนการกำหนดและจัดโครงสร้าง concepts, relationships, rules ใน domain เฉพาะ เพื่อให้ machine เข้าใจความหมายได้ เช่น ใน medical domain ต้อง define ว่า 'disease' มี 'symptoms' อะไร 'treated by' ยาอะไร ใช้เครื่องมือเช่น Protégé ในการสร้าง ontology"
+  },
+  {
+    "id": 14,
+    "question": "How does the Semantic Web relate to AI?",
+    "choices": {
+      "A": "It is a social media platform powered by AI",
+      "B": "It extends the web with structured, machine-readable data that AI systems can query and reason over",
+      "C": "It replaces the current internet with an AI-only network",
+      "D": "It is a web browser that uses AI to block advertisements"
+    },
+    "answer": "B",
+    "explanation": "Semantic Web เป็น extension ของ web ปัจจุบัน โดยเพิ่ม structured, machine-readable data (เช่น RDF, OWL) ทำให้ AI systems สามารถ query, reason, และเข้าใจความหมายของข้อมูลบน web ได้ เป็น vision ของ Tim Berners-Lee ที่ต้องการให้ machines เข้าใจ content ไม่ใช่แค่แสดงผล"
+  },
+  {
+    "id": 15,
+    "question": "What is Linked Data in the context of knowledge representation?",
+    "choices": {
+      "A": "Data stored on LinkedIn's servers",
+      "B": "A method of publishing and connecting structured data on the web using URIs and RDF so that it can be interlinked and queried across sources",
+      "C": "Data that is linked together using hyperlinks only",
+      "D": "A proprietary data format used by major tech companies"
+    },
+    "answer": "B",
+    "explanation": "Linked Data คือวิธีการ publish structured data บน web โดยใช้ URIs เพื่อ identify สิ่งต่างๆ และใช้ RDF เพื่อเชื่อมโยง data ข้าม sources ได้ ตาม 4 principles ของ Tim Berners-Lee: ใช้ URIs, ใช้ HTTP URIs, ให้ useful information เมื่อ lookup, include links to other URIs"
+  },
+  {
+    "id": 16,
+    "question": "What is SPARQL used for in AI systems?",
+    "choices": {
+      "A": "A programming language for training deep learning models",
+      "B": "A query language for retrieving and manipulating data stored in RDF format, commonly used with knowledge graphs",
+      "C": "A tool for compressing large AI models for mobile deployment",
+      "D": "A security protocol for protecting AI systems from attacks"
+    },
+    "answer": "B",
+    "explanation": "SPARQL คือ query language สำหรับ RDF data เหมือน SQL สำหรับ relational databases แต่ SPARQL ใช้กับ graph-structured data ทำให้ AI systems สามารถ query knowledge graphs ได้ เช่น ถาม 'countries in ASEAN ที่มี population มากกว่า 50 million' จาก Wikidata"
+  },
+  {
+    "id": 17,
+    "question": "Why is Neo4j commonly used in AI applications?",
+    "choices": {
+      "A": "It is a relational database optimized for storing training images",
+      "B": "It is a graph database that efficiently stores and queries relationships between entities, making it useful for knowledge graphs, recommendation engines, and fraud detection",
+      "C": "It is a cloud computing platform designed exclusively for AI workloads",
+      "D": "It is a version control system for managing AI model checkpoints"
+    },
+    "answer": "B",
+    "explanation": "Neo4j เป็น graph database ที่เก็บข้อมูลแบบ nodes และ relationships ทำให้ query ความสัมพันธ์ระหว่าง entities ได้เร็วมาก ใช้ใน AI applications เช่น knowledge graphs, recommendation systems, fraud detection, social network analysis โดยใช้ Cypher query language"
+  },
+  {
+    "id": 18,
+    "question": "How can graph databases enhance Large Language Models (LLMs)?",
+    "choices": {
+      "A": "By replacing the transformer architecture with graph neural networks",
+      "B": "By providing structured, up-to-date knowledge that LLMs can query to ground their responses in verified facts and reduce hallucinations",
+      "C": "By storing the LLM's weights in a graph format for faster inference",
+      "D": "By converting all text data into graph visualizations for the LLM to process"
+    },
+    "answer": "B",
+    "explanation": "Graph databases ช่วย LLMs โดยเป็น external knowledge source ที่มี structured, up-to-date facts ทำให้ LLM สามารถ query ข้อมูลจริงมาประกอบคำตอบ ลด hallucination ได้ เรียกว่า GraphRAG ซึ่ง combine knowledge graph กับ RAG pipeline ทำให้ได้ answers ที่ accurate และ traceable มากขึ้น"
+  },
+  {
+    "id": 19,
+    "question": "What is the primary goal of knowledge base construction in AI?",
+    "choices": {
+      "A": "Building physical data centers to store AI models",
+      "B": "Automatically or semi-automatically extracting structured knowledge from unstructured sources to create a queryable repository of facts",
+      "C": "Writing documentation manuals for AI software products",
+      "D": "Creating backup copies of existing databases for disaster recovery"
+    },
+    "answer": "B",
+    "explanation": "Knowledge base construction คือกระบวนการสร้าง structured knowledge repository จาก unstructured sources เช่น text, web pages โดยใช้เทคนิค NLP เช่น named entity recognition, relation extraction, entity linking มาดึง facts ออกมาเก็บใน structured format ที่ query ได้ เช่น NELL, Knowledge Vault"
+  },
+  {
+    "id": 20,
+    "question": "In the AI project lifecycle, what typically comes AFTER defining the problem and BEFORE model deployment?",
+    "choices": {
+      "A": "Marketing the AI product to customers",
+      "B": "Data collection, data preparation, model training, and model evaluation",
+      "C": "Filing patents for the AI algorithm",
+      "D": "Hiring additional data scientists for the next project"
+    },
+    "answer": "B",
+    "explanation": "AI project lifecycle ปกติจะเป็น: define problem → data collection → data preparation/cleaning → feature engineering → model training → model evaluation → deployment → monitoring โดยขั้นตอนหลัง define problem และก่อน deployment คือ data collection, preparation, training, และ evaluation ซึ่งมักจะวนซ้ำ (iterate) หลายรอบ"
+  }
+]

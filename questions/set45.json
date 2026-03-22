@@ -1,0 +1,242 @@
+[
+  {
+    "id": 1,
+    "question": "What is a key consideration when designing AI tools for children's education?",
+    "choices": {
+      "A": "Children should use the same AI tools as adults without modification",
+      "B": "AI tools must be age-appropriate, prioritize safety and privacy, and support developmental goals rather than replace human interaction",
+      "C": "AI education tools should focus solely on entertainment to keep children engaged",
+      "D": "Children under 18 should never use any AI technology"
+    },
+    "answer": "B",
+    "explanation": "AI tools สำหรับเด็กต้อง age-appropriate, ให้ความสำคัญกับ safety และ privacy, และสนับสนุน developmental goal แทนที่จะมาแทน human interaction ต้องคำนึงถึงพัฒนาการตามวัยและไม่เปิดเผยเด็กต่อ content ที่ไม่เหมาะสม"
+  },
+  {
+    "id": 2,
+    "question": "What makes an AI tool 'age-appropriate' for children?",
+    "choices": {
+      "A": "Having colorful graphics and cartoon characters",
+      "B": "Content filtering, simplified interfaces, developmental stage alignment, limited data collection, and appropriate interaction complexity",
+      "C": "Being free of charge for all users",
+      "D": "Only allowing children to use AI for exactly 30 minutes per day"
+    },
+    "answer": "B",
+    "explanation": "AI tool ที่ age-appropriate ต้องมี content filtering, interface ที่ง่ายต่อการใช้, สอดคล้องกับ developmental stage ของเด็ก, จำกัดการเก็บ data, และ interaction ที่มีความซับซ้อนเหมาะสมกับวัย ไม่ใช่แค่ทำให้สวยงามหรือฟรี"
+  },
+  {
+    "id": 3,
+    "question": "What should effective parental controls for AI include?",
+    "choices": {
+      "A": "Only the ability to turn AI on or off completely",
+      "B": "Content filters, usage time limits, conversation monitoring, topic restrictions, and age-appropriate response settings",
+      "C": "Requiring parents to sit next to children at all times",
+      "D": "Blocking all AI tools permanently until age 18"
+    },
+    "answer": "B",
+    "explanation": "Parental controls สำหรับ AI ที่ดีควรมี content filter, จำกัดเวลาใช้งาน, monitor conversation, จำกัด topic, และตั้ง response ให้เหมาะกับวัย ให้ parent สามารถ customize ได้ตามความเหมาะสมของลูกแต่ละคน"
+  },
+  {
+    "id": 4,
+    "question": "What ethical concerns arise from AI-powered toys?",
+    "choices": {
+      "A": "AI toys have no ethical concerns because they are just toys",
+      "B": "Data privacy of children's conversations, potential for emotional manipulation, always-on surveillance, and unclear data retention policies",
+      "C": "The only concern is that AI toys are too expensive",
+      "D": "AI toys are dangerous because they might physically harm children"
+    },
+    "answer": "B",
+    "explanation": "AI toy มีข้อกังวลด้านจริยธรรมหลายอย่าง เช่น privacy ของ conversation ที่เด็กคุยกับตุ๊กตา, โอกาสที่จะ manipulate อารมณ์เด็ก, การ record ตลอดเวลา, และ policy เก็บ data ที่ไม่ชัดเจน ซึ่ง sensitive มากเพราะเป็น data ของเด็ก"
+  },
+  {
+    "id": 5,
+    "question": "How can AI support early childhood development appropriately?",
+    "choices": {
+      "A": "By replacing parents and teachers in all learning activities",
+      "B": "By providing personalized, interactive learning experiences that adapt to the child's pace while complementing human caregiving",
+      "C": "By teaching children to read and write before age 2",
+      "D": "By keeping children entertained so parents can work uninterrupted"
+    },
+    "answer": "B",
+    "explanation": "AI ช่วย early childhood development ได้โดยจัด learning experience ที่ personalized, interactive, และ adapt ตาม pace ของเด็กแต่ละคน แต่ต้องเป็นส่วนเสริมของ human caregiving ไม่ใช่มาแทน เพราะเด็กเล็กยังต้องการ human interaction เป็นหลัก"
+  },
+  {
+    "id": 6,
+    "question": "What does research suggest about screen time versus AI-assisted learning for children?",
+    "choices": {
+      "A": "All screen time is equally harmful for children",
+      "B": "Interactive, educational AI experiences can be more beneficial than passive screen time, but balance with offline activities remains important",
+      "C": "AI learning completely eliminates the negative effects of screen time",
+      "D": "Children learn best with unlimited access to AI tools"
+    },
+    "answer": "B",
+    "explanation": "งานวิจัยชี้ว่า interactive educational AI experience เป็นประโยชน์กว่า passive screen time (เช่น ดูวิดีโอเฉยๆ) แต่ยังต้อง balance กับ offline activity เช่น เล่นกลางแจ้ง สร้างสรรค์ด้วยมือ และมี social interaction กับคนจริง"
+  },
+  {
+    "id": 7,
+    "question": "How can AI help children with learning disabilities?",
+    "choices": {
+      "A": "AI cannot help children with learning disabilities",
+      "B": "AI can provide personalized accommodations like text-to-speech, adaptive difficulty, multi-sensory content, and patient unlimited practice",
+      "C": "AI diagnoses learning disabilities and prescribes medication",
+      "D": "AI replaces special education teachers entirely"
+    },
+    "answer": "B",
+    "explanation": "AI ช่วยเด็กที่มี learning disability ได้โดยจัด accommodation ที่ personalized เช่น text-to-speech สำหรับ dyslexia, ปรับ difficulty อัตโนมัติ, content หลายรูปแบบ, และให้ฝึกซ้ำได้ไม่จำกัดโดยไม่ judge ซึ่งช่วยลด frustration"
+  },
+  {
+    "id": 8,
+    "question": "How can AI be used in gifted education?",
+    "choices": {
+      "A": "Gifted students don't need AI because they are already smart",
+      "B": "AI can provide accelerated content, deeper exploration paths, cross-disciplinary connections, and intellectual challenges matched to advanced abilities",
+      "C": "AI should give gifted students the same content as everyone else for fairness",
+      "D": "AI identifies gifted children and separates them from regular students"
+    },
+    "answer": "B",
+    "explanation": "AI ช่วย gifted education โดยจัด content ที่ accelerated, เส้นทางสำรวจเชิงลึก, เชื่อมโยงข้าม discipline, และ challenge ที่เหมาะกับความสามารถขั้นสูง ทำให้เด็ก gifted ไม่เบื่อกับเนื้อหาที่ง่ายเกินไปและได้พัฒนาเต็มศักยภาพ"
+  },
+  {
+    "id": 9,
+    "question": "What is a practical application of AI in classroom management?",
+    "choices": {
+      "A": "AI cameras that publicly shame students who misbehave",
+      "B": "AI tools that help track student engagement, identify struggling students early, and assist teachers in differentiating instruction",
+      "C": "AI robots that physically discipline students",
+      "D": "AI that replaces the need for classroom rules"
+    },
+    "answer": "B",
+    "explanation": "AI ช่วย classroom management ได้โดย track student engagement, identify เด็กที่กำลังมีปัญหาแต่เนิ่นๆ, และช่วยครู differentiate instruction ตาม needs ของเด็กแต่ละคน ทำให้ครูมีข้อมูลจัดการห้องเรียนได้ดีขึ้นโดยไม่ต้องใช้วิธีลงโทษ"
+  },
+  {
+    "id": 10,
+    "question": "How do AI teaching assistants typically function in educational settings?",
+    "choices": {
+      "A": "They replace human teachers completely",
+      "B": "They handle routine tasks like grading, answering common questions, and providing practice exercises, freeing teachers to focus on complex instruction",
+      "C": "They only work during after-school hours",
+      "D": "They teach the entire curriculum without human oversight"
+    },
+    "answer": "B",
+    "explanation": "AI teaching assistant ช่วยงาน routine เช่น grading, ตอบคำถามที่พบบ่อย, และจัดแบบฝึกหัด ทำให้ครูมีเวลาโฟกัสกับการสอนที่ซับซ้อน ดูแลเด็กเป็นรายคน และทำกิจกรรมที่ต้องใช้ human interaction"
+  },
+  {
+    "id": 11,
+    "question": "What are FERPA and COPPA in the context of AI and student privacy?",
+    "choices": {
+      "A": "AI programming languages designed for education",
+      "B": "US federal laws protecting student education records (FERPA) and children's online privacy (COPPA) that AI systems must comply with",
+      "C": "Certification exams for AI teachers",
+      "D": "Types of AI algorithms used in schools"
+    },
+    "answer": "B",
+    "explanation": "FERPA (Family Educational Rights and Privacy Act) คุ้มครอง student education record ส่วน COPPA (Children's Online Privacy Protection Act) คุ้มครอง online privacy ของเด็กอายุต่ำกว่า 13 AI system ที่ใช้ในโรงเรียนต้อง comply กับกฎหมายทั้งสองนี้"
+  },
+  {
+    "id": 12,
+    "question": "How is AI being used in school safety applications?",
+    "choices": {
+      "A": "AI is not used in school safety at all",
+      "B": "AI monitors for threats through weapon detection, behavioral analysis, and online monitoring, though privacy concerns must be carefully balanced",
+      "C": "AI locks all school doors permanently to prevent any entry",
+      "D": "AI replaces all human security personnel in schools"
+    },
+    "answer": "B",
+    "explanation": "AI ใช้ใน school safety เช่น weapon detection จาก camera, behavioral analysis เพื่อหาสัญญาณอันตราย, และ monitor online activity แต่ต้อง balance กับ privacy concerns อย่างระมัดระวัง เพราะ surveillance มากเกินไปอาจส่งผลเสียต่อ student well-being"
+  },
+  {
+    "id": 13,
+    "question": "How can AI help address bullying in schools?",
+    "choices": {
+      "A": "AI automatically punishes identified bullies without human review",
+      "B": "AI can detect patterns of bullying in online communications, identify at-risk students, and alert counselors for early intervention",
+      "C": "AI prevents all social interaction between students to eliminate bullying",
+      "D": "AI bullying detection is 100% accurate and never makes mistakes"
+    },
+    "answer": "B",
+    "explanation": "AI ช่วยจัดการ bullying โดย detect pattern ของ bullying ใน online communication, identify เด็กที่เสี่ยง, และ alert counselor เพื่อ intervene แต่เนิ่นๆ แต่ต้องมี human review เสมอเพราะ AI อาจเข้าใจ context ผิดได้"
+  },
+  {
+    "id": 14,
+    "question": "What role can AI play in supporting student mental health?",
+    "choices": {
+      "A": "AI replaces school psychologists and counselors",
+      "B": "AI can provide initial screening, 24/7 support chatbots, mood tracking, and early warning systems while connecting students to professional help",
+      "C": "AI diagnoses and treats mental health conditions in students",
+      "D": "AI mental health tools are only useful for college students, not younger children"
+    },
+    "answer": "B",
+    "explanation": "AI ช่วย support student mental health โดย initial screening, chatbot ที่ให้ support ได้ 24/7, track mood, และเป็น early warning system เพื่อเชื่อมต่อเด็กกับ professional help แต่ไม่ได้มาแทน psychologist หรือ counselor ตัวจริง"
+  },
+  {
+    "id": 15,
+    "question": "How does AI assist in career guidance for students?",
+    "choices": {
+      "A": "AI assigns careers to students based on their grades alone",
+      "B": "AI analyzes student interests, skills, and labor market trends to provide personalized career exploration and pathway recommendations",
+      "C": "AI career guidance only recommends technology-related careers",
+      "D": "AI replaces human career counselors entirely"
+    },
+    "answer": "B",
+    "explanation": "AI ช่วย career guidance โดยวิเคราะห์ interest, skill, และ labor market trend ของนักเรียนเพื่อแนะนำ career path ที่เหมาะสมแบบ personalized ไม่ได้ดูแค่เกรด แต่รวมถึงความชอบ จุดแข็ง และแนวโน้มตลาดแรงงาน"
+  },
+  {
+    "id": 16,
+    "question": "How is AI used in college preparation?",
+    "choices": {
+      "A": "AI writes college application essays for students",
+      "B": "AI helps with personalized test prep, college matching based on fit, application timeline management, and financial aid optimization",
+      "C": "AI guarantees admission to any university",
+      "D": "AI college prep is only available to wealthy students"
+    },
+    "answer": "B",
+    "explanation": "AI ช่วย college preparation หลายด้าน เช่น personalized test prep ที่ adapt ตามจุดอ่อนของเด็ก, match กับมหาวิทยาลัยที่เหมาะสม, จัดการ timeline การสมัคร, และ optimize financial aid แต่ไม่ควรเขียน essay ให้เพราะผิดจริยธรรม"
+  },
+  {
+    "id": 17,
+    "question": "What is the role of AI in vocational training?",
+    "choices": {
+      "A": "AI makes vocational training unnecessary",
+      "B": "AI provides realistic simulations, adaptive skill assessments, and personalized learning paths for hands-on technical skills",
+      "C": "AI vocational training only works for computer-related trades",
+      "D": "AI replaces all practical hands-on experience in vocational programs"
+    },
+    "answer": "B",
+    "explanation": "AI ช่วย vocational training โดยจัด realistic simulation (เช่น VR welding, virtual automotive repair), adaptive skill assessment, และ personalized learning path สำหรับ technical skill ต่างๆ ช่วยให้ผู้เรียนฝึกซ้ำได้อย่างปลอดภัยก่อนทำจริง"
+  },
+  {
+    "id": 18,
+    "question": "How does AI support lifelong learning?",
+    "choices": {
+      "A": "Lifelong learning is not necessary in the age of AI",
+      "B": "AI curates personalized learning paths, identifies skill gaps, recommends relevant content, and adapts to changing career needs throughout life",
+      "C": "AI only supports learning for people under age 30",
+      "D": "AI lifelong learning means watching AI-generated videos forever"
+    },
+    "answer": "B",
+    "explanation": "AI ช่วย lifelong learning โดย curate learning path ที่ personalized, ระบุ skill gap, แนะนำ content ที่เกี่ยวข้อง, และ adapt ตาม career need ที่เปลี่ยนไปตลอดชีวิต ในยุคที่ทักษะเปลี่ยนเร็ว lifelong learning ยิ่งสำคัญมาก"
+  },
+  {
+    "id": 19,
+    "question": "How is AI transforming corporate training?",
+    "choices": {
+      "A": "AI eliminates the need for any corporate training",
+      "B": "AI enables personalized learning at scale, realistic scenario simulations, performance-based content delivery, and data-driven training effectiveness measurement",
+      "C": "AI corporate training only works for large companies with over 10,000 employees",
+      "D": "AI replaces all human trainers and mentors in companies"
+    },
+    "answer": "B",
+    "explanation": "AI เปลี่ยน corporate training โดยทำ personalized learning at scale ได้, สร้าง realistic scenario simulation, deliver content ตาม performance ของพนักงาน, และวัดผล training effectiveness ด้วย data ทำให้ training มีประสิทธิภาพมากขึ้นและวัดผลได้ชัด"
+  },
+  {
+    "id": 20,
+    "question": "What is AI-powered microlearning?",
+    "choices": {
+      "A": "Learning about microscopic organisms using AI",
+      "B": "Delivering small, focused learning units personalized by AI based on individual needs, optimal timing, and knowledge retention patterns",
+      "C": "Learning AI for only 5 minutes in total",
+      "D": "A type of AI that can only learn very small amounts of data"
+    },
+    "answer": "B",
+    "explanation": "AI-powered microlearning คือการจัด learning unit เล็กๆ ที่ focused โดย AI personalize ตาม needs ของแต่ละคน จับเวลาที่เหมาะสม และ pattern การจำ เช่น spaced repetition ที่ AI กำหนดจังหวะทบทวนให้พอดี ช่วยให้เรียนรู้ได้ในเวลาสั้นๆ แต่ retain ได้นาน"
+  }
+]

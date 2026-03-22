@@ -1,0 +1,242 @@
+[
+  {
+    "id": 1,
+    "question": "What is the NIST AI Risk Management Framework (AI RMF)?",
+    "choices": {
+      "A": "A mandatory regulation that fines companies for AI misuse",
+      "B": "A voluntary framework providing organizations with guidance to manage risks associated with AI systems throughout their lifecycle, organized around Govern, Map, Measure, and Manage functions",
+      "C": "A technical standard for building AI hardware components",
+      "D": "A certification program that qualifies individuals as AI safety experts"
+    },
+    "answer": "B",
+    "explanation": "NIST AI RMF เป็น voluntary framework จากสหรัฐฯ ที่ช่วย organizations จัดการ risks ของ AI systems ตลอด lifecycle มี 4 core functions: Govern (สร้าง culture), Map (ระบุ context/risks), Measure (วัด risks), Manage (จัดการ risks) ไม่ใช่กฎหมายบังคับ แต่เป็น best practice guidance"
+  },
+  {
+    "id": 2,
+    "question": "What does the IEEE Ethically Aligned Design framework emphasize?",
+    "choices": {
+      "A": "Maximizing AI company profits through ethical branding",
+      "B": "Prioritizing human well-being, transparency, and accountability in the design and development of autonomous and intelligent systems",
+      "C": "Designing AI chips that consume less electricity",
+      "D": "Creating AI systems that can pass the Turing test"
+    },
+    "answer": "B",
+    "explanation": "IEEE Ethically Aligned Design เน้นการให้ human well-being เป็นหลักในการออกแบบ AI/autonomous systems โดยมีหลักการสำคัญเรื่อง transparency, accountability, awareness of misuse, competence ของผู้ใช้ เป็น comprehensive framework ที่ครอบคลุมทั้ง technical และ societal aspects"
+  },
+  {
+    "id": 3,
+    "question": "What is ISO/IEC 42001?",
+    "choices": {
+      "A": "A standard for measuring the speed of AI processors",
+      "B": "An international standard specifying requirements for establishing, implementing, maintaining, and continually improving an AI management system within organizations",
+      "C": "A protocol for transferring AI models between different cloud providers",
+      "D": "A standard for AI-generated image quality measurement"
+    },
+    "answer": "B",
+    "explanation": "ISO/IEC 42001 เป็น international standard ตัวแรกของโลกที่กำหนด requirements สำหรับ AI management system (AIMS) ใน organizations ครอบคลุมการ establish, implement, maintain, improve ระบบจัดการ AI อย่างรับผิดชอบ คล้ายกับ ISO 27001 สำหรับ information security แต่เป็นเรื่อง AI โดยเฉพาะ"
+  },
+  {
+    "id": 4,
+    "question": "What are the key principles outlined in the U.S. Blueprint for an AI Bill of Rights?",
+    "choices": {
+      "A": "Free AI access for all citizens and mandatory AI education",
+      "B": "Safe and effective systems, protection from algorithmic discrimination, data privacy, notice and explanation, and human alternatives/fallback options",
+      "C": "Tax benefits for AI companies and reduced regulation",
+      "D": "Government ownership of all AI models developed within the U.S."
+    },
+    "answer": "B",
+    "explanation": "US Blueprint for an AI Bill of Rights มี 5 หลักการหลัก: 1) Safe and effective systems 2) Algorithmic discrimination protection 3) Data privacy 4) Notice and explanation (ต้องบอกว่าใช้ AI) 5) Human alternatives and fallback (ต้องมีทางเลือกที่เป็นคน) เป็น non-binding guidance ไม่ใช่กฎหมายบังคับ"
+  },
+  {
+    "id": 5,
+    "question": "What is a key feature of China's approach to AI regulation?",
+    "choices": {
+      "A": "China has no AI regulations and allows completely unrestricted development",
+      "B": "China has implemented targeted, use-case-specific regulations including rules for algorithmic recommendations, deepfakes, and generative AI, with requirements for content alignment with socialist values",
+      "C": "China only regulates AI used in military applications",
+      "D": "China has banned all AI development within its borders"
+    },
+    "answer": "B",
+    "explanation": "จีนใช้ approach แบบ targeted regulation ออกกฎเฉพาะสำหรับแต่ละ use case เช่น Algorithm Recommendation rules, Deep Synthesis (deepfake) rules, Generative AI rules โดยมีข้อกำหนดว่า content ต้องสอดคล้องกับ socialist core values และต้อง register algorithms กับรัฐบาล"
+  },
+  {
+    "id": 6,
+    "question": "What characterizes Japan's approach to AI governance?",
+    "choices": {
+      "A": "Japan has banned all AI research to protect traditional industries",
+      "B": "Japan favors a pro-innovation, non-binding approach with 'Social Principles of Human-Centric AI' that emphasize human dignity, diversity, and sustainability while maintaining a permissive stance on AI training data",
+      "C": "Japan requires all AI systems to be open source",
+      "D": "Japan only allows AI to be developed by government agencies"
+    },
+    "answer": "B",
+    "explanation": "ญี่ปุ่นใช้ approach แบบ pro-innovation มี 'Social Principles of Human-Centric AI' ที่เน้น human dignity, diversity, sustainability แต่ไม่บังคับ (non-binding) และมีท่าทีค่อนข้าง permissive เรื่อง AI training data โดยกฎหมาย copyright ของญี่ปุ่นอนุญาตการใช้ data เพื่อ training ในขอบเขตกว้าง"
+  },
+  {
+    "id": 7,
+    "question": "What is Singapore's Model AI Governance Framework known for?",
+    "choices": {
+      "A": "Being the strictest AI regulation in the world with heavy penalties",
+      "B": "Providing a practical, business-friendly framework that emphasizes explainability, transparency, fairness, and human-centricity, with voluntary adoption and an industry-focused testing toolkit (AI Verify)",
+      "C": "Requiring all AI systems to be built using only Singaporean technology",
+      "D": "Mandating that all AI decisions must be made by human operators"
+    },
+    "answer": "B",
+    "explanation": "Singapore Model AI Governance Framework เน้น practical, business-friendly approach มีหลัก explainability, transparency, fairness, human-centricity โดยเป็น voluntary ไม่บังคับ และมี AI Verify toolkit ให้ organizations test AI systems ได้ เป็นตัวอย่างของ light-touch regulation ที่ส่งเสริม innovation"
+  },
+  {
+    "id": 8,
+    "question": "What is the status of Brazil's AI regulation?",
+    "choices": {
+      "A": "Brazil has no plans for AI regulation",
+      "B": "Brazil has been developing a comprehensive AI regulatory framework (PL 2338/2023) that takes a risk-based approach similar to the EU AI Act, with requirements for transparency, impact assessments, and accountability",
+      "C": "Brazil has banned all AI applications except in healthcare",
+      "D": "Brazil delegates all AI regulation to private tech companies"
+    },
+    "answer": "B",
+    "explanation": "บราซิลกำลังพัฒนา AI regulation framework (PL 2338/2023) ที่ใช้ risk-based approach คล้าย EU AI Act โดยแบ่ง AI systems เป็นระดับความเสี่ยง มีข้อกำหนดเรื่อง transparency, impact assessments, accountability เป็นหนึ่งใน comprehensive AI laws แรกๆ ของ Latin America"
+  },
+  {
+    "id": 9,
+    "question": "What approach has India taken toward AI policy?",
+    "choices": {
+      "A": "India has implemented the strictest AI regulations in the world",
+      "B": "India has generally favored a pro-innovation approach, focusing on developing AI capabilities and digital infrastructure while exploring sector-specific guidelines rather than a single comprehensive AI law",
+      "C": "India has completely banned foreign AI products",
+      "D": "India requires all AI models to be trained exclusively on Indian data"
+    },
+    "answer": "B",
+    "explanation": "อินเดียใช้ pro-innovation approach เน้นพัฒนา AI capabilities และ digital infrastructure (เช่น India AI Mission) มากกว่าออกกฎหมาย comprehensive AI law ตัวเดียว แต่จะใช้ sector-specific guidelines เช่น ใน healthcare, finance มี Digital India Act ที่อาจครอบคลุม AI ในอนาคต"
+  },
+  {
+    "id": 10,
+    "question": "What is the ASEAN Guide on AI Governance and Ethics?",
+    "choices": {
+      "A": "A legally binding regulation enforced across all ASEAN member states",
+      "B": "A voluntary, principles-based guide that provides practical guidance for AI governance in Southeast Asia, emphasizing transparency, fairness, security, and human-centricity while respecting each nation's sovereignty",
+      "C": "A technology standard for building AI hardware in ASEAN countries",
+      "D": "A trade agreement that restricts AI imports from non-ASEAN countries"
+    },
+    "answer": "B",
+    "explanation": "ASEAN Guide on AI Governance and Ethics เป็น voluntary, principles-based guide สำหรับ AI governance ใน Southeast Asia เน้น transparency, fairness, security, human-centricity โดยเคารพ sovereignty ของแต่ละประเทศ ไม่บังคับ แต่เป็น common framework ให้ ASEAN members ใช้อ้างอิง"
+  },
+  {
+    "id": 11,
+    "question": "What is the Global Partnership on AI (GPAI)?",
+    "choices": {
+      "A": "A private company that sells AI products globally",
+      "B": "A multi-stakeholder international initiative bringing together governments, industry, civil society, and academia to bridge the gap between theory and practice on responsible AI",
+      "C": "A military alliance focused on AI weapons development",
+      "D": "An online platform for sharing AI training datasets"
+    },
+    "answer": "B",
+    "explanation": "GPAI (Global Partnership on AI) เป็น initiative ระดับนานาชาติที่รวม governments, industry, civil society, academia เพื่อ bridge gap ระหว่าง theory กับ practice ของ responsible AI มีสมาชิก 29 ประเทศ ทำงานในด้าน responsible AI, data governance, future of work, innovation"
+  },
+  {
+    "id": 12,
+    "question": "Which of the following is NOT one of the OECD AI Principles?",
+    "choices": {
+      "A": "AI should benefit people and the planet by driving inclusive growth and sustainable development",
+      "B": "AI systems should be designed to respect the rule of law, human rights, and democratic values",
+      "C": "AI systems should be designed to maximize corporate profits above all other considerations",
+      "D": "There should be transparency and responsible disclosure around AI systems"
+    },
+    "answer": "C",
+    "explanation": "OECD AI Principles เน้น: inclusive growth, human-centered values, transparency, robustness/security, accountability ไม่ได้มีหลักการเรื่อง maximize corporate profits ข้อ C ผิดเพราะ OECD Principles เน้น societal benefit ไม่ใช่แค่ corporate profits เป็น principles ที่ได้รับการ adopt อย่างกว้างขวาง"
+  },
+  {
+    "id": 13,
+    "question": "What does the UNESCO Recommendation on the Ethics of AI cover?",
+    "choices": {
+      "A": "Only the use of AI in educational settings",
+      "B": "A comprehensive set of values and principles for ethical AI including proportionality, safety, fairness, sustainability, privacy, human oversight, transparency, and responsibility, adopted by 193 member states",
+      "C": "Technical specifications for building AI processors",
+      "D": "Rules for AI use exclusively in UNESCO World Heritage sites"
+    },
+    "answer": "B",
+    "explanation": "UNESCO Recommendation on the Ethics of AI เป็น comprehensive framework ที่ได้รับ adoption จาก 193 ประเทศสมาชิก ครอบคลุม values และ principles เช่น proportionality, safety, fairness, sustainability, privacy, human oversight, transparency, responsibility เป็น global normative instrument ชิ้นแรกด้าน AI ethics"
+  },
+  {
+    "id": 14,
+    "question": "What is the primary focus of AI treaty proposals being discussed internationally?",
+    "choices": {
+      "A": "Establishing trade routes for AI hardware shipments",
+      "B": "Creating legally binding international agreements to govern AI development and use, particularly addressing risks from advanced AI systems, military AI, and cross-border AI governance",
+      "C": "Patenting all AI inventions under a single international entity",
+      "D": "Requiring all countries to use the same AI programming language"
+    },
+    "answer": "B",
+    "explanation": "AI treaty proposals ระดับนานาชาติเน้นสร้าง legally binding agreements เพื่อ govern AI development โดยเฉพาะ risks จาก advanced AI, military AI, และ cross-border governance เช่น Council of Europe's Framework Convention on AI (2024) ที่เป็น legally binding treaty ตัวแรกด้าน AI, human rights, democracy, rule of law"
+  },
+  {
+    "id": 15,
+    "question": "What does 'frontier AI governance' refer to?",
+    "choices": {
+      "A": "Governing AI systems used in space exploration only",
+      "B": "The governance challenges and frameworks specifically addressing the most capable and potentially risky AI models, such as advanced foundation models that push the boundaries of AI capabilities",
+      "C": "Managing AI development in frontier or rural areas",
+      "D": "A governance system run entirely by AI without human involvement"
+    },
+    "answer": "B",
+    "explanation": "Frontier AI governance หมายถึงการ govern AI models ที่ advanced ที่สุดและอาจมี risks สูง เช่น advanced foundation models ที่มี capabilities ใกล้เคียงหรือเกิน human-level ในบาง tasks ประเด็นคือ models เหล่านี้อาจมี emergent capabilities ที่คาดไม่ถึง ต้องมี governance เฉพาะ เช่น pre-deployment safety testing"
+  },
+  {
+    "id": 16,
+    "question": "What is 'compute governance' in the context of AI regulation?",
+    "choices": {
+      "A": "Managing the electricity bills of data centers",
+      "B": "Regulating access to and use of computational resources (like advanced AI chips and cloud computing) as a lever to govern AI development, since compute is a key bottleneck for training powerful AI models",
+      "C": "A software tool for optimizing computer performance",
+      "D": "Governance of personal computers and laptops in workplaces"
+    },
+    "answer": "B",
+    "explanation": "Compute governance คือการใช้ computational resources เป็น lever ในการ govern AI development เพราะ compute เป็น key bottleneck ในการ train powerful AI models ถ้าควบคุม access ต่อ advanced chips/cloud computing ได้ ก็สามารถ influence ว่าใคร train AI ระดับไหนได้ เช่น US export controls บน AI chips"
+  },
+  {
+    "id": 17,
+    "question": "What are export controls on AI chips primarily designed to do?",
+    "choices": {
+      "A": "Make AI chips cheaper for domestic consumers",
+      "B": "Restrict the sale of advanced AI-capable semiconductors to certain countries to prevent them from developing cutting-edge AI capabilities that could pose national security risks",
+      "C": "Ensure all AI chips are manufactured domestically",
+      "D": "Promote international cooperation in chip manufacturing"
+    },
+    "answer": "B",
+    "explanation": "Export controls บน AI chips (เช่น US restrictions บน NVIDIA A100/H100 ไปจีน) ออกแบบมาเพื่อ restrict การขาย advanced semiconductors ให้บางประเทศ เพื่อป้องกันการพัฒนา cutting-edge AI capabilities ที่อาจเป็น national security risk เป็นส่วนหนึ่งของ compute governance strategy"
+  },
+  {
+    "id": 18,
+    "question": "What is the central debate around open source AI regulation?",
+    "choices": {
+      "A": "Whether open source software should be free or paid",
+      "B": "Balancing the benefits of open AI models (innovation, transparency, democratization) against the risks (misuse, lack of guardrails, difficulty in enforcing safety standards on freely available models)",
+      "C": "Whether to use Python or Java for AI development",
+      "D": "Whether open source AI should be regulated by tech companies or universities"
+    },
+    "answer": "B",
+    "explanation": "การถกเถียงเรื่อง open source AI regulation คือการ balance ระหว่าง benefits (innovation, transparency, democratization of AI) กับ risks (misuse เช่น สร้าง harmful content, ยาก enforce safety standards เพราะใครก็ download ไปใช้ได้) EU AI Act มี exemptions บางส่วนสำหรับ open source แต่ยังเป็นประเด็นที่ถกเถียง"
+  },
+  {
+    "id": 19,
+    "question": "What are AI Safety Institutes?",
+    "choices": {
+      "A": "Private gyms where AI researchers exercise for workplace safety",
+      "B": "Government-backed organizations established to evaluate frontier AI models, conduct safety research, and develop standards for AI safety testing, such as those in the US (AISI) and UK (AISI)",
+      "C": "Insurance companies that cover damages caused by AI failures",
+      "D": "Manufacturing facilities that produce safety equipment for robots"
+    },
+    "answer": "B",
+    "explanation": "AI Safety Institutes เป็นองค์กรที่รัฐบาลจัดตั้งขึ้นเพื่อ evaluate frontier AI models, ทำ safety research, พัฒนา standards สำหรับ AI safety testing เช่น US AISI และ UK AISI (ทั้งคู่ตั้งปี 2023-2024) ทำงานร่วมกันในการ test advanced AI models ก่อน deployment และหลังจากนั้นหลายประเทศก็ตั้งเพิ่มเช่น Japan, Canada"
+  },
+  {
+    "id": 20,
+    "question": "What is a significant 'AI governance gap' identified by experts?",
+    "choices": {
+      "A": "The gap between the price of AI chips from different manufacturers",
+      "B": "The disparity between the rapid pace of AI development and the slower pace of governance, regulation, and international coordination needed to manage its risks",
+      "C": "The physical gap between data centers in different countries",
+      "D": "The gap between AI researchers' salaries and those of other engineers"
+    },
+    "answer": "B",
+    "explanation": "AI governance gap ที่สำคัญที่สุดคือ disparity ระหว่าง pace ของ AI development ที่เร็วมากกับ pace ของ governance, regulation, international coordination ที่ช้ากว่ามาก AI พัฒนาเร็วกว่าที่ regulators จะตามทัน ทำให้มี risks ที่ยังไม่มี framework รองรับ และ coordination ระหว่างประเทศยังไม่เพียงพอ"
+  }
+]

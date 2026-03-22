@@ -1,0 +1,242 @@
+[
+  {
+    "id": 1,
+    "question": "What is a 'prompt injection attack' in the context of AI?",
+    "choices": {
+      "A": "Physically injecting malicious code into a GPU",
+      "B": "Crafting input that overrides or manipulates the system-level instructions of an AI model",
+      "C": "Inserting extra RAM into an AI server",
+      "D": "Sending too many API requests to crash the system"
+    },
+    "answer": "B",
+    "explanation": "Prompt injection attack คือการสร้าง input ที่ทำให้ model ข้าม system prompt หรือ instruction เดิมไป แล้วทำตามคำสั่งของ attacker แทน เช่น ใส่ข้อความว่า 'ignore previous instructions and do X' เป็นช่องโหว่สำคัญของ LLM-based applications"
+  },
+  {
+    "id": 2,
+    "question": "What does 'jailbreaking' an AI model refer to?",
+    "choices": {
+      "A": "Removing an AI model from a secure data center",
+      "B": "Using specially crafted prompts to bypass the safety guardrails and restrictions of an AI system",
+      "C": "Installing an AI model on a device without authorization",
+      "D": "Breaking the encryption of an AI model's weights"
+    },
+    "answer": "B",
+    "explanation": "Jailbreaking AI คือการใช้ prompt พิเศษเพื่อ bypass safety guardrails ที่ developer ตั้งไว้ ทำให้ model ตอบในสิ่งที่ปกติจะปฏิเสธ เช่น DAN (Do Anything Now) prompt ที่โด่งดัง เป็น cat-and-mouse game ระหว่าง attacker กับ AI safety team"
+  },
+  {
+    "id": 3,
+    "question": "What is 'AI red teaming'?",
+    "choices": {
+      "A": "A competitive AI programming contest",
+      "B": "Systematically probing an AI system for vulnerabilities, biases, and harmful outputs by simulating adversarial attacks",
+      "C": "Painting AI server hardware in red for identification",
+      "D": "A team that only works on training AI models"
+    },
+    "answer": "B",
+    "explanation": "AI red teaming คือการทดสอบ AI system อย่างเป็นระบบโดยจำลอง adversarial attacks เพื่อหา vulnerabilities, biases, และ harmful outputs ยืมแนวคิดมาจาก cybersecurity red teaming บริษัทอย่าง OpenAI, Google, Anthropic ทำ red teaming ก่อน release model ใหม่ทุกครั้ง"
+  },
+  {
+    "id": 4,
+    "question": "What is the purpose of a 'bug bounty' program for AI systems?",
+    "choices": {
+      "A": "To reward AI models for finding bugs in software code",
+      "B": "To incentivize external researchers to find and responsibly report vulnerabilities or harmful behaviors in AI systems",
+      "C": "To pay developers for writing bug-free AI code",
+      "D": "To create a database of all known software bugs"
+    },
+    "answer": "B",
+    "explanation": "Bug bounty program สำหรับ AI คือการให้รางวัล external researchers ที่หา vulnerabilities หรือ harmful behaviors แล้ว report อย่างรับผิดชอบ ช่วยให้บริษัท AI ค้นพบปัญหาที่ internal team อาจมองข้าม เป็นวิธีที่ crowdsource ความปลอดภัยได้ดีมาก"
+  },
+  {
+    "id": 5,
+    "question": "What is an 'AI incident reporting' system?",
+    "choices": {
+      "A": "A system that automatically restarts crashed AI servers",
+      "B": "A structured framework for documenting and sharing cases where AI systems caused harm or behaved unexpectedly",
+      "C": "A tool for reporting bugs in AI source code",
+      "D": "A police reporting system powered by AI"
+    },
+    "answer": "B",
+    "explanation": "AI incident reporting system คือ framework ที่ใช้บันทึกและแชร์กรณีที่ AI ก่อให้เกิดอันตรายหรือทำงานผิดคาด เช่น AI Incident Database (AIID) รวบรวม real-world AI failures เพื่อให้ community เรียนรู้จากความผิดพลาดและป้องกันไม่ให้เกิดซ้ำ"
+  },
+  {
+    "id": 6,
+    "question": "What is an 'AI liability framework'?",
+    "choices": {
+      "A": "A programming framework for building AI applications",
+      "B": "Legal structures that determine who is responsible when AI systems cause harm or make errors",
+      "C": "A financial framework for AI company valuations",
+      "D": "A technical standard for measuring AI model size"
+    },
+    "answer": "B",
+    "explanation": "AI liability framework คือโครงสร้างทางกฎหมายที่กำหนดว่าใครต้องรับผิดชอบเมื่อ AI ก่อให้เกิดความเสียหาย อาจเป็น developer, deployer, หรือ user ยังเป็นประเด็นที่ถกเถียงกันอยู่ เช่น EU AI Liability Directive พยายามจัดการเรื่องนี้"
+  },
+  {
+    "id": 7,
+    "question": "What is 'AI insurance'?",
+    "choices": {
+      "A": "Insurance that protects AI models from being stolen",
+      "B": "Insurance products designed to cover financial losses and liabilities arising from AI system failures or harmful outputs",
+      "C": "A backup system for AI training data",
+      "D": "An AI system used by insurance companies for pricing"
+    },
+    "answer": "B",
+    "explanation": "AI insurance คือผลิตภัณฑ์ประกันภัยที่ออกแบบมาเพื่อคุ้มครองความเสียหายทางการเงินจากความล้มเหลวของ AI เช่น ถ้า AI ให้คำแนะนำผิดพลาดแล้วเกิดความเสียหาย เป็น market ที่กำลังเติบโตตามการใช้ AI ที่แพร่หลายมากขึ้น"
+  },
+  {
+    "id": 8,
+    "question": "What are 'algorithmic auditing tools'?",
+    "choices": {
+      "A": "Tools that audit the financial records of AI companies",
+      "B": "Software tools that systematically examine AI systems for bias, fairness, transparency, and compliance",
+      "C": "Audio recording tools for AI meetings",
+      "D": "Tools used to count the number of algorithms in a codebase"
+    },
+    "answer": "B",
+    "explanation": "Algorithmic auditing tools คือ software ที่ตรวจสอบ AI systems อย่างเป็นระบบในเรื่อง bias, fairness, transparency และ compliance ตัวอย่างเช่น IBM AI Fairness 360, Google What-If Tool ช่วยให้องค์กรมั่นใจว่า AI ทำงานอย่างเป็นธรรม"
+  },
+  {
+    "id": 9,
+    "question": "What are 'bias bounties' in the context of AI?",
+    "choices": {
+      "A": "Financial rewards given to AI models that show the least bias",
+      "B": "Programs that reward people for discovering and reporting biased behaviors in AI systems",
+      "C": "Penalties imposed on companies with biased AI",
+      "D": "Bonuses for data labelers who identify biased training data"
+    },
+    "answer": "B",
+    "explanation": "Bias bounties คือ program ที่ให้รางวัลคนที่ค้นพบและ report bias ใน AI systems คล้ายกับ bug bounty แต่เน้นเรื่อง bias โดยเฉพาะ เช่น Twitter (X) เคยจัด bias bounty challenge ให้คนมาหา bias ใน image cropping algorithm ของตน"
+  },
+  {
+    "id": 10,
+    "question": "What does 'demographic parity' mean as an AI fairness metric?",
+    "choices": {
+      "A": "All demographic groups must use AI equally",
+      "B": "The proportion of positive predictions should be roughly equal across different demographic groups",
+      "C": "AI must be trained with equal amounts of data from each demographic",
+      "D": "AI companies must hire equally from all demographics"
+    },
+    "answer": "B",
+    "explanation": "Demographic parity (หรือ statistical parity) คือ fairness metric ที่วัดว่าสัดส่วนของ positive predictions ควรเท่ากันทุก demographic group เช่น ถ้า approve loan 60% ของกลุ่ม A ก็ควร approve 60% ของกลุ่ม B ด้วย แต่ metric นี้ก็มีข้อจำกัดเพราะไม่ได้ดู accuracy"
+  },
+  {
+    "id": 11,
+    "question": "What does 'equalized odds' measure in AI fairness?",
+    "choices": {
+      "A": "Whether all users have equal access to the AI system",
+      "B": "Whether the true positive rate and false positive rate are equal across different demographic groups",
+      "C": "Whether the AI model gives equal weight to all input features",
+      "D": "Whether the training data has equal representation of all classes"
+    },
+    "answer": "B",
+    "explanation": "Equalized odds วัดว่า true positive rate (sensitivity) และ false positive rate เท่ากันข้ามทุก demographic groups หรือไม่ เช่น ถ้า model detect โรคได้ถูกต้อง 90% ในกลุ่มหนึ่ง ก็ควรถูก 90% ในกลุ่มอื่นด้วย เป็น metric ที่ strict กว่า demographic parity"
+  },
+  {
+    "id": 12,
+    "question": "What is 'counterfactual fairness' in AI?",
+    "choices": {
+      "A": "An AI system that only processes factual information",
+      "B": "A fairness criterion where an AI decision would remain the same if a person's protected attribute (like race or gender) were different, all else being equal",
+      "C": "A method for counting the number of fair decisions an AI makes",
+      "D": "An AI that can predict alternative outcomes in historical events"
+    },
+    "answer": "B",
+    "explanation": "Counterfactual fairness คือหลักการที่ว่า AI decision ควรเหมือนเดิม ถ้าเปลี่ยนแค่ protected attribute (เช่น เพศ หรือ เชื้อชาติ) แต่ทุกอย่างอื่นเหมือนเดิม เช่น คำตัดสินเรื่องสินเชื่อไม่ควรเปลี่ยนแค่เพราะเปลี่ยนเพศของผู้สมัคร เป็น causal-based fairness definition"
+  },
+  {
+    "id": 13,
+    "question": "What is 'intersectional bias' in AI systems?",
+    "choices": {
+      "A": "Bias that occurs at traffic intersections in self-driving cars",
+      "B": "Bias that disproportionately affects individuals who belong to multiple marginalized groups simultaneously",
+      "C": "The intersection of two different AI models creating bias",
+      "D": "Bias in AI systems used in the transportation sector"
+    },
+    "answer": "B",
+    "explanation": "Intersectional bias คือ bias ที่กระทบคนที่อยู่ใน marginalized groups หลายกลุ่มพร้อมกัน เช่น ผู้หญิงผิวดำอาจเจอ bias ที่รุนแรงกว่าผู้หญิงผิวขาวหรือผู้ชายผิวดำ เพราะ intersection ของทั้งเพศและเชื้อชาติ งานวิจัยของ Buolamwini เรื่อง facial recognition เป็นตัวอย่างคลาสสิก"
+  },
+  {
+    "id": 14,
+    "question": "What is 'proxy discrimination' in AI?",
+    "choices": {
+      "A": "When an AI system uses a proxy server to discriminate users",
+      "B": "When an AI system uses seemingly neutral features that are highly correlated with protected attributes, resulting in indirect discrimination",
+      "C": "When a proxy company operates AI on behalf of another",
+      "D": "When AI discriminates between different internet proxy services"
+    },
+    "answer": "B",
+    "explanation": "Proxy discrimination เกิดเมื่อ AI ใช้ feature ที่ดูเป็นกลาง แต่จริงๆ มี correlation สูงกับ protected attributes เช่น ใช้ zip code แทน race หรือใช้ชื่อแทน ethnicity ทำให้เกิดการเลือกปฏิบัติทางอ้อมแม้จะไม่ได้ใช้ protected attribute โดยตรง"
+  },
+  {
+    "id": 15,
+    "question": "What does 'disparate impact' mean in the context of AI systems?",
+    "choices": {
+      "A": "When different AI models produce different results",
+      "B": "When a seemingly neutral AI policy or practice disproportionately harms a protected group, even without discriminatory intent",
+      "C": "When AI has varying performance across different hardware",
+      "D": "When AI impacts different industries in different ways"
+    },
+    "answer": "B",
+    "explanation": "Disparate impact คือเมื่อ AI policy หรือ practice ที่ดูเป็นกลาง แต่ส่งผลกระทบต่อ protected group มากกว่าอย่างไม่สมส่วน แม้ไม่ได้ตั้งใจ เช่น hiring algorithm ที่ filter ตาม college rank อาจกระทบกลุ่มที่เข้าถึงการศึกษาน้อยกว่า มีมาตรฐาน 80% rule ใช้วัด"
+  },
+  {
+    "id": 16,
+    "question": "How can AI systems impact disability rights?",
+    "choices": {
+      "A": "AI has no impact on disability rights",
+      "B": "AI can both improve accessibility (e.g., screen readers, captioning) and create new barriers (e.g., inaccessible interfaces, biased decisions against disabled individuals)",
+      "C": "AI only helps people with disabilities and never creates barriers",
+      "D": "AI systems are not used by people with disabilities"
+    },
+    "answer": "B",
+    "explanation": "AI ส่งผลทั้งด้านดีและไม่ดีต่อคนพิการ ด้านดีเช่น screen readers, auto-captioning, sign language recognition แต่ก็สร้าง barriers ใหม่ได้ เช่น CAPTCHA ที่คนตาบอดใช้ไม่ได้ หรือ hiring AI ที่ penalize คนที่พูดไม่คล่องเพราะ disability"
+  },
+  {
+    "id": 17,
+    "question": "What does 'neurodiversity' mean in the context of AI development?",
+    "choices": {
+      "A": "Using diverse neural network architectures",
+      "B": "Recognizing and accommodating the natural variation in human brain functioning (e.g., ADHD, autism, dyslexia) when designing AI systems",
+      "C": "Training AI on data from multiple different brain scans",
+      "D": "Creating AI that mimics different types of animal brains"
+    },
+    "answer": "B",
+    "explanation": "Neurodiversity ในบริบท AI development หมายถึงการ recognize และ accommodate ความหลากหลายของการทำงานของสมอง เช่น ADHD, autism, dyslexia ตอนออกแบบ AI systems เช่น interface ที่ไม่ overwhelming, ให้ customize ได้ และไม่ assume ว่าทุกคนประมวลผลข้อมูลเหมือนกัน"
+  },
+  {
+    "id": 18,
+    "question": "What is WCAG in relation to AI accessibility?",
+    "choices": {
+      "A": "Web Content Accessibility Guidelines — standards that AI-powered web applications should follow to be accessible to people with disabilities",
+      "B": "World Computing and AI Group — an international AI governance body",
+      "C": "Wireless Connection for AI GPUs — a networking protocol",
+      "D": "Wide Coverage AI Generation — a text generation standard"
+    },
+    "answer": "A",
+    "explanation": "WCAG (Web Content Accessibility Guidelines) คือมาตรฐาน accessibility ที่ AI-powered web apps ควรทำตาม เพื่อให้คนพิการใช้งานได้ ครอบคลุมเรื่อง perceivable, operable, understandable, robust AI features ต่างๆ ต้อง comply กับ WCAG ด้วยไม่ใช่แค่ UI ทั่วไป"
+  },
+  {
+    "id": 19,
+    "question": "What is 'universal design' for AI?",
+    "choices": {
+      "A": "Designing one universal AI model that works for all tasks",
+      "B": "Designing AI systems to be usable by the widest possible range of people without needing special adaptations",
+      "C": "Using a universal programming language for all AI development",
+      "D": "Creating AI with a universally appealing visual design"
+    },
+    "answer": "B",
+    "explanation": "Universal design for AI คือหลักการออกแบบ AI systems ให้คนหลากหลายกลุ่มใช้งานได้มากที่สุดโดยไม่ต้อง adapt พิเศษ เช่น multimodal input/output, ปรับ pace ได้, รองรับ assistive technologies ไม่ใช่แค่ทำ accessible version แยก แต่ design ให้ inclusive ตั้งแต่แรก"
+  },
+  {
+    "id": 20,
+    "question": "What are 'AI localization challenges'?",
+    "choices": {
+      "A": "Difficulty finding the physical location of AI servers",
+      "B": "Challenges in adapting AI systems for different languages, cultures, legal systems, and regional contexts worldwide",
+      "C": "Problems with GPS accuracy in AI-powered maps",
+      "D": "Challenges in keeping AI models stored locally instead of in the cloud"
+    },
+    "answer": "B",
+    "explanation": "AI localization challenges คือความท้าทายในการปรับ AI ให้เหมาะกับภาษา วัฒนธรรม กฎหมาย และบริบทของแต่ละภูมิภาค เช่น NLP models ที่ทำงานดีกับภาษาอังกฤษแต่แย่กับภาษาไทย, cultural norms ที่ต่างกัน, หรือกฎหมายข้อมูลส่วนบุคคลที่ต่างกันในแต่ละประเทศ"
+  }
+]
